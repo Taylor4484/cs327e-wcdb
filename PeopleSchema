@@ -1,0 +1,239 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="WorldCrises">
+        <xs:element name="People">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="Person">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="Name">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element type="xs:string" name="First"/>
+                                            <xs:element type="xs:string" name="Middle" minOccurs="0" maxOccurs="1"/>
+                                            <xs:element type="xs:string" name="Last"/>
+                                            <xs:element type="xs:string" name="Abr" minOccurs="0" maxOccurs="1"/>
+                                        </xs:sequence>
+                                        <xs:attribute type="xs:string" name="pID"/>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element type="xs:string" name="Kind" minOccurs="0"/>
+                                <xs:attribute type="xs:string" name="keyIdent"/>
+                                <xsd:key name="KindKey">
+                                    
+                                    <xsd:selector xpath="Kind" />
+                                    <xsd:field xpath="@Ident" />
+                                </xsd:key>
+                                <xsd:keyref name="KindKeyRef" refer="KindKey">
+                                    <xsd:selector xpath="WorldCrises/Crises/Crisis/Kind" />
+                                    <xsd:field xpath="@authIdent" />
+                                </xsd:keyref>
+                                
+                                <xsd:keyref name="KindKeyRef" refer="KindKey">
+                                    <xsd:selector xpath="WorldCrises/Organizations/Organization/Kind" />
+                                    <xsd:field xpath="@authIdent" />
+                                </xsd:keyref>
+                                
+                                <xsd:keyref name="KindKeyRef" refer="KindKey">
+                                    <xsd:selector xpath="WorldCrises/People/Person/Kind" />
+                                    <xsd:field xpath="@authIdent" />
+                                </xsd:keyref>
+                                
+                                <xs:element name="Location">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element type="xs:string" name="Street1" minOccurs="0"/>
+                                            <xs:element type="xs:string" name="Street2" minOccurs="0"/>
+                                            <xs:element type="xs:string" name="City"/>
+                                            <xs:element type="xs:string" name="State"/>
+                                            <xs:element type="xs:string" name="Country"/>
+                                            <xs:element type="xs:string" name="PostalCode" minOccurs="0"/>
+                                        </xs:sequence>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="History">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element type="xs:string" name="Start"/>
+                                            <xs:element type="xs:string" name="End" minOccurs="0" maxOccurs="1"/>
+                                            <xs:element type="xs:string" name="Desc" minOccurs="0"/>
+                                        </xs:sequence>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="ContactInfo">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element type="xs:string" name="ExternalLinkURL" minOccurs="0"/>
+                                            <xs:element type="xs:string" name="Telephone" minOccurs="0"/>
+                                            <xs:element type="xs:string" name="Fax" minOccurs="0"/>
+                                            <xs:element type="xs:string" name="Email" minOccurs="0"/>
+                                        </xs:sequence>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="Citations">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element type="xs:string" name="Citation"/>
+                                        </xs:sequence>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="Image" minOccurs = >
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element type="xs:string" name="URL"/>
+                                            <xs:element type="xs:string" name="Title"/>
+                                        </xs:sequence>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="Video">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element type="xs:string" name="URL"/>
+                                            <xs:element type="xs:string" name="Title"/>
+                                        </xs:sequence>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element type="xs:string" name="Map"/>
+                                <xs:element name="Social"  minOccurs="0" maxOccurs="unbounded">
+                                    <xs:complexType>
+                                        <xs:simpleContent>
+                                            <xs:extension base="xs:string">
+                                                <xs:attribute type="xs:string" name="type" use="optional"/>
+                                            </xs:extension>
+                                        </xs:simpleContent>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="Crisis">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name="Crisis">
+                                                <xs:complexType>
+                                                    <xs:simpleContent>
+                                                        <xs:extension base="xs:string">
+                                                            <xs:attribute type="xs:string" name="cID" use="required"/>
+                                                        </xs:extension>
+                                                    </xs:simpleContent>
+                                                </xs:complexType>
+                                            </xs:element>
+                                        </xs:sequence>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="Organizations">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name="Organization">
+                                                <xs:complexType>
+                                                    <xs:simpleContent>
+                                                        <xs:extension base="xs:string">
+                                                            <xs:attribute type="xs:string" name="nID" use="optional"/>
+                                                        </xs:extension>
+                                                    </xs:simpleContent>
+                                                </xs:complexType>
+                                            </xs:element>
+                                        </xs:sequence>
+                                    </xs:complexType>
+                                </xs:element>
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:element>
+    </xs:schema>
+    
+    
+    
+    
+    
+    
+    
+    
+    // EXAMPLE XML 
+    
+    
+    
+    <WorldCrises>
+        <Organizations> OR <Crises> OR <People>
+            <Organization> OR <Crisis> OR <Person>
+                <Name ID ="">
+                    <First>  ""</First>
+                    <Middle> ""</Middle>
+                    <Last>   ""</Last>
+                    <Abr>    ""</Abr>
+                </Name>
+                
+                <Kinds keyIdent=""> "" </Kinds>  
+                
+                <Location>
+                    <Street1>    ""    </>
+                    <Street2>    ""    </>
+                    <City>       ""         </>
+                    <State>      ""         </>
+                    <Country>    ""     </>
+                    <PostalCode> ""       </>
+                </Location>
+                
+                <History>
+                    <FoundingDate> ""</FD>
+                    <FoundingLocation> "" </FL>
+                    <Founder> "" <Founder>
+                    </History>
+                        
+                        <DateAndTime>
+                            <StartDate> ""  </SD> 
+                            <EndDate>   ""  </ED>
+                        </DateAndTime>
+                        
+                        <HumanImpact> "" </HI>
+                        
+                        <EconomicImpact> "" </EI>
+                        
+                        <ResourcesNeeded> "" </RN>
+                        
+                        <WaysToHelp> "" </W2H>
+                        
+                        <ContactInfo>
+                            <ExternalLink URL = "" />       
+                            <Telephone>"" </T>            
+                            <Fax>      "" </F>               
+                            <email>    "" </e>            
+                            <ContactInfo>
+                                
+                                <Citations>
+                                    <Citation> "" </Citation>       
+                                </Citations>
+                                
+                                <Image>
+                                    <URL>      "" </URL>
+                                    <Title>    "" </T>
+                                </Image>
+                                
+                                <Video>
+                                    <URL>   ""   </URL>
+                                    <Title> "" </T>
+                                </Video>
+                                
+                                <Map>
+                                    <URL> ""  </URL>
+                                </Map>
+                                
+                                <SocialNetwork  type= "FB"”> (URL) </Social>
+                                <SocialNetwork  type= "G+"> (URL) </Social>
+                                <SocialNetwork  type= "Twitter"> _@_ </Social>
+                                
+                                <Kind Ident="C">Civilian</Kind>
+                                <Kind Ident="M">Military</Kind>
+                                <Kind Ident="L">Leader</Kind>
+                                <Kind Ident="NP">Non-profit</Kind>
+                                <Kind Ident="ND">Natural Disaster</Kind>
+                                <Kind Ident="ID">Infectious Disease</Kind>
+                                <Kind Ident="CW">Civil War</Kind>
+                                
+                                <Crisis        ID = "___"   >
+                                    
+                                    <Organization ID = "___"   >
+                                        
+                                        <People  ID = "___">
+                                            <Organization> OR <Crisis> OR <Person>
+                                                <Organizations> OR <Crises> OR <People>
+                                                </World Crises>
