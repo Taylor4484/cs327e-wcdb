@@ -1,0 +1,201 @@
+<WorldCrises>
+    <Crises>
+        <Crisis>
+            <Name ID= "CM1962">
+                <First> "Cuban Missile Crisis" </First>
+            </Name>
+
+            <Kind keyIdent = "PC"> "Political Confrontation" </Kind>
+
+            <Location>
+                <Country> "Cuba" </Country>
+            </Location>
+
+            <DateAndTime>
+                <StartDate> "16-10-1962" </StartDate>
+            </DateAndTime>
+
+            <HumanImpact> "Instilled fear among nations and signed treaties to prevent any countries from sharing nuclear technology. " </HumanImpact>
+
+            <EconomicImpact> "Economic sanctions imposed on Cuba" </EconomicImpact>
+
+            <ContactInfo>
+                    <ExternalLink URL = "http://www.crisisgroup.org/en/regions/middle-east-north-africa/egypt-syria-lebanon/syria.aspx">
+            </ContactInfo>
+
+            <Image>
+                <URL> "http://upload.wikimedia.org/wikipedia/commons/0/0e/U2_Image_of_Cuban_Missile_Crisis.jpg" </URL>
+                <Title> "U2 image of Cuban Missile Crisis"</Title>
+            </Image>
+
+            <Video>
+                <URL> "http://www.nbcnews.com/video/nightly-news/49510565#49510565" </URL>
+                <Title> "50th anniversary of Cuban Missile Crisis" </Title>
+            </Video>
+
+            <Map>
+                <URL> "http://maps.google.com/maps?q=cuban%20missile%20crisis&oe=utf-8&client=firefox-a&hl=en&um=1&ie=UTF-8&sa=N&tab=wl" </URL>
+            </Map>
+
+            <People ID = "FC1926" > 
+            <People ID ="JK917" >
+            <Organization ID ="WB1945" >
+      </Crisis>
+
+      <Crisis>
+            <Name ID= "HK2005">
+                <First> "Hurricane Katrina" </First>
+            </Name>
+
+            <Kind keyIdent = "ND"> "Natural Disaster" </Kind>
+
+            <Location>
+                <Country> "New Orleans" </Country>
+            </Location>
+
+            <DateAndTime>
+                <StartDate> "23-08-2005" </StartDate>
+            </DateAndTime>
+
+            <HumanImpact> "1833 casualties and many injured" </HumanImpact>
+
+            <EconomicImpact> "108 billion USD in repairs" </EconomicImpact>
+
+            <ContactInfo>
+                    <ExternalLink URL = "http://www.ncdc.noaa.gov/special-reports/katrina.html">
+            </ContactInfo>
+
+            <Image>
+                <URL> "http://www.ncdc.noaa.gov/special-reports/katrina.html" </URL>
+                <Title> "Hurricane Katrina at peak strength on August 28, 2005"</Title>
+            </Image>
+
+            <Video>
+                <URL> "http://www.nasa.gov/mission_pages/hurricanes/features/katrina-retrospective.html " </URL>
+                <Title> "Hurricane Katrina: A Nasa video Retrospective" </Title>
+            </Video>
+
+            <Map>
+                <URL> "http://maps.google.com/maps?q=hurricane%20katrina%20map&oe=utf-8&rls=org.mozilla:en-US:official&client=firefox-a&um=1&ie=UTF-8&hl=en&sa=N&tab=wl " </URL>
+            </Map>
+
+            <People ID = "BO1960" > 
+            <People ID ="GB1946" >
+            <Organization ID ="DB1971" >
+        </Crisis>
+    </Crises>
+
+
+    <Organizations>
+  	    <Organization>
+            <Name  ID= "DB1971">
+				        <First> "Doctors without Borders" </First>
+			      </Name>
+
+			      <Kind keyIdent = "HO">  "Humanitarian Organization" </Kind>  
+
+			      <Location>
+                <Street1> "Doctors Without Borders" </Street1>
+               	<Street2> "333 7th Avenue" </Street2>
+               	<City> "New York, NY" </City>
+             	  <Country> "USA" </Country>
+               	<PostalCode> "10001" </PostalCode>
+			      </Location>
+
+			      <History>
+        		    <FoundingDate> "December 20, 1971"   </FoundingDate>
+                <FoundingLocation> "France"</FoundingLocation>
+				        <Founder> "Bernard Koucher" </Founder>
+			      </History>
+
+			      <DateAndTime>
+               	<StartDate> "20-12-1971"  </StartDate>     
+			      </DateAndTime>
+
+			      <ContactInfo>
+        		    <ExternalLink URL= "http://www.doctorswithoutborders.org/" />        
+		            <Telephone> "212-679-7016" </Telephone>
+			          <Fax> "212-679-7016"</Fax>
+        		    <email> "info@doctorswithoutborders.org" </email>  
+			      </ContactInfo>
+
+			      <Image>
+                <URL> "http://upload.wikimedia.org/wikipedia/en/4/4e/Msf_logo.png”   </URL>
+               <Title>"Logo"</Title>
+			      </Image>
+
+			      <Video>
+		            <URL>"http://www.doctorswithoutborders.org/news/article.cfm?id=6644&cat=video&ref=footer-features"</URL>
+                <Title> "Bringing Much-Needed Medical Care to Timbuktu, Mali" </Title>
+			      </Video>
+
+			      <Map>
+		 	          <URL>  "http://maps.google.com/maps?q=doctors%20without%20borders&oe=utf-8&client=firefox-a&hl=en&um=1&ie=UTF-8&sa=N&tab=wl" </URL>
+			      </Map>
+
+			      <SocialNetwork type= "FB"> "https://www.facebook.com/msf.english" </Social>
+			      <SocialNetwork type= "Twitter"> "@Docotrsw/oBorders" </Social>
+
+			      <Crisis   ID = "HK2005">
+            <Crisis   ID = "AI1970">
+            <Crisis   ID = "SY2011">
+            <Crisis   ID = "VW1955">
+        </Organization>
+
+        <Organization>
+            <Name  ID= "WB1945">
+				        <First> "World Bank Group" </First>
+			      </Name>
+
+			      <Kind keyIdent = "IO">  "International Organization" </Kind>  
+
+			      <Location>
+                <Street1> "The World Bank" </Street1>
+               	<Street2> "1818 H Street, N.W." </Street2>
+               	<City> "Washington D.C." </City>
+             	  <Country> "USA" </Country>
+               	<PostalCode> "20433" </PostalCode>
+			      </Location>
+
+			      <History>
+        		    <FoundingDate> "September 20,1970"   </FoundingDate>
+                <FoundingLocation> "Washington D.C."</FoundingLocation>
+				        <Founder> "William O. Kirker, Barbara Kirker, and C. Payne Lucas" </Founder>
+			      </History>
+
+			      <DateAndTime>
+               	<StartDate> "20-09-1970"  </StartDate>     
+			      </DateAndTime>
+
+			      <ContactInfo>
+        		    <ExternalLink URL= "www.worldbank.org" />        
+		            <Telephone> "202-473-1000" </Telephone>
+			          <Fax> "202-477-6391"</Fax>
+        		    <email> "info@worldbank.org" </email>  
+			      </ContactInfo>
+
+			      <Image>
+                <URL> "http://upload.wikimedia.org/wikipedia/en/b/bd/World_Bank_Logo.svg" </URL>
+               	<Title>"Logo"</Title>
+			      </Image>
+
+			      <Video>
+		            <URL>"http://web.worldbank.org/WBSITE/EXTERNAL/EXTABOUTUS/PARTNERS/EXTDEVDIALOGUE/0,,contentMDK:22256131~pagePK:64192523~piPK:64192458~theSitePK:537298,00.html"</URL>
+                <Title> "Videos - July 2009" </Title>
+			      </Video>
+
+			       <Map>
+		 	          <URL>  "http://maps.google.com/maps?oe=utf-8&rls=org.mozilla:en-US:official&client=firefox-a&um=1&ie=UTF-8&q=world+bank+group&fb=1&gl=us&hq=world+bank+group&cid=0,0,8939642998394814149&sa=X&ei=_W03UZDWGsrX2QWFrYC4Ag&ved=0CBkQtgMwAA" </URL>
+			       </Map>
+
+			       <SocialNetwork type= "FB"> "https://www.facebook.com/worldbank" </Social>
+			       <SocialNetwork type= "Twitter"> "@WorldBank" </Social>
+
+             <Crisis   ID = "AI1970" >
+             <Crisis   ID = "VW1955" >
+             
+        
+        </Organization>
+    </Organizations>
+
+</WorldCrises>
