@@ -40,6 +40,7 @@
             <People ID = "FC1926" > 
             <People ID ="JK917" >
             <Organization ID ="WB1945" >
+	    <Organization ID ="CG1790">
       </Crisis>
 
       <Crisis>
@@ -83,6 +84,7 @@
             <People ID ="GB1946" >
             <Organization ID ="DB1971" >
 	    <Organization ID ="AR1881" >
+	    <Organization ID ="CG1790">
         </Crisis>
     </Crises>
 
