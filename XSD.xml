@@ -109,7 +109,29 @@
 				<xsd:complexType name="pIDType">
 					<xsd:attribute name="pID" type="xsd:string" use="required" />
 				</xsd:complexType>
-					
+
+	<!-- 		
+		All IDs are in the form of:
+		
+		[Capital Letter][Capital Letter][#][#][#][#]
+		First Two Letters of Significant Name (ignore articles)
+		If one word, use first two letters of word
+		4 Numbers represent a year
+		If no year, use zeros
+		
+		EX:
+		
+		Holocaust 1930 becomes, HO1930
+		National Free Trade Agreement (NAFTA) 1994 becomes, NF1994
+	-->
+
+
+	<xsd:simpleType name="idType">
+	    <xsd:restriction base="xsd:string">
+	      <xsd:pattern value="[A-Z][A-Z][0-9][0-9][0-9][0-9]"/>
+	    </xsd:restriction>
+    </xsd:simpleType>
+			    					
 	<!-- Common Types be repeated-->
 	
 	
@@ -119,6 +141,9 @@
 		<xsd:sequence>	
 			<xsd:element name="Name" type="xsd:string"
 						minOccurs="1" maxOccurs="1">
+			</xsd:element>
+			<xsd:element name="Abbreviation" type="xsd:string"
+						minOccurs="0" maxOccurs="1">
 			</xsd:element>
 			<xsd:element name="Kind" type="xsd:string"
 						minOccurs="0" maxOccurs="unbounded">
@@ -139,22 +164,22 @@
 	
 	<xsd:complexType name="externalType">
 		<xsd:sequence>
-			<xsd:element name="Images" type="urlType"
+			<xsd:element name="Image" type="urlType"
 						minOccurs="0" maxOccurs="unbounded">
 
 			</xsd:element>
-			<xsd:element name="Videos" type="urlType"
+			<xsd:element name="Video" type="urlType"
 						minOccurs="0" maxOccurs="unbounded">
 
 			</xsd:element>
-			<xsd:element name="Maps" type="urlType"
+			<xsd:element name="Map" type="urlType"
 						minOccurs="0" maxOccurs="unbounded">
 
 			</xsd:element>
 			<xsd:element name="Social" type="socialType"
 						minOccurs="0" maxOccurs="unbounded">
 			</xsd:element>
-			<xsd:element name="Links" type="urlType"
+			<xsd:element name="Link" type="urlType"
 						minOccurs="0" maxOccurs="unbounded">
 
 			</xsd:element>
@@ -165,19 +190,31 @@
 	</xsd:complexType>
 	
 	<!-- URL Type (url with title attribute) -->
-	
+
 	<xsd:complexType name="urlType">
-		<xsd:attribute name="title" type="xsd:string"/>
-		<xsd:restriction base="xsd:anyURI"/>
+		<xsd:simpleContent>
+			<xsd:extension base="uriType">
+				<xsd:attribute name="title" type="xsd:string" use="required"/>
+			</xsd:extension>
+		</xsd:simpleContent>
 	</xsd:complexType>
-	
+
+	<xsd:simpleType name="uriType">
+		<xsd:restriction base="xsd:anyURI"/>
+	</xsd:simpleType>
+  
+
 	<!-- Social Type (urls for FB, G+, TW, Other)-->
 	
-	<xsd:complexType name="socialType">
-		<xsd:attribute name="network" type="restrictionType"/>	
-		<xsd:restriction base="xsd:anyURI"/>
-	</xsd:complexType>
-	
+<xsd:complexType name="socialType">
+		<xsd:simpleContent>
+			<xsd:extension base="uriType">
+				<xsd:attribute name="network" type="restrictionType"/>	
+			</xsd:extension>
+		</xsd:simpleContent>
+</xsd:complexType>
+				
+			    
 		<xsd:simpleType name="restrictionType">
 	        <xsd:restriction base="xsd:string">
 	            <xsd:enumeration value="Facebook"/>
@@ -266,10 +303,13 @@
 	
 	
 	<xsd:complexType name="cType">
-		<xsd:attribute name="cID" type="xsd:string" use="required" value="[A-Z][A-Z][0-9][0-9][0-9][0-9]"/>
+
 		<xsd:sequence>
 			
-			<xsd:element name="info" type="infoType"
+			<xsd:element name="Info" type="infoType"
+							minOccurs="1" maxOccurs="1">
+			</xsd:element>
+			<xsd:element name="History" type="xsd:string"
 							minOccurs="1" maxOccurs="1">
 			</xsd:element>
 			<xsd:element name="HumanImpact" type="xsd:string"
@@ -297,6 +337,7 @@
 			</xsd:element>
 			
 		</xsd:sequence>
+		<xsd:attribute name="cID" type="idType" use="required" />
 	</xsd:complexType>
 	
 	
@@ -304,9 +345,8 @@
 
 	
 	<xsd:complexType name="oType">
-		<xsd:attribute name="oID" type="xsd:string" use="required" value="[A-Z][A-Z][0-9][0-9][0-9][0-9]"/>
 		<xsd:sequence>
-			<xsd:element name="info" type="infoType"
+			<xsd:element name="Info" type="infoType"
 							minOccurs="1" maxOccurs="1">
 			</xsd:element>
 			<xsd:element name="History" type="xsd:string"
@@ -325,25 +365,26 @@
 			</xsd:element>
 			<xsd:element name="People" type="peopleType"
 						minOccurs="1" maxOccurs="1">
-			</xsd:element>
-			
+			</xsd:element>			
 			
 		</xsd:sequence>
+		<xsd:attribute name="oID" type="idType" use="required"/>
 
 	</xsd:complexType>
 	
+
 	
 	<!-- Person Type-->
 	
 	
 	<xsd:complexType name="pType">
-		<xsd:attribute name="pID" type="xsd:string" use="required" value="[A-Z][A-Z][0-9][0-9][0-9][0-9]"/>
+
 		<xsd:sequence>
-			<xsd:element name="info" type="infoType"
+			<xsd:element name="Info" type="infoType"
 							minOccurs="1" maxOccurs="1">
 			</xsd:element>
 			<xsd:element name="History" type="xsd:string"
-							minOccurs="1" maxOccurs="1">
+							minOccurs="0" maxOccurs="1">
 			</xsd:element>
 			<xsd:element name="ContactInfo" type="contactType"
 							minOccurs="1" maxOccurs="1">
@@ -361,7 +402,8 @@
 			</xsd:element>
 			
 		</xsd:sequence>
-	</xsd:complexType>
+		<xsd:attribute name="pID" type="idType" use="required"/>
+		</xsd:complexType>
 	
 	
 </xsd:schema>
