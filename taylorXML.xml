@@ -1,9 +1,59 @@
 <?xml version="1.0" ?>
 <WorldCrisesDatabase>
-	
-	<Crisis cID="CC####">
+
+	<Crisis cID="HT1900">
 		<Info>
-			<Name>REQUIRED string</Name>
+			<Name>Human Trafficking</Name>
+			<Abbreviation>OPTIONAL string</Abbreviation>
+			<!-- Repeate Kind element as many times as needed-->
+			<Kind>OPTIONAL string</Kind>
+			<Description>REQUIRED string</Description>
+			<Location>
+				<AddressLine>Optional string</AddressLine>
+				<AddressLine>Optional string </AddressLine>
+				<AddressLine>Optional string</AddressLine>
+				<City>OPTIONAL string</City>
+				<State>OPTIONAL string</State>
+				<Country>REQUIRED string</Country>
+				<Postal>OPTIONAL string</Postal>
+			</Location>
+			<Date>
+				<StartDate>REQUIRED YYYY-MM-DD</StartDate>
+				<StartTime>OPTIONAL hh:mm:ss</StartTime>
+				<EndDate>OPTIONAL YYYY-MM-DD</EndDate>
+				<EndTime>OPTIONAL hh:mm:s</EndTime>
+			</Date>
+		</Info>
+		<History>Optional string</History>
+		<HumanImpact>REQUIRED string</HumanImpact>
+		<EconomicImpact>REQUIRED string</EconomicImpact>
+		<ResourcesNeeded>REQUIRED string</ResourcesNeeded>
+		<WaysToHelp>REQUIRED string</WaysToHelp>
+		<External>
+			<!-- Repeate any External sub-element as needed-->
+			<Image title="Required String">VALID URL</Image>
+			<Video title="Required String">VALID URL</Image>
+			<Map title="Required String">VALID URL</Image>
+			<Social network="Choose: Facebook,Google+,Twitter,Other">VALID URL</Social>
+			<Link title="Required String">VALID URL</Image>
+			<Citation>Optional String</Citation>
+		</External>
+		
+		<Organizations>
+			<!-- Repeate Organization up to 10 times -->
+			<Organization>Required oID</Organization>
+		</Organizations>
+		
+		<People>
+			<!-- Repeate Person up to 10 times -->
+			<Person>Required pID</Person>
+		</People>
+		
+	</Crisis>
+
+	<Crisis cID="HO1930">
+		<Info>
+			<Name>Holocaust</Name>
 			<Abbreviation>OPTIONAL string</Abbreviation>
 			<!-- Repeate Kind element as many times as needed-->
 			<Kind>OPTIONAL string</Kind>
@@ -51,12 +101,10 @@
 		
 	</Crisis>
 	
-	<!-- ALL THE OTHER CRISES -->
-	
-	<Organization oID="CC####">
+	<Organization oID="NA1949">
 		<Info>
 			<Name>REQUIRED string</Name>
-			<Abbreviation>OPTIONAL string</Abbreviation>
+			<Abbreviation>NATO</Abbreviation>
 			<!-- Repeate Kind element as many times as needed-->
 			<Kind>OPTIONAL string</Kind>
 			<Description>REQUIRED string</Description>
@@ -105,11 +153,61 @@
 		
 	</Organization>
 	
-	<!-- ALL  THE OTHER ORGANIZATIONS-->
-	
-	<Person pID="CC####">
+	<Organization oID="WH1948">
 		<Info>
-			<Name>REQUIRED string</Name>
+			<Name>World Health Organization</Name>
+			<Abbreviation>WHO</Abbreviation>
+			<!-- Repeate Kind element as many times as needed-->
+			<Kind>OPTIONAL string</Kind>
+			<Description>REQUIRED string</Description>
+			<Location>
+				<AddressLine>Optional string</AddressLine>
+				<AddressLine>Optional string </AddressLine>
+				<AddressLine>Optional string</AddressLine>
+				<City>OPTIONAL string</City>
+				<State>OPTIONAL string</State>
+				<Country>REQUIRED string</Country>
+				<Postal>OPTIONAL string</Postal>
+			</Location>
+			<Date>
+				<StartDate>REQUIRED YYYY-MM-DD</StartDate>
+				<StartTime>OPTIONAL hh:mm:ss</StartTime>
+				<EndDate>OPTIONAL YYYY-MM-DD</EndDate>
+				<EndTime>OPTIONA hh:mm:s</EndTime>
+			</Date>
+		</Info>
+		<History>REQUIRED string</History>
+		<ContactInfo>
+			<!-- all Contactinfo sub-elements occur 1 time and are optional-->
+			<Website>VAILD URL</Website>
+			<Telephone>STRING</Telephone>
+			<Fax>STRING</Fax>
+			<Email>STRING</Email>
+		</ContactInfo>
+		<External>
+			<!-- Repeate any External sub-element as needed-->
+			<Image title="Required String">VALID URL</Image>
+			<Video title="Required String">VALID URL</Image>
+			<Map title="Required String">VALID URL</Image>
+			<Social network="Choose: Facebook,Google+,Twitter,Other">VALID URL</Social>
+			<Link title="Required String">VALID URL</Image>
+			<Citation>Optional String</Citation>
+		</External>
+		
+		<Crises>
+			<!-- Repeate Crisis up to 10 times -->
+			<Crisis>Required cID</Crisis>
+		</Crises>		
+		<People>
+			<!-- Repeate Person up to 10 times -->
+			<Person>Required pID</Person>
+		</People>
+		
+	</Organization>
+	
+	<Person pID="NM1918">
+		<Info>
+			<Name>Nelson Mandela</Name>
 			<Abbreviation>OPTIONAL string</Abbreviation>
 			<!-- Repeate Kind element as many times as needed-->
 			<Kind>OPTIONAL string</Kind>
