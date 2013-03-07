@@ -4,23 +4,14 @@
 	<Crisis cID="EV2010">
 		<Info>
 			<Name>2010 eruptions of Eyjafjallajokull</Name>
-			<Abbreviation></Abbreviation>
 			<Kind>Natural disaster</Kind>
 			<Description>The 2010 eruption of Eyjafjallajökull were volcanic events at Eyjafjallajökull in Iceland which, although relatively small for volcanic eruptions, caused enormous disruption to air travel across western and northern Europe over an initial period of six days in April 2010.</Description>
 			<Location>
-				<AddressLine></AddressLine>
-				<AddressLine></AddressLine>
-				<AddressLine></AddressLine>
-				<City></City>
-				<State></State>
 				<Country>Iceland</Country>
-				<Postal></Postal>
 			</Location>
 			<Date>
 				<StartDate>2010-03-20</StartDate>
-				<StartTime></StartTime>
 				<EndDate>2010-06-23</EndDate>
-				<EndTime></EndTime>
 			</Date>
 		</Info>
 		<History>Beginning on 14 April 2010, the eruption entered a second phase and created an ash cloud that led to the closure of most of the European IFR airspace from 15 until 20 April 2010. Consequently, a very high proportion of flights within, to, and from Europe were cancelled, creating the highest level of air travel disruption since the Second World War.In October 2010, Ármann Höskuldsson, a scientist at the University of Iceland Institute of Earth Sciences, stated that the eruption was officially over, although the area was still geothermally active and might erupt again.</History>
@@ -35,39 +26,20 @@ some effects on the farming industry in Iceland.</EconomicImpact>
 			<Image title="Overhead view of eruption">http://eoimages.gsfc.nasa.gov/images/imagerecords/43000/43252/fimmvorduhals_ali_2010083.jpg</Image>
 			<Video title="Footage of the eruption">http://www.youtube.com/watch?v=tGPD_0SCDp4</Video>
 			<Map title="Map of the ash cloud">http://upload.wikimedia.org/wikipedia/commons/b/b1/Eyjafjallaj%C3%B6kull_volcanic_ash_composite.png</Map>
-			<Social network=""></Social>
-			<Link title=""></Link>
-			<Citation></Citation>
 		</External>
-
-		<Organizations>
-		</Organizations>
-
-		<People>
-		</People>
-
 	</Crisis>
 
 	<Crisis cID="ER2011">
 		<Info>
 			<Name>2011 Egyptian Revolution</Name>
-			<Abbreviation></Abbreviation>
 			<Kind>Revolution</Kind>
 			<Description>The Egyptian Revolution of 2011 took place following a popular uprising that began on 25 January 2011. It was mainly a campaign of non-violent civil resistance, which featured a series of demonstrations, marches, acts of civil disobedience and labor strikes. </Description>
 			<Location>
-				<AddressLine></AddressLine>
-				<AddressLine></AddressLine>
-				<AddressLine></AddressLine>
-				<City></City>
-				<State></State>
 				<Country>Egypt</Country>
-				<Postal></Postal>
 			</Location>
 			<Date>
 				<StartDate>2011-01-25</StartDate>
-				<StartTime></StartTime>
 				<EndDate>2011-02-11</EndDate>
-				<EndTime></EndTime>
 			</Date>
 		</Info>
 		<History>Millions of protesters from a variety of socio-economic and religious backgrounds demanded the overthrow of the regime of Egyptian President Hosni Mubarak. Grievances of Egyptian protesters were focused on legal and political issues including police brutality, state of emergency laws, lack of free elections and freedom of speech, corruption, and economic issues including high unemployment, food price inflation and low wages. The primary demands from protesters were the end of the Hosni Mubarak regime, the end of emergency law, freedom, justice, a responsive non-military government and a say in the management of Egypt's resources. On 11 February 2011, Vice President Omar Suleiman announced that Mubarak would be stepping down as president and turning power over to the Supreme Council of the Armed Forces (SCAF) and Mubarak resigned from office.</History>
@@ -84,16 +56,11 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
 			<Map title="Map of Egypt">https://maps.google.com/maps?q=egypt&hl=en&sll=38.864527,-77.013525&sspn=0.007201,0.007081&t=h&hnear=Egypt&z=6</Map>
 			<Social network="Twitter">https://www.twitter.com/ikhwanweb</Social>
 			<Link title="Egypt's revolution, economic doom?">http://www.periscopepost.com/2011/01/egypts-revolution-economic-doom/</Link>
-			<Citation></Citation>
 		</External>
 
 		<Organizations>
 			<Organization oID="AI1961" />
 		</Organizations>
-
-		<People>
-		</People>
-
 	</Crisis>
 
 
@@ -106,18 +73,11 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
 			<Description>Amnesty International is a global movement of more than 3 million supporters, members and activists in over 150 countries and territories who campaign to end grave abuses of human rights.</Description>
 			<Location>
 				<AddressLine>1 Easton Street</AddressLine>
-				<AddressLine></AddressLine>
-				<AddressLine></AddressLine>
 				<City>London</City>
-				<State></State>
 				<Country>UK</Country>
-				<Postal></Postal>
 			</Location>
 			<Date>
 				<StartDate>1961-07-00</StartDate>
-				<StartTime></StartTime>
-				<EndDate></EndDate>
-				<EndTime></EndTime>
 			</Date>
 		</Info>
 		<History>Amnesty International was founded in London in July 1961 by English labour lawyer Peter Benenson. By the mid-1960s Amnesty International's global presence was growing and an International Secretariat and International Executive Committee were established to manage Amnesty International's national organisations, called 'Sections', which had appeared in several countries.</History>
@@ -125,15 +85,11 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
 			<Website>https://www.amnesty.org</Website>
 			<Telephone>+44-20-74135500</Telephone>
 			<Fax>+44-20-79561157</Fax>
-			<Email></Email>
 		</ContactInfo>
 		<External>
 			<Image title="Amnesty International Logo">http://upload.wikimedia.org/wikipedia/en/e/ee/Amnesty_International_logo.svg</Image>
-			<Video title=""></Video>
 			<Map title="Amnesty International Map">https://maps.google.com/maps?q=1+Easton+Street,+London,+UK&hl=en&sll=51.525921,-0.110971&sspn=0.011508,0.014162&oq=1+Easton+STreet,+London,+UK&t=h&hnear=1+Easton+St,+London+Borough+of+Islington,+London+WC1X,+United+Kingdom&z=16&iwloc=A</Map>
 			<Social network="Twitter">https://www.twitter.com/amnestyonline</Social>
-			<Link title=""></Link>
-			<Citation></Citation>
 		</External>
 
 
@@ -143,9 +99,6 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
 			<Crisis cID="HT1900" />
 			<Crisis cID="SY2011" />
 		</Crises>	
-
-		<People>
-		</People>
 
 	</Organization>
 	
@@ -157,8 +110,6 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
 			<Description>The U.S. Coast Guard is one of the five armed forces of the United States and the only military organization within the Department of Homeland Security. Since 1790 the Coast Guard has safeguarded our Nation's maritime interests and environment around the world. The Coast Guard is an adaptable, responsive military force of maritime professionals whose broad legal authorities, capable assets, geographic diversity and expansive partnerships provide a persistent presence along our rivers, in the ports, littoral regions and on the high seas. Coast Guard presence and impact is local, regional, national and international. These attributes make the Coast Guard a unique instrument of maritime safety, security and environmental stewardship.</Description>
 			<Location>
 				<AddressLine>2100 2nd St SW #7102</AddressLine>
-				<AddressLine></AddressLine>
-				<AddressLine></AddressLine>
 				<City>Washington</City>
 				<State>DC</State>
 				<Country>USA</Country>
@@ -166,17 +117,11 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
 			</Location>
 			<Date>
 				<StartDate>1790-00-00</StartDate>
-				<StartTime></StartTime>
-				<EndDate></EndDate>
-				<EndTime></EndTime>
 			</Date>
 		</Info>
 		<History>The roots of the Coast Guard lie in the United States Revenue Cutter Service established by Alexander Hamilton under the Department of the Treasury on 4 August 1790. The first Coast Guard station was in Newburyport, Massachusetts. Until the re-establishment of the United States Navy in 1798, the Revenue Cutter Service was the only naval force of the early United States. It was established to collect taxes from a brand new nation of patriot smugglers. When the officers were out at sea, they were told to crack down on piracy; while they were at it, they might as well rescue anyone in distress.</History>
 		<ContactInfo>
 			<Website>https://www.uscg.mil</Website>
-			<Telephone></Telephone>
-			<Fax></Fax>
-			<Email></Email>
 		</ContactInfo>
 		<External>
 			<Image title="Coast Guard seal">http://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/US-CoastGuard-Seal.svg/210px-US-CoastGuard-Seal.svg.png</Image>
@@ -184,18 +129,11 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
 			<Map title="Map of Coast Guard Office">https://maps.google.com/maps?q=2100+2nd+Street,+Washington,+DC+20593&hl=en&sll=51.525921,-0.110971&sspn=0.000719,0.000885&t=h&hnear=2100+2nd+St+SW,+Washington,+District+of+Columbia+20593&z=17</Map>
 			<Social network="Twitter">https://twitter.com/USCG</Social>
 			<Social network="Facebook">https://www.facebook.com/UScoastguard</Social>
-			<Link title=""></Link>
-			<Citation></Citation>
 		</External>
-
 
 		<Crises>
 			<Crisis cID="HK2005" />
 		</Crises>	
-
-		<People>
-		</People>
-
 	</Organization>
 
 
