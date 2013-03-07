@@ -1,9 +1,68 @@
 <?xml version="1.0" ?>
 <WorldCrisesDatabase>
-	
-	<Crisis cID="CC####">
+
+	<Crisis cID="HT1900">
 		<Info>
-			<Name>REQUIRED string</Name>
+			<Name>Human Trafficking</Name>
+			<!-- <Abbreviation>OPTIONAL string</Abbreviation> -->
+
+			<!-- Repeate Kind element as many times as needed-->
+			<Kind>Global Issue</Kind>
+			<Kind>Sexual Slavery</Kind>
+			<Kind>Forced Labor</Kind>
+			
+			<Description>Article 3, paragraph (a) of the Protocol to Prevent, Suppress and Punish Trafficking in Persons defines Trafficking in Persons as the recruitment, transportation, transfer, harbouring or receipt of persons, by means of the threat or use of force or other forms of coercion, of abduction, of fraud, of deception, of the abuse of power or of a position of vulnerability or of the giving or receiving of payments or benefits to achieve the consent of a person having control over another person, for the purpose of exploitation. Exploitation shall include, at a minimum, the exploitation of the prostitution of others or other forms of sexual exploitation, forced labour or services, slavery or practices similar to slavery, servitude or the removal of organs</Description>
+			
+			<Location>
+				<Country>Global</Country>
+				<!-- <AddressLine>Optional string</AddressLine>
+				<AddressLine>Optional string </AddressLine>
+				<AddressLine>Optional string</AddressLine>
+				<City>OPTIONAL string</City>
+				<State>OPTIONAL string</State>
+				<Postal>OPTIONAL string</Postal> -->
+			</Location>
+			
+			<Date>
+				<StartDate>Ongoing, as early as Ancient Rome</StartDate>
+				<!-- <StartTime>OPTIONAL hh:mm:ss</StartTime>
+				<EndDate>OPTIONAL YYYY-MM-DD</EndDate>
+				<EndTime>OPTIONAL hh:mm:s</EndTime>-->
+			</Date>
+			
+		</Info>
+		<History>International pressure to address trafficking in women and children became a growing part of the social Reform movement in the United States and Europe during the late 19th century. International legislation against the trafficking of women and children began with the ratification of an international convention in 1901, followed by ratification of a second convention in 1904. These conventions were ratified by 34 countries. The first formal international research into the scope of the problem was funded by American philanthropist John D. Rockefeller, through the American Bureau of Social Hygiene. In 1923, a committee from the bureau was tasked with investigating trafficking in 28 countries, interviewing approximately 5,000 informants and analyzing information over two years before issuing its final report. This was the first formal report on trafficking in women and children to be issued by an official body.</History>
+		
+		<HumanImpact>The UN crime-fighting office announced that 2.4 million people across the globe are victims of human trafficking at any one time, and 80 percent of them are being exploited as sexual slaves.</HumanImpact>
+		
+		<EconomicImpact>Trafficking is a lucrative industry. It is second only to drug trafficking as the most profitable illegal industry in the world. In 2004, the total annual revenue for trafficking in persons were estimated to be between USD$5 billion and $9 billion.In 2005, Patrick Belser of ILO estimated a global annual profit of $31.6 billion. In 2008, the United Nations estimated nearly 2.5 million people from 127 different countries are being trafficked into 137 countries around the world.</EconomicImpact>
+		<ResourcesNeeded>Laws, Enforcement, Donations</ResourcesNeeded>
+		<WaysToHelp>Awareness-raising, Donations to Organizations & Campaigns, Lobbying</WaysToHelp>
+		<External>
+			<!-- Repeate any External sub-element as needed-->
+			<Image title="Stop Human Trafficking">http://www.blackandmissinginc.com/wordpress/wp-content/uploads/2012/01/stop-human-trafficking1.jpg</Image>
+			<Video title="WE ARE NOT FOR SALE">http://vimeo.com/58972870</Image>
+			<Map title="A Global Display Of Human Trafficking Incidents And News">http://human.globalincidentmap.com/</Image>
+			<Social network="Facebook">http://www.facebook.com/humantraffickingL</Social>
+			<Link title="Required String">http://www.humantrafficking.org/</Image>
+			<!-- <Citation>Optional String</Citation> -->
+		</External>
+		
+		<Organizations>
+			<!-- Repeate Organization up to 10 times -->
+			<Organization>Required oID</Organization>
+		</Organizations>
+		
+		<People>
+			<!-- Repeate Person up to 10 times -->
+			<Person>Required pID</Person>
+		</People>
+		
+	</Crisis>
+
+	<Crisis cID="HO1930">
+		<Info>
+			<Name>Holocaust</Name>
 			<Abbreviation>OPTIONAL string</Abbreviation>
 			<!-- Repeate Kind element as many times as needed-->
 			<Kind>OPTIONAL string</Kind>
@@ -32,31 +91,29 @@
 		<External>
 			<!-- Repeate any External sub-element as needed-->
 			<Image title="Required String">VALID URL</Image>
-			<Video title="Required String">VALID URL</Image>
-			<Map title="Required String">VALID URL</Image>
+			<Video title="Required String">VALID URL</Video>
+			<Map title="Required String">VALID URL</Map>
 			<Social network="Choose: Facebook,Google+,Twitter,Other">VALID URL</Social>
-			<Link title="Required String">VALID URL</Image>
+			<Link title="Required String">VALID URL</Link>
 			<Citation>Optional String</Citation>
 		</External>
 		
 		<Organizations>
 			<!-- Repeate Organization up to 10 times -->
-			<Organization>Required oID</Organization>
+			<Organization oID="OID" />
 		</Organizations>
 		
 		<People>
 			<!-- Repeate Person up to 10 times -->
-			<Person>Required pID</Person>
+			<Person pID="PID" />
 		</People>
 		
 	</Crisis>
 	
-	<!-- ALL THE OTHER CRISES -->
-	
-	<Organization oID="CC####">
+	<Organization oID="NA1949">
 		<Info>
 			<Name>REQUIRED string</Name>
-			<Abbreviation>OPTIONAL string</Abbreviation>
+			<Abbreviation>NATO</Abbreviation>
 			<!-- Repeate Kind element as many times as needed-->
 			<Kind>OPTIONAL string</Kind>
 			<Description>REQUIRED string</Description>
@@ -96,20 +153,72 @@
 		
 		<Crises>
 			<!-- Repeate Crisis up to 10 times -->
-			<Crisis>Required cID</Crisis>
-		</Crises>		
+			<Crisis cID="CID" />
+		</Crises>	
+		
 		<People>
 			<!-- Repeate Person up to 10 times -->
-			<Person>Required pID</Person>
+			<Person pID="PID" />
 		</People>
 		
 	</Organization>
 	
-	<!-- ALL  THE OTHER ORGANIZATIONS-->
-	
-	<Person pID="CC####">
+	<Organization oID="WH1948">
 		<Info>
-			<Name>REQUIRED string</Name>
+			<Name>World Health Organization</Name>
+			<Abbreviation>WHO</Abbreviation>
+			<!-- Repeate Kind element as many times as needed-->
+			<Kind>OPTIONAL string</Kind>
+			<Description>REQUIRED string</Description>
+			<Location>
+				<AddressLine>Optional string</AddressLine>
+				<AddressLine>Optional string </AddressLine>
+				<AddressLine>Optional string</AddressLine>
+				<City>OPTIONAL string</City>
+				<State>OPTIONAL string</State>
+				<Country>REQUIRED string</Country>
+				<Postal>OPTIONAL string</Postal>
+			</Location>
+			<Date>
+				<StartDate>REQUIRED YYYY-MM-DD</StartDate>
+				<StartTime>OPTIONAL hh:mm:ss</StartTime>
+				<EndDate>OPTIONAL YYYY-MM-DD</EndDate>
+				<EndTime>OPTIONA hh:mm:s</EndTime>
+			</Date>
+		</Info>
+		<History>REQUIRED string</History>
+		<ContactInfo>
+			<!-- all Contactinfo sub-elements occur 1 time and are optional-->
+			<Website>VAILD URL</Website>
+			<Telephone>STRING</Telephone>
+			<Fax>STRING</Fax>
+			<Email>STRING</Email>
+		</ContactInfo>
+		<External>
+			<!-- Repeate any External sub-element as needed-->
+			<Image title="Required String">VALID URL</Image>
+			<Video title="Required String">VALID URL</Video>
+			<Map title="Required String">VALID URL</Map>
+			<Social network="Choose: Facebook,Google+,Twitter,Other">VALID URL</Social>
+			<Link title="Required String">VALID URL</Link>
+			<Citation>Optional String</Citation>
+		</External>
+		
+		<Crises>
+			<!-- Repeate Crisis up to 10 times -->
+			<Crisis cID="CID" />
+		</Crises>	
+		
+		<People>
+			<!-- Repeate Person up to 10 times -->
+			<Person pID="PID" />
+		</People>
+		
+	</Organization>
+	
+	<Person pID="NM1918">
+		<Info>
+			<Name>Nelson Mandela</Name>
 			<Abbreviation>OPTIONAL string</Abbreviation>
 			<!-- Repeate Kind element as many times as needed-->
 			<Kind>OPTIONAL string</Kind>
@@ -141,21 +250,21 @@
 		<External>
 			<!-- Repeate any External sub-element as needed-->
 			<Image title="Required String">VALID URL</Image>
-			<Video title="Required String">VALID URL</Image>
-			<Map title="Required String">VALID URL</Image>
+			<Video title="Required String">VALID URL</Video>
+			<Map title="Required String">VALID URL</Map>
 			<Social network="Choose: Facebook,Google+,Twitter,Other">VALID URL</Social>
-			<Link title="Required String">VALID URL</Image>
+			<Link title="Required String">VALID URL</Link>
 			<Citation>Optional String</Citation>
 		</External>
 		
 		<Organizations>
 			<!-- Repeate Organization up to 10 times -->
-			<Organization>Required oID</Organization>
-		</Organizations>		
+			<Organization oID="OID" />
+		</Organizations>
 		
 		<Crises>
 			<!-- Repeate Crisis up to 10 times -->
-			<Crisis>Required cID</Crisis>
+			<Crisis cID="CID" />
 		</Crises>		
 
 	</Person>

@@ -183,7 +183,7 @@
 						minOccurs="0" maxOccurs="unbounded">
 
 			</xsd:element>
-			<xsd:element name="Citations" type="xsd:string" 
+			<xsd:element name="Citation" type="xsd:string" 
 				minOccurs="0" maxOccurs="unbounded">
 			</xsd:element>
 		</xsd:sequence>
@@ -262,14 +262,9 @@
 				
 	<xsd:complexType name="dateType">
 		<xsd:sequence>
-			<xsd:choice>
-				<xsd:element name="StartDate" type="xsd:date"
-							minOccurs="1" maxOccurs="1">
-				</xsd:element>
 				<xsd:element name="StartDate" type="xsd:string"
 							minOccurs="1" maxOccurs="1">
 				</xsd:element>
-			</xsd:choice>
 
 			<xsd:element name="StartTime" type="xsd:time"
 						minOccurs="0" maxOccurs="1">
