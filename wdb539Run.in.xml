@@ -1,0 +1,133 @@
+<WorldCrisesDatabase>
+  
+  <Crisis cID=”VW1955”>
+  	<Info>
+  		<Name>Vietnam War</Name>
+  		<Kind>Armed Conflict</Kind>
+  		<Description>War between South and North Vietnam for control of the country.</Description>
+  		<Location>
+  			<Country>Vietnam</Country>
+  		</Location>
+  		<Date>
+  			<StartDate>1955-11-01</StartDate>
+  			<EndDate>1975-04-30</EndDate>
+  		</Date>
+  	</Info>
+  	<History>The Vietnam War was a Cold War-era military conflict that occurred in Vietnam, Laos, and Cambodia from 1 November 1955 to the fall of Saigon on 30 April 1975. This war followed the First Indochina War and was fought between North Vietnam, supported by its communist allies, and the government of South Vietnam, supported by the United States and other anti-communist countries.</History>
+  	<HumanImpact>1,102,000–3,886,026 Deaths</HumanImpact>
+  	<EconomicImpact>N/A</EconomicImpact>
+  	<ResourcesNeeded>N/A</ResourcesNeeded>
+  	<WaysToHelp>N/A</WaysToHelp>
+  	<External>
+  		<Image title="Search and Destroy">http://www.us-history.com/wp-content/uploads/2012/03/us-history-vietnam-war.jpg</Image>
+  		<Map title="Vietnam">https://maps.google.com/maps?q=vietnam&hl=en&sll=14.058324,108.277199&sspn=21.073031,40.869141&hnear=Vietnam&t=m&z=5</Image>
+  		<Citation>http://en.wikipedia.org/wiki/Vietnam_war</Citation>
+  	</External>
+
+  	<People>
+  		<Person>JF1917</Person>
+  	</People>
+  			
+  </Crisis>
+  
+  <Crisis cID="MD2006">
+  	<Info>
+  		<Name>Mexican Drug War</Name>
+  		<Kind>Armed Conflict</Kind>
+  		<Description>An ongoing struggle between the Mexican Government and drug cartels over illegal substance smuggling and trade</Description>
+  		<Location>
+  			<Country>Mexico</Country>
+  		</Location>
+  		<Date>
+  			<StartDate>2006-12-11</StartDate>
+  		</Date>
+  	</Info>
+  	<History>The Mexican Drug War is an ongoing armed conflict between rival drug cartels fighting each other for regional control and against the Mexican government forces. The government's principal goal has been to put down the drug-related violence that was raging between different drug cartels before any military intervention was made.[32] In addition, the Mexican government has claimed that their primary focus is on dismantling the powerful drug cartels, rather than on drug trafficking prevention, which is left to U.S. functionaries.</History>
+  	<HumanImpact>60,000-100,000 Deaths(Estimate Varies)</HumanImpact>
+  	<EconomicImpact>N/A</EconomicImpact>
+  	<ResourcesNeeded>N/A</ResourcesNeeded>
+  	<WaysToHelp>N/A</WaysToHelp>
+  	<External>
+  		<Image title="Mexican Troop Standoff">http://upload.wikimedia.org/wikipedia/commons/6/6e/Fuerza_del_Estado_Michoac%C3%A1n.jpg</Image>
+  		<Map title="Mexico">https://maps.google.com/maps?q=mexico&hl=en&sll=14.058324,108.277199&sspn=21.073031,40.869141&hnear=Mexico&t=m&z=5</Image>
+  		<Citation>http://en.wikipedia.org/wiki/Mexican_drug_war</Citation>
+  	</External>
+  	
+  	<Organizations>
+  		<Organization>MG1810</Organization>
+  	</Organizations>
+  	
+  	<Crises>
+  		<Crisis>HT1900</Crisis>
+  	</Crises>
+  	
+  </Crisis>
+  
+  <Organization oID="AR1881">
+  	<Info>
+  		<Name>American Red Cross</Name>
+  		<Abbreviation>ARC</Abbreviation>
+  		<Kind>Non-Profit</Kind>
+  		<Description>Humanitarian relief and charity organization</Description>
+  		<Location>
+  			<AddressLine>2025 E Street</AddressLine>
+  			<City>Washington D.C.</City>
+  			<State>Virginia</State>
+  			<Country>USA</Country>
+  			<Postal>20006</Postal>
+  		</Location>
+  		<Date>
+  			<StartDate>1881-05-21</StartDate>
+  		</Date>
+  	</Info>
+  	<History>The American Red Cross (ARC), also known as the American National Red Cross, is a humanitarian organization that provides emergency assistance, disaster relief and education inside the United States. It is the designated U.S. affiliate of the International Federation of Red Cross and Red Crescent Societies.</History>
+  	<ContactInfo>
+  		<Website>http://www.redcross.org/</Website>
+  		<Telephone>1-800-733-2767</Telephone>
+  	</ContactInfo>
+  	<External>
+  		<Image title="Logo">http://upload.wikimedia.org/wikipedia/commons/8/88/Americanredcross.jpg</Image>
+  		<Video title="2012 Year in Review">http://www.youtube.com/watch?v=ufRYD3vxcCA&feature=player_embedded</Image>
+  		<Map title="American Red Cross HQ">https://maps.google.com/maps?q=American+Red+Cross+National+Headquarters,+E+Street+Northwest,+Washington,+DC&hl=en&ll=38.897713,-77.040939&spn=0.132797,0.31929&sll=23.634501,-102.552784&sspn=19.922391,40.869141&oq=american+red+cross+national+headquarters&hq=American+Red+Cross+National+Headquarters,+E+Street+Northwest,+Washington,+DC&radius=15000&t=m&z=12</Image>
+  		<Social network="Facebook">https://www.facebook.com/redcross</Social>
+  		<Social network="Twitter">https://twitter.com/RedCross</Social>
+  		<Citation>http://en.wikipedia.org/wiki/American_Red_Cross</Citation>
+  	</External>
+  	
+  	<Crises>
+  		<Crisis>HK2005</Crisis>
+  		<Crisis>AI1970</Crisis>
+  	</Crises>		
+
+  	
+  </Organization>
+
+  <Organization oID="MG1810">
+  	<Info>
+  		<Name>Mexican Government</Name>
+  		<Kind>Government</Kind>
+  		<Description>A federal presidential representative democratic republic whose government is based on a congressional system</Description>
+  		<Location>
+  			<Country>Mexico</Country>
+  		</Location>
+  		<Date>
+  			<StartDate>1810-09-16</StartDate>
+  		</Date>
+  	</Info>
+  	<History>Mexico, officially the United Mexican States is a federal constitutional republic in North America. It is bordered on the north by the United States of America; on the south and west by the Pacific Ocean; on the southeast by Guatemala, Belize, and the Caribbean Sea; and on the east by the Gulf of Mexico.</History>
+  	<External>
+  		<Image title="Coat of Arms of Mexico">http://upload.wikimedia.org/wikipedia/commons/2/2a/Coat_of_arms_of_Mexico.svg</Image>
+  		<Image title="Mexican Flag">http://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg</Image>
+  		<Map title="Mexico">https://maps.google.com/maps?q=mexico&hl=en&sll=14.058324,108.277199&sspn=21.073031,40.869141&hnear=Mexico&t=m&z=5</Image>
+  		<Citation>http://en.wikipedia.org/wiki/Mexico</Citation>
+  	</External>
+  	
+  	<Crises>
+  		<Crisis>CM1962</Crisis>
+  		<Crisis>HT1900</Crisis>
+  		<Crisis>MD2006</Crisis>
+  	</Crises>		
+
+  </Organization>
+
+</WorldCrisesDatabase>
