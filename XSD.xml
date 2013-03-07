@@ -183,7 +183,7 @@
 						minOccurs="0" maxOccurs="unbounded">
 
 			</xsd:element>
-			<xsd:element name="Citations" type="xsd:string" 
+			<xsd:element name="Citation" type="xsd:string" 
 				minOccurs="0" maxOccurs="unbounded">
 			</xsd:element>
 		</xsd:sequence>

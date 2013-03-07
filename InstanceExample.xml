@@ -18,7 +18,7 @@
 				<Postal>OPTIONAL string</Postal>
 			</Location>
 			<Date>
-				<StartDate>REQUIRED YYYY-MM-DD</StartDate>
+				<StartDate>REQUIRED YYYY-MM-DD  can be string</StartDate>
 				<StartTime>OPTIONAL hh:mm:ss</StartTime>
 				<EndDate>OPTIONAL YYYY-MM-DD</EndDate>
 				<EndTime>OPTIONAL hh:mm:s</EndTime>
