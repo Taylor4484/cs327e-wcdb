@@ -6,7 +6,7 @@
 			<Name>Human Trafficking</Name>
 			<!-- <Abbreviation>OPTIONAL string</Abbreviation> -->
 
-			<!-- Repeate Kind element as many times as needed-->
+			<!-- Repeat Kind element as many times as needed-->
 			<Kind>Global Issue</Kind>
 			<Kind>Sexual Slavery</Kind>
 			<Kind>Forced Labor</Kind>
@@ -37,25 +37,28 @@
 		
 		<EconomicImpact>Trafficking is a lucrative industry. It is second only to drug trafficking as the most profitable illegal industry in the world. In 2004, the total annual revenue for trafficking in persons were estimated to be between USD$5 billion and $9 billion.In 2005, Patrick Belser of ILO estimated a global annual profit of $31.6 billion. In 2008, the United Nations estimated nearly 2.5 million people from 127 different countries are being trafficked into 137 countries around the world.</EconomicImpact>
 		<ResourcesNeeded>Laws, Enforcement, Donations</ResourcesNeeded>
-		<WaysToHelp>Awareness-raising, Donations to Organizations & Campaigns, Lobbying</WaysToHelp>
+		<WaysToHelp>Awareness-raising, Donations to Organizations and Campaigns, Lobbying</WaysToHelp>
 		<External>
-			<!-- Repeate any External sub-element as needed-->
+			<!-- Repeat any External sub-element as needed-->
 			<Image title="Stop Human Trafficking">http://www.blackandmissinginc.com/wordpress/wp-content/uploads/2012/01/stop-human-trafficking1.jpg</Image>
-			<Video title="WE ARE NOT FOR SALE">http://vimeo.com/58972870</Image>
-			<Map title="A Global Display Of Human Trafficking Incidents And News">http://human.globalincidentmap.com/</Image>
+			<Video title="WE ARE NOT FOR SALE">http://vimeo.com/58972870</Video>
+			<Map title="A Global Display Of Human Trafficking Incidents And News">http://human.globalincidentmap.com/</Map>
 			<Social network="Facebook">http://www.facebook.com/humantraffickingL</Social>
-			<Link title="Required String">http://www.humantrafficking.org/</Image>
+			<Link title="Required String">http://www.humantrafficking.org/</Link>
 			<!-- <Citation>Optional String</Citation> -->
 		</External>
 		
 		<Organizations>
-			<!-- Repeate Organization up to 10 times -->
-			<Organization>Required oID</Organization>
+			<!-- Repeat Organization up to 10 times -->
+			<Organization oID="WB1945" />
+			<Organization oID="WH1948" />
+			<Organization oID="NA1949" />
 		</Organizations>
 		
 		<People>
-			<!-- Repeate Person up to 10 times -->
-			<Person>Required pID</Person>
+			<!-- Repeat Person up to 10 times -->
+			<Person pID="BG1955" />
+			<Person pID="BO1961" />
 		</People>
 		
 	</Crisis>
@@ -63,102 +66,119 @@
 	<Crisis cID="HO1930">
 		<Info>
 			<Name>Holocaust</Name>
-			<Abbreviation>OPTIONAL string</Abbreviation>
-			<!-- Repeate Kind element as many times as needed-->
-			<Kind>OPTIONAL string</Kind>
-			<Description>REQUIRED string</Description>
+			<!--<Abbreviation>OPTIONAL string</Abbreviation> -->
+			<!-- Repeat Kind element as many times as needed-->
+			<Kind>Genocide</Kind>
+			<Kind>Mass Killing</Kind>
+			<Kind>World War II</Kind>
+			<Description>The Holocaust was the systematic, bureaucratic, state-sponsored persecution and murder of approximately six million Jews by the Nazi regime and its collaborators. "Holocaust" is a word of Greek origin meaning "sacrifice by fire." The Nazis, who came to power in Germany in January 1933, believed that Germans were "racially superior" and that the Jews, deemed "inferior," were an alien threat to the so-called German racial community.
+During the era of the Holocaust, German authorities also targeted other groups because of their perceived "racial inferiority": Roma (Gypsies), the disabled, and some of the Slavic peoples (Poles, Russians, and others). Other groups were persecuted on political, ideological, and behavioral grounds, among them Communists, Socialists, Jehovah's Witnesses, and homosexuals.</Description>
 			<Location>
-				<AddressLine>Optional string</AddressLine>
+				<!--<AddressLine>Optional string</AddressLine>
 				<AddressLine>Optional string </AddressLine>
 				<AddressLine>Optional string</AddressLine>
 				<City>OPTIONAL string</City>
 				<State>OPTIONAL string</State>
-				<Country>REQUIRED string</Country>
-				<Postal>OPTIONAL string</Postal>
+				<Postal>OPTIONAL string</Postal> -->
+				<Country>Germany</Country>
+
 			</Location>
 			<Date>
-				<StartDate>REQUIRED YYYY-MM-DD</StartDate>
-				<StartTime>OPTIONAL hh:mm:ss</StartTime>
-				<EndDate>OPTIONAL YYYY-MM-DD</EndDate>
-				<EndTime>OPTIONAL hh:mm:s</EndTime>
+				<StartDate>REQUIRED 1933-01-30</StartDate>
+				<!-- <StartTime>OPTIONAL hh:mm:ss</StartTime> -->
+				<EndDate>1945-05-08</EndDate>
+				<!-- <EndTime>OPTIONAL hh:mm:s</EndTime> -->
 			</Date>
 		</Info>
-		<History>Optional string</History>
-		<HumanImpact>REQUIRED string</HumanImpact>
-		<EconomicImpact>REQUIRED string</EconomicImpact>
-		<ResourcesNeeded>REQUIRED string</ResourcesNeeded>
-		<WaysToHelp>REQUIRED string</WaysToHelp>
+		<History>The Holocaust (also called Ha-Shoah in Hebrew) refers to the period from January 30, 1933 - when Adolf Hitler became chancellor of Germany - to May 8, 1945, when the war in Europe officially ended. During this time, Jews in Europe were subjected to progressively harsher persecution that ultimately led to the murder of 6,000,000 Jews (1.5 million of these being children) and the destruction of 5,000 Jewish communities. These deaths represented two-thirds of European Jewry and one-third of all world Jewry.</History>
+		<HumanImpact>Jews - 5.9 million, Soviet POWs - 2–3 million, Ethnic Poles - 1.8–2 million, Romani - 220,000–1,500,000, Disabled - 00,000–250,000, Freemasons - 80,000-200,000, Slovenes - 20,000–25,000, Homosexuals - 5,000–15,000, Jehovah's - Witnesses	2,500–5,000</HumanImpact>
+		<EconomicImpact>The Jewish population of the 11 districts studied declined on average by 39 percent between the 1939 and 1959 censuses. The average GDP of those regions in 2002 was some 23 percent lower than the average for Russia as a whole.</EconomicImpact>
+		<!-- <ResourcesNeeded>REQUIRED string</ResourcesNeeded>
+		<WaysToHelp>REQUIRED string</WaysToHelp> -->
 		<External>
-			<!-- Repeate any External sub-element as needed-->
-			<Image title="Required String">VALID URL</Image>
-			<Video title="Required String">VALID URL</Video>
-			<Map title="Required String">VALID URL</Map>
-			<Social network="Choose: Facebook,Google+,Twitter,Other">VALID URL</Social>
-			<Link title="Required String">VALID URL</Link>
-			<Citation>Optional String</Citation>
+			<!-- Repeat any External sub-element as needed-->
+			<Image title="Auschwitz-II (Birkenau), May/June 1944">http://upload.wikimedia.org/wikipedia/en/8/89/Selection_Birkenau_ramp.jpg</Image>
+			<Image title="Entrance to Auschwitz-Birkenau, 1945">http://upload.wikimedia.org/wikipedia/commons/6/6a/Bundesarchiv_Bild_175-04413%2C_KZ_Auschwitz%2C_Einfahrt.jpg</Image>
+			<Video title="Concentration Camp Liberation">http://www.history.com/topics/the-holocaust/videos#concentration-camp-liberation</Video>
+			<Map title="Holocaust Map">http://www.holocaustmap.com/site/map/</Map>
+			<!--<Social network="Choose: Facebook,Google+,Twitter,Other">VALID URL</Social>-->
+			<Link title="US Holocaust Memorial Museum">http://www.ushmm.org/wlc/en/article.php?ModuleId=10005143</Link>
+			<!-- <Citation>Optional String</Citation> -->
 		</External>
 		
 		<Organizations>
-			<!-- Repeate Organization up to 10 times -->
-			<Organization oID="OID" />
+			<!-- Repeat Organization up to 10 times -->
+			<Organization oID="AI1961" />
 		</Organizations>
 		
 		<People>
-			<!-- Repeate Person up to 10 times -->
-			<Person pID="PID" />
+			<!-- Repeat Person up to 10 times -->
+			<Person pID="AH1889" />
 		</People>
 		
 	</Crisis>
 	
 	<Organization oID="NA1949">
 		<Info>
-			<Name>REQUIRED string</Name>
+			<Name>The North Atlantic Treaty Organization</Name>
 			<Abbreviation>NATO</Abbreviation>
-			<!-- Repeate Kind element as many times as needed-->
-			<Kind>OPTIONAL string</Kind>
-			<Description>REQUIRED string</Description>
+			<!-- Repeat Kind element as many times as needed-->
+			<Kind>Military Alliance</Kind>
+			<Description>The North Atlantic Treaty Organization, also called the (North) Atlantic Alliance, is an intergovernmental military alliance based on the North Atlantic Treaty which was signed on 4 April 1949. The organization constitutes a system of collective defense whereby its member states agree to mutual defense in response to an attack by any external party. NATO's headquarters are in Brussels, Belgium, one of the 28 member states across North America and Europe, the newest of which, Albania and Croatia, joined in April 2009. An additional 22 countries participate in NATO's "Partnership for Peace", with 15 other countries involved in institutionalized dialogue programs. The combined military spending of all NATO members constitutes over 70% of the world's defense spending.</Description>
 			<Location>
+
+				<City>Brussels</City>
+				<Country>Belgium</Country>
+				<Postal>1110</Postal>
+				<!-- <AddressLine>Optional string </AddressLine>
 				<AddressLine>Optional string</AddressLine>
-				<AddressLine>Optional string </AddressLine>
-				<AddressLine>Optional string</AddressLine>
-				<City>OPTIONAL string</City>
 				<State>OPTIONAL string</State>
-				<Country>REQUIRED string</Country>
-				<Postal>OPTIONAL string</Postal>
+				<AddressLine>1110</AddressLine>
+				 -->
 			</Location>
 			<Date>
-				<StartDate>REQUIRED YYYY-MM-DD</StartDate>
-				<StartTime>OPTIONAL hh:mm:ss</StartTime>
+				<StartDate>1949-04-04</StartDate>
+				<!-- <StartTime>OPTIONAL hh:mm:ss</StartTime>
 				<EndDate>OPTIONAL YYYY-MM-DD</EndDate>
-				<EndTime>OPTIONA hh:mm:s</EndTime>
+				<EndTime>OPTIONA hh:mm:s</EndTime> -->
 			</Date>
 		</Info>
-		<History>REQUIRED string</History>
+		<History>For its first few years, NATO was not much more than a political association. However, the Korean War galvanized the member states, and an integrated military structure was built up under the direction of two US supreme commanders. The course of the Cold War led to a rivalry with nations of the Warsaw Pact, which formed in 1955. The first NATO Secretary General, Lord Ismay, stated in 1949 that the organization's goal was "to keep the Russians out, the Americans in, and the Germans down."[4] Doubts over the strength of the relationship between the European states and the United States ebbed and flowed, along with doubts over the credibility of the NATO defence against a prospective Soviet invasion—doubts that led to the development of the independent French nuclear deterrent and the withdrawal of the French from NATO's military structure in 1966.</History>
 		<ContactInfo>
 			<!-- all Contactinfo sub-elements occur 1 time and are optional-->
-			<Website>VAILD URL</Website>
-			<Telephone>STRING</Telephone>
+			<Website>http://www.nato.int/L</Website>
+			<!-- <Telephone>STRING</Telephone>
 			<Fax>STRING</Fax>
-			<Email>STRING</Email>
+			<Email>STRING</Email> -->
 		</ContactInfo>
 		<External>
-			<!-- Repeate any External sub-element as needed-->
-			<Image title="Required String">VALID URL</Image>
-			<Video title="Required String">VALID URL</Image>
-			<Map title="Required String">VALID URL</Image>
-			<Social network="Choose: Facebook,Google+,Twitter,Other">VALID URL</Social>
-			<Link title="Required String">VALID URL</Image>
-			<Citation>Optional String</Citation>
+			<!-- Repeat any External sub-element as needed-->
+			<!-- <Image title="Required String">VALID URL</Image>
+			<Video title="Required String">VALID URL</Image> -->
+			<Map title="History of NATO">http://en.wikipedia.org/wiki/File:History_of_NATO_enlargement.svg</Map>
+			<Map title="NATO Partnerships">http://en.wikipedia.org/wiki/File:NATO_partnerships.svg</Map>
+			
+			<Social network="Facebook">http://www.facebook.com/NATO?sid=0.2535960127133876</Social>
+			<Social network="Twitter">http://twitter.com/NATO</Social>
+			<Social network="Google+">http://www.nato.int/googleplus</Social>
+			
+			<!--<Link title="Required String">VALID URL</Image>
+			<Citation>Optional String</Citation> -->
 		</External>
 		
 		<Crises>
-			<!-- Repeate Crisis up to 10 times -->
-			<Crisis cID="CID" />
+			<!-- Repeat Crisis up to 10 times -->
+			<Crisis cID="ER2011" />
+			<Crisis cID="SY2011" />
 		</Crises>	
 		
 		<People>
-			<!-- Repeate Person up to 10 times -->
-			<Person pID="PID" />
+			<!-- Repeat Person up to 10 times -->
+			<Person pID="BO1961" />
+			<Person pID="GB1946" />
+			<Person pID="JK1917" />
+			<Person pID="NM1918" />
+			
 		</People>
 		
 	</Organization>
@@ -167,51 +187,58 @@
 		<Info>
 			<Name>World Health Organization</Name>
 			<Abbreviation>WHO</Abbreviation>
-			<!-- Repeate Kind element as many times as needed-->
-			<Kind>OPTIONAL string</Kind>
-			<Description>REQUIRED string</Description>
+			<!-- Repeat Kind element as many times as needed-->
+			<Kind>Public Health Advocate</Kind>
+			<Description>WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends.</Description>
 			<Location>
+				<AddressLine>Avenue Appia 20</AddressLine>
+				<City>Geneva</City>
+				<Country>Switzerland</Country>
+				<Postal>1211</Postal>
+				<!-- 				<AddressLine>Optional string </AddressLine>
 				<AddressLine>Optional string</AddressLine>
-				<AddressLine>Optional string </AddressLine>
-				<AddressLine>Optional string</AddressLine>
-				<City>OPTIONAL string</City>
-				<State>OPTIONAL string</State>
-				<Country>REQUIRED string</Country>
-				<Postal>OPTIONAL string</Postal>
+								<State>OPTIONAL string</State> -->
 			</Location>
 			<Date>
-				<StartDate>REQUIRED YYYY-MM-DD</StartDate>
-				<StartTime>OPTIONAL hh:mm:ss</StartTime>
+				<StartDate>1948-04-07</StartDate>
+				<!--<StartTime>OPTIONAL hh:mm:ss</StartTime>
 				<EndDate>OPTIONAL YYYY-MM-DD</EndDate>
-				<EndTime>OPTIONA hh:mm:s</EndTime>
+				<EndTime>OPTIONA hh:mm:s</EndTime>-->
 			</Date>
 		</Info>
-		<History>REQUIRED string</History>
+		<History>When diplomats met to form the United Nations in 1945, one of the things they discussed was setting up a global health organization.
+
+WHO’s Constitution came into force on 7 April 1948 – a date we now celebrate every year as World Health Day.</History>
 		<ContactInfo>
 			<!-- all Contactinfo sub-elements occur 1 time and are optional-->
-			<Website>VAILD URL</Website>
-			<Telephone>STRING</Telephone>
-			<Fax>STRING</Fax>
-			<Email>STRING</Email>
+			<Website>http://www.who.int/</Website>
+			<Telephone>+41 22 791 21 11 </Telephone>
+			<Fax>S+ 41 22 791 31 11</Fax>
+			<!--<Email>STRING</Email>-->
 		</ContactInfo>
 		<External>
-			<!-- Repeate any External sub-element as needed-->
-			<Image title="Required String">VALID URL</Image>
-			<Video title="Required String">VALID URL</Video>
-			<Map title="Required String">VALID URL</Map>
-			<Social network="Choose: Facebook,Google+,Twitter,Other">VALID URL</Social>
-			<Link title="Required String">VALID URL</Link>
-			<Citation>Optional String</Citation>
+			<!-- Repeat any External sub-element as needed-->
+			<Image title="WHO Logo">http://www.who.int/sysmedia/media/resources/who-logo-en.jpg</Image>
+			<!--<Video title="Required String">VALID URL</Video>-->
+			<Map title="WHO Location">https://maps.google.com/maps?q=Avenue+Appia+20+1211+Geneva,+Switzerland&ie=UTF-8&hq=&hnear=0x478c64f73e96c8cd:0xb9b86c30af2b2e28,Avenue+Appia+20,+CH-1202+Gen%C3%A8ve,+Switzerland&gl=us&ei=lfI3UZPCJ4TQ2QX95YGgBw&ved=0CDMQ8gEwAA</Map>
+			<Social network="Google+">https://plus.google.com/u/0/+who/posts</Social>
+			<Social network="Twitter">http://www.twitter.com/WHO</Social>
+			<Social network="Facebook">https://www.facebook.com/WorldHealthOrganization</Social>
+			<Social network="Youtube">http://www.youtube.com/who</Social>
+			
+			http://www.twitter.com/WHO
+			<!--<Link title="Required String">VALID URL</Link>
+			<Citation>Optional String</Citation>-->
 		</External>
 		
 		<Crises>
-			<!-- Repeate Crisis up to 10 times -->
-			<Crisis cID="CID" />
+			<!-- Repeat Crisis up to 10 times -->
+			<Crisis cID="AI1970" />
 		</Crises>	
 		
 		<People>
-			<!-- Repeate Person up to 10 times -->
-			<Person pID="PID" />
+			<!-- Repeat Person up to 10 times -->
+			<Person pID="BG1955" />
 		</People>
 		
 	</Organization>
@@ -220,51 +247,55 @@
 		<Info>
 			<Name>Nelson Mandela</Name>
 			<Abbreviation>OPTIONAL string</Abbreviation>
-			<!-- Repeate Kind element as many times as needed-->
-			<Kind>OPTIONAL string</Kind>
-			<Description>REQUIRED string</Description>
+			<!-- Repeat Kind element as many times as needed-->
+			<Kind>Civil Rights Activist</Kind>
+			<Kind>Global Leader</Kind>
+			<Description>Nelson Rolihlahla Mandela is a South African anti-apartheid activist, revolutionary and politician who served as President of South Africa from 1994 to 1999, the first to be elected in a fully representative, multiracial election</Description>
 			<Location>
-				<AddressLine>Optional string</AddressLine>
+				<!--<AddressLine>Optional string</AddressLine>
 				<AddressLine>Optional string </AddressLine>
 				<AddressLine>Optional string</AddressLine>
-				<City>OPTIONAL string</City>
-				<State>OPTIONAL string</State>
-				<Country>REQUIRED string</Country>
-				<Postal>OPTIONAL string</Postal>
+								<State>OPTIONAL string</State>
+				<Postal>OPTIONAL string</Postal>-->
+
+				<City>Transkei</City>
+				<Country>South Africa</Country>
 			</Location>
 			<Date>
-				<StartDate>REQUIRED YYYY-MM-DD</StartDate>
-				<StartTime>OPTIONAL hh:mm:ss</StartTime>
+				<StartDate>1918-07-18</StartDate>
+				<!--<StartTime>OPTIONAL hh:mm:ss</StartTime>
 				<EndDate>OPTIONAL YYYY-MM-DD</EndDate>
-				<EndTime>OPTIONA hh:mm:s</EndTime>
+				<EndTime>OPTIONA hh:mm:s</EndTime>-->
 			</Date>
 		</Info>
-		<History>Optional string</History>
+		<History>Nelson Mandela was born on July 18, 1918, in Transkei, South Africa. He became actively involved in the anti-apartheid movement and joined the African National Congress in 1942. For 20 years, he directed a campaign of peaceful, non-violent defiance against the South African government and its racist policies. In 1994, Mandela was inaugurated as the country's first black president. In 2009, Mandela's birthday, July 18, was designated as Mandela Day, an international celebration of his legacy and a day dedicated to promoting global peace.</History>
 		<ContactInfo>
 			<!-- all Contactinfo sub-elements occur 1 time and are optional-->
-			<Website>VAILD URL</Website>
-			<Telephone>STRING</Telephone>
+			<Website>http://www.nelsonmandela.org/</Website>
+			<!--<Telephone>STRING</Telephone>
 			<Fax>STRING</Fax>
-			<Email>STRING</Email>
+			<Email>STRING</Email>-->
 		</ContactInfo>
 		<External>
-			<!-- Repeate any External sub-element as needed-->
-			<Image title="Required String">VALID URL</Image>
-			<Video title="Required String">VALID URL</Video>
-			<Map title="Required String">VALID URL</Map>
-			<Social network="Choose: Facebook,Google+,Twitter,Other">VALID URL</Social>
-			<Link title="Required String">VALID URL</Link>
-			<Citation>Optional String</Citation>
+			<!-- Repeat any External sub-element as needed-->
+			<Image title="Mandela in 2008">http://upload.wikimedia.org/wikipedia/commons/1/14/Nelson_Mandela-2008_%28edit%29.jpg</Image>
+			<Video title="Nelson Mandela and South Africa">http://www.youtube.com/watch?feature=player_embedded&v=vuqJpnSO1jc</Video>
+			<!--<Map title="Required String">VALID URL</Map>-->
+			<Social network="Facebook">http://www.facebook.com/NelsonMandelaCentreOfMemory</Social>
+			<!--<Link title="Required String">VALID URL</Link>
+			<Citation>Optional String</Citation>-->
 		</External>
 		
 		<Organizations>
-			<!-- Repeate Organization up to 10 times -->
-			<Organization oID="OID" />
+			<!-- Repeat Organization up to 10 times -->
+			<Organization oID="AF1970" />
+			<Organization oID="WH1948" />
+			<Organization oID="AI1961" />
 		</Organizations>
 		
 		<Crises>
-			<!-- Repeate Crisis up to 10 times -->
-			<Crisis cID="CID" />
+			<!-- Repeat Crisis up to 10 times -->
+			<Crisis cID="AI1970" />
 		</Crises>		
 
 	</Person>

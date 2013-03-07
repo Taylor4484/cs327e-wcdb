@@ -5,7 +5,7 @@
 		<Info>
 			<Name>REQUIRED string</Name>
 			<Abbreviation>OPTIONAL string</Abbreviation>
-			<!-- Repeate Kind element as many times as needed-->
+			<!-- Repeat Kind element as many times as needed-->
 			<Kind>OPTIONAL string</Kind>
 			<Description>REQUIRED string</Description>
 			<Location>
@@ -30,7 +30,7 @@
 		<ResourcesNeeded>REQUIRED string</ResourcesNeeded>
 		<WaysToHelp>REQUIRED string</WaysToHelp>
 		<External>
-			<!-- Repeate any External sub-element as needed-->
+			<!-- Repeat any External sub-element as needed-->
 			<Image title="Required String">VALID URL</Image>
 			<Video title="Required String">VALID URL</Video>
 			<Map title="Required String">VALID URL</Map>
@@ -40,12 +40,12 @@
 		</External>
 		
 		<Organizations>
-			<!-- Repeate Organization up to 10 times -->
+			<!-- Repeat Organization up to 10 times -->
 			<Organization oID="OID" />
 		</Organizations>
 		
 		<People>
-			<!-- Repeate Person up to 10 times -->
+			<!-- Repeat Person up to 10 times -->
 			<Person pID="PID" />
 		</People>
 		
@@ -57,7 +57,7 @@
 		<Info>
 			<Name>REQUIRED string</Name>
 			<Abbreviation>OPTIONAL string</Abbreviation>
-			<!-- Repeate Kind element as many times as needed-->
+			<!-- Repeat Kind element as many times as needed-->
 			<Kind>OPTIONAL string</Kind>
 			<Description>REQUIRED string</Description>
 			<Location>
@@ -85,7 +85,7 @@
 			<Email>STRING</Email>
 		</ContactInfo>
 		<External>
-			<!-- Repeate any External sub-element as needed-->
+			<!-- Repeat any External sub-element as needed-->
 			<Image title="Required String">VALID URL</Image>
 			<Video title="Required String">VALID URL</Image>
 			<Map title="Required String">VALID URL</Image>
@@ -96,12 +96,12 @@
 		
 		
 		<Crises>
-			<!-- Repeate Crisis up to 10 times -->
+			<!-- Repeat Crisis up to 10 times -->
 			<Crisis cID="CID" />
 		</Crises>	
 		
 		<People>
-			<!-- Repeate Person up to 10 times -->
+			<!-- Repeat Person up to 10 times -->
 			<Person pID="PID" />
 		</People>
 		
@@ -113,7 +113,7 @@
 		<Info>
 			<Name>REQUIRED string</Name>
 			<Abbreviation>OPTIONAL string</Abbreviation>
-			<!-- Repeate Kind element as many times as needed-->
+			<!-- Repeat Kind element as many times as needed-->
 			<Kind>OPTIONAL string</Kind>
 			<Description>REQUIRED string</Description>
 			<Location>
@@ -141,7 +141,7 @@
 			<Email>STRING</Email>
 		</ContactInfo>
 		<External>
-			<!-- Repeate any External sub-element as needed-->
+			<!-- Repeat any External sub-element as needed-->
 			<Image title="Required String">VALID URL</Image>
 			<Video title="Required String">VALID URL</Image>
 			<Map title="Required String">VALID URL</Image>
@@ -154,12 +154,12 @@
 
 
 		<Organizations>
-			<!-- Repeate Organization up to 10 times -->
+			<!-- Repeat Organization up to 10 times -->
 			<Organization oID="OID" />
 		</Organizations>
 		
 		<Crises>
-			<!-- Repeate Crisis up to 10 times -->
+			<!-- Repeat Crisis up to 10 times -->
 			<Crisis cID="CID" />
 		</Crises>	
 
