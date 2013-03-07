@@ -1,204 +1,168 @@
-<WorldCrises>
-    <Crises>
-        <Crisis>
-            <Name ID= "CM1962">
-                <First> "Cuban Missile Crisis" </First>
-            </Name>
+<WorldCrisesDatabase>
 
-            <Kind keyIdent = "PC"> "Political Confrontation" </Kind>
+        <Crisis cID="CM1962">
+		<Info>
+                	<Name>Cuban Missile Crisis</Name>
 
-            <Location>
-                <Country> "Cuba" </Country>
-            </Location>
+            		<Kind>Political Confrontation</Kind>
+			<Description>Political confrontation and major part of the Cold War between the USA and Soviet Union.</Description>
+            		<Location>
+				<Country>Cuba</Country>
+            		</Location>
 
-            <DateAndTime>
-                <StartDate> "16-10-1962" </StartDate>
-            </DateAndTime>
+            		<Date>
+                		<StartDate>1962-10-16</StartDate>
+				<EndDate>1962-10-28<EndDate>
+            		</Date>
+		</Info>
+		<History>The Cuban missile crisis known as the October crisis in Cuba and the Caribbean crisis in the USSR was a 13-day confrontation between 
+		the Soviet Union and Cuba on one side and the USA on the other in October 1962.</History>
+           	<HumanImpact>Instilled fear among nations of imminent nuclear threat and signed treaties to prevent any countries from sharing nuclear technology. Only one casualty.</HumanImpact>
+	        <EconomicImpact>Economic sanctions imposed on Cuba.</EconomicImpact>
+		<ResourcesNeeded>Phone line communication between Moscow and Washington, D.C, and spy-planes.</ResourcesNeeded>
+		<WaysToHelp>Communication and agreement within nations.</WaysToHelp>
 
-            <HumanImpact> "Instilled fear among nations and signed treaties to prevent any countries from sharing nuclear technology. " </HumanImpact>
-
-            <EconomicImpact> "Economic sanctions imposed on Cuba" </EconomicImpact>
-
-            <ContactInfo>
-                    <ExternalLink URL = "http://www.crisisgroup.org/en/regions/middle-east-north-africa/egypt-syria-lebanon/syria.aspx">
-            </ContactInfo>
-
-            <Image>
-                <URL> "http://upload.wikimedia.org/wikipedia/commons/0/0e/U2_Image_of_Cuban_Missile_Crisis.jpg" </URL>
-                <Title> "U2 image of Cuban Missile Crisis"</Title>
-            </Image>
-
-            <Video>
-                <URL> "http://www.nbcnews.com/video/nightly-news/49510565#49510565" </URL>
-                <Title> "50th anniversary of Cuban Missile Crisis" </Title>
-            </Video>
-
-            <Map>
-                <URL> "http://maps.google.com/maps?q=cuban%20missile%20crisis&oe=utf-8&client=firefox-a&hl=en&um=1&ie=UTF-8&sa=N&tab=wl" </URL>
-            </Map>
-
-            <People ID = "FC1926" > 
-            <People ID ="JK917" >
-            <Organization ID ="WB1945" >
-	    <Organization ID ="CG1790">
+        	<External>  
+			<Image title="U2 photograph of Soviet nuclear missiles in Cuba">http://upload.wikimedia.org/wikipedia/commons/0/0e/U2_Image_of_Cuban_Missile_Crisis.jpg</Image>
+            		<Video title="50th anniversary of Cuban Missile Crisis">http://www.nbcnews.com/video/nightly-news/49510565#49510565</Video>
+                	<Map title="Cuba">http://maps.google.com/maps?q=cuban%20missile%20crisis&oe=utf-8&client=firefox-a&hl=en&um=1&ie=UTF-8&sa=N&tab=wl</Map>
+            		<Social network="Facebook">http://www.facebook.com/events/156960544442243/</Social>
+			<Link title="Cuban missile crisis">http://www.jfklibrary.org/JFK/JFK-in-History/Cuban-Missile-Crisis.aspx</Link>
+		</External>
+		
+		<Organizations>
+			<Organization oID="WB1945"/>
+			<Organization oID="CG1790"/>
+		<Organizations>
+		
+		<People> 
+			<Person pID="FC1926"/> 
+            		<Person pID="JK1917"/>
       </Crisis>
 
-      <Crisis>
-            <Name ID= "HK2005">
-                <First> "Hurricane Katrina" </First>
-            </Name>
+      <Crisis cID="HK2005">
+		<Info>
+                	<Name>Hurricane Katrina</Name>
+            		<Kind>Natural Disaster</Kind>
+			<Description>The costliest natural disaster and deadliest in the history of the United States</Description>
+            		<Location>
+                		<City>New Orleans</City>
+				<Country>United States</Country>
+            		</Location>
 
-            <Kind keyIdent = "ND"> "Natural Disaster" </Kind>
+            		<Date>
+                		<StartDate>2005-08-23</StartDate>
+				<EndDate>2005-08-30</EndDate>
+            		</Date>
+		</Info>
+		<History>Hurricane Katrina was the deadliest and most destructive Atlantic hurricane of the 2005 Atlantic Hurricane season.</History>
+            	<HumanImpact>1833 casualties and hundreds injured.</HumanImpact>
+            	<EconomicImpact>108 billion USD in repairs.</EconomicImpact>
+		<ResourcesNeeded>Military to aid citizens, helicopters to transport necessary equipment, and disaster relief.</ResourcesNeeded>
+		<WaysToHelp>Medical aid, clean water, food, clothes, and shelter</WaysToHelp>
 
-            <Location>
-                <Country> "New Orleans" </Country>
-            </Location>
+            	<External>
+			<Image title="Hurricane Katrina August 28 2005">http://upload.wikimedia.org/wikipedia/commons/a/a4/Hurricane_Katrina_August_28_2005_NASA.jpg</Image>
+			<Video title="Hurricane Katrina: A Nasa video Retrospective">http://www.nasa.gov/mission_pages/hurricanes/features/katrina-retrospective.html</Video>
+                    	<Map title="New Orleans">http://maps.google.com/maps?q=hurricane%20katrina%20map&oe=utf-8&rls=org.mozilla:en-US:official&client=firefox-a&um=1&ie=UTF-8&hl=en&sa=N&tab=wl</Map>
+			<Link title="NOAA">http://www.ncdc.noaa.gov/special-reports/katrina.html"</Link>
+		</External>
+	
+		<Organizations>
+			<Organization oID="DB1971"/>
+			<Organization oID="AR1881"/>
+			<Organization oID="CG1790"/>
+		</Organizations>
 
-            <DateAndTime>
-                <StartDate> "23-08-2005" </StartDate>
-            </DateAndTime>
-
-            <HumanImpact> "1833 casualties and many injured" </HumanImpact>
-
-            <EconomicImpact> "108 billion USD in repairs" </EconomicImpact>
-
-            <ContactInfo>
-                    <ExternalLink URL = "http://www.ncdc.noaa.gov/special-reports/katrina.html">
-            </ContactInfo>
-
-            <Image>
-                <URL> "http://www.ncdc.noaa.gov/special-reports/katrina.html" </URL>
-                <Title> "Hurricane Katrina at peak strength on August 28, 2005"</Title>
-            </Image>
-
-            <Video>
-                <URL> "http://www.nasa.gov/mission_pages/hurricanes/features/katrina-retrospective.html " </URL>
-                <Title> "Hurricane Katrina: A Nasa video Retrospective" </Title>
-            </Video>
-
-            <Map>
-                <URL> "http://maps.google.com/maps?q=hurricane%20katrina%20map&oe=utf-8&rls=org.mozilla:en-US:official&client=firefox-a&um=1&ie=UTF-8&hl=en&sa=N&tab=wl " </URL>
-            </Map>
-
-            <People ID = "BO1960" > 
-            <People ID ="GB1946" >
-            <Organization ID ="DB1971" >
-	    <Organization ID ="AR1881" >
-	    <Organization ID ="CG1790">
+		<People>
+			<Person pID="BO1960"/>
+			<Person pID="GB1946"/>
+		</People>
         </Crisis>
-    </Crises>
 
 
-    <Organizations>
-  	    <Organization>
-            <Name  ID= "DB1971">
-				        <First> "Doctors without Borders" </First>
-			      </Name>
+    <Organization oID="DB1971">
+		<Info>
+			<Name>Doctors without Borders</Name>
+			<Kind>Humanitarian Organization</Kind>  
+			<Description>A secular humanitarian-aid non-governmental organization.</Description>
+			<Location>
+                		<AddressLine>Doctors Without Borders</AddressLine>
+               			<AddressLine>333 7th Avenue</AddressLine>
+               			<City>New York</City>
+				<State>New York</State>
+             	  		<Country>USA</Country>
+               			<Postal>10001</Postal>
+			</Location>
+		
+			<Date>
+				<StartDate>1971-12-20</StartDate>
+			</Date>
+		</Info>
+		<History>Doctors without Borders was created in 1971, in the aftermath of the Biafra secession, by a small group of French doctors
+		and journalist who believed that all people have the right to medical care regardless of race, religion, creed, or political affiliation,
+		and that the needs of these people outweigh respect for national borders.</History>
 
-			      <Kind keyIdent = "HO">  "Humanitarian Organization" </Kind>  
 
-			      <Location>
-                <Street1> "Doctors Without Borders" </Street1>
-               	<Street2> "333 7th Avenue" </Street2>
-               	<City> "New York, NY" </City>
-             	  <Country> "USA" </Country>
-               	<PostalCode> "10001" </PostalCode>
-			      </Location>
+		<ContactInfo>
+			<Website>http://www.doctorswithoutborders.org</Website>        
+		        <Telephone>+212-679-7016</Telephone>
+			<Fax>+212-679-7016</Fax>
+        	</ContactInfo>
 
-			      <History>
-        		    <FoundingDate> "December 20, 1971"   </FoundingDate>
-                <FoundingLocation> "France"</FoundingLocation>
-				        <Founder> "Bernard Koucher" </Founder>
-			      </History>
-
-			      <DateAndTime>
-               	<StartDate> "20-12-1971"  </StartDate>     
-			      </DateAndTime>
-
-			      <ContactInfo>
-        		    <ExternalLink URL= "http://www.doctorswithoutborders.org/" />        
-		            <Telephone> "212-679-7016" </Telephone>
-			          <Fax> "212-679-7016"</Fax>
-        		    <email> "info@doctorswithoutborders.org" </email>  
-			      </ContactInfo>
-
-			      <Image>
-                <URL> "http://upload.wikimedia.org/wikipedia/en/4/4e/Msf_logo.png”   </URL>
-               <Title>"Logo"</Title>
-			      </Image>
-
-			      <Video>
-		            <URL>"http://www.doctorswithoutborders.org/news/article.cfm?id=6644&cat=video&ref=footer-features"</URL>
-                <Title> "Bringing Much-Needed Medical Care to Timbuktu, Mali" </Title>
-			      </Video>
-
-			      <Map>
-		 	          <URL>  "http://maps.google.com/maps?q=doctors%20without%20borders&oe=utf-8&client=firefox-a&hl=en&um=1&ie=UTF-8&sa=N&tab=wl" </URL>
-			      </Map>
-
-			      <SocialNetwork type= "FB"> "https://www.facebook.com/msf.english" </Social>
-			      <SocialNetwork type= "Twitter"> "@Docotrsw/oBorders" </Social>
-
-			      <Crisis   ID = "HK2005">
-            <Crisis   ID = "AI1970">
-            <Crisis   ID = "SY2011">
-            <Crisis   ID = "VW1955">
+		<External>
+			<Image title="Logo">http://upload.wikimedia.org/wikipedia/en/4/4e/Msf_logo.png</Image>
+			<Video title="Bringing Much-Needed Medical Care to Timbuktu, Mali"></Video>
+			<Map title="Doctors w/o Borders">https://maps.google.com/maps?q=doctors+without+borders&oe=utf-8&client=firefox-a&hl=en&ie=UTF-8</Map>
+			<Social network="Facebook">https://www.facebook.com/msf.english</Social>
+		</External>
+		
+		<Crises>
+			<Crisis cID="HK2005"/>
+			<Crisis cID="AI1970"/>
+			<Crisis cID="SY2011"/>
+  			<Crisis cID="VW1955"/>
+            	<Crises
         </Organization>
 
-        <Organization>
-            <Name  ID= "WB1945">
-				        <First> "World Bank Group" </First>
-			      </Name>
+        <Organization oID= "WB1945">
+		<Info>
+			<Name>World Bank Group</Name>
+			<Kind>International Organization</Kind>
+			<Description>A family of five international organizations that make leveraged loans to poor countries.</Description>
+			<Location>
+                		<AddressLine>The World Bank</AddressLine>
+               			<AddressLine>1818 H Street, N.W.</AddressLine>
+               			<City>Washington D.C.</City>
+             	  		<Country>USA</Country>
+               			<Postal>20433</Postal>
+			</Location>
+	
+			<Date>
+				<StartDate>1970-09-20</StartDate>
+			</Date>	
+		</Info>
+		<History>The World Bank activities are focused on developing countries, in fields such as human development, environmental protection
+		infrasctructure, large industrial construction projects, and governance.</History>
+		<ContactInfo>
+        		    <Website>www.worldbank.org</Website>        
+		            <Telephone>202-473-1000</Telephone>
+			    <Fax>+202-477-6391</Fax>
+        		    <email>info@worldbank.org</email>  
+		</ContactInfo>
 
-			      <Kind keyIdent = "IO">  "International Organization" </Kind>  
+		<External>
+			<Image title="Logo">http://upload.wikimedia.org/wikipedia/en/b/bd/World_Bank_Logo.svg</Image>
+ 			<Video title="Videos - July 2009">http://web.worldbank.org/WBSITE/EXTERNAL/EXTABOUTUS/PARTNERS/EXTDEVDIALOGUE/0,,contentMDK:22256131~pagePK:64192523~piPK:64192458~theSitePK:537298,00.html</Video>
+			<Map> title="WBG US headquarters">http://maps.google.com/maps?oe=utf-8&rls=org.mozilla:en-US:official&client=firefox-a&um=1&ie=UTF-8&q=world+bank+group&fb=1&gl=us&hq=world+bank+group&cid=0,0,8939642998394814149&sa=X&ei=_W03UZDWGsrX2QWFrYC4Ag&ved=0CBkQtgMwAA</Map>
+			<Social network="Twitter">@WorldBank</Social>
+		</External>
 
-			      <Location>
-                <Street1> "The World Bank" </Street1>
-               	<Street2> "1818 H Street, N.W." </Street2>
-               	<City> "Washington D.C." </City>
-             	  <Country> "USA" </Country>
-               	<PostalCode> "20433" </PostalCode>
-			      </Location>
-
-			      <History>
-        		    <FoundingDate> "September 20,1970"   </FoundingDate>
-                <FoundingLocation> "Washington D.C."</FoundingLocation>
-				        <Founder> "William O. Kirker, Barbara Kirker, and C. Payne Lucas" </Founder>
-			      </History>
-
-			      <DateAndTime>
-               	<StartDate> "20-09-1970"  </StartDate>     
-			      </DateAndTime>
-
-			      <ContactInfo>
-        		    <ExternalLink URL= "www.worldbank.org" />        
-		            <Telephone> "202-473-1000" </Telephone>
-			          <Fax> "202-477-6391"</Fax>
-        		    <email> "info@worldbank.org" </email>  
-			      </ContactInfo>
-
-			      <Image>
-                <URL> "http://upload.wikimedia.org/wikipedia/en/b/bd/World_Bank_Logo.svg" </URL>
-               	<Title>"Logo"</Title>
-			      </Image>
-
-			      <Video>
-		            <URL>"http://web.worldbank.org/WBSITE/EXTERNAL/EXTABOUTUS/PARTNERS/EXTDEVDIALOGUE/0,,contentMDK:22256131~pagePK:64192523~piPK:64192458~theSitePK:537298,00.html"</URL>
-                <Title> "Videos - July 2009" </Title>
-			      </Video>
-
-			       <Map>
-		 	          <URL>  "http://maps.google.com/maps?oe=utf-8&rls=org.mozilla:en-US:official&client=firefox-a&um=1&ie=UTF-8&q=world+bank+group&fb=1&gl=us&hq=world+bank+group&cid=0,0,8939642998394814149&sa=X&ei=_W03UZDWGsrX2QWFrYC4Ag&ved=0CBkQtgMwAA" </URL>
-			       </Map>
-
-			       <SocialNetwork type= "FB"> "https://www.facebook.com/worldbank" </Social>
-			       <SocialNetwork type= "Twitter"> "@WorldBank" </Social>
-
-             <Crisis   ID = "AI1970" >
-             <Crisis   ID = "VW1955" >
-             
+		<Crises>
+			<Crisis cID="AI1970"/>
+			<Crisis cID="VW1955"/>
+		</Crises>          
         
         </Organization>
-    </Organizations>
 
-</WorldCrises>
+</WorldCrisesDatabase>
