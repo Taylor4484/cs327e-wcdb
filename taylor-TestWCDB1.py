@@ -49,21 +49,21 @@ class TestWCDB1 (unittest.TestCase) :
   def test_wcdb1_write_1(self):
     w = StringIO.StringIO()
     a = ET.Element('a')
-    wcdb1_write(a, w)
+    wcdb1_write(w, a)
     self.assert_(w.getvalue() == "<a />")
 
   def test_wcdb1_write_2(self):
     w = StringIO.StringIO()
     a = ET.Element('a')
     b = ET.SubElement(a, 'b')
-    wcdb1_write(a, w)
+    wcdb1_write(w, a)
     self.assert_(w.getvalue() == "<a><b /></a>")
 
   def test_wcdb1_write_3(self):
     w = StringIO.StringIO()
     a = ET.Element('a')
     a.text = "hello world"
-    wcdb1_write(a, w)
+    wcdb1_write(w, a)
     self.assert_(w.getvalue() == "<a>hello world</a>")
 
   # -------

@@ -4,10 +4,10 @@
 
 import sys
 
-from WCDB1 import wcdb_solve
+from WCDB1 import wcdb1_solve
 
 # ----
 # main
 # ----
 
-wcdb_solve(sys.stdin, sys.stdout)
+wcdb1_solve(sys.stdin, sys.stdout)

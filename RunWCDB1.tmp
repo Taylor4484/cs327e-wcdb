@@ -1,0 +1,20 @@
+<open file '<stdout>', mode 'w' at 0x1002821e0>
+<THU>
+	<Team>
+		<ACRush />
+		<Jelly />
+		<Cooly />
+	</Team>
+	<JiaJia>
+		<Team>
+			<Ahyangyi />
+			<Dragon />
+			<Cooly><Amber /></Cooly>
+		</Team>
+		<Taylor>
+			<Team>
+				<Amber><Cooly /></Amber>
+			</Team>
+		</Taylor>
+	</JiaJia>
+</THU>

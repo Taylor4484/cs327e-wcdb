@@ -3,9 +3,8 @@ all:
 	make test
 
 diff:
-	RunWCDB1.py < RunWCDB1.in.xml > RunWCDB1.tmp
-	diff RunWCDB1.out.xml RunWCDB1.tmp
-	rm RunWCDB1.tmp
+	python RunWCDB1.py < taylor-RunWCDB1.in.xml > RunWCDB1.tmp
+	diff taylor-RunWCDB1.out.xml RunWCDB1.tmp
 
 doc:
 	pydoc -w WCDB1
@@ -17,7 +16,7 @@ run:
 	RunWCDB1.py < RunWCDB1.in.xml
 
 test:
-	TestWCDB1.py
+	python taylor-TestWCDB1.py
 
 turnin-list:
 	turnin --list hychyc07 cs327epj3
