@@ -220,6 +220,7 @@
 	            <xsd:enumeration value="Facebook"/>
 	            <xsd:enumeration value="Google+"/>
 	            <xsd:enumeration value="Twitter"/>
+	            <xsd:enumeration value="Youtube"/>
 	            <xsd:enumeration value="Other"/>
 	        </xsd:restriction>
 	    </xsd:simpleType>
