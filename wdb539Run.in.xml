@@ -25,7 +25,7 @@
   	</External>
 
   	<People>
-  		<Person>JF1917</Person>
+  		<Person pID = "JF1917">
   	</People>
   			
   </Crisis>
@@ -54,7 +54,7 @@
   	</External>
   	
   	<Organizations>
-  		<Organization>MG1810</Organization>
+  		<Organization oID = "MG1810">
   	</Organizations>
   	
   </Crisis>
@@ -91,8 +91,8 @@
   	</External>
   	
   	<Crises>
-  		<Crisis>HK2005</Crisis>
-  		<Crisis>AI1970</Crisis>
+  		<Crisis cID = "HK2005">
+  		<Crisis cID = "AI1970">
   	</Crises>		
 
   	
@@ -119,9 +119,9 @@
   	</External>
   	
   	<Crises>
-  		<Crisis>CM1962</Crisis>
-  		<Crisis>HT1900</Crisis>
-  		<Crisis>MD2006</Crisis>
+  		<Crisis cID = "CM1962">
+  		<Crisis cID = "HT1900">
+  		<Crisis cID = "MD2006">
   	</Crises>		
 
   </Organization>
