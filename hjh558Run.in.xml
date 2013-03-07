@@ -1,240 +1,224 @@
 <WorldCrises>
-	<Organizations>
-		<Organization>
-			<Name  ID= "AF1970">
-				<First> "Africare" </First>
-			</Name>
+	<Organization oID= "AF1970">
+		<Info>
+			<Name> Africare </Name>
 
-			<Kind keyIdent = "NP">  "Non-profit" </Kind>  
+			<Kind>  Non-profit </Kind>  
 
-			<Location>
-               			<Street1> "Africare House" </Street1>
-               			<Street2> "440 R Street, N.W." </Street2>
-               			<City> "Washington D.C." </City>
-             			<Country> "USA" </Country>
-               			<PostalCode> "20001" </PostalCode>
-			</Location>
-
-			<History>
-        		       <FoundingDate> "September 20,1970"   </FoundingDate>
-		               <FoundingLocation> "Washington D.C."</FoundingLocation>
-				<Founder> "William O. Kirker, Barbara Kirker, and C. Payne Lucas" </Founder>
-			</History>
-
-			<DateAndTime>
-               			<StartDate> "20-09-1970"  </StartDate>     
-			</DateAndTime>
-
-			<ContactInfo>
-        		       <ExternalLink URL= "www.africare.org" />        
-		               <Telephone> "1-202-462-3614" </Telephone>
-			       <Fax> "1-202-387-1034"</Fax>
-        		       <email> "info@africare.org" </email>  
-			</ContactInfo>
-
-			<Image>
-               			<URL> "http://upload.wikimedia.org/wikipedia/en/e/ee/AFRICARE_LOGO.png" </URL>
-               			<Title>"Logo"</Title>
-			</Image>
-
-			<Video>
-		                <URL>"http://www.africare.org/our-stories/galleries/videos/Pass-it-on-january10.php"</URL>
-                 		<Title> "Celebrating 40 years of work on the African Continent" </Title>
-			</Video>
-
-			<Map>
-		 	       <URL>  "http://goo.gl/maps/ynKBw" </URL>
-			</Map>
-
-			<SocialNetwork type= "FB"> "http://www.facebook.com/Africaremedia" </Social>
-			<SocialNetwork type= "Twitter"> "@Africare" </Social>
-
-			<Crisis   ID = "AI1970" >
-		</Organization>
-
-		<Organization>
-        		<Name    ID = "HT2006">
-                		<First> "Human Trafficking Awareness Partnerships" </First>
-        		        <Abr> "HTAP" </Abr>
-			</Name>
-
-			<Kind keyIdent = "NP">  "Non-profit" </Kind>  
+			<Description> Africare is a non-profit organization based in the United States which provides development aid for Africa. Since 1970, Africare has been improving lives and building a better future for Africa by focusing on healthcare, maternal and child health, HIV/AIDS, access to water, agriculture and food security. In more than 40 years of building partnerships with local communities, NGOs, governments and the private sector, Africare has invested over $1 billion in more than 35 countries in Sub-Saharan Africa. </Description>
 
 			<Location>
-		               <Street1> "HTAP, Inc." </Street1>
-		               <Street2> "PO Box 1113" </Street2>
-		               <City> "Sanibel" </City>
-               		       <State>"Florida" </State>
-			       <Country> "USA" </Country>
-		               <PostalCode> "33957" </PostalCode>
+               			<AddressLine> Africare House </AddressLine>
+               			<AddressLine> 440 R Street, N.W. </AddressLine>
+               			<City> Washington D.C. </City>
+             			<Country> USA </Country>
+               			<Postal> 20001 </Postal>
 			</Location>
 
-			<History>
-		               <FoundingDate> "2006" </FoundingDate>
-		               <FoundingLocation> "Sanibel, Florida" </FoundingLocation >
-		               <Founder> "Ms. Nola Theiss" </Founder>
-			</History>
+			<Date>
+               			<StartDate> 1970-09-20 </StartDate>     
+			</Date>
+		</Info>
 
-			<DateAndTime>
-				<StartDate> "2006" </StartDate>     
-			</DateAndTime>
 
-			<ContactInfo>
-		               <ExternalLink URL = "http://www.humantraffickingawareness.org/" />        
-			       <Telephone> "(239) 415-2635" </Telephone>
-			       <Fax> "239-395-2635" </Fax>
-		               <email> "info@humantraffickingawareness.org"</email>
-			</ContactInfo>
+		<History> Founded September 20, 1970 in Washington D.C. by William O. Kirker, Barbara Kirker, and C. Payne Lucas</History>
 
-			<Image>
-		               <URL> "http://humantraffickingawareness.com/images/stories/htap%20logo_edited-1.jpg" </URL>
-		               <Title> "HTAP Logo"</Title>    
-			</Image>
+		<ContactInfo>
+        	       <Website> www.africare.org </Website>        
+		       <Telephone> 1-202-462-3614 </Telephone>
+		       <Fax> 1-202-387-1034</Fax>
+        	       <Email> info@africare.org </Email>  
+		</ContactInfo>
 
-			<Map>
-		               <URL> "http://goo.gl/maps/tL1eS" </URL>
-			</Map>
+		<External>
+			<Image title= "Logo"> http://upload.wikimedia.org/wikipedia/en/e/ee/AFRICARE_LOGO.png </Image>
 
-			<SocialNetwork type= "FB">  "http://www.facebook.com/humantraffickingawarenesspartnerships" </Social>
-			<Crisis     ID = "HTxxxx"     >
-		</Organization>
-	</Organizations>
+			<Video title= "Celebrating 40 years of work on the African Continent"> http://www.africare.org/our-stories/galleries/videos/Pass-it-on-january10.php </Video>
 
-    	<Crises>
-		<Crisis>
-			<Name ID= "SY2011">
-	                	<First> "Syrian Civil War" </First>
-			</Name>
+			<Map title= "Map of Africa"> http://goo.gl/maps/ynKBw </Map>
 
-			<Kind keyIdent = "CW"> "Civil War" </Kind>
+			<Social network= "Facebook"> http://www.facebook.com/Africaremedia </Social>
+			<Social network= "Twitter"> @Africare </Social>
+		</External>
+
+		<Crises>
+			<Crisis   cID = "AI1970" >
+		</Crises>
+	</Organization>
+
+	<Organization oID = "HT2006">
+        	<Info>
+                	<Name> Human Trafficking Awareness Partnerships </Name>
+        	        <Abbreviation> HTAP </Abbreviation>
+
+			<Kind>  Non-profit </Kind>  
+
+			<Description>Because human trafficking is a hidden crime which can only be eradicated by an informed public supporting professional law enforcement and service providers, the mission of the Human Trafficking Awareness Partnerships  is to bring the issue of human trafficking to the forefront of public awareness </Description>
 
 			<Location>
-	                	<Country> "Syria" </Country>
+			        <AddressLine> HTAP, Inc. </AddressLine>
+	       		        <AddressLine> PO Box 1113 </AddressLine>
+	       		        <City> Sanibel </City>
+       			        <State>Florida </State>
+			        <Country> USA </Country>
+	         	       <Postal> 33957 </Postal>
 			</Location>
 
-			<DateAndTime>
-	 	               <StartDate> "15-03-2011"  </StartDate>     
-			</DateAndTime>
+			<Date>
+				<StartDate> 2006 </StartDate>     
+			</Date>
+		</Info>
 
-	                <HumanImpact> "Over 70,000 deaths, 28,000 people reported missing, and severe human rights violations" </HumanImpact>
+		<History> Founded by Ms. Nola Theiss in Sanibel, Florida in 2006 </History>
 
-         	        <EconomicImpact> "Looting as well as damage to heritage sites, archaeological and architectural" </EconomicImpact>
+		<ContactInfo>
+	               <Website> http://www.humantraffickingawareness.org/ </Website>        
+		       <Telephone> (239) 415-2635 </Telephone>
+		       <Fax> 239-395-2635 </Fax>
+	               <Email> info@humantraffickingawareness.org </Email>
+		</ContactInfo>
 
-			<ContactInfo>
-                   		<ExternalLink URL = "http://www.crisisgroup.org/en/regions/middle-east-north-africa/egypt-syria-lebanon/syria.aspx/">        
-			</ContactInfo>
+		<External>
+			<Image title= "HTAP Logo"> http://humantraffickingawareness.com/images/stories/htap%20logo_edited-1.jpg </Image>
 
-			<Image>
-                  		 <URL> "http://en.wikipedia.org/wiki/File:Bombed_out_vehicles_Aleppo.jpg" </URL>            
-	                  	 <Title> "Fire-bombed vehicles"</Title>
-			</Image>
+			<Map title= "Location of HTAP headquarters"> http://goo.gl/maps/tL1eS</Map>
 
-			<Video>
-                   		<URL> "http://www.bbc.co.uk/news/world-middle-east-21504390" </URL>
-                   		<Title> "Life in battleground town of al-Safira" </Title> 
-			</Video>
+			<Social network= "Facebook"> http://www.facebook.com/humantraffickingawarenesspartnerships </Social>
+		</External>
 
-			<Map>
-                		<URL> "http://goo.gl/maps/PWJKM" </URL>
-			</Map>
+		<Crises>
+			<Crisis cID = "HT1900">
+		</Crises>
+	</Organization>
 
-			<People ID = "SL1959" >
-			<Organization ID ="A1961" >
-			<Organization    ID ="NA1949" >
-		</Crisis>
+    	<Crisis cID= "SY2011">
+		<Info>
+			<Name>Syrian Civil War </Name>
 
-		<Crisis>
-                	<Name ID= "AI1970">
-                   		<First> "AIDS in Africa" </First>
-			</Name>
+			<Kind> Civil War </Kind>
 
-			<Kind keyIdent = "ID"> "Infectious Disease" </Kind>
+			<Description>an ongoing armed conflict in Syria between forces loyal to the Syrian Ba'ath Party government and those seeking to oust it. The conflict began on 15 March 2011 with nationwide demonstrations, as part of the wider protest movement known as the Arab Spring. Protesters demanded the resignation of President Bashar al-Assad, whose family has held the presidency in Syria since 1971, as well as the end to nearly five decades of Ba'ath Party rule. </Description>
 
 			<Location>
-                   		<Country> "Africa" </Country>
+	                	<Country> Syria </Country>
 			</Location>
 
-			<DateAndTime>
-                   		<StartDate> "1970s, first epidemic" </StartDate>     
-			</DateAndTime>
+			<Date>
+	 	               <StartDate> 2011-03-15  </StartDate>     
+			</Date>
+		</Info>
 
-			<HumanImpact> "Over 1.3 million deaths; economic problems drive women and girls into sex work to ensure their livelihood furthering the issue" </HumanImpact>
+	        <HumanImpact> Over 70,000 deaths, 28,000 people reported missing, and severe human rights violations </HumanImpact>
 
-	                <EconomicImpact> "Corruption within both donor agencies and government agencies, foreign donors not coordinating with local government, and misguided resources"</EconomicImpact>
+         	<EconomicImpact> Looting as well as damage to heritage sites, archaeological and architectural </EconomicImpact>
 
-			<Image>
-		               <URL> "http://en.wikipedia.org/wiki/File:Map-of-HIV-Prevalance-in-Africa.png"</URL>
-		               <Title> "Map of HIV prevalence in Africa" </Title>
-			</Image>
+		<ResourcesNeeded> Money for rebuilding and medical resources, from medicines to physicians </ResourcesNeeded>
+		
+		<WaysToHelp> Unknown </WaysToHelp>
 
-	                <Image>
-	 	        	<URL>"http://africanheritageculturalcenter.org/wp-content/uploads/2010/06/AIDS-in-South-Africa.jpg" </URL>
-				<Title> "Map of AIDS by area of Africa" </Title>
-        	        </Image>
+			     
+		<External>
+			<Image title= "Fire-bombed vehicles"> http://en.wikipedia.org/wiki/File:Bombed_out_vehicles_Aleppo.jpg </Image>
 
-			<Map>
-	 	               <URL> "http://goo.gl/maps/n7rnd" </URL>
-			</Map>
+			<Video title= "Life in battleground town of al-Safira"> http://www.bbc.co.uk/news/world-middle-east-21504390 </Video>
 
-			<SocialNetwork type= "FB"> "http://www.facebook.com/HivAidsAfrica?fref=ts" </Social>
-			<SocialNetwork type= "Twitter"> "@AidsinAfrica.net" </Social>
+			<Map title= "Map of Syria"> http://goo.gl/maps/PWJKM </Map
+	
+			<Link title= "Crisis group"> http://www.crisisgroup.org/en/regions/middle-east-north-africa/egypt-syria-lebanon/syria.aspx/ </Link>
+		</External>
 
-			<People ID = "BO1960" >
-			<People ID = "BG1955" >
-			<Org ID = "DB1971" >
-			<Org ID = "WH1948" >
-			<Org ID = "WB1945" >
-			<Org ID = "AF1970" >
-		</Crisis>
-    	</Crises>
+		<Organizations>
+			<Organization oID ="A1961" >
+			<Organization oID ="NA1949" >
+		</Organizations>
 
-   	<People>
-		<Person >
-               		<Name ID = "AH1889" >
-                   		<First> "Adolf" </First>
-                   		<Last> "Hitler" </Last>
-			</Name>
+		<People>
+			<People pID = "SL1959" >
+		</People>
+	</Crisis>
 
-			<Kind keyIdent= "L"> "Leader"</Kind>  
+	<Crisis cID= "AI1970">
+		<Info>
+	                <Name> AIDS in Africa </Name>
+
+			<Kind> Infectious Disease </Kind>
 
 			<Location>
-               		       <City> "Braunau am Inn" </City>
-	 	               <Country> "Austria-Hungary" </Country>
+        	        	<Country> Africa </Country>
 			</Location>
 
-			<DateAndTime>
-                   		<StartDate> "20-04-1889" </StartDate> 
-                   		<EndDate> "30-04-1945"  </EndDate>
-			</DateAndTime>
+			<Date>
+        	       		<StartDate> 1970s </StartDate>     
+			</Date>
+		</Info>
 
-			<ContactInfo>
-	 	               <ExternalLink URL ="http://www.imdb.com/name/nm0386944/bio" />
-			</ContactInfo>
+		<HumanImpact> Over 1.3 million deaths; economic problems drive women and girls into sex work to ensure their livelihood furthering the issue </HumanImpact>
 
-			<Image>
-	 	               <URL> "http://www.jewishvirtuallibrary.org/images/hitler1.jpg.  </URL>
-               		       <Title> "Saluting troops" </Title>
-			</Image>
+                <EconomicImpact> Corruption within both donor agencies and government agencies, foreign donors not coordinating with local government, and misguided resources</EconomicImpact>
 
-			<Image>
-	 	               <URL> "http://history1900s.about.com/library/holocaust/blhitler37.htm" </URL>
-		               <Title> "Nazi Party rally, Nuremburg, Germany" </Title>
-			</Image>
-			<Image>
-	 	               <URL> "http://history1900s.about.com/library/holocaust/blhitler3.htm" </URL>
-		               <Title> "Leaving SA rally" </Title>
-			</Image>
-			<Video>
-	 	               <URL> "http://www.youtube.com/watch?v=ONkXztHVvCg" </URL>
-	 	               <Title> "Victory of the Faith (part 1).\n Fifth Party Rally of the Nazi Party, including Adolf Hitler's meeting with important party members and massive SA parades" </Title>
-			</Video>
+		<ResourcesNeeded> Public education and AIDS medicine </ResourcesNeeded>
+		
+		<WaysToHelp> Give time or money. Lobby Congress and pharmaceutical companies </WaysToHelp>
 
-			<Map>
-	 	               <URL> "http://goo.gl/maps/UDZSW" </URL>
-			</Map>
+		<External>
+			<Image title= "Map of HIV prevalence in Africa"> http://en.wikipedia.org/wiki/File:Map-of-HIV-Prevalance-in-Africa.png </Image>
 
-			<Crisis ID= "HO1938" >
-		</Person>
-   	 </People>
+	           	<Image title= "AIDS awareness rally"> http://africanheritageculturalcenter.org/wp-content/uploads/2010/06/AIDS-in-South-Africa.jpg </Image>
+
+			<Map title= "Map of Africa"> http://goo.gl/maps/n7rnd </Map>
+
+			<Social network= "Facebook"> http://www.facebook.com/HivAidsAfrica?fref=ts </Social>
+			<Social network= "Twitter"> @AidsinAfrica.net </Social>
+		</External>
+
+		<Organizations>
+			<Organization oID = "DB1971" >
+			<Organization oID = "WH1948" >
+			<Organization oID = "WB1945" >
+			<Organization oID = "AF1970" >
+		</Organizations>
+
+		<People>
+			<Person pID = "BO1960" >
+			<Person pID = "BG1955" >
+		</People>
+    	</Crisis>
+
+   	<Person pID = "AH1889" >
+		<Info>
+                   	<Name> Adolf Hitler </Name>
+
+			<Kind> Fuhrer </Kind>
+			
+			<Description> Hitler was a decorated veteran of World War I. He joined the German Workers' Party (precursor of the NSDAP) in 1919, and became leader of the NSDAP in 1921. In 1923, he attempted a coup d'état in Munich, known as the Beer Hall Putsch. The failed coup resulted in Hitler's imprisonment, during which time he wrote his memoir, Mein Kampf (My Struggle). After his release in 1924, Hitler gained popular support by attacking the Treaty of Versailles and promoting Pan-Germanism, antisemitism, and anti-communism with charismatic oratory and Nazi propaganda. After his appointment as chancellor in 1933, he transformed the Weimar Republic into the Third Reich, a single-party dictatorship based on the totalitarian and autocratic ideology of Nazism. </Description>
+
+			<Location>
+               		       <City> Braunau am Inn </City>
+	 	               <Country> Austria-Hungary </Country>
+			</Location>
+
+			<Date>
+                   		<StartDate> 1889-04-20 </StartDate> 
+                   		<EndDate> 1945-04-30 </EndDate>
+			</Date>
+		</Info>
+
+		<ContactInfo>
+       			<Website> http://www.imdb.com/name/nm0386944/bio </Website>
+		</ContactInfo>
+
+		<External>
+			<Image title= "Saluting troops"> http://www.jewishvirtuallibrary.org/images/hitler1.jpg </Image>
+
+			<Image title= "Nazi Party rally, Nuremburg, Germany"> http://history1900s.about.com/library/holocaust/blhitler37.htm </Image>
+			<Image title= "Hitler leaving SA rally"> http://history1900s.about.com/library/holocaust/blhitler3.htm </Image>
+			<Video title= "Victory of the Faith (part 1). Fifth Party Rally of the Nazi Party, including Adolf Hitler's meeting with important party members and massive SA parades"> http://www.youtube.com/watch?v=ONkXztHVvCg </Video>
+			<Map title= "Hitler's birth town, Braunau am Inn, Austrian-Hungary"> http://goo.gl/maps/UDZSW </Map>
+		</External>
+
+		<Crises>
+			<Crisis cID= "HO1930" >
+		</crises>
+   	 </Person>
 </WorldCrises>
 
