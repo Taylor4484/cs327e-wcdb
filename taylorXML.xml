@@ -91,21 +91,21 @@
 		<External>
 			<!-- Repeate any External sub-element as needed-->
 			<Image title="Required String">VALID URL</Image>
-			<Video title="Required String">VALID URL</Image>
-			<Map title="Required String">VALID URL</Image>
+			<Video title="Required String">VALID URL</Video>
+			<Map title="Required String">VALID URL</Map>
 			<Social network="Choose: Facebook,Google+,Twitter,Other">VALID URL</Social>
-			<Link title="Required String">VALID URL</Image>
+			<Link title="Required String">VALID URL</Link>
 			<Citation>Optional String</Citation>
 		</External>
 		
 		<Organizations>
 			<!-- Repeate Organization up to 10 times -->
-			<Organization>Required oID</Organization>
+			<Organization oID="OID" />
 		</Organizations>
 		
 		<People>
 			<!-- Repeate Person up to 10 times -->
-			<Person>Required pID</Person>
+			<Person pID="PID" />
 		</People>
 		
 	</Crisis>
@@ -153,11 +153,12 @@
 		
 		<Crises>
 			<!-- Repeate Crisis up to 10 times -->
-			<Crisis>Required cID</Crisis>
-		</Crises>		
+			<Crisis cID="CID" />
+		</Crises>	
+		
 		<People>
 			<!-- Repeate Person up to 10 times -->
-			<Person>Required pID</Person>
+			<Person pID="PID" />
 		</People>
 		
 	</Organization>
@@ -196,20 +197,21 @@
 		<External>
 			<!-- Repeate any External sub-element as needed-->
 			<Image title="Required String">VALID URL</Image>
-			<Video title="Required String">VALID URL</Image>
-			<Map title="Required String">VALID URL</Image>
+			<Video title="Required String">VALID URL</Video>
+			<Map title="Required String">VALID URL</Map>
 			<Social network="Choose: Facebook,Google+,Twitter,Other">VALID URL</Social>
-			<Link title="Required String">VALID URL</Image>
+			<Link title="Required String">VALID URL</Link>
 			<Citation>Optional String</Citation>
 		</External>
 		
 		<Crises>
 			<!-- Repeate Crisis up to 10 times -->
-			<Crisis>Required cID</Crisis>
-		</Crises>		
+			<Crisis cID="CID" />
+		</Crises>	
+		
 		<People>
 			<!-- Repeate Person up to 10 times -->
-			<Person>Required pID</Person>
+			<Person pID="PID" />
 		</People>
 		
 	</Organization>
@@ -248,21 +250,21 @@
 		<External>
 			<!-- Repeate any External sub-element as needed-->
 			<Image title="Required String">VALID URL</Image>
-			<Video title="Required String">VALID URL</Image>
-			<Map title="Required String">VALID URL</Image>
+			<Video title="Required String">VALID URL</Video>
+			<Map title="Required String">VALID URL</Map>
 			<Social network="Choose: Facebook,Google+,Twitter,Other">VALID URL</Social>
-			<Link title="Required String">VALID URL</Image>
+			<Link title="Required String">VALID URL</Link>
 			<Citation>Optional String</Citation>
 		</External>
 		
 		<Organizations>
 			<!-- Repeate Organization up to 10 times -->
-			<Organization>Required oID</Organization>
-		</Organizations>		
+			<Organization oID="OID" />
+		</Organizations>
 		
 		<Crises>
 			<!-- Repeate Crisis up to 10 times -->
-			<Crisis>Required cID</Crisis>
+			<Crisis cID="CID" />
 		</Crises>		
 
 	</Person>
