@@ -17,3 +17,115 @@
 		</Taylor>
 	</JiaJia>
 </THU>
+
+<THU>
+	<Team>
+		<ACRush></ACRush>
+		<Jelly></Jelly>
+		<Cooly></Cooly>
+	</Team>
+	<JiaJia>
+		<Team>
+			<Ahyangyi></Ahyangyi>
+			<Dragon></Dragon>
+			<Cooly><Amber></Amber></Cooly>
+		</Team>
+		<Taylor>
+			<Team>
+				<Cooly></Cooly>
+			</Team>
+		</Taylor>
+	</JiaJia>
+</THU>
+
+<Taylor>
+    <Team>
+        <ACRush></ACRush>
+        <Jelly></Jelly>
+        <Cooly></Cooly>
+    </Team>
+    <JiaJia>
+        <Team>
+            <Ahyangyi></Ahyangyi>
+            <Dragon></Dragon>
+            <Cooly><Amber></Amber></Cooly>
+        </Team>
+    </JiaJia>
+</Taylor>
+
+<Taylor>
+    <Team></Team>
+    <JiaJia>
+        <Team>
+            <Ahyangyi></Ahyangyi>
+            <Dragon></Dragon>
+            <Cooly><Amber></Amber></Cooly>
+        </Team>
+    </JiaJia>
+</Taylor>
+
+<Holly>
+	<Cats>
+		<Leopards><coffee><Tigers></Tigers></coffee></Leopards>
+		<Ocelots></Ocelots>
+		<Bobcats></Bobcats>
+	</Cats>
+	<Leopards>
+		<coffee></coffee>
+		<Tigers></Tigers>
+	</Leopards>
+</Holly>
+
+<THU>
+	<Team>
+		<ACRush></ACRush>
+		<Jelly></Jelly>
+		<Cooly></Cooly>
+	</Team>
+	<JiaJia>
+		<Team>
+			<Ahyangyi></Ahyangyi>
+			<Dragon></Dragon>
+			<Cooly><Amber></Amber></Cooly>
+		</Team>
+		<Taylor>
+			<Team>
+				<Amber><Cooly></Cooly></Amber>
+			</Team>
+		</Taylor>
+	</JiaJia>
+</THU>
+
+<THU>
+	<Team>
+		<ACRush></ACRush>
+		<Jelly></Jelly>
+		<Cooly></Cooly>
+	</Team>
+	<JiaJia>
+		<Team>
+			<Ahyangyi></Ahyangyi>
+			<Dragon></Dragon>
+			<Cooly><Amber></Amber></Cooly>
+		</Team>
+		<Taylor>
+			<Team>
+				<Amber><Cooly></Cooly></Amber>
+			</Team>
+		</Taylor>
+	</JiaJia>
+</THU>
+
+<Team><Cooly></Cooly></Team>
+
+<Team>
+    <ACRush></ACRush>
+    <Jelly></Jelly>
+    <Cooly></Cooly>
+</Team>
+
+<Team>
+    <ACRush></ACRush>
+    <Jelly></Jelly>
+    <Cooly></Cooly>
+</Team>

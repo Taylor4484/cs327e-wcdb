@@ -6,6 +6,10 @@ diff:
 	python RunWCDB1.py < taylor-RunWCDB1.in.xml > RunWCDB1.tmp
 	diff taylor-RunWCDB1.out.xml RunWCDB1.tmp
 
+lint: 
+	xmllint --noout -schema taylor-WCDB1.xsd Instance.xml
+
+
 doc:
 	pydoc -w WCDB1
 
