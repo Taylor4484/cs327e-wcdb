@@ -18,8 +18,8 @@
             </Location>
             
             <DateAndTime>
-                <StartDate> 29-05-1917 </StartDate>
-                <EndDate> 22-11-1963 </EndDate>
+                <StartDate> 1917-05-29 </StartDate>
+                <EndDate> 1963-11-22 </EndDate>
             </DateAndTime>
             
             <ContactInfo>
@@ -63,7 +63,7 @@
             </Location>
             
             <DateAndTime>
-                <StartDate> 06-07-1946 </StartDate>
+                <StartDate> 1946-07-06 </StartDate>
             </DateAndTime>
                 
             <ContactInfo>
@@ -105,7 +105,7 @@
             </Location>
                     
             <DateAndTime>
-                <StartDate> 24-08-1955 </StartDate>
+                <StartDate> 1955-08-24 </StartDate>
             </DateAndTime>
                     
             <ContactInfo>
@@ -145,7 +145,7 @@
             </Location>
                 
             <DateAndTime>
-                <StartDate> 28-10-1955 </StartDate>
+                <StartDate> 1955-10-28 </StartDate>
             </DateAndTime>
             <ContactInfo>
                 <ExternalLink URL= "http://www.gatesfoundation.org/" >
