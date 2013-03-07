@@ -1,19 +1,141 @@
+1.
 <THU>
 	<Team>
-		<ACRush></ACRush>
-		<Jelly></Jelly>
-		<Cooly></Cooly>
+		<ACRush />
+		<Jelly />
+		<Cooly />
 	</Team>
 	<JiaJia>
 		<Team>
-			<Ahyangyi></Ahyangyi>
-			<Dragon></Dragon>
-			<Cooly><Amber></Amber></Cooly>
+			<Ahyangyi />
+			<Dragon />
+			<Cooly><Amber /></Cooly>
 		</Team>
 		<Taylor>
 			<Team>
-				<Amber><Cooly></Cooly></Amber>
+				<Amber><Cooly /></Amber>
 			</Team>
 		</Taylor>
 	</JiaJia>
 </THU>
+
+2.
+<THU>
+	<Team>
+		<ACRush />
+		<Jelly />
+		<Cooly />
+	</Team>
+	<JiaJia>
+		<Team>
+			<Ahyangyi />
+			<Dragon />
+			<Cooly><Amber /></Cooly>
+		</Team>
+		<Taylor>
+			<Team>
+				<Cooly />
+			</Team>
+		</Taylor>
+	</JiaJia>
+</THU>
+
+3.
+<Taylor>
+    <Team>
+        <ACRush />
+        <Jelly />
+        <Cooly />
+    </Team>
+    <JiaJia>
+        <Team>
+            <Ahyangyi />
+            <Dragon />
+            <Cooly><Amber /></Cooly>
+        </Team>
+    </JiaJia>
+</Taylor>
+
+4,
+<Taylor>
+    <Team />
+    <JiaJia>
+        <Team>
+            <Ahyangyi />
+            <Dragon />
+            <Cooly><Amber /></Cooly>
+        </Team>
+    </JiaJia>
+</Taylor>
+
+5.
+<Holly>
+	<Cats>
+		<Leopards><coffee><Tigers /></coffee></Leopards>
+		<Ocelots />
+		<Bobcats />
+	</Cats>
+	<Leopards>
+		<coffee />
+		<Tigers />
+	</Leopards>
+</Holly>
+
+6.
+<THU>
+	<Team>
+		<ACRush />
+		<Jelly />
+		<Cooly />
+	</Team>
+	<JiaJia>
+		<Team>
+			<Ahyangyi />
+			<Dragon />
+			<Cooly><Amber /></Cooly>
+		</Team>
+		<Taylor>
+			<Team>
+				<Amber><Cooly /></Amber>
+			</Team>
+		</Taylor>
+	</JiaJia>
+</THU>
+
+7.
+<THU>
+	<Team>
+		<ACRush />
+		<Jelly />
+		<Cooly />
+	</Team>
+	<JiaJia>
+		<Team>
+			<Ahyangyi />
+			<Dragon />
+			<Cooly><Amber /></Cooly>
+		</Team>
+		<Taylor>
+			<Team>
+				<Amber><Cooly><Jelly /></Cooly></Amber>
+			</Team>
+		</Taylor>
+	</JiaJia>
+</THU>
+
+8.
+<Team><Cooly /></Team>
+
+9.
+<Team>
+    <ACRush />
+    <Jelly />
+    <Cooly />
+</Team>
+
+10.
+<Team>
+    <ACRush />
+    <Jelly />
+    <Cooly><Taylor /></Cooly>
+</Team>
