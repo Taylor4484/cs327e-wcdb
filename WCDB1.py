@@ -48,6 +48,7 @@ def wcdb1_write (w, tree) :
     """
     tree2 = ET.tostring(tree)
     w.write(tree2)
+    return tree
 
 # -------------
 # wcdb1_solve
@@ -59,11 +60,8 @@ def wcdb1_solve (r, w) :
     r is a reader
     w is a writer
     """
-    print(w)
 
     tree = wcdb1_read (r)
     output1 = wcdb1_write (w, tree)
-    
-    tree2 = wcdb1_read(w)
-    output2 = wcdb1_write (w, tree2)
+    #output2 = wcdb1_write (w, output1)
     
