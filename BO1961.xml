@@ -1,10 +1,10 @@
-<Person pID="FC1926">
+<Person pID="BO1961">
 	<Info>
-		<Name>Fidel Alejandro Castro</Name>
+		<Name>Barack H. Obama</Name>
 		<Abbreviation></Abbreviation>
 		<!-- Repeate Kind element as many times as needed-->
 		<Kind>President</Kind>
-		<Description>Fidel Castro is the communist leader and president of Cuba since leading an uprising against the then island's government in 1959</Description>
+		<Description>Barack Obama is the 44th president of the United Staates</Description>
 		<Location>
 			<AddressLine>1600 Pennsylvania Avenue NW</AddressLine>
 			<AddressLine></AddressLine>
@@ -15,7 +15,7 @@
 			<Postal>20500</Postal>
 		</Location>
 		<Date>
-			<StartDate>1926-08-13</StartDate>
+			<StartDate>1961-08-04</StartDate>
 			<StartTime></StartTime>
 			<EndDate></EndDate>
 			<EndTime></EndTime>
@@ -24,19 +24,19 @@
 	<History>Optional string</History>
 	<ContactInfo>
 		<!-- all Contactinfo sub-elements occur 1 time and are optional-->
-		<Website></Website>
-		<Telephone></Telephone>
+		<Website>www.barackobama.com</Website>
+		<Telephone>202-456-1414</Telephone>
 		<Fax></Fax>
 		<Email></Email>
 	</ContactInfo>
 	<External>
 		<!-- Repeate any External sub-element as needed-->
-		<Image title="Fidel Castro">http://upload.wikimedia.org/wikipedia/commons/1/15/Cuba.FidelCastro.02.jpg</Image>
-		<Video title="Fidel Castro - Mini Bio">https://www.youtube.com/watch?v=qQ24jmIHIUk</Video>
-		<Map title=""></Map>
-		<Social network="Facebook"></Social>
-		<Social network="Twitter">https://twitter.com/fidelcastro</Social>
-		<Social network="G+"></Social>
+		<Image title="President Barack Obama">http://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/480px-President_Barack_Obama.jpg</Image>
+		<Video title="Barack Obama's Complete 2013 Inauguration Speech">http://www.youtube.com/watch?v=zncqb-n3zMo</Video>
+		<Map title="White House">https://maps.google.com/maps/ms?ie=UTF8&oe=UTF8&msa=0&msid=115504680967817798850.00047d3b62c9ac29da294 </Map>
+		<Social network="Facebook">https://www.facebook.com/barackobama</Social>
+		<Social network="Twitter">https://twitter.com/BarackObama</Social>
+		<Social network="G+">https://plus.google.com/+BarackObama/posts</Social>
 		<Link title="Required String">VALID URL</Image>
 		<Citation>Optional String</Citation>
 	</External>
