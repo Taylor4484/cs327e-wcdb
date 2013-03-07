@@ -93,7 +93,7 @@ During the era of the Holocaust, German authorities also targeted other groups b
 		<History>The Holocaust (also called Ha-Shoah in Hebrew) refers to the period from January 30, 1933 - when Adolf Hitler became chancellor of Germany - to May 8, 1945, when the war in Europe officially ended. During this time, Jews in Europe were subjected to progressively harsher persecution that ultimately led to the murder of 6,000,000 Jews (1.5 million of these being children) and the destruction of 5,000 Jewish communities. These deaths represented two-thirds of European Jewry and one-third of all world Jewry.</History>
 		<HumanImpact>Jews - 5.9 million, Soviet POWs - 2–3 million, Ethnic Poles - 1.8–2 million, Romani - 220,000–1,500,000, Disabled - 00,000–250,000, Freemasons - 80,000-200,000, Slovenes - 20,000–25,000, Homosexuals - 5,000–15,000, Jehovah's - Witnesses	2,500–5,000</HumanImpact>
 		<EconomicImpact>The Jewish population of the 11 districts studied declined on average by 39 percent between the 1939 and 1959 censuses. The average GDP of those regions in 2002 was some 23 percent lower than the average for Russia as a whole.</EconomicImpact>
-		<!-- <ResourcesNeeded>REQUIRED string</ResourcesNeeded>
+		<ResourcesNeeded>Military Power was needed to Overthrow Nazi Germany</ResourcesNeeded>
 		<WaysToHelp>REQUIRED string</WaysToHelp> -->
 		<External>
 			<!-- Repeat any External sub-element as needed-->
@@ -105,7 +105,6 @@ During the era of the Holocaust, German authorities also targeted other groups b
 			<Link title="US Holocaust Memorial Museum">http://www.ushmm.org/wlc/en/article.php?ModuleId=10005143</Link>
 			<!-- <Citation>Optional String</Citation> -->
 		</External>
-		
 		<Organizations>
 			<!-- Repeat Organization up to 10 times -->
 			<Organization oID="AI1961" />
@@ -115,9 +114,8 @@ During the era of the Holocaust, German authorities also targeted other groups b
 			<!-- Repeat Person up to 10 times -->
 			<Person pID="AH1889" />
 		</People>
-		
-	</Crisis>
-	
+
+	</Crisis>	
 	<Organization oID="NA1949">
 		<Info>
 			<Name>The North Atlantic Treaty Organization</Name>
@@ -220,13 +218,12 @@ WHO’s Constitution came into force on 7 April 1948 – a date we now celebrate
 			<!-- Repeat any External sub-element as needed-->
 			<Image title="WHO Logo">http://www.who.int/sysmedia/media/resources/who-logo-en.jpg</Image>
 			<!--<Video title="Required String">VALID URL</Video>-->
-			<Map title="WHO Location">https://maps.google.com/maps?q=Avenue+Appia+20+1211+Geneva,+Switzerland&ie=UTF-8&hq=&hnear=0x478c64f73e96c8cd:0xb9b86c30af2b2e28,Avenue+Appia+20,+CH-1202+Gen%C3%A8ve,+Switzerland&gl=us&ei=lfI3UZPCJ4TQ2QX95YGgBw&ved=0CDMQ8gEwAA</Map>
+			<!--<Map title="WHO Location">https://maps.google.com/maps?q=Avenue+Appia+20+1211+Geneva,+Switzerland&ie=UTF-8&hq=&hnear=0x478c64f73e96c8cd:0xb9b86c30af2b2e28,Avenue+Appia+20,+CH-1202+Gen%C3%A8ve,+Switzerland&gl=us&ei=lfI3UZPCJ4TQ2QX95YGgBw&ved=0CDMQ8gEwAA</Map>-->
 			<Social network="Google+">https://plus.google.com/u/0/+who/posts</Social>
 			<Social network="Twitter">http://www.twitter.com/WHO</Social>
 			<Social network="Facebook">https://www.facebook.com/WorldHealthOrganization</Social>
 			<Social network="Youtube">http://www.youtube.com/who</Social>
 			
-			http://www.twitter.com/WHO
 			<!--<Link title="Required String">VALID URL</Link>
 			<Citation>Optional String</Citation>-->
 		</External>
@@ -279,7 +276,7 @@ WHO’s Constitution came into force on 7 April 1948 – a date we now celebrate
 		<External>
 			<!-- Repeat any External sub-element as needed-->
 			<Image title="Mandela in 2008">http://upload.wikimedia.org/wikipedia/commons/1/14/Nelson_Mandela-2008_%28edit%29.jpg</Image>
-			<Video title="Nelson Mandela and South Africa">http://www.youtube.com/watch?feature=player_embedded&v=vuqJpnSO1jc</Video>
+			<Video title="Nelson Mandela and South Africa">http://youtu.be/vuqJpnSO1jc</Video>
 			<!--<Map title="Required String">VALID URL</Map>-->
 			<Social network="Facebook">http://www.facebook.com/NelsonMandelaCentreOfMemory</Social>
 			<!--<Link title="Required String">VALID URL</Link>
