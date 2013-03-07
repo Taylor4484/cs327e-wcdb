@@ -28,9 +28,12 @@
 		<Link title="JFK Library">www.jfklibrary.org </Link>
 	</External>
 	<Crises>
-		<Crisis cID= "CM1962" >
-		<Crisis cID= "VW1975" >
+		<Crisis cID= "CM1962">
+		<Crisis cID= "VW1975">
 	</Crises>
+	<Organizations>
+		<Organization oID="NA1949">
+	</Organizations>
 </Person>
 <Person pID="GB1946">
 <Info>
@@ -60,8 +63,11 @@
 		<Social network= "Facebook">http://www.facebook.com/georgewbush</Social>
 	</External>
 	<Crises>
-		<Crisis cID= "HK2005">
+		<Crisis cID="HK2005">
 	</Cries>
+	<Organizations>
+		<Organization oID="NA1949">
+	</Organizations>
 </Person>
 <Person pid= "MH1955">
 	<Info>
@@ -116,5 +122,6 @@
 	</External>
 	<Crises>
 		<Crisis cID= "AI1970">
+		<Crisis cID="HT1900">
 	</Crises>                                    
 </Person>
