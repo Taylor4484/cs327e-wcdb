@@ -123,7 +123,7 @@
 			<Crisis cID="AI1970"/>
 			<Crisis cID="SY2011"/>
   			<Crisis cID="VW1955"/>
-            	<Crises
+            	</Crises>
         </Organization>
 
         <Organization oID= "WB1945">
