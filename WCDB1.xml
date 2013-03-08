@@ -1,1 +1,603 @@
-Final Instance File with all PEOPLE, CRISES, ORGS
+Adolf Hitler ID = "AH1889"
+Barack Obama ID = "BO1961"
+Bill Gates ID = "BG1955"
+Bono ID = “BO1960”
+Fidel Castro ID = "FC1926"
+George Bush ID = "GB1946"
+John Kennedy ID = "JK1917"
+Mike Huckabee ID = "MH1955"
+Sergei Lavrov ID = ”SL1959”
+
+Africare ID = "AF1970"
+Doctors w/o borders ID = "DB1971"
+Human Trafficking Awareness Partnership ID = “HT2006”
+World Bank Group ID = "WB1945"
+
+AIDS in Africa ID= “AI1970”
+Cuban Missile Crisis ID = "CM1962"
+Holocaust ID= "HO1930"
+Hurricane Katrina ID = "HK2005"
+Syrian Civil War ID=“SY2011”
+
+
+<?xml version="1.0" ?>
+<WorldCrisesDatabase>
+    <Crisis cID="EV2010">
+		<Info>
+			<Name>2010 eruptions of Eyjafjallajokull</Name>
+			<Kind>Natural disaster</Kind>
+			<Description>The 2010 eruption of Eyjafjallajökull were volcanic events at Eyjafjallajökull in Iceland which, although relatively small for volcanic eruptions, caused enormous disruption to air travel across western and northern Europe over an initial period of six days in April 2010.</Description>
+			<Location>
+				<Country>Iceland</Country>
+			</Location>
+			<Date>
+				<StartDate>2010-03-20</StartDate>
+				<EndDate>2010-06-23</EndDate>
+			</Date>
+		</Info>
+		<History>Beginning on 14 April 2010, the eruption entered a second phase and created an ash cloud that led to the closure of most of the European IFR airspace from 15 until 20 April 2010. Consequently, a very high proportion of flights within, to, and from Europe were cancelled, creating the highest level of air travel disruption since the Second World War.In October 2010, Ármann Höskuldsson, a scientist at the University of Iceland Institute of Earth Sciences, stated that the eruption was officially over, although the area was still geothermally active and might erupt again.</History>
+		<HumanImpact>No known injuries or deaths. However, the inhalation of volcanic ash can cause
+            respiratory issues.</HumanImpact>
+		<EconomicImpact>The eruption caused large scale disruption to air travel, and had
+            some effects on the farming industry in Iceland.</EconomicImpact>
+		<ResourcesNeeded>None.</ResourcesNeeded>
+		<WaysToHelp>No help is needed at this time.</WaysToHelp>
+		<External>
+			<Image title="Smoke cloud over volcano">http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/eyja_04_19/e25_23048757.jpg</Image>
+			<Image title="Overhead view of eruption">http://eoimages.gsfc.nasa.gov/images/imagerecords/43000/43252/fimmvorduhals_ali_2010083.jpg</Image>
+			<Video title="Footage of the eruption">http://www.youtube.com/watch?v=tGPD_0SCDp4</Video>
+			<Map title="Map of the ash cloud">http://upload.wikimedia.org/wikipedia/commons/b/b1/Eyjafjallaj%C3%B6kull_volcanic_ash_composite.png</Map>
+		</External>
+        <Organizations>
+		</Organizations>
+        <People>
+		</People>
+	</Crisis>
+    <Crisis cID="VW1955">
+        <Info>
+            <Name>Vietnam War</Name>
+            <Kind>Armed Conflict</Kind>
+            <Description>War between South and North Vietnam for control of the country.</Description>
+            <Location>
+                <Country>Vietnam</Country>
+            </Location>
+            <Date>
+                <StartDate>1955-11-01</StartDate>
+                <EndDate>1975-04-30</EndDate>
+            </Date>
+        </Info>
+        <History>The Vietnam War was a Cold War-era military conflict that occurred in Vietnam, Laos, and Cambodia from 1 November 1955 to the fall of Saigon on 30 April 1975. This war followed the First Indochina War and was fought between North Vietnam, supported by its communist allies, and the government of South Vietnam, supported by the United States and other anti-communist countries.</History>
+        <HumanImpact>1,102,000–3,886,026 Deaths</HumanImpact>
+        <EconomicImpact>N/A</EconomicImpact>
+        <ResourcesNeeded>N/A</ResourcesNeeded>
+        <WaysToHelp>N/A</WaysToHelp>
+        <External>
+            <Image title="Search and Destroy">http://www.us-history.com/wp-content/uploads/2012/03/us-history-vietnam-war.jpg</Image>
+            <Map title="Vietnam">http://www.lonelyplanet.com/maps/asia/vietnam/map_of_vietnam.jpg</Map>
+        </External>
+        
+        
+        <Organizations>
+            <!-- Repeat Organization up to 10 times -->
+        </Organizations>
+        
+        <People>
+            <Person pID = "JF1917" />
+        </People>
+        
+    </Crisis>
+    <Crisis cID="MD2006">
+        <Info>
+            <Name>Mexican Drug War</Name>
+            <Kind>Armed Conflict</Kind>
+            <Description>An ongoing struggle between the Mexican Government and drug cartels over illegal substance smuggling and trade</Description>
+            <Location>
+                <Country>Mexico</Country>
+            </Location>
+            <Date>
+                <StartDate>2006-12-11</StartDate>
+            </Date>
+        </Info>
+        <History>The Mexican Drug War is an ongoing armed conflict between rival drug cartels fighting each other for regional control and against the Mexican government forces. The government's principal goal has been to put down the drug-related violence that was raging between different drug cartels before any military intervention was made.[32] In addition, the Mexican government has claimed that their primary focus is on dismantling the powerful drug cartels, rather than on drug trafficking prevention, which is left to U.S. functionaries.</History>
+        <HumanImpact>60,000-100,000 Deaths(Estimate Varies)</HumanImpact>
+        <EconomicImpact>N/A</EconomicImpact>
+        <ResourcesNeeded>N/A</ResourcesNeeded>
+        <WaysToHelp>N/A</WaysToHelp>
+        <External>
+            <Image title="Mexican Troop Standoff">http://upload.wikimedia.org/wikipedia/commons/6/6e/Fuerza_del_Estado_Michoac%C3%A1n.jpg</Image>
+            <Map title="Mexico">http://www.lonelyplanet.com/maps/north-america/mexico/map_of_mexico.jpg</Map>
+            <Citation>http://en.wikipedia.org/wiki/Mexican_drug_war</Citation>
+        </External>
+        
+        <Organizations>
+            <Organization oID = "MG1810" />
+        </Organizations>
+        
+        <People>
+        </People>
+        
+    </Crisis>
+    
+	<Crisis cID="ER2011">
+		<Info>
+			<Name>2011 Egyptian Revolution</Name>
+			<Kind>Revolution</Kind>
+			<Description>The Egyptian Revolution of 2011 took place following a popular uprising that began on 25 January 2011. It was mainly a campaign of non-violent civil resistance, which featured a series of demonstrations, marches, acts of civil disobedience and labor strikes. </Description>
+			<Location>
+				<Country>Egypt</Country>
+			</Location>
+			<Date>
+				<StartDate>2011-01-25</StartDate>
+				<EndDate>2011-02-11</EndDate>
+			</Date>
+		</Info>
+		<History>Millions of protesters from a variety of socio-economic and religious backgrounds demanded the overthrow of the regime of Egyptian President Hosni Mubarak. Grievances of Egyptian protesters were focused on legal and political issues including police brutality, state of emergency laws, lack of free elections and freedom of speech, corruption, and economic issues including high unemployment, food price inflation and low wages. The primary demands from protesters were the end of the Hosni Mubarak regime, the end of emergency law, freedom, justice, a responsive non-military government and a say in the management of Egypt's resources. On 11 February 2011, Vice President Omar Suleiman announced that Mubarak would be stepping down as president and turning power over to the Supreme Council of the Armed Forces (SCAF) and Mubarak resigned from office.</History>
+		<HumanImpact>846 deaths, 6467 wounded, 12000 arrested</HumanImpact>
+		<EconomicImpact>The protests paralyzed the country's economy, shutting down offices, shops, and banks throughout
+            Egypt's major cities. There has also been a negative effect on Egypt's tourist industry, which makes up
+            5 to 6 percent of its GDP.</EconomicImpact>
+		<ResourcesNeeded>Money to stimulate the economy.</ResourcesNeeded>
+		<WaysToHelp>Donate to organizations that aid Egypt's rebuilding</WaysToHelp>
+		<External>
+			<Image title="A demonstrator defaces a poster of Egyption President Hosni Mubarak">http://i.huffpost.com/gadgets/slideshows/16507/slide_16507_229768_large.jpg</Image>
+			<Image title="Celebration after Mubarak resignation">http://i.huffpost.com/gadgets/slideshows/17213/slide_17213_238712_huge.jpg</Image>
+			<Video title="Egyptian Revolution Compilation Video">http://www.youtube.com/watch?v=-HGfFyqJMrk</Video>
+			<Map title="Map of Egypt">http://www.lonelyplanet.com/maps/africa/egypt/map_of_egypt.jpg</Map>
+			<Social network="Twitter">https://www.twitter.com/ikhwanweb</Social>
+			<Link title="Egypt's revolution, economic doom?">http://www.periscopepost.com/2011/01/egypts-revolution-economic-doom/</Link>
+		</External>
+        
+		<Organizations>
+			<Organization oID="AI1961" />
+		</Organizations>
+        
+        <People>
+        </People>
+	</Crisis>
+	<Crisis cID="HT1900">
+		<Info>
+			<Name>Human Trafficking</Name>
+			<!-- <Abbreviation>OPTIONAL string</Abbreviation> -->
+            
+			<!-- Repeat Kind element as many times as needed-->
+			<Kind>Global Issue</Kind>
+			<Kind>Sexual Slavery</Kind>
+			<Kind>Forced Labor</Kind>
+			
+			<Description>Article 3, paragraph (a) of the Protocol to Prevent, Suppress and Punish Trafficking in Persons defines Trafficking in Persons as the recruitment, transportation, transfer, harbouring or receipt of persons, by means of the threat or use of force or other forms of coercion, of abduction, of fraud, of deception, of the abuse of power or of a position of vulnerability or of the giving or receiving of payments or benefits to achieve the consent of a person having control over another person, for the purpose of exploitation. Exploitation shall include, at a minimum, the exploitation of the prostitution of others or other forms of sexual exploitation, forced labour or services, slavery or practices similar to slavery, servitude or the removal of organs</Description>
+			
+			<Location>
+				<Country>Global</Country>
+				<!-- <AddressLine>Optional string</AddressLine>
+                 <AddressLine>Optional string </AddressLine>
+                 <AddressLine>Optional string</AddressLine>
+                 <City>OPTIONAL string</City>
+                 <State>OPTIONAL string</State>
+                 <Postal>OPTIONAL string</Postal> -->
+			</Location>
+			
+			<Date>
+				<StartDate>Ongoing, as early as Ancient Rome</StartDate>
+				<!-- <StartTime>OPTIONAL hh:mm:ss</StartTime>
+                 <EndDate>OPTIONAL YYYY-MM-DD</EndDate>
+                 <EndTime>OPTIONAL hh:mm:s</EndTime>-->
+			</Date>
+			
+		</Info>
+		<History>International pressure to address trafficking in women and children became a growing part of the social Reform movement in the United States and Europe during the late 19th century. International legislation against the trafficking of women and children began with the ratification of an international convention in 1901, followed by ratification of a second convention in 1904. These conventions were ratified by 34 countries. The first formal international research into the scope of the problem was funded by American philanthropist John D. Rockefeller, through the American Bureau of Social Hygiene. In 1923, a committee from the bureau was tasked with investigating trafficking in 28 countries, interviewing approximately 5,000 informants and analyzing information over two years before issuing its final report. This was the first formal report on trafficking in women and children to be issued by an official body.</History>
+		
+		<HumanImpact>The UN crime-fighting office announced that 2.4 million people across the globe are victims of human trafficking at any one time, and 80 percent of them are being exploited as sexual slaves.</HumanImpact>
+		
+		<EconomicImpact>Trafficking is a lucrative industry. It is second only to drug trafficking as the most profitable illegal industry in the world. In 2004, the total annual revenue for trafficking in persons were estimated to be between USD$5 billion and $9 billion.In 2005, Patrick Belser of ILO estimated a global annual profit of $31.6 billion. In 2008, the United Nations estimated nearly 2.5 million people from 127 different countries are being trafficked into 137 countries around the world.</EconomicImpact>
+		<ResourcesNeeded>Laws, Enforcement, Donations</ResourcesNeeded>
+		<WaysToHelp>Awareness-raising, Donations to Organizations and Campaigns, Lobbying</WaysToHelp>
+		<External>
+			<!-- Repeat any External sub-element as needed-->
+			<Image title="Stop Human Trafficking">http://www.blackandmissinginc.com/wordpress/wp-content/uploads/2012/01/stop-human-trafficking1.jpg</Image>
+			<Video title="WE ARE NOT FOR SALE">http://vimeo.com/58972870</Video>
+			<Map title="A Global Display Of Human Trafficking Incidents And News">http://human.globalincidentmap.com/</Map>
+			<Social network="Facebook">http://www.facebook.com/humantraffickingL</Social>
+			<Link title="Required String">http://www.humantrafficking.org/</Link>
+			<!-- <Citation>Optional String</Citation> -->
+		</External>
+		
+		<Organizations>
+			<!-- Repeat Organization up to 10 times -->
+			<Organization oID="WB1945" />
+			<Organization oID="WH1948" />
+			<Organization oID="NA1949" />
+		</Organizations>
+		
+		<People>
+			<!-- Repeat Person up to 10 times -->
+			<Person pID="BG1955" />
+			<Person pID="BO1961" />
+		</People>
+		
+	</Crisis>
+    
+	<Crisis cID="HO1930">
+		<Info>
+			<Name>Holocaust</Name>
+			<!--<Abbreviation>OPTIONAL string</Abbreviation> -->
+			<!-- Repeat Kind element as many times as needed-->
+			<Kind>Genocide</Kind>
+			<Kind>Mass Killing</Kind>
+			<Kind>World War II</Kind>
+			<Description>The Holocaust was the systematic, bureaucratic, state-sponsored persecution and murder of approximately six million Jews by the Nazi regime and its collaborators. "Holocaust" is a word of Greek origin meaning "sacrifice by fire." The Nazis, who came to power in Germany in January 1933, believed that Germans were "racially superior" and that the Jews, deemed "inferior," were an alien threat to the so-called German racial community.
+                During the era of the Holocaust, German authorities also targeted other groups because of their perceived "racial inferiority": Roma (Gypsies), the disabled, and some of the Slavic peoples (Poles, Russians, and others). Other groups were persecuted on political, ideological, and behavioral grounds, among them Communists, Socialists, Jehovah's Witnesses, and homosexuals.</Description>
+			<Location>
+				<!--<AddressLine>Optional string</AddressLine>
+                 <AddressLine>Optional string </AddressLine>
+                 <AddressLine>Optional string</AddressLine>
+                 <City>OPTIONAL string</City>
+                 <State>OPTIONAL string</State>
+                 <Postal>OPTIONAL string</Postal> -->
+				<Country>Germany</Country>
+                
+			</Location>
+			<Date>
+				<StartDate>REQUIRED 1933-01-30</StartDate>
+				<!-- <StartTime>OPTIONAL hh:mm:ss</StartTime> -->
+				<EndDate>1945-05-08</EndDate>
+				<!-- <EndTime>OPTIONAL hh:mm:s</EndTime> -->
+			</Date>
+		</Info>
+		<History>The Holocaust (also called Ha-Shoah in Hebrew) refers to the period from January 30, 1933 - when Adolf Hitler became chancellor of Germany - to May 8, 1945, when the war in Europe officially ended. During this time, Jews in Europe were subjected to progressively harsher persecution that ultimately led to the murder of 6,000,000 Jews (1.5 million of these being children) and the destruction of 5,000 Jewish communities. These deaths represented two-thirds of European Jewry and one-third of all world Jewry.</History>
+		<HumanImpact>Jews - 5.9 million, Soviet POWs - 2–3 million, Ethnic Poles - 1.8–2 million, Romani - 220,000–1,500,000, Disabled - 00,000–250,000, Freemasons - 80,000-200,000, Slovenes - 20,000–25,000, Homosexuals - 5,000–15,000, Jehovah's - Witnesses	2,500–5,000</HumanImpact>
+		<EconomicImpact>The Jewish population of the 11 districts studied declined on average by 39 percent between the 1939 and 1959 censuses. The average GDP of those regions in 2002 was some 23 percent lower than the average for Russia as a whole.</EconomicImpact>
+		<ResourcesNeeded>Military Power was needed to Overthrow Nazi Germany</ResourcesNeeded>
+		<WaysToHelp>Never forget the horrible happenings of the Holocaust</WaysToHelp>
+		<External>
+			<!-- Repeat any External sub-element as needed-->
+			<Image title="Auschwitz-II (Birkenau), May/June 1944">http://upload.wikimedia.org/wikipedia/en/8/89/Selection_Birkenau_ramp.jpg</Image>
+			<Image title="Entrance to Auschwitz-Birkenau, 1945">http://upload.wikimedia.org/wikipedia/commons/6/6a/Bundesarchiv_Bild_175-04413%2C_KZ_Auschwitz%2C_Einfahrt.jpg</Image>
+			<Video title="Concentration Camp Liberation">http://www.history.com/topics/the-holocaust/videos#concentration-camp-liberation</Video>
+			<Map title="Holocaust Map">http://www.holocaustmap.com/site/map/</Map>
+			<!--<Social network="Choose: Facebook,Google+,Twitter,Other">VALID URL</Social>-->
+			<Link title="US Holocaust Memorial Museum">http://www.ushmm.org/wlc/en/article.php?ModuleId=10005143</Link>
+			<!-- <Citation>Optional String</Citation> -->
+		</External>
+		<Organizations>
+			<!-- Repeat Organization up to 10 times -->
+			<Organization oID="AI1961" />
+		</Organizations>
+		
+		<People>
+			<!-- Repeat Person up to 10 times -->
+			<Person pID="AH1889" />
+		</People>
+        
+	</Crisis>
+    <Organization oID="MG1810">
+        <Info>
+            <Name>Mexican Government</Name>
+            <Kind>Government</Kind>
+            <Description>A federal presidential representative democratic republic whose government is based on a congressional system</Description>
+            <Location>
+                <Country>Mexico</Country>
+            </Location>
+            <Date>
+                <StartDate>1810-09-16</StartDate>
+            </Date>
+        </Info>
+        <History>Mexico, officially the United Mexican States is a federal constitutional republic in North America. It is bordered on the north by the United States of America; on the south and west by the Pacific Ocean; on the southeast by Guatemala, Belize, and the Caribbean Sea; and on the east by the Gulf of Mexico.</History>
+        <ContactInfo>
+        </ContactInfo>
+        <External>
+            <Image title="Coat of Arms of Mexico">http://upload.wikimedia.org/wikipedia/commons/2/2a/Coat_of_arms_of_Mexico.svg</Image>
+            <Image title="Mexican Flag">http://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg</Image>
+            <Map title="Mexico">http://www.lonelyplanet.com/maps/north-america/mexico/map_of_mexico.jpg</Map>
+        </External>
+        
+        <Crises>
+            <Crisis cID = "CM1962" />
+            <Crisis cID = "HT1900" />
+            <Crisis cID = "MD2006" />
+        </Crises>	
+        
+        <People>
+        </People>	
+        
+    </Organization>
+	<Organization oID="NA1949">
+		<Info>
+			<Name>The North Atlantic Treaty Organization</Name>
+			<Abbreviation>NATO</Abbreviation>
+			<!-- Repeat Kind element as many times as needed-->
+			<Kind>Military Alliance</Kind>
+			<Description>The North Atlantic Treaty Organization, also called the (North) Atlantic Alliance, is an intergovernmental military alliance based on the North Atlantic Treaty which was signed on 4 April 1949. The organization constitutes a system of collective defense whereby its member states agree to mutual defense in response to an attack by any external party. NATO's headquarters are in Brussels, Belgium, one of the 28 member states across North America and Europe, the newest of which, Albania and Croatia, joined in April 2009. An additional 22 countries participate in NATO's "Partnership for Peace", with 15 other countries involved in institutionalized dialogue programs. The combined military spending of all NATO members constitutes over 70% of the world's defense spending.</Description>
+			<Location>
+                
+				<City>Brussels</City>
+				<Country>Belgium</Country>
+				<Postal>1110</Postal>
+				<!-- <AddressLine>Optional string </AddressLine>
+                 <AddressLine>Optional string</AddressLine>
+                 <State>OPTIONAL string</State>
+                 <AddressLine>1110</AddressLine>
+				 -->
+			</Location>
+			<Date>
+				<StartDate>1949-04-04</StartDate>
+				<!-- <StartTime>OPTIONAL hh:mm:ss</StartTime>
+                 <EndDate>OPTIONAL YYYY-MM-DD</EndDate>
+                 <EndTime>OPTIONA hh:mm:s</EndTime> -->
+			</Date>
+		</Info>
+		<History>For its first few years, NATO was not much more than a political association. However, the Korean War galvanized the member states, and an integrated military structure was built up under the direction of two US supreme commanders. The course of the Cold War led to a rivalry with nations of the Warsaw Pact, which formed in 1955. The first NATO Secretary General, Lord Ismay, stated in 1949 that the organization's goal was "to keep the Russians out, the Americans in, and the Germans down."[4] Doubts over the strength of the relationship between the European states and the United States ebbed and flowed, along with doubts over the credibility of the NATO defence against a prospective Soviet invasion—doubts that led to the development of the independent French nuclear deterrent and the withdrawal of the French from NATO's military structure in 1966.</History>
+		<ContactInfo>
+			<!-- all Contactinfo sub-elements occur 1 time and are optional-->
+			<Website>http://www.nato.int/L</Website>
+			<!-- <Telephone>STRING</Telephone>
+             <Fax>STRING</Fax>
+             <Email>STRING</Email> -->
+		</ContactInfo>
+		<External>
+			<!-- Repeat any External sub-element as needed-->
+			<!-- <Image title="Required String">VALID URL</Image>
+             <Video title="Required String">VALID URL</Image> -->
+			<Map title="History of NATO">http://en.wikipedia.org/wiki/File:History_of_NATO_enlargement.svg</Map>
+			<Map title="NATO Partnerships">http://en.wikipedia.org/wiki/File:NATO_partnerships.svg</Map>
+			
+			<Social network="Facebook">http://www.facebook.com/NATO?sid=0.2535960127133876</Social>
+			<Social network="Twitter">http://twitter.com/NATO</Social>
+			<Social network="Google+">http://www.nato.int/googleplus</Social>
+			
+			<!--<Link title="Required String">VALID URL</Image>
+             <Citation>Optional String</Citation> -->
+		</External>
+		
+		<Crises>
+			<!-- Repeat Crisis up to 10 times -->
+			<Crisis cID="ER2011" />
+			<Crisis cID="SY2011" />
+		</Crises>
+		
+		<People>
+			<!-- Repeat Person up to 10 times -->
+			<Person pID="BO1961" />
+			<Person pID="GB1946" />
+			<Person pID="JK1917" />
+			<Person pID="NM1918" />
+			
+		</People>
+		
+	</Organization>
+    <Organization oID="AR1881">
+        <Info>
+            <Name>American Red Cross</Name>
+            <Abbreviation>ARC</Abbreviation>
+            <Kind>Non-Profit</Kind>
+            <Description>Humanitarian relief and charity organization</Description>
+            <Location>
+                <AddressLine>2025 E Street</AddressLine>
+                <City>Washington D.C.</City>
+                <State>Virginia</State>
+                <Country>USA</Country>
+                <Postal>20006</Postal>
+            </Location>
+            <Date>
+                <StartDate>1881-05-21</StartDate>
+            </Date>
+        </Info>
+        <History>The American Red Cross (ARC), also known as the American National Red Cross, is a humanitarian organization that provides emergency assistance, disaster relief and education inside the United States. It is the designated U.S. affiliate of the International Federation of Red Cross and Red Crescent Societies.</History>
+        <ContactInfo>
+            <Website>http://www.redcross.org/</Website>
+            <Telephone>1-800-733-2767</Telephone>
+        </ContactInfo>
+        <External>
+            <Image title="Logo">http://upload.wikimedia.org/wikipedia/commons/8/88/Americanredcross.jpg</Image>
+            <Video title="2012 Year in Review">http://youtu.be/ufRYD3vxcCA</Video>
+            <Map title="American Red Cross HQ">http://farm4.static.flickr.com/3242/2667055551_154eb325e6.jpg</Map>
+            <Social network="Facebook">https://www.facebook.com/redcross</Social>
+            <Social network="Twitter">https://twitter.com/RedCross</Social>
+            <Citation>http://en.wikipedia.org/wiki/American_Red_Cross</Citation>
+        </External>
+        
+        <Crises>
+            <Crisis cID = "HK2005" />
+            <Crisis cID = "AI1970" />
+        </Crises>		
+        
+        <People>
+        </People>
+        
+    </Organization>
+	<Organization oID="WH1948">
+		<Info>
+			<Name>World Health Organization</Name>
+			<Abbreviation>WHO</Abbreviation>
+			<!-- Repeat Kind element as many times as needed-->
+			<Kind>Public Health Advocate</Kind>
+			<Description>WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries and monitoring and assessing health trends.</Description>
+			<Location>
+				<AddressLine>Avenue Appia 20</AddressLine>
+				<City>Geneva</City>
+				<Country>Switzerland</Country>
+				<Postal>1211</Postal>
+				<!-- 				<AddressLine>Optional string </AddressLine>
+                 <AddressLine>Optional string</AddressLine>
+                 <State>OPTIONAL string</State> -->
+			</Location>
+			<Date>
+				<StartDate>1948-04-07</StartDate>
+				<!--<StartTime>OPTIONAL hh:mm:ss</StartTime>
+                 <EndDate>OPTIONAL YYYY-MM-DD</EndDate>
+                 <EndTime>OPTIONA hh:mm:s</EndTime>-->
+			</Date>
+		</Info>
+		<History>When diplomats met to form the United Nations in 1945, one of the things they discussed was setting up a global health organization.
+            
+            WHO’s Constitution came into force on 7 April 1948 – a date we now celebrate every year as World Health Day.</History>
+		<ContactInfo>
+			<!-- all Contactinfo sub-elements occur 1 time and are optional-->
+			<Website>http://www.who.int/</Website>
+			<Telephone>+41 22 791 21 11 </Telephone>
+			<Fax>S+ 41 22 791 31 11</Fax>
+			<!--<Email>STRING</Email>-->
+		</ContactInfo>
+		<External>
+			<!-- Repeat any External sub-element as needed-->
+			<Image title="WHO Logo">http://www.who.int/sysmedia/media/resources/who-logo-en.jpg</Image>
+			<!--<Video title="Required String">VALID URL</Video>-->
+			<!--<Map title="WHO Location">https://maps.google.com/maps?q=Avenue+Appia+20+1211+Geneva,+Switzerland&ie=UTF-8&hq=&hnear=0x478c64f73e96c8cd:0xb9b86c30af2b2e28,Avenue+Appia+20,+CH-1202+Gen%C3%A8ve,+Switzerland&gl=us&ei=lfI3UZPCJ4TQ2QX95YGgBw&ved=0CDMQ8gEwAA</Map>-->
+			<Social network="Google+">https://plus.google.com/u/0/+who/posts</Social>
+			<Social network="Twitter">http://www.twitter.com/WHO</Social>
+			<Social network="Facebook">https://www.facebook.com/WorldHealthOrganization</Social>
+			<Social network="Youtube">http://www.youtube.com/who</Social>
+			
+			<!--<Link title="Required String">VALID URL</Link>
+             <Citation>Optional String</Citation>-->
+		</External>
+		
+		<Crises>
+			<!-- Repeat Crisis up to 10 times -->
+			<Crisis cID="AI1970" />
+		</Crises>
+		
+		<People>
+			<!-- Repeat Person up to 10 times -->
+			<Person pID="BG1955" />
+		</People>
+		
+	</Organization>
+    
+    <Organization oID="AI1961">
+		<Info>
+			<Name>Amnesty International</Name>
+			<Abbreviation>AI</Abbreviation>
+			<Kind>Non-profit</Kind>
+			<Kind>Non-governmental</Kind>
+			<Description>Amnesty International is a global movement of more than 3 million supporters, members and activists in over 150 countries and territories who campaign to end grave abuses of human rights.</Description>
+			<Location>
+				<AddressLine>1 Easton Street</AddressLine>
+				<City>London</City>
+				<Country>UK</Country>
+			</Location>
+			<Date>
+				<StartDate>1961-07-00</StartDate>
+			</Date>
+		</Info>
+		<History>Amnesty International was founded in London in July 1961 by English labour lawyer Peter Benenson. By the mid-1960s Amnesty International's global presence was growing and an International Secretariat and International Executive Committee were established to manage Amnesty International's national organisations, called 'Sections', which had appeared in several countries.</History>
+		<ContactInfo>
+			<Website>https://www.amnesty.org</Website>
+			<Telephone>+44-20-74135500</Telephone>
+			<Fax>+44-20-79561157</Fax>
+		</ContactInfo>
+		<External>
+			<Image title="Amnesty International Logo">http://upload.wikimedia.org/wikipedia/en/e/ee/Amnesty_International_logo.svg</Image>
+			<Map title="Amnesty International Map">http://demandjusticenow.org/</Map>
+			<Social network="Twitter">https://www.twitter.com/amnestyonline</Social>
+		</External>
+        
+        
+		<Crises>
+			<Crisis cID="AI1970" />
+			<Crisis cID="ER2011" />
+			<Crisis cID="HT1900" />
+			<Crisis cID="SY2011" />
+		</Crises>
+        <People>
+        </People>
+        
+	</Organization>
+	
+	<Organization oID="CG1790">
+		<Info>
+			<Name>United States Coast Guard</Name>
+			<Abbreviation>USCG</Abbreviation>
+			<Kind>Governmental</Kind>
+			<Description>The U.S. Coast Guard is one of the five armed forces of the United States and the only military organization within the Department of Homeland Security. Since 1790 the Coast Guard has safeguarded our Nation's maritime interests and environment around the world. The Coast Guard is an adaptable, responsive military force of maritime professionals whose broad legal authorities, capable assets, geographic diversity and expansive partnerships provide a persistent presence along our rivers, in the ports, littoral regions and on the high seas. Coast Guard presence and impact is local, regional, national and international. These attributes make the Coast Guard a unique instrument of maritime safety, security and environmental stewardship.</Description>
+			<Location>
+				<AddressLine>2100 2nd St SW #7102</AddressLine>
+				<City>Washington</City>
+				<State>DC</State>
+				<Country>USA</Country>
+				<Postal>20593</Postal>
+			</Location>
+			<Date>
+				<StartDate>1790-00-00</StartDate>
+			</Date>
+		</Info>
+		<History>The roots of the Coast Guard lie in the United States Revenue Cutter Service established by Alexander Hamilton under the Department of the Treasury on 4 August 1790. The first Coast Guard station was in Newburyport, Massachusetts. Until the re-establishment of the United States Navy in 1798, the Revenue Cutter Service was the only naval force of the early United States. It was established to collect taxes from a brand new nation of patriot smugglers. When the officers were out at sea, they were told to crack down on piracy; while they were at it, they might as well rescue anyone in distress.</History>
+		<ContactInfo>
+			<Website>https://www.uscg.mil</Website>
+		</ContactInfo>
+		<External>
+			<Image title="Coast Guard seal">http://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/US-CoastGuard-Seal.svg/210px-US-CoastGuard-Seal.svg.png</Image>
+			<Video title="US Coast Guard Recruiting Ad">http://www.youtube.com/watch?v=MbHEp42vTEs</Video>
+			<Map title="Map of Coast Guard Office">https://homeport.uscg.mil/portal/ep/images/map_final.jpg</Map>
+			<Social network="Twitter">https://twitter.com/USCG</Social>
+			<Social network="Facebook">https://www.facebook.com/UScoastguard</Social>
+		</External>
+        
+		<Crises>
+			<Crisis cID="HK2005" />
+		</Crises>
+        <People>
+        </People>
+        
+	</Organization>
+	
+	<Person pID="NM1918">
+		<Info>
+			<Name>Nelson Mandela</Name>
+			<Abbreviation>OPTIONAL string</Abbreviation>
+			<!-- Repeat Kind element as many times as needed-->
+			<Kind>Civil Rights Activist</Kind>
+			<Kind>Global Leader</Kind>
+			<Description>Nelson Rolihlahla Mandela is a South African anti-apartheid activist, revolutionary and politician who served as President of South Africa from 1994 to 1999, the first to be elected in a fully representative, multiracial election</Description>
+			<Location>
+				<!--<AddressLine>Optional string</AddressLine>
+                 <AddressLine>Optional string </AddressLine>
+                 <AddressLine>Optional string</AddressLine>
+                 <State>OPTIONAL string</State>
+                 <Postal>OPTIONAL string</Postal>-->
+                
+				<City>Transkei</City>
+				<Country>South Africa</Country>
+			</Location>
+			<Date>
+				<StartDate>1918-07-18</StartDate>
+				<!--<StartTime>OPTIONAL hh:mm:ss</StartTime>
+                 <EndDate>OPTIONAL YYYY-MM-DD</EndDate>
+                 <EndTime>OPTIONA hh:mm:s</EndTime>-->
+			</Date>
+		</Info>
+		<History>Nelson Mandela was born on July 18, 1918, in Transkei, South Africa. He became actively involved in the anti-apartheid movement and joined the African National Congress in 1942. For 20 years, he directed a campaign of peaceful, non-violent defiance against the South African government and its racist policies. In 1994, Mandela was inaugurated as the country's first black president. In 2009, Mandela's birthday, July 18, was designated as Mandela Day, an international celebration of his legacy and a day dedicated to promoting global peace.</History>
+		<ContactInfo>
+			<!-- all Contactinfo sub-elements occur 1 time and are optional-->
+			<Website>http://www.nelsonmandela.org/</Website>
+			<!--<Telephone>STRING</Telephone>
+             <Fax>STRING</Fax>
+             <Email>STRING</Email>-->
+		</ContactInfo>
+		<External>
+			<!-- Repeat any External sub-element as needed-->
+			<Image title="Mandela in 2008">http://upload.wikimedia.org/wikipedia/commons/1/14/Nelson_Mandela-2008_%28edit%29.jpg</Image>
+			<Video title="Nelson Mandela and South Africa">http://youtu.be/vuqJpnSO1jc</Video>
+			<!--<Map title="Required String">VALID URL</Map>-->
+			<Social network="Facebook">http://www.facebook.com/NelsonMandelaCentreOfMemory</Social>
+			<!--<Link title="Required String">VALID URL</Link>
+             <Citation>Optional String</Citation>-->
+		</External>
+		
+		<Organizations>
+			<!-- Repeat Organization up to 10 times -->
+			<Organization oID="AF1970" />
+			<Organization oID="WH1948" />
+			<Organization oID="AI1961" />
+		</Organizations>
+		
+		<Crises>
+			<!-- Repeat Crisis up to 10 times -->
+			<Crisis cID="AI1970" />
+		</Crises>		
+        
+	</Person>
+    
+	<!-- ALL  THE OTHER PEOPLE -->
+    
+    
+</WorldCrisesDatabase>

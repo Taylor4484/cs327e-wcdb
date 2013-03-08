@@ -20,12 +20,21 @@
   	<WaysToHelp>N/A</WaysToHelp>
   	<External>
   		<Image title="Search and Destroy">http://www.us-history.com/wp-content/uploads/2012/03/us-history-vietnam-war.jpg</Image>
+<<<<<<< HEAD
   		<Map title="Vietnam">https://maps.google.com/maps?q=vietnam&hl=en&sll=14.058324,108.277199&sspn=21.073031,40.869141&hnear=Vietnam&t=m&z=5</Map>
   		<Citation>http://en.wikipedia.org/wiki/Vietnam_war</Citation>
+=======
+  		<Map title="Vietnam">http://www.lonelyplanet.com/maps/asia/vietnam/map_of_vietnam.jpg</Map>
+>>>>>>> Validating and Fixing Instances
   	</External>
-
+  	
+  	
+	<Organizations>
+	<!-- Repeat Organization up to 10 times -->
+	</Organizations>
+	
   	<People>
-  		<Person pID = "JF1917">
+  		<Person pID = "JF1917" />
   	</People>
   			
   </Crisis>
@@ -49,13 +58,20 @@
   	<WaysToHelp>N/A</WaysToHelp>
   	<External>
   		<Image title="Mexican Troop Standoff">http://upload.wikimedia.org/wikipedia/commons/6/6e/Fuerza_del_Estado_Michoac%C3%A1n.jpg</Image>
+<<<<<<< HEAD
   		<Map title="Mexico">https://maps.google.com/maps?q=mexico&hl=en&sll=14.058324,108.277199&sspn=21.073031,40.869141&hnear=Mexico&t=m&z=5</Map>
+=======
+  		<Map title="Mexico">http://www.lonelyplanet.com/maps/north-america/mexico/map_of_mexico.jpg</Map>
+>>>>>>> Validating and Fixing Instances
   		<Citation>http://en.wikipedia.org/wiki/Mexican_drug_war</Citation>
   	</External>
   	
   	<Organizations>
-  		<Organization oID = "MG1810">
+  		<Organization oID = "MG1810" />
   	</Organizations>
+  	
+  	<People>
+  	</People>
   	
   </Crisis>
   
@@ -83,18 +99,25 @@
   	</ContactInfo>
   	<External>
   		<Image title="Logo">http://upload.wikimedia.org/wikipedia/commons/8/88/Americanredcross.jpg</Image>
+<<<<<<< HEAD
   		<Video title="2012 Year in Review">http://www.youtube.com/watch?v=ufRYD3vxcCA&feature=player_embedded</Video>
   		<Map title="American Red Cross HQ">https://maps.google.com/maps?q=American+Red+Cross+National+Headquarters,+E+Street+Northwest,+Washington,+DC&hl=en&ll=38.897713,-77.040939&spn=0.132797,0.31929&sll=23.634501,-102.552784&sspn=19.922391,40.869141&oq=american+red+cross+national+headquarters&hq=American+Red+Cross+National+Headquarters,+E+Street+Northwest,+Washington,+DC&radius=15000&t=m&z=12</Map>
+=======
+  		<Video title="2012 Year in Review">http://youtu.be/ufRYD3vxcCA</Video>
+  		<Map title="American Red Cross HQ">http://farm4.static.flickr.com/3242/2667055551_154eb325e6.jpg</Map>
+>>>>>>> Validating and Fixing Instances
   		<Social network="Facebook">https://www.facebook.com/redcross</Social>
   		<Social network="Twitter">https://twitter.com/RedCross</Social>
   		<Citation>http://en.wikipedia.org/wiki/American_Red_Cross</Citation>
   	</External>
   	
   	<Crises>
-  		<Crisis cID = "HK2005">
-  		<Crisis cID = "AI1970">
+  		<Crisis cID = "HK2005" />
+  		<Crisis cID = "AI1970" />
   	</Crises>		
 
+  	<People>
+  	</People>
   	
   </Organization>
 
@@ -111,18 +134,27 @@
   		</Date>
   	</Info>
   	<History>Mexico, officially the United Mexican States is a federal constitutional republic in North America. It is bordered on the north by the United States of America; on the south and west by the Pacific Ocean; on the southeast by Guatemala, Belize, and the Caribbean Sea; and on the east by the Gulf of Mexico.</History>
+  	<ContactInfo>
+  	</ContactInfo>
   	<External>
   		<Image title="Coat of Arms of Mexico">http://upload.wikimedia.org/wikipedia/commons/2/2a/Coat_of_arms_of_Mexico.svg</Image>
   		<Image title="Mexican Flag">http://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg</Image>
+<<<<<<< HEAD
   		<Map title="Mexico">https://maps.google.com/maps?q=mexico&hl=en&sll=14.058324,108.277199&sspn=21.073031,40.869141&hnear=Mexico&t=m&z=5</Map>
   		<Citation>http://en.wikipedia.org/wiki/Mexico</Citation>
+=======
+  		<Map title="Mexico">http://www.lonelyplanet.com/maps/north-america/mexico/map_of_mexico.jpg</Map>
+>>>>>>> Validating and Fixing Instances
   	</External>
   	
   	<Crises>
-  		<Crisis cID = "CM1962">
-  		<Crisis cID = "HT1900">
-  		<Crisis cID = "MD2006">
-  	</Crises>		
+  		<Crisis cID = "CM1962" />
+  		<Crisis cID = "HT1900" />
+  		<Crisis cID = "MD2006" />
+  	</Crises>	
+  	
+  	<People>
+  	</People>	
 
   </Organization>
 

@@ -200,7 +200,8 @@
 	</xsd:complexType>
     
 	<xsd:simpleType name="uriType">
-		<xsd:restriction base="xsd:anyURI"/>
+  <xsd:restriction base="xsd:string">
+  </xsd:restriction>
 	</xsd:simpleType>
     
     

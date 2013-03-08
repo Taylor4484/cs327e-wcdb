@@ -27,6 +27,10 @@ some effects on the farming industry in Iceland.</EconomicImpact>
 			<Video title="Footage of the eruption">http://www.youtube.com/watch?v=tGPD_0SCDp4</Video>
 			<Map title="Map of the ash cloud">http://upload.wikimedia.org/wikipedia/commons/b/b1/Eyjafjallaj%C3%B6kull_volcanic_ash_composite.png</Map>
 		</External>
+        <Organizations>
+		</Organizations>
+        <People>
+		</People>
 	</Crisis>
 
 	<Crisis cID="ER2011">
@@ -53,7 +57,7 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
 			<Image title="A demonstrator defaces a poster of Egyption President Hosni Mubarak">http://i.huffpost.com/gadgets/slideshows/16507/slide_16507_229768_large.jpg</Image>
 			<Image title="Celebration after Mubarak resignation">http://i.huffpost.com/gadgets/slideshows/17213/slide_17213_238712_huge.jpg</Image>
 			<Video title="Egyptian Revolution Compilation Video">http://www.youtube.com/watch?v=-HGfFyqJMrk</Video>
-			<Map title="Map of Egypt">https://maps.google.com/maps?q=egypt&hl=en&sll=38.864527,-77.013525&sspn=0.007201,0.007081&t=h&hnear=Egypt&z=6</Map>
+			<Map title="Map of Egypt">http://www.lonelyplanet.com/maps/africa/egypt/map_of_egypt.jpg</Map>
 			<Social network="Twitter">https://www.twitter.com/ikhwanweb</Social>
 			<Link title="Egypt's revolution, economic doom?">http://www.periscopepost.com/2011/01/egypts-revolution-economic-doom/</Link>
 		</External>
@@ -61,6 +65,9 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
 		<Organizations>
 			<Organization oID="AI1961" />
 		</Organizations>
+                
+        <People>
+        </People>
 	</Crisis>
 
 
@@ -88,7 +95,7 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
 		</ContactInfo>
 		<External>
 			<Image title="Amnesty International Logo">http://upload.wikimedia.org/wikipedia/en/e/ee/Amnesty_International_logo.svg</Image>
-			<Map title="Amnesty International Map">https://maps.google.com/maps?q=1+Easton+Street,+London,+UK&hl=en&sll=51.525921,-0.110971&sspn=0.011508,0.014162&oq=1+Easton+STreet,+London,+UK&t=h&hnear=1+Easton+St,+London+Borough+of+Islington,+London+WC1X,+United+Kingdom&z=16&iwloc=A</Map>
+			<Map title="Amnesty International Map">http://demandjusticenow.org/</Map>
 			<Social network="Twitter">https://www.twitter.com/amnestyonline</Social>
 		</External>
 
@@ -99,6 +106,8 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
 			<Crisis cID="HT1900" />
 			<Crisis cID="SY2011" />
 		</Crises>	
+        <People>
+        </People>
 
 	</Organization>
 	
@@ -126,14 +135,17 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
 		<External>
 			<Image title="Coast Guard seal">http://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/US-CoastGuard-Seal.svg/210px-US-CoastGuard-Seal.svg.png</Image>
 			<Video title="US Coast Guard Recruiting Ad">http://www.youtube.com/watch?v=MbHEp42vTEs</Video>
-			<Map title="Map of Coast Guard Office">https://maps.google.com/maps?q=2100+2nd+Street,+Washington,+DC+20593&hl=en&sll=51.525921,-0.110971&sspn=0.000719,0.000885&t=h&hnear=2100+2nd+St+SW,+Washington,+District+of+Columbia+20593&z=17</Map>
+			<Map title="Map of Coast Guard Office">https://homeport.uscg.mil/portal/ep/images/map_final.jpg</Map>
 			<Social network="Twitter">https://twitter.com/USCG</Social>
 			<Social network="Facebook">https://www.facebook.com/UScoastguard</Social>
 		</External>
 
 		<Crises>
 			<Crisis cID="HK2005" />
-		</Crises>	
+		</Crises>
+        <People>
+        </People>
+
 	</Organization>
 
 

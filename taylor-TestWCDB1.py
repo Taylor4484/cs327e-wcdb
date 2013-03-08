@@ -1,5 +1,12 @@
 #!/usr/bin/env python
 
+# ---------------------------
+# projects/WCDB1/WCDB1.py
+# Copyright (C) 2013
+# Taylor McCaslin
+# ---------------------------
+
+
 """
 To test the program:
 % TestWCDB1.py >& TestWCDB1.out

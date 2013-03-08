@@ -7,7 +7,11 @@ diff:
 	diff taylor-RunWCDB1.out.xml RunWCDB1.tmp
 
 lint: 
+<<<<<<< HEAD
 	xmllint --noout -schema taylor-WCDB1.xsd.xml hjh558Run.in.xml
+=======
+	xmllint --noout -schema taylor-WCDB1.xsd.xml AlexXML.xml
+>>>>>>> Validating and Fixing Instances
 
 
 doc:
