@@ -4,15 +4,15 @@
 		<Abbreviation></Abbreviation>
 		<!-- Repeate Kind element as many times as needed-->
 		<Kind>President</Kind>
-		<Description>Fidel Castro is the communist leader and president of Cuba since leading an uprising against the then island's government in 1959</Description>
+		<Description>Fidel Castro is the communist leader and president of Cuba since leading an uprising against the then island's government in 1959.</Description>
 		<Location>
-			<AddressLine>1600 Pennsylvania Avenue NW</AddressLine>
 			<AddressLine></AddressLine>
 			<AddressLine></AddressLine>
-			<City>Washington D.C.</City>
+			<AddressLine></AddressLine>
+			<City></City>
 			<State></State>
-			<Country>United States of America</Country>
-			<Postal>20500</Postal>
+			<Country>Cuba</Country>
+			<Postal></Postal>
 		</Location>
 		<Date>
 			<StartDate>1926-08-13</StartDate>
@@ -37,18 +37,19 @@
 		<Social network="Facebook"></Social>
 		<Social network="Twitter">https://twitter.com/fidelcastro</Social>
 		<Social network="G+"></Social>
-		<Link title="Required String">VALID URL</Image>
-		<Citation>Optional String</Citation>
+		<Link title="Required String"></Image>
+		<Citation></Citation>
 	</External>
 	
 	<Organizations>
 		<!-- Repeate Organization up to 10 times -->
-		<Organization>Required oID</Organization>
+		<Organization>CG1970</Organization>
 	</Organizations>
 	
-	<People>
+	<Crises>
 		<!-- Repeate Person up to 10 times -->
-		<Person>Required pID</Person>
-	</People>
+		<Crisis>CM1962</Crisis>
+		<Crisis>VW1955</Crisis>
+	</Crises>
 	
 </Person>

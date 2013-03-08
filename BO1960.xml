@@ -40,12 +40,14 @@
 	
 	<Organizations>
 		<!-- Repeate Organization up to 10 times -->
-		<Organization>Required oID</Organization>
+		<Organization>AF1970</Organization>
+		<Organization>WH1948</Organization>
+		<Organization>DB1971</Organization>
 	</Organizations>
 	
-	<People>
+	<Crises>
 		<!-- Repeate Person up to 10 times -->
-		<Person>Required pID</Person>
-	</People>
+		<Crisis>AI1970</Crisis>
+	</Crises>
 	
 </Person>

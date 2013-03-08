@@ -43,12 +43,15 @@
 	
 	<Organizations>
 		<!-- Repeate Organization up to 10 times -->
-		<Organization>Required oID</Organization>
+		<Organization>NA1949</Organization>
+		<Organization>MG1810</Organization>
+		<Organization>WB1945</Organization>
 	</Organizations>
 	
-	<People>
+	<Crises>
 		<!-- Repeate Person up to 10 times -->
-		<Person>Required pID</Person>
-	</People>
+		<Crisis>EV2010</Crisis>
+		<Crisis>SY2011</Crisis>
+	</Crises>
 	
 </Person>

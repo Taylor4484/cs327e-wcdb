@@ -21,7 +21,7 @@
 			<EndTime></EndTime>
 		</Date>
 	</Info>
-	<History>Optional string</History>
+	<History></History>
 	<ContactInfo>
 		<!-- all Contactinfo sub-elements occur 1 time and are optional-->
 		<Website>www.eng.mvdrf.ru/ </Website>
@@ -37,18 +37,18 @@
 		<Social network="Facebook"></Social>
 		<Social network="Twitter"></Social>
 		<Social network="G+"></Social>
-		<Link title="Required String">VALID URL</Image>
+		<Link title="Required String"></Image>
 		<Citation>Optional String</Citation>
 	</External>
 	
 	<Organizations>
 		<!-- Repeate Organization up to 10 times -->
-		<Organization>Required oID</Organization>
+		<Organization>NA1949</Organization>
 	</Organizations>
 	
-	<People>
+	<Crises>
 		<!-- Repeate Person up to 10 times -->
-		<Person>Required pID</Person>
-	</People>
+		<Crisis>SY2011</Crisis>
+	</Crises>
 	
 </Person>
