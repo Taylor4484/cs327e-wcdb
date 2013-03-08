@@ -87,10 +87,10 @@
 		<External>
 			<!-- Repeat any External sub-element as needed-->
 			<Image title="Required String">VALID URL</Image>
-			<Video title="Required String">VALID URL</Image>
-			<Map title="Required String">VALID URL</Image>
+			<Video title="Required String">VALID URL</Video>
+			<Map title="Required String">VALID URL</Map>
 			<Social network="Choose: Facebook,Google+,Twitter,Other">VALID URL</Social>
-			<Link title="Required String">VALID URL</Image>
+			<Link title="Required String">VALID URL</Link>
 			<Citation>Optional String</Citation>
 		</External>
 		
@@ -143,10 +143,10 @@
 		<External>
 			<!-- Repeat any External sub-element as needed-->
 			<Image title="Required String">VALID URL</Image>
-			<Video title="Required String">VALID URL</Image>
-			<Map title="Required String">VALID URL</Image>
+			<Video title="Required String">VALID URL</Video>
+			<Map title="Required String">VALID URL</Map>
 			<Social network="Choose: Facebook,Google+,Twitter,Other">VALID URL</Social>
-			<Link title="Required String">VALID URL</Image>
+			<Link title="Required String">VALID URL</Link>
 			<Citation>Optional String</Citation>
 		</External>
 		

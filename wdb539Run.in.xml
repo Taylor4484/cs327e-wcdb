@@ -1,6 +1,6 @@
 <WorldCrisesDatabase>
   
-  <Crisis cID=”VW1955”>
+  <Crisis cID="VW1955">
   	<Info>
   		<Name>Vietnam War</Name>
   		<Kind>Armed Conflict</Kind>
@@ -20,7 +20,7 @@
   	<WaysToHelp>N/A</WaysToHelp>
   	<External>
   		<Image title="Search and Destroy">http://www.us-history.com/wp-content/uploads/2012/03/us-history-vietnam-war.jpg</Image>
-  		<Map title="Vietnam">https://maps.google.com/maps?q=vietnam&hl=en&sll=14.058324,108.277199&sspn=21.073031,40.869141&hnear=Vietnam&t=m&z=5</Image>
+  		<Map title="Vietnam">https://maps.google.com/maps?q=vietnam&hl=en&sll=14.058324,108.277199&sspn=21.073031,40.869141&hnear=Vietnam&t=m&z=5</Map>
   		<Citation>http://en.wikipedia.org/wiki/Vietnam_war</Citation>
   	</External>
 
@@ -49,7 +49,7 @@
   	<WaysToHelp>N/A</WaysToHelp>
   	<External>
   		<Image title="Mexican Troop Standoff">http://upload.wikimedia.org/wikipedia/commons/6/6e/Fuerza_del_Estado_Michoac%C3%A1n.jpg</Image>
-  		<Map title="Mexico">https://maps.google.com/maps?q=mexico&hl=en&sll=14.058324,108.277199&sspn=21.073031,40.869141&hnear=Mexico&t=m&z=5</Image>
+  		<Map title="Mexico">https://maps.google.com/maps?q=mexico&hl=en&sll=14.058324,108.277199&sspn=21.073031,40.869141&hnear=Mexico&t=m&z=5</Map>
   		<Citation>http://en.wikipedia.org/wiki/Mexican_drug_war</Citation>
   	</External>
   	
@@ -83,8 +83,8 @@
   	</ContactInfo>
   	<External>
   		<Image title="Logo">http://upload.wikimedia.org/wikipedia/commons/8/88/Americanredcross.jpg</Image>
-  		<Video title="2012 Year in Review">http://www.youtube.com/watch?v=ufRYD3vxcCA&feature=player_embedded</Image>
-  		<Map title="American Red Cross HQ">https://maps.google.com/maps?q=American+Red+Cross+National+Headquarters,+E+Street+Northwest,+Washington,+DC&hl=en&ll=38.897713,-77.040939&spn=0.132797,0.31929&sll=23.634501,-102.552784&sspn=19.922391,40.869141&oq=american+red+cross+national+headquarters&hq=American+Red+Cross+National+Headquarters,+E+Street+Northwest,+Washington,+DC&radius=15000&t=m&z=12</Image>
+  		<Video title="2012 Year in Review">http://www.youtube.com/watch?v=ufRYD3vxcCA&feature=player_embedded</Video>
+  		<Map title="American Red Cross HQ">https://maps.google.com/maps?q=American+Red+Cross+National+Headquarters,+E+Street+Northwest,+Washington,+DC&hl=en&ll=38.897713,-77.040939&spn=0.132797,0.31929&sll=23.634501,-102.552784&sspn=19.922391,40.869141&oq=american+red+cross+national+headquarters&hq=American+Red+Cross+National+Headquarters,+E+Street+Northwest,+Washington,+DC&radius=15000&t=m&z=12</Map>
   		<Social network="Facebook">https://www.facebook.com/redcross</Social>
   		<Social network="Twitter">https://twitter.com/RedCross</Social>
   		<Citation>http://en.wikipedia.org/wiki/American_Red_Cross</Citation>
@@ -114,7 +114,7 @@
   	<External>
   		<Image title="Coat of Arms of Mexico">http://upload.wikimedia.org/wikipedia/commons/2/2a/Coat_of_arms_of_Mexico.svg</Image>
   		<Image title="Mexican Flag">http://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg</Image>
-  		<Map title="Mexico">https://maps.google.com/maps?q=mexico&hl=en&sll=14.058324,108.277199&sspn=21.073031,40.869141&hnear=Mexico&t=m&z=5</Image>
+  		<Map title="Mexico">https://maps.google.com/maps?q=mexico&hl=en&sll=14.058324,108.277199&sspn=21.073031,40.869141&hnear=Mexico&t=m&z=5</Map>
   		<Citation>http://en.wikipedia.org/wiki/Mexico</Citation>
   	</External>
   	

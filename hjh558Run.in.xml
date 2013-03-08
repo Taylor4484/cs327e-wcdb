@@ -1,4 +1,4 @@
-<WorldCrises>
+<WorldCrisesDatabase>
 	<Organization oID= "AF1970">
 		<Info>
 			<Name> Africare </Name>
@@ -42,8 +42,12 @@
 		</External>
 
 		<Crises>
-			<Crisis   cID = "AI1970" >
+			<Crisis   cID = "AI1970" />
 		</Crises>
+
+		<People>
+		</People>
+
 	</Organization>
 
 	<Organization oID = "HT2006">
@@ -87,8 +91,12 @@
 		</External>
 
 		<Crises>
-			<Crisis cID = "HT1900">
+			<Crisis cID = "HT1900"/>
 		</Crises>
+
+		<People>
+		</People>
+
 	</Organization>
 
     	<Crisis cID= "SY2011">
@@ -122,18 +130,18 @@
 
 			<Video title= "Life in battleground town of al-Safira"> http://www.bbc.co.uk/news/world-middle-east-21504390 </Video>
 
-			<Map title= "Map of Syria"> http://goo.gl/maps/PWJKM </Map
-	
-			<Link title= "Crisis group"> http://www.crisisgroup.org/en/regions/middle-east-north-africa/egypt-syria-lebanon/syria.aspx/ </Link>
+			<Map title= "Map of Syria"> http://goo.gl/maps/PWJKM </Map>
+			
+			<Link title="Crises Group"> http://www.crisisgroup.org/en/regions/middle-east-north-africa/egypt-syria-lebanon-syria.aspx/ </Link>
 		</External>
 
 		<Organizations>
-			<Organization oID ="A1961" >
-			<Organization oID ="NA1949" >
+			<Organization oID ="A1961" />
+			<Organization oID ="NA1949" />
 		</Organizations>
 
 		<People>
-			<People pID = "SL1959" >
+			<Person pID = "SL1959" />
 		</People>
 	</Crisis>
 
@@ -172,15 +180,15 @@
 		</External>
 
 		<Organizations>
-			<Organization oID = "DB1971" >
-			<Organization oID = "WH1948" >
-			<Organization oID = "WB1945" >
-			<Organization oID = "AF1970" >
+			<Organization oID = "DB1971" />
+			<Organization oID = "WH1948" />
+			<Organization oID = "WB1945" />
+			<Organization oID = "AF1970" />
 		</Organizations>
 
 		<People>
-			<Person pID = "BO1960" >
-			<Person pID = "BG1955" >
+			<Person pID = "BO1960" />
+			<Person pID = "BG1955" />
 		</People>
     	</Crisis>
 
@@ -190,7 +198,7 @@
 
 			<Kind> Fuhrer </Kind>
 			
-			<Description> Hitler was a decorated veteran of World War I. He joined the German Workers' Party (precursor of the NSDAP) in 1919, and became leader of the NSDAP in 1921. In 1923, he attempted a coup d'état in Munich, known as the Beer Hall Putsch. The failed coup resulted in Hitler's imprisonment, during which time he wrote his memoir, Mein Kampf (My Struggle). After his release in 1924, Hitler gained popular support by attacking the Treaty of Versailles and promoting Pan-Germanism, antisemitism, and anti-communism with charismatic oratory and Nazi propaganda. After his appointment as chancellor in 1933, he transformed the Weimar Republic into the Third Reich, a single-party dictatorship based on the totalitarian and autocratic ideology of Nazism. </Description>
+			<Description> Hitler was a decorated veteran of World War I. He joined the German Workers' Party (precursor of the NSDAP) in 1919, and became leader of the NSDAP in 1921. In 1923, he attempted a coup d'etat in Munich, known as the Beer Hall Putsch. The failed coup resulted in Hitler's imprisonment, during which time he wrote his memoir, Mein Kampf (My Struggle). After his release in 1924, Hitler gained popular support by attacking the Treaty of Versailles and promoting Pan-Germanism, antisemitism, and anti-communism with charismatic oratory and Nazi propaganda. After his appointment as chancellor in 1933, he transformed the Weimar Republic into the Third Reich, a single-party dictatorship based on the totalitarian and autocratic ideology of Nazism. </Description>
 
 			<Location>
                		       <City> Braunau am Inn </City>
@@ -217,8 +225,8 @@
 		</External>
 
 		<Crises>
-			<Crisis cID= "HO1930" >
-		</crises>
+			<Crisis cID= "HO1930" />
+		</Crises>
    	 </Person>
-</WorldCrises>
+</WorldCrisesDatabase>
 

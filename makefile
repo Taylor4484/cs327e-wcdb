@@ -7,7 +7,7 @@ diff:
 	diff taylor-RunWCDB1.out.xml RunWCDB1.tmp
 
 lint: 
-	xmllint --noout -schema taylor-WCDB1.xsd Instance.xml
+	xmllint --noout -schema taylor-WCDB1.xsd.xml hjh558Run.in.xml
 
 
 doc:
