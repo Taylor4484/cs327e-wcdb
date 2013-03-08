@@ -20,7 +20,10 @@ run:
 	RunWCDB1.py < RunWCDB1.in.xml
 
 test:
-	python taylor-TestWCDB1.py
+	python taylor-TestWCDB1.py 
+
+test-save:
+	python taylor-TestWCDB1.py >& RunWCDB1.out
 
 turnin-list:
 	turnin --list hychyc07 cs327epj3
