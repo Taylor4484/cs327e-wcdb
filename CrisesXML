@@ -24,7 +24,11 @@
         	<External>  
 			<Image title="U2 photograph of Soviet nuclear missiles in Cuba">http://upload.wikimedia.org/wikipedia/commons/0/0e/U2_Image_of_Cuban_Missile_Crisis.jpg</Image>
             		<Video title="50th anniversary of Cuban Missile Crisis">http://www.nbcnews.com/video/nightly-news/49510565#49510565</Video>
+<<<<<<< HEAD
                 	<Map title="Location of Navy and Soviet ships during CM">http://upload.wikimedia.org/wikipedia/commons/a/a1/Location_of_Navy_and_Soviet_ships_during_the_Cuban_Missile_Crisis.jpg</Map>
+=======
+                	<Map title="Cuba">http://users.humboldt.edu/ogayle/Hist%20111%20Images/CubanMissileCrisis.gif</Map>
+>>>>>>> Validated and Fixed More XML
             		<Social network="Facebook">http://www.facebook.com/events/156960544442243/</Social>
 			<Link title="Cuban missile crisis">http://www.jfklibrary.org/JFK/JFK-in-History/Cuban-Missile-Crisis.aspx</Link>
 		</External>
@@ -32,7 +36,7 @@
 		<Organizations>
 			<Organization oID="WB1945"/>
 			<Organization oID="CG1790"/>
-		<Organizations>
+		</Organizations>
 		
 		<People> 
 			<Person pID="FC1926"/> 
@@ -64,7 +68,11 @@
             	<External>
 			<Image title="Hurricane Katrina August 28 2005">http://upload.wikimedia.org/wikipedia/commons/a/a4/Hurricane_Katrina_August_28_2005_NASA.jpg</Image>
 			<Video title="Hurricane Katrina: A Nasa video Retrospective">http://www.nasa.gov/mission_pages/hurricanes/features/katrina-retrospective.html</Video>
+<<<<<<< HEAD
                     	<Map title="Katrina 2005 track">http://upload.wikimedia.org/wikipedia/commons/4/46/Katrina_2005_track.png</Map>
+=======
+                    	<Map title="New Orleans">http://www.lonelyplanet.com/maps/north-america/usa/new-orleans/map_of_new-orleans.jpg</Map>
+>>>>>>> Validated and Fixed More XML
 			<Link title="NOAA">http://www.ncdc.noaa.gov/special-reports/katrina.html"</Link>
 		</External>
 	
@@ -111,7 +119,11 @@
 		<External>
 			<Image title="Logo">http://upload.wikimedia.org/wikipedia/en/4/4e/Msf_logo.png</Image>
 			<Video title="Bringing Much-Needed Medical Care to Timbuktu, Mali"></Video>
+<<<<<<< HEAD
 			<Map title="Doctors w/o Borders">http://upload.wikimedia.org/wikipedia/commons/2/2f/M%C3%A9decins_Sans_Fronti%C3%A8res_-_Missions.svg</Map>
+=======
+			<Map title="Doctors w/o Borders">http://www.doctorswithoutborders.org/images/about/map.jpg</Map>
+>>>>>>> Validated and Fixed More XML
 			<Social network="Facebook">https://www.facebook.com/msf.english</Social>
 		</External>
 		
@@ -120,7 +132,11 @@
 			<Crisis cID="AI1970"/>
 			<Crisis cID="SY2011"/>
   			<Crisis cID="VW1955"/>
-            	</Crises>
+        </Crises>
+        
+        <People>
+
+        </People>
         </Organization>
 
         <Organization oID= "WB1945">
@@ -145,13 +161,17 @@
         		    <Website>www.worldbank.org</Website>        
 		            <Telephone>202-473-1000</Telephone>
 			    <Fax>+202-477-6391</Fax>
-        		    <email>info@worldbank.org</email>  
+        		    <Email>info@worldbank.org</Email>  
 		</ContactInfo>
 
 		<External>
 			<Image title="Logo">http://upload.wikimedia.org/wikipedia/en/b/bd/World_Bank_Logo.svg</Image>
  			<Video title="Videos - July 2009">http://web.worldbank.org/WBSITE/EXTERNAL/EXTABOUTUS/PARTNERS/EXTDEVDIALOGUE/0,,contentMDK:22256131~pagePK:64192523~piPK:64192458~theSitePK:537298,00.html</Video>
+<<<<<<< HEAD
 			<Map title="World Bank Group">http://upload.wikimedia.org/wikipedia/commons/5/57/World_Bank_Group.png</Map>
+=======
+			<Map title="WBG US headquarters">http://maps.worldbank.org/</Map>
+>>>>>>> Validated and Fixed More XML
 			<Social network="Twitter">@WorldBank</Social>
 		</External>
 
@@ -159,7 +179,9 @@
 			<Crisis cID="AI1970"/>
 			<Crisis cID="VW1955"/>
 		</Crises>          
-        
+        <People>
+
+        </People>        
         </Organization>
 
 </WorldCrisesDatabase>
