@@ -1,1 +1,54 @@
-Daniel Ehrlich
+<Person pID="SL1959">
+	<Info>
+		<Name>Sergey Viktorovich Lavrov</Name>
+		<Abbreviation></Abbreviation>
+		<!-- Repeate Kind element as many times as needed-->
+		<Kind>Diplomat</Kind>
+		<Description>Sergey Lavrov is a lifelong diplomat from Russia who is now the Foreign Minister of Russia</Description>
+		<Location>
+			<AddressLine>32/34 Smolenskaya-Sennaya Ploshchad</AddressLine>
+			<AddressLine></AddressLine>
+			<AddressLine></AddressLine>
+			<City>Moscow</City>
+			<State></State>
+			<Country>Russia</Country>
+			<Postal>119200</Postal>
+		</Location>
+		<Date>
+			<StartDate>1961-08-04</StartDate>
+			<StartTime></StartTime>
+			<EndDate></EndDate>
+			<EndTime></EndTime>
+		</Date>
+	</Info>
+	<History>Optional string</History>
+	<ContactInfo>
+		<!-- all Contactinfo sub-elements occur 1 time and are optional-->
+		<Website>www.eng.mvdrf.ru/ </Website>
+		<Telephone>+ 7 (499) 244-16-06 </Telephone>
+		<Fax></Fax>
+		<Email></Email>
+	</ContactInfo>
+	<External>
+		<!-- Repeate any External sub-element as needed-->
+		<Image title="Sergey Lavrov">http://upload.wikimedia.org/wikipedia/commons/8/8c/Sergey_Lavrov_17.03.2010.jpeg  </Image>
+		<Video title="Charlie Rose - Sergey Lavrov"> https://www.youtube.com/watch?v=QrmCQH9JFxU </Video>
+		<Map title="Ministry of Foreign Affairs of Russia">https://maps.google.com/maps?q=32/34+Smolenskaya-Sennaya+Ploshchad,+Moscow+119200&oe=utf-8&client=firefox-a&channel=fflb&ie=UTF-8&ei=OS05UZqGD9S40gGx44HgCg&ved=0CAsQ_AUoAg </Map>
+		<Social network="Facebook"></Social>
+		<Social network="Twitter"></Social>
+		<Social network="G+"></Social>
+		<Link title="Required String">VALID URL</Image>
+		<Citation>Optional String</Citation>
+	</External>
+	
+	<Organizations>
+		<!-- Repeate Organization up to 10 times -->
+		<Organization>Required oID</Organization>
+	</Organizations>
+	
+	<People>
+		<!-- Repeate Person up to 10 times -->
+		<Person>Required pID</Person>
+	</People>
+	
+</Person>

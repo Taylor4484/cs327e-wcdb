@@ -1,1 +1,51 @@
-Daniel Ehrlich
+<Person pID="BO1960">
+	<Info>
+		<Name>Paul David Hewson</Name>
+		<Abbreviation>Bono</Abbreviation>
+		<!-- Repeate Kind element as many times as needed-->
+		<Kind>Musician</Kind>
+		<Description>Bono is the lead singer for the band U2</Description>
+		<Location>
+			<AddressLine>Vico Road</AddressLine>
+			<AddressLine></AddressLine>
+			<AddressLine></AddressLine>
+			<City>Killiney</City>
+			<State></State>
+			<Country>Ireland</Country>
+			<Postal></Postal>
+		</Location>
+		<Date>
+			<StartDate>1960-05-10</StartDate>
+			<StartTime></StartTime>
+			<EndDate></EndDate>
+			<EndTime></EndTime>
+		</Date>
+	</Info>
+	<History></History>
+	<ContactInfo>
+		<!-- all Contactinfo sub-elements occur 1 time and are optional-->
+		<Website>www.u2.com</Website>
+		<Telephone></Telephone>
+		<Fax></Fax>
+		<Email></Email>
+	</ContactInfo>
+	<External>
+		<!-- Repeate any External sub-element as needed-->
+		<Image title="Bono at the 2009 Tribeca Film Festival">http://upload.wikimedia.org/wikipedia/commons/1/11/Bono_at_the_2009_Tribeca_Film_Festival.jpg </Image>
+		<Video title="Bono on the 'Late Late Show' - 1983">https://www.youtube.com/watch?v=OjWTT8Q8nN0</Video>
+		<Map title=""></Map>
+		<Social network="Twitter">https://twitter.com/u2com</Social>
+		<Citation>Optional String</Citation>
+	</External>
+	
+	<Organizations>
+		<!-- Repeate Organization up to 10 times -->
+		<Organization>Required oID</Organization>
+	</Organizations>
+	
+	<People>
+		<!-- Repeate Person up to 10 times -->
+		<Person>Required pID</Person>
+	</People>
+	
+</Person>
