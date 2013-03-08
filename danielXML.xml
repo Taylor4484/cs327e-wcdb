@@ -1,0 +1,174 @@
+<?xml version="1.0" ?>
+<WorldCrisesDatabase>
+
+<Person pID="SL1959">
+	<Info>
+		<Name>Sergey Viktorovich Lavrov</Name>
+		<!-- Repeate Kind element as many times as needed-->
+		<Kind>Diplomat</Kind>
+		<Description>Sergey Lavrov is a lifelong diplomat from Russia who is now the Foreign Minister of Russia</Description>
+		<Location>
+			<AddressLine>32/34 Smolenskaya-Sennaya Ploshchad</AddressLine>
+			<City>Moscow</City>
+			<Country>Russia</Country>
+			<Postal>119200</Postal>
+		</Location>
+		<Date>
+			<StartDate>1961-08-04</StartDate>
+
+		</Date>
+	</Info>
+	<History>Sergey Viktorovich Lavrov is a Russian Armenian diplomat who has been the Foreign Minister of Russia since 2004.</History>
+	<ContactInfo>
+		<!-- all Contactinfo sub-elements occur 1 time and are optional-->
+		<Website>www.eng.mvdrf.ru/ </Website>
+		<Telephone>+ 7 (499) 244-16-06 </Telephone>
+
+	</ContactInfo>
+	<External>
+		<!-- Repeate any External sub-element as needed-->
+		<Image title="Sergey Lavrov">http://upload.wikimedia.org/wikipedia/commons/8/8c/Sergey_Lavrov_17.03.2010.jpeg  </Image>
+		<Video title="Charlie Rose - Sergey Lavrov"> https://www.youtube.com/watch?v=QrmCQH9JFxU </Video>
+		<Map title="Ministry of Foreign Affairs of Russia">http://photos.state.gov/libraries/russia/231771/Photos/embassy_map.jpg</Map>
+	</External>
+	
+	<Organizations>
+		<!-- Repeate Organization up to 10 times -->
+		<Organization oID="NA1949"/>
+	</Organizations>
+	
+	<Crises>
+		<!-- Repeate Person up to 10 times -->
+		<Crisis cID="SY2011" />
+	</Crises>
+	
+</Person>
+
+
+<Person pID="FC1926">
+	<Info>
+		<Name>Fidel Alejandro Castro</Name>
+		<!-- Repeate Kind element as many times as needed-->
+		<Kind>President</Kind>
+		<Description>Fidel Castro is the communist leader and president of Cuba since leading an uprising against the then island's government in 1959.</Description>
+		<Location>
+			<Country>Cuba</Country>
+		</Location>
+		<Date>
+			<StartDate>1926-08-13</StartDate>
+		</Date>
+	</Info>
+	<History>Fidel Alejandro Castro Ruz (Spanish: [fiˈðel ˈkastro]; born August 13, 1926) is a Cuban communist revolutionary and politician who was Prime Minister of Cuba from 1959 to 1976, and President from 1976 to 2008. He also served as the Commander in Chief of the country's armed forces from 1959 to 2008, and as the First Secretary of the Communist Party of Cuba from 1961 until 2011. Politically a Marxist-Leninist, under his administration the Republic of Cuba became a one-party socialist state; industry and businesses were nationalized, and socialist reforms implemented in all areas of society. Internationally, Castro was the Secretary-General of the Non-Aligned Movement, from 1979 to 1983 and from 2006 to 2008.</History>
+	<ContactInfo>
+		<!-- all Contactinfo sub-elements occur 1 time and are optional-->
+	</ContactInfo>
+	<External>
+		<!-- Repeate any External sub-element as needed-->
+		<Image title="Fidel Castro">http://upload.wikimedia.org/wikipedia/commons/1/15/Cuba.FidelCastro.02.jpg</Image>
+		<Video title="Fidel Castro - Mini Bio">https://www.youtube.com/watch?v=qQ24jmIHIUk</Video>
+		<Social network="Twitter">https://twitter.com/fidelcastro</Social>
+	</External>
+	
+	<Organizations>
+		<!-- Repeate Organization up to 10 times -->
+		<Organization oID="CG1970" />
+	</Organizations>
+	
+	<Crises>
+		<!-- Repeate Person up to 10 times -->
+		<Crisis cID="CM1962" />
+		<Crisis cID="VW1955" />
+	</Crises>
+	
+</Person>
+
+<Person pID="BO1961">
+	<Info>
+		<Name>Barack H. Obama</Name>
+		<Abbreviation></Abbreviation>
+		<!-- Repeate Kind element as many times as needed-->
+		<Kind>President</Kind>
+		<Description>Barack Obama is the 44th president of the United Staates</Description>
+		<Location>
+			<AddressLine>1600 Pennsylvania Avenue NW</AddressLine>
+			<City>Washington D.C.</City>
+			<Country>United States of America</Country>
+			<Postal>20500</Postal>
+		</Location>
+		<Date>
+			<StartDate>1961-08-04</StartDate>
+		</Date>
+	</Info>
+	<History>Born on August 4, 1961, in Honolulu, Hawaii, Barack Obama is the 44th and current president of the United States. He was a civil-rights lawyer and teacher before pursuing a political career. He was elected to the Illinois State Senate in 1996, serving from 1997 to 2004. He was elected to the U.S. presidency in 2008, and won re-election in 2012 against Republican challenger Mitt Romney. President Obama continues to enact policy changes in response to the issues of health care and economic crisis.</History>
+	<ContactInfo>
+		<!-- all Contactinfo sub-elements occur 1 time and are optional-->
+		<Website>www.barackobama.com</Website>
+		<Telephone>202-456-1414</Telephone>
+	</ContactInfo>
+	<External>
+		<!-- Repeate any External sub-element as needed-->
+		<Image title="President Barack Obama">http://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/480px-President_Barack_Obama.jpg</Image>
+		<Video title="Barack Obama's Complete 2013 Inauguration Speech">http://www.youtube.com/watch?v=zncqb-n3zMo</Video>
+		<Map title="White House">http://clinton2.nara.gov/WH/Tours/map2.gif</Map>
+		<Social network="Facebook">https://www.facebook.com/barackobama</Social>
+		<Social network="Twitter">https://twitter.com/BarackObama</Social>
+		<Social network="Google+">https://plus.google.com/+BarackObama/posts</Social>
+	</External>
+	
+	<Organizations>
+		<!-- Repeate Organization up to 10 times -->
+		<Organization oID="NA1949" />
+		<Organization oID="MG1810" />
+		<Organization oID="WB1945" />
+	</Organizations>
+	
+	<Crises>
+		<!-- Repeate Person up to 10 times -->
+		<Crisis cID="EV2010" />
+		<Crisis cID="SY2011" />
+	</Crises>
+	
+</Person>
+
+
+<Person pID="BO1960">
+	<Info>
+		<Name>Paul David Hewson</Name>
+		<Abbreviation>Bono</Abbreviation>
+		<!-- Repeate Kind element as many times as needed-->
+		<Kind>Musician</Kind>
+		<Description>Bono is the lead singer for the band U2</Description>
+		<Location>
+			<AddressLine>Vico Road</AddressLine>
+			<City>Killiney</City>
+			<Country>Ireland</Country>
+		</Location>
+		<Date>
+			<StartDate>1960-05-10</StartDate>
+		</Date>
+	</Info>
+	<ContactInfo>
+		<!-- all Contactinfo sub-elements occur 1 time and are optional-->
+		<Website>www.u2.com</Website>
+	</ContactInfo>
+	<External>
+		<!-- Repeate any External sub-element as needed-->
+		<Image title="Bono at the 2009 Tribeca Film Festival">http://upload.wikimedia.org/wikipedia/commons/1/11/Bono_at_the_2009_Tribeca_Film_Festival.jpg </Image>
+		<Video title="Bono on the 'Late Late Show' - 1983">https://www.youtube.com/watch?v=OjWTT8Q8nN0</Video>
+		<Social network="Twitter">https://twitter.com/u2com</Social>
+	</External>
+	
+	<Organizations>
+		<!-- Repeate Organization up to 10 times -->
+		<Organization oID="AF1970" />
+		<Organization oID="WH1948" />
+		<Organization oID="DB1971" />
+	</Organizations>
+	
+	<Crises>
+		<!-- Repeate Person up to 10 times -->
+		<Crisis cID="AI1970" />
+	</Crises>
+	
+</Person>
+</WorldCrisesDatabase>
