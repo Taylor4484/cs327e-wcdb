@@ -1,3 +1,5 @@
+<WorldCrisesDatabase>
+
 <Person pID= "JK1917">
 	<Info>
         	<Name>John F Kennedy</Name>
@@ -8,7 +10,7 @@
             		<City>Brookline</City>
             		<State>Massachusetts</State>
             		<Country>USA</Country>
-           		<PostalCode>02446</PostalCode>
+           		<Postal>02446</Postal>
         	</Location>
         
         	<Date>
@@ -27,14 +29,17 @@
 		<Map title= "White House" > http://goo.gl/maps/xFGPn </Map>
 		<Link title="JFK Library">www.jfklibrary.org </Link>
 	</External>
-	<Crises>
-		<Crisis cID= "CM1962">
-		<Crisis cID= "VW1975">
-	</Crises>
+
 	<Organizations>
-		<Organization oID="NA1949">
+		<Organization oID="NA1949" />
 	</Organizations>
+	<Crises>
+		<Crisis cID= "CM1962" />
+		<Crisis cID= "VW1975" />
+	</Crises>
 </Person>
+
+
 <Person pID="GB1946">
 <Info>
 	<Name>George W Bush</Name>
@@ -44,7 +49,7 @@
 		<City>New Haven</City>
 		<State>Connecticut</State>
 		<Country>USA</Country>
-		<PostalCode>06511</PostalCode>
+		<Postal>06511</Postal>
 	</Location>
 	<Date>
 		<StartDate> 1946-07-06 </StartDate>
@@ -62,14 +67,17 @@
 		<Map title= "White House">http://goo.gl/maps/xFGPn</Map>
 		<Social network= "Facebook">http://www.facebook.com/georgewbush</Social>
 	</External>
-	<Crises>
-		<Crisis cID="HK2005">
-	</Cries>
 	<Organizations>
-		<Organization oID="NA1949">
+		<Organization oID="NA1949"/>
 	</Organizations>
+	<Crises>
+		<Crisis cID="HK2005"/>
+	</Crises>
+
 </Person>
-<Person pid= "MH1955">
+
+
+<Person pID= "MH1955">
 	<Info>
 		<Name>Mike Huckabee</Name>
 		<Kind>Leader</Kind>
@@ -78,7 +86,7 @@
 			<City>Hope</City>
 			<State>Arkansas</State>
 			<Country>USA</Country>
-			<PostalCode>71801</PostalCode>
+			<Postal>71801</Postal>
 		</Location>
 		<Date>
 			<StartDate>1955-08-24</StartDate>
@@ -92,10 +100,18 @@
 		<Video title= "Mike Huckabee: Speech on Katrina">http://youtu.be/192g-IQFdDE</Video>
 		<Map title= "State Capital of Arkansas">http://goo.gl/maps/w8ka3</Map>
 	</External>
+	
+	<Organizations>
+	</Organizations>
 	<Crises>
-		<Crisis cID= "HK2005">
+		<Crisis cID= "HK2005"/>
 	</Crises>
+	
+	
 </Person>
+
+
+
 <Person pID= "BG1955">
 	<Info>
 		<Name>Bill H Gates</Name>
@@ -111,17 +127,21 @@
 		</Date>
 	</Info>
 	<ContactInfo>
-		<Website>http://www.gatesfoundation.org/<Website>
+		<Website>http://www.gatesfoundation.org/</Website>
 	</ContactInfo>
 	<External>
 		<Image title= "Bill Gates">http://www.biography.com/imported/images/Biography/Images/Profiles/G/Bill-Gates-9307520-2-402.jpg</Image>
 		<Video title= "Bill Gates Biography">http://www.biography.com/people/bill-gates-9307520/videos/bill-gates-charity-2080037725</Video>
 		<Map title= "Bill Gates">http://goo.gl/maps/n7rnd</Map>
 		<Social network = "Facebook">http://www.facebook.com/BillGates?fref=ts</Social>
-		<Social network = "Twitter">@https://twitter.com/billgates</Social>
+		<Social network = "Twitter">https://twitter.com/billgates</Social>
 	</External>
+	<Organizations>
+	</Organizations>
 	<Crises>
-		<Crisis cID= "AI1970">
-		<Crisis cID="HT1900">
+		<Crisis cID= "AI1970"/>
+		<Crisis cID="HT1900"/>
 	</Crises>                                    
 </Person>
+
+</WorldCrisesDatabase>
