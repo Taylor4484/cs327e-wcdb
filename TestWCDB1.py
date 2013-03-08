@@ -26,7 +26,7 @@ from WCDB1 import *
 # TestWCDB1
 # -----------
 
-class TestWCDB1 (unittest.TestCase) :
+class TestWCDB1(unittest.TestCase):
   # -------
   # read
   # -------

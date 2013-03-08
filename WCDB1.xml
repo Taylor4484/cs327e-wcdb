@@ -1,167 +1,11 @@
 <?xml version="1.0" ?>
 <WorldCrisesDatabase>
 
- 
-  
-    
-    
-    
-    
-    
-    
-    
-    
-
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <Crisis cID="EV2010">
-		<Info>
-			<Name>2010 eruptions of Eyjafjallajokull</Name>
-			<Kind>Natural disaster</Kind>
-			<Description>The 2010 eruption of Eyjafjallajökull were volcanic events at Eyjafjallajökull in Iceland which, although relatively small for volcanic eruptions, caused enormous disruption to air travel across western and northern Europe over an initial period of six days in April 2010.</Description>
-			<Location>
-				<Country>Iceland</Country>
-			</Location>
-			<Date>
-				<StartDate>2010-03-20</StartDate>
-				<EndDate>2010-06-23</EndDate>
-			</Date>
-		</Info>
-		<History>Beginning on 14 April 2010, the eruption entered a second phase and created an ash cloud that led to the closure of most of the European IFR airspace from 15 until 20 April 2010. Consequently, a very high proportion of flights within, to, and from Europe were cancelled, creating the highest level of air travel disruption since the Second World War.In October 2010, Ármann Höskuldsson, a scientist at the University of Iceland Institute of Earth Sciences, stated that the eruption was officially over, although the area was still geothermally active and might erupt again.</History>
-		<HumanImpact>No known injuries or deaths. However, the inhalation of volcanic ash can cause
-            respiratory issues.</HumanImpact>
-		<EconomicImpact>The eruption caused large scale disruption to air travel, and had
-            some effects on the farming industry in Iceland.</EconomicImpact>
-		<ResourcesNeeded>None.</ResourcesNeeded>
-		<WaysToHelp>No help is needed at this time.</WaysToHelp>
-		<External>
-			<Image title="Smoke cloud over volcano">http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/eyja_04_19/e25_23048757.jpg</Image>
-			<Image title="Overhead view of eruption">http://eoimages.gsfc.nasa.gov/images/imagerecords/43000/43252/fimmvorduhals_ali_2010083.jpg</Image>
-			<Video title="Footage of the eruption">http://www.youtube.com/watch?v=tGPD_0SCDp4</Video>
-			<Map title="Map of the ash cloud">http://upload.wikimedia.org/wikipedia/commons/b/b1/Eyjafjallaj%C3%B6kull_volcanic_ash_composite.png</Map>
-		</External>
-        <Organizations>
-		</Organizations>
-        <People>
-		</People>
-	</Crisis>
-    <Crisis cID="VW1955">
-        <Info>
-            <Name>Vietnam War</Name>
-            <Kind>Armed Conflict</Kind>
-            <Description>War between South and North Vietnam for control of the country.</Description>
-            <Location>
-                <Country>Vietnam</Country>
-            </Location>
-            <Date>
-                <StartDate>1955-11-01</StartDate>
-                <EndDate>1975-04-30</EndDate>
-            </Date>
-        </Info>
-        <History>The Vietnam War was a Cold War-era military conflict that occurred in Vietnam, Laos, and Cambodia from 1 November 1955 to the fall of Saigon on 30 April 1975. This war followed the First Indochina War and was fought between North Vietnam, supported by its communist allies, and the government of South Vietnam, supported by the United States and other anti-communist countries.</History>
-        <HumanImpact>1,102,000–3,886,026 Deaths</HumanImpact>
-        <EconomicImpact>N/A</EconomicImpact>
-        <ResourcesNeeded>N/A</ResourcesNeeded>
-        <WaysToHelp>N/A</WaysToHelp>
-        <External>
-            <Image title="Search and Destroy">http://www.us-history.com/wp-content/uploads/2012/03/us-history-vietnam-war.jpg</Image>
-            <Map title="Vietnam">http://www.lonelyplanet.com/maps/asia/vietnam/map_of_vietnam.jpg</Map>
-        </External>
-        
-        
-        <Organizations>
-            <!-- Repeat Organization up to 10 times -->
-        </Organizations>
-        
-        <People>
-            <Person pID = "JF1917" />
-        </People>
-        
-    </Crisis>
-    <Crisis cID="MD2006">
-        <Info>
-            <Name>Mexican Drug War</Name>
-            <Kind>Armed Conflict</Kind>
-            <Description>An ongoing struggle between the Mexican Government and drug cartels over illegal substance smuggling and trade</Description>
-            <Location>
-                <Country>Mexico</Country>
-            </Location>
-            <Date>
-                <StartDate>2006-12-11</StartDate>
-            </Date>
-        </Info>
-        <History>The Mexican Drug War is an ongoing armed conflict between rival drug cartels fighting each other for regional control and against the Mexican government forces. The government's principal goal has been to put down the drug-related violence that was raging between different drug cartels before any military intervention was made.[32] In addition, the Mexican government has claimed that their primary focus is on dismantling the powerful drug cartels, rather than on drug trafficking prevention, which is left to U.S. functionaries.</History>
-        <HumanImpact>60,000-100,000 Deaths(Estimate Varies)</HumanImpact>
-        <EconomicImpact>N/A</EconomicImpact>
-        <ResourcesNeeded>N/A</ResourcesNeeded>
-        <WaysToHelp>N/A</WaysToHelp>
-        <External>
-            <Image title="Mexican Troop Standoff">http://upload.wikimedia.org/wikipedia/commons/6/6e/Fuerza_del_Estado_Michoac%C3%A1n.jpg</Image>
-            <Map title="Mexico">http://www.lonelyplanet.com/maps/north-america/mexico/map_of_mexico.jpg</Map>
-            <Citation>http://en.wikipedia.org/wiki/Mexican_drug_war</Citation>
-        </External>
-        
-        <Organizations>
-            <Organization oID = "MG1810" />
-        </Organizations>
-        
-        <People>
-        </People>
-        
-    </Crisis>
-    
-	<Crisis cID="ER2011">
-		<Info>
-			<Name>2011 Egyptian Revolution</Name>
-			<Kind>Revolution</Kind>
-			<Description>The Egyptian Revolution of 2011 took place following a popular uprising that began on 25 January 2011. It was mainly a campaign of non-violent civil resistance, which featured a series of demonstrations, marches, acts of civil disobedience and labor strikes. </Description>
-			<Location>
-				<Country>Egypt</Country>
-			</Location>
-			<Date>
-				<StartDate>2011-01-25</StartDate>
-				<EndDate>2011-02-11</EndDate>
-			</Date>
-		</Info>
-		<History>Millions of protesters from a variety of socio-economic and religious backgrounds demanded the overthrow of the regime of Egyptian President Hosni Mubarak. Grievances of Egyptian protesters were focused on legal and political issues including police brutality, state of emergency laws, lack of free elections and freedom of speech, corruption, and economic issues including high unemployment, food price inflation and low wages. The primary demands from protesters were the end of the Hosni Mubarak regime, the end of emergency law, freedom, justice, a responsive non-military government and a say in the management of Egypt's resources. On 11 February 2011, Vice President Omar Suleiman announced that Mubarak would be stepping down as president and turning power over to the Supreme Council of the Armed Forces (SCAF) and Mubarak resigned from office.</History>
-		<HumanImpact>846 deaths, 6467 wounded, 12000 arrested</HumanImpact>
-		<EconomicImpact>The protests paralyzed the country's economy, shutting down offices, shops, and banks throughout
-            Egypt's major cities. There has also been a negative effect on Egypt's tourist industry, which makes up
-            5 to 6 percent of its GDP.</EconomicImpact>
-		<ResourcesNeeded>Money to stimulate the economy.</ResourcesNeeded>
-		<WaysToHelp>Donate to organizations that aid Egypt's rebuilding</WaysToHelp>
-		<External>
-			<Image title="A demonstrator defaces a poster of Egyption President Hosni Mubarak">http://i.huffpost.com/gadgets/slideshows/16507/slide_16507_229768_large.jpg</Image>
-			<Image title="Celebration after Mubarak resignation">http://i.huffpost.com/gadgets/slideshows/17213/slide_17213_238712_huge.jpg</Image>
-			<Video title="Egyptian Revolution Compilation Video">http://www.youtube.com/watch?v=-HGfFyqJMrk</Video>
-			<Map title="Map of Egypt">http://www.lonelyplanet.com/maps/africa/egypt/map_of_egypt.jpg</Map>
-			<Social network="Twitter">https://www.twitter.com/ikhwanweb</Social>
-			<Link title="Egypt's revolution, economic doom?">http://www.periscopepost.com/2011/01/egypts-revolution-economic-doom/</Link>
-		</External>
-        
-		<Organizations>
-			<Organization oID="AI1961" />
-		</Organizations>
-        
-        <People>
-        </People>
-	</Crisis>
 	<Crisis cID="HT1900">
 		<Info>
 			<Name>Human Trafficking</Name>
 			<!-- <Abbreviation>OPTIONAL string</Abbreviation> -->
-            
+
 			<!-- Repeat Kind element as many times as needed-->
 			<Kind>Global Issue</Kind>
 			<Kind>Sexual Slavery</Kind>
@@ -172,18 +16,18 @@
 			<Location>
 				<Country>Global</Country>
 				<!-- <AddressLine>Optional string</AddressLine>
-                 <AddressLine>Optional string </AddressLine>
-                 <AddressLine>Optional string</AddressLine>
-                 <City>OPTIONAL string</City>
-                 <State>OPTIONAL string</State>
-                 <Postal>OPTIONAL string</Postal> -->
+				<AddressLine>Optional string </AddressLine>
+				<AddressLine>Optional string</AddressLine>
+				<City>OPTIONAL string</City>
+				<State>OPTIONAL string</State>
+				<Postal>OPTIONAL string</Postal> -->
 			</Location>
 			
 			<Date>
 				<StartDate>Ongoing, as early as Ancient Rome</StartDate>
 				<!-- <StartTime>OPTIONAL hh:mm:ss</StartTime>
-                 <EndDate>OPTIONAL YYYY-MM-DD</EndDate>
-                 <EndTime>OPTIONAL hh:mm:s</EndTime>-->
+				<EndDate>OPTIONAL YYYY-MM-DD</EndDate>
+				<EndTime>OPTIONAL hh:mm:s</EndTime>-->
 			</Date>
 			
 		</Info>
@@ -218,7 +62,7 @@
 		</People>
 		
 	</Crisis>
-    
+
 	<Crisis cID="HO1930">
 		<Info>
 			<Name>Holocaust</Name>
@@ -228,16 +72,16 @@
 			<Kind>Mass Killing</Kind>
 			<Kind>World War II</Kind>
 			<Description>The Holocaust was the systematic, bureaucratic, state-sponsored persecution and murder of approximately six million Jews by the Nazi regime and its collaborators. "Holocaust" is a word of Greek origin meaning "sacrifice by fire." The Nazis, who came to power in Germany in January 1933, believed that Germans were "racially superior" and that the Jews, deemed "inferior," were an alien threat to the so-called German racial community.
-                During the era of the Holocaust, German authorities also targeted other groups because of their perceived "racial inferiority": Roma (Gypsies), the disabled, and some of the Slavic peoples (Poles, Russians, and others). Other groups were persecuted on political, ideological, and behavioral grounds, among them Communists, Socialists, Jehovah's Witnesses, and homosexuals.</Description>
+During the era of the Holocaust, German authorities also targeted other groups because of their perceived "racial inferiority": Roma (Gypsies), the disabled, and some of the Slavic peoples (Poles, Russians, and others). Other groups were persecuted on political, ideological, and behavioral grounds, among them Communists, Socialists, Jehovah's Witnesses, and homosexuals.</Description>
 			<Location>
 				<!--<AddressLine>Optional string</AddressLine>
-                 <AddressLine>Optional string </AddressLine>
-                 <AddressLine>Optional string</AddressLine>
-                 <City>OPTIONAL string</City>
-                 <State>OPTIONAL string</State>
-                 <Postal>OPTIONAL string</Postal> -->
+				<AddressLine>Optional string </AddressLine>
+				<AddressLine>Optional string</AddressLine>
+				<City>OPTIONAL string</City>
+				<State>OPTIONAL string</State>
+				<Postal>OPTIONAL string</Postal> -->
 				<Country>Germany</Country>
-                
+
 			</Location>
 			<Date>
 				<StartDate>REQUIRED 1933-01-30</StartDate>
@@ -270,214 +114,8 @@
 			<!-- Repeat Person up to 10 times -->
 			<Person pID="AH1889" />
 		</People>
-        
-	</Crisis>
-    <Crisis cID="CM1962">
-		<Info>
-            <Name>Cuban Missile Crisis</Name>
-            
-            <Kind>Political Confrontation</Kind>
-			<Description>Political confrontation and major part of the Cold War between the USA and Soviet Union.</Description>
-            <Location>
-				<Country>Cuba</Country>
-            </Location>
-            
-            <Date>
-                <StartDate>1962-10-16</StartDate>
-				<EndDate>1962-10-28</EndDate>
-            </Date>
-		</Info>
-		<History>The Cuban missile crisis known as the October crisis in Cuba and the Caribbean crisis in the USSR was a 13-day confrontation between the Soviet Union and Cuba on one side and the USA on the other in October 1962.</History>
-        <HumanImpact>Instilled fear among nations of imminent nuclear threat and signed treaties to prevent any countries from sharing nuclear technology. Only one casualty.</HumanImpact>
-        <EconomicImpact>Economic sanctions imposed on Cuba.</EconomicImpact>
-		<ResourcesNeeded>Phone line communication between Moscow and Washington, D.C, and spy-planes.</ResourcesNeeded>
-		<WaysToHelp>Communication and agreement within nations.</WaysToHelp>
-        
-        <External>
-			<Image title="U2 photograph of Soviet nuclear missiles in Cuba">http://upload.wikimedia.org/wikipedia/commons/0/0e/U2_Image_of_Cuban_Missile_Crisis.jpg</Image>
-            <Video title="50th anniversary of Cuban Missile Crisis">http://www.nbcnews.com/video/nightly-news/49510565#49510565</Video>
-            <Map title="Cuba">http://users.humboldt.edu/ogayle/Hist%20111%20Images/CubanMissileCrisis.gif</Map>
-            <Social network="Facebook">http://www.facebook.com/events/156960544442243/</Social>
-			<Link title="Cuban missile crisis">http://www.jfklibrary.org/JFK/JFK-in-History/Cuban-Missile-Crisis.aspx</Link>
-		</External>
-		
-		<Organizations>
-			<Organization oID="WB1945"/>
-			<Organization oID="CG1790"/>
-		</Organizations>
-		
-		<People>
-			<Person pID="FC1926"/>
-            <Person pID="JK1917"/>
-		</People>
-    </Crisis>
-    
-    <Crisis cID="HK2005">
-		<Info>
-            <Name>Hurricane Katrina</Name>
-            <Kind>Natural Disaster</Kind>
-			<Description>The costliest natural disaster and deadliest in the history of the United States</Description>
-            <Location>
-                <City>New Orleans</City>
-				<Country>United States</Country>
-            </Location>
-            
-            <Date>
-                <StartDate>2005-08-23</StartDate>
-				<EndDate>2005-08-30</EndDate>
-            </Date>
-		</Info>
-		<History>Hurricane Katrina was the deadliest and most destructive Atlantic hurricane of the 2005 Atlantic Hurricane season.</History>
-        <HumanImpact>1833 casualties and hundreds injured.</HumanImpact>
-        <EconomicImpact>108 billion USD in repairs.</EconomicImpact>
-		<ResourcesNeeded>Military to aid citizens, helicopters to transport necessary equipment, and disaster relief.</ResourcesNeeded>
-		<WaysToHelp>Medical aid, clean water, food, clothes, and shelter</WaysToHelp>
-        
-        <External>
-			<Image title="Hurricane Katrina August 28 2005">http://upload.wikimedia.org/wikipedia/commons/a/a4/Hurricane_Katrina_August_28_2005_NASA.jpg</Image>
-			<Video title="Hurricane Katrina: A Nasa video Retrospective">http://www.nasa.gov/mission_pages/hurricanes/features/katrina-retrospective.html</Video>
-            <Map title="New Orleans">http://www.lonelyplanet.com/maps/north-america/usa/new-orleans/map_of_new-orleans.jpg</Map>
-			<Link title="NOAA">http://www.ncdc.noaa.gov/special-reports/katrina.html"</Link>
-		</External>
-        
-		<Organizations>
-			<Organization oID="DB1971"/>
-			<Organization oID="AR1881"/>
-			<Organization oID="CG1790"/>
-		</Organizations>
-        
-		<People>
-			<Person pID="BO1960"/>
-			<Person pID="GB1946"/>
-		</People>
-    </Crisis>
-    
-    <Crisis cID= "SY2011">
-		<Info>
-			<Name>Syrian Civil War </Name>
-            
-			<Kind> Civil War </Kind>
-            
-			<Description>an ongoing armed conflict in Syria between forces loyal to the Syrian Ba'ath Party government and those seeking to oust it. The conflict began on 15 March 2011 with nationwide demonstrations, as part of the wider protest movement known as the Arab Spring. Protesters demanded the resignation of President Bashar al-Assad, whose family has held the presidency in Syria since 1971, as well as the end to nearly five decades of Ba'ath Party rule. </Description>
-            
-			<Location>
-                <Country> Syria </Country>
-			</Location>
-            
-			<Date>
-                <StartDate> 2011-03-15  </StartDate>
-			</Date>
-		</Info>
-        
-        <HumanImpact> Over 70,000 deaths, 28,000 people reported missing, and severe human rights violations </HumanImpact>
-        
-        <EconomicImpact> Looting as well as damage to heritage sites, archaeological and architectural </EconomicImpact>
-        
-		<ResourcesNeeded> Money for rebuilding and medical resources, from medicines to physicians </ResourcesNeeded>
-		
-		<WaysToHelp> Unknown </WaysToHelp>
-        
-        
-		<External>
-			<Image title= "Fire-bombed vehicles"> http://en.wikipedia.org/wiki/File:Bombed_out_vehicles_Aleppo.jpg </Image>
-            
-			<Video title= "Life in battleground town of al-Safira"> http://www.bbc.co.uk/news/world-middle-east-21504390 </Video>
-            
-			<Map title= "Map of Syria"> http://goo.gl/maps/PWJKM </Map>
-			
-			<Link title="Crises Group"> http://www.crisisgroup.org/en/regions/middle-east-north-africa/egypt-syria-lebanon-syria.aspx/ </Link>
-		</External>
-        
-		<Organizations>
-			<Organization oID ="A1961" />
-			<Organization oID ="NA1949" />
-		</Organizations>
-        
-		<People>
-			<Person pID = "SL1959" />
-		</People>
-	</Crisis>
-    
-	<Crisis cID= "AI1970">
-		<Info>
-            <Name> AIDS in Africa </Name>
-            
-			<Kind> Infectious Disease </Kind>
-			<Description>HIV/AIDS is a major public health concern and cause of death in many parts of Africa. Although Africa is home to about 14.5% of the world's population, it is estimated to be home to 69% of all people living with HIV and to 72% of all AIDS deaths in 2009</Description>
-			<Location>
-                <Country> Africa </Country>
-			</Location>
-            
-			<Date>
-                <StartDate> 1970s </StartDate>
-			</Date>
-		</Info>
-        
-		<HumanImpact> Over 1.3 million deaths; economic problems drive women and girls into sex work to ensure their livelihood furthering the issue </HumanImpact>
-        
-        <EconomicImpact> Corruption within both donor agencies and government agencies, foreign donors not coordinating with local government, and misguided resources</EconomicImpact>
-        
-		<ResourcesNeeded> Public education and AIDS medicine </ResourcesNeeded>
-		
-		<WaysToHelp> Give time or money. Lobby Congress and pharmaceutical companies </WaysToHelp>
-        
-		<External>
-			<Image title= "Map of HIV prevalence in Africa"> http://en.wikipedia.org/wiki/File:Map-of-HIV-Prevalance-in-Africa.png </Image>
-            
-            <Image title= "AIDS awareness rally"> http://africanheritageculturalcenter.org/wp-content/uploads/2010/06/AIDS-in-South-Africa.jpg </Image>
-            
-			<Map title= "Map of Africa"> http://goo.gl/maps/n7rnd </Map>
-            
-			<Social network= "Facebook"> http://www.facebook.com/HivAidsAfrica?fref=ts </Social>
-			<Social network= "Twitter"> @AidsinAfrica.net </Social>
-		</External>
-        
-		<Organizations>
-			<Organization oID = "DB1971" />
-			<Organization oID = "WH1948" />
-			<Organization oID = "WB1945" />
-			<Organization oID = "AF1970" />
-		</Organizations>
-        
-		<People>
-			<Person pID = "BO1960" />
-			<Person pID = "BG1955" />
-		</People>
-    </Crisis>
-    
-    
-    
-    <Organization oID="MG1810">
-        <Info>
-            <Name>Mexican Government</Name>
-            <Kind>Government</Kind>
-            <Description>A federal presidential representative democratic republic whose government is based on a congressional system</Description>
-            <Location>
-                <Country>Mexico</Country>
-            </Location>
-            <Date>
-                <StartDate>1810-09-16</StartDate>
-            </Date>
-        </Info>
-        <History>Mexico, officially the United Mexican States is a federal constitutional republic in North America. It is bordered on the north by the United States of America; on the south and west by the Pacific Ocean; on the southeast by Guatemala, Belize, and the Caribbean Sea; and on the east by the Gulf of Mexico.</History>
-        <ContactInfo>
-        </ContactInfo>
-        <External>
-            <Image title="Coat of Arms of Mexico">http://upload.wikimedia.org/wikipedia/commons/2/2a/Coat_of_arms_of_Mexico.svg</Image>
-            <Image title="Mexican Flag">http://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg</Image>
-            <Map title="Mexico">http://www.lonelyplanet.com/maps/north-america/mexico/map_of_mexico.jpg</Map>
-        </External>
-        
-        <Crises>
-            <Crisis cID = "CM1962" />
-            <Crisis cID = "HT1900" />
-            <Crisis cID = "MD2006" />
-        </Crises>	
-        
-        <People>
-        </People>	
-        
-    </Organization>
+
+	</Crisis>	
 	<Organization oID="NA1949">
 		<Info>
 			<Name>The North Atlantic Treaty Organization</Name>
@@ -486,21 +124,21 @@
 			<Kind>Military Alliance</Kind>
 			<Description>The North Atlantic Treaty Organization, also called the (North) Atlantic Alliance, is an intergovernmental military alliance based on the North Atlantic Treaty which was signed on 4 April 1949. The organization constitutes a system of collective defense whereby its member states agree to mutual defense in response to an attack by any external party. NATO's headquarters are in Brussels, Belgium, one of the 28 member states across North America and Europe, the newest of which, Albania and Croatia, joined in April 2009. An additional 22 countries participate in NATO's "Partnership for Peace", with 15 other countries involved in institutionalized dialogue programs. The combined military spending of all NATO members constitutes over 70% of the world's defense spending.</Description>
 			<Location>
-                
+
 				<City>Brussels</City>
 				<Country>Belgium</Country>
 				<Postal>1110</Postal>
 				<!-- <AddressLine>Optional string </AddressLine>
-                 <AddressLine>Optional string</AddressLine>
-                 <State>OPTIONAL string</State>
-                 <AddressLine>1110</AddressLine>
+				<AddressLine>Optional string</AddressLine>
+				<State>OPTIONAL string</State>
+				<AddressLine>1110</AddressLine>
 				 -->
 			</Location>
 			<Date>
 				<StartDate>1949-04-04</StartDate>
 				<!-- <StartTime>OPTIONAL hh:mm:ss</StartTime>
-                 <EndDate>OPTIONAL YYYY-MM-DD</EndDate>
-                 <EndTime>OPTIONA hh:mm:s</EndTime> -->
+				<EndDate>OPTIONAL YYYY-MM-DD</EndDate>
+				<EndTime>OPTIONA hh:mm:s</EndTime> -->
 			</Date>
 		</Info>
 		<History>For its first few years, NATO was not much more than a political association. However, the Korean War galvanized the member states, and an integrated military structure was built up under the direction of two US supreme commanders. The course of the Cold War led to a rivalry with nations of the Warsaw Pact, which formed in 1955. The first NATO Secretary General, Lord Ismay, stated in 1949 that the organization's goal was "to keep the Russians out, the Americans in, and the Germans down."[4] Doubts over the strength of the relationship between the European states and the United States ebbed and flowed, along with doubts over the credibility of the NATO defence against a prospective Soviet invasion—doubts that led to the development of the independent French nuclear deterrent and the withdrawal of the French from NATO's military structure in 1966.</History>
@@ -508,13 +146,13 @@
 			<!-- all Contactinfo sub-elements occur 1 time and are optional-->
 			<Website>http://www.nato.int/L</Website>
 			<!-- <Telephone>STRING</Telephone>
-             <Fax>STRING</Fax>
-             <Email>STRING</Email> -->
+			<Fax>STRING</Fax>
+			<Email>STRING</Email> -->
 		</ContactInfo>
 		<External>
 			<!-- Repeat any External sub-element as needed-->
 			<!-- <Image title="Required String">VALID URL</Image>
-             <Video title="Required String">VALID URL</Image> -->
+			<Video title="Required String">VALID URL</Image> -->
 			<Map title="History of NATO">http://en.wikipedia.org/wiki/File:History_of_NATO_enlargement.svg</Map>
 			<Map title="NATO Partnerships">http://en.wikipedia.org/wiki/File:NATO_partnerships.svg</Map>
 			
@@ -523,14 +161,14 @@
 			<Social network="Google+">http://www.nato.int/googleplus</Social>
 			
 			<!--<Link title="Required String">VALID URL</Image>
-             <Citation>Optional String</Citation> -->
+			<Citation>Optional String</Citation> -->
 		</External>
 		
 		<Crises>
 			<!-- Repeat Crisis up to 10 times -->
 			<Crisis cID="ER2011" />
 			<Crisis cID="SY2011" />
-		</Crises>
+		</Crises>	
 		
 		<People>
 			<!-- Repeat Person up to 10 times -->
@@ -542,46 +180,7 @@
 		</People>
 		
 	</Organization>
-    <Organization oID="AR1881">
-        <Info>
-            <Name>American Red Cross</Name>
-            <Abbreviation>ARC</Abbreviation>
-            <Kind>Non-Profit</Kind>
-            <Description>Humanitarian relief and charity organization</Description>
-            <Location>
-                <AddressLine>2025 E Street</AddressLine>
-                <City>Washington D.C.</City>
-                <State>Virginia</State>
-                <Country>USA</Country>
-                <Postal>20006</Postal>
-            </Location>
-            <Date>
-                <StartDate>1881-05-21</StartDate>
-            </Date>
-        </Info>
-        <History>The American Red Cross (ARC), also known as the American National Red Cross, is a humanitarian organization that provides emergency assistance, disaster relief and education inside the United States. It is the designated U.S. affiliate of the International Federation of Red Cross and Red Crescent Societies.</History>
-        <ContactInfo>
-            <Website>http://www.redcross.org/</Website>
-            <Telephone>1-800-733-2767</Telephone>
-        </ContactInfo>
-        <External>
-            <Image title="Logo">http://upload.wikimedia.org/wikipedia/commons/8/88/Americanredcross.jpg</Image>
-            <Video title="2012 Year in Review">http://youtu.be/ufRYD3vxcCA</Video>
-            <Map title="American Red Cross HQ">http://farm4.static.flickr.com/3242/2667055551_154eb325e6.jpg</Map>
-            <Social network="Facebook">https://www.facebook.com/redcross</Social>
-            <Social network="Twitter">https://twitter.com/RedCross</Social>
-            <Citation>http://en.wikipedia.org/wiki/American_Red_Cross</Citation>
-        </External>
-        
-        <Crises>
-            <Crisis cID = "HK2005" />
-            <Crisis cID = "AI1970" />
-        </Crises>		
-        
-        <People>
-        </People>
-        
-    </Organization>
+	
 	<Organization oID="WH1948">
 		<Info>
 			<Name>World Health Organization</Name>
@@ -595,19 +194,19 @@
 				<Country>Switzerland</Country>
 				<Postal>1211</Postal>
 				<!-- 				<AddressLine>Optional string </AddressLine>
-                 <AddressLine>Optional string</AddressLine>
-                 <State>OPTIONAL string</State> -->
+				<AddressLine>Optional string</AddressLine>
+								<State>OPTIONAL string</State> -->
 			</Location>
 			<Date>
 				<StartDate>1948-04-07</StartDate>
 				<!--<StartTime>OPTIONAL hh:mm:ss</StartTime>
-                 <EndDate>OPTIONAL YYYY-MM-DD</EndDate>
-                 <EndTime>OPTIONA hh:mm:s</EndTime>-->
+				<EndDate>OPTIONAL YYYY-MM-DD</EndDate>
+				<EndTime>OPTIONA hh:mm:s</EndTime>-->
 			</Date>
 		</Info>
 		<History>When diplomats met to form the United Nations in 1945, one of the things they discussed was setting up a global health organization.
-            
-            WHO’s Constitution came into force on 7 April 1948 – a date we now celebrate every year as World Health Day.</History>
+
+WHO’s Constitution came into force on 7 April 1948 – a date we now celebrate every year as World Health Day.</History>
 		<ContactInfo>
 			<!-- all Contactinfo sub-elements occur 1 time and are optional-->
 			<Website>http://www.who.int/</Website>
@@ -626,13 +225,13 @@
 			<Social network="Youtube">http://www.youtube.com/who</Social>
 			
 			<!--<Link title="Required String">VALID URL</Link>
-             <Citation>Optional String</Citation>-->
+			<Citation>Optional String</Citation>-->
 		</External>
 		
 		<Crises>
 			<!-- Repeat Crisis up to 10 times -->
 			<Crisis cID="AI1970" />
-		</Crises>
+		</Crises>	
 		
 		<People>
 			<!-- Repeat Person up to 10 times -->
@@ -640,281 +239,7 @@
 		</People>
 		
 	</Organization>
-    
-    <Organization oID="AI1961">
-		<Info>
-			<Name>Amnesty International</Name>
-			<Abbreviation>AI</Abbreviation>
-			<Kind>Non-profit</Kind>
-			<Kind>Non-governmental</Kind>
-			<Description>Amnesty International is a global movement of more than 3 million supporters, members and activists in over 150 countries and territories who campaign to end grave abuses of human rights.</Description>
-			<Location>
-				<AddressLine>1 Easton Street</AddressLine>
-				<City>London</City>
-				<Country>UK</Country>
-			</Location>
-			<Date>
-				<StartDate>1961-07-00</StartDate>
-			</Date>
-		</Info>
-		<History>Amnesty International was founded in London in July 1961 by English labour lawyer Peter Benenson. By the mid-1960s Amnesty International's global presence was growing and an International Secretariat and International Executive Committee were established to manage Amnesty International's national organisations, called 'Sections', which had appeared in several countries.</History>
-		<ContactInfo>
-			<Website>https://www.amnesty.org</Website>
-			<Telephone>+44-20-74135500</Telephone>
-			<Fax>+44-20-79561157</Fax>
-		</ContactInfo>
-		<External>
-			<Image title="Amnesty International Logo">http://upload.wikimedia.org/wikipedia/en/e/ee/Amnesty_International_logo.svg</Image>
-			<Map title="Amnesty International Map">http://demandjusticenow.org/</Map>
-			<Social network="Twitter">https://www.twitter.com/amnestyonline</Social>
-		</External>
-        
-        
-		<Crises>
-			<Crisis cID="AI1970" />
-			<Crisis cID="ER2011" />
-			<Crisis cID="HT1900" />
-			<Crisis cID="SY2011" />
-		</Crises>
-        <People>
-        </People>
-        
-	</Organization>
 	
-	<Organization oID="CG1790">
-		<Info>
-			<Name>United States Coast Guard</Name>
-			<Abbreviation>USCG</Abbreviation>
-			<Kind>Governmental</Kind>
-			<Description>The U.S. Coast Guard is one of the five armed forces of the United States and the only military organization within the Department of Homeland Security. Since 1790 the Coast Guard has safeguarded our Nation's maritime interests and environment around the world. The Coast Guard is an adaptable, responsive military force of maritime professionals whose broad legal authorities, capable assets, geographic diversity and expansive partnerships provide a persistent presence along our rivers, in the ports, littoral regions and on the high seas. Coast Guard presence and impact is local, regional, national and international. These attributes make the Coast Guard a unique instrument of maritime safety, security and environmental stewardship.</Description>
-			<Location>
-				<AddressLine>2100 2nd St SW #7102</AddressLine>
-				<City>Washington</City>
-				<State>DC</State>
-				<Country>USA</Country>
-				<Postal>20593</Postal>
-			</Location>
-			<Date>
-				<StartDate>1790-00-00</StartDate>
-			</Date>
-		</Info>
-		<History>The roots of the Coast Guard lie in the United States Revenue Cutter Service established by Alexander Hamilton under the Department of the Treasury on 4 August 1790. The first Coast Guard station was in Newburyport, Massachusetts. Until the re-establishment of the United States Navy in 1798, the Revenue Cutter Service was the only naval force of the early United States. It was established to collect taxes from a brand new nation of patriot smugglers. When the officers were out at sea, they were told to crack down on piracy; while they were at it, they might as well rescue anyone in distress.</History>
-		<ContactInfo>
-			<Website>https://www.uscg.mil</Website>
-		</ContactInfo>
-		<External>
-			<Image title="Coast Guard seal">http://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/US-CoastGuard-Seal.svg/210px-US-CoastGuard-Seal.svg.png</Image>
-			<Video title="US Coast Guard Recruiting Ad">http://www.youtube.com/watch?v=MbHEp42vTEs</Video>
-			<Map title="Map of Coast Guard Office">https://homeport.uscg.mil/portal/ep/images/map_final.jpg</Map>
-			<Social network="Twitter">https://twitter.com/USCG</Social>
-			<Social network="Facebook">https://www.facebook.com/UScoastguard</Social>
-		</External>
-        
-		<Crises>
-			<Crisis cID="HK2005" />
-		</Crises>
-        <People>
-        </People>
-        
-	</Organization>
-
-    
-    <Organization oID="DB1971">
-		<Info>
-			<Name>Doctors without Borders</Name>
-			<Kind>Humanitarian Organization</Kind>
-			<Description>A secular humanitarian-aid non-governmental organization.</Description>
-			<Location>
-                <AddressLine>Doctors Without Borders</AddressLine>
-                <AddressLine>333 7th Avenue</AddressLine>
-                <City>New York</City>
-				<State>New York</State>
-                <Country>USA</Country>
-                <Postal>10001</Postal>
-			</Location>
-            
-			<Date>
-				<StartDate>1971-12-20</StartDate>
-			</Date>
-		</Info>
-		<History>Doctors without Borders was created in 1971, in the aftermath of the Biafra secession, by a small group of French doctorsand journalist who believed that all people have the right to medical care regardless of race, religion, creed, or political affiliation,and that the needs of these people outweigh respect for national borders.</History>
-        
-        
-		<ContactInfo>
-			<Website>http://www.doctorswithoutborders.org</Website>
-            <Telephone>+212-679-7016</Telephone>
-			<Fax>+212-679-7016</Fax>
-        </ContactInfo>
-        
-		<External>
-			<Image title="Logo">http://upload.wikimedia.org/wikipedia/en/4/4e/Msf_logo.png</Image>
-			<Video title="Bringing Much-Needed Medical Care to Timbuktu, Mali"></Video>
-			<Map title="Doctors w/o Borders">http://www.doctorswithoutborders.org/images/about/map.jpg</Map>
-			<Social network="Facebook">https://www.facebook.com/msf.english</Social>
-		</External>
-		
-		<Crises>
-			<Crisis cID="HK2005"/>
-			<Crisis cID="AI1970"/>
-			<Crisis cID="SY2011"/>
-  			<Crisis cID="VW1955"/>
-        </Crises>
-        
-        <People>
-            
-        </People>
-    </Organization>
-    
-    <Organization oID= "WB1945">
-		<Info>
-			<Name>World Bank Group</Name>
-			<Kind>International Organization</Kind>
-			<Description>A family of five international organizations that make leveraged loans to poor countries.</Description>
-			<Location>
-                <AddressLine>The World Bank</AddressLine>
-                <AddressLine>1818 H Street, N.W.</AddressLine>
-                <City>Washington D.C.</City>
-                <Country>USA</Country>
-                <Postal>20433</Postal>
-			</Location>
-            
-			<Date>
-				<StartDate>1970-09-20</StartDate>
-			</Date>
-		</Info>
-		<History>The World Bank activities are focused on developing countries, in fields such as human development, environmental protection infrasctructure, large industrial construction projects, and governance.</History>
-		<ContactInfo>
-            <Website>www.worldbank.org</Website>
-            <Telephone>202-473-1000</Telephone>
-            <Fax>+202-477-6391</Fax>
-            <Email>info@worldbank.org</Email>
-		</ContactInfo>
-        
-		<External>
-			<Image title="Logo">http://upload.wikimedia.org/wikipedia/en/b/bd/World_Bank_Logo.svg</Image>
- 			<Video title="Videos - July 2009">http://web.worldbank.org/WBSITE/EXTERNAL/EXTABOUTUS/PARTNERS/EXTDEVDIALOGUE/0,,contentMDK:22256131~pagePK:64192523~piPK:64192458~theSitePK:537298,00.html</Video>
-			<Map title="WBG US headquarters">http://maps.worldbank.org/</Map>
-			<Social network="Twitter">@WorldBank</Social>
-		</External>
-        
-		<Crises>
-			<Crisis cID="AI1970"/>
-			<Crisis cID="VW1955"/>
-		</Crises>
-        <People>
-            
-        </People>
-    </Organization>
-    
-    
-    
-    
-    
-    
-	<Organization oID= "AF1970">
-		<Info>
-			<Name> Africare </Name>
-            
-			<Kind>  Non-profit </Kind>
-            
-			<Description> Africare is a non-profit organization based in the United States which provides development aid for Africa. Since 1970, Africare has been improving lives and building a better future for Africa by focusing on healthcare, maternal and child health, HIV/AIDS, access to water, agriculture and food security. In more than 40 years of building partnerships with local communities, NGOs, governments and the private sector, Africare has invested over $1 billion in more than 35 countries in Sub-Saharan Africa. </Description>
-            
-			<Location>
-                <AddressLine> Africare House </AddressLine>
-                <AddressLine> 440 R Street, N.W. </AddressLine>
-                <City> Washington D.C. </City>
-                <Country> USA </Country>
-                <Postal> 20001 </Postal>
-			</Location>
-            
-			<Date>
-                <StartDate> 1970-09-20 </StartDate>
-			</Date>
-		</Info>
-        
-        
-		<History> Founded September 20, 1970 in Washington D.C. by William O. Kirker, Barbara Kirker, and C. Payne Lucas</History>
-        
-		<ContactInfo>
-            <Website> www.africare.org </Website>
-            <Telephone> 1-202-462-3614 </Telephone>
-            <Fax> 1-202-387-1034</Fax>
-            <Email> info@africare.org </Email>
-		</ContactInfo>
-        
-		<External>
-			<Image title= "Logo"> http://upload.wikimedia.org/wikipedia/en/e/ee/AFRICARE_LOGO.png </Image>
-            
-			<Video title= "Celebrating 40 years of work on the African Continent"> http://www.africare.org/our-stories/galleries/videos/Pass-it-on-january10.php </Video>
-            
-			<Map title= "Map of Africa"> http://goo.gl/maps/ynKBw </Map>
-            
-			<Social network= "Facebook"> http://www.facebook.com/Africaremedia </Social>
-			<Social network= "Twitter"> @Africare </Social>
-		</External>
-        
-		<Crises>
-			<Crisis   cID = "AI1970" />
-		</Crises>
-        
-		<People>
-		</People>
-        
-	</Organization>
-    
-	<Organization oID = "HT2006">
-        <Info>
-            <Name> Human Trafficking Awareness Partnerships </Name>
-            <Abbreviation> HTAP </Abbreviation>
-            
-			<Kind>  Non-profit </Kind>
-            
-			<Description>Because human trafficking is a hidden crime which can only be eradicated by an informed public supporting professional law enforcement and service providers, the mission of the Human Trafficking Awareness Partnerships  is to bring the issue of human trafficking to the forefront of public awareness </Description>
-            
-			<Location>
-                <AddressLine> HTAP, Inc. </AddressLine>
-                <AddressLine> PO Box 1113 </AddressLine>
-                <City> Sanibel </City>
-                <State>Florida </State>
-                <Country> USA </Country>
-                <Postal> 33957 </Postal>
-			</Location>
-            
-			<Date>
-				<StartDate> 2006 </StartDate>
-			</Date>
-		</Info>
-        
-		<History> Founded by Ms. Nola Theiss in Sanibel, Florida in 2006 </History>
-        
-		<ContactInfo>
-            <Website> http://www.humantraffickingawareness.org/ </Website>
-            <Telephone> (239) 415-2635 </Telephone>
-            <Fax> 239-395-2635 </Fax>
-            <Email> info@humantraffickingawareness.org </Email>
-		</ContactInfo>
-        
-		<External>
-			<Image title= "HTAP Logo"> http://humantraffickingawareness.com/images/stories/htap%20logo_edited-1.jpg </Image>
-            
-			<Map title= "Location of HTAP headquarters"> http://goo.gl/maps/tL1eS</Map>
-            
-			<Social network= "Facebook"> http://www.facebook.com/humantraffickingawarenesspartnerships </Social>
-		</External>
-        
-		<Crises>
-			<Crisis cID = "HT1900"/>
-		</Crises>
-        
-		<People>
-		</People>
-        
-	</Organization>
-    
-    
-    
-    
-    
 	<Person pID="NM1918">
 		<Info>
 			<Name>Nelson Mandela</Name>
@@ -925,19 +250,19 @@
 			<Description>Nelson Rolihlahla Mandela is a South African anti-apartheid activist, revolutionary and politician who served as President of South Africa from 1994 to 1999, the first to be elected in a fully representative, multiracial election</Description>
 			<Location>
 				<!--<AddressLine>Optional string</AddressLine>
-                 <AddressLine>Optional string </AddressLine>
-                 <AddressLine>Optional string</AddressLine>
-                 <State>OPTIONAL string</State>
-                 <Postal>OPTIONAL string</Postal>-->
-                
+				<AddressLine>Optional string </AddressLine>
+				<AddressLine>Optional string</AddressLine>
+								<State>OPTIONAL string</State>
+				<Postal>OPTIONAL string</Postal>-->
+
 				<City>Transkei</City>
 				<Country>South Africa</Country>
 			</Location>
 			<Date>
 				<StartDate>1918-07-18</StartDate>
 				<!--<StartTime>OPTIONAL hh:mm:ss</StartTime>
-                 <EndDate>OPTIONAL YYYY-MM-DD</EndDate>
-                 <EndTime>OPTIONA hh:mm:s</EndTime>-->
+				<EndDate>OPTIONAL YYYY-MM-DD</EndDate>
+				<EndTime>OPTIONA hh:mm:s</EndTime>-->
 			</Date>
 		</Info>
 		<History>Nelson Mandela was born on July 18, 1918, in Transkei, South Africa. He became actively involved in the anti-apartheid movement and joined the African National Congress in 1942. For 20 years, he directed a campaign of peaceful, non-violent defiance against the South African government and its racist policies. In 1994, Mandela was inaugurated as the country's first black president. In 2009, Mandela's birthday, July 18, was designated as Mandela Day, an international celebration of his legacy and a day dedicated to promoting global peace.</History>
@@ -945,8 +270,8 @@
 			<!-- all Contactinfo sub-elements occur 1 time and are optional-->
 			<Website>http://www.nelsonmandela.org/</Website>
 			<!--<Telephone>STRING</Telephone>
-             <Fax>STRING</Fax>
-             <Email>STRING</Email>-->
+			<Fax>STRING</Fax>
+			<Email>STRING</Email>-->
 		</ContactInfo>
 		<External>
 			<!-- Repeat any External sub-element as needed-->
@@ -955,7 +280,7 @@
 			<!--<Map title="Required String">VALID URL</Map>-->
 			<Social network="Facebook">http://www.facebook.com/NelsonMandelaCentreOfMemory</Social>
 			<!--<Link title="Required String">VALID URL</Link>
-             <Citation>Optional String</Citation>-->
+			<Citation>Optional String</Citation>-->
 		</External>
 		
 		<Organizations>
@@ -969,367 +294,10 @@
 			<!-- Repeat Crisis up to 10 times -->
 			<Crisis cID="AI1970" />
 		</Crises>		
-        
+
 	</Person>
-    
-    
-    <Person pID= "JK1917">
-        <Info>
-        	<Name>John F Kennedy</Name>
-        	<Abbreviation>JFK</Abbreviation>
-        	<Kind>Leader</Kind>
-        	<Description>John Fitzgerald "Jack" Kennedy often referred to by his initials JFK, was the 35th President of the United States, serving from 1961 until his death by assassinated on November 22, 1963 in Dallas, Texas.</Description>
-        	<Location>
-                <City>Brookline</City>
-                <State>Massachusetts</State>
-                <Country>USA</Country>
-           		<Postal>02446</Postal>
-        	</Location>
-            
-        	<Date>
-                <StartDate>1917-05-29</StartDate>
-                <EndDate>1963-11-22</EndDate>
-       		</Date>
-        </Info>
-        <ContactInfo>
-            <Website>www.jfklibrary.org</Website>
-            <Telephone>1-617-514-1550</Telephone>
-            <Email>Foundation@JFKLFoundation.org</Email>
-        </ContactInfo>
-        <External>
-            <Image title= "JFK">http://www.whitehouse.gov/sites/default/files/first-family/masthead_image/35jk_header.jpg?1250885463</Image>
-            <Video title= "JFK Speech on Cuban Missile Crisis">http://youtu.be/P7YkJxQT_0Y</Video>
-            <Map title= "White House" > http://goo.gl/maps/xFGPn </Map>
-            <Link title="JFK Library">www.jfklibrary.org </Link>
-        </External>
-        
-        <Organizations>
-            <Organization oID="NA1949" />
-        </Organizations>
-        <Crises>
-            <Crisis cID= "CM1962" />
-            <Crisis cID= "VW1975" />
-        </Crises>
-    </Person>
-    
-    
-    <Person pID="GB1946">
-        <Info>
-            <Name>George W Bush</Name>
-            <Kind>Leader</Kind>
-            <Description>George Walker Bush is an American politician and businessman who was the 43rd President of the United States from 2001 to 2009 and the 46th Governor of Texas from 1995 to 2000.</Description>
-            <Location>
-                <City>New Haven</City>
-                <State>Connecticut</State>
-                <Country>USA</Country>
-                <Postal>06511</Postal>
-            </Location>
-            <Date>
-                <StartDate> 1946-07-06 </StartDate>
-            </Date>
-        </Info>
-        <ContactInfo>
-            <Website>http://www.bushcenter.org/</Website>
-            <Telephone>214-200-4300</Telephone>
-            <Fax>214-200-4301</Fax>
-            <Email>Info@BushCenter.org</Email>
-        </ContactInfo>
-        <External>
-            <Image title= "George W. Bush">http://www.biography.com/imported/images/Biography/Images/Profiles/B/George-W-Bush-9232768-1-402.jpg</Image>
-            <Video title= "George Bush Talks about Haiti">http://vimeo.com/8783351</Video>
-            <Map title= "White House">http://goo.gl/maps/xFGPn</Map>
-            <Social network= "Facebook">http://www.facebook.com/georgewbush</Social>
-        </External>
-        <Organizations>
-            <Organization oID="NA1949"/>
-        </Organizations>
-        <Crises>
-            <Crisis cID="HK2005"/>
-        </Crises>
-        
-    </Person>
-    
-    
-    <Person pID= "MH1955">
-        <Info>
-            <Name>Mike Huckabee</Name>
-            <Kind>Leader</Kind>
-            <Description>Michael Dale "Mike" Huckabee is an American politician who served as the 44th Governor of Arkansas (1996–2007). He was a candidate in the 2008 United States Republican presidential primaries, finishing second in delegate count and third in both popular vote and number of states won (behind both John McCain and Mitt Romney).</Description>
-            <Location>
-                <City>Hope</City>
-                <State>Arkansas</State>
-                <Country>USA</Country>
-                <Postal>71801</Postal>
-            </Location>
-            <Date>
-                <StartDate>1955-08-24</StartDate>
-            </Date>
-        </Info>
-        <ContactInfo>
-            <Website>http://www.mikehuckabee.com</Website>
-        </ContactInfo>
-        <External>
-            <Image title= "Mike Huckabee">http://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Mike_Huckabee_by_Gage_Skidmore_2.jpg/220px-Mike_Huckabee_by_Gage_Skidmore_2.jpg</Image>
-            <Video title= "Mike Huckabee: Speech on Katrina">http://youtu.be/192g-IQFdDE</Video>
-            <Map title= "State Capital of Arkansas">http://goo.gl/maps/w8ka3</Map>
-        </External>
-        
-        <Organizations>
-        </Organizations>
-        <Crises>
-            <Crisis cID= "HK2005"/>
-        </Crises>
-        
-        
-    </Person>
-    
-    
-    
-    <Person pID= "BG1955">
-        <Info>
-            <Name>Bill H Gates</Name>
-            <Kind>Civilian</Kind>
-            <Description>William Henry "Bill" Gates III is an American programmer, inventor, business magnate and philanthropist. Gates is the former chief executive and current chairman of Microsoft, the world’s largest personal-computer software company, which he co-founded with Paul Allen.</Description>
-            <Location>
-                <City>Seattle</City>
-                <State>Washington</State>
-                <Country>USA</Country>
-            </Location>
-            <Date>
-                <StartDate>1955-10-28</StartDate>
-            </Date>
-        </Info>
-        <ContactInfo>
-            <Website>http://www.gatesfoundation.org/</Website>
-        </ContactInfo>
-        <External>
-            <Image title= "Bill Gates">http://www.biography.com/imported/images/Biography/Images/Profiles/G/Bill-Gates-9307520-2-402.jpg</Image>
-            <Video title= "Bill Gates Biography">http://www.biography.com/people/bill-gates-9307520/videos/bill-gates-charity-2080037725</Video>
-            <Map title= "Bill Gates">http://goo.gl/maps/n7rnd</Map>
-            <Social network = "Facebook">http://www.facebook.com/BillGates?fref=ts</Social>
-            <Social network = "Twitter">https://twitter.com/billgates</Social>
-        </External>
-        <Organizations>
-        </Organizations>
-        <Crises>
-            <Crisis cID= "AI1970"/>
-            <Crisis cID="HT1900"/>
-        </Crises>
-    </Person>
-    
-    <Person pID="SL1959">
-        <Info>
-            <Name>Sergey Viktorovich Lavrov</Name>
-            <!-- Repeate Kind element as many times as needed-->
-            <Kind>Diplomat</Kind>
-            <Description>Sergey Lavrov is a lifelong diplomat from Russia who is now the Foreign Minister of Russia</Description>
-            <Location>
-                <AddressLine>32/34 Smolenskaya-Sennaya Ploshchad</AddressLine>
-                <City>Moscow</City>
-                <Country>Russia</Country>
-                <Postal>119200</Postal>
-            </Location>
-            <Date>
-                <StartDate>1961-08-04</StartDate>
-                
-            </Date>
-        </Info>
-        <History>Sergey Viktorovich Lavrov is a Russian Armenian diplomat who has been the Foreign Minister of Russia since 2004.</History>
-        <ContactInfo>
-            <!-- all Contactinfo sub-elements occur 1 time and are optional-->
-            <Website>www.eng.mvdrf.ru/ </Website>
-            <Telephone>+ 7 (499) 244-16-06 </Telephone>
-            
-        </ContactInfo>
-        <External>
-            <!-- Repeate any External sub-element as needed-->
-            <Image title="Sergey Lavrov">http://upload.wikimedia.org/wikipedia/commons/8/8c/Sergey_Lavrov_17.03.2010.jpeg  </Image>
-            <Video title="Charlie Rose - Sergey Lavrov"> https://www.youtube.com/watch?v=QrmCQH9JFxU </Video>
-            <Map title="Ministry of Foreign Affairs of Russia">http://photos.state.gov/libraries/russia/231771/Photos/embassy_map.jpg</Map>
-        </External>
-        
-        <Organizations>
-            <!-- Repeate Organization up to 10 times -->
-            <Organization oID="NA1949"/>
-        </Organizations>
-        
-        <Crises>
-            <!-- Repeate Person up to 10 times -->
-            <Crisis cID="SY2011" />
-        </Crises>
-        
-    </Person>
-    
-    
-    <Person pID="FC1926">
-        <Info>
-            <Name>Fidel Alejandro Castro</Name>
-            <!-- Repeate Kind element as many times as needed-->
-            <Kind>President</Kind>
-            <Description>Fidel Castro is the communist leader and president of Cuba since leading an uprising against the then island's government in 1959.</Description>
-            <Location>
-                <Country>Cuba</Country>
-            </Location>
-            <Date>
-                <StartDate>1926-08-13</StartDate>
-            </Date>
-        </Info>
-        <History>Fidel Alejandro Castro Ruz (Spanish: [fiˈðel ˈkastro]; born August 13, 1926) is a Cuban communist revolutionary and politician who was Prime Minister of Cuba from 1959 to 1976, and President from 1976 to 2008. He also served as the Commander in Chief of the country's armed forces from 1959 to 2008, and as the First Secretary of the Communist Party of Cuba from 1961 until 2011. Politically a Marxist-Leninist, under his administration the Republic of Cuba became a one-party socialist state; industry and businesses were nationalized, and socialist reforms implemented in all areas of society. Internationally, Castro was the Secretary-General of the Non-Aligned Movement, from 1979 to 1983 and from 2006 to 2008.</History>
-        <ContactInfo>
-            <!-- all Contactinfo sub-elements occur 1 time and are optional-->
-        </ContactInfo>
-        <External>
-            <!-- Repeate any External sub-element as needed-->
-            <Image title="Fidel Castro">http://upload.wikimedia.org/wikipedia/commons/1/15/Cuba.FidelCastro.02.jpg</Image>
-            <Video title="Fidel Castro - Mini Bio">https://www.youtube.com/watch?v=qQ24jmIHIUk</Video>
-            <Social network="Twitter">https://twitter.com/fidelcastro</Social>
-        </External>
-        
-        <Organizations>
-            <!-- Repeate Organization up to 10 times -->
-            <Organization oID="CG1970" />
-        </Organizations>
-        
-        <Crises>
-            <!-- Repeate Person up to 10 times -->
-            <Crisis cID="CM1962" />
-            <Crisis cID="VW1955" />
-        </Crises>
-        
-    </Person>
-    
-    <Person pID="BO1961">
-        <Info>
-            <Name>Barack H. Obama</Name>
-            <Abbreviation></Abbreviation>
-            <!-- Repeate Kind element as many times as needed-->
-            <Kind>President</Kind>
-            <Description>Barack Obama is the 44th president of the United Staates</Description>
-            <Location>
-                <AddressLine>1600 Pennsylvania Avenue NW</AddressLine>
-                <City>Washington D.C.</City>
-                <Country>United States of America</Country>
-                <Postal>20500</Postal>
-            </Location>
-            <Date>
-                <StartDate>1961-08-04</StartDate>
-            </Date>
-        </Info>
-        <History>Born on August 4, 1961, in Honolulu, Hawaii, Barack Obama is the 44th and current president of the United States. He was a civil-rights lawyer and teacher before pursuing a political career. He was elected to the Illinois State Senate in 1996, serving from 1997 to 2004. He was elected to the U.S. presidency in 2008, and won re-election in 2012 against Republican challenger Mitt Romney. President Obama continues to enact policy changes in response to the issues of health care and economic crisis.</History>
-        <ContactInfo>
-            <!-- all Contactinfo sub-elements occur 1 time and are optional-->
-            <Website>www.barackobama.com</Website>
-            <Telephone>202-456-1414</Telephone>
-        </ContactInfo>
-        <External>
-            <!-- Repeate any External sub-element as needed-->
-            <Image title="President Barack Obama">http://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/480px-President_Barack_Obama.jpg</Image>
-            <Video title="Barack Obama's Complete 2013 Inauguration Speech">http://www.youtube.com/watch?v=zncqb-n3zMo</Video>
-            <Map title="White House">http://clinton2.nara.gov/WH/Tours/map2.gif</Map>
-            <Social network="Facebook">https://www.facebook.com/barackobama</Social>
-            <Social network="Twitter">https://twitter.com/BarackObama</Social>
-            <Social network="Google+">https://plus.google.com/+BarackObama/posts</Social>
-        </External>
-        
-        <Organizations>
-            <!-- Repeate Organization up to 10 times -->
-            <Organization oID="NA1949" />
-            <Organization oID="MG1810" />
-            <Organization oID="WB1945" />
-        </Organizations>
-        
-        <Crises>
-            <!-- Repeate Person up to 10 times -->
-            <Crisis cID="EV2010" />
-            <Crisis cID="SY2011" />
-        </Crises>
-        
-    </Person>
-    
-    
-    <Person pID="BO1960">
-        <Info>
-            <Name>Paul David Hewson</Name>
-            <Abbreviation>Bono</Abbreviation>
-            <!-- Repeate Kind element as many times as needed-->
-            <Kind>Musician</Kind>
-            <Description>Bono is the lead singer for the band U2</Description>
-            <Location>
-                <AddressLine>Vico Road</AddressLine>
-                <City>Killiney</City>
-                <Country>Ireland</Country>
-            </Location>
-            <Date>
-                <StartDate>1960-05-10</StartDate>
-            </Date>
-        </Info>
-        <ContactInfo>
-            <!-- all Contactinfo sub-elements occur 1 time and are optional-->
-            <Website>www.u2.com</Website>
-        </ContactInfo>
-        <External>
-            <!-- Repeate any External sub-element as needed-->
-            <Image title="Bono at the 2009 Tribeca Film Festival">http://upload.wikimedia.org/wikipedia/commons/1/11/Bono_at_the_2009_Tribeca_Film_Festival.jpg </Image>
-            <Video title="Bono on the 'Late Late Show' - 1983">https://www.youtube.com/watch?v=OjWTT8Q8nN0</Video>
-            <Social network="Twitter">https://twitter.com/u2com</Social>
-        </External>
-        
-        <Organizations>
-            <!-- Repeate Organization up to 10 times -->
-            <Organization oID="AF1970" />
-            <Organization oID="WH1948" />
-            <Organization oID="DB1971" />
-        </Organizations>
-        
-        <Crises>
-            <!-- Repeate Person up to 10 times -->
-            <Crisis cID="AI1970" />
-        </Crises>
-        
-    </Person>
-    
-   	<Person pID = "AH1889" >
-		<Info>
-            <Name> Adolf Hitler </Name>
-            
-			<Kind> Fuhrer </Kind>
-			
-			<Description> Hitler was a decorated veteran of World War I. He joined the German Workers' Party (precursor of the NSDAP) in 1919, and became leader of the NSDAP in 1921. In 1923, he attempted a coup d'etat in Munich, known as the Beer Hall Putsch. The failed coup resulted in Hitler's imprisonment, during which time he wrote his memoir, Mein Kampf (My Struggle). After his release in 1924, Hitler gained popular support by attacking the Treaty of Versailles and promoting Pan-Germanism, antisemitism, and anti-communism with charismatic oratory and Nazi propaganda. After his appointment as chancellor in 1933, he transformed the Weimar Republic into the Third Reich, a single-party dictatorship based on the totalitarian and autocratic ideology of Nazism. </Description>
-            
-			<Location>
-                <City> Braunau am Inn </City>
-                <Country> Austria-Hungary </Country>
-			</Location>
-            
-			<Date>
-                <StartDate> 1889-04-20 </StartDate>
-                <EndDate> 1945-04-30 </EndDate>
-			</Date>
-		</Info>
-        
-		<ContactInfo>
-            <Website> http://www.imdb.com/name/nm0386944/bio </Website>
-		</ContactInfo>
-        
-		<External>
-			<Image title= "Saluting troops"> http://www.jewishvirtuallibrary.org/images/hitler1.jpg </Image>
-            
-			<Image title= "Nazi Party rally, Nuremburg, Germany"> http://history1900s.about.com/library/holocaust/blhitler37.htm </Image>
-			<Image title= "Hitler leaving SA rally"> http://history1900s.about.com/library/holocaust/blhitler3.htm </Image>
-			<Video title= "Victory of the Faith (part 1). Fifth Party Rally of the Nazi Party, including Adolf Hitler's meeting with important party members and massive SA parades"> http://www.youtube.com/watch?v=ONkXztHVvCg </Video>
-			<Map title= "Hitler's birth town, Braunau am Inn, Austrian-Hungary"> http://goo.gl/maps/UDZSW </Map>
-		</External>
-		<Organizations>
-            
-		</Organizations>
-		<Crises>
-			<Crisis cID= "HO1930" />
-		</Crises>
-    </Person>
-    
-    
-    
+
 	<!-- ALL  THE OTHER PEOPLE -->
-    
-    
+
+
 </WorldCrisesDatabase>

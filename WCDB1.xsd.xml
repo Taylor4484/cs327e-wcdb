@@ -1,21 +1,21 @@
 <?xml version="1.0" ?>
 <!-- XSD for WCBD1.xml -->
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-
+    
 	<!-- Root Element -->
 	<xsd:element name="WorldCrisesDatabase">
-	
+        
 		<!-- Unlimited number of sub-elements sequenced Crisis, Org, Person-->
 		<xsd:complexType>
 			<xsd:sequence>
 				<xsd:element name="Crisis" type="cType"
-							minOccurs="0" maxOccurs="unbounded">
+                    minOccurs="0" maxOccurs="unbounded">
 				</xsd:element>
 				<xsd:element name="Organization" type="oType"
-							minOccurs="0" maxOccurs="unbounded">
+                    minOccurs="0" maxOccurs="unbounded">
 				</xsd:element>
 				<xsd:element name="Person" type="pType"
-							minOccurs="0" maxOccurs="unbounded">
+                    minOccurs="0" maxOccurs="unbounded">
 				</xsd:element>
 			</xsd:sequence>
 		</xsd:complexType>
@@ -26,14 +26,14 @@
 			<xsd:field xpath="@cID" />
 		</xsd:key>
 		
-			<xsd:keyref name="cKeyRef" refer="cKey">
-				<xsd:selector xpath="Organzation/Crises/Crisis" />
-				<xsd:field xpath="cID" />
-			</xsd:keyref>
-			<xsd:keyref name="cKeyRef2" refer="cKey">
-				<xsd:selector xpath="Person/Crises/Crisis" />
-				<xsd:field xpath="cID" />
-			</xsd:keyref>
+        <xsd:keyref name="cKeyRef" refer="cKey">
+            <xsd:selector xpath="Organzation/Crises/Crisis" />
+            <xsd:field xpath="cID" />
+        </xsd:keyref>
+        <xsd:keyref name="cKeyRef2" refer="cKey">
+            <xsd:selector xpath="Person/Crises/Crisis" />
+            <xsd:field xpath="cID" />
+        </xsd:keyref>
 		
 		<!-- Organization Key -->
 		<xsd:key name="oKey">
@@ -41,156 +41,156 @@
 			<xsd:field xpath="@oID" />
 		</xsd:key>
 		
-			<xsd:keyref name="oKeyRef" refer="oKey">
-				<xsd:selector xpath="Crisis/Organizations/Organization" />
-				<xsd:field xpath="oID" />
-			</xsd:keyref>
-			<xsd:keyref name="oKeyRef2" refer="oKey">
-				<xsd:selector xpath="Person/Organizations/Organization" />
-				<xsd:field xpath="oID" />
-			</xsd:keyref>		
+        <xsd:keyref name="oKeyRef" refer="oKey">
+            <xsd:selector xpath="Crisis/Organizations/Organization" />
+            <xsd:field xpath="oID" />
+        </xsd:keyref>
+        <xsd:keyref name="oKeyRef2" refer="oKey">
+            <xsd:selector xpath="Person/Organizations/Organization" />
+            <xsd:field xpath="oID" />
+        </xsd:keyref>
 		
 		<!-- People Key -->
 		<xsd:key name="pKey">
 			<xsd:selector xpath="Person" />
 			<xsd:field xpath="@pID" />
 		</xsd:key>
-
-			<xsd:keyref name="pKeyRef" refer="pKey">
-				<xsd:selector xpath="Crisis/People/Person" />
-				<xsd:field xpath="pID" />
-			</xsd:keyref>
-			<xsd:keyref name="pKeyRef2" refer="pKey">
-				<xsd:selector xpath="Organization/People/Person" />
-				<xsd:field xpath="pID" />
-			</xsd:keyref>
-			
-			
+        
+        <xsd:keyref name="pKeyRef" refer="pKey">
+            <xsd:selector xpath="Crisis/People/Person" />
+            <xsd:field xpath="pID" />
+        </xsd:keyref>
+        <xsd:keyref name="pKeyRef2" refer="pKey">
+            <xsd:selector xpath="Organization/People/Person" />
+            <xsd:field xpath="pID" />
+        </xsd:keyref>
+        
+        
 	</xsd:element>
 	
 	<!--Sub-Element Types (restricts element to 10 relations of other two types of elements-->
-
-					
+    
+    
 	<xsd:complexType name="orgsType">
 		<xsd:sequence>
 			<xsd:element name="Organization" type="oIDType"
-				minOccurs="0" maxOccurs="10">		
-
+				minOccurs="0" maxOccurs="10">
+                
 			</xsd:element>
 		</xsd:sequence>
 	</xsd:complexType>
-
-				<xsd:complexType name="oIDType">
-					<xsd:attribute name="oID" type="xsd:string" use="required" />
-				</xsd:complexType>
-							
+    
+    <xsd:complexType name="oIDType">
+        <xsd:attribute name="oID" type="xsd:string" use="required" />
+    </xsd:complexType>
+    
 	<xsd:complexType name="crisesType">
 		<xsd:sequence>
 			<xsd:element name="Crisis" type="cIDType"
 				minOccurs="0" maxOccurs="10">
-
+                
 			</xsd:element>
 		</xsd:sequence>
 	</xsd:complexType>
-
-
-				<xsd:complexType name="cIDType">
-					<xsd:attribute name="cID" type="xsd:string" use="required" />
-				</xsd:complexType>
-			
+    
+    
+    <xsd:complexType name="cIDType">
+        <xsd:attribute name="cID" type="xsd:string" use="required" />
+    </xsd:complexType>
+    
 	<xsd:complexType name="peopleType">
 		<xsd:sequence>
 			<xsd:element name="Person" type="pIDType"
-							minOccurs="0" maxOccurs="10">
+                minOccurs="0" maxOccurs="10">
 			</xsd:element>
 		</xsd:sequence>
 	</xsd:complexType>
 	
-				<xsd:complexType name="pIDType">
-					<xsd:attribute name="pID" type="xsd:string" use="required" />
-				</xsd:complexType>
-
-	<!-- 		
-		All IDs are in the form of:
-		
-		[Capital Letter][Capital Letter][#][#][#][#]
-		First Two Letters of Significant Name (ignore articles)
-		If one word, use first two letters of word
-		4 Numbers represent a year
-		If no year, use zeros
-		
-		EX:
-		
-		Holocaust 1930 becomes, HO1930
-		National Free Trade Agreement (NAFTA) 1994 becomes, NF1994
-	-->
-
-
+    <xsd:complexType name="pIDType">
+        <xsd:attribute name="pID" type="xsd:string" use="required" />
+    </xsd:complexType>
+    
+	<!--
+     All IDs are in the form of:
+     
+     [Capital Letter][Capital Letter][#][#][#][#]
+     First Two Letters of Significant Name (ignore articles)
+     If one word, use first two letters of word
+     4 Numbers represent a year
+     If no year, use zeros
+     
+     EX:
+     
+     Holocaust 1930 becomes, HO1930
+     National Free Trade Agreement (NAFTA) 1994 becomes, NF1994
+     -->
+    
+    
 	<xsd:simpleType name="idType">
 	    <xsd:restriction base="xsd:string">
-	      <xsd:pattern value="[A-Z][A-Z][0-9][0-9][0-9][0-9]"/>
+            <xsd:pattern value="[A-Z][A-Z][0-9][0-9][0-9][0-9]"/>
 	    </xsd:restriction>
     </xsd:simpleType>
-			    					
+    
 	<!-- Common Types be repeated-->
 	
 	
 	<!-- Basic Info -->
 	
 	<xsd:complexType name="infoType">
-		<xsd:sequence>	
+		<xsd:sequence>
 			<xsd:element name="Name" type="xsd:string"
-						minOccurs="1" maxOccurs="1">
+                minOccurs="1" maxOccurs="1">
 			</xsd:element>
 			<xsd:element name="Abbreviation" type="xsd:string"
-						minOccurs="0" maxOccurs="1">
+                minOccurs="0" maxOccurs="1">
 			</xsd:element>
 			<xsd:element name="Kind" type="xsd:string"
-						minOccurs="0" maxOccurs="unbounded">
+                minOccurs="0" maxOccurs="unbounded">
 			</xsd:element>
 			<xsd:element name="Description" type="xsd:string"
-						minOccurs="1" maxOccurs="1">
+                minOccurs="1" maxOccurs="1">
 			</xsd:element>
 			<xsd:element name="Location" type="locationType"
-						minOccurs="1" maxOccurs="1">
+                minOccurs="1" maxOccurs="1">
 			</xsd:element>
 			<xsd:element name="Date" type="dateType"
-						minOccurs="1" maxOccurs="1">
+                minOccurs="1" maxOccurs="1">
 			</xsd:element>
 		</xsd:sequence>
-	</xsd:complexType>			
-		
+	</xsd:complexType>
+    
 	<!-- External Stuff Type (Images,Videos,Maps, Social Links, Citations) -->
 	
 	<xsd:complexType name="externalType">
 		<xsd:sequence>
 			<xsd:element name="Image" type="urlType"
-						minOccurs="0" maxOccurs="unbounded">
-
+                minOccurs="0" maxOccurs="unbounded">
+                
 			</xsd:element>
 			<xsd:element name="Video" type="urlType"
-						minOccurs="0" maxOccurs="unbounded">
-
+                minOccurs="0" maxOccurs="unbounded">
+                
 			</xsd:element>
 			<xsd:element name="Map" type="urlType"
-						minOccurs="0" maxOccurs="unbounded">
-
+                minOccurs="0" maxOccurs="unbounded">
+                
 			</xsd:element>
 			<xsd:element name="Social" type="socialType"
-						minOccurs="0" maxOccurs="unbounded">
+                minOccurs="0" maxOccurs="unbounded">
 			</xsd:element>
 			<xsd:element name="Link" type="urlType"
-						minOccurs="0" maxOccurs="unbounded">
-
+                minOccurs="0" maxOccurs="unbounded">
+                
 			</xsd:element>
-			<xsd:element name="Citation" type="xsd:string" 
+			<xsd:element name="Citation" type="xsd:string"
 				minOccurs="0" maxOccurs="unbounded">
 			</xsd:element>
 		</xsd:sequence>
 	</xsd:complexType>
 	
 	<!-- URL Type (url with title attribute) -->
-
+    
 	<xsd:complexType name="urlType">
 		<xsd:simpleContent>
 			<xsd:extension base="uriType">
@@ -198,103 +198,127 @@
 			</xsd:extension>
 		</xsd:simpleContent>
 	</xsd:complexType>
-
+    
 	<xsd:simpleType name="uriType">
-		<xsd:restriction base="xsd:anyURI"/>
+  <xsd:restriction base="xsd:string">
+  </xsd:restriction>
 	</xsd:simpleType>
-  
-
+    
+    
 	<!-- Social Type (urls for FB, G+, TW, Other)-->
 	
-<xsd:complexType name="socialType">
+    <xsd:complexType name="socialType">
 		<xsd:simpleContent>
 			<xsd:extension base="uriType">
-				<xsd:attribute name="network" type="restrictionType"/>	
+				<xsd:attribute name="network" type="restrictionType"/>
 			</xsd:extension>
 		</xsd:simpleContent>
-</xsd:complexType>
-				
-			    
-		<xsd:simpleType name="restrictionType">
-	        <xsd:restriction base="xsd:string">
-	            <xsd:enumeration value="Facebook"/>
-	            <xsd:enumeration value="Google+"/>
-	            <xsd:enumeration value="Twitter"/>
-	            <xsd:enumeration value="Youtube"/>
-	            <xsd:enumeration value="Other"/>
-	        </xsd:restriction>
-	    </xsd:simpleType>
+    </xsd:complexType>
+    
+    
+    <xsd:simpleType name="restrictionType">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="Facebook"/>
+            <xsd:enumeration value="Google+"/>
+            <xsd:enumeration value="Twitter"/>
+            <xsd:enumeration value="Youtube"/>
+            <xsd:enumeration value="Other"/>
+        </xsd:restriction>
+    </xsd:simpleType>
 	<!-- Location Type (allows optional complete addresses, requires country) -->
 	
 	<xsd:complexType name="locationType">
-		<xsd:sequence>
-			<xsd:element name="AddressLine" type="xsd:string"
-							minOccurs="0" maxOccurs="3">
+		<xsd:choice>
+			<xsd:sequence>
+				<xsd:element name="AddressLine" type="xsd:string"
+                    minOccurs="0" maxOccurs="3">
+				</xsd:element>
+				<xsd:element name="City" type="xsd:string"
+                    minOccurs="0" maxOccurs="1">
+				</xsd:element>
+				<xsd:element name="State" type="xsd:string"
+                    minOccurs="0" maxOccurs="1">
+				</xsd:element>
+				<xsd:element name="Country" type="xsd:string"
+                    minOccurs="1" maxOccurs="1">
+				</xsd:element>
+				<xsd:element name="Postal" type="xsd:string"
+                    minOccurs="0" maxOccurs="1">
+				</xsd:element>
+			</xsd:sequence>
+            
+			<xsd:element name="Coordinates" type="coordinatesType" minOccurs="0" maxOccurs="1">
 			</xsd:element>
-			<xsd:element name="City" type="xsd:string"
-							minOccurs="0" maxOccurs="1">
-			</xsd:element>
-			<xsd:element name="State" type="xsd:string"
-							minOccurs="0" maxOccurs="1">
-			</xsd:element>
-			<xsd:element name="Country" type="xsd:string"
-							minOccurs="1" maxOccurs="1">
-			</xsd:element>
-			<xsd:element name="Postal" type="xsd:string"
-							minOccurs="0" maxOccurs="1">
-			</xsd:element>
-		</xsd:sequence>
+            
+            
+        </xsd:choice>
 	</xsd:complexType>
-
+    
+	<!-- coordinatesType (allows more precision [or estimation] of a Crisis' area) -->
+	<!-- coordinatesType (allows more precision [or estimation] of a Crisis' area) -->
+    <!-- use miles for radius -->
+    <xsd:complexType name="coordinatesType">
+        <xsd:simpleContent>
+            <xsd:extension base="geoType">
+                <xsd:attribute name="lat" type="xsd:integer" use="required"/>
+                <xsd:attribute name="lon" type="xsd:integer" use="required"/>
+                <xsd:attribute name="radius" type="xsd:integer" use="optional"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:simpleType name="geoType">
+        <xsd:restriction base="xsd:string"/>
+    </xsd:simpleType>
+    
 	<!-- Date Type-->
 	<!--
-			The date is specified in the following form "YYYY-MM-DD" where:
-			YYYY indicates the year
-			MM indicates the month
-			DD indicates the day
-			Note: All components are required!
-
-			The time is specified in the following form "hh:mm:ss" where:
-			hh indicates the hour
-			mm indicates the minute
-			ss indicates the second
-			Note: All components are required!
-	-->
-				
+     The date is specified in the following form "YYYY-MM-DD" where:
+     YYYY indicates the year
+     MM indicates the month
+     DD indicates the day
+     Note: All components are required!
+     
+     The time is specified in the following form "hh:mm:ss" where:
+     hh indicates the hour
+     mm indicates the minute
+     ss indicates the second
+     Note: All components are required!
+     -->
+    
 	<xsd:complexType name="dateType">
 		<xsd:sequence>
-				<xsd:element name="StartDate" type="xsd:string"
-							minOccurs="1" maxOccurs="1">
-				</xsd:element>
-
+            <xsd:element name="StartDate" type="xsd:string"
+                minOccurs="1" maxOccurs="1">
+            </xsd:element>
+            
 			<xsd:element name="StartTime" type="xsd:time"
-						minOccurs="0" maxOccurs="1">
+                minOccurs="0" maxOccurs="1">
 			</xsd:element>
 			
 			<xsd:element name="EndDate" type="xsd:date"
-						minOccurs="0" maxOccurs="1">
+                minOccurs="0" maxOccurs="1">
 			</xsd:element>
 			<xsd:element name="EndTime" type="xsd:time"
-						minOccurs="0" maxOccurs="1">
+                minOccurs="0" maxOccurs="1">
 			</xsd:element>
 		</xsd:sequence>
 	</xsd:complexType>
 	
 	<!-- Contact Information Type-->
-		
+    
 	<xsd:complexType name="contactType">
 		<xsd:sequence>
 			<xsd:element name="Website" type="xsd:anyURI"
-							minOccurs="0" maxOccurs="1">
+                minOccurs="0" maxOccurs="1">
 			</xsd:element>
 			<xsd:element name="Telephone" type="xsd:string"
-							minOccurs="0" maxOccurs="1">
+                minOccurs="0" maxOccurs="1">
 			</xsd:element>
 			<xsd:element name="Fax" type="xsd:string"
-							minOccurs="0" maxOccurs="1">
+                minOccurs="0" maxOccurs="1">
 			</xsd:element>
 			<xsd:element name="Email" type="xsd:string"
-							minOccurs="0" maxOccurs="1">
+                minOccurs="0" maxOccurs="1">
 			</xsd:element>
 		</xsd:sequence>
 	</xsd:complexType>
@@ -304,37 +328,37 @@
 	
 	
 	<xsd:complexType name="cType">
-
+        
 		<xsd:sequence>
 			
 			<xsd:element name="Info" type="infoType"
-							minOccurs="1" maxOccurs="1">
+                minOccurs="1" maxOccurs="1">
 			</xsd:element>
 			<xsd:element name="History" type="xsd:string"
-							minOccurs="0" maxOccurs="1">
+                minOccurs="0" maxOccurs="1">
 			</xsd:element>
 			<xsd:element name="HumanImpact" type="xsd:string"
-							minOccurs="1" maxOccurs="1">
+                minOccurs="1" maxOccurs="1">
 			</xsd:element>
 			<xsd:element name="EconomicImpact" type="xsd:string"
-							minOccurs="1" maxOccurs="1">
+                minOccurs="1" maxOccurs="1">
 			</xsd:element>
 			<xsd:element name="ResourcesNeeded" type="xsd:string"
-							minOccurs="1" maxOccurs="1">
+                minOccurs="1" maxOccurs="1">
 			</xsd:element>
 			<xsd:element name="WaysToHelp" type="xsd:string"
-							minOccurs="1" maxOccurs="1">
+                minOccurs="1" maxOccurs="1">
 			</xsd:element>
 			<xsd:element name="External" type="externalType"
-							minOccurs="1" maxOccurs="1">
-			</xsd:element>	
-									
+                minOccurs="1" maxOccurs="1">
+			</xsd:element>
+            
 			<!-- ID references -->
 			<xsd:element name="Organizations" type="orgsType"
-						minOccurs="1" maxOccurs="1">
+                minOccurs="1" maxOccurs="1">
 			</xsd:element>
 			<xsd:element name="People" type="peopleType"
-						minOccurs="1" maxOccurs="1">
+                minOccurs="1" maxOccurs="1">
 			</xsd:element>
 			
 		</xsd:sequence>
@@ -342,69 +366,69 @@
 	</xsd:complexType>
 	
 	
-		<!-- Organization Type-->
-
+    <!-- Organization Type-->
+    
 	
 	<xsd:complexType name="oType">
 		<xsd:sequence>
 			<xsd:element name="Info" type="infoType"
-							minOccurs="1" maxOccurs="1">
+                minOccurs="1" maxOccurs="1">
 			</xsd:element>
 			<xsd:element name="History" type="xsd:string"
-							minOccurs="1" maxOccurs="1">
+                minOccurs="1" maxOccurs="1">
 			</xsd:element>
 			<xsd:element name="ContactInfo" type="contactType"
-							minOccurs="1" maxOccurs="1">
+                minOccurs="1" maxOccurs="1">
 			</xsd:element>
 			<xsd:element name="External" type="externalType"
-							minOccurs="1" maxOccurs="1">
-			</xsd:element>		
-
+                minOccurs="1" maxOccurs="1">
+			</xsd:element>
+            
 			<!-- ID references -->
 			<xsd:element name="Crises" type="crisesType"
-						minOccurs="1" maxOccurs="1">
+                minOccurs="1" maxOccurs="1">
 			</xsd:element>
 			<xsd:element name="People" type="peopleType"
-						minOccurs="1" maxOccurs="1">
+                minOccurs="1" maxOccurs="1">
 			</xsd:element>			
 			
 		</xsd:sequence>
 		<xsd:attribute name="oID" type="idType" use="required"/>
-
+        
 	</xsd:complexType>
 	
-
+    
 	
 	<!-- Person Type-->
 	
 	
 	<xsd:complexType name="pType">
-
+        
 		<xsd:sequence>
 			<xsd:element name="Info" type="infoType"
-							minOccurs="1" maxOccurs="1">
+                minOccurs="1" maxOccurs="1">
 			</xsd:element>
 			<xsd:element name="History" type="xsd:string"
-							minOccurs="0" maxOccurs="1">
+                minOccurs="0" maxOccurs="1">
 			</xsd:element>
 			<xsd:element name="ContactInfo" type="contactType"
-							minOccurs="1" maxOccurs="1">
+                minOccurs="1" maxOccurs="1">
 			</xsd:element>
 			<xsd:element name="External" type="externalType"
-							minOccurs="1" maxOccurs="1">
+                minOccurs="1" maxOccurs="1">
 			</xsd:element>			
 			
 			<!-- ID references -->
 			<xsd:element name="Organizations" type="orgsType"
-						minOccurs="1" maxOccurs="1">
+                minOccurs="1" maxOccurs="1">
 			</xsd:element>
 			<xsd:element name="Crises" type="crisesType"
-						minOccurs="1" maxOccurs="1">
+                minOccurs="1" maxOccurs="1">
 			</xsd:element>
 			
 		</xsd:sequence>
 		<xsd:attribute name="pID" type="idType" use="required"/>
-		</xsd:complexType>
+    </xsd:complexType>
 	
 	
 </xsd:schema>

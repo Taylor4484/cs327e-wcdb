@@ -3,16 +3,9 @@ all:
 	make test
 
 diff:
-	python RunWCDB1.py < taylor-RunWCDB1.in.xml > RunWCDB1.tmp
-	diff taylor-RunWCDB1.out.xml RunWCDB1.tmp
-
-lint: 
-<<<<<<< HEAD
-	xmllint --noout -schema taylor-WCDB1.xsd.xml hjh558Run.in.xml
-=======
-	xmllint --noout -schema taylor-WCDB1.xsd.xml AlexXML.xml
->>>>>>> Validating and Fixing Instances
-
+	RunWCDB1.py < RunWCDB1.in.xml > RunWCDB1.tmp
+	diff RunWCDB1.out.xml RunWCDB1.tmp
+	rm RunWCDB1.tmp
 
 doc:
 	pydoc -w WCDB1
@@ -24,10 +17,7 @@ run:
 	RunWCDB1.py < RunWCDB1.in.xml
 
 test:
-	python taylor-TestWCDB1.py 
-
-test-save:
-	python taylor-TestWCDB1.py >& RunWCDB1.out
+	TestWCDB1.py >& TestWCDB1.out
 
 turnin-list:
 	turnin --list hychyc07 cs327epj3
@@ -45,5 +35,19 @@ zip:
 	WCDB1.html WCDB1.log WCDB1.py WCDB1.xml WCDB1.xsd.xml
 
 clean:
-	rm -f *.pyc
+	rm -f *.piece
+
+
+
+
+
+Mallory Farr	malloryfarr@austin.rr.com^t(512)9132887^t@Malloryfarr 
+Alex Leonard	alexjleonard@gmail.com^t(214) 733-0058^t@ajl2265 
+Wilson Bui	davo_letows@utexas.edu^t(832) 475-0125 @Davoletows 
+Geovanni Monge	gsm@utexas.edu^t(281) 608-6121 @geosmon 
+Taylor McCaslin^tTaylor4484@gmail.com^t(903) 574-1351 @Taylor4484
+Holly Hatfield^th.hatfield@utexas.edu^t(469) 826-6454 @hjh558 
+Daniel Enrlich^tDaniel.ehrlich1@gmail.com^t(281) 636-3178^t@danielehrlich^tAUDITOR
+
+
 	rm -f *.tmp
