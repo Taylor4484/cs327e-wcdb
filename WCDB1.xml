@@ -128,32 +128,32 @@
   
   <Crisis crisesIdent="CM1962">
     <Name>Cuban Missile Crisis</Name>
-      <Kind crisisKindIdent= "PC" />
-      <Location>
-        <Country>Cuba </Country>
-      </Location>
-      <StartDateTime>
-      	<Date>1962-10-16</Date>
-      </StartDateTime>
-      <HumanImpact>
-      	<Type>Death</Type>
-      	<Number>1 </Number>
-      </HumanImpact
-      <EconomicImpact></EconomicImpact>
-      <ExternalResources>
-      	<ImageURL>http://en.wikipedia.org/wiki/File:Soviet-R-12-nuclear-ballistic_missile.jpg</ImageURL>
-        <VideoURL>http://www.nbcnews.com/video/nightly-news/49510565#49510565</VideoURL>
-        <MapURL>http://www.worldatlas.com/webimage/countrys/namerica/caribb/lgcolor/cucolor.htm</MapURL>
-        <ExternalLinURL>http://www.facebook.com/events/156960544442243/</ExternalLinkURL>
-      </ExternalResources>
-      <RelatedPersons>
-      	<RelatedPerson personIdent = "FCastro"/>
-	<RelatedPerson personIdent = "JFKennedy"/>
-      </RelatedPersons>
-      <RelatedOrganizations>
-      	<RelatedOrganization organizationIdent = "WB1945"/>
-      	<RelatedOrganization organizationIdent = "CG1790"/>
-      </RelatedOrganizations> 
+    <Kind crisisKindIdent= "PC" />
+    <Location>
+      <Country>Cuba </Country>
+    </Location>
+    <StartDateTime>
+      <Date>1962-10-16</Date>
+    </StartDateTime>
+    <HumanImpact>
+      <Type>Death</Type>
+      <Number>1 </Number>
+    </HumanImpact>
+    <EconomicImpact></EconomicImpact>
+    <ExternalResources>
+      <ImageURL>http://en.wikipedia.org/wiki/File:Soviet-R-12-nuclear-ballistic_missile.jpg</ImageURL>
+      <VideoURL>http://www.nbcnews.com/video/nightly-news/49510565#49510565</VideoURL>
+      <MapURL>http://www.worldatlas.com/webimage/countrys/namerica/caribb/lgcolor/cucolor.htm</MapURL>
+      <ExternalLinURL>http://www.facebook.com/events/156960544442243/</ExternalLinkURL>
+    </ExternalResources>
+    <RelatedPersons>
+      <RelatedPerson personIdent = "FCastro"/>
+      <RelatedPerson personIdent = "JFKennedy"/>
+    </RelatedPersons>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent = "WB1945"/>
+      <RelatedOrganization organizationIdent = "CG1790"/>
+    </RelatedOrganizations> 
   </Crisis>
 
   <Crisis crisisIdent= "HK2005" >
