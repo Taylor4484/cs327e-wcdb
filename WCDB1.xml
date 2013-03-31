@@ -61,8 +61,73 @@
     </RelatedOrganizations>
   </Crisis>
 
+  <Crisis crisisIdent= "HT1900" >
+    <Name>Human Trafficking</Name>
+    <Kind crisisKindIdent= "TOC" />
+    <Location>
+      <Country>Global, no country excluded</Country>
+    </Location>
+    <StartDateTime>
+      <Date>0001-01-01</Date>
+    </StartDateTime>
+    <HumanImpact>
+      <Type>Forced labor</Type>
+      <Number>2400000</Number>
+    </HumanImpact>
+    <HumanImpact>
+      <Type>SexualSlavery</Type>
+      <Number>1920000</Number>
+    </HumanImpact>
+    <EconomicImpact>2005 ILO estimate of a gloval annual profit of $31.6 billion</EconomicImpact>
+    <ExternalResources>
+      <ImageURL>http://www.blackandmissinginc.com/wordpress/wp-content/uploads/2012/01/stop-human-trafficking1.jpg</ImageURL>
+      <VideoURL>http://vimeo.com/58972870</VideoURL>
+      <MapURL>http://human.glovalincidentmap.com</MapURL>
+      <SocialNetworkURL>http://www.facebook.com/humantraffickingL</SocialNetworkURL>
+      <ExternalLinkURL>http://www.humantrafficking.org</ExternalLinkURL>
+    </ExternalResources>
+    <RelatedPersons>
+      <RelatedPerson personIdent = "BGates"/> 
+      <RelatedPerson personIdent = "Bono"/>
+    </RelatedPersons>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent = "WB"/>
+      <RelatedOrganization organizationIdent = "WHO" />
+      <RelatedOrganization organizationIdent = "NATO"/>
+    </RelatedOrganizations>
+  </Crisis>
+
+  <Crisis crisisIdent= "HO1930" >
+    <Name>Holocaust</Name>
+    <Kind crisisKindIdent= "GE"/>
+    <Location>
+      <Country>France,Germany, United Kingdom, Poland</Country>
+    </Location>
+    <StartDateTime>
+      <Date>1933-01-30</Date>
+    </StartDateTime>
+    <HumanImpact>
+      <Type>Death</Type>
+      <Number>9807500</Number>      
+    </HumanImpact>
+    <EconomicImpact>Average GDP of regions in Russia with a notable diminishment of Jewish citizens was 23% lower than the Russian average</EconomicImpact>
+    <ExternalResources>
+      <ImageURL>http://upload.wikimedia.org/wikipedia/en/8/89/Selection_Birkenau_ramp.jpg </ImageURL>
+      <ImageURL>http://upload.wikimedia.org/wikipedia/commons/6/6a/Bundesarchiv_Bild_175-04413%2C_KZ_Auschwitz%2C_Einfahrt.jpb </ImageURL>
+      <VideoURL>http://www.history.com/topics/the-holocaust/videos#concentration-camp-liberation</VideoURL>
+      <MapURL>http://www.holocaustmap.com/site/map/</MapURL>
+      <ExternalLinkURL>http://www.ushmm.org/wlc/en/article.php?Module=10005143</ExternalLinkURL>
+    </ExternalResources>
+    <RelatedPersons>
+      <RelatedPerson personIdent="AHitler"/>
+    </RelatedPersons>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent="AI"/>
+    </RelatedOrganizations>
+  </Crisis>
+
   <Organization organizationIdent= "Africare">
-    <Name> Africare </Name>
+    <Name>Africare </Name>
     <Kind organizationKindIdent = "HO"/>
     <Location>
       <Country>All African countries </Country>
@@ -122,6 +187,79 @@
     </RelatedCrises>
   </Organization>
 
+
+  <Organization organizationIdent= "NATO">
+    <Name> Africare </Name>
+    <Kind organizationKindIdent = "MA"/>
+    <Location>
+      <Locality>Brussels</Locality>
+      <Country>Belgium</Country>
+    </Location>
+    <History>For its first few years, NATO was not much more than a political association. However, the Korean War galvanized the member states, and an integrated military structure was built up under the direction of two US supreme commanders. The course of the Cold War led to a rivalry with nations of the Warsaw Pact, which formed in 1955. The first NATO Secretary General, Lord Ismay, stated in 1949 that the organization's goal was "to keep the Russians out, the Americans in, and the Germans down."[4] Doubts over the strength of the relationship between the European states and the United States ebbed and flowed, along with doubts over the credibility of the NATO defence against a prospective Soviet invasion—doubts that led to the development of the independent French nuclear deterrent and the withdrawal of the French from NATO's military structure in 1966.</History>
+    <ContactInfo>
+      <Telephone></Telephone>
+      <Fax></Fax>
+      <Email></Email>
+      <PostalAddress>
+        <StreetAddress></StreetAddress>
+        <Locality>Brussels</Locality>
+        <Region></Region>
+        <PostalCode>1110 </PostalCode>
+        <Country>Belgium </Country>
+      </PostalAddress>
+    </ContactInfo>
+    <ExternalResources>
+      <MapURL>http://en.wikipedia.org/wiki/File:History_of_NATO_enlargement.svg</MapURL>
+      <MapURL>http://en.wikipedia.org/wiki/File:NATO_partnerships.svg </MapURL>
+      <SocialNetworkURL>http://www.facebook.com/NATO?sid=0.2535960127133876</SocialNetworkURL>
+    </ExternalResources>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent="ER2011"/>
+      <RelatedCrisis crisisIdent="SY2011"/>
+    </RelatedCrises>
+    <RelatedPersons>
+      <RelatedPerson personIdent="Bono"/>
+      <RelatedPerson personIdent="BGates"/>
+      <RelatedPerson personIdent="JKennedy"/>
+      <RelatedPerson personIdent="NMandela"/>
+    </RelatedPersons>
+  </Organization>
+
+  <Organization organizationIdent = "WHO">
+    <Name>World Health Organization </Name>
+    <Kind organizationKindIdent= "PHA"/>
+    <Location>
+      <Locality>Geneva</Locality>
+      <Country>Switzerland</Country>
+    </Location>
+    <History>The WHO is one of the first things that the founders of the UN discussed: setting up a global health organization. WHO.s Constitution came into force on 7 April 1948 . a date we now celebrate every year as World Health Day. </History>
+    <ContactInfo>
+      <Telephone>+41 22 791 21 11</Telephone>
+      <Fax>+41 22 791 31 11</Fax>
+      <Email></Email>
+      <PostalAddress>
+        <StreetAddress>Avenue Appia 20</StreetAddress>
+        <Locality>Geneva</Locality>
+        <Region></Region>
+        <PostalCode>1211</PostalCode>
+        <Country>Switzerland</Country>
+      </PostalAddress>
+    </ContactInfo>
+    <ExternalResources>
+      <ImageURL>http://www.who.int/sysmedia/media/resources/who-logo-en.jpg</ImageURL>
+      <SocialNetworkURL>https://www.facebook.com/WorldHealthOrganization</SocialNetworkURL>
+      <SocialNetworkURL>https://plus.google.com/u/0/+who/posts</SocialNetworkURL>
+      <SocialNetworkURL>http://www.youtube.com/who</SocialNetworkURL>
+      <ExternalLinkURL>http://www.who.int/</ExternalLinkURL>
+    </ExternalResources>
+    <RelatedCrises>
+    <RelatedCrisis crisisIdent="AI1970"/>
+    </RelatedCrises>
+    <RelatedPersons>
+      <RelatedPerson personIdent="BGates"/>
+    </RelatedPersons>
+  </Organization>
+
   <Person personIdent="AHitler">
     <Name>
       <FirstName>Adolf </FirstName>
@@ -144,6 +282,125 @@
     </RelatedCrises>
   </Person>
 
+  <Person personIdent="NMandela">
+    <Name>
+      <FirstName>Nelson</FirstName>
+      <LastName>Mandela</LastName>
+    </Name>
+    <Kind personKindIdent="PR"/>
+    <Location>
+       <Locality>Transkei</Locality>
+      <Country>South Africa</Country>
+    </Location>
+    <ExternalResources>
+      <ImageURL>http://upload.wikimedia.org/wikipedia/commons/1/14/Nelson_Mandela-2008_%28edit%29.jpg</ImageURL>
+      <VideoURL>http://youtu.be/vuqJpnSO1jc</VideoURL>
+      <SocialNetworkURL>http://www.facebook.com/NelsonMandelaCentreOfMemory</SocialNetworkURL>
+      <ExternalLinkURL>http://www.nelsonmandela.org</ExternalLinkURL>
+    </ExternalResources>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent="AI1970"/>
+    </RelatedCrises>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent="Africare"/>
+      <RelatedOrganization organizationIdent="WHO"/>
+      <RelatedOrganization organizationIdent="AI"/>
+    </RelatedOrganizations>
+  </Person>
+
+  <Person personIdent="JFKennedy">
+    <Name>
+      <FirstName>John </FirstName>
+      <MiddleName>Fitzgerald </MiddleName>
+      <LastName>Kennedy </LastName>
+    </Name>
+    <Kind personKindIdent="PR"/>
+    <Location>
+       <Locality>Brookline </Locality>
+       <Region>Massachusetts </Region>
+      <Country>USA </Country>
+    </Location>
+    <ExternalResources>
+      <ImageURL>http://www.whitehouse.gov/sites/default/files/first-family/masthead_image/35jk_header.jpg?1250885463 </ImageURL>
+      <VideoURL>http://youtu.be/P7YkJxQT_0Y </VideoURL>
+      <MapURL>http://goo.gl/maps/xFGPn</MapURL>
+    </ExternalResources>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent="CM1962"/>
+      <RelatedCrisis crisisIdent="VW1975"/>
+    </RelatedCrises>
+  </Person>
+
+  <Person personIdent="GWBush">
+    <Name>
+      <FirstName>George </FirstName>
+      <MiddleName>Walker </MiddleName>
+      <LastName>Bush </LastName>
+    </Name>
+    <Kind personKindIdent="PR"/>
+    <Location>
+      <Locality>New Haven </Locality>
+      <Region>Connecticut </Region>
+      <Country>USA </Country>
+    </Location>
+    <ExternalResources>
+      <ImageURL>http://www.biography.com/imported/images/Biography/Images/Profiles/B/George-W-Bush-9232768-1-402.jpg </ImageURL>
+      <VideoURL>http://vimeo.com/8783351 </VideoURL>
+      <MapURL>http://goo.gl/maps/xFGPn </MapURL>
+    </ExternalResources>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent="HK2005"/>
+    </RelatedCrises>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent="NATO"/>
+    </RelatedOrganizations>  
+  </Person>
+
+  <Person personIdent="MDHuckabee">
+    <Name>
+      <FirstName>Mike </FirstName>
+      <MiddleName>Dale </MiddleName>
+      <LastName>Huckabee </LastName>
+    </Name>
+    <Kind personKindIdent="GO"/>
+      <Location>
+        <Locality>Hope </Locality>
+        <Region>Arkansas </Region>
+        <Country>USA </Country>
+      </Location>
+      <ExternalResources>
+        <ImageURL>http://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Mike_Huckabee_by_Gage_Skidmore_2.jpg/220px-Mike_Huckabee_by_Gage_Skidmore_2.jpg </ImageURL>
+        <VideoURL>http://youtu.be/192g-IQFdDE </VideoURL>
+        <MapURL>http://goo.gl/maps/w8ka3 </MapURL>
+    </ExternalResources>
+    <RelatedCrises>
+        <RelatedCrisis crisisIdent="HK2005"/>
+    </RelatedCrises>
+  </Person>
+
+  <Person personIdent="BHGates">
+    <Name>
+      <FirstName>Bill </FirstName>
+      <MiddleName>Henry </MiddleName>
+      <LastName>Gates </LastName>
+    </Name>
+    <Kind personKindIdent="EN"/>
+    <Location>
+      <Locality>Seatle </Locality>
+      <Region>Washington </Region>
+      <Country>USA </Country>
+    </Location>
+    <ExternalResources>
+      <ImageURL>http://www.biography.com/imported/images/Biography/Images/Profiles/G/Bill-Gates-9307520-2-402.jpg </ImageURL>
+      <VideoURL>http://www.biography.com/people/bill-gates-9307520/videos/bill-gates-charity-2080037725 </VideoURL>
+      <MapURL>http://goo.gl/maps/n7rnd </MapURL>
+    </ExternalResources>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent="AI1970"/>
+      <RelatedCrisis crisisIdent="HT1900"/>
+    </RelatedCrises>
+  </Person>
+
   <CrisisKind crisisKindIdent="WAR">
     <Name>War</Name>
     <Description>An organized and often prolonged conflict that is carried out by states and/or non-state actors.</Description>
@@ -159,14 +416,39 @@
     <Description>The deliberate and systematic destruction of an ethnic, racial, religious, or national group </Description>
   </CrisisKind>
 
+  <CrisisKind crisisKindIdent="TOC">
+    <Name>Transnational Organized Crime</Name>
+    <Description> Organized crime coordinated across national borders, involving groups workin in more than one country to plan and execute illegal business ventures</Description>
+  </CrisisKind>
+
   <OrganizationKind organizationKindIdent="HO">
     <Name>Humanitarian Organization</Name>
     <Description>Organization that provides humanitarian aid</Description>
   </OrganizationKind>
 
+  <OrganizationKind organizationKindIdent="MA">
+    <Name>Military Alliance</Name>
+    <Description>An agreement between two, or more, military factions</Description>
+  </OrganizationKind>
+
+  <OrganizationKind organizationKindIdent="PHA">
+    <Name> Public Health Advocate</Name>
+    <Description>An organization that aims to influence public-policy and resource allocation decisions within political, economic, and social systems and institutions for public heal needs.</Description>
+  </OrganizationKind>
+
+  <PersonKind personKindIdent="PR">
+    <Name>President (current or former)</Name>
+    <Description>A democratically elected leader of a government</Description>
+  </PersonKind>
+
   <PersonKind personKindIdent="DI">
     <Name>Dictator</Name>
     <Description>Leader of a dictatorship, someone with sole and absolute power</Description>
+  </PersonKind>
+
+  <PersonKind personKindIdent="GO">
+    <Name>Governor</Name>
+    <Description>Person served as Governor of a state in the United States </Description>
   </PersonKind>
 
 </WorldCrises>
