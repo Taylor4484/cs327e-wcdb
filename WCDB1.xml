@@ -532,11 +532,109 @@
     </RelatedOrganizations>
   </Person>
   
+<Person personIdent="Pbono">
+    <Name>
+      <FirstName>Paul</FirstName>
+      <LastName>Hewson</LastName>
+    </Name>
+    <Kind personKindIdent="PH"/>
+    <Location>
+      <Locality>Killiney</Locality>
+      <Country>Ireland</Country>
+    </Location>
+    <ExternalResources>
+      <ImageURL>http://upload.wikimedia.org/wikipedia/commons/1/11/Bono_at_the_2009_Tribeca_Film_Festival.jpg</ImageURL>
+      <VideoURL>https://www.youtube.com/watch?v=OjWTT8Q8nN0</VideoURL>
+      <SocialNetworkURL>https://www.twitter.com/u2com</SocialNetworkURL>
+      <ExternalLinkURL>https://www.u2.com</ExternalLinkURL>
+    </ExternalResources>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent="AI1970"/>
+	  <RelatedCrisis crisisIdent="HT1900"/>
+    </RelatedCrises>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent="WHO"/>
+      <RelatedOrganization organizationIdent="WBG"/>
+    </RelatedOrganizations>
+  </Person>
+
+<Person personIdent="SLavrov">
+    <Name>
+      <FirstName>Sergey</FirstName>
+      <LastName>Lavrov</LastName>
+    </Name>
+    <Kind personKindIdent="PH"/>
+    <Location>
+      <Locality>Moscow</Locality>
+      <Country>Russia</Country>
+    </Location>
+    <ExternalResources>
+      <ImageURL>http://upload.wikimedia.org/wikipedia/commons/8/8c/Sergey_Lavrov_17.03.2010.jpeg</ImageURL>
+      <VideoURL>https://www.youtube.com/watch?v=QrmCQH9JFxU</VideoURL>
+      <SocialNetworkURL></SocialNetworkURL>
+      <ExternalLinkURL>www.eng.mvdrf.ru/</ExternalLinkURL>
+    </ExternalResources>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent="SY2011"/>
+    </RelatedCrises>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent="NATO"/>
+    </RelatedOrganizations>
+  </Person>
+
+<Person personIdent="FCastro">
+    <Name>
+      <FirstName>Fidel</FirstName>
+      <LastName>Castro</LastName>
+    </Name>
+    <Kind personKindIdent="DI"/>
+    <Location>
+      <Locality>Havana</Locality>
+      <Country>Cuba</Country>
+    </Location>
+    <ExternalResources>
+      <ImageURL>http://upload.wikimedia.org/wikipedia/commons/1/15/Cuba.FidelCastro.02.jpg</ImageURL>
+      <VideoURL>https://www.youtube.com/watch?v=qQ24jmIHIUk</VideoURL>
+      <SocialNetworkURL>https://twitter.com/fidelcastro</SocialNetworkURL>
+      <ExternalLinkURL>www.eng.mvdrf.ru/</ExternalLinkURL>
+    </ExternalResources>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent="CM1962"/>
+    </RelatedCrises>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent="NATO"/>
+    </RelatedOrganizations>
+  </Person>
+
+<Person personIdent="BObama">
+    <Name>
+      <FirstName>Barack</FirstName>
+      <LastName>Obama</LastName>
+    </Name>
+    <Kind personKindIdent="PR"/>
+    <Location>
+      <Locality>Washington D.C.</Locality>
+      <Country>United States of America</Country>
+    </Location>
+    <ExternalResources>
+      <ImageURL>http://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/480px-President_Barack_Obama.jpg</ImageURL>
+      <VideoURL>http://www.youtube.com/watch?v=zncqb-n3zMo</VideoURL>
+      <SocialNetworkURL></SocialNetworkURL>
+      <ExternalLinkURL>www.whitehouse.gov</ExternalLinkURL>
+    </ExternalResources>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent="SY2011"/>
+    </RelatedCrises>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent="NATO"/>
+    </RelatedOrganizations>
+  </Person>
   <CrisisKind crisisIdent="PC">
     <Name>Political Confrontation</Name>
     <Description>Two or more countries engaging in a military standoff for political reasons. In U.S. history, largely associated with the cold War between the U.S. and U.S.S.R.</Description>
   </CrisisKind>
   
+
   <CrisisKind crisisKindIdent="WAR">
     <Name>War</Name>
     <Description>An organized and often prolonged conflict that is carried out by states and/or non-state actors.</Description>
