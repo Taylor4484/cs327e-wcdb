@@ -453,6 +453,9 @@
       <RelatedCrisis crisisIdent="CM1962"/>
       <RelatedCrisis crisisIdent="VW1975"/>
     </RelatedCrises>
+    <RelatedOrganizations>
+        <RelatedOrganization organizationIdent = "NATO"/>
+    </RelatedOrganizations>
   </Person>
 
   <Person personIdent="GWBush">
@@ -508,7 +511,7 @@
       <MiddleName>Henry </MiddleName>
       <LastName>Gates </LastName>
     </Name>
-    <Kind personKindIdent="EN"/>
+    <Kind personKindIdent="PH"/>
     <Location>
       <Locality>Seatle </Locality>
       <Region>Washington </Region>
@@ -520,9 +523,12 @@
       <MapURL>http://goo.gl/maps/n7rnd </MapURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="AI1970"/>
-      <RelatedCrisis crisisIdent="HT1900"/>
+        <RelatedCrisis crisisIdent="AI1970"/>
+        <RelatedCrisis crisisIdent="HT1900"/>
     </RelatedCrises>
+    <RelatedOrganizations>
+        <RelatedOrganization organizationIdent="WHO"/>
+    </RelatedOrganizations>
   </Person>
   
   <CrisisKind crisisIdent="PC" />
@@ -587,7 +593,11 @@
 
   <PersonKind personKindIdent="GO">
     <Name>Governor</Name>
-    <Description>Person served as Governor of a state in the United States </Description>
+    <Description>Person served as Governor of a state in the United States</Description>
   </PersonKind>
+    <PersonKind personKindIdent="PH">
+        <Name>Philanthropist</Name>
+        <Description>Person uses their influence to help make changes in the world</Description>
+    </PersonKind>
 
 </WorldCrises>
