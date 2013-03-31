@@ -130,125 +130,125 @@
     <Name>Cuban Missile Crisis</Name>
       <Kind crisisKindIdent= "PC" />
       <Location>
-	      <Country>Cuba </Country>
+        <Country>Cuba </Country>
       </Location>
       <StartDateTime>
-	      <Date>1962-10-16</Date>
-	    </StartDateTime>
+      	<Date>1962-10-16</Date>
+      </StartDateTime>
       <HumanImpact>
-	      <Type>Death</Type>
-	      <Number>1 </Number>
-	    </HumanImpact>
-	    <EconomicImpact></EconomicImpact>
-	    <ExternalResources>  
-	      <ImageURL>http://en.wikipedia.org/wiki/File:Soviet-R-12-nuclear-ballistic_missile.jpg</ImageURL>
+      	<Type>Death</Type>
+      	<Number>1 </Number>
+      </HumanImpact
+      <EconomicImpact></EconomicImpact>
+      <ExternalResources>
+      	<ImageURL>http://en.wikipedia.org/wiki/File:Soviet-R-12-nuclear-ballistic_missile.jpg</ImageURL>
         <VideoURL>http://www.nbcnews.com/video/nightly-news/49510565#49510565</VideoURL>
         <MapURL>http://www.worldatlas.com/webimage/countrys/namerica/caribb/lgcolor/cucolor.htm</MapURL>
         <ExternalLinURL>http://www.facebook.com/events/156960544442243/</ExternalLinkURL>
-	    </ExternalResources>
-	    <RelatedPersons>
-	      <RelatedPerson personIdent = "FCastro"/>
-	      <RelatedPerson personIdent = "JFKennedy"/>
-	    </RelatedPersons>
-	    <RelatedOrganizations>
-	      <RelatedOrganization organizationIdent = "WB1945"/>
-	      <RelatedOrganization organizationIdent = "CG1790"/>
-	    </RelatedOrganizations> 
+      </ExternalResources>
+      <RelatedPersons>
+      	<RelatedPerson personIdent = "FCastro"/>
+	<RelatedPerson personIdent = "JFKennedy"/>
+      </RelatedPersons>
+      <RelatedOrganizations>
+      	<RelatedOrganization organizationIdent = "WB1945"/>
+      	<RelatedOrganization organizationIdent = "CG1790"/>
+      </RelatedOrganizations> 
   </Crisis>
 
   <Crisis crisisIdent= "HK2005" >
-	  <Name>Hurricane Katrina </Name>
+    <Name>Hurricane Katrina </Name>
     <Kind cirsisKindIdent= "ND" />
     <Location>
-	    <Country>United States </Country>
+      <Country>USA</Country>
     </Location>
-	  <StartDateTime>
-	    <Date>2005-08-23</Date>
-	  </StartDateTime>
+    <StartDateTime>
+      <Date>2005-08-23</Date>
+    </StartDateTime>
     <HumanImpact>
-	    <Type> Death </Type>
-	    <Number>1833 </Number>
-	  </HumanImpact>
+      <Type> Death </Type>
+      <Number>1833 </Number>
+    </HumanImpact>
     <EconomicImpact>108 billion USD in repairs</EconomicImpact>
-	  <ExternalResources>
-	    <ImageURL>http://en.wikipedia.org/wiki/File:Hurricane_Katrina_August_28_2005_NASA.jpg</ImageURL>
-	    <VideoURL>http://www.nasa.gov/mission_pages/hurricanes/features/katrina-retrospective.html</VideoURL>
-	    <MapURL>http://flhurricane.com/googlemap.php?2005s12</MapURL>
-	    <ExternalLinkUrl>http://www.ncdc.noaa.gov/special-reports/katrina.html</ExternalLinkURL>
-	  </ExternalResource>
-	  <RelatedPersons>
-	    <RelatedPerson personIdent = "GBush"/>
-	    <RelatedPerson personIdent = "Bono"/>
-	  </RelatedPersons>
-	  <RelatedOrganizations>
-	    <RelatedOrganization organizationIdent = "DB1971"/>
-	    <RelatedOrganization organizationIdent = "AR1881"/>
-	    <RelatedOrganization organizationIdent = "CG1790"/>
-	  </RelatedOrganizations>  
+    <ExternalResources>
+      <ImageURL>http://en.wikipedia.org/wiki/File:Hurricane_Katrina_August_28_2005_NASA.jpg</ImageURL>
+      <VideoURL>http://www.nasa.gov/mission_pages/hurricanes/features/katrina-retrospective.html</VideoURL>
+      <MapURL>http://flhurricane.com/googlemap.php?2005s12</MapURL>
+      <ExternalLinkUrl>http://www.ncdc.noaa.gov/special-reports/katrina.html</ExternalLinkURL>
+    </ExternalResource>
+    <RelatedPersons>
+      <RelatedPerson personIdent = "GBush"/>
+      <RelatedPerson personIdent = "Bono"/>
+    </RelatedPersons>
+      <RelatedOrganizations>
+      <RelatedOrganization organizationIdent = "DB1971"/>
+      <RelatedOrganization organizationIdent = "AR1881"/>
+      <RelatedOrganization organizationIdent = "CG1790"/>
+    </RelatedOrganizations>  
   </Crisis>
   
   <Organization organizationIdent= "DWB">
     <Name>Doctors Without Borders </Name>
-	  <Kind organizationKindeIdent= HO</Kind>  
-	  <Location>
-	    <Country>USA </Country>
-	  </Location>
-	  <History>Doctors without Borders was created in 1971, in the aftermath of the Biafra secession, by a small group of French doctors and journalist</History>
-	  <ContactInfo>
-	    <Telephone>212 679 6800 </Telephone>
-	    <Fax> 212 679 7016</Fax>
-	    <Email> infor@doctorwithoutboders.org </Email>
-	   <PostalAddress>
-	     <StreetAddress> Doctors Without Borders, 333 7th Avenue </StreetAddress>
-       <Locality>New York</Locality>
-	     <Region>New York </Region>
-		   <Postal>10001</Postal>
-	     <Country>USA</Country>
-	   </PostalAddress>
+    <Kind organizationKindeIdent= HO</Kind>
+    <Location>
+      <Country>USA </Country>
+    </Location>
+    <History>Doctors without Borders was created in 1971, in the aftermath of the Biafra secession, by a small group of French doctors and journalist</History>
+    <ContactInfo>
+      <Telephone>212 679 6800 </Telephone>
+      <Fax> 212 679 7016</Fax>
+      <Email> infor@doctorwithoutboders.org </Email>
+      <PostalAddress>
+        <StreetAddress> Doctors Without Borders, 333 7th Avenue </StreetAddress>
+        <Locality>New York</Locality>
+	<Region>New York </Region>
+	<Postal>10001</Postal>
+	<Country>USA</Country>
+      </PostalAddress>
     </ContactInfo>
-	  <ExternalResources>
-	    <ImageURL>http://en.wikipedia.org/wiki/File:Msf_logo.png</ImageURL>
-	    <MapURL>http://www.doctorswithoutborders.org/news/article.cfm?id=828</MapURL>
-	    <SocialNetworkURL>https://www.facebook.com/msf.english</SocialNetworkURL>
-	  </ExternalResources>
-	  <RelatedCrises>
-	    <RelatedCrisis crisisIdent= "HK2005"/>
-	    <RelatedCrisis crisisIdent= "AI1970"/>
-	    <RelatedCrisis crisisIdent= "SY2011"/>
-  	  <RelatedCrisis crisisIdent= "VW1955"/>
+    <ExternalResources>
+      <ImageURL>http://en.wikipedia.org/wiki/File:Msf_logo.png</ImageURL>
+      <MapURL>http://www.doctorswithoutborders.org/news/article.cfm?id=828</MapURL>
+      <SocialNetworkURL>https://www.facebook.com/msf.english</SocialNetworkURL>
+    </ExternalResources>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent= "HK2005"/>
+      <RelatedCrisis crisisIdent= "AI1970"/>
+      <RelatedCrisis crisisIdent= "SY2011"/>
+      <RelatedCrisis crisisIdent= "VW1955"/>
     </RelatedCrises>
   </Organization>
 
   <Organization organizationIdent = "WBG">
-	  <Name>World Bank Group </Name>
-	  <Kind organizationKindIdent= "IO"/>
-	  <Location>
-	    <Country>Third world countries</Country>
-	  </Location>
-	  <History>The World Bank activities are focused on developing countries, in fields such as human development, environmental protection infrasctructure, large industrial construction projects, and governance.</History>
-	  <ContactInfo>
-	    <Telephone>202 473 1000 </Telephone>
-	    <Fax>202 477 6391</Fax>
-	    <Email>info@worldbank.org </Email>
-	    <PostalAddress>
-	      <StreetAddress>The World Bank 1818 H Street, N.W. </StreetAddress>
-          <Locality>Washington D.C.</Locality>
-          <Region></Region>
-	        <Country>USA</Country>
-          <PostalCode>20433 </PostalCode>
-	    </PostalAddress>
-	  </ContactInfo>
-	  <ExternalResources>
-	    <ImageURL>http://en.wikipedia.org/wiki/File:World_Bank_Logo.svg</ImageURL>
+    <Name>World Bank Group </Name>
+    <Kind organizationKindIdent= "IO"/>
+    <Location>
+      <Country>Third world countries</Country> 	
+    </Location>
+    <History>The World Bank activities are focused on developing countries, in fields such as human development, environmental protection infrasctructure, large industrial construction projects, and governance.</History>
+    <ContactInfo>
+      <Telephone>202 473 1000 </Telephone>
+      <Fax>202 477 6391</Fax>
+      <Email>info@worldbank.org </Email>
+      <PostalAddress>
+        <StreetAddress>The World Bank 1818 H Street, N.W. </StreetAddress>
+        <Locality>Washington D.C.</Locality>
+        <Region></Region>
+        <Country>USA</Country>
+        <PostalCode>20433 </PostalCode>
+      </PostalAddress>
+    </ContactInfo>
+    <ExternalResources>
+      <ImageURL>http://en.wikipedia.org/wiki/File:World_Bank_Logo.svg</ImageURL>
       <VideoURL>http://web.worldbank.org/WBSITE/EXTERNAL/EXTABOUTUS/PARTNERS/EXTDEVDIALOGUE/0,,contentMDK:22256131~pagePK:64192523~piPK:64192458~theSitePK:537298,00.html</VideoURL>
       <MapURL>http://maps.worldbank.org/</MapURL>
       <SocialNetworkURL>Twitter">@WorldBank</SocialNetworkURL>
     </ExternalResources>
-	  <RelatedCrises>
-	    <RelatedCrisis crisisIdent="AI1970"/>
-	    <RelatedCrisis crisisIdent="VW1955"/>
-	  </RelatedCrises>
-	</Organization>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent="AI1970"/>
+      <RelatedCrisis crisisIdent="VW1955"/>
+    </RelatedCrises
+  </Organization>
 
   <Organization organizationIdent= "Africare">
     <Name>Africare </Name>
