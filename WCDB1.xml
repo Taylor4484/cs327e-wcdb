@@ -189,57 +189,57 @@
   </Crisis>
   
   <Crisis crisisIdent="EV2010">
-	<Name>2010 eruptions of Eyjafjallajokull</Name>
-	<Kind crisisKindIdent = "ND">
-	<Location>
-	  <Country>Iceland</Country>
-	</Location>
-	<StartDateTime>
-	  <Date>2010-03-20</Date>
-	</StartDateTime>
-	<EndDateTime>
-	  <Date>2010-06-23</Date>
-	</EndDateTime>
-	<EconomicImpact>The eruption caused large scale disruption to air travel, and had 
+    <Name>2010 eruptions of Eyjafjallajokull</Name>
+    <Kind crisisKindIdent = "ND">
+    <Location>
+      <Country>Iceland</Country>
+    </Location>
+    <StartDateTime>
+      <Date>2010-03-20</Date>
+    </StartDateTime>
+    <EndDateTime>
+      <Date>2010-06-23</Date>
+    </EndDateTime>
+    <EconomicImpact>The eruption caused large scale disruption to air travel, and had 
 some effects on the farming industry in Iceland.</EconomicImpact>
-	<ExternalResources>
-	  <ImageURL>http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/eyja_04_19/e25_23048757.jpg</ImageURL>
-	  <ImageURL>http://eoimages.gsfc.nasa.gov/images/imagerecords/43000/43252/fimmvorduhals_ali_2010083.jpg</ImageURL>
-	  <VideoURL>http://www.youtube.com/watch?v=tGPD_0SCDp4</VideoURL>
-	  <MapURL>http://upload.wikimedia.org/wikipedia/commons/b/b1/Eyjafjallaj%C3%B6kull_volcanic_ash_composite.png</MapURL>
-	</ExternalResources>
+    <ExternalResources>
+      <ImageURL>http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/eyja_04_19/e25_23048757.jpg</ImageURL>
+      <ImageURL>http://eoimages.gsfc.nasa.gov/images/imagerecords/43000/43252/fimmvorduhals_ali_2010083.jpg</ImageURL>
+      <VideoURL>http://www.youtube.com/watch?v=tGPD_0SCDp4</VideoURL>
+      <MapURL>http://upload.wikimedia.org/wikipedia/commons/b/b1/Eyjafjallaj%C3%B6kull_volcanic_ash_composite.png</MapURL>
+    </ExternalResources>
   </Crisis>
 	
   <Crisis crisisIdent="ER2011">
-	<Name>2011 Egyptian Revolution</Name>
-	<Kind crisisKindIdent = "RE">
-	<Location>
-	  <Country>Egypt</Country>
-	</Location>
-	<StartDateTime>
-	  <Date>2011-01-25</Date>
-	</StartDateTime>
-	<EndDateTime>
-	  <Date>2011-02-11</Date>
-	</EndDateTime>
-	<HumanImpact>
-	  <Type>Death</Type>
-	  <Number>846</Number>
-	</HumanImpact>
-	<EconomicImpact>The protests paralyzed the country's economy, shutting down offices, shops, and banks throughout 
+    <Name>2011 Egyptian Revolution</Name>
+    <Kind crisisKindIdent = "RE">
+    <Location>
+      <Country>Egypt</Country>
+    </Location>
+    <StartDateTime>
+      <Date>2011-01-25</Date>
+    </StartDateTime>
+    <EndDateTime>
+      <Date>2011-02-11</Date>
+    </EndDateTime>
+    <HumanImpact>
+      <Type>Death</Type>
+      <Number>846</Number>
+    </HumanImpact>
+    <EconomicImpact>The protests paralyzed the country's economy, shutting down offices, shops, and banks throughout 
 Egypt's major cities. There has also been a negative effect on Egypt's tourist industry, which makes up
 5 to 6 percent of its GDP.</EconomicImpact>
-	<ExternalResources>
-	  <ImageURL>http://i.huffpost.com/gadgets/slideshows/16507/slide_16507_229768_large.jpg</ImageURL>
-	  <ImageURL>http://i.huffpost.com/gadgets/slideshows/17213/slide_17213_238712_huge.jpg</ImageURL>
-	  <VideoURL>http://www.youtube.com/watch?v=-HGfFyqJMrk</VideoURL>
-	  <MapURL>https://maps.google.com/maps?q=egypt&hl=en&sll=38.864527,-77.013525&sspn=0.007201,0.007081&t=h&hnear=Egypt&z=6</MapURL>
+    <ExternalResources>
+      <ImageURL>http://i.huffpost.com/gadgets/slideshows/16507/slide_16507_229768_large.jpg</ImageURL>
+      <ImageURL>http://i.huffpost.com/gadgets/slideshows/17213/slide_17213_238712_huge.jpg</ImageURL>
+      <VideoURL>http://www.youtube.com/watch?v=-HGfFyqJMrk</VideoURL>
+      <MapURL>https://maps.google.com/maps?q=egypt&hl=en&sll=38.864527,-77.013525&sspn=0.007201,0.007081&t=h&hnear=Egypt&z=6</MapURL>
       <SocialNetworkURL>https://www.twitter.com/ikhwanweb</SocialNetworkURL>
-	  <ExternalLinkURL>http://www.periscopepost.com/2011/01/egypts-revolution-economic-doom/</ExternalLinkURL>
-	</ExternalResources>
-	<RelatedOrganizations>
-	  <RelatedOrganization organizationIdent="AI"/>
-	</RelatedOrganizations>
+      <ExternalLinkURL>http://www.periscopepost.com/2011/01/egypts-revolution-economic-doom/</ExternalLinkURL>
+    </ExternalResources>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent="AI"/>
+    </RelatedOrganizations>
   </Crisis>
   
   <Organization organizationIdent= "DWB">
@@ -286,7 +286,7 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
       <Fax>202 477 6391</Fax>
       <Email>info@worldbank.org </Email>
       <PostalAddress>
-        <StreetAddress>The World Bank 1818 H Street, N.W. </StreetAddress>
+        <StreetAddress>The World Bank 1818 H Street, N.W.</StreetAddress>
         <Locality>Washington D.C.</Locality>
         <Region></Region>
         <Country>USA</Country>
@@ -297,7 +297,6 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
       <ImageURL>http://en.wikipedia.org/wiki/File:World_Bank_Logo.svg</ImageURL>
       <VideoURL>http://web.worldbank.org/WBSITE/EXTERNAL/EXTABOUTUS/PARTNERS/EXTDEVDIALOGUE/0,,contentMDK:22256131~pagePK:64192523~piPK:64192458~theSitePK:537298,00.html</VideoURL>
       <MapURL>http://maps.worldbank.org/</MapURL>
-      <SocialNetworkURL>Twitter">@WorldBank</SocialNetworkURL>
     </ExternalResources>
     <RelatedCrises>
       <RelatedCrisis crisisIdent="AI1970"/>
@@ -307,7 +306,7 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
 
   <Organization organizationIdent= "Africare">
     <Name>Africare</Name>
-    <Kind organizationKindIdent = "HO"/>
+    <Kind organizationKindIdent= "HO"/>
     <Location>
       <Country>All African countries</Country>
     </Location>
@@ -321,14 +320,14 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
         <Locality>Washington D.C.</Locality>
         <Region></Region>
         <PostalCode>20001</PostalCode>
-        <Country>USA </Country>
+        <Country>USA</Country>
       </PostalAddress>
     </ContactInfo>
     <ExternalResources>
-      <ImageURL>http://upload.wikimedia.org/wikipedia/en/e/ee/Africare_logo.png </ImageURL>
-      <VideoURL>http://africare.org/our-stories/galleries/videos/pass-it-on-january10.php </VideoURL>
+      <ImageURL>http://upload.wikimedia.org/wikipedia/en/e/ee/Africare_logo.png</ImageURL>
+      <VideoURL>http://africare.org/our-stories/galleries/videos/pass-it-on-january10.php</VideoURL>
       <MapURL>http://goo.go/maps/ynkBW </MapURL>
-      <SocialNetworkURL>http://www.facebook.com/Africaremedia </SocialNetworkURL>
+      <SocialNetworkURL>http://www.facebook.com/Africaremedia</SocialNetworkURL>
     </ExternalResources>
     <RelatedCrises>
       <RelatedCrisis crisisIdent="AI1970"/>
@@ -366,10 +365,9 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
     </RelatedCrises>
   </Organization>
 
-
   <Organization organizationIdent= "NATO">
     <Name>NATO</Name>
-    <Kind organizationKindIdent = "MA"/>
+    <Kind organizationKindIdent= "MA"/>
     <Location>
       <Locality>Brussels</Locality>
       <Country>Belgium</Country>
@@ -404,7 +402,7 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
     </RelatedPersons>
   </Organization>
 
-  <Organization organizationIdent = "WHO">
+  <Organization organizationIdent= "WHO">
     <Name>World Health Organization</Name>
     <Kind organizationKindIdent= "PHA"/>
     <Location>
@@ -438,74 +436,72 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
       <RelatedPerson personIdent="BGates"/>
     </RelatedPersons>
   </Organization>
-
   
   <Organization organizationIdent="AI">
-	<Name>Amnesty International</Name>
-	<Kind organizationKindIdent="IO">
-	<Location>
-	  <Locality>London</Locality>
-	  <Country>United Kingdom</Country>
-	</Location>
-	<History>Amnesty International was founded in London in July 1961 by English labour lawyer Peter Benenson. By the mid-1960s Amnesty International's global presence was growing and an International Secretariat and International Executive Committee were established to manage Amnesty International's national organisations, called 'Sections', which had appeared in several countries.</History>
-	<ContactInfo>
-	  <Telephone>+44-20-74135500</Telephone>
-	  <Fax>+44-20-79561157</Fax>
-	  <Email></Email>
-	  <PostalAddress>
-		<StreetAddress>1 Easton Street</StreetAddress>
-		<Locality>London</Locality>
-		<Region></Region>
-		<PostalCode></PostalCode>
-		<Country>United Kingdom</Country>
-	  </PostalAddress>
-	</ContactInfo>
-	<ExternalResources>
-	  <ImageURL>http://upload.wikimedia.org/wikipedia/en/e/ee/Amnesty_International_logo.svg</ImageURL>
-	  <MapURL>https://maps.google.com/maps?q=1+Easton+Street,+London,+UK&hl=en&sll=51.525921,-0.110971&sspn=0.011508,0.014162&oq=1+Easton+STreet,+London,+UK&t=h&hnear=1+Easton+St,+London+Borough+of+Islington,+London+WC1X,+United+Kingdom&z=16&iwloc=A</MapURL>
-	  <SocialNetworkURL>https://www.twitter.com/amnestyonline</SocialNetworkURL>
-	  <ExternalLinkURL>https://www.amnesty.org</ExternalLinkURL>
-	</ExternalResources>
-	<RelatedCrises>
-	  <RelatedCrisis crisisIdent="AI1970"/>
-	  <RelatedCrisis crisisIdent="ER2011"/>
-	  <RelatedCrisis crisisIdent="HT1900"/>
-	  <RelatedCrisis crisisIdent="SY2011"/>
+    <Name>Amnesty International</Name>
+    <Kind organizationKindIdent="IO">
+    <Location>
+      <Locality>London</Locality>
+      <Country>United Kingdom</Country>
+    </Location>
+    <History>Amnesty International was founded in London in July 1961 by English labour lawyer Peter Benenson. By the mid-1960s Amnesty International's global presence was growing and an International Secretariat and International Executive Committee were established to manage Amnesty International's national organisations, called 'Sections', which had appeared in several countries.</History>
+    <ContactInfo>
+      <Telephone>+44-20-74135500</Telephone>
+      <Fax>+44-20-79561157</Fax>
+      <Email></Email>
+      <PostalAddress>
+	<StreetAddress>1 Easton Street</StreetAddress>
+	<Locality>London</Locality>
+	<Region></Region>
+	<PostalCode></PostalCode>
+	<Country>United Kingdom</Country>
+      </PostalAddress>
+    </ContactInfo>
+    <ExternalResources>
+      <ImageURL>http://upload.wikimedia.org/wikipedia/en/e/ee/Amnesty_International_logo.svg</ImageURL>
+      <MapURL>https://maps.google.com/maps?q=1+Easton+Street,+London,+UK&hl=en&sll=51.525921,-0.110971&sspn=0.011508,0.014162&oq=1+Easton+STreet,+London,+UK&t=h&hnear=1+Easton+St,+London+Borough+of+Islington,+London+WC1X,+United+Kingdom&z=16&iwloc=A</MapURL>
+      <SocialNetworkURL>https://www.twitter.com/amnestyonline</SocialNetworkURL>
+      <ExternalLinkURL>https://www.amnesty.org</ExternalLinkURL>
+    </ExternalResources>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent="AI1970"/>
+      <RelatedCrisis crisisIdent="ER2011"/>
+      <RelatedCrisis crisisIdent="HT1900"/>
+      <RelatedCrisis crisisIdent="SY2011"/>
     </RelatedCrises>
   </Organization>
 	
   <Organization organizationIdent="USCG">
-	<Name>United States Coast Guard</Name>
-	<Kind organizationKindIdent=""/>
-	<Location>
-	  <Country>United States</Country>
-	</Location>
-	<History>The roots of the Coast Guard lie in the United States Revenue Cutter Service established by Alexander Hamilton under the Department of the Treasury on 4 August 1790. The first Coast Guard station was in Newburyport, Massachusetts. Until the re-establishment of the United States Navy in 1798, the Revenue Cutter Service was the only naval force of the early United States. It was established to collect taxes from a brand new nation of patriot smugglers. When the officers were out at sea, they were told to crack down on piracy; while they were at it, they might as well rescue anyone in distress.</History>
-	<ContactInfo>
-	  <Telephone></Telephone>
-	  <Fax></Fax>
-	  <Email></Email>
-	  <PostalAddress>
-		<StreetAddress>2100 2nd St SW #7102</StreetAddress>
-		<Locality>Washington</Locality>
-		<Region>DC</Region>
-		<PostalCode>20593</PostalCode>
-		<Country>United States</Country>
-	  <PostalAddress>
-	</ContactInfo>
-	<ExternalResources>
-	  <ImageURL>http://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/US-CoastGuard-Seal.svg/210px-US-CoastGuard-Seal.svg.png</MapURL>
-	  <VideoURL>http://www.youtube.com/watch?v=MbHEp42vTEs</MapURL>
-	  <MapURL>https://maps.google.com/maps?q=2100+2nd+Street,+Washington,+DC+20593&hl=en&sll=51.525921,-0.110971&sspn=0.000719,0.000885&t=h&hnear=2100+2nd+St+SW,+Washington,+District+of+Columbia+20593&z=17</MapURL>
-	  <SocialNetworkURL>https://twitter.com/USCG</SocialNetworkURL>
-	  <SocialNetworkURL>https://www.facebook.com/UScoastguard</SocialNetworkURL>
-	  <ExternalLinkURL>https://www.uscg.mil</ExternalLinkURL>
-	</ExternalResources>
-	<RelatedCrises>
-	  <RelatedCrisis crisisIdent="HK2005"/>
-	</RelatedCrises>
-  <Organization>
-  
+    <Name>United States Coast Guard</Name>
+    <Kind organizationKindIdent="GMB"/>
+    <Location>
+      <Country>United States</Country>
+    </Location>
+    <History>The roots of the Coast Guard lie in the United States Revenue Cutter Service established by Alexander Hamilton under the Department of the Treasury on 4 August 1790. The first Coast Guard station was in Newburyport, Massachusetts. Until the re-establishment of the United States Navy in 1798, the Revenue Cutter Service was the only naval force of the early United States. It was established to collect taxes from a brand new nation of patriot smugglers. When the officers were out at sea, they were told to crack down on piracy; while they were at it, they might as well rescue anyone in distress.</History>
+    <ContactInfo>
+      <Telephone></Telephone>
+      <Fax></Fax>
+      <Email></Email>
+      <PostalAddress>
+	<StreetAddress>2100 2nd St SW #7102</StreetAddress>
+	<Locality>Washington</Locality>
+	<Region>DC</Region>
+	<PostalCode>20593</PostalCode>
+	<Country>United States</Country>
+      </PostalAddress>
+    </ContactInfo>
+    <ExternalResources>
+      <ImageURL>http://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/US-CoastGuard-Seal.svg/210px-US-CoastGuard-Seal.svg.png</MapURL>
+      <VideoURL>http://www.youtube.com/watch?v=MbHEp42vTEs</MapURL>
+      <MapURL>https://maps.google.com/maps?q=2100+2nd+Street,+Washington,+DC+20593&hl=en&sll=51.525921,-0.110971&sspn=0.000719,0.000885&t=h&hnear=2100+2nd+St+SW,+Washington,+District+of+Columbia+20593&z=17</MapURL>
+      <SocialNetworkURL>https://twitter.com/USCG</SocialNetworkURL>
+      <SocialNetworkURL>https://www.facebook.com/UScoastguard</SocialNetworkURL>
+      <ExternalLinkURL>https://www.uscg.mil</ExternalLinkURL>
+    </ExternalResources>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent="HK2005"/>
+    </RelatedCrises>
+  <Organization>  
   
   <Person personIdent="AHitler">
     <Name>
@@ -654,7 +650,7 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
     </RelatedOrganizations>
   </Person>
   
-<Person personIdent="Pbono">
+  <Person personIdent="Bono">
     <Name>
       <FirstName>Paul</FirstName>
       <LastName>Hewson</LastName>
@@ -680,7 +676,7 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
     </RelatedOrganizations>
   </Person>
 
-<Person personIdent="SLavrov">
+  <Person personIdent="SLavrov">
     <Name>
       <FirstName>Sergey</FirstName>
       <LastName>Lavrov</LastName>
@@ -704,7 +700,7 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
     </RelatedOrganizations>
   </Person>
 
-<Person personIdent="FCastro">
+  <Person personIdent="FCastro">
     <Name>
       <FirstName>Fidel</FirstName>
       <LastName>Castro</LastName>
@@ -728,9 +724,10 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
     </RelatedOrganizations>
   </Person>
 
-<Person personIdent="BObama">
+  <Person personIdent="BObama">
     <Name>
       <FirstName>Barack</FirstName>
+      <MiddleName>Hussein</MiddleName>
       <LastName>Obama</LastName>
     </Name>
     <Kind personKindIdent="PR"/>
@@ -751,12 +748,12 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
       <RelatedOrganization organizationIdent="NATO"/>
     </RelatedOrganizations>
   </Person>
+
   <CrisisKind crisisIdent="PC">
     <Name>Political Confrontation</Name>
     <Description>Two or more countries engaging in a military standoff for political reasons. In U.S. history, largely associated with the cold War between the U.S. and U.S.S.R.</Description>
   </CrisisKind>
   
-
   <CrisisKind crisisKindIdent="WAR">
     <Name>War</Name>
     <Description>An organized and often prolonged conflict that is carried out by states and/or non-state actors.</Description>
@@ -783,8 +780,8 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
   </CrisisKind>
   
   <CrisisKind crisisKindIdent="RE">
-	<Name>Revolution</Name>
-	<Description>A fundamental change in power or organizational structures that takes place in a relatively short period of time.</Description>
+    <Name>Revolution</Name>
+    <Description>A fundamental change in power or organizational structures that takes place in a relatively short period of time.</Description>
   </CrisisKind>
 
   <OrganizationKind organizationKindIdent="HO">
@@ -807,6 +804,11 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
     <Description>An organization that aims to influence public-policy and resource allocation decisions within political, economic, and social systems and institutions for public heal needs.</Description>
   </OrganizationKind>
 
+  <OrganizationKind organizationKindIdent="GMB">
+    <Name>Government Military Branch</Name>
+    <Description>A military brach of a government (or governments) that carries out the orders received, whether that be active combat or humanitarian aide</Description>
+  </OrganizationKind>
+
   <PersonKind personKindIdent="PR">
     <Name>President (current or former)</Name>
     <Description>A democratically elected leader of a government</Description>
@@ -824,6 +826,6 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
   
   <PersonKind personKindIdent="PH">
     <Name>Philanthropist</Name>
-    <Description>Person uses their influence to help make changes in the world</Description>
+    <Description>Person uses their influence to help make positive changes in the world</Description>
   </PersonKind>
 </WorldCrises>
