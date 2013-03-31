@@ -101,7 +101,7 @@
     <Name>Holocaust</Name>
     <Kind crisisKindIdent= "GE"/>
     <Location>
-      <Country>France,Germany, United Kingdom, Poland</Country>
+      <Country>France, Germany, United Kingdom, Poland</Country>
     </Location>
     <StartDateTime>
       <Date>1933-01-30</Date>
@@ -157,17 +157,18 @@
   </Crisis>
 
   <Crisis crisisIdent= "HK2005" >
-    <Name>Hurricane Katrina </Name>
+    <Name>Hurricane Katrina</Name>
     <Kind cirsisKindIdent= "ND" />
     <Location>
+      <Region>Louisiana</Region>
       <Country>USA</Country>
     </Location>
     <StartDateTime>
       <Date>2005-08-23</Date>
     </StartDateTime>
     <HumanImpact>
-      <Type> Death </Type>
-      <Number>1833 </Number>
+      <Type>Death</Type>
+      <Number>1833</Number>
     </HumanImpact>
     <EconomicImpact>108 billion USD in repairs</EconomicImpact>
     <ExternalResources>
@@ -188,20 +189,20 @@
   </Crisis>
   
   <Organization organizationIdent= "DWB">
-    <Name>Doctors Without Borders </Name>
-    <Kind organizationKindeIdent= HO</Kind>
+    <Name>Doctors Without Borders</Name>
+    <Kind organizationKindeIdent= "HO"/>
     <Location>
-      <Country>USA </Country>
+      <Country>Global</Country>
     </Location>
     <History>Doctors without Borders was created in 1971, in the aftermath of the Biafra secession, by a small group of French doctors and journalist</History>
     <ContactInfo>
-      <Telephone>212 679 6800 </Telephone>
-      <Fax> 212 679 7016</Fax>
-      <Email> infor@doctorwithoutboders.org </Email>
+      <Telephone>212 679 6800</Telephone>
+      <Fax>212 679 7016</Fax>
+      <Email>infor@doctorwithoutboders.org</Email>
       <PostalAddress>
-        <StreetAddress> Doctors Without Borders, 333 7th Avenue </StreetAddress>
+        <StreetAddress>Doctors Without Borders, 333 7th Avenue</StreetAddress>
         <Locality>New York</Locality>
-	<Region>New York </Region>
+	<Region>New York</Region>
 	<Postal>10001</Postal>
 	<Country>USA</Country>
       </PostalAddress>
@@ -220,14 +221,14 @@
   </Organization>
 
   <Organization organizationIdent = "WBG">
-    <Name>World Bank Group </Name>
+    <Name>World Bank Group</Name>
     <Kind organizationKindIdent= "IO"/>
     <Location>
       <Country>Third world countries</Country> 	
     </Location>
     <History>The World Bank activities are focused on developing countries, in fields such as human development, environmental protection infrasctructure, large industrial construction projects, and governance.</History>
     <ContactInfo>
-      <Telephone>202 473 1000 </Telephone>
+      <Telephone>202 473 1000</Telephone>
       <Fax>202 477 6391</Fax>
       <Email>info@worldbank.org </Email>
       <PostalAddress>
@@ -235,7 +236,7 @@
         <Locality>Washington D.C.</Locality>
         <Region></Region>
         <Country>USA</Country>
-        <PostalCode>20433 </PostalCode>
+        <PostalCode>20433</PostalCode>
       </PostalAddress>
     </ContactInfo>
     <ExternalResources>
@@ -251,21 +252,21 @@
   </Organization>
 
   <Organization organizationIdent= "Africare">
-    <Name>Africare </Name>
+    <Name>Africare</Name>
     <Kind organizationKindIdent = "HO"/>
     <Location>
-      <Country>All African countries </Country>
+      <Country>All African countries</Country>
     </Location>
     <History>Founded September 20, 1970 in Washington D.C. by William O. Kirker, Barbara Kirker, and C. Payne Lucas</History>
     <ContactInfo>
-      <Telephone>1 202 462 3614 </Telephone>
+      <Telephone>1 202 462 3614</Telephone>
       <Fax>1 202 387 1034</Fax>
-      <Email>info@africare.org </Email>
+      <Email>info@africare.org</Email>
       <PostalAddress>
-        <StreetAddress>4Africare House, 40 R Street, N.W. </StreetAddress>
+        <StreetAddress>Africare House, 40 R Street, N.W.</StreetAddress>
         <Locality>Washington D.C.</Locality>
         <Region></Region>
-        <PostalCode>20001 </PostalCode>
+        <PostalCode>20001</PostalCode>
         <Country>USA </Country>
       </PostalAddress>
     </ContactInfo>
@@ -281,24 +282,24 @@
   </Organization>
 
   <Organization organizationIdent = "HTAP">
-    <Name> Human Trafficking Awareness Partnership </Name>
+    <Name>Human Trafficking Awareness Partnership</Name>
     <Kind organizationKindIdent= "HO"/>
     <Location>
       <Locality>Sanibel</Locality>
-      <Region>Florida </Region>
+      <Region>Florida</Region>
       <Country>USA</Country>
     </Location>
-    <History>Founded by Ms. Nola Theiss in Sanibel, Florida in 2006 </History>
+    <History>Founded by Ms. Nola Theiss in Sanibel, Florida in 2006</History>
     <ContactInfo>
-      <Telephone>239 415 2635 </Telephone>
-      <Fax>239 395 2635 </Fax>
-      <Email> info@humantraffickingawareness.org </Email>
+      <Telephone>239 415 2635</Telephone>
+      <Fax>239 395 2635</Fax>
+      <Email>info@humantraffickingawareness.org</Email>
       <PostalAddress>
-        <StreetAddress> HTAP, Inc., PO Box 1113 </StreetAddress>
-        <Locality>Sanibel </Locality>
-        <Region>Florida </Region>
-        <PostalCode>33957 </PostalCode>
-        <Country>USA </Country>
+        <StreetAddress>HTAP, Inc., PO Box 1113</StreetAddress>
+        <Locality>Sanibel</Locality>
+        <Region>Florida</Region>
+        <PostalCode>33957</PostalCode>
+        <Country>USA</Country>
       </PostalAddress>
     </ContactInfo>
     <ExternalResources>
@@ -313,7 +314,7 @@
 
 
   <Organization organizationIdent= "NATO">
-    <Name> Africare </Name>
+    <Name>NATO</Name>
     <Kind organizationKindIdent = "MA"/>
     <Location>
       <Locality>Brussels</Locality>
@@ -328,13 +329,13 @@
         <StreetAddress></StreetAddress>
         <Locality>Brussels</Locality>
         <Region></Region>
-        <PostalCode>1110 </PostalCode>
-        <Country>Belgium </Country>
+        <PostalCode>1110</PostalCode>
+        <Country>Belgium</Country>
       </PostalAddress>
     </ContactInfo>
     <ExternalResources>
       <MapURL>http://en.wikipedia.org/wiki/File:History_of_NATO_enlargement.svg</MapURL>
-      <MapURL>http://en.wikipedia.org/wiki/File:NATO_partnerships.svg </MapURL>
+      <MapURL>http://en.wikipedia.org/wiki/File:NATO_partnerships.svg</MapURL>
       <SocialNetworkURL>http://www.facebook.com/NATO?sid=0.2535960127133876</SocialNetworkURL>
     </ExternalResources>
     <RelatedCrises>
@@ -350,7 +351,7 @@
   </Organization>
 
   <Organization organizationIdent = "WHO">
-    <Name>World Health Organization </Name>
+    <Name>World Health Organization</Name>
     <Kind organizationKindIdent= "PHA"/>
     <Location>
       <Locality>Geneva</Locality>
@@ -386,16 +387,16 @@
 
   <Person personIdent="AHitler">
     <Name>
-      <FirstName>Adolf </FirstName>
-      <LastName>Hitler </LastName>
+      <FirstName>Adolf</FirstName>
+      <LastName>Hitler</LastName>
     </Name>
     <Kind personKindIdent="DI"/>
     <Location>
-       <Locality>Braunau am Inn </Locality>
-      <Country>Germany </Country>
+      <Locality>Braunau am Inn</Locality>
+      <Country>Germany</Country>
     </Location>
     <ExternalResources>
-      <ImageURL>http://www.jewishvirtuallibrary.org/images/hitler1.jpg </ImageURL>
+      <ImageURL>http://www.jewishvirtuallibrary.org/images/hitler1.jpg</ImageURL>
       <ImageURL>http://history1900s.about.com/library/holocaust/blhitler3.htm</ImageURL>
       <ImageURL>http://history1900s.about.com/library/holocaust/blhitler37.htm</ImageURL>
       <VideoURL>http://www.youtube.com/watch?v-ONkXZtHVvCg</VideoURL>
@@ -413,7 +414,7 @@
     </Name>
     <Kind personKindIdent="PR"/>
     <Location>
-       <Locality>Transkei</Locality>
+      <Locality>Transkei</Locality>
       <Country>South Africa</Country>
     </Location>
     <ExternalResources>
@@ -434,19 +435,19 @@
 
   <Person personIdent="JFKennedy">
     <Name>
-      <FirstName>John </FirstName>
-      <MiddleName>Fitzgerald </MiddleName>
-      <LastName>Kennedy </LastName>
+      <FirstName>John</FirstName>
+      <MiddleName>Fitzgerald</MiddleName>
+      <LastName>Kennedy</LastName>
     </Name>
     <Kind personKindIdent="PR"/>
     <Location>
-       <Locality>Brookline </Locality>
-       <Region>Massachusetts </Region>
-      <Country>USA </Country>
+      <Locality>Brookline</Locality>
+      <Region>Massachusetts</Region>
+      <Country>USA</Country>
     </Location>
     <ExternalResources>
       <ImageURL>http://www.whitehouse.gov/sites/default/files/first-family/masthead_image/35jk_header.jpg?1250885463 </ImageURL>
-      <VideoURL>http://youtu.be/P7YkJxQT_0Y </VideoURL>
+      <VideoURL>http://youtu.be/P7YkJxQT_0Y</VideoURL>
       <MapURL>http://goo.gl/maps/xFGPn</MapURL>
     </ExternalResources>
     <RelatedCrises>
@@ -454,26 +455,26 @@
       <RelatedCrisis crisisIdent="VW1975"/>
     </RelatedCrises>
     <RelatedOrganizations>
-        <RelatedOrganization organizationIdent = "NATO"/>
+      <RelatedOrganization organizationIdent = "NATO"/>
     </RelatedOrganizations>
   </Person>
 
   <Person personIdent="GWBush">
     <Name>
-      <FirstName>George </FirstName>
-      <MiddleName>Walker </MiddleName>
-      <LastName>Bush </LastName>
+      <FirstName>George</FirstName>
+      <MiddleName>Walker</MiddleName>
+      <LastName>Bush</LastName>
     </Name>
     <Kind personKindIdent="PR"/>
     <Location>
-      <Locality>New Haven </Locality>
-      <Region>Connecticut </Region>
-      <Country>USA </Country>
+      <Locality>New Haven</Locality>
+      <Region>Connecticut</Region>
+      <Country>USA</Country>
     </Location>
     <ExternalResources>
       <ImageURL>http://www.biography.com/imported/images/Biography/Images/Profiles/B/George-W-Bush-9232768-1-402.jpg </ImageURL>
-      <VideoURL>http://vimeo.com/8783351 </VideoURL>
-      <MapURL>http://goo.gl/maps/xFGPn </MapURL>
+      <VideoURL>http://vimeo.com/8783351</VideoURL>
+      <MapURL>http://goo.gl/maps/xFGPn</MapURL>
     </ExternalResources>
     <RelatedCrises>
       <RelatedCrisis crisisIdent="HK2005"/>
@@ -485,55 +486,55 @@
 
   <Person personIdent="MDHuckabee">
     <Name>
-      <FirstName>Mike </FirstName>
-      <MiddleName>Dale </MiddleName>
-      <LastName>Huckabee </LastName>
+      <FirstName>Mike</FirstName>
+      <MiddleName>Dale</MiddleName>
+      <LastName>Huckabee</LastName>
     </Name>
     <Kind personKindIdent="GO"/>
-      <Location>
-        <Locality>Hope </Locality>
-        <Region>Arkansas </Region>
-        <Country>USA </Country>
-      </Location>
-      <ExternalResources>
-        <ImageURL>http://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Mike_Huckabee_by_Gage_Skidmore_2.jpg/220px-Mike_Huckabee_by_Gage_Skidmore_2.jpg </ImageURL>
-        <VideoURL>http://youtu.be/192g-IQFdDE </VideoURL>
-        <MapURL>http://goo.gl/maps/w8ka3 </MapURL>
+    <Location>
+      <Locality>Hope</Locality>
+      <Region>Arkansas</Region>
+      <Country>USA</Country>
+    </Location>
+    <ExternalResources>
+      <ImageURL>http://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Mike_Huckabee_by_Gage_Skidmore_2.jpg/220px-Mike_Huckabee_by_Gage_Skidmore_2.jpg </ImageURL>
+      <VideoURL>http://youtu.be/192g-IQFdDE </VideoURL>
+      <MapURL>http://goo.gl/maps/w8ka3</MapURL>
     </ExternalResources>
     <RelatedCrises>
-        <RelatedCrisis crisisIdent="HK2005"/>
+      <RelatedCrisis crisisIdent="HK2005"/>
     </RelatedCrises>
   </Person>
 
   <Person personIdent="BHGates">
     <Name>
-      <FirstName>Bill </FirstName>
-      <MiddleName>Henry </MiddleName>
-      <LastName>Gates </LastName>
+      <FirstName>Bill</FirstName>
+      <MiddleName>Henry</MiddleName>
+      <LastName>Gates</LastName>
     </Name>
     <Kind personKindIdent="PH"/>
     <Location>
-      <Locality>Seatle </Locality>
-      <Region>Washington </Region>
-      <Country>USA </Country>
+      <Locality>Seatle</Locality>
+      <Region>Washington</Region>
+      <Country>USA</Country>
     </Location>
     <ExternalResources>
       <ImageURL>http://www.biography.com/imported/images/Biography/Images/Profiles/G/Bill-Gates-9307520-2-402.jpg </ImageURL>
       <VideoURL>http://www.biography.com/people/bill-gates-9307520/videos/bill-gates-charity-2080037725 </VideoURL>
-      <MapURL>http://goo.gl/maps/n7rnd </MapURL>
+      <MapURL>http://goo.gl/maps/n7rnd</MapURL>
     </ExternalResources>
     <RelatedCrises>
-        <RelatedCrisis crisisIdent="AI1970"/>
-        <RelatedCrisis crisisIdent="HT1900"/>
+      <RelatedCrisis crisisIdent="AI1970"/>
+      <RelatedCrisis crisisIdent="HT1900"/>
     </RelatedCrises>
     <RelatedOrganizations>
-        <RelatedOrganization organizationIdent="WHO"/>
+      <RelatedOrganization organizationIdent="WHO"/>
     </RelatedOrganizations>
   </Person>
   
-  <CrisisKind crisisIdent="PC" />
-    <Name> Political Confrontation </Name>
-    <Description> Political confrontation and major part of the Cold War between the USA and Soviet Union</Description>
+  <CrisisKind crisisIdent="PC">
+    <Name>Political Confrontation</Name>
+    <Description>Two or more countries engaging in a military standoff for political reasons. In U.S. history, largely associated with the cold War between the U.S. and U.S.S.R.</Description>
   </CrisisKind>
   
   <CrisisKind crisisKindIdent="WAR">
@@ -542,23 +543,23 @@
   </CrisisKind>
   
   <CrisisKind crisisKindIdent="ND">
-    <Name> Natural Disaster </Name>
+    <Name>Natural Disaster</Name>
     <Description>The costliest natural disaster and deadliest in the history of the United States</Description>
   </CrisisKind>
   
   <CrisisKind crisisKindIdent="ID">
-    <Name> Infectious Disease </Name>
+    <Name>Infectious Disease</Name>
     <Description>A disease resulting from pathogenic biological agents in an host organism </Description>
   </CrisisKind>
 
   <CrisisKind crisisKindIdent="GE">
-    <Name> Genocide </Name>
+    <Name>Genocide</Name>
     <Description>The deliberate and systematic destruction of an ethnic, racial, religious, or national group </Description>
   </CrisisKind>
 
   <CrisisKind crisisKindIdent="TOC">
     <Name>Transnational Organized Crime</Name>
-    <Description> Organized crime coordinated across national borders, involving groups workin in more than one country to plan and execute illegal business ventures</Description>
+    <Description>Organized crime coordinated across national borders, involving groups workin in more than one country to plan and execute illegal business ventures</Description>
   </CrisisKind>
 
   <OrganizationKind organizationKindIdent="HO">
@@ -577,7 +578,7 @@
   </OrganizationKind>
 
   <OrganizationKind organizationKindIdent="PHA">
-    <Name> Public Health Advocate</Name>
+    <Name>Public Health Advocate</Name>
     <Description>An organization that aims to influence public-policy and resource allocation decisions within political, economic, and social systems and institutions for public heal needs.</Description>
   </OrganizationKind>
 
@@ -595,9 +596,9 @@
     <Name>Governor</Name>
     <Description>Person served as Governor of a state in the United States</Description>
   </PersonKind>
-    <PersonKind personKindIdent="PH">
-        <Name>Philanthropist</Name>
-        <Description>Person uses their influence to help make changes in the world</Description>
-    </PersonKind>
-
+  
+  <PersonKind personKindIdent="PH">
+    <Name>Philanthropist</Name>
+    <Description>Person uses their influence to help make changes in the world</Description>
+  </PersonKind>
 </WorldCrises>
