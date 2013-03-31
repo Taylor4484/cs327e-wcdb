@@ -188,6 +188,60 @@
     </RelatedOrganizations>  
   </Crisis>
   
+  <Crisis crisisIdent="EV2010">
+	<Name>2010 eruptions of Eyjafjallajokull</Name>
+	<Kind crisisKindIdent = "ND">
+	<Location>
+	  <Country>Iceland</Country>
+	</Location>
+	<StartDateTime>
+	  <Date>2010-03-20</Date>
+	</StartDateTime>
+	<EndDateTime>
+	  <Date>2010-06-23</Date>
+	</EndDateTime>
+	<EconomicImpact>The eruption caused large scale disruption to air travel, and had 
+some effects on the farming industry in Iceland.</EconomicImpact>
+	<ExternalResources>
+	  <ImageURL>http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/eyja_04_19/e25_23048757.jpg</ImageURL>
+	  <ImageURL>http://eoimages.gsfc.nasa.gov/images/imagerecords/43000/43252/fimmvorduhals_ali_2010083.jpg</ImageURL>
+	  <VideoURL>http://www.youtube.com/watch?v=tGPD_0SCDp4</VideoURL>
+	  <MapURL>http://upload.wikimedia.org/wikipedia/commons/b/b1/Eyjafjallaj%C3%B6kull_volcanic_ash_composite.png</MapURL>
+	</ExternalResources>
+  </Crisis>
+	
+  <Crisis crisisIdent="ER2011">
+	<Name>2011 Egyptian Revolution</Name>
+	<Kind crisisKindIdent = "RE">
+	<Location>
+	  <Country>Egypt</Country>
+	</Location>
+	<StartDateTime>
+	  <Date>2011-01-25</Date>
+	</StartDateTime>
+	<EndDateTime>
+	  <Date>2011-02-11</Date>
+	</EndDateTime>
+	<HumanImpact>
+	  <Type>Death</Type>
+	  <Number>846</Number>
+	</HumanImpact>
+	<EconomicImpact>The protests paralyzed the country's economy, shutting down offices, shops, and banks throughout 
+Egypt's major cities. There has also been a negative effect on Egypt's tourist industry, which makes up
+5 to 6 percent of its GDP.</EconomicImpact>
+	<ExternalResources>
+	  <ImageURL>http://i.huffpost.com/gadgets/slideshows/16507/slide_16507_229768_large.jpg</ImageURL>
+	  <ImageURL>http://i.huffpost.com/gadgets/slideshows/17213/slide_17213_238712_huge.jpg</ImageURL>
+	  <VideoURL>http://www.youtube.com/watch?v=-HGfFyqJMrk</VideoURL>
+	  <MapURL>https://maps.google.com/maps?q=egypt&hl=en&sll=38.864527,-77.013525&sspn=0.007201,0.007081&t=h&hnear=Egypt&z=6</MapURL>
+      <SocialNetworkURL>https://www.twitter.com/ikhwanweb</SocialNetworkURL>
+	  <ExternalLinkURL>http://www.periscopepost.com/2011/01/egypts-revolution-economic-doom/</ExternalLinkURL>
+	</ExternalResources>
+	<RelatedOrganizations>
+	  <RelatedOrganization organizationIdent="AI"/>
+	</RelatedOrganizations>
+  </Crisis>
+  
   <Organization organizationIdent= "DWB">
     <Name>Doctors Without Borders</Name>
     <Kind organizationKindeIdent= "HO"/>
@@ -385,6 +439,74 @@
     </RelatedPersons>
   </Organization>
 
+  
+  <Organization organizationIdent="AI">
+	<Name>Amnesty International</Name>
+	<Kind organizationKindIdent="IO">
+	<Location>
+	  <Locality>London</Locality>
+	  <Country>United Kingdom</Country>
+	</Location>
+	<History>Amnesty International was founded in London in July 1961 by English labour lawyer Peter Benenson. By the mid-1960s Amnesty International's global presence was growing and an International Secretariat and International Executive Committee were established to manage Amnesty International's national organisations, called 'Sections', which had appeared in several countries.</History>
+	<ContactInfo>
+	  <Telephone>+44-20-74135500</Telephone>
+	  <Fax>+44-20-79561157</Fax>
+	  <Email></Email>
+	  <PostalAddress>
+		<StreetAddress>1 Easton Street</StreetAddress>
+		<Locality>London</Locality>
+		<Region></Region>
+		<PostalCode></PostalCode>
+		<Country>United Kingdom</Country>
+	  </PostalAddress>
+	</ContactInfo>
+	<ExternalResources>
+	  <ImageURL>http://upload.wikimedia.org/wikipedia/en/e/ee/Amnesty_International_logo.svg</ImageURL>
+	  <MapURL>https://maps.google.com/maps?q=1+Easton+Street,+London,+UK&hl=en&sll=51.525921,-0.110971&sspn=0.011508,0.014162&oq=1+Easton+STreet,+London,+UK&t=h&hnear=1+Easton+St,+London+Borough+of+Islington,+London+WC1X,+United+Kingdom&z=16&iwloc=A</MapURL>
+	  <SocialNetworkURL>https://www.twitter.com/amnestyonline</SocialNetworkURL>
+	  <ExternalLinkURL>https://www.amnesty.org</ExternalLinkURL>
+	</ExternalResources>
+	<RelatedCrises>
+	  <RelatedCrisis crisisIdent="AI1970"/>
+	  <RelatedCrisis crisisIdent="ER2011"/>
+	  <RelatedCrisis crisisIdent="HT1900"/>
+	  <RelatedCrisis crisisIdent="SY2011"/>
+    </RelatedCrises>
+  </Organization>
+	
+  <Organization organizationIdent="USCG">
+	<Name>United States Coast Guard</Name>
+	<Kind organizationKindIdent=""/>
+	<Location>
+	  <Country>United States</Country>
+	</Location>
+	<History>The roots of the Coast Guard lie in the United States Revenue Cutter Service established by Alexander Hamilton under the Department of the Treasury on 4 August 1790. The first Coast Guard station was in Newburyport, Massachusetts. Until the re-establishment of the United States Navy in 1798, the Revenue Cutter Service was the only naval force of the early United States. It was established to collect taxes from a brand new nation of patriot smugglers. When the officers were out at sea, they were told to crack down on piracy; while they were at it, they might as well rescue anyone in distress.</History>
+	<ContactInfo>
+	  <Telephone></Telephone>
+	  <Fax></Fax>
+	  <Email></Email>
+	  <PostalAddress>
+		<StreetAddress>2100 2nd St SW #7102</StreetAddress>
+		<Locality>Washington</Locality>
+		<Region>DC</Region>
+		<PostalCode>20593</PostalCode>
+		<Country>United States</Country>
+	  <PostalAddress>
+	</ContactInfo>
+	<ExternalResources>
+	  <ImageURL>http://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/US-CoastGuard-Seal.svg/210px-US-CoastGuard-Seal.svg.png</MapURL>
+	  <VideoURL>http://www.youtube.com/watch?v=MbHEp42vTEs</MapURL>
+	  <MapURL>https://maps.google.com/maps?q=2100+2nd+Street,+Washington,+DC+20593&hl=en&sll=51.525921,-0.110971&sspn=0.000719,0.000885&t=h&hnear=2100+2nd+St+SW,+Washington,+District+of+Columbia+20593&z=17</MapURL>
+	  <SocialNetworkURL>https://twitter.com/USCG</SocialNetworkURL>
+	  <SocialNetworkURL>https://www.facebook.com/UScoastguard</SocialNetworkURL>
+	  <ExternalLinkURL>https://www.uscg.mil</ExternalLinkURL>
+	</ExternalResources>
+	<RelatedCrises>
+	  <RelatedCrisis crisisIdent="HK2005"/>
+	</RelatedCrises>
+  <Organization>
+  
+  
   <Person personIdent="AHitler">
     <Name>
       <FirstName>Adolf</FirstName>
@@ -658,6 +780,11 @@
   <CrisisKind crisisKindIdent="TOC">
     <Name>Transnational Organized Crime</Name>
     <Description>Organized crime coordinated across national borders, involving groups workin in more than one country to plan and execute illegal business ventures</Description>
+  </CrisisKind>
+  
+  <CrisisKind crisisKindIdent="RE">
+	<Name>Revolution</Name>
+	<Description>A fundamental change in power or organizational structures that takes place in a relatively short period of time.</Description>
   </CrisisKind>
 
   <OrganizationKind organizationKindIdent="HO">
