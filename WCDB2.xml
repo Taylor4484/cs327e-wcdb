@@ -291,7 +291,7 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
       <ExternalLinkURL>http://www.cfr.org/mexico/mexicos-drug-war/p13689</ExternalLinkURL>
     </ExternalResources>
     <RelatedOrganizations>
-      <RelatedOrganization organizationIdent = "MG1810"/>
+      <RelatedOrganization organizationIdent = "MG"/>
     </RelatedOrganizations> 
   </Crisis>
 
@@ -585,7 +585,7 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
     </RelatedCrises>
   </Organization>
 
-  <Organization organizationIdent="MG1810">
+  <Organization organizationIdent="MG">
     <Name>Mexican Government</Name>
     <Kind organizationKindIdent="NG">
     <Location>
