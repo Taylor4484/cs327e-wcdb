@@ -126,7 +126,7 @@
     </RelatedOrganizations>
   </Crisis>
   
-  <Crisis crisesIdent="CM1962">
+  <Crisis crisisIdent="CM1962">
     <Name>Cuban Missile Crisis</Name>
     <Kind crisisKindIdent= "PC" />
     <Location>
@@ -144,7 +144,7 @@
       <ImageURL>http://en.wikipedia.org/wiki/File:Soviet-R-12-nuclear-ballistic_missile.jpg</ImageURL>
       <VideoURL>http://www.nbcnews.com/video/nightly-news/49510565#49510565</VideoURL>
       <MapURL>http://www.worldatlas.com/webimage/countrys/namerica/caribb/lgcolor/cucolor.htm</MapURL>
-      <ExternalLinURL>http://www.facebook.com/events/156960544442243/</ExternalLinkURL>
+      <ExternalLinkURL>http://www.facebook.com/events/156960544442243/</ExternalLinkURL>
     </ExternalResources>
     <RelatedPersons>
       <RelatedPerson personIdent = "FCastro"/>
@@ -156,9 +156,9 @@
     </RelatedOrganizations> 
   </Crisis>
 
-  <Crisis crisisIdent= "HK2005" >
+  <Crisis criseiIdent= "HK2005" >
     <Name>Hurricane Katrina</Name>
-    <Kind cirsisKindIdent= "ND" />
+    <Kind crisisKindIdent= "ND" />
     <Location>
       <Region>Louisiana</Region>
       <Country>USA</Country>
@@ -175,8 +175,8 @@
       <ImageURL>http://en.wikipedia.org/wiki/File:Hurricane_Katrina_August_28_2005_NASA.jpg</ImageURL>
       <VideoURL>http://www.nasa.gov/mission_pages/hurricanes/features/katrina-retrospective.html</VideoURL>
       <MapURL>http://flhurricane.com/googlemap.php?2005s12</MapURL>
-      <ExternalLinkUrl>http://www.ncdc.noaa.gov/special-reports/katrina.html</ExternalLinkURL>
-    </ExternalResource>
+      <ExternalLinkURL>http://www.ncdc.noaa.gov/special-reports/katrina.html</ExternalLinkURL>
+    </ExternalResources>
     <RelatedPersons>
       <RelatedPerson personIdent = "GBush"/>
       <RelatedPerson personIdent = "Bono"/>
