@@ -156,7 +156,7 @@
     </RelatedOrganizations> 
   </Crisis>
 
-  <Crisis criseiIdent= "HK2005" >
+  <Crisis crisisIdent= "HK2005" >
     <Name>Hurricane Katrina</Name>
     <Kind crisisKindIdent= "ND" />
     <Location>
