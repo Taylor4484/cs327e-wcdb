@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+﻿<?xml version="1.0" ?>
 <WorldCrises>
   <Crisis crisisIdent= "SY2011" >
     <Name>Syrian Civil War </Name>
@@ -285,7 +285,7 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
     <EconomicImpact></EconomicImpact>
     <ExternalResources>
       <ImageURL>http://upload.wikimedia.org/wikipedia/commons/6/6e/Fuerza_del_Estado_Michoac%C3%A1n.jpg</ImageURL>
-      <MapURL>http://goo.gl/maps/ZqfjM</MapURL>
+      <MapURL>http://media.economist.com/sites/default/files/routes_0.png?1353588291</MapURL>
       <ExternalLinkURL>http://www.cfr.org/mexico/mexicos-drug-war/p13689</ExternalLinkURL>
     </ExternalResources>
     <RelatedOrganizations>
@@ -554,7 +554,7 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
     </RelatedCrises>
   </Organization>  
   
-  <Organization organizationIdent= "AR1881">
+  <Organization organizationIdent= "ARC">
     <Name>American Red Cross</Name>
     <Kind organizationKindIdent= "HO"/>
     <Location>
@@ -947,3 +947,4 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
     <Description>Person uses their influence to help make positive changes in the world</Description>
   </PersonKind>
 </WorldCrises>
+
