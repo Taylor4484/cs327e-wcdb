@@ -4,7 +4,7 @@
 
 import sys
 
-from WCDB1 import wcdb1_solve
+from WCDB2 import *
 
 # ----
 # main
