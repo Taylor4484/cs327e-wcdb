@@ -16,7 +16,8 @@
 
 import sys
 import _mysql
-import xml.etree.ElementTree as ET
+#import xml.etree.ElementTree as ET
+import lxml.etree as ET
 
 # --------
 # DB Login
@@ -88,7 +89,7 @@ def wcdb2_write (c, w, tree) :
     reads an input
     creates an element tree from string
     """
-    tree2 = ET.tostring(tree)
+    tree2 = ET.tostring(tree, pretty_print=True)
     w.write(tree2)
   
 
