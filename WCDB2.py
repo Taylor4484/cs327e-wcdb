@@ -1,3 +1,9 @@
+#Create an import/export facility from the XML into Element Tree and back.
+#The import facility must import from a file.
+#The file is guaranteed to have validated XML.
+#The export facility must export to a file.
+#Import/export the XML on only the ten crises, ten organizations, and ten people of the group.
+
 #!/usr/bin/env python
 
 # ---------------------------
@@ -6,9 +12,6 @@
 # Taylor McCaslin
 # ---------------------------
 
-#CHANGE THE BELOW CREDITIALS TO YOUR DESIRED DATABASE
-# creds = [host, username, password, database]
-
 
 # -------
 # imports
@@ -16,8 +19,7 @@
 
 import sys
 import _mysql
-#import xml.etree.ElementTree as ET
-import lxml.etree as ET
+import xml.etree.ElementTree as ET
 
 # --------
 # DB Login
@@ -89,14 +91,14 @@ def wcdb2_write (c, w, tree) :
     reads an input
     creates an element tree from string
     """
-    tree2 = ET.tostring(tree, pretty_print=True)
+    tree2 = ET.tostring(tree)
     w.write(tree2)
   
 
     #NOT VALID CODE, just the idea. Needf to get the file name from w
     #opens file, w, and loads the xml into the WCDB
     t = Query.query(c, """LOAD XML LOCAL INFILE 'w' 
-    		     into table WCDB
+			     into table WCDB
                              rows identified by '<Crisis>' OR '<Organization>' OR '<Person>'
 			""")
 
@@ -110,20 +112,14 @@ def createDB()
    t = Query.query(
         c,
         """
-
 	create table Crisis (
+	  crisisIdent text,
 	  Name text,
 	  Kind text,
 	  Location text,
 	  StartDateTime dateTime,
 	  EndDateTime dateTime,
-	  HumanImpact DICT,
-          EconomicImpact text,
-          ResourcesNeeded text,
-          WaysToHelp text,
-          ExternalResources ARRAY,
-          RelatedPersons ARRAY,
-	  RelatedOrganizations ARRAY
+          EconomicImpact int
 			);
 	""") 
 
@@ -131,28 +127,119 @@ def createDB()
         c,
         """
 	create table Organization (
+	  organizationIdent text,
 	  Name text,
 	  Kind text,
-	  Location text,
-	  Historytext,
-	  ContactInfo ARRAY OF DICT,
-	  ExternalResources ARRAY,
-	  RelatedCrisis ARRAY,
-          RelatedPersons ARRAY
+	  History text,
+	  Telephone text,
+	  Fax text,
+	  Email text,
+	  StreetAddress text,
+	  Locality text,
+	  Region text,
+	  PostalCode text,
+	  Country text
 	  );
 	""") 
 
     t = Query.query(
         c,
         """
-	create table People (
-	  Name text,
-	  Kind text,
-	  Location text,
-	  RelatedCrisis ARRAY,
-	  RelatedOrganizations ARRAY
+	create table Person (
+	  personIdent text,
+	  FirstName text,
+	  MiddleName text,
+	  LastName text,
+	  Suffix text,
+	  Kind text
 	  );
 	""")
+
+    t = Query.query(
+        c,
+        """
+	create table Location (
+	  lkey text,
+	  parentIdent text,
+	  Locality text,
+	  Region text,
+	  PostalCode text,
+	  Country text
+	);""")
+
+    t = Query.query(
+        c,
+        """
+	create table Kind (
+	  kkey text,
+	  parentIdent text,
+	  Type text,
+	  Name text,
+	  Description text
+	);""")
+
+    t = Query.query(
+        c,
+        """
+	create table ExternalResources (
+	  ekey text,
+	  parentIdent text,
+	  Type text,
+	  Value text
+	);""")
+    t = Query.query(
+        c,
+        """
+	create table PersonRelation (
+	  personIdent text,
+	  otherIdent text,
+	  Type text
+	);""")
+    t = Query.query(
+        c,
+        """
+	create table CrisisRelation (
+	  crisisIdent text,
+	  otherIdent text,
+	  Type text
+	);""")
+
+    t = Query.query(
+        c,
+        """
+	create table OrganizationRelation (
+	  organizationIdent text,
+	  otherIdent text,
+	  Type text
+	);""")
+
+    t = Query.query(
+        c,
+        """
+	create table HumanImpact (
+	  parentIdent text,
+	  Type text,
+	  Number int
+	);""")
+
+    t = Query.query(
+        c,
+        """
+	create table ResourcesNeeded (
+	  parentIdent text,
+	  ResourceNeeded text,
+	);""")
+
+    t = Query.query(
+        c,
+        """
+	create table WaysToHelp (
+	  parentIdent text,
+	  WaysToHelp text
+	);""")
+
+
+
 
     t = Query.query(c, "show databases") #show WCDB2?
 
@@ -174,3 +261,4 @@ def wcdb2_solve (r, w) :
     tree = wcdb2_TRead (c,r)
     output1 = wcdb2_write (c, w, tree)
     #output2 = wcdb2_write (w, output1)
+    
