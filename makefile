@@ -3,42 +3,36 @@ all:
 	make test
 
 diff:
-	python RunWCDB1.py < taylor-RunWCDB1.in.xml > RunWCDB1.tmp
-	diff taylor-RunWCDB1.out.xml RunWCDB1.tmp
-
-lint: 
-	xmllint --noout -schema WCDB2.xsd.xml WCDB2.xml
-
+	RunWCDB2.py < RunWCDB2.in.xml > RunWCDB2.tmp
+	diff RunWCDB2.out.xml RunWCDB2.tmp
+	rm RunWCDB2.tmp
 
 doc:
-	pydoc -w WCDB1
+	pydoc -w WCDB2
 
 log:
-	git log > WCDB1.log
+	git log > WCDB2.log
 
 run:
-	RunWCDB1.py < RunWCDB1.in.xml
+	python RunWCDB2.py < RunWCDB2.in.xml
 
 test:
-	python taylor-TestWCDB1.py 
-
-test-save:
-	python taylor-TestWCDB1.py >& RunWCDB1.out
+	python TestWCDB2.py
 
 turnin-list:
-	turnin --list hychyc07 cs327epj3
+	turnin --list hychyc07 cs327epj4
 
 turnin-submit:
-	turnin --submit hychyc07 cs327epj3 WCDB1.zip
+	turnin --submit hychyc07 cs327epj4 WCDB2.zip
 
 turnin-verify:
-	turnin --verify hychyc07 cs327epj3
+	turnin --verify hychyc07 cs327epj4
 
 zip:
-	zip -r WCDB1.zip makefile                             \
-	RunWCDB1.in.xml RunWCDB1.py RunWCDB1.out.xml          \
-	TestWCDB1.py TestWCDB1.out                            \
-	WCDB1.html WCDB1.log WCDB1.py WCDB1.xml WCDB1.xsd.xml
+	zip -r WCDB2.zip makefile                                       \
+	RunWCDB2.in.xml RunWCDB2.py RunWCDB2.out.xml                    \
+	TestWCDB2.py TestWCDB2.out                                      \
+	WCDB2.html WCDB2.log WCDB2.pdf WCDB2.py WCDB2.xml WCDB2.xsd.xml
 
 clean:
 	rm -f *.pyc
