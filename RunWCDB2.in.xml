@@ -1,141 +1,949 @@
-1.
-<THU>
-	<Team>
-		<ACRush></ACRush>
-		<Jelly></Jelly>
-		<Cooly></Cooly>
-	</Team>
-	<JiaJia>
-		<Team>
-			<Ahyangyi></Ahyangyi>
-			<Dragon></Dragon>
-			<Cooly><Amber></Amber></Cooly>
-		</Team>
-		<Taylor>
-			<Team>
-				<Amber><Cooly></Cooly></Amber>
-			</Team>
-		</Taylor>
-	</JiaJia>
-</THU>
-
-2.
-<THU>
-	<Team>
-		<ACRush></ACRush>
-		<Jelly></Jelly>
-		<Cooly></Cooly>
-	</Team>
-	<JiaJia>
-		<Team>
-			<Ahyangyi></Ahyangyi>
-			<Dragon></Dragon>
-			<Cooly><Amber></Amber></Cooly>
-		</Team>
-		<Taylor>
-			<Team>
-				<Cooly></Cooly>
-			</Team>
-		</Taylor>
-	</JiaJia>
-</THU>
-
-3.
-<Taylor>
-    <Team>
-        <ACRush></ACRush>
-        <Jelly></Jelly>
-        <Cooly></Cooly>
-    </Team>
-    <JiaJia>
-        <Team>
-            <Ahyangyi></Ahyangyi>
-            <Dragon></Dragon>
-            <Cooly><Amber></Amber></Cooly>
-        </Team>
-    </JiaJia>
-</Taylor>
-
-4.
-<Taylor>
-    <Team></Team>
-    <JiaJia>
-        <Team>
-            <Ahyangyi></Ahyangyi>
-            <Dragon></Dragon>
-            <Cooly><Amber></Amber></Cooly>
-        </Team>
-    </JiaJia>
-</Taylor>
-
-5.
-<Holly>
-	<Cats>
-		<Leopards><coffee><Tigers></Tigers></coffee></Leopards>
-		<Ocelots></Ocelots>
-		<Bobcats></Bobcats>
-	</Cats>
-	<Leopards>
-		<coffee></coffee>
-		<Tigers></Tigers>
-	</Leopards>
-</Holly>
-
-6.
-<THU>
-	<Team>
-		<ACRush></ACRush>
-		<Jelly></Jelly>
-		<Cooly></Cooly>
-	</Team>
-	<JiaJia>
-		<Team>
-			<Ahyangyi></Ahyangyi>
-			<Dragon></Dragon>
-			<Cooly><Amber></Amber></Cooly>
-		</Team>
-		<Taylor>
-			<Team>
-				<Amber><Cooly></Cooly></Amber>
-			</Team>
-		</Taylor>
-	</JiaJia>
-</THU>
-
-7.
-<THU>
-	<Team>
-		<ACRush></ACRush>
-		<Jelly></Jelly>
-		<Cooly></Cooly>
-	</Team>
-	<JiaJia>
-		<Team>
-			<Ahyangyi></Ahyangyi>
-			<Dragon></Dragon>
-			<Cooly><Amber></Amber></Cooly>
-		</Team>
-		<Taylor>
-			<Team>
-				<Amber><Cooly></Cooly></Amber>
-			</Team>
-		</Taylor>
-	</JiaJia>
-</THU>
-
-8.
-<Team><Cooly></Cooly></Team>
-
-9.
-<Team>
-    <ACRush></ACRush>
-    <Jelly></Jelly>
-    <Cooly></Cooly>
-</Team>
-
-10.
-<Team>
-    <ACRush></ACRush>
-    <Jelly></Jelly>
-    <Cooly></Cooly>
-</Team>
+<?xml version="1.0" ?>
+<WorldCrises>
+    <Crisis crisisIdent= "SY2011" >
+        <Name>Syrian Civil War </Name>
+        <Kind crisisKindIdent= "WAR" />
+        <Location>
+            <Country>Syria </Country>
+        </Location>
+        <StartDateTime>
+            <Date>2011-03-15</Date>
+        </StartDateTime>
+        <HumanImpact>
+            <Type>Death </Type>
+            <Number>70000 </Number>
+        </HumanImpact>
+        <EconomicImpact></EconomicImpact>
+        <ExternalResources>
+            <ImageURL>http://en.wikipedia.org/wiki/File:Bombed_out_vehicles_Aleppo.jpg</ImageURL>
+            <VideoURL>http://www.bbc.co.uk/news/world-middle-east-21504390</VideoURL>
+            <MapURL>http://goo.gl/maps/PWJKM</MapURL>
+            <ExternalLinkURL>http://www.crisisgroup.org/en/regions/middle-east-north-africa/egypt-syria-lebanon-syria.aspx/</ExternalLinkURL>
+        </ExternalResources>
+        <RelatedPersons>
+            <RelatedPerson personIdent = "SLavrov"/>
+        </RelatedPersons>
+        <RelatedOrganizations>
+            <RelatedOrganization organizationIdent = "NATO"/>
+            <RelatedOrganization organizationIdent = "AI" />
+        </RelatedOrganizations>
+    </Crisis>
+    
+    <Crisis crisisIdent= "AI1970" >
+        <Name> AIDS in Africa</Name>
+        <Kind crisisKindIdent= "ID"/>
+        <Location>
+            <Country>All African countries </Country>
+        </Location>
+        <StartDateTime>
+            <Date>1970-01-01</Date>
+        </StartDateTime>
+        <HumanImpact>
+            <Type>Death</Type>
+            <Number>1300000 </Number>
+        </HumanImpact>
+        <EconomicImpact></EconomicImpact>
+        <ExternalResources>
+            <ImageURL>http://en.wikipedia.org/wiki/File:Map-of-HIV-Prevalance-in-Africa.png </ImageURL>
+            <ImageURL>http://africanheritageculturalcenter.org/wp-content/uploads/2010/06/AIDS-in-South-Africa.jpg </ImageURL>
+            <MapURL>http://goo.gl/maps/n7rnd </MapURL>
+            <SocialNetworkURL>http://www.facebook.com/HivAidsAfrica?fref=ts </SocialNetworkURL>
+        </ExternalResources>
+        <RelatedPersons>
+            <RelatedPerson personIdent="Bono"/>
+            <RelatedPerson personIdent="BHGates"/>
+        </RelatedPersons>
+        <RelatedOrganizations>
+            <RelatedOrganization organizationIdent="Africare"/>
+            <RelatedOrganization organizationIdent="WBG"/>
+            <RelatedOrganization organizationIdent="WHO"/>
+            <RelatedOrganization organizationIdent="DWB" />
+        </RelatedOrganizations>
+    </Crisis>
+    
+    <Crisis crisisIdent= "HT1900" >
+        <Name>Human Trafficking</Name>
+        <Kind crisisKindIdent= "TOC" />
+        <Location>
+            <Country>Global, no country excluded</Country>
+        </Location>
+        <StartDateTime>
+            <Date>0001-01-01</Date>
+        </StartDateTime>
+        <HumanImpact>
+            <Type>Forced labor</Type>
+            <Number>2400000</Number>
+        </HumanImpact>
+        <HumanImpact>
+            <Type>SexualSlavery</Type>
+            <Number>1920000</Number>
+        </HumanImpact>
+        <EconomicImpact>2005 ILO estimate of a gloval annual profit of $31.6 billion</EconomicImpact>
+        <ExternalResources>
+            <ImageURL>http://www.blackandmissinginc.com/wordpress/wp-content/uploads/2012/01/stop-human-trafficking1.jpg</ImageURL>
+            <VideoURL>http://vimeo.com/58972870</VideoURL>
+            <MapURL>http://human.glovalincidentmap.com</MapURL>
+            <SocialNetworkURL>http://www.facebook.com/humantraffickingL</SocialNetworkURL>
+            <ExternalLinkURL>http://www.humantrafficking.org</ExternalLinkURL>
+        </ExternalResources>
+        <RelatedPersons>
+            <RelatedPerson personIdent = "BHGates"/>
+            <RelatedPerson personIdent = "Bono"/>
+        </RelatedPersons>
+        <RelatedOrganizations>
+            <RelatedOrganization organizationIdent = "WBG"/>
+            <RelatedOrganization organizationIdent = "WHO" />
+            <RelatedOrganization organizationIdent = "NATO"/>
+        </RelatedOrganizations>
+    </Crisis>
+    
+    <Crisis crisisIdent= "HO1930" >
+        <Name>Holocaust</Name>
+        <Kind crisisKindIdent= "GE"/>
+        <Location>
+            <Country>France, Germany, United Kingdom, Poland</Country>
+        </Location>
+        <StartDateTime>
+            <Date>1933-01-30</Date>
+        </StartDateTime>
+        <HumanImpact>
+            <Type>Death</Type>
+            <Number>9807500</Number>
+        </HumanImpact>
+        <EconomicImpact>Average GDP of regions in Russia with a notable diminishment of Jewish citizens was 23% lower than the Russian average</EconomicImpact>
+        <ExternalResources>
+            <ImageURL>http://upload.wikimedia.org/wikipedia/en/8/89/Selection_Birkenau_ramp.jpg </ImageURL>
+            <ImageURL>http://upload.wikimedia.org/wikipedia/commons/6/6a/Bundesarchiv_Bild_175-04413%2C_KZ_Auschwitz%2C_Einfahrt.jpb </ImageURL>
+            <VideoURL>http://www.history.com/topics/the-holocaust/videos#concentration-camp-liberation</VideoURL>
+            <MapURL>http://www.holocaustmap.com/site/map/</MapURL>
+            <ExternalLinkURL>http://www.ushmm.org/wlc/en/article.php?Module=10005143</ExternalLinkURL>
+        </ExternalResources>
+        <RelatedPersons>
+            <RelatedPerson personIdent="AHitler"/>
+        </RelatedPersons>
+        <RelatedOrganizations>
+            <RelatedOrganization organizationIdent="AI"/>
+        </RelatedOrganizations>
+    </Crisis>
+    
+    <Crisis crisisIdent="CM1962">
+        <Name>Cuban Missile Crisis</Name>
+        <Kind crisisKindIdent= "PC" />
+        <Location>
+            <Country>Cuba </Country>
+        </Location>
+        <StartDateTime>
+            <Date>1962-10-16</Date>
+        </StartDateTime>
+        <HumanImpact>
+            <Type>Death</Type>
+            <Number>1 </Number>
+        </HumanImpact>
+        <EconomicImpact></EconomicImpact>
+        <ExternalResources>
+            <ImageURL>http://en.wikipedia.org/wiki/File:Soviet-R-12-nuclear-ballistic_missile.jpg</ImageURL>
+            <VideoURL>http://www.nbcnews.com/video/nightly-news/49510565#49510565</VideoURL>
+            <MapURL>http://www.worldatlas.com/webimage/countrys/namerica/caribb/lgcolor/cucolor.htm</MapURL>
+            <ExternalLinkURL>http://www.facebook.com/events/156960544442243/</ExternalLinkURL>
+        </ExternalResources>
+        <RelatedPersons>
+            <RelatedPerson personIdent = "FCastro"/>
+            <RelatedPerson personIdent = "JFKennedy"/>
+        </RelatedPersons>
+        <RelatedOrganizations>
+            <RelatedOrganization organizationIdent = "WBG"/>
+            <RelatedOrganization organizationIdent = "USCG"/>
+        </RelatedOrganizations>
+    </Crisis>
+    
+    <Crisis crisisIdent= "HK2005" >
+        <Name>Hurricane Katrina</Name>
+        <Kind crisisKindIdent= "ND" />
+        <Location>
+            <Region>Louisiana</Region>
+            <Country>USA</Country>
+        </Location>
+        <StartDateTime>
+            <Date>2005-08-23</Date>
+        </StartDateTime>
+        <HumanImpact>
+            <Type>Death</Type>
+            <Number>1833</Number>
+        </HumanImpact>
+        <EconomicImpact>108 billion USD in repairs</EconomicImpact>
+        <ExternalResources>
+            <ImageURL>http://en.wikipedia.org/wiki/File:Hurricane_Katrina_August_28_2005_NASA.jpg</ImageURL>
+            <VideoURL>http://www.nasa.gov/mission_pages/hurricanes/features/katrina-retrospective.html</VideoURL>
+            <MapURL>http://flhurricane.com/googlemap.php?2005s12</MapURL>
+            <ExternalLinkURL>http://www.ncdc.noaa.gov/special-reports/katrina.html</ExternalLinkURL>
+        </ExternalResources>
+        <RelatedPersons>
+            <RelatedPerson personIdent = "GWBush"/>
+            <RelatedPerson personIdent = "Bono"/>
+        </RelatedPersons>
+        <RelatedOrganizations>
+            <RelatedOrganization organizationIdent = "DWB"/>
+            <RelatedOrganization organizationIdent = "ARC"/>
+            <RelatedOrganization organizationIdent = "USCG"/>
+        </RelatedOrganizations>
+    </Crisis>
+    
+    <Crisis crisisIdent="EV2010">
+        <Name>2010 eruptions of Eyjafjallajokull</Name>
+        <Kind crisisKindIdent = "ND"/>
+        <Location>
+            <Country>Iceland</Country>
+        </Location>
+        <StartDateTime>
+            <Date>2010-03-20</Date>
+        </StartDateTime>
+        <EndDateTime>
+            <Date>2010-06-23</Date>
+        </EndDateTime>
+        <EconomicImpact>The eruption caused large scale disruption to air travel, and had
+            some effects on the farming industry in Iceland.</EconomicImpact>
+        <ExternalResources>
+            <ImageURL>http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/eyja_04_19/e25_23048757.jpg</ImageURL>
+            <ImageURL>http://eoimages.gsfc.nasa.gov/images/imagerecords/43000/43252/fimmvorduhals_ali_2010083.jpg</ImageURL>
+            <VideoURL>http://www.youtube.com/watch?v=tGPD_0SCDp4</VideoURL>
+            <MapURL>http://upload.wikimedia.org/wikipedia/commons/b/b1/Eyjafjallaj%C3%B6kull_volcanic_ash_composite.png</MapURL>
+        </ExternalResources>
+    </Crisis>
+	
+    <Crisis crisisIdent="ER2011">
+        <Name>2011 Egyptian Revolution</Name>
+        <Kind crisisKindIdent = "RE"/>
+        <Location>
+            <Country>Egypt</Country>
+        </Location>
+        <StartDateTime>
+            <Date>2011-01-25</Date>
+        </StartDateTime>
+        <EndDateTime>
+            <Date>2011-02-11</Date>
+        </EndDateTime>
+        <HumanImpact>
+            <Type>Death</Type>
+            <Number>846</Number>
+        </HumanImpact>
+        <EconomicImpact>The protests paralyzed the country's economy, shutting down offices, shops, and banks throughout
+            Egypt's major cities. There has also been a negative effect on Egypt's tourist industry, which makes up
+            5 to 6 percent of its GDP.</EconomicImpact>
+        <ExternalResources>
+            <ImageURL>http://i.huffpost.com/gadgets/slideshows/16507/slide_16507_229768_large.jpg</ImageURL>
+            <ImageURL>http://i.huffpost.com/gadgets/slideshows/17213/slide_17213_238712_huge.jpg</ImageURL>
+            <VideoURL>http://www.youtube.com/watch?v=-HGfFyqJMrk</VideoURL>
+            <MapURL>http://goo.gl/maps/QyX23</MapURL>
+            <SocialNetworkURL>https://www.twitter.com/ikhwanweb</SocialNetworkURL>
+            <ExternalLinkURL>http://www.periscopepost.com/2011/01/egypts-revolution-economic-doom/</ExternalLinkURL>
+        </ExternalResources>
+        <RelatedOrganizations>
+            <RelatedOrganization organizationIdent="AI"/>
+        </RelatedOrganizations>
+    </Crisis>
+    
+    <Crisis crisisIdent= "VW1975" >
+        <Name>Vietnam War</Name>
+        <Kind crisisKindIdent= "WAR" />
+        <Location>
+            <Country>Vietnam</Country>
+        </Location>
+        <StartDateTime>
+            <Date>1955-11-01</Date>
+        </StartDateTime>
+        <EndDateTime>
+            <Date>1975-04-30</Date>
+        </EndDateTime>
+        <HumanImpact>
+            <Type>Death</Type>
+            <Number>1102000</Number>
+        </HumanImpact>
+        <EconomicImpact></EconomicImpact>
+        <ExternalResources>
+            <ImageURL>http://www.us-history.com/wp-content/uploads/2012/03/us-history-vietnam-war.jpg</ImageURL>
+            <MapURL>http://www.english.illinois.edu/maps/vietnam/maps.htm</MapURL>
+            <ExternalLinkURL>http://www.pbs.org/wgbh/amex/vietnam/</ExternalLinkURL>
+        </ExternalResources>
+        <RelatedPersons>
+            <RelatedPerson personIdent = "JFKennedy"/>
+        </RelatedPersons>
+    </Crisis>
+    
+    <Crisis crisisIdent= "MD2006" >
+        <Name>Mexican Drug War</Name>
+        <Kind crisisKindIdent= "WAR" />
+        <Location>
+            <Country>Mexico</Country>
+        </Location>
+        <StartDateTime>
+            <Date>2006-12-11</Date>
+        </StartDateTime>
+        <HumanImpact>
+            <Type>Death </Type>
+            <Number>60000</Number>
+        </HumanImpact>
+        <EconomicImpact></EconomicImpact>
+        <ExternalResources>
+            <ImageURL>http://upload.wikimedia.org/wikipedia/commons/6/6e/Fuerza_del_Estado_Michoac%C3%A1n.jpg</ImageURL>
+            <MapURL>http://media.economist.com/sites/default/files/routes_0.png?1353588291</MapURL>
+            <ExternalLinkURL>http://www.cfr.org/mexico/mexicos-drug-war/p13689</ExternalLinkURL>
+        </ExternalResources>
+        <RelatedOrganizations>
+            <RelatedOrganization organizationIdent = "MG"/>
+        </RelatedOrganizations>
+    </Crisis>
+    
+    <Organization organizationIdent= "DWB">
+        <Name>Doctors Without Borders</Name>
+        <Kind organizationKindIdent= "HO"/>
+        <Location>
+            <Country>Global</Country>
+        </Location>
+        <History>Doctors without Borders was created in 1971, in the aftermath of the Biafra secession, by a small group of French doctors and journalist</History>
+        <ContactInfo>
+            <Telephone>212 679 6800</Telephone>
+            <Fax>212 679 7016</Fax>
+            <Email>infor@doctorwithoutboders.org</Email>
+            <PostalAddress>
+                <StreetAddress>Doctors Without Borders, 333 7th Avenue</StreetAddress>
+                <Locality>New York</Locality>
+                <Region>New York</Region>
+                <PostalCode>10001</PostalCode>
+                <Country>USA</Country>
+            </PostalAddress>
+        </ContactInfo>
+        <ExternalResources>
+            <ImageURL>http://en.wikipedia.org/wiki/File:Msf_logo.png</ImageURL>
+            <MapURL>http://www.doctorswithoutborders.org/news/article.cfm?id=828</MapURL>
+            <SocialNetworkURL>https://www.facebook.com/msf.english</SocialNetworkURL>
+        </ExternalResources>
+        <RelatedCrises>
+            <RelatedCrisis crisisIdent= "HK2005"/>
+            <RelatedCrisis crisisIdent= "AI1970"/>
+            <RelatedCrisis crisisIdent= "SY2011"/>
+            <RelatedCrisis crisisIdent= "VW1975"/>
+        </RelatedCrises>
+    </Organization>
+    
+    <Organization organizationIdent = "WBG">
+        <Name>World Bank Group</Name>
+        <Kind organizationKindIdent= "IO"/>
+        <Location>
+            <Country>Third world countries</Country>
+        </Location>
+        <History>The World Bank activities are focused on developing countries, in fields such as human development, environmental protection infrasctructure, large industrial construction projects, and governance.</History>
+        <ContactInfo>
+            <Telephone>202 473 1000</Telephone>
+            <Fax>202 477 6391</Fax>
+            <Email>info@worldbank.org </Email>
+            <PostalAddress>
+                <StreetAddress>The World Bank 1818 H Street, N.W.</StreetAddress>
+                <Locality>Washington D.C.</Locality>
+                <Region></Region>
+                <PostalCode>20433</PostalCode>
+                <Country>USA</Country>
+            </PostalAddress>
+        </ContactInfo>
+        <ExternalResources>
+            <ImageURL>http://en.wikipedia.org/wiki/File:World_Bank_Logo.svg</ImageURL>
+            <VideoURL>http://web.worldbank.org/WBSITE/EXTERNAL/EXTABOUTUS/PARTNERS/EXTDEVDIALOGUE/0,,contentMDK:22256131~pagePK:64192523~piPK:64192458~theSitePK:537298,00.html</VideoURL>
+            <MapURL>http://maps.worldbank.org/</MapURL>
+        </ExternalResources>
+        <RelatedCrises>
+            <RelatedCrisis crisisIdent="AI1970"/>
+            <RelatedCrisis crisisIdent="VW1975"/>
+        </RelatedCrises>
+    </Organization>
+    
+    <Organization organizationIdent= "Africare">
+        <Name>Africare</Name>
+        <Kind organizationKindIdent= "HO"/>
+        <Location>
+            <Country>All African countries</Country>
+        </Location>
+        <History>Founded September 20, 1970 in Washington D.C. by William O. Kirker, Barbara Kirker, and C. Payne Lucas</History>
+        <ContactInfo>
+            <Telephone>1 202 462 3614</Telephone>
+            <Fax>1 202 387 1034</Fax>
+            <Email>info@africare.org</Email>
+            <PostalAddress>
+                <StreetAddress>Africare House, 40 R Street, N.W.</StreetAddress>
+                <Locality>Washington D.C.</Locality>
+                <Region></Region>
+                <PostalCode>20001</PostalCode>
+                <Country>USA</Country>
+            </PostalAddress>
+        </ContactInfo>
+        <ExternalResources>
+            <ImageURL>http://upload.wikimedia.org/wikipedia/en/e/ee/Africare_logo.png</ImageURL>
+            <VideoURL>http://africare.org/our-stories/galleries/videos/pass-it-on-january10.php</VideoURL>
+            <MapURL>http://goo.go/maps/ynkBW </MapURL>
+            <SocialNetworkURL>http://www.facebook.com/Africaremedia</SocialNetworkURL>
+        </ExternalResources>
+        <RelatedCrises>
+            <RelatedCrisis crisisIdent="AI1970"/>
+        </RelatedCrises>
+    </Organization>
+    
+    <Organization organizationIdent = "HTAP">
+        <Name>Human Trafficking Awareness Partnership</Name>
+        <Kind organizationKindIdent= "HO"/>
+        <Location>
+            <Locality>Sanibel</Locality>
+            <Region>Florida</Region>
+            <Country>USA</Country>
+        </Location>
+        <History>Founded by Ms. Nola Theiss in Sanibel, Florida in 2006</History>
+        <ContactInfo>
+            <Telephone>239 415 2635</Telephone>
+            <Fax>239 395 2635</Fax>
+            <Email>info@humantraffickingawareness.org</Email>
+            <PostalAddress>
+                <StreetAddress>HTAP, Inc., PO Box 1113</StreetAddress>
+                <Locality>Sanibel</Locality>
+                <Region>Florida</Region>
+                <PostalCode>33957</PostalCode>
+                <Country>USA</Country>
+            </PostalAddress>
+        </ContactInfo>
+        <ExternalResources>
+            <ImageURL>http://humantraffickingawareness.com/images/stories/htap%20logo_edited-1.jpg</ImageURL>
+            <MapURL>http://goo.gl/maps/tL1es</MapURL>
+            <SocialNetworkURL>http://www.facebook.com/humantraffickingawarenesspartnerships</SocialNetworkURL>
+        </ExternalResources>
+        <RelatedCrises>
+            <RelatedCrisis crisisIdent="HT1900"/>
+        </RelatedCrises>
+    </Organization>
+    
+    <Organization organizationIdent= "NATO">
+        <Name>NATO</Name>
+        <Kind organizationKindIdent= "MA"/>
+        <Location>
+            <Locality>Brussels</Locality>
+            <Country>Belgium</Country>
+        </Location>
+        <History>For its first few years, NATO was not much more than a political association. However, the Korean War galvanized the member states, and an integrated military structure was built up under the direction of two US supreme commanders. The course of the Cold War led to a rivalry with nations of the Warsaw Pact, which formed in 1955. The first NATO Secretary General, Lord Ismay, stated in 1949 that the organization's goal was "to keep the Russians out, the Americans in, and the Germans down."[4] Doubts over the strength of the relationship between the European states and the United States ebbed and flowed, along with doubts over the credibility of the NATO defence against a prospective Soviet invasion—doubts that led to the development of the independent French nuclear deterrent and the withdrawal of the French from NATO's military structure in 1966.</History>
+        <ContactInfo>
+            <Telephone></Telephone>
+            <Fax></Fax>
+            <Email></Email>
+            <PostalAddress>
+                <StreetAddress></StreetAddress>
+                <Locality>Brussels</Locality>
+                <Region></Region>
+                <PostalCode>1110</PostalCode>
+                <Country>Belgium</Country>
+            </PostalAddress>
+        </ContactInfo>
+        <ExternalResources>
+            <MapURL>http://en.wikipedia.org/wiki/File:History_of_NATO_enlargement.svg</MapURL>
+            <MapURL>http://en.wikipedia.org/wiki/File:NATO_partnerships.svg</MapURL>
+            <SocialNetworkURL>http://www.facebook.com/NATO?sid=0.2535960127133876</SocialNetworkURL>
+        </ExternalResources>
+        <RelatedCrises>
+            <RelatedCrisis crisisIdent="ER2011"/>
+            <RelatedCrisis crisisIdent="SY2011"/>
+        </RelatedCrises>
+        <RelatedPersons>
+            <RelatedPerson personIdent="Bono"/>
+            <RelatedPerson personIdent="BHGates"/>
+            <RelatedPerson personIdent="JFKennedy"/>
+            <RelatedPerson personIdent="NMandela"/>
+        </RelatedPersons>
+    </Organization>
+    
+    <Organization organizationIdent= "WHO">
+        <Name>World Health Organization</Name>
+        <Kind organizationKindIdent= "PHA"/>
+        <Location>
+            <Locality>Geneva</Locality>
+            <Country>Switzerland</Country>
+        </Location>
+        <History>The WHO is one of the first things that the founders of the UN discussed: setting up a global health organization. WHO.s Constitution came into force on 7 April 1948 . a date we now celebrate every year as World Health Day. </History>
+        <ContactInfo>
+            <Telephone>+41 22 791 21 11</Telephone>
+            <Fax>+41 22 791 31 11</Fax>
+            <Email></Email>
+            <PostalAddress>
+                <StreetAddress>Avenue Appia 20</StreetAddress>
+                <Locality>Geneva</Locality>
+                <Region></Region>
+                <PostalCode>1211</PostalCode>
+                <Country>Switzerland</Country>
+            </PostalAddress>
+        </ContactInfo>
+        <ExternalResources>
+            <ImageURL>http://www.who.int/sysmedia/media/resources/who-logo-en.jpg</ImageURL>
+            <SocialNetworkURL>https://www.facebook.com/WorldHealthOrganization</SocialNetworkURL>
+            <SocialNetworkURL>https://plus.google.com/u/0/+who/posts</SocialNetworkURL>
+            <SocialNetworkURL>http://www.youtube.com/who</SocialNetworkURL>
+            <ExternalLinkURL>http://www.who.int/</ExternalLinkURL>
+        </ExternalResources>
+        <RelatedCrises>
+            <RelatedCrisis crisisIdent="AI1970"/>
+        </RelatedCrises>
+        <RelatedPersons>
+            <RelatedPerson personIdent="BHGates"/>
+        </RelatedPersons>
+    </Organization>
+    
+    <Organization organizationIdent="AI">
+        <Name>Amnesty International</Name>
+        <Kind organizationKindIdent="IO"/>
+        <Location>
+            <Locality>London</Locality>
+            <Country>United Kingdom</Country>
+        </Location>
+        <History>Amnesty International was founded in London in July 1961 by English labour lawyer Peter Benenson. By the mid-1960s Amnesty International's global presence was growing and an International Secretariat and International Executive Committee were established to manage Amnesty International's national organisations, called 'Sections', which had appeared in several countries.</History>
+        <ContactInfo>
+            <Telephone>+44 20 74135500</Telephone>
+            <Fax>+44 20 79561157</Fax>
+            <Email></Email>
+            <PostalAddress>
+                <StreetAddress>1 Easton Street</StreetAddress>
+                <Locality>London</Locality>
+                <Region></Region>
+                <PostalCode></PostalCode>
+                <Country>United Kingdom</Country>
+            </PostalAddress>
+        </ContactInfo>
+        <ExternalResources>
+            <ImageURL>http://upload.wikimedia.org/wikipedia/en/e/ee/Amnesty_International_logo.svg</ImageURL>
+            <MapURL>http://goo.gl/maps/krOco</MapURL>
+            <SocialNetworkURL>https://www.twitter.com/amnestyonline</SocialNetworkURL>
+            <ExternalLinkURL>https://www.amnesty.org</ExternalLinkURL>
+        </ExternalResources>
+        <RelatedCrises>
+            <RelatedCrisis crisisIdent="AI1970"/>
+            <RelatedCrisis crisisIdent="ER2011"/>
+            <RelatedCrisis crisisIdent="HT1900"/>
+            <RelatedCrisis crisisIdent="SY2011"/>
+        </RelatedCrises>
+    </Organization>
+	
+    <Organization organizationIdent="USCG">
+        <Name>United States Coast Guard</Name>
+        <Kind organizationKindIdent="GMB"/>
+        <Location>
+            <Country>United States</Country>
+        </Location>
+        <History>The roots of the Coast Guard lie in the United States Revenue Cutter Service established by Alexander Hamilton under the Department of the Treasury on 4 August 1790. The first Coast Guard station was in Newburyport, Massachusetts. Until the re-establishment of the United States Navy in 1798, the Revenue Cutter Service was the only naval force of the early United States. It was established to collect taxes from a brand new nation of patriot smugglers. When the officers were out at sea, they were told to crack down on piracy; while they were at it, they might as well rescue anyone in distress.</History>
+        <ContactInfo>
+            <Telephone></Telephone>
+            <Fax></Fax>
+            <Email></Email>
+            <PostalAddress>
+                <StreetAddress>2100 2nd St SW #7102</StreetAddress>
+                <Locality>Washington</Locality>
+                <Region>DC</Region>
+                <PostalCode>20593</PostalCode>
+                <Country>United States</Country>
+            </PostalAddress>
+        </ContactInfo>
+        <ExternalResources>
+            <ImageURL>http://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/US-CoastGuard-Seal.svg/210px-US-CoastGuard-Seal.svg.png</ImageURL>
+            <VideoURL>http://www.youtube.com/watch?v=MbHEp42vTEs</VideoURL>
+            <MapURL>http://goo.gl/maps/UvRTJ</MapURL>
+            <SocialNetworkURL>https://twitter.com/USCG</SocialNetworkURL>
+            <SocialNetworkURL>https://www.facebook.com/UScoastguard</SocialNetworkURL>
+            <ExternalLinkURL>https://www.uscg.mil</ExternalLinkURL>
+        </ExternalResources>
+        <RelatedCrises>
+            <RelatedCrisis crisisIdent="HK2005"/>
+        </RelatedCrises>
+    </Organization>
+    
+    <Organization organizationIdent= "ARC">
+        <Name>American Red Cross</Name>
+        <Kind organizationKindIdent= "HO"/>
+        <Location>
+            <Country>USA</Country>
+        </Location>
+        <History>The American Red Cross (ARC), also known as the American National Red Cross, is a humanitarian organization that provides emergency assistance, disaster relief and education inside the United States. It is the designated U.S. affiliate of the International Federation of Red Cross and Red Crescent Societies.</History>
+        <ContactInfo>
+            <Telephone>1 800 733 2767</Telephone>
+            <Fax></Fax>
+            <Email></Email>
+            <PostalAddress>
+                <StreetAddress>American Red Cross 2025 E Street</StreetAddress>
+                <Locality>Washington D.C.</Locality>
+                <Region>Virginia</Region>
+                <PostalCode>20006</PostalCode>
+                <Country>USA</Country>
+            </PostalAddress>
+        </ContactInfo>
+        <ExternalResources>
+            <ImageURL>http://upload.wikimedia.org/wikipedia/commons/8/88/Americanredcross.jpg</ImageURL>
+            <MapURL>http://goo.gl/maps/zP5qv</MapURL>
+            <SocialNetworkURL>https://www.facebook.com/redcross</SocialNetworkURL>
+            <ExternalLinkURL>http://www.redcross.org/</ExternalLinkURL>
+        </ExternalResources>
+        <RelatedCrises>
+            <RelatedCrisis crisisIdent= "HK2005"/>
+            <RelatedCrisis crisisIdent= "AI1970"/>
+        </RelatedCrises>
+    </Organization>
+    
+    <Organization organizationIdent="MG">
+        <Name>Mexican Government</Name>
+        <Kind organizationKindIdent="NG"/>
+        <Location>
+            <Country>Mexico</Country>
+        </Location>
+        <History>Mexico, officially the United Mexican States is a federal constitutional republic in North America. It is bordered on the north by the United States of America; on the south and west by the Pacific Ocean; on the southeast by Guatemala, Belize, and the Caribbean Sea; and on the east by the Gulf of Mexico.</History>
+        <ContactInfo>
+            <Telephone></Telephone>
+            <Fax></Fax>
+            <Email></Email>
+            <PostalAddress>
+                <StreetAddress></StreetAddress>
+                <Locality>Mexico City</Locality>
+                <Region></Region>
+                <PostalCode>0016</PostalCode>
+                <Country>Mexico</Country>
+            </PostalAddress>
+        </ContactInfo>
+        <ExternalResources>
+            <ImageURL>http://upload.wikimedia.org/wikipedia/commons/2/2a/Coat_of_arms_of_Mexico.svg</ImageURL>
+            <MapURL>http://goo.gl/maps/zbUh4</MapURL>
+            <ExternalLinkURL>http://www.mexonline.com/mexagncy.htm</ExternalLinkURL>
+        </ExternalResources>
+        <RelatedCrises>
+            <RelatedCrisis crisisIdent="CM1962"/>
+            <RelatedCrisis crisisIdent="MD2006"/>
+            <RelatedCrisis crisisIdent="HT1900"/>
+        </RelatedCrises>
+    </Organization>
+    
+    <Person personIdent="AHitler">
+        <Name>
+            <FirstName>Adolf</FirstName>
+            <LastName>Hitler</LastName>
+        </Name>
+        <Kind personKindIdent="DI"/>
+        <Location>
+            <Locality>Braunau am Inn</Locality>
+            <Country>Germany</Country>
+        </Location>
+        <ExternalResources>
+            <ImageURL>http://www.jewishvirtuallibrary.org/images/hitler1.jpg</ImageURL>
+            <ImageURL>http://history1900s.about.com/library/holocaust/blhitler3.htm</ImageURL>
+            <ImageURL>http://history1900s.about.com/library/holocaust/blhitler37.htm</ImageURL>
+            <VideoURL>http://www.youtube.com/watch?v-ONkXZtHVvCg</VideoURL>
+            <MapURL>http://goo.gl/maps/UDZSW</MapURL>
+        </ExternalResources>
+        <RelatedCrises>
+            <RelatedCrisis crisisIdent="HO1930"/>
+        </RelatedCrises>
+    </Person>
+    
+    <Person personIdent="NMandela">
+        <Name>
+            <FirstName>Nelson</FirstName>
+            <LastName>Mandela</LastName>
+        </Name>
+        <Kind personKindIdent="PR"/>
+        <Location>
+            <Locality>Transkei</Locality>
+            <Country>South Africa</Country>
+        </Location>
+        <ExternalResources>
+            <ImageURL>http://upload.wikimedia.org/wikipedia/commons/1/14/Nelson_Mandela-2008_%28edit%29.jpg</ImageURL>
+            <VideoURL>http://youtu.be/vuqJpnSO1jc</VideoURL>
+            <SocialNetworkURL>http://www.facebook.com/NelsonMandelaCentreOfMemory</SocialNetworkURL>
+            <ExternalLinkURL>http://www.nelsonmandela.org</ExternalLinkURL>
+        </ExternalResources>
+        <RelatedCrises>
+            <RelatedCrisis crisisIdent="AI1970"/>
+        </RelatedCrises>
+        <RelatedOrganizations>
+            <RelatedOrganization organizationIdent="Africare"/>
+            <RelatedOrganization organizationIdent="WHO"/>
+            <RelatedOrganization organizationIdent="AI"/>
+        </RelatedOrganizations>
+    </Person>
+    
+    <Person personIdent="JFKennedy">
+        <Name>
+            <FirstName>John</FirstName>
+            <MiddleName>Fitzgerald</MiddleName>
+            <LastName>Kennedy</LastName>
+        </Name>
+        <Kind personKindIdent="PR"/>
+        <Location>
+            <Locality>Brookline</Locality>
+            <Region>Massachusetts</Region>
+            <Country>USA</Country>
+        </Location>
+        <ExternalResources>
+            <ImageURL>http://www.whitehouse.gov/sites/default/files/first-family/masthead_image/35jk_header.jpg?1250885463 </ImageURL>
+            <VideoURL>http://youtu.be/P7YkJxQT_0Y</VideoURL>
+            <MapURL>http://goo.gl/maps/xFGPn</MapURL>
+        </ExternalResources>
+        <RelatedCrises>
+            <RelatedCrisis crisisIdent="CM1962"/>
+            <RelatedCrisis crisisIdent="VW1975"/>
+        </RelatedCrises>
+        <RelatedOrganizations>
+            <RelatedOrganization organizationIdent = "NATO"/>
+        </RelatedOrganizations>
+    </Person>
+    
+    <Person personIdent="GWBush">
+        <Name>
+            <FirstName>George</FirstName>
+            <MiddleName>Walker</MiddleName>
+            <LastName>Bush</LastName>
+        </Name>
+        <Kind personKindIdent="PR"/>
+        <Location>
+            <Locality>New Haven</Locality>
+            <Region>Connecticut</Region>
+            <Country>USA</Country>
+        </Location>
+        <ExternalResources>
+            <ImageURL>http://www.biography.com/imported/images/Biography/Images/Profiles/B/George-W-Bush-9232768-1-402.jpg </ImageURL>
+            <VideoURL>http://vimeo.com/8783351</VideoURL>
+            <MapURL>http://goo.gl/maps/xFGPn</MapURL>
+        </ExternalResources>
+        <RelatedCrises>
+            <RelatedCrisis crisisIdent="HK2005"/>
+        </RelatedCrises>
+        <RelatedOrganizations>
+            <RelatedOrganization organizationIdent="NATO"/>
+        </RelatedOrganizations>
+    </Person>
+    
+    <Person personIdent="MDHuckabee">
+        <Name>
+            <FirstName>Mike</FirstName>
+            <MiddleName>Dale</MiddleName>
+            <LastName>Huckabee</LastName>
+        </Name>
+        <Kind personKindIdent="GO"/>
+        <Location>
+            <Locality>Hope</Locality>
+            <Region>Arkansas</Region>
+            <Country>USA</Country>
+        </Location>
+        <ExternalResources>
+            <ImageURL>http://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Mike_Huckabee_by_Gage_Skidmore_2.jpg/220px-Mike_Huckabee_by_Gage_Skidmore_2.jpg </ImageURL>
+            <VideoURL>http://youtu.be/192g-IQFdDE </VideoURL>
+            <MapURL>http://goo.gl/maps/w8ka3</MapURL>
+        </ExternalResources>
+        <RelatedCrises>
+            <RelatedCrisis crisisIdent="HK2005"/>
+        </RelatedCrises>
+    </Person>
+    
+    <Person personIdent="BHGates">
+        <Name>
+            <FirstName>Bill</FirstName>
+            <MiddleName>Henry</MiddleName>
+            <LastName>Gates</LastName>
+        </Name>
+        <Kind personKindIdent="PH"/>
+        <Location>
+            <Locality>Seatle</Locality>
+            <Region>Washington</Region>
+            <Country>USA</Country>
+        </Location>
+        <ExternalResources>
+            <ImageURL>http://www.biography.com/imported/images/Biography/Images/Profiles/G/Bill-Gates-9307520-2-402.jpg </ImageURL>
+            <VideoURL>http://www.biography.com/people/bill-gates-9307520/videos/bill-gates-charity-2080037725 </VideoURL>
+            <MapURL>http://goo.gl/maps/n7rnd</MapURL>
+        </ExternalResources>
+        <RelatedCrises>
+            <RelatedCrisis crisisIdent="AI1970"/>
+            <RelatedCrisis crisisIdent="HT1900"/>
+        </RelatedCrises>
+        <RelatedOrganizations>
+            <RelatedOrganization organizationIdent="WHO"/>
+        </RelatedOrganizations>
+    </Person>
+    
+    <Person personIdent="Bono">
+        <Name>
+            <FirstName>Paul</FirstName>
+            <LastName>Hewson</LastName>
+        </Name>
+        <Kind personKindIdent="PH"/>
+        <Location>
+            <Locality>Killiney</Locality>
+            <Country>Ireland</Country>
+        </Location>
+        <ExternalResources>
+            <ImageURL>http://upload.wikimedia.org/wikipedia/commons/1/11/Bono_at_the_2009_Tribeca_Film_Festival.jpg</ImageURL>
+            <VideoURL>https://www.youtube.com/watch?v=OjWTT8Q8nN0</VideoURL>
+            <SocialNetworkURL>https://www.twitter.com/u2com</SocialNetworkURL>
+            <ExternalLinkURL>https://www.u2.com</ExternalLinkURL>
+        </ExternalResources>
+        <RelatedCrises>
+            <RelatedCrisis crisisIdent="AI1970"/>
+            <RelatedCrisis crisisIdent="HT1900"/>
+        </RelatedCrises>
+        <RelatedOrganizations>
+            <RelatedOrganization organizationIdent="WHO"/>
+            <RelatedOrganization organizationIdent="WBG"/>
+        </RelatedOrganizations>
+    </Person>
+    
+    <Person personIdent="SLavrov">
+        <Name>
+            <FirstName>Sergey</FirstName>
+            <LastName>Lavrov</LastName>
+        </Name>
+        <Kind personKindIdent="PH"/>
+        <Location>
+            <Locality>Moscow</Locality>
+            <Country>Russia</Country>
+        </Location>
+        <ExternalResources>
+            <ImageURL>http://upload.wikimedia.org/wikipedia/commons/8/8c/Sergey_Lavrov_17.03.2010.jpeg</ImageURL>
+            <VideoURL>https://www.youtube.com/watch?v=QrmCQH9JFxU</VideoURL>
+            <ExternalLinkURL>http://www.eng.mvdrf.ru/</ExternalLinkURL>
+        </ExternalResources>
+        <RelatedCrises>
+            <RelatedCrisis crisisIdent="SY2011"/>
+        </RelatedCrises>
+        <RelatedOrganizations>
+            <RelatedOrganization organizationIdent="NATO"/>
+        </RelatedOrganizations>
+    </Person>
+    
+    <Person personIdent="FCastro">
+        <Name>
+            <FirstName>Fidel</FirstName>
+            <LastName>Castro</LastName>
+        </Name>
+        <Kind personKindIdent="DI"/>
+        <Location>
+            <Locality>Havana</Locality>
+            <Country>Cuba</Country>
+        </Location>
+        <ExternalResources>
+            <ImageURL>http://upload.wikimedia.org/wikipedia/commons/1/15/Cuba.FidelCastro.02.jpg</ImageURL>
+            <VideoURL>https://www.youtube.com/watch?v=qQ24jmIHIUk</VideoURL>
+            <SocialNetworkURL>https://twitter.com/fidelcastro</SocialNetworkURL>
+            <ExternalLinkURL>http://www.eng.mvdrf.ru/</ExternalLinkURL>
+        </ExternalResources>
+        <RelatedCrises>
+            <RelatedCrisis crisisIdent="CM1962"/>
+        </RelatedCrises>
+        <RelatedOrganizations>
+            <RelatedOrganization organizationIdent="NATO"/>
+        </RelatedOrganizations>
+    </Person>
+    
+    <Person personIdent="BObama">
+        <Name>
+            <FirstName>Barack</FirstName>
+            <MiddleName>Hussein</MiddleName>
+            <LastName>Obama</LastName>
+        </Name>
+        <Kind personKindIdent="PR"/>
+        <Location>
+            <Locality>Washington D.C.</Locality>
+            <Country>United States of America</Country>
+        </Location>
+        <ExternalResources>
+            <ImageURL>http://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/480px-President_Barack_Obama.jpg</ImageURL>
+            <VideoURL>http://www.youtube.com/watch?v=zncqb-n3zMo</VideoURL>
+            <ExternalLinkURL>http://www.whitehouse.gov</ExternalLinkURL>
+        </ExternalResources>
+        <RelatedCrises>
+            <RelatedCrisis crisisIdent="SY2011"/>
+        </RelatedCrises>
+        <RelatedOrganizations>
+            <RelatedOrganization organizationIdent="NATO"/>
+        </RelatedOrganizations>
+    </Person>
+    
+    
+    
+    <CrisisKind crisisKindIdent="WAR">
+        <Name>War</Name>
+        <Description>An organized and often prolonged conflict that is carried out by states and/or non-state actors.</Description>
+    </CrisisKind>
+    
+    <CrisisKind crisisKindIdent="ND">
+        <Name>Natural Disaster</Name>
+        <Description>The costliest natural disaster and deadliest in the history of the United States</Description>
+    </CrisisKind>
+    
+    <CrisisKind crisisKindIdent="PC">
+        <Name>Political Confrontation</Name>
+        <Description>Two or more countries engaging in a military standoff for political reasons. In U.S. history, largely associated with the cold War between the U.S. and U.S.S.R.</Description>
+    </CrisisKind>
+    
+    <CrisisKind crisisKindIdent="ID">
+        <Name>Infectious Disease</Name>
+        <Description>A disease resulting from pathogenic biological agents in an host organism </Description>
+    </CrisisKind>
+    
+    <CrisisKind crisisKindIdent="GE">
+        <Name>Genocide</Name>
+        <Description>The deliberate and systematic destruction of an ethnic, racial, religious, or national group </Description>
+    </CrisisKind>
+    
+    <CrisisKind crisisKindIdent="TOC">
+        <Name>Transnational Organized Crime</Name>
+        <Description>Organized crime coordinated across national borders, involving groups workin in more than one country to plan and execute illegal business ventures</Description>
+    </CrisisKind>
+    
+    <CrisisKind crisisKindIdent="RE">
+        <Name>Revolution</Name>
+        <Description>A fundamental change in power or organizational structures that takes place in a relatively short period of time.</Description>
+    </CrisisKind>
+    
+    <OrganizationKind organizationKindIdent="NG">
+        <Name>National Government</Name>
+        <Description>The government of a nation</Description>
+    </OrganizationKind>
+    
+    <OrganizationKind organizationKindIdent="HO">
+        <Name>Humanitarian Organization</Name>
+        <Description>Organization that provides humanitarian aid</Description>
+    </OrganizationKind>
+    
+    <OrganizationKind organizationKindIdent="IO">
+        <Name>International Organization</Name>
+        <Description>Organization that provides leveraged loans to poor countries</Description>
+    </OrganizationKind>
+    
+    <OrganizationKind organizationKindIdent="MA">
+        <Name>Military Alliance</Name>
+        <Description>An agreement between two, or more, military factions</Description>
+    </OrganizationKind>
+    
+    <OrganizationKind organizationKindIdent="PHA">
+        <Name>Public Health Advocate</Name>
+        <Description>An organization that aims to influence public-policy and resource allocation decisions within political, economic, and social systems and institutions for public heal needs.</Description>
+    </OrganizationKind>
+    
+    <OrganizationKind organizationKindIdent="GMB">
+        <Name>Government Military Branch</Name>
+        <Description>A military brach of a government (or governments) that carries out the orders received, whether that be active combat or humanitarian aide</Description>
+    </OrganizationKind>
+    
+    <PersonKind personKindIdent="PR">
+        <Name>President (current or former)</Name>
+        <Description>A democratically elected leader of a government</Description>
+    </PersonKind>
+    
+    <PersonKind personKindIdent="DI">
+        <Name>Dictator</Name>
+        <Description>Leader of a dictatorship, someone with sole and absolute power</Description>
+    </PersonKind>
+    
+    <PersonKind personKindIdent="GO">
+        <Name>Governor</Name>
+        <Description>Person served as Governor of a state in the United States</Description>
+    </PersonKind>
+    
+    <PersonKind personKindIdent="PH">
+        <Name>Philanthropist</Name>
+        <Description>Person uses their influence to help make positive changes in the world</Description>
+    </PersonKind>
+</WorldCrises>
