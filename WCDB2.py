@@ -9,9 +9,8 @@
 # ---------------------------
 # projects/WCDB1/WCDB1.py
 # Copyright (C) 2013
-# Taylor McCaslin
+# Taylor McCaslin, Holly Hatfield, Mallory Farr, Wilson Bui, Giovanni Monge, Alex Leonard
 # ---------------------------
-
 
 # -------
 # imports
@@ -25,7 +24,8 @@ import xml.etree.ElementTree as ET
 # DB Login
 # --------
 
-import _mysql
+a = ["z", "gsm9", "", "WCDB"] 
+   #[host, un, pw, database]
 
 def login ( host, un, pw, database ) :
     c = _mysql.connect(
@@ -37,14 +37,14 @@ def login ( host, un, pw, database ) :
     return c
 
 # --------
-# Ask Login
+# Ask Login, IGNORE THIS FUNCTION, hardcoded a
 # --------
 def ask ():
     sys.stdin.read()
-    host = input("What DB Host? ")
-    un = input("What DB Username? ")
-    pw = input("What DB Password? ")
-    database = input("What Database Name?? ")
+    host = input("What is DB Host? ")
+    un = input("What is DB Username? ")
+    pw = input("What is DB Password? ")
+    database = input("What is Database Name?? ")
 
     a = [host, un, pw, database]
     c = login(*a)
@@ -67,18 +67,17 @@ def query (c, s) :
     assert type(t) is tuple
     return t
 
+# ----------
+# wcdb2_TRead
+# ---------- 
 
-
-def wcdb2_TRead (c, r) :
+def wcdb2_TRead (r) :
     """
     reads an input
     creates an element tree from string
     """
     read = r.read()
-
     tree = ET.fromstring(read)
-
-
     return tree
 
 
@@ -94,20 +93,18 @@ def wcdb2_write (c, w, tree) :
     tree2 = ET.tostring(tree)
     w.write(tree2)
   
+    return tree
 
     #NOT VALID CODE, just the idea. Needf to get the file name from w
     #opens file, w, and loads the xml into the WCDB
-    t = Query.query(c, """LOAD XML LOCAL INFILE 'w' 
-			     into table WCDB
-                             rows identified by '<Crisis>' OR '<Organization>' OR '<Person>'
-			""")
+#    t = Query.query(c, """LOAD XML LOCAL INFILE 'w' 
+#			     into table WCDB
+#                             rows identified by '<Crisis>' OR '<Organization>' OR '<Person>'
+#			""")
 
 
-    return tree
-
-
-def createDB()
-   t = Query.query(c, "drop table if exists WCDB2")
+def createDB():
+   t = Query.query(c, "drop table if exists WCDB2;")
 
    t = Query.query(
         c,
@@ -116,14 +113,12 @@ def createDB()
 	  crisisIdent text,
 	  Name text,
 	  Kind text,
-	  Location text,
 	  StartDateTime dateTime,
 	  EndDateTime dateTime,
           EconomicImpact int
-			);
-	""") 
-
-    t = Query.query(
+	  );""") 
+#insert into Crisis values('crisisIdent', 'Name', 'Kind', StartDateTime, EndDateTime, 'EconomicImpact');
+   t = Query.query(
         c,
         """
 	create table Organization (
@@ -139,10 +134,9 @@ def createDB()
 	  Region text,
 	  PostalCode text,
 	  Country text
-	  );
-	""") 
-
-    t = Query.query(
+	  );""") 
+#insert into Organization('organizationIdent', 'Name', 'Kind', 'History','Telephone', 'Fax', 'Email', 'StreetAddress', 'Locality', 'Region', 'PostalCode', 'Country');
+   t = Query.query(
         c,
         """
 	create table Person (
@@ -152,10 +146,9 @@ def createDB()
 	  LastName text,
 	  Suffix text,
 	  Kind text
-	  );
-	""")
-
-    t = Query.query(
+	  );""")
+#insert into Person('personIdent', 'FirstName', 'MiddleName', 'LastName', 'Suffix', 'Kind');
+   t = Query.query(
         c,
         """
 	create table Location (
@@ -165,9 +158,9 @@ def createDB()
 	  Region text,
 	  PostalCode text,
 	  Country text
-	);""")
-
-    t = Query.query(
+	  );""")
+#insert into Location('lkey, 'parentIdent', 'Locality', 'Region', 'PostalCode', 'Country');
+   t = Query.query(
         c,
         """
 	create table Kind (
@@ -176,9 +169,9 @@ def createDB()
 	  Type text,
 	  Name text,
 	  Description text
-	);""")
-
-    t = Query.query(
+	  );""")
+#insert into Kind('kkey', 'parentIdent', 'Type', 'Name', 'Description');
+   t = Query.query(
         c,
         """
 	create table ExternalResources (
@@ -186,65 +179,66 @@ def createDB()
 	  parentIdent text,
 	  Type text,
 	  Value text
-	);""")
-    t = Query.query(
+	  );""")
+#insert into ExternalResources('ekey', 'parentIdent', 'Type', 'Value');
+   t = Query.query(
         c,
         """
 	create table PersonRelation (
 	  personIdent text,
 	  otherIdent text,
 	  Type text
-	);""")
-    t = Query.query(
+	  );""")
+#insert into PersonRelation('personIdent', 'otherIdent', 'Type');
+   t = Query.query(
         c,
         """
 	create table CrisisRelation (
 	  crisisIdent text,
 	  otherIdent text,
 	  Type text
-	);""")
-
-    t = Query.query(
+	  );""")
+#insert into CrisisRelation('crisisIdent', 'otherIdent', 'Type');
+   t = Query.query(
         c,
         """
 	create table OrganizationRelation (
 	  organizationIdent text,
 	  otherIdent text,
 	  Type text
-	);""")
-
-    t = Query.query(
+	  );""")
+#insert into OrganizationRelation('organizationIdent', 'otherIdent', 'Type');
+   t = Query.query(
         c,
         """
 	create table HumanImpact (
 	  parentIdent text,
 	  Type text,
 	  Number int
-	);""")
-
-    t = Query.query(
+	  );""")
+#insert into HumanImpact('parentIdent', 'Type', 'Number');
+   t = Query.query(
         c,
         """
 	create table ResourcesNeeded (
 	  parentIdent text,
 	  ResourceNeeded text,
-	);""")
-
-    t = Query.query(
+	  );""")
+#insert into ResourcesNeeded('parentIdent text', 'ResourcesNeeded');
+   t = Query.query(
         c,
         """
 	create table WaysToHelp (
 	  parentIdent text,
 	  WaysToHelp text
-	);""")
+	  );""")
+#insert into WaysToHelp('parentIdent', 'WaysToHelp');
 
 
+   t = Query.query(c, "show databases;") #show WCDB2?
 
-
-    t = Query.query(c, "show databases") #show WCDB2?
-
-    print "WCDB2 created!"
-    return None
+   print "WCDB2 created!"
+   return None
 
 # -------------
 # wcdb2_solve
@@ -257,8 +251,7 @@ def wcdb2_solve (r, w) :
     w is a writer
     """
 
-    c = ask()
-    tree = wcdb2_TRead (c,r)
+    c = login(*a)
+    tree = wcdb2_TRead (r)
     output1 = wcdb2_write (c, w, tree)
     #output2 = wcdb2_write (w, output1)
-    
