@@ -1,9 +1,3 @@
-#Create an import/export facility from the XML into Element Tree and back.
-#The import facility must import from a file.
-#The file is guaranteed to have validated XML.
-#The export facility must export to a file.
-#Import/export the XML on only the ten crises, ten organizations, and ten people of the group.
-
 #!/usr/bin/env python
 
 # ---------------------------
@@ -24,7 +18,6 @@ import xml.etree.ElementTree as ET
 # DB Login
 # --------
 
-a = ["z", "gsm9", "", "WCDB"] 
    #[host, un, pw, database]
 
 def login ( host, un, pw, database ) :
@@ -97,16 +90,28 @@ def wcdb2_write (c, w, tree) :
 
     #NOT VALID CODE, just the idea. Needf to get the file name from w
     #opens file, w, and loads the xml into the WCDB
-#    t = Query.query(c, """LOAD XML LOCAL INFILE 'w' 
+#    t = query(c, """LOAD XML LOCAL INFILE 'w' 
 #			     into table WCDB
 #                             rows identified by '<Crisis>' OR '<Organization>' OR '<Person>'
 #			""")
 
 
-def createDB():
-   t = Query.query(c, "drop table if exists WCDB2;")
-
-   t = Query.query(
+def createDB(c):
+   t = query(c, "drop table if exists Crisis;")
+   t = query(c, "drop table if exists Organization;")
+   t = query(c, "drop table if exists Person;")
+   t = query(c, "drop table if exists Location;")
+   t = query(c, "drop table if exists Kind;")
+   t = query(c, "drop table if exists ExternalResources;")
+   t = query(c, "drop table if exists PersonRelation;")
+   t = query(c, "drop table if exists CrisisRelation;")
+   t = query(c, "drop table if exists OrganizationRelation;")
+   t = query(c, "drop table if exists HumanImpact;")
+   t = query(c, "drop table if exists ResourcesNeeded;")
+   t = query(c, "drop table if exists WaysToHelp;")
+   print(t)
+   
+   t = query(
         c,
         """
 	create table Crisis (
@@ -117,8 +122,10 @@ def createDB():
 	  EndDateTime dateTime,
           EconomicImpact int
 	  );""") 
+	  
+   print("Crisis ",t)
 #insert into Crisis values('crisisIdent', 'Name', 'Kind', StartDateTime, EndDateTime, 'EconomicImpact');
-   t = Query.query(
+   t = query(
         c,
         """
 	create table Organization (
@@ -135,8 +142,10 @@ def createDB():
 	  PostalCode text,
 	  Country text
 	  );""") 
+	  
+   print("Org ",t)
 #insert into Organization('organizationIdent', 'Name', 'Kind', 'History','Telephone', 'Fax', 'Email', 'StreetAddress', 'Locality', 'Region', 'PostalCode', 'Country');
-   t = Query.query(
+   t = query(
         c,
         """
 	create table Person (
@@ -147,8 +156,10 @@ def createDB():
 	  Suffix text,
 	  Kind text
 	  );""")
+	  
+   print("Person ",t)
 #insert into Person('personIdent', 'FirstName', 'MiddleName', 'LastName', 'Suffix', 'Kind');
-   t = Query.query(
+   t = query(
         c,
         """
 	create table Location (
@@ -159,8 +170,10 @@ def createDB():
 	  PostalCode text,
 	  Country text
 	  );""")
+   print("Location ",t)
+
 #insert into Location('lkey, 'parentIdent', 'Locality', 'Region', 'PostalCode', 'Country');
-   t = Query.query(
+   t = query(
         c,
         """
 	create table Kind (
@@ -170,8 +183,10 @@ def createDB():
 	  Name text,
 	  Description text
 	  );""")
+   print("Kind ",t)
+   
 #insert into Kind('kkey', 'parentIdent', 'Type', 'Name', 'Description');
-   t = Query.query(
+   t = query(
         c,
         """
 	create table ExternalResources (
@@ -180,8 +195,11 @@ def createDB():
 	  Type text,
 	  Value text
 	  );""")
+   print("External ",t)
+
+
 #insert into ExternalResources('ekey', 'parentIdent', 'Type', 'Value');
-   t = Query.query(
+   t = query(
         c,
         """
 	create table PersonRelation (
@@ -189,8 +207,11 @@ def createDB():
 	  otherIdent text,
 	  Type text
 	  );""")
+   print("PersonRelation ",t)
+
+
 #insert into PersonRelation('personIdent', 'otherIdent', 'Type');
-   t = Query.query(
+   t = query(
         c,
         """
 	create table CrisisRelation (
@@ -198,8 +219,11 @@ def createDB():
 	  otherIdent text,
 	  Type text
 	  );""")
+   print("Crisis Relation ",t)
+
+
 #insert into CrisisRelation('crisisIdent', 'otherIdent', 'Type');
-   t = Query.query(
+   t = query(
         c,
         """
 	create table OrganizationRelation (
@@ -207,8 +231,11 @@ def createDB():
 	  otherIdent text,
 	  Type text
 	  );""")
+   print("OrgRelation ",t)
+
+
 #insert into OrganizationRelation('organizationIdent', 'otherIdent', 'Type');
-   t = Query.query(
+   t = query(
         c,
         """
 	create table HumanImpact (
@@ -216,28 +243,32 @@ def createDB():
 	  Type text,
 	  Number int
 	  );""")
+   print("HumanImpact ",t)
+
 #insert into HumanImpact('parentIdent', 'Type', 'Number');
-   t = Query.query(
+   t = query(
         c,
         """
 	create table ResourcesNeeded (
 	  parentIdent text,
-	  ResourceNeeded text,
+	  ResourceNeeded text
 	  );""")
+   print("ResroucesNeeded ",t)
+
 #insert into ResourcesNeeded('parentIdent text', 'ResourcesNeeded');
-   t = Query.query(
+   t = query(
         c,
         """
 	create table WaysToHelp (
 	  parentIdent text,
 	  WaysToHelp text
 	  );""")
+   print("WaystoHelp ",t)
+
 #insert into WaysToHelp('parentIdent', 'WaysToHelp');
 
+   #t = query(c, "show tables;") #show WCDB2?
 
-   t = Query.query(c, "show databases;") #show WCDB2?
-
-   print "WCDB2 created!"
    return None
 
 # -------------
@@ -254,4 +285,5 @@ def wcdb2_solve (r, w) :
     c = login(*a)
     tree = wcdb2_TRead (r)
     output1 = wcdb2_write (c, w, tree)
+    createDB(c)
     #output2 = wcdb2_write (w, output1)
