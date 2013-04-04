@@ -21,18 +21,20 @@ a = [host, un, pw, database]
    #[host, un, pw, database]
 
 def login ( host, un, pw, database ) :
-    c = _mysql.connect(
+	"""takes credentials and logs into DB"""
+    login = _mysql.connect(
             host = host,
             user = un,
             passwd = pw,
             db = database)
-    assert str(type(c)) == "<type '_mysql.connection'>"
-    return c
+    assert str(type(login)) == "<type '_mysql.connection'>"
+    return login
 
 # --------
 # Ask Login, IGNORE THIS FUNCTION, hardcoded a
 # --------
 def ask ():
+	"""Asks for DB login credentials"""
     sys.stdin.read()
     host = input("What is DB Host? ")
     un = input("What is DB Username? ")
@@ -40,15 +42,16 @@ def ask ():
     database = input("What is Database Name?? ")
 
     a = [host, un, pw, database]
-    c = login(*a)
+    login = login(*a)
     print("login successful")
-    return c
+    return login
 
 # ----------
 # Pose Query
 # ---------- 
 
 def query (c, s) :
+	"""Logs into DB and runs provided string as query"""
     assert str(type(c)) == "<type '_mysql.connection'>"
     assert type(s) is str
     c.query(s)
@@ -64,7 +67,7 @@ def query (c, s) :
 # wcdb2_TRead
 # ---------- 
 
-def wcdb2_TRead (r) :
+def wcdb2_Read (r) :
     """
     reads an input
     creates an element tree from string
@@ -78,41 +81,34 @@ def wcdb2_TRead (r) :
 # wcdb2_write
 # ------------
 
-def wcdb2_write (c, w, tree) :
+def wcdb2_write (w, tree) :
     """
     reads an input
-    creates an element tree from string
+    builds an element tree from string
     """
     tree2 = ET.tostring(tree)
     w.write(tree2)
   
     return tree
 
-    #NOT VALID CODE, just the idea. Needf to get the file name from w
-    #opens file, w, and loads the xml into the WCDB
-#    t = query(c, """LOAD XML LOCAL INFILE 'w' 
-#			     into table WCDB
-#                             rows identified by '<Crisis>' OR '<Organization>' OR '<Person>'
-#			""")
-
 
 def createDB(c):
 
-   query(c, "drop table if exists Crisis;")
-   query(c, "drop table if exists Organization;")
-   query(c, "drop table if exists Person;")
-   query(c, "drop table if exists Location;")
-   query(c, "drop table if exists Kind;")
-   query(c, "drop table if exists ExternalResources;")
-   query(c, "drop table if exists PersonRelation;")
-   query(c, "drop table if exists CrisisRelation;")
-   query(c, "drop table if exists OrganizationRelation;")
-   query(c, "drop table if exists HumanImpact;")
-   query(c, "drop table if exists ResourcesNeeded;")
-   query(c, "drop table if exists WaysToHelp;")
+   query(login, "drop table if exists Crisis;")
+   query(login, "drop table if exists Organization;")
+   query(login, "drop table if exists Person;")
+   query(login, "drop table if exists Location;")
+   query(login, "drop table if exists Kind;")
+   query(login, "drop table if exists ExternalResources;")
+   query(login, "drop table if exists PersonRelation;")
+   query(login, "drop table if exists CrisisRelation;")
+   query(login, "drop table if exists OrganizationRelation;")
+   query(login, "drop table if exists HumanImpact;")
+   query(login, "drop table if exists ResourcesNeeded;")
+   query(login, "drop table if exists WaysToHelp;")
    
    t = query(
-        c,
+        login,
         """
 	create table Crisis (
 	  crisisIdent text,
@@ -125,7 +121,7 @@ def createDB(c):
 	  
 #insert into Crisis values('crisisIdent', 'Name', 'Kind', StartDateTime, EndDateTime, 'EconomicImpact');
    t = query(
-        c,
+        login,
         """
 	create table Organization (
 	  organizationIdent text,
@@ -144,7 +140,7 @@ def createDB(c):
 	  
 #insert into Organization('organizationIdent', 'Name', 'Kind', 'History','Telephone', 'Fax', 'Email', 'StreetAddress', 'Locality', 'Region', 'PostalCode', 'Country');
    t = query(
-        c,
+        login,
         """
 	create table Person (
 	  personIdent text,
@@ -157,7 +153,7 @@ def createDB(c):
 	  
 #insert into Person('personIdent', 'FirstName', 'MiddleName', 'LastName', 'Suffix', 'Kind');
    t = query(
-        c,
+        login,
         """
 	create table Location (
 	  parentIdent text,
@@ -168,7 +164,7 @@ def createDB(c):
 
 #insert into Location(parentIdent', 'Locality', 'Region', 'PostalCode', 'Country');
    t = query(
-        c,
+        login,
         """
 	create table Kind (
 	  parentIdent text,
@@ -179,7 +175,7 @@ def createDB(c):
    
 #insert into Kind('parentIdent', 'Type', 'Name', 'Description');
    t = query(
-        c,
+        login,
         """
 	create table ExternalResources (
 	  parentIdent text,
@@ -189,7 +185,7 @@ def createDB(c):
 
 #insert into ExternalResources('parentIdent', 'Type', 'Value');
    t = query(
-        c,
+        login,
         """
 	create table PersonRelation (
 	  personIdent text,
@@ -200,7 +196,7 @@ def createDB(c):
 
 #insert into PersonRelation('personIdent', 'otherIdent', 'Type');
    t = query(
-        c,
+        login,
         """
 	create table CrisisRelation (
 	  crisisIdent text,
@@ -211,7 +207,7 @@ def createDB(c):
 
 #insert into CrisisRelation('crisisIdent', 'otherIdent', 'Type');
    t = query(
-        c,
+        login,
         """
 	create table OrganizationRelation (
 	  organizationIdent text,
@@ -221,7 +217,7 @@ def createDB(c):
 
 #insert into OrganizationRelation('organizationIdent', 'otherIdent', 'Type');
    t = query(
-        c,
+        login,
         """
 	create table HumanImpact (
 	  parentIdent text,
@@ -231,7 +227,7 @@ def createDB(c):
 
 #insert into HumanImpact('parentIdent', 'Type', 'Number');
    t = query(
-        c,
+        login,
         """
 	create table ResourcesNeeded (
 	  parentIdent text,
@@ -240,7 +236,7 @@ def createDB(c):
 
 #insert into ResourcesNeeded('parentIdent text', 'ResourcesNeeded');
    t = query(
-        c,
+        login,
         """
 	create table WaysToHelp (
 	  parentIdent text,
@@ -249,12 +245,12 @@ def createDB(c):
 
 #insert into WaysToHelp('parentIdent', 'WaysToHelp');
 
-   #t = query(c, "show tables;") 
+   #t = query(login, "show tables;") 
     
    return None
 
 	
-def process_crisis (c, tree) :
+def process_crisis (login, tree) :
 
 	inserts = []
 	parentkey = []
@@ -305,60 +301,60 @@ def process_crisis (c, tree) :
 		s = (parentkey[i], d.get('Name','Null'), kind[i], d.get('Date', 'Null'), 'Null', d.get('EconomicImpact', 'Null'))
 		s = 'insert into Crisis values' + str(s) + ';'
 		s = s.replace('None', 'Null')
-		t = query(c,s)
+		t = query(login,s)
 	
 		#QueryBuilding - Location Table
 		s = (parentkey[i], d.get('Locality', 'Null'), d.get('Region', 'Null'), d.get('Country', 'Null'))
 		s = 'insert into Location values' + str(s) + ';'
 		s = s.replace('None', 'Null')
-		t = query(c,s)
+		t = query(login,s)
 		
 		
 		#QueryBuilding - HumanImpact Table
 		s = (parentkey[i], d.get('Type','Null'), d.get('Number', 'Null'))
 		s = 'insert into HumanImpact values' + str(s) + ';'
 		s = s.replace('None', 'Null')
-		t = query(c,s)
+		t = query(login,s)
 		
 		#QueryBuilding - ResourcesNeeded Table
 		s = (parentkey[i], d.get('ResourcesNeeded', 'Null'))
 		s = 'insert into ResourcesNeeded values' + str(s) + ';'
 		s = s.replace('None', 'Null')
-		t = query(c,s)
+		t = query(login,s)
 		
 		#QueryBuilding - WaysToHelp Table
 		s = (parentkey[i], d.get('WaysToHelp', 'Null'))
 		s = 'insert into WaysToHelp values' + str(s) + ';'
 		s = s.replace('None', 'Null')
-		t = query(c,s)
+		t = query(login,s)
 		
 	#QueryBuilding - CrisisRelation Table
 
 	for i in xrange(0, len(relatedorg)):
 		s = relatedorg[i]
 		s = 'insert into CrisisRelation values' + str(s) + ';'
-		t = query(c,s)	
+		t = query(login,s)	
 		
 	#QueryBuilding - CrisisRelation Table
 
 	for i in xrange(0, len(relatedperson)):
 		s = relatedperson[i]
 		s = 'insert into CrisisRelation values' + str(s) + ';'
-		t = query(c,s)	
+		t = query(login,s)	
 	
 	#QueryBuilding - ExternalResources Table		
 	for i in xrange(0, len(ExternalResource)):
 		s = ExternalResource[i]
 		s = 'insert into ExternalResources values' + str(s) + ';'
-		t = query(c,s)	
+		t = query(login,s)	
 	
-	#t = query(c,"select * from ExternalResources;")
+	#t = query(login,"select * from ExternalResources;")
 	#print(t)
 
 
 
 
-def process_org (c, tree) :
+def process_org (login, tree) :
 
 	inserts = []
 	parentkey = []
@@ -408,20 +404,20 @@ def process_org (c, tree) :
 		s = (parentkey[i], d.get('Name','Null'), kind[i], d.get('History', 'Null'), d.get('Telephone', 'Null'), d.get('Fax', 'Null'), d.get('Email', 'Null'),  d.get('StreetAddress', 'Null'), d.get('Locality', 'Null'), d.get('Region', 'Null'), d.get('PostalCode', 'Null'), d.get('Country', 'Null') )
 		s = 'insert into Organization values' + str(s) + ';'
 		s = s.replace('None', 'Null')
-		t = query(c,s)
+		t = query(login,s)
 	
 		#QueryBuilding - Location Table
 		s = (parentkey[i], d.get('Locality', 'Null'), d.get('Region', 'Null'), d.get('Country', 'Null'))
 		s = 'insert into Location values' + str(s) + ';'
 		s = s.replace('None', 'Null')
-		t = query(c,s)
+		t = query(login,s)
 		
 	#QueryBuilding - OrganizationRelation Table
 
 	for i in xrange(0, len(relatedperson)):
 		s = relatedperson[i]
 		s = 'insert into OrganizationRelation values' + str(s) + ';'
-		t = query(c,s)	
+		t = query(login,s)	
 	
 		
 	#QueryBuilding - OrganizationRelation Table
@@ -429,16 +425,16 @@ def process_org (c, tree) :
 	for i in xrange(0, len(relatedcrisis)):
 		s = relatedcrisis[i]
 		s = 'insert into OrganizationRelation values' + str(s) + ';'
-		t = query(c,s)	
+		t = query(login,s)	
 	
 	#QueryBuilding - ExternalResources Table		
 	for i in xrange(0, len(ExternalResource)):
 		s = ExternalResource[i]
 		s = 'insert into ExternalResources values' + str(s) + ';'
-		t = query(c,s)	
+		t = query(login,s)	
 	
 	
-def process_person (c, tree) :
+def process_person (login, tree) :
 
 	inserts = []
 	parentkey = []
@@ -489,37 +485,37 @@ def process_person (c, tree) :
 		s = (parentkey[i], d.get('FirstName','Null'), d.get('MiddleName', 'Null'), d.get('LastName', 'Null'), d.get('Suffix', 'Null'), kind[i])
 		s = 'insert into Person values' + str(s) + ';'
 		s = s.replace('None', 'Null')
-		t = query(c,s)
+		t = query(login,s)
 	
 		#QueryBuilding - Location Table
 		s = (parentkey[i], d.get('Locality', 'Null'), d.get('Region', 'Null'), d.get('Country', 'Null'))
 		s = 'insert into Location values' + str(s) + ';'
 		s = s.replace('None', 'Null')
-		t = query(c,s)
+		t = query(login,s)
 		
 	#QueryBuilding - CrisisRelation Table
 
 	for i in xrange(0, len(relatedorg)):
 		s = relatedorg[i]
 		s = 'insert into PersonRelation values' + str(s) + ';'
-		t = query(c,s)	
+		t = query(login,s)	
 		
 	#QueryBuilding - CrisisRelation Table
 
 	for i in xrange(0, len(relatedcrisis)):
 		s = relatedcrisis[i]
 		s = 'insert into PersonRelation values' + str(s) + ';'
-		t = query(c,s)	
+		t = query(login,s)	
 	
 	#QueryBuilding - ExternalResources Table		
 	for i in xrange(0, len(ExternalResource)):
 		s = ExternalResource[i]
 		s = 'insert into ExternalResources values' + str(s) + ';'
-		t = query(c,s)	
+		t = query(login,s)	
 	
 	
 	
-def process_kind(c, tree) :
+def process_kind(login, tree) :
 
 
 	#Query Building CrisisKind
@@ -546,7 +542,7 @@ def process_kind(c, tree) :
 		d = inserts[i]	
 		s = (parentkey[i], 'Crisis', d.get('Name', 'Null'), d.get('Description', 'Null'))
 		s = 'insert into Kind values' + str(s) + ';'
-		t = query(c,s)	
+		t = query(login,s)	
 		
 		
 	#Query Building OrganizationKind
@@ -573,7 +569,7 @@ def process_kind(c, tree) :
 		d = inserts[i]	
 		s = (parentkey[i], 'Organization', d.get('Name', 'Null'), d.get('Description', 'Null'))
 		s = 'insert into Kind values' + str(s) + ';'
-		t = query(c,s)	
+		t = query(login,s)	
 
 
 	#Query Building PersonKind
@@ -600,21 +596,23 @@ def process_kind(c, tree) :
 		d = inserts[i]	
 		s = (parentkey[i], 'Person', d.get('Name', 'Null'), d.get('Description', 'Null'))
 		s = 'insert into Kind values' + str(s) + ';'
-		t = query(c,s)		
+		t = query(login,s)		
 	
-	t = query(c,"select * from Kind;")
+	t = query(login,"select * from Kind;")
     
 # -------------
 # wcdb2_import
 # -------------
 
-def wcdb2_import(c, tree):
+def wcdb2_import(login, tree):
 
-    process_crisis(c, tree)
-    process_person(c, tree)
-    process_org(c, tree)
+	"""Takes DB login and Element Tree and processes data and and imports into DB"""
 
-    process_kind(c, tree)
+    process_crisis(login, tree)
+    process_person(login, tree)
+    process_org(login, tree)
+
+    process_kind(login, tree)
     
     return None
 
@@ -623,9 +621,9 @@ def wcdb2_import(c, tree):
 # wcdb2_export
 # -------------
 
-def wcdb2_export():
-	#I'm going to go cry now.... 
-    return None
+def wcdb2_export(login, tree):
+	"""Generates ElementTree from DB"""
+    return tree
         
     
 # -------------
@@ -634,14 +632,15 @@ def wcdb2_export():
 
 def wcdb2_solve (r, w) :
     """
-    read, eval, print loop
     r is a reader
     w is a writer
+    Logs into DB, Generates Element Tree, Creates Tables in DB,
+    Imports data into DB, exports data from DB
     """
 
-    c = login(*a)
-    tree = wcdb2_TRead (r)
-    output1 = wcdb2_write (c, w, tree)
-    createDB(c)
+    login = login(*a)
+    tree = wcdb2_Read (r)
+    output1 = wcdb2_write (w, tree)
+    createDB(login)
     #output2 = wcdb2_write (w, output1)
-    wcdb2_import(c, tree)
+    wcdb2_import(login, tree)
