@@ -19,6 +19,7 @@ To test the program:
 import StringIO
 import unittest
 import sys
+from cStringIO import StringIO
 import xml.etree.ElementTree as ET
 import _mysql
 
@@ -36,8 +37,8 @@ class TestWCDB1(unittest.TestCase):
   def test_wcdb2_login1 (self):
     c = _mysql.connect(
           host = "z",
-          user = "iwo",
-          passwd = "Ez0CbTAuV~",
+          user = "Us3r",
+          passwd = "BaNaNa",
           db = "cs327e_taylor")
         self.assert_(str(type(c)) == "<type '_mysql.connection'>")
 
@@ -56,6 +57,117 @@ class TestWCDB1(unittest.TestCase):
           passwd = "AbcdefG",
           db = "cs327e_taylor")
         self.assert_(str(type(c)) != "<type '_mysql.connection'>")
+
+  #-----------
+  # test query
+  #-----------
+
+  def test_query1(c, "select * from cs327e_taylor"):
+    assert type(s) is str
+
+  def test_query2(c, "select * from cs327e_taylor"):
+
+  def test_query3(c, "select * from cs327e_taylor"):
+
+  #-----------
+  # test createDB
+  #-----------
+
+  def test_createDB1(self):
+    h = "localhost"
+    u = "admin"
+    p = "admin"
+    db = "WCDB"
+    c = login(h, u, p, db)
+    result = createDB(c)
+    curs=c.cursor()
+    curs.execute('SELECT * from Crisis')
+    self.assert_(curs.fetchone() == None)
+
+  def test_createDB2(self):
+    h = "localhost"
+    u = "admin"
+    p = "admin"
+    db = "WCDB"
+    c = login(h, u, p, db)
+    result = createDB(c)
+    curs=c.cursor()
+    curs.execute('SELECT * from Person')   
+    self.assert_(curs.fetchone() == None)
+
+  def test_createDB3(self):
+    h = "localhost"
+    u = "admin"
+    p = "admin"
+    db = "WCDB"
+    c = login(h, u, p, db)
+    result = createDB(c)
+    curs=c.cursor()
+    curs.execute('SELECT * from Organization')
+    self.assert_(curs.fetchone() == None)
+
+  #----------
+  # test import
+  #----------
+
+  def test_wcdb2_import1(self):
+    h = "localhost"
+    u = "admin"
+    p = "admin"
+    db = "WCDB"
+    c = login(h, u, p, db)
+    result = createDB(c)
+    tree = ET.parse(StringIO("<WorldCrisis></WorldCrisis"))
+    #tree = "<WorldCrisisDatabase><Crisis></Crisis></WorldCrisisDatabase>"
+    #r = open('WCDB2.xml', 'r')
+    wcdb2_import(login, tree)
+    self.assert_(len(query(c, "select * from Crisis;")) == 0)
+
+  def test_wcdb2_import2(self):
+    h = "localhost"
+    u = "admin"
+    p = "admin"
+    db = "WCDB"
+    c = login(h, u, p, db)
+    result = createDB(c)
+    tree = ET.parse(StringIO("<WorldCrisis><Crisis crisisIdent= "SY2011" ><Name>Syrian Civil War </Name><Kind crisisKindIdent= "WAR" /><Location><Country>Syria </Country></Location><StartDateTime><Date>2011-03-15</Date></StartDateTime><HumanImpact><Type>Death </Type><Number>70000 </Number></HumanImpact><EconomicImpact></EconomicImpact><ExternalResources><ImageURL>http://en.wikipedia.org/wiki/File:Bombed_out_vehicles_Aleppo.jpg</ImageURL><VideoURL>http://www.bbc.co.uk/news/world-middle-east-21504390</VideoURL><MapURL>http://goo.gl/maps/PWJKM</MapURL><ExternalLinkURL>http://www.crisisgroup.org</ExternalLinkURL></ExternalResources><RelatedPersons><RelatedPerson personIdent = "SLavrov"/></RelatedPersons><RelatedOrganizations><RelatedOrganization organizationIdent = "NATO"/><RelatedOrganization organizationIdent = "AI" /></RelatedOrganizations></Crisis><CrisisKind crisisKindIdent="WAR"><Name>War</Name><Description>An organized and often prolonged conflict that is carried out by states and/or non-state actors.</Description></CrisisKind></WorldCrisis"))
+    wcdb2_import(login, tree)
+    self.assert_(len(query(c, "select * from Crisis;")) == 1)
+
+  def test_wcdb2_import3(self):
+    h = "localhost"
+    u = "admin"
+    p = "admin"
+    db = "WCDB"
+    c = login(h, u, p, db)
+    result = createDB(c)
+    tree = ET.parse(StringIO("<WorldCrisis><Crisis crisisIdent= "SY2011" ><Name>Syrian Civil War </Name><Kind crisisKindIdent= "WAR" /><Location><Country>Syria </Country></Location><StartDateTime><Date>2011-03-15</Date></StartDateTime><HumanImpact><Type>Death </Type><Number>70000 </Number></HumanImpact><EconomicImpact></EconomicImpact><ExternalResources><ImageURL>http://en.wikipedia.org/wiki/File:Bombed_out_vehicles_Aleppo.jpg</ImageURL><VideoURL>http://www.bbc.co.uk/news/world-middle-east-21504390</VideoURL><MapURL>http://goo.gl/maps/PWJKM</MapURL><ExternalLinkURL>http://www.crisisgroup.org</ExternalLinkURL></ExternalResources><RelatedPersons><RelatedPerson personIdent = "SLavrov"/></RelatedPersons><RelatedOrganizations><RelatedOrganization organizationIdent = "NATO"/><RelatedOrganization organizationIdent = "AI" /></RelatedOrganizations></Crisis><CrisisKind crisisKindIdent="WAR"><Name>War</Name><Description>An organized and often prolonged conflict that is carried out by states and/or non-state actors.</Description></CrisisKind></WorldCrisis"))
+    wcdb2_import(login, tree)
+    self.assert_(len(query(c, "select * from CrisisRelation;")) == 3)
+
+  #---------
+  # test export
+  #---------
+
+  def test_wcdb2_export1(self):
+    c = _mysql.connect(
+      host = "z",
+      user = "Us3r",
+      passwd = "BaNaNa",
+      db = "cs327e_taylor")
+    tree =WCDB2_export(c)
+    self.assert_(str(type(a))=="<class 'xml.etree.ElementTree.Element'>")
+        
+  def test_wcdb2_export2(self):
+    c = _mysql.connect(
+      host = "z",
+      user = "Us3r",
+      passwd = "BaNaNa",
+      db = "cs327e_taylor")
+    result = createDB(c)
+    tree = WCDB2_export(c)
+    self.assert_(
+
   # -------
   # read
   # -------
@@ -78,16 +190,6 @@ class TestWCDB1(unittest.TestCase):
     self.assert_(root.tag == "a")
     self.assert_(root.text == "hello world")
 
-  #-----------
-  # test query
-  #-----------
-
-  def test_query1(c, "select * from cs327e_taylor"):
-    assert type(s) is str
-
-  def test_query2(c, "select * from cs327e_taylor"):
-
-  def test_query3(c, "select * from cs327e_taylor"):
 
   # -------
   # write
