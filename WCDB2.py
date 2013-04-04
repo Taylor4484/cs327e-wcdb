@@ -16,65 +16,65 @@ import lxml.etree as ET
 # --------
 # DB Login
 # --------
-
+	
 a = [host, un, pw, database] 
    #[host, un, pw, database]
 
-def login ( host, un, pw, database ) :
+def wcdb2_login ( host, un, pw, database ) :
 	"""takes credentials and logs into DB"""
-    login = _mysql.connect(
-            host = host,
-            user = un,
-            passwd = pw,
-            db = database)
-    assert str(type(login)) == "<type '_mysql.connection'>"
-    return login
+	login = _mysql.connect(
+			host = host,
+			user = un,
+			passwd = pw,
+			db = database)
+	assert str(type(login)) == "<type '_mysql.connection'>"
+	return login
 
 # --------
 # Ask Login, IGNORE THIS FUNCTION, hardcoded a
 # --------
 def ask ():
 	"""Asks for DB login credentials"""
-    sys.stdin.read()
-    host = input("What is DB Host? ")
-    un = input("What is DB Username? ")
-    pw = input("What is DB Password? ")
-    database = input("What is Database Name?? ")
+	sys.stdin.read()
+	host = input("What is DB Host? ")
+	un = input("What is DB Username? ")
+	pw = input("What is DB Password? ")
+	database = input("What is Database Name?? ")
 
-    a = [host, un, pw, database]
-    login = login(*a)
-    print("login successful")
-    return login
+	a = [host, un, pw, database]
+	login = wcdb2_login(*a)
+	print("login successful")
+	return login
 
 # ----------
 # Pose Query
 # ---------- 
 
-def query (c, s) :
+def query (login, s) :
 	"""Logs into DB and runs provided string as query"""
-    assert str(type(c)) == "<type '_mysql.connection'>"
-    assert type(s) is str
-    c.query(s)
-    r = c.use_result()
-    if r is None :
-        return None
-    assert str(type(r)) == "<type '_mysql.result'>"
-    t = r.fetch_row(maxrows = 0)
-    assert type(t) is tuple
-    return t
+	assert str(type(login)) == "<type '_mysql.connection'>"
+	assert type(s) is str
+	login.query(s)
+	r = login.use_result()
+	if r is None :
+		return None
+	assert str(type(r)) == "<type '_mysql.result'>"
+	t = r.fetch_row(maxrows = 0)
+	assert type(t) is tuple
+	return t
 
 # ----------
 # wcdb2_TRead
 # ---------- 
 
 def wcdb2_Read (r) :
-    """
-    reads an input
-    creates an element tree from string
-    """
-    read = r.read()
-    tree = ET.fromstring(read)
-    return tree
+	"""
+	reads an input
+	creates an element tree from string
+	"""
+	read = r.read()
+	tree = ET.fromstring(read)
+	return tree
 
 
 # ------------
@@ -82,17 +82,17 @@ def wcdb2_Read (r) :
 # ------------
 
 def wcdb2_write (w, tree) :
-    """
-    reads an input
-    builds an element tree from string
-    """
-    tree2 = ET.tostring(tree)
-    w.write(tree2)
+	"""
+	reads an input
+	builds an element tree from string
+	"""
+	tree2 = ET.tostring(tree)
+	w.write(tree2)
   
-    return tree
+	return tree
 
 
-def createDB(c):
+def createDB(login):
 
    query(login, "drop table if exists Crisis;")
    query(login, "drop table if exists Organization;")
@@ -108,21 +108,21 @@ def createDB(c):
    query(login, "drop table if exists WaysToHelp;")
    
    t = query(
-        login,
-        """
+		login,
+		"""
 	create table Crisis (
 	  crisisIdent text,
 	  Name text,
 	  Kind text,
 	  StartDateTime dateTime,
 	  EndDateTime dateTime,
-      EconomicImpact text
+	  EconomicImpact text
 	  );""") 
 	  
 #insert into Crisis values('crisisIdent', 'Name', 'Kind', StartDateTime, EndDateTime, 'EconomicImpact');
    t = query(
-        login,
-        """
+		login,
+		"""
 	create table Organization (
 	  organizationIdent text,
 	  Name text,
@@ -140,8 +140,8 @@ def createDB(c):
 	  
 #insert into Organization('organizationIdent', 'Name', 'Kind', 'History','Telephone', 'Fax', 'Email', 'StreetAddress', 'Locality', 'Region', 'PostalCode', 'Country');
    t = query(
-        login,
-        """
+		login,
+		"""
 	create table Person (
 	  personIdent text,
 	  FirstName text,
@@ -153,8 +153,8 @@ def createDB(c):
 	  
 #insert into Person('personIdent', 'FirstName', 'MiddleName', 'LastName', 'Suffix', 'Kind');
    t = query(
-        login,
-        """
+		login,
+		"""
 	create table Location (
 	  parentIdent text,
 	  Locality text,
@@ -164,8 +164,8 @@ def createDB(c):
 
 #insert into Location(parentIdent', 'Locality', 'Region', 'PostalCode', 'Country');
    t = query(
-        login,
-        """
+		login,
+		"""
 	create table Kind (
 	  parentIdent text,
 	  Type text,
@@ -175,8 +175,8 @@ def createDB(c):
    
 #insert into Kind('parentIdent', 'Type', 'Name', 'Description');
    t = query(
-        login,
-        """
+		login,
+		"""
 	create table ExternalResources (
 	  parentIdent text,
 	  Type text,
@@ -185,8 +185,8 @@ def createDB(c):
 
 #insert into ExternalResources('parentIdent', 'Type', 'Value');
    t = query(
-        login,
-        """
+		login,
+		"""
 	create table PersonRelation (
 	  personIdent text,
 	  otherIdent text,
@@ -196,8 +196,8 @@ def createDB(c):
 
 #insert into PersonRelation('personIdent', 'otherIdent', 'Type');
    t = query(
-        login,
-        """
+		login,
+		"""
 	create table CrisisRelation (
 	  crisisIdent text,
 	  otherIdent text,
@@ -207,8 +207,8 @@ def createDB(c):
 
 #insert into CrisisRelation('crisisIdent', 'otherIdent', 'Type');
    t = query(
-        login,
-        """
+		login,
+		"""
 	create table OrganizationRelation (
 	  organizationIdent text,
 	  otherIdent text,
@@ -217,8 +217,8 @@ def createDB(c):
 
 #insert into OrganizationRelation('organizationIdent', 'otherIdent', 'Type');
    t = query(
-        login,
-        """
+		login,
+		"""
 	create table HumanImpact (
 	  parentIdent text,
 	  Type text,
@@ -227,8 +227,8 @@ def createDB(c):
 
 #insert into HumanImpact('parentIdent', 'Type', 'Number');
    t = query(
-        login,
-        """
+		login,
+		"""
 	create table ResourcesNeeded (
 	  parentIdent text,
 	  ResourceNeeded text
@@ -236,8 +236,8 @@ def createDB(c):
 
 #insert into ResourcesNeeded('parentIdent text', 'ResourcesNeeded');
    t = query(
-        login,
-        """
+		login,
+		"""
 	create table WaysToHelp (
 	  parentIdent text,
 	  WaysToHelp text
@@ -246,7 +246,7 @@ def createDB(c):
 #insert into WaysToHelp('parentIdent', 'WaysToHelp');
 
    #t = query(login, "show tables;") 
-    
+	
    return None
 
 	
@@ -261,39 +261,39 @@ def process_crisis (login, tree) :
 	i=0
 	#iterats over Parents	
 	for parent in tree.findall('Crisis'):
-	    insert = {}
-	    
-	    parentkey.append(parent.get('crisisIdent'))
-	    
-	    #Iterates over Children & Subchildren
-	    for element in parent.iterdescendants():
+		insert = {}
+		
+		parentkey.append(parent.get('crisisIdent'))
+		
+		#Iterates over Children & Subchildren
+		for element in parent.iterdescendants():
 
-	        if element.tag == 'Kind':
-	        	kind.append(element.get('crisisKindIdent'))
-	        if element.tag == 'RelatedOrganization':
-	        	relatedorg.append((parentkey[i], element.get('organizationIdent'), 'Organization'))
-	        if element.tag == 'RelatedPerson':
-	        	relatedperson.append((parentkey[i], element.get('personIdent'), 'Person'))
-	        if element.tag == 'ImageURL':
-	        	ExternalResource.append((parentkey[i], 'Image' , element.text))
-	        if element.tag == 'VideoURL':
-	        	ExternalResource.append((parentkey[i], 'Video' , element.text))
-	        if element.tag == 'MapURL':
-	        	ExternalResource.append((parentkey[i], 'Map' , element.text))
-	        if element.tag == 'SocialNetworkURL':
-	        	ExternalResource.append((parentkey[i], 'Social' , element.text))
-	        if element.tag == 'Citation':
-	        	ExternalResource.append((parentkey[i], 'Citation' , element.text))
-	        if element.tag == 'ExternalLinkURL':
-	        	ExternalResource.append((parentkey[i], 'External' , element.text))
-	        if element.getchildren() == []:
-	            insert[element.tag] = element.text
-	    
-	    inserts.append(insert)
-	    i += 1
-	    
-	    
-	#QueryBuilding Loop    
+			if element.tag == 'Kind':
+				kind.append(element.get('crisisKindIdent'))
+			if element.tag == 'RelatedOrganization':
+				relatedorg.append((parentkey[i], element.get('organizationIdent'), 'Organization'))
+			if element.tag == 'RelatedPerson':
+				relatedperson.append((parentkey[i], element.get('personIdent'), 'Person'))
+			if element.tag == 'ImageURL':
+				ExternalResource.append((parentkey[i], 'Image' , element.text))
+			if element.tag == 'VideoURL':
+				ExternalResource.append((parentkey[i], 'Video' , element.text))
+			if element.tag == 'MapURL':
+				ExternalResource.append((parentkey[i], 'Map' , element.text))
+			if element.tag == 'SocialNetworkURL':
+				ExternalResource.append((parentkey[i], 'Social' , element.text))
+			if element.tag == 'Citation':
+				ExternalResource.append((parentkey[i], 'Citation' , element.text))
+			if element.tag == 'ExternalLinkURL':
+				ExternalResource.append((parentkey[i], 'External' , element.text))
+			if element.getchildren() == []:
+				insert[element.tag] = element.text
+		
+		inserts.append(insert)
+		i += 1
+		
+		
+	#QueryBuilding Loop	
 	for i in xrange(0, len(parentkey)):
 		
 		#QueryBuilding - Crisis Table
@@ -365,38 +365,38 @@ def process_org (login, tree) :
 	i=0
 	#iterats over Parents	
 	for parent in tree.findall('Organization'):
-	    insert = {}
-	    
-	    parentkey.append(parent.get('organizationIdent'))
-	    
-	    #Iterates over Children & Subchildren
-	    for element in parent.iterdescendants():
+		insert = {}
+		
+		parentkey.append(parent.get('organizationIdent'))
+		
+		#Iterates over Children & Subchildren
+		for element in parent.iterdescendants():
 
-	        if element.tag == 'Kind':
-	        	kind.append(element.get('organizationKindIdent'))
-	        if element.tag == 'RelatedPerson':
-	        	relatedperson.append((parentkey[i], element.get('personIdent'), 'Person'))
-	        if element.tag == 'RelatedCrisis':
-	        	relatedcrisis.append((parentkey[i], element.get('crisisIdent'), 'Crisis'))
-	        if element.tag == 'ImageURL':
-	        	ExternalResource.append((parentkey[i], 'Image' , element.text))
-	        if element.tag == 'VideoURL':
-	        	ExternalResource.append((parentkey[i], 'Video' , element.text))
-	        if element.tag == 'MapURL':
-	        	ExternalResource.append((parentkey[i], 'Map' , element.text))
-	        if element.tag == 'SocialNetworkURL':
-	        	ExternalResource.append((parentkey[i], 'Social' , element.text))
-	        if element.tag == 'Citation':
-	        	ExternalResource.append((parentkey[i], 'Citation' , element.text))
-	        if element.tag == 'ExternalLinkURL':
-	        	ExternalResource.append((parentkey[i], 'External' , element.text))
-	        if element.getchildren() == []:
-	            insert[element.tag] = element.text
-	    
-	    inserts.append(insert)
-	    i += 1
-	    
-	#QueryBuilding Loop    
+			if element.tag == 'Kind':
+				kind.append(element.get('organizationKindIdent'))
+			if element.tag == 'RelatedPerson':
+				relatedperson.append((parentkey[i], element.get('personIdent'), 'Person'))
+			if element.tag == 'RelatedCrisis':
+				relatedcrisis.append((parentkey[i], element.get('crisisIdent'), 'Crisis'))
+			if element.tag == 'ImageURL':
+				ExternalResource.append((parentkey[i], 'Image' , element.text))
+			if element.tag == 'VideoURL':
+				ExternalResource.append((parentkey[i], 'Video' , element.text))
+			if element.tag == 'MapURL':
+				ExternalResource.append((parentkey[i], 'Map' , element.text))
+			if element.tag == 'SocialNetworkURL':
+				ExternalResource.append((parentkey[i], 'Social' , element.text))
+			if element.tag == 'Citation':
+				ExternalResource.append((parentkey[i], 'Citation' , element.text))
+			if element.tag == 'ExternalLinkURL':
+				ExternalResource.append((parentkey[i], 'External' , element.text))
+			if element.getchildren() == []:
+				insert[element.tag] = element.text
+		
+		inserts.append(insert)
+		i += 1
+		
+	#QueryBuilding Loop	
 	for i in xrange(0, len(parentkey)):
 		
 		#QueryBuilding - Organization Table
@@ -445,39 +445,39 @@ def process_person (login, tree) :
 	i=0
 	#iterats over Parents	
 	for parent in tree.findall('Person'):
-	    insert = {}
-	    
-	    parentkey.append(parent.get('personIdent'))
-	    
-	    #Iterates over Children & Subchildren
-	    for element in parent.iterdescendants():
+		insert = {}
+		
+		parentkey.append(parent.get('personIdent'))
+		
+		#Iterates over Children & Subchildren
+		for element in parent.iterdescendants():
 
-	        if element.tag == 'Kind':
-	        	kind.append(element.get('personKindIdent'))
-	        if element.tag == 'RelatedOrganization':
-	        	relatedorg.append((parentkey[i], element.get('organizationIdent'), 'Organization'))
-	        if element.tag == 'RelatedCrisis':
-	        	relatedcrisis.append((parentkey[i], element.get('crisisIdent'), 'Crisis'))
-	        if element.tag == 'ImageURL':
-	        	ExternalResource.append((parentkey[i], 'Image' , element.text))
-	        if element.tag == 'VideoURL':
-	        	ExternalResource.append((parentkey[i], 'Video' , element.text))
-	        if element.tag == 'MapURL':
-	        	ExternalResource.append((parentkey[i], 'Map' , element.text))
-	        if element.tag == 'SocialNetworkURL':
-	        	ExternalResource.append((parentkey[i], 'Social' , element.text))
-	        if element.tag == 'Citation':
-	        	ExternalResource.append((parentkey[i], 'Citation' , element.text))
-	        if element.tag == 'ExternalLinkURL':
-	        	ExternalResource.append((parentkey[i], 'External' , element.text))
-	        if element.getchildren() == []:
-	            insert[element.tag] = element.text
-	    
-	    inserts.append(insert)
-	    i += 1
-	    
-	    
-	#QueryBuilding Loop    
+			if element.tag == 'Kind':
+				kind.append(element.get('personKindIdent'))
+			if element.tag == 'RelatedOrganization':
+				relatedorg.append((parentkey[i], element.get('organizationIdent'), 'Organization'))
+			if element.tag == 'RelatedCrisis':
+				relatedcrisis.append((parentkey[i], element.get('crisisIdent'), 'Crisis'))
+			if element.tag == 'ImageURL':
+				ExternalResource.append((parentkey[i], 'Image' , element.text))
+			if element.tag == 'VideoURL':
+				ExternalResource.append((parentkey[i], 'Video' , element.text))
+			if element.tag == 'MapURL':
+				ExternalResource.append((parentkey[i], 'Map' , element.text))
+			if element.tag == 'SocialNetworkURL':
+				ExternalResource.append((parentkey[i], 'Social' , element.text))
+			if element.tag == 'Citation':
+				ExternalResource.append((parentkey[i], 'Citation' , element.text))
+			if element.tag == 'ExternalLinkURL':
+				ExternalResource.append((parentkey[i], 'External' , element.text))
+			if element.getchildren() == []:
+				insert[element.tag] = element.text
+		
+		inserts.append(insert)
+		i += 1
+		
+		
+	#QueryBuilding Loop	
 	for i in xrange(0, len(parentkey)):
 		
 		#QueryBuilding - Person Table
@@ -523,19 +523,19 @@ def process_kind(login, tree) :
 	parentkey = []
 	#iterats over Parents	
 	for parent in tree.findall('CrisisKind'):
-	    insert = {}
-	    
-	    parentkey.append(parent.get('crisisKindIdent'))
-	    
-	    #Iterates over Children & Subchildren
-	    for element in parent.iterdescendants():
+		insert = {}
+		
+		parentkey.append(parent.get('crisisKindIdent'))
+		
+		#Iterates over Children & Subchildren
+		for element in parent.iterdescendants():
 
-	        if element.getchildren() == []:
-	            insert[element.tag] = element.text
-	    
-	    inserts.append(insert)
-	    
-	#QueryBuilding Loop    
+			if element.getchildren() == []:
+				insert[element.tag] = element.text
+		
+		inserts.append(insert)
+		
+	#QueryBuilding Loop	
 	for i in xrange(0, len(parentkey)):
 	
 		#QueryBuilding - Kind Table
@@ -550,19 +550,19 @@ def process_kind(login, tree) :
 	parentkey = []
 	#iterats over Parents	
 	for parent in tree.findall('OrganizationKind'):
-	    insert = {}
-	    
-	    parentkey.append(parent.get('organizationKindIdent'))
-	    
-	    #Iterates over Children & Subchildren
-	    for element in parent.iterdescendants():
+		insert = {}
+		
+		parentkey.append(parent.get('organizationKindIdent'))
+		
+		#Iterates over Children & Subchildren
+		for element in parent.iterdescendants():
 
-	        if element.getchildren() == []:
-	            insert[element.tag] = element.text
-	    
-	    inserts.append(insert)
-	    
-	#QueryBuilding Loop    
+			if element.getchildren() == []:
+				insert[element.tag] = element.text
+		
+		inserts.append(insert)
+		
+	#QueryBuilding Loop	
 	for i in xrange(0, len(parentkey)):
 	
 		#QueryBuilding - Kind Table
@@ -577,19 +577,19 @@ def process_kind(login, tree) :
 	parentkey = []
 	#iterats over Parents	
 	for parent in tree.findall('PersonKind'):
-	    insert = {}
-	    
-	    parentkey.append(parent.get('personKindIdent'))
-	    
-	    #Iterates over Children & Subchildren
-	    for element in parent.iterdescendants():
+		insert = {}
+		
+		parentkey.append(parent.get('personKindIdent'))
+		
+		#Iterates over Children & Subchildren
+		for element in parent.iterdescendants():
 
-	        if element.getchildren() == []:
-	            insert[element.tag] = element.text
-	    
-	    inserts.append(insert)
-	    
-	#QueryBuilding Loop    
+			if element.getchildren() == []:
+				insert[element.tag] = element.text
+		
+		inserts.append(insert)
+		
+	#QueryBuilding Loop	
 	for i in xrange(0, len(parentkey)):
 	
 		#QueryBuilding - Kind Table
@@ -599,7 +599,7 @@ def process_kind(login, tree) :
 		t = query(login,s)		
 	
 	t = query(login,"select * from Kind;")
-    
+	
 # -------------
 # wcdb2_import
 # -------------
@@ -608,39 +608,55 @@ def wcdb2_import(login, tree):
 
 	"""Takes DB login and Element Tree and processes data and and imports into DB"""
 
-    process_crisis(login, tree)
-    process_person(login, tree)
-    process_org(login, tree)
+	process_crisis(login, tree)
+	process_person(login, tree)
+	process_org(login, tree)
 
-    process_kind(login, tree)
-    
-    return None
+	process_kind(login, tree)
+	
+	return None
 
 
 # -------------
 # wcdb2_export
 # -------------
 
+def builder(tag, attrs = {}, content = ''):
+	"""builds 1 xml element"""
+	builder = ET.TreeBuilder()
+	
+	builder.start(tag, {})
+	builder.data(content)
+	builder.end(tag)
+	
+	return builder.close()
+
+root = builder('WorldCrises')
+
+print(ET.tostring(root))
+ 
+
+
 def wcdb2_export(login, tree):
 	"""Generates ElementTree from DB"""
-    return tree
-        
-    
+	return tree
+		
+	
 # -------------
 # wcdb2_solve
 # -------------
 
 def wcdb2_solve (r, w) :
-    """
-    r is a reader
-    w is a writer
-    Logs into DB, Generates Element Tree, Creates Tables in DB,
-    Imports data into DB, exports data from DB
-    """
+	"""
+	r is a reader
+	w is a writer
+	Logs into DB, Generates Element Tree, Creates Tables in DB,
+	Imports data into DB, exports data from DB
+	"""
 
-    login = login(*a)
-    tree = wcdb2_Read (r)
-    output1 = wcdb2_write (w, tree)
-    createDB(login)
-    #output2 = wcdb2_write (w, output1)
-    wcdb2_import(login, tree)
+	login = wcdb2_login(*a)
+	tree = wcdb2_Read (r)
+	output1 = wcdb2_write (w, tree)
+	createDB(login)
+	#output2 = wcdb2_write (w, output1)
+	wcdb2_import(login, tree)
