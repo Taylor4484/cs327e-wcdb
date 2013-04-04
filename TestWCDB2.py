@@ -18,15 +18,44 @@ To test the program:
 
 import StringIO
 import unittest
+import sys
 import xml.etree.ElementTree as ET
+import _mysql
 
-from WCDB1 import *
+from WCDB2 import *
 
 # -----------
-# TestWCDB1
+# TestWCDB2
 # -----------
 
 class TestWCDB1(unittest.TestCase):
+  # -----------
+  # Test login
+  # -----------
+
+  def test_wcdb2_login1 (self):
+    c = _mysql.connect(
+          host = "z",
+          user = "iwo",
+          passwd = "Ez0CbTAuV~",
+          db = "cs327e_taylor")
+        self.assert_(str(type(c)) == "<type '_mysql.connection'>")
+
+  def test_wcdb2_login2 (self) :
+        c = _mysql.connect(
+          host = "z",
+          user = "OscarMyer",
+          passwd = "b0lOgN4",
+          db = "cs327e_taylor")
+        self.assert_(str(type(c)) != "<type '_mysql.connection'>")
+        
+    def test_wcdb2_login3 (self) :
+        c = _mysql.connect(
+          host = "z",
+          user = "hazard",
+          passwd = "AbcdefG",
+          db = "cs327e_taylor")
+        self.assert_(str(type(c)) != "<type '_mysql.connection'>")
   # -------
   # read
   # -------
@@ -48,6 +77,17 @@ class TestWCDB1(unittest.TestCase):
     root = wcdb1_read(r)
     self.assert_(root.tag == "a")
     self.assert_(root.text == "hello world")
+
+  #-----------
+  # test query
+  #-----------
+
+  def test_query1(c, "select * from cs327e_taylor"):
+    assert type(s) is str
+
+  def test_query2(c, "select * from cs327e_taylor"):
+
+  def test_query3(c, "select * from cs327e_taylor"):
 
   # -------
   # write

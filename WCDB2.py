@@ -31,22 +31,6 @@ def wcdb2_login ( host, un, pw, database ) :
 	assert str(type(login)) == "<type '_mysql.connection'>"
 	return login
 
-# --------
-# Ask Login, IGNORE THIS FUNCTION, hardcoded credientials above
-# --------
-def ask ():
-	"""Asks for DB login credentials"""
-	sys.stdin.read()
-	host = input("What is DB Host? ")
-	un = input("What is DB Username? ")
-	pw = input("What is DB Password? ")
-	database = input("What is Database Name?? ")
-
-	a = [host, un, pw, database]
-	login = wcdb2_login(*a)
-	print("login successful")
-	return login
-
 # ----------
 # Pose Query
 # ---------- 
@@ -68,7 +52,7 @@ def query (login, s) :
 # wcdb2_Read
 # ---------- 
 
-def wcdb2_Read (r) :
+def wcdb2_read (r) :
 	"""
 	reads an input
 	creates an element tree from string
@@ -76,8 +60,6 @@ def wcdb2_Read (r) :
 	read = r.read()
 	tree = ET.fromstring(read)
 	return tree
-
-
 
 
 
