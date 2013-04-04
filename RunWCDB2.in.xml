@@ -303,7 +303,7 @@
 <WorldCrises>
 
   <Crisis crisisIdent = "WL2013">
-    <Name>Meteor Strike</Name>
+    <Name>Waiting in Line</Name>
     <Kind crisisKindIdent = "PD"/>
     <Location>
       <Country>USA</Country>
@@ -326,6 +326,112 @@
     <Name>Personal Disaster</Name>
     <Description>WHY DO I HAVE TO WAIT IN LINE?!</Description>
   </CrisisKind>
+
+</WorldCrises>
+
+<WorldCrises>
+
+  <Organization organizationIdent="SWIL">
+    <Name>Stop Waiting in Line</Name>
+    <Kind organizationKindIdent= "CLF"/>
+    <Location>
+      <Country>USA</Country>
+    </Location>
+    <History>For those who no longer can accept the concept of queues.</History>
+    <ContactInfo>
+      <Telephone>18009051023</Telephone>
+      <Fax />
+      <Email>www.stopwaitinginline@stopwaiting.edu</Email>
+      <PostalAddress>
+	<StreetAddress>Stop</StreetAddress>
+	<Locality>Waiting</Locality>
+	<Region>In</Region>
+	<PostalCode></PostalCode>
+	<Country>USA</Country>
+      </PostalAddress>
+    </ContactInfo>
+    <ExternalResources>
+    </ExternalResources>
+  </Organization> 
+
+  <OrganizationKind organizationKindIdent="CLF">
+    <Name>Coalition Liberation Force</Name>
+    <Description>Fight the machine!</Description>
+  </OrganizationKind>
+
+</WorldCrises>
+
+<WorldCrises>
+
+  <Person personIdent="GCutter">
+    <Name>
+      <FirstName>Greg</FirstName>
+      <MiddleName>The</MiddleName>
+      <LastName>Cutter</LastName>
+    </Name>
+    <Kind personKindIdent="CC" />
+    <Location>
+      <Locality>Houston</Locality>
+      <Country>USA</Country>
+    </Location>
+    <ExternalResources>
+      <ImageURL>http://dt-go.com/mt-static/themes/gregorg-banners/echo_weeksville_header.jpg</ImageURL>
+      <ExternalLinkURL>http://en.wikipedia.org/wiki/Gregg_(surname)</ExternalLinkURL>
+    </ExternalResources>
+  </Person>
+
+  <PersonKind personKindIdent="CC">
+    <Name>Cheaters Cutters</Name>
+    <Description>Stop the waiting, go for the front!</Description>
+  </PersonKind>
+
+</WorldCrises>
+
+<WorldCrises>
+
+  <Crisis crisisIdent = "BL2012">
+    <Name>Being Lost</Name>
+    <Kind crisisKindIdent = "PD"/>
+    <Location>
+      <Country>Pangaea</Country>
+    </Location>
+    <StartDateTime>
+      <Date>2013-04-12</Date>
+    </StartDateTime>
+    <HumanImpact>
+      <Type>Fear</Type>
+      <Number>0000000</Number>
+    </HumanImpact>
+    <EconomicImpact>It is a very scary thing</EconomicImpact>
+    <ExternalResources>
+      <ExternalLinkURL>http://www.amazon.com/Field-Guide-Getting-Lost/dp/0143037242</ExternalLinkURL>
+    </ExternalResources>
+  </Crisis>
+
+  <Person personIdent="ATKids">
+    <Name>
+      <FirstName>All</FirstName>
+      <MiddleName>Those</MiddleName>
+      <LastName>Kids</LastName>
+    </Name>
+    <Kind personKindIdent= "PR"/>
+    <Location>
+      <Locality>Everywhere</Locality>
+      <Country>intheWorld</Country>
+    </Location>
+    <ExternalResources>
+    </ExternalResources>
+  </Person>
+
+  <CrisisKind crisisKindIdent="PD">
+    <Name>Personal Disaster</Name>
+    <Description>Oh my gosh, what do I do?!</Description>
+  </CrisisKind>
+
+  <PersonKind personKindIdent="PR">
+    <Name>Prideful and Rebellious</Name>
+    <Description>It's what happens when you don't listen.</Description>
+  </PersonKind>
 
 </WorldCrises>
 
