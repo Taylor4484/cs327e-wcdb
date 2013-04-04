@@ -1,7 +1,7 @@
 <WorldCrises>
   <Crisis crisisIdent="SY2011">
     <Name>Syrian Civil War </Name>
-    <Kind crisisKindIdent="WAR" />
+    <Kind crisisKindIdent="WAR"/>
     <Location>
       <Country>Syria </Country>
     </Location>
@@ -12,7 +12,7 @@
       <Type>Death </Type>
       <Number>70000 </Number>
     </HumanImpact>
-    <EconomicImpact />
+    <EconomicImpact/>
     <ExternalResources>
       <ImageURL>http://en.wikipedia.org/wiki/File:Bombed_out_vehicles_Aleppo.jpg</ImageURL>
       <VideoURL>http://www.bbc.co.uk/news/world-middle-east-21504390</VideoURL>
@@ -20,17 +20,17 @@
       <ExternalLinkURL>http://www.crisisgroup.org/en/regions/middle-east-north-africa/egypt-syria-lebanon-syria.aspx/</ExternalLinkURL>
     </ExternalResources>
     <RelatedPersons>
-      <RelatedPerson personIdent="SLavrov" />
+      <RelatedPerson personIdent="SLavrov"/>
     </RelatedPersons>
     <RelatedOrganizations>
-      <RelatedOrganization organizationIdent="NATO" />
-      <RelatedOrganization organizationIdent="AI" />
+      <RelatedOrganization organizationIdent="NATO"/>
+      <RelatedOrganization organizationIdent="AI"/>
     </RelatedOrganizations>
   </Crisis>
 
   <Crisis crisisIdent="AI1970">
     <Name> AIDS in Africa</Name>
-    <Kind crisisKindIdent="ID" />
+    <Kind crisisKindIdent="ID"/>
     <Location>
       <Country>All African countries </Country>
     </Location>
@@ -41,7 +41,7 @@
       <Type>Death</Type>
       <Number>1300000 </Number>      
     </HumanImpact>
-    <EconomicImpact />
+    <EconomicImpact/>
     <ExternalResources>
       <ImageURL>http://en.wikipedia.org/wiki/File:Map-of-HIV-Prevalance-in-Africa.png </ImageURL>
       <ImageURL>http://africanheritageculturalcenter.org/wp-content/uploads/2010/06/AIDS-in-South-Africa.jpg </ImageURL>
@@ -49,20 +49,20 @@
       <SocialNetworkURL>http://www.facebook.com/HivAidsAfrica?fref=ts </SocialNetworkURL>
     </ExternalResources>
     <RelatedPersons>
-      <RelatedPerson personIdent="Bono" />
-      <RelatedPerson personIdent="BHGates" />
+      <RelatedPerson personIdent="Bono"/>
+      <RelatedPerson personIdent="BHGates"/>
     </RelatedPersons>
     <RelatedOrganizations>
-      <RelatedOrganization organizationIdent="Africare" />
-      <RelatedOrganization organizationIdent="WBG" />
-      <RelatedOrganization organizationIdent="WHO" />
-      <RelatedOrganization organizationIdent="DWB" />
+      <RelatedOrganization organizationIdent="Africare"/>
+      <RelatedOrganization organizationIdent="WBG"/>
+      <RelatedOrganization organizationIdent="WHO"/>
+      <RelatedOrganization organizationIdent="DWB"/>
     </RelatedOrganizations>
   </Crisis>
 
   <Crisis crisisIdent="HT1900">
     <Name>Human Trafficking</Name>
-    <Kind crisisKindIdent="TOC" />
+    <Kind crisisKindIdent="TOC"/>
     <Location>
       <Country>Global, no country excluded</Country>
     </Location>
@@ -86,19 +86,19 @@
       <ExternalLinkURL>http://www.humantrafficking.org</ExternalLinkURL>
     </ExternalResources>
     <RelatedPersons>
-      <RelatedPerson personIdent="BHGates" /> 
-      <RelatedPerson personIdent="Bono" />
+      <RelatedPerson personIdent="BHGates"/> 
+      <RelatedPerson personIdent="Bono"/>
     </RelatedPersons>
     <RelatedOrganizations>
-      <RelatedOrganization organizationIdent="WBG" />
-      <RelatedOrganization organizationIdent="WHO" />
-      <RelatedOrganization organizationIdent="NATO" />
+      <RelatedOrganization organizationIdent="WBG"/>
+      <RelatedOrganization organizationIdent="WHO"/>
+      <RelatedOrganization organizationIdent="NATO"/>
     </RelatedOrganizations>
   </Crisis>
 
   <Crisis crisisIdent="HO1930">
     <Name>Holocaust</Name>
-    <Kind crisisKindIdent="GE" />
+    <Kind crisisKindIdent="GE"/>
     <Location>
       <Country>France, Germany, United Kingdom, Poland</Country>
     </Location>
@@ -118,16 +118,16 @@
       <ExternalLinkURL>http://www.ushmm.org/wlc/en/article.php?Module=10005143</ExternalLinkURL>
     </ExternalResources>
     <RelatedPersons>
-      <RelatedPerson personIdent="AHitler" />
+      <RelatedPerson personIdent="AHitler"/>
     </RelatedPersons>
     <RelatedOrganizations>
-      <RelatedOrganization organizationIdent="AI" />
+      <RelatedOrganization organizationIdent="AI"/>
     </RelatedOrganizations>
   </Crisis>
   
   <Crisis crisisIdent="CM1962">
     <Name>Cuban Missile Crisis</Name>
-    <Kind crisisKindIdent="PC" />
+    <Kind crisisKindIdent="PC"/>
     <Location>
       <Country>Cuba </Country>
     </Location>
@@ -138,7 +138,7 @@
       <Type>Death</Type>
       <Number>1 </Number>
     </HumanImpact>
-    <EconomicImpact />
+    <EconomicImpact/>
     <ExternalResources>
       <ImageURL>http://en.wikipedia.org/wiki/File:Soviet-R-12-nuclear-ballistic_missile.jpg</ImageURL>
       <VideoURL>http://www.nbcnews.com/video/nightly-news/49510565#49510565</VideoURL>
@@ -146,18 +146,18 @@
       <ExternalLinkURL>http://www.facebook.com/events/156960544442243/</ExternalLinkURL>
     </ExternalResources>
     <RelatedPersons>
-      <RelatedPerson personIdent="FCastro" />
-      <RelatedPerson personIdent="JFKennedy" />
+      <RelatedPerson personIdent="FCastro"/>
+      <RelatedPerson personIdent="JFKennedy"/>
     </RelatedPersons>
     <RelatedOrganizations>
-      <RelatedOrganization organizationIdent="WBG" />
-      <RelatedOrganization organizationIdent="USCG" />
+      <RelatedOrganization organizationIdent="WBG"/>
+      <RelatedOrganization organizationIdent="USCG"/>
     </RelatedOrganizations> 
   </Crisis>
 
   <Crisis crisisIdent="HK2005">
     <Name>Hurricane Katrina</Name>
-    <Kind crisisKindIdent="ND" />
+    <Kind crisisKindIdent="ND"/>
     <Location>
       <Region>Louisiana</Region>
       <Country>USA</Country>
@@ -177,19 +177,19 @@
       <ExternalLinkURL>http://www.ncdc.noaa.gov/special-reports/katrina.html</ExternalLinkURL>
     </ExternalResources>
     <RelatedPersons>
-      <RelatedPerson personIdent="GWBush" />
-      <RelatedPerson personIdent="Bono" />
+      <RelatedPerson personIdent="GWBush"/>
+      <RelatedPerson personIdent="Bono"/>
     </RelatedPersons>
       <RelatedOrganizations>
-      <RelatedOrganization organizationIdent="DWB" />
-      <RelatedOrganization organizationIdent="ARC" />
-      <RelatedOrganization organizationIdent="USCG" />
+      <RelatedOrganization organizationIdent="DWB"/>
+      <RelatedOrganization organizationIdent="ARC"/>
+      <RelatedOrganization organizationIdent="USCG"/>
     </RelatedOrganizations>  
   </Crisis>
   
   <Crisis crisisIdent="EV2010">
     <Name>2010 eruptions of Eyjafjallajokull</Name>
-    <Kind crisisKindIdent="ND" />
+    <Kind crisisKindIdent="ND"/>
     <Location>
       <Country>Iceland</Country>
     </Location>
@@ -211,7 +211,7 @@ some effects on the farming industry in Iceland.</EconomicImpact>
 	
   <Crisis crisisIdent="ER2011">
     <Name>2011 Egyptian Revolution</Name>
-    <Kind crisisKindIdent="RE" />
+    <Kind crisisKindIdent="RE"/>
     <Location>
       <Country>Egypt</Country>
     </Location>
@@ -237,13 +237,13 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
       <ExternalLinkURL>http://www.periscopepost.com/2011/01/egypts-revolution-economic-doom/</ExternalLinkURL>
     </ExternalResources>
     <RelatedOrganizations>
-      <RelatedOrganization organizationIdent="AI" />
+      <RelatedOrganization organizationIdent="AI"/>
     </RelatedOrganizations>
   </Crisis>
   
   <Crisis crisisIdent="VW1975">
     <Name>Vietnam War</Name>
-    <Kind crisisKindIdent="WAR" />
+    <Kind crisisKindIdent="WAR"/>
     <Location>
       <Country>Vietnam</Country>
     </Location>
@@ -257,20 +257,20 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
       <Type>Death</Type>
       <Number>1102000</Number>
     </HumanImpact>
-    <EconomicImpact />
+    <EconomicImpact/>
     <ExternalResources>
       <ImageURL>http://www.us-history.com/wp-content/uploads/2012/03/us-history-vietnam-war.jpg</ImageURL>
       <MapURL>http://www.english.illinois.edu/maps/vietnam/maps.htm</MapURL>
       <ExternalLinkURL>http://www.pbs.org/wgbh/amex/vietnam/</ExternalLinkURL>
     </ExternalResources>
     <RelatedPersons>
-      <RelatedPerson personIdent="JFKennedy" />
+      <RelatedPerson personIdent="JFKennedy"/>
     </RelatedPersons>
   </Crisis>
 
   <Crisis crisisIdent="MD2006">
     <Name>Mexican Drug War</Name>
-    <Kind crisisKindIdent="WAR" />
+    <Kind crisisKindIdent="WAR"/>
     <Location>
       <Country>Mexico</Country>
     </Location>
@@ -281,20 +281,20 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
       <Type>Death </Type>
       <Number>60000</Number>
     </HumanImpact>
-    <EconomicImpact />
+    <EconomicImpact/>
     <ExternalResources>
       <ImageURL>http://upload.wikimedia.org/wikipedia/commons/6/6e/Fuerza_del_Estado_Michoac%C3%A1n.jpg</ImageURL>
       <MapURL>http://media.economist.com/sites/default/files/routes_0.png?1353588291</MapURL>
       <ExternalLinkURL>http://www.cfr.org/mexico/mexicos-drug-war/p13689</ExternalLinkURL>
     </ExternalResources>
     <RelatedOrganizations>
-      <RelatedOrganization organizationIdent="MG" />
+      <RelatedOrganization organizationIdent="MG"/>
     </RelatedOrganizations> 
   </Crisis>
 
   <Organization organizationIdent="DWB">
     <Name>Doctors Without Borders</Name>
-    <Kind organizationKindIdent="HO" />
+    <Kind organizationKindIdent="HO"/>
     <Location>
       <Country>Global</Country>
     </Location>
@@ -317,16 +317,16 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
       <SocialNetworkURL>https://www.facebook.com/msf.english</SocialNetworkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="HK2005" />
-      <RelatedCrisis crisisIdent="AI1970" />
-      <RelatedCrisis crisisIdent="SY2011" />
-      <RelatedCrisis crisisIdent="VW1975" />
+      <RelatedCrisis crisisIdent="HK2005"/>
+      <RelatedCrisis crisisIdent="AI1970"/>
+      <RelatedCrisis crisisIdent="SY2011"/>
+      <RelatedCrisis crisisIdent="VW1975"/>
     </RelatedCrises>
   </Organization>
 
   <Organization organizationIdent="WBG">
     <Name>World Bank Group</Name>
-    <Kind organizationKindIdent="IO" />
+    <Kind organizationKindIdent="IO"/>
     <Location>
       <Country>Third world countries</Country> 	
     </Location>
@@ -338,7 +338,7 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
       <PostalAddress>
         <StreetAddress>The World Bank 1818 H Street, N.W.</StreetAddress>
         <Locality>Washington D.C.</Locality>
-        <Region />
+        <Region/>
         <PostalCode>20433</PostalCode>
         <Country>USA</Country>
       </PostalAddress>
@@ -349,14 +349,14 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
       <MapURL>http://maps.worldbank.org/</MapURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="AI1970" />
-      <RelatedCrisis crisisIdent="VW1975" />
+      <RelatedCrisis crisisIdent="AI1970"/>
+      <RelatedCrisis crisisIdent="VW1975"/>
     </RelatedCrises>
   </Organization>
 
   <Organization organizationIdent="Africare">
     <Name>Africare</Name>
-    <Kind organizationKindIdent="HO" />
+    <Kind organizationKindIdent="HO"/>
     <Location>
       <Country>All African countries</Country>
     </Location>
@@ -368,7 +368,7 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
       <PostalAddress>
         <StreetAddress>Africare House, 40 R Street, N.W.</StreetAddress>
         <Locality>Washington D.C.</Locality>
-        <Region />
+        <Region/>
         <PostalCode>20001</PostalCode>
         <Country>USA</Country>
       </PostalAddress>
@@ -380,13 +380,13 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
       <SocialNetworkURL>http://www.facebook.com/Africaremedia</SocialNetworkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="AI1970" />
+      <RelatedCrisis crisisIdent="AI1970"/>
     </RelatedCrises>
   </Organization>
 
   <Organization organizationIdent="HTAP">
     <Name>Human Trafficking Awareness Partnership</Name>
-    <Kind organizationKindIdent="HO" />
+    <Kind organizationKindIdent="HO"/>
     <Location>
       <Locality>Sanibel</Locality>
       <Region>Florida</Region>
@@ -411,26 +411,26 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
       <SocialNetworkURL>http://www.facebook.com/humantraffickingawarenesspartnerships</SocialNetworkURL>
     </ExternalResources>
     <RelatedCrises>
-    <RelatedCrisis crisisIdent="HT1900" />
+    <RelatedCrisis crisisIdent="HT1900"/>
     </RelatedCrises>
   </Organization>
 
   <Organization organizationIdent="NATO">
     <Name>NATO</Name>
-    <Kind organizationKindIdent="MA" />
+    <Kind organizationKindIdent="MA"/>
     <Location>
       <Locality>Brussels</Locality>
       <Country>Belgium</Country>
     </Location>
-    <History>For its first few years, NATO was not much more than a political association. However, the Korean War galvanized the member states, and an integrated military structure was built up under the direction of two US supreme commanders. The course of the Cold War led to a rivalry with nations of the Warsaw Pact, which formed in 1955. The first NATO Secretary General, Lord Ismay, stated in 1949 that the organization's goal was &quot;to keep the Russians out, the Americans in, and the Germans down.&quot;[4] Doubts over the strength of the relationship between the European states and the United States ebbed and flowed, along with doubts over the credibility of the NATO defence against a prospective Soviet invasion&#8212;doubts that led to the development of the independent French nuclear deterrent and the withdrawal of the French from NATO's military structure in 1966.</History>
+    <History>For its first few years, NATO was not much more than a political association. However, the Korean War galvanized the member states, and an integrated military structure was built up under the direction of two US supreme commanders. The course of the Cold War led to a rivalry with nations of the Warsaw Pact, which formed in 1955. The first NATO Secretary General, Lord Ismay, stated in 1949 that the organization's goal was to keep the Russians out, the Americans in, and the Germans down. Doubts over the strength of the relationship between the European states and the United States ebbed and flowed, along with doubts over the credibility of the NATO defence against a prospective Soviet invasion doubts that led to the development of the independent French nuclear deterrent and the withdrawal of the French from NATO's military structure in 1966.</History>
     <ContactInfo>
-      <Telephone />
-      <Fax />
-      <Email />
+      <Telephone/>
+      <Fax/>
+      <Email/>
       <PostalAddress>
-        <StreetAddress />
+        <StreetAddress/>
         <Locality>Brussels</Locality>
-        <Region />
+        <Region/>
         <PostalCode>1110</PostalCode>
         <Country>Belgium</Country>
       </PostalAddress>
@@ -441,20 +441,20 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
       <SocialNetworkURL>http://www.facebook.com/NATO?sid=0.2535960127133876</SocialNetworkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="ER2011" />
-      <RelatedCrisis crisisIdent="SY2011" />
+      <RelatedCrisis crisisIdent="ER2011"/>
+      <RelatedCrisis crisisIdent="SY2011"/>
     </RelatedCrises>
     <RelatedPersons>
-      <RelatedPerson personIdent="Bono" />
-      <RelatedPerson personIdent="BHGates" />
-      <RelatedPerson personIdent="JFKennedy" />
-      <RelatedPerson personIdent="NMandela" />
+      <RelatedPerson personIdent="Bono"/>
+      <RelatedPerson personIdent="BHGates"/>
+      <RelatedPerson personIdent="JFKennedy"/>
+      <RelatedPerson personIdent="NMandela"/>
     </RelatedPersons>
   </Organization>
 
   <Organization organizationIdent="WHO">
     <Name>World Health Organization</Name>
-    <Kind organizationKindIdent="PHA" />
+    <Kind organizationKindIdent="PHA"/>
     <Location>
       <Locality>Geneva</Locality>
       <Country>Switzerland</Country>
@@ -463,11 +463,11 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
     <ContactInfo>
       <Telephone>+41 22 791 21 11</Telephone>
       <Fax>+41 22 791 31 11</Fax>
-      <Email />
+      <Email/>
       <PostalAddress>
         <StreetAddress>Avenue Appia 20</StreetAddress>
         <Locality>Geneva</Locality>
-        <Region />
+        <Region/>
         <PostalCode>1211</PostalCode>
         <Country>Switzerland</Country>
       </PostalAddress>
@@ -480,16 +480,16 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
       <ExternalLinkURL>http://www.who.int/</ExternalLinkURL>
     </ExternalResources>
     <RelatedCrises>
-    <RelatedCrisis crisisIdent="AI1970" />
+    <RelatedCrisis crisisIdent="AI1970"/>
     </RelatedCrises>
     <RelatedPersons>
-      <RelatedPerson personIdent="BHGates" />
+      <RelatedPerson personIdent="BHGates"/>
     </RelatedPersons>
   </Organization>
   
   <Organization organizationIdent="AI">
     <Name>Amnesty International</Name>
-    <Kind organizationKindIdent="IO" />
+    <Kind organizationKindIdent="IO"/>
     <Location>
       <Locality>London</Locality>
       <Country>United Kingdom</Country>
@@ -498,12 +498,12 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
     <ContactInfo>
       <Telephone>+44 20 74135500</Telephone>
       <Fax>+44 20 79561157</Fax>
-      <Email />
+      <Email/>
       <PostalAddress>
 	<StreetAddress>1 Easton Street</StreetAddress>
 	<Locality>London</Locality>
-	<Region />
-	<PostalCode />
+	<Region/>
+	<PostalCode/>
 	<Country>United Kingdom</Country>
       </PostalAddress>
     </ContactInfo>
@@ -514,24 +514,24 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
       <ExternalLinkURL>https://www.amnesty.org</ExternalLinkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="AI1970" />
-      <RelatedCrisis crisisIdent="ER2011" />
-      <RelatedCrisis crisisIdent="HT1900" />
-      <RelatedCrisis crisisIdent="SY2011" />
+      <RelatedCrisis crisisIdent="AI1970"/>
+      <RelatedCrisis crisisIdent="ER2011"/>
+      <RelatedCrisis crisisIdent="HT1900"/>
+      <RelatedCrisis crisisIdent="SY2011"/>
     </RelatedCrises>
   </Organization>
 	
   <Organization organizationIdent="USCG">
     <Name>United States Coast Guard</Name>
-    <Kind organizationKindIdent="GMB" />
+    <Kind organizationKindIdent="GMB"/>
     <Location>
       <Country>United States</Country>
     </Location>
     <History>The roots of the Coast Guard lie in the United States Revenue Cutter Service established by Alexander Hamilton under the Department of the Treasury on 4 August 1790. The first Coast Guard station was in Newburyport, Massachusetts. Until the re-establishment of the United States Navy in 1798, the Revenue Cutter Service was the only naval force of the early United States. It was established to collect taxes from a brand new nation of patriot smugglers. When the officers were out at sea, they were told to crack down on piracy; while they were at it, they might as well rescue anyone in distress.</History>
     <ContactInfo>
-      <Telephone />
-      <Fax />
-      <Email />
+      <Telephone/>
+      <Fax/>
+      <Email/>
       <PostalAddress>
 	<StreetAddress>2100 2nd St SW #7102</StreetAddress>
 	<Locality>Washington</Locality>
@@ -549,21 +549,21 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
       <ExternalLinkURL>https://www.uscg.mil</ExternalLinkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="HK2005" />
+      <RelatedCrisis crisisIdent="HK2005"/>
     </RelatedCrises>
   </Organization>  
   
   <Organization organizationIdent="ARC">
     <Name>American Red Cross</Name>
-    <Kind organizationKindIdent="HO" />
+    <Kind organizationKindIdent="HO"/>
     <Location>
       <Country>USA</Country>
     </Location>
     <History>The American Red Cross (ARC), also known as the American National Red Cross, is a humanitarian organization that provides emergency assistance, disaster relief and education inside the United States. It is the designated U.S. affiliate of the International Federation of Red Cross and Red Crescent Societies.</History>
     <ContactInfo>
       <Telephone>1 800 733 2767</Telephone>
-      <Fax />
-      <Email />
+      <Fax/>
+      <Email/>
       <PostalAddress>
         <StreetAddress>American Red Cross 2025 E Street</StreetAddress>
         <Locality>Washington D.C.</Locality>
@@ -579,26 +579,26 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
       <ExternalLinkURL>http://www.redcross.org/</ExternalLinkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="HK2005" />
-      <RelatedCrisis crisisIdent="AI1970" />
+      <RelatedCrisis crisisIdent="HK2005"/>
+      <RelatedCrisis crisisIdent="AI1970"/>
     </RelatedCrises>
   </Organization>
 
   <Organization organizationIdent="MG">
     <Name>Mexican Government</Name>
-    <Kind organizationKindIdent="NG" />
+    <Kind organizationKindIdent="NG"/>
     <Location>
       <Country>Mexico</Country>
     </Location>
     <History>Mexico, officially the United Mexican States is a federal constitutional republic in North America. It is bordered on the north by the United States of America; on the south and west by the Pacific Ocean; on the southeast by Guatemala, Belize, and the Caribbean Sea; and on the east by the Gulf of Mexico.</History>
     <ContactInfo>
-      <Telephone />
-      <Fax />
-      <Email />
+      <Telephone/>
+      <Fax/>
+      <Email/>
       <PostalAddress>
-        <StreetAddress />
+        <StreetAddress/>
         <Locality>Mexico City</Locality>
-	<Region />
+	<Region/>
 	<PostalCode>0016</PostalCode>
 	<Country>Mexico</Country>
       </PostalAddress>
@@ -609,9 +609,9 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
       <ExternalLinkURL>http://www.mexonline.com/mexagncy.htm</ExternalLinkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="CM1962" />
-      <RelatedCrisis crisisIdent="MD2006" />
-      <RelatedCrisis crisisIdent="HT1900" />
+      <RelatedCrisis crisisIdent="CM1962"/>
+      <RelatedCrisis crisisIdent="MD2006"/>
+      <RelatedCrisis crisisIdent="HT1900"/>
     </RelatedCrises>
   </Organization>
 
@@ -620,7 +620,7 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
       <FirstName>Adolf</FirstName>
       <LastName>Hitler</LastName>
     </Name>
-    <Kind personKindIdent="DI" />
+    <Kind personKindIdent="DI"/>
     <Location>
       <Locality>Braunau am Inn</Locality>
       <Country>Germany</Country>
@@ -633,7 +633,7 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
       <MapURL>http://goo.gl/maps/UDZSW</MapURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="HO1930" />
+      <RelatedCrisis crisisIdent="HO1930"/>
     </RelatedCrises>
   </Person>
 
@@ -642,7 +642,7 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
       <FirstName>Nelson</FirstName>
       <LastName>Mandela</LastName>
     </Name>
-    <Kind personKindIdent="PR" />
+    <Kind personKindIdent="PR"/>
     <Location>
       <Locality>Transkei</Locality>
       <Country>South Africa</Country>
@@ -654,12 +654,12 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
       <ExternalLinkURL>http://www.nelsonmandela.org</ExternalLinkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="AI1970" />
+      <RelatedCrisis crisisIdent="AI1970"/>
     </RelatedCrises>
     <RelatedOrganizations>
-      <RelatedOrganization organizationIdent="Africare" />
-      <RelatedOrganization organizationIdent="WHO" />
-      <RelatedOrganization organizationIdent="AI" />
+      <RelatedOrganization organizationIdent="Africare"/>
+      <RelatedOrganization organizationIdent="WHO"/>
+      <RelatedOrganization organizationIdent="AI"/>
     </RelatedOrganizations>
   </Person>
 
@@ -669,7 +669,7 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
       <MiddleName>Fitzgerald</MiddleName>
       <LastName>Kennedy</LastName>
     </Name>
-    <Kind personKindIdent="PR" />
+    <Kind personKindIdent="PR"/>
     <Location>
       <Locality>Brookline</Locality>
       <Region>Massachusetts</Region>
@@ -681,11 +681,11 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
       <MapURL>http://goo.gl/maps/xFGPn</MapURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="CM1962" />
-      <RelatedCrisis crisisIdent="VW1975" />
+      <RelatedCrisis crisisIdent="CM1962"/>
+      <RelatedCrisis crisisIdent="VW1975"/>
     </RelatedCrises>
     <RelatedOrganizations>
-      <RelatedOrganization organizationIdent="NATO" />
+      <RelatedOrganization organizationIdent="NATO"/>
     </RelatedOrganizations>
   </Person>
 
@@ -695,7 +695,7 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
       <MiddleName>Walker</MiddleName>
       <LastName>Bush</LastName>
     </Name>
-    <Kind personKindIdent="PR" />
+    <Kind personKindIdent="PR"/>
     <Location>
       <Locality>New Haven</Locality>
       <Region>Connecticut</Region>
@@ -707,10 +707,10 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
       <MapURL>http://goo.gl/maps/xFGPn</MapURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="HK2005" />
+      <RelatedCrisis crisisIdent="HK2005"/>
     </RelatedCrises>
     <RelatedOrganizations>
-      <RelatedOrganization organizationIdent="NATO" />
+      <RelatedOrganization organizationIdent="NATO"/>
     </RelatedOrganizations>  
   </Person>
 
@@ -720,7 +720,7 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
       <MiddleName>Dale</MiddleName>
       <LastName>Huckabee</LastName>
     </Name>
-    <Kind personKindIdent="GO" />
+    <Kind personKindIdent="GO"/>
     <Location>
       <Locality>Hope</Locality>
       <Region>Arkansas</Region>
@@ -732,7 +732,7 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
       <MapURL>http://goo.gl/maps/w8ka3</MapURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="HK2005" />
+      <RelatedCrisis crisisIdent="HK2005"/>
     </RelatedCrises>
   </Person>
 
@@ -742,7 +742,7 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
       <MiddleName>Henry</MiddleName>
       <LastName>Gates</LastName>
     </Name>
-    <Kind personKindIdent="PH" />
+    <Kind personKindIdent="PH"/>
     <Location>
       <Locality>Seatle</Locality>
       <Region>Washington</Region>
@@ -754,11 +754,11 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
       <MapURL>http://goo.gl/maps/n7rnd</MapURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="AI1970" />
-      <RelatedCrisis crisisIdent="HT1900" />
+      <RelatedCrisis crisisIdent="AI1970"/>
+      <RelatedCrisis crisisIdent="HT1900"/>
     </RelatedCrises>
     <RelatedOrganizations>
-      <RelatedOrganization organizationIdent="WHO" />
+      <RelatedOrganization organizationIdent="WHO"/>
     </RelatedOrganizations>
   </Person>
   
@@ -767,7 +767,7 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
       <FirstName>Paul</FirstName>
       <LastName>Hewson</LastName>
     </Name>
-    <Kind personKindIdent="PH" />
+    <Kind personKindIdent="PH"/>
     <Location>
       <Locality>Killiney</Locality>
       <Country>Ireland</Country>
@@ -779,12 +779,12 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
       <ExternalLinkURL>https://www.u2.com</ExternalLinkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="AI1970" />
-	  <RelatedCrisis crisisIdent="HT1900" />
+      <RelatedCrisis crisisIdent="AI1970"/>
+	  <RelatedCrisis crisisIdent="HT1900"/>
     </RelatedCrises>
     <RelatedOrganizations>
-      <RelatedOrganization organizationIdent="WHO" />
-      <RelatedOrganization organizationIdent="WBG" />
+      <RelatedOrganization organizationIdent="WHO"/>
+      <RelatedOrganization organizationIdent="WBG"/>
     </RelatedOrganizations>
   </Person>
 
@@ -793,7 +793,7 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
       <FirstName>Sergey</FirstName>
       <LastName>Lavrov</LastName>
     </Name>
-    <Kind personKindIdent="PH" />
+    <Kind personKindIdent="PH"/>
     <Location>
       <Locality>Moscow</Locality>
       <Country>Russia</Country>
@@ -804,10 +804,10 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
       <ExternalLinkURL>http://www.eng.mvdrf.ru/</ExternalLinkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="SY2011" />
+      <RelatedCrisis crisisIdent="SY2011"/>
     </RelatedCrises>
     <RelatedOrganizations>
-      <RelatedOrganization organizationIdent="NATO" />
+      <RelatedOrganization organizationIdent="NATO"/>
     </RelatedOrganizations>
   </Person>
 
@@ -816,7 +816,7 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
       <FirstName>Fidel</FirstName>
       <LastName>Castro</LastName>
     </Name>
-    <Kind personKindIdent="DI" />
+    <Kind personKindIdent="DI"/>
     <Location>
       <Locality>Havana</Locality>
       <Country>Cuba</Country>
@@ -828,10 +828,10 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
       <ExternalLinkURL>http://www.eng.mvdrf.ru/</ExternalLinkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="CM1962" />
+      <RelatedCrisis crisisIdent="CM1962"/>
     </RelatedCrises>
     <RelatedOrganizations>
-      <RelatedOrganization organizationIdent="NATO" />
+      <RelatedOrganization organizationIdent="NATO"/>
     </RelatedOrganizations>
   </Person>
 
@@ -841,7 +841,7 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
       <MiddleName>Hussein</MiddleName>
       <LastName>Obama</LastName>
     </Name>
-    <Kind personKindIdent="PR" />
+    <Kind personKindIdent="PR"/>
     <Location>
       <Locality>Washington D.C.</Locality>
       <Country>United States of America</Country>
@@ -852,10 +852,10 @@ Egypt's major cities. There has also been a negative effect on Egypt's tourist i
       <ExternalLinkURL>http://www.whitehouse.gov</ExternalLinkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="SY2011" />
+      <RelatedCrisis crisisIdent="SY2011"/>
     </RelatedCrises>
     <RelatedOrganizations>
-      <RelatedOrganization organizationIdent="NATO" />
+      <RelatedOrganization organizationIdent="NATO"/>
     </RelatedOrganizations>
   </Person>
 

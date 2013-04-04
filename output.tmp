@@ -1,14 +1,2 @@
-None
-('Crisis ', None)
-('Org ', None)
-('Person ', None)
-('Location ', None)
-('Kind ', None)
-('External ', None)
-('PersonRelation ', None)
-('Crisis Relation ', None)
-('OrgRelation ', None)
-('HumanImpact ', None)
-('ResroucesNeeded ', None)
-('WaystoHelp ', None)
-(('Crisis',), ('CrisisRelation',), ('ExternalResources',), ('HumanImpact',), ('Kind',), ('Location',), ('Organization',), ('OrganizationRelation',), ('Person',), ('PersonRelation',), ('ResourcesNeeded',), ('WaysToHelp',))
+(('SY2011', 'Syrian Civil War ', 'WAR', '2011-03-15 00:00:00', '0000-00-00 00:00:00', '0'),)
+SY2011Syrian Civil War WAR2011-03-15NoneNone
