@@ -167,6 +167,169 @@
 </WorldCrises>
 
 <WorldCrises>
+  <Crisis crisisIdent = "EC1000">
+    <Name></Name>
+    <Kind crisisKindIdent = "E"/>
+    <Location>
+      <Country></Country>
+    </Location>
+    <StartDateTime>
+      <Date>1000-01-01</Date>
+    </StartDateTime>
+    <HumanImpact>
+      <Type></Type>
+      <Number>0</Number>
+    </HumanImpact>
+    <EconomicImpact />
+    <ExternalResources>
+    </ExternalResources>
+  </Crisis>
+
+  <Organization organizationIdent="EO">
+    <Name></Name>
+    <Kind organizationKindIdent="E" />
+    <Location>
+      <Country></Country>
+    </Location>
+    <History></History>
+    <ContactInfo>
+      <Telephone />
+      <Fax />
+      <Email />
+      <PostalAddress>
+	<StreetAddress></StreetAddress>
+	<Locality></Locality>
+	<Region></Region>
+	<PostalCode></PostalCode>
+	<Country></Country>
+      </PostalAddress>
+    </ContactInfo>
+    <ExternalResources>
+    </ExternalResources>
+  </Organization>  
+
+  <Person personIdent="EPerson">
+    <Name>
+      <FirstName></FirstName>
+      <MiddleName></MiddleName>
+      <LastName></LastName>
+    </Name>
+    <Kind personKindIdent="E" />
+    <Location>
+      <Locality></Locality>
+      <Country></Country>
+    </Location>
+    <ExternalResources>
+    </ExternalResources>
+  </Person>
+
+  <CrisisKind crisisKindIdent="E">
+    <Name></Name>
+    <Description></Description>
+  </CrisisKind>
+
+  <OrganizationKind organizationKindIdent="E">
+    <Name></Name>
+    <Description></Description>
+  </OrganizationKind>
+
+  <PersonKind personKindIdent="E">
+    <Name></Name>
+    <Description></Description>
+  </PersonKind>
+
+</WorldCrises>
+
+<WorldCrises>
+
+  <Crisis crisisIdent = "MS4500">
+    <Name>Meteor Strike</Name>
+    <Kind crisisKindIdent = "ND"/>
+    <Location>
+      <Country>Pangaea</Country>
+    </Location>
+    <StartDateTime>
+      <Date>4500-01-01</Date>
+    </StartDateTime>
+    <HumanImpact>
+      <Type>Deaths</Type>
+      <Number>999999</Number>
+    </HumanImpact>
+    <EconomicImpact>Everything was wiped out...</EconomicImpact>
+    <ExternalResources>
+      <ImageURL>http://upload.wikimedia.org/wikipedia/commons/c/cb/Impact_event.jpg</ImageURL>
+      <MapURL>http://kids.earth.nasa.gov/archive/pangaea/Pangaea_game.html</MapURL>
+      <ExternalLinkURL>http://en.wikipedia.org/wiki/Cretaceous%E2%80%93Paleogene_extinction_event</ExternalLinkURL>
+    </ExternalResources>
+  </Crisis>
+
+  <Organization organizationIdent="SD">
+    <Name>Save the Dinosaurs</Name>
+    <Kind organizationKindIdent="AR" />
+    <Location>
+      <Country>Pangaea</Country>
+    </Location>
+    <History>After realizing that a meteor could destroy all life, an army of 1 was created.</History>
+    <ContactInfo>
+      <Telephone>1234567890</Telephone>
+      <Fax>0987654321</Fax>
+      <Email>www.savethedinosaurs@gmail.com</Email>
+      <PostalAddress>
+	<StreetAddress>Somewhere</StreetAddress>
+	<Locality>Over</Locality>
+	<Region>theRainbow</Region>
+	<PostalCode>0123</PostalCode>
+	<Country>Pangaea</Country>
+      </PostalAddress>
+    </ContactInfo>
+    <ExternalResources>
+      <ImageURL>http://upload.wikimedia.org/wikipedia/commons/2/2b/Various_dinosaurs2.png</ImageURL>
+      <ExternalLinkURL>http://www.savethedinosaurs.com/</ExternalLinkURL>
+    </ExternalResources>
+  </Organization>  
+
+  <CrisisKind crisisKindIdent="ND">
+    <Name>Natural Disaster</Name>
+    <Description></Description>
+  </CrisisKind>
+
+  <OrganizationKind organizationKindIdent="AR">
+    <Name>Animal Rights</Name>
+    <Description>Organization that provides animal-itarian aid</Description>
+  </OrganizationKind>
+
+</WorldCrises>
+
+<WorldCrises>
+
+  <Crisis crisisIdent = "WL2013">
+    <Name>Meteor Strike</Name>
+    <Kind crisisKindIdent = "PD"/>
+    <Location>
+      <Country>USA</Country>
+    </Location>
+    <StartDateTime>
+      <Date>2013-04-04</Date>
+    </StartDateTime>
+    <HumanImpact>
+      <Type>Utility</Type>
+      <Number>999999</Number>
+    </HumanImpact>
+    <EconomicImpact>Line rage</EconomicImpact>
+    <ExternalResources>
+      <ImageURL>http://upload.wikimedia.org/wikipedia/commons/6/61/Queue-to-the-Louvre.jpg</ImageURL>
+      <ExternalLinkURL>http://en.wikipedia.org/wiki/Queue_area</ExternalLinkURL>
+    </ExternalResources>
+  </Crisis>
+
+  <CrisisKind crisisKindIdent="PD">
+    <Name>Personal Disaster</Name>
+    <Description>WHY DO I HAVE TO WAIT IN LINE?!</Description>
+  </CrisisKind>
+
+</WorldCrises>
+
+<WorldCrises>
     <Crisis crisisIdent= "SY2011" >
         <Name>Syrian Civil War </Name>
         <Kind crisisKindIdent= "WAR" />
