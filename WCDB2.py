@@ -12,12 +12,13 @@
 import sys
 import _mysql
 import lxml.etree as ET
+import xml.etree.ElementTree
 
 # --------
 # DB Login
 # --------
 	
-a = [host, un, pw, database] 
+a = [host, un, pw, database]
    #[host, un, pw, database]
 
 def wcdb2_login ( host, un, pw, database ) :
@@ -31,7 +32,7 @@ def wcdb2_login ( host, un, pw, database ) :
 	return login
 
 # --------
-# Ask Login, IGNORE THIS FUNCTION, hardcoded a
+# Ask Login, IGNORE THIS FUNCTION, hardcoded credientials above
 # --------
 def ask ():
 	"""Asks for DB login credentials"""
@@ -64,7 +65,7 @@ def query (login, s) :
 	return t
 
 # ----------
-# wcdb2_TRead
+# wcdb2_Read
 # ---------- 
 
 def wcdb2_Read (r) :
@@ -77,19 +78,7 @@ def wcdb2_Read (r) :
 	return tree
 
 
-# ------------
-# wcdb2_write
-# ------------
 
-def wcdb2_write (w, tree) :
-	"""
-	reads an input
-	builds an element tree from string
-	"""
-	tree2 = ET.tostring(tree)
-	w.write(tree2)
-  
-	return tree
 
 
 def createDB(login):
@@ -621,8 +610,8 @@ def wcdb2_import(login, tree):
 # wcdb2_export
 # -------------
 
-def builder(tag, attrs = {}, content = ''):
-	"""builds 1 xml element"""
+def element_builder(tag, content = ''):
+	"""builds 1 xml element with attributes"""
 	builder = ET.TreeBuilder()
 	
 	builder.start(tag, {})
@@ -631,17 +620,85 @@ def builder(tag, attrs = {}, content = ''):
 	
 	return builder.close()
 
-root = builder('WorldCrises')
-
-print(ET.tostring(root))
- 
-
+def attr_builder(tag, attrs = {}):
+	"""builds 1 xml element with content"""
+	builder = ET.TreeBuilder()
+	builder.start(tag, attrs)
+	builder.end(tag)
+	
+	return builder.close()
 
 def wcdb2_export(login, tree):
 	"""Generates ElementTree from DB"""
+
+
+
+	root = element_builder('WorldCrises')
+	
+	crises = query(login, 
+	""" select *
+	from Crisis;
+	""")
+	organizations = [1]
+	people = [1]
+	criseskind = [1]
+	organizationkind = [1]
+	personkind = [1]
+	value = 'test'
+	
+
+	
+	for crisis in crises:
+		#Crisis Element
+		crisis_element = attr_builder('Crisis', {'crisisIdent': crisis[0]})
+		#Name
+		crisis_element.append(element_builder('Name', crisis[1]))
+		#Kind
+		crisis_element.append(attr_builder('Kind', {'crisisKindIdent': crisis[2]}))
+		
+		root.append(crisis_element)
+
+	for org in organizations:
+		org_element = attr_builder('Organization', {'organizationIdent': value})
+		root.append(org_element)
+	
+	for person in people:
+		person_element = attr_builder('Person', {'personIdent': value})
+		root.append(person_element)
+		
+	for crisis in criseskind:
+		crisis_element = attr_builder('CrisisKind', {'crisisKindIdent': value})
+		root.append(crisis_element)
+		
+	for org in organizationkind:
+		org_element = attr_builder('OrganizationKind', {'organizationKindIdent': value})
+		root.append(org_element)
+	
+	for person in personkind:
+		person_element = attr_builder('PersonKind', {'personKindIdent': value})
+		root.append(person_element)
+		
+	print(ET.tostring(root))
+
+
+	
+
+
 	return tree
 		
-	
+# ------------
+# wcdb2_write
+# ------------
+
+def wcdb2_write (w, tree) :
+	"""
+	reads an input
+	builds an element tree from string
+	"""
+	tree2 = ET.tostring(tree)
+	w.write('<?xml version="1.0" ?>\n' + tree2)
+	return tree
+		
 # -------------
 # wcdb2_solve
 # -------------
@@ -660,3 +717,4 @@ def wcdb2_solve (r, w) :
 	createDB(login)
 	#output2 = wcdb2_write (w, output1)
 	wcdb2_import(login, tree)
+	wcdb2_export(login, tree)
