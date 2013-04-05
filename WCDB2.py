@@ -82,6 +82,7 @@ def wcdb2_Read (r) :
 
 
 def createDB(login):
+	"""Create Needed Databases, dropping if needed"""
 
    query(login, "drop table if exists Crisis;")
    query(login, "drop table if exists Organization;")
@@ -240,6 +241,7 @@ def createDB(login):
 
 	
 def process_crisis (login, tree) :
+	"""Iterate through Crisis XML and import into DB"""
 
 	inserts = []
 	parentkey = []
@@ -344,6 +346,7 @@ def process_crisis (login, tree) :
 
 
 def process_org (login, tree) :
+	"""Iterate through Organization XML and import into DB"""
 
 	inserts = []
 	parentkey = []
@@ -424,6 +427,7 @@ def process_org (login, tree) :
 	
 	
 def process_person (login, tree) :
+	"""Iterate through Person XML and import into DB"""
 
 	inserts = []
 	parentkey = []
@@ -505,7 +509,7 @@ def process_person (login, tree) :
 	
 	
 def process_kind(login, tree) :
-
+	"""Iterate through Kind XML and import into DB"""
 
 	#Query Building CrisisKind
 	inserts = []
@@ -631,8 +635,6 @@ def attr_builder(tag, attrs = {}):
 def wcdb2_export(login):
 	"""Generates ElementTree from DB"""
 
-
-
 	root = element_builder('WorldCrises')
 	
 	crises = query(login, 
@@ -665,9 +667,9 @@ def wcdb2_export(login):
 	""")
 	value = 'test'
 	
-	# -------------
-	# Crisis Export
-	# -------------
+# -------------
+# Crisis Export
+# -------------
 	
 	for crisis in crises:
 		#Crisis Element
@@ -782,11 +784,9 @@ def wcdb2_export(login):
 
 		root.append(crisis_element)
 
-
-	# -------------
-	# Organizations Export
-	# -------------
-
+# -------------
+# Organizations Export
+# -------------
 
 	for organization in organizations:
 
@@ -913,16 +913,11 @@ def wcdb2_export(login):
 		org_element.append(related_element)	
 
 		root.append(org_element)		
-	
 
+# -------------
+# Person Export
+# -------------
 
-
-	# -------------
-	# Person Export
-	# -------------
-	
-
-	
 	for person in people:
 		person_element = attr_builder('Person', {'personIdent': value})
 
@@ -1070,7 +1065,7 @@ def wcdb2_export(login):
 		
 	root.append(person_element)
 		
-	print(ET.tostring(root, pretty_print=True))
+	#print(ET.tostring(root, pretty_print=True))
 	return root
 		
 # ------------
