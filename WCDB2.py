@@ -759,7 +759,6 @@ def wcdb2_export(login):
 		#RelatedPersons
 		s = 'select * from CrisisRelation where (CrisisRelation.crisisIdent = "' + str(crisis[0]) + '") and (CrisisRelation.Type = "Person");'
 		related = query(login, s)
-		print(related)
 		related_element = element_builder('RelatedPersons')
 		
 		j = 0
@@ -772,7 +771,6 @@ def wcdb2_export(login):
 		#RelatedOrgs
 		s = 'select * from CrisisRelation where (CrisisRelation.crisisIdent = "' + str(crisis[0]) + '") and (CrisisRelation.Type = "Organization");'
 		related = query(login, s)
-		print(related)
 		related_element = element_builder('RelatedOrganizations')
 		
 		j = 0
@@ -892,7 +890,6 @@ def wcdb2_export(login):
 		#RelatedCrisis
 		s = 'select * from OrganizationRelation where (OrganizationRelation.organizationIdent = "' + str(organization[0]) + '") and (OrganizationRelation.Type = "Crisis");'
 		related = query(login, s)
-		print(related)
 		related_element = element_builder('RelatedCrises')
 		
 		j = 0
@@ -906,7 +903,6 @@ def wcdb2_export(login):
 		#RelatedPersons
 		s = 'select * from OrganizationRelation where (OrganizationRelation.organizationIdent = "' + str(organization[0]) + '") and (OrganizationRelation.Type = "Person");'
 		related = query(login, s)
-		print(related)
 		related_element = element_builder('RelatedPersons')
 		
 		j = 0
@@ -1002,7 +998,6 @@ def wcdb2_export(login):
 		#RelatedCrisis
 		s = 'select * from PersonRelation where (PersonRelation.personIdent = "' + str(person[0]) + '") and (PersonRelation.Type = "Crisis");'
 		related = query(login, s)
-		print(related)
 		related_element = element_builder('RelatedCrises')
 		
 		j = 0
@@ -1016,7 +1011,6 @@ def wcdb2_export(login):
 		#RelatedOrgs
 		s = 'select * from CrisisRelation where (CrisisRelation.crisisIdent = "' + str(crisis[0]) + '") and (CrisisRelation.Type = "Organization");'
 		related = query(login, s)
-		print(related)
 		related_element = element_builder('RelatedOrganizations')
 		
 		j = 0
@@ -1035,32 +1029,48 @@ def wcdb2_export(login):
 	i = 0
 	j = 0
 	k = 0
-	print(crisiskind)
 	
 	for crisis in crisiskind:
 	
 		crisis_element = attr_builder('CrisisKind', {'crisisKindIdent': str(crisiskind[i][0])})
+		
+		#Name
+		crisis_element.append(element_builder('Name',crisiskind[i][2]))
+		
+		#Description
+		crisis_element.append(element_builder('Description',crisiskind[i][3]))
 		i+=1
+
+
 	root.append(crisis_element)
 
 		
 	for org in organizationkind:
 		org_element = attr_builder('OrganizationKind', {'organizationKindIdent': str(organizationkind[j][0])})
+		
+		#Name
+		org_element.append(element_builder('Name',organizationkind[j][2]))
+		
+		#Description
+		org_element.append(element_builder('Description',organizationkind[j][3]))
 		j+=1
+		
 	root.append(org_element)
 
-	
+
 	for person in personkind:
 		person_element = attr_builder('PersonKind', {'personKindIdent': str(personkind[k][0])})
+		
+		#Name
+		person_element.append(element_builder('Name',personkind[k][2]))
+		
+		#Description
+		person_element.append(element_builder('Description',personkind[k][3]))
 		k+=1
+		
 	root.append(person_element)
 		
 	print(ET.tostring(root, pretty_print=True))
-
-
-	
-
-
 	return root
 		
 # ------------
