@@ -62,13 +62,29 @@ class TestWCDB1(unittest.TestCase):
   # test query
   #-----------
 
-  def test_query1(self):
+  def test_query1(c, s):
+    login = "<type '_mysql.connection'>"
     s = "select * from cs327e_taylor"
-    assert type(s) is str
-
-  #def test_query2(c, "select * from cs327e_taylor"):
-
-  #def test_query3(c, "select * from cs327e_taylor"):
+    r = login.use_result()
+    self.assert_(str(type(login))) == "<type '_mysql.connection'>"
+    self.assert_(type(s)) is str
+    self.assert_(r) != None
+    
+  def test_query2(c, s):
+      login = "<type '_mysql.connection'>"
+      s = ""
+      r = None
+      self.assert_(str(type(login))) == "<type '_mysql.connection'>"
+      self.assert_(type(s)) == ""
+      self.assert_(r) == None
+    
+  def test_query3(c, s):
+      login = "<type '_mysql.connection'>"
+      s = "select * from wrongtable"
+      r = login.use_result()
+      self.assert_(str(type(login))) == "<type '_mysql.connection'>"
+      self.assert_(type(s)) == "select * from wrongtable"
+      self.assert_(r) != None
 
   #-----------
   # test createDB
