@@ -40,7 +40,7 @@ class TestWCDB1(unittest.TestCase):
           user = "Us3r",
           passwd = "BaNaNa",
           db = "cs327e_taylor")
-   self.assert_(str(type(c)) == "<type '_mysql.connection'>")
+  self.assert_(str(type(c)) == "<type '_mysql.connection'>")
 
   def test_wcdb2_login2 (self) :
         c = _mysql.connect(
