@@ -14,7 +14,7 @@ log:
 	git log > WCDB2.log
 
 run:
-	python RunWCDB2.py < RunWCDB2.in.xml > output.tmp
+	python RunWCDB2.py < RunWCDB2.xml
 
 test:
 	python TestWCDB2.py

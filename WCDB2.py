@@ -18,7 +18,7 @@ import xml.etree.ElementTree
 # DB Login
 # --------
 	
-a = [host, un, pw, database]
+a = ["z","taylor","nVZV4bLhpG","cs327e_taylor"] 
    #[host, un, pw, database]
 
 def wcdb2_login ( host, un, pw, database ) :
@@ -31,21 +31,6 @@ def wcdb2_login ( host, un, pw, database ) :
 	assert str(type(login)) == "<type '_mysql.connection'>"
 	return login
 
-# --------
-# Ask Login, IGNORE THIS FUNCTION, hardcoded credientials above
-# --------
-def ask ():
-	"""Asks for DB login credentials"""
-	sys.stdin.read()
-	host = input("What is DB Host? ")
-	un = input("What is DB Username? ")
-	pw = input("What is DB Password? ")
-	database = input("What is Database Name?? ")
-
-	a = [host, un, pw, database]
-	login = wcdb2_login(*a)
-	print("login successful")
-	return login
 
 # ----------
 # Pose Query
@@ -84,20 +69,20 @@ def wcdb2_Read (r) :
 def createDB(login):
 	"""Create Needed Databases, dropping if needed"""
 
-   query(login, "drop table if exists Crisis;")
-   query(login, "drop table if exists Organization;")
-   query(login, "drop table if exists Person;")
-   query(login, "drop table if exists Location;")
-   query(login, "drop table if exists Kind;")
-   query(login, "drop table if exists ExternalResources;")
-   query(login, "drop table if exists PersonRelation;")
-   query(login, "drop table if exists CrisisRelation;")
-   query(login, "drop table if exists OrganizationRelation;")
-   query(login, "drop table if exists HumanImpact;")
-   query(login, "drop table if exists ResourcesNeeded;")
-   query(login, "drop table if exists WaysToHelp;")
-   
-   t = query(
+	query(login, "drop table if exists Crisis;")
+	query(login, "drop table if exists Organization;")
+	query(login, "drop table if exists Person;")
+	query(login, "drop table if exists Location;")
+	query(login, "drop table if exists Kind;")
+	query(login, "drop table if exists ExternalResources;")
+	query(login, "drop table if exists PersonRelation;")
+	query(login, "drop table if exists CrisisRelation;")
+	query(login, "drop table if exists OrganizationRelation;")
+	query(login, "drop table if exists HumanImpact;")
+	query(login, "drop table if exists ResourcesNeeded;")
+	query(login, "drop table if exists WaysToHelp;")
+	
+	t = query(
 		login,
 		"""
 	create table Crisis (
@@ -110,7 +95,7 @@ def createDB(login):
 	  );""") 
 	  
 #insert into Crisis values('crisisIdent', 'Name', 'Kind', StartDateTime, EndDateTime, 'EconomicImpact');
-   t = query(
+	t = query(
 		login,
 		"""
 	create table Organization (
@@ -129,7 +114,7 @@ def createDB(login):
 	  );""") 
 	  
 #insert into Organization('organizationIdent', 'Name', 'Kind', 'History','Telephone', 'Fax', 'Email', 'StreetAddress', 'Locality', 'Region', 'PostalCode', 'Country');
-   t = query(
+	t = query(
 		login,
 		"""
 	create table Person (
@@ -142,7 +127,7 @@ def createDB(login):
 	  );""")
 	  
 #insert into Person('personIdent', 'FirstName', 'MiddleName', 'LastName', 'Suffix', 'Kind');
-   t = query(
+	t = query(
 		login,
 		"""
 	create table Location (
@@ -153,7 +138,7 @@ def createDB(login):
 	  );""")
 
 #insert into Location(parentIdent', 'Locality', 'Region', 'PostalCode', 'Country');
-   t = query(
+	t = query(
 		login,
 		"""
 	create table Kind (
@@ -162,9 +147,9 @@ def createDB(login):
 	  Name text,
 	  Description text
 	  );""")
-   
+	
 #insert into Kind('parentIdent', 'Type', 'Name', 'Description');
-   t = query(
+	t = query(
 		login,
 		"""
 	create table ExternalResources (
@@ -174,7 +159,7 @@ def createDB(login):
 	  );""")
 
 #insert into ExternalResources('parentIdent', 'Type', 'Value');
-   t = query(
+	t = query(
 		login,
 		"""
 	create table PersonRelation (
@@ -185,7 +170,7 @@ def createDB(login):
 
 
 #insert into PersonRelation('personIdent', 'otherIdent', 'Type');
-   t = query(
+	t = query(
 		login,
 		"""
 	create table CrisisRelation (
@@ -196,7 +181,7 @@ def createDB(login):
 
 
 #insert into CrisisRelation('crisisIdent', 'otherIdent', 'Type');
-   t = query(
+	t = query(
 		login,
 		"""
 	create table OrganizationRelation (
@@ -206,7 +191,7 @@ def createDB(login):
 	  );""")
 
 #insert into OrganizationRelation('organizationIdent', 'otherIdent', 'Type');
-   t = query(
+	t = query(
 		login,
 		"""
 	create table HumanImpact (
@@ -216,7 +201,7 @@ def createDB(login):
 	  );""")
 
 #insert into HumanImpact('parentIdent', 'Type', 'Number');
-   t = query(
+	t = query(
 		login,
 		"""
 	create table ResourcesNeeded (
@@ -225,7 +210,7 @@ def createDB(login):
 	  );""")
 
 #insert into ResourcesNeeded('parentIdent text', 'ResourcesNeeded');
-   t = query(
+	t = query(
 		login,
 		"""
 	create table WaysToHelp (
@@ -235,9 +220,9 @@ def createDB(login):
 
 #insert into WaysToHelp('parentIdent', 'WaysToHelp');
 
-   #t = query(login, "show tables;") 
+	#t = query(login, "show tables;") 
 	
-   return None
+	return None
 
 	
 def process_crisis (login, tree) :
@@ -735,28 +720,34 @@ def wcdb2_export(login):
 		#ExternalResources
 		s = 'select * from ExternalResources where ExternalResources.parentIdent = "' + str(crisis[0]) + '";'
 		external = query(login, s)
-		external = external[0]
+
 		external_element = element_builder('ExternalResources')
-			
-		#Image
-		if external[1] == 'Image':
-			external_element.append(element_builder('ImageURL',external[2]))
-		#Video
-		if external[1] == 'Video':
-			external_element.append(element_builder('VideoURL',external[2]))
-		#Map
-		if external[1] == 'Map':
-			external_element.append(element_builder('MapURL',external[2]))
-		#Social
-		if external[1] == 'Social':
-			external_element.append(element_builder('SocialURL',external[2]))
+		i = 0
 		
-		#Citation
-		if external[1] == 'Citation':
-			external_element.append(element_builder('CitationURL',external[2]))		
-		#ExternalLink
-		if external[1] == 'External':
-			external_element.append(element_builder('ExternalURL',external[2]))	
+		for x in xrange(0, len(external)):
+			#Image
+			if external[i][1] == 'Image':
+				external_element.append(element_builder('ImageURL',external[i][2]))
+			#Video
+			elif external[i][1] == 'Video':
+				external_element.append(element_builder('VideoURL',external[i][2]))
+			#Map
+			elif external[i][1] == 'Map':
+				external_element.append(element_builder('MapURL',external[i][2]))
+			#Social
+			elif external[i][1] == 'Social':
+				external_element.append(element_builder('SocialURL',external[i][2]))
+			
+			#Citation
+			elif external[i][1] == 'Citation':
+				external_element.append(element_builder('CitationURL',external[i][2]))		
+			#ExternalLink
+			elif external[i][1] == 'External':
+				external_element.append(element_builder('ExternalURL',external[i][2]))	
+			i += 1
+		
+		crisis_element.append(external_element)	
+
 
 		#RelatedPersons
 		s = 'select * from CrisisRelation where (CrisisRelation.crisisIdent = "' + str(crisis[0]) + '") and (CrisisRelation.Type = "Person");'
@@ -768,7 +759,7 @@ def wcdb2_export(login):
 			related_element.append(attr_builder('RelatedPerson',{'personIdent':related[j][1]}))	
 			j += 1
 				
-		crisis_element.append(related_element)	
+			crisis_element.append(related_element)	
 		
 		#RelatedOrgs
 		s = 'select * from CrisisRelation where (CrisisRelation.crisisIdent = "' + str(crisis[0]) + '") and (CrisisRelation.Type = "Organization");'
@@ -780,7 +771,7 @@ def wcdb2_export(login):
 			related_element.append(attr_builder('RelatedOrganization',{'organizationIdent':related[j][1]}))	
 			j += 1
 				
-		crisis_element.append(related_element)		
+			crisis_element.append(related_element)		
 
 		root.append(crisis_element)
 
@@ -859,32 +850,39 @@ def wcdb2_export(login):
 
 		org_element.append(contact)	
 		org_element.append(postal)	
-		
+
+
 		#ExternalResources
 		s = 'select * from ExternalResources where ExternalResources.parentIdent = "' + str(organization[0]) + '";'
 		external = query(login, s)
-		external = external[0]
+
 		external_element = element_builder('ExternalResources')
-			
-		#Image
-		if external[1] == 'Image':
-			external_element.append(element_builder('ImageURL',external[2]))
-		#Video
-		if external[1] == 'Video':
-			external_element.append(element_builder('VideoURL',external[2]))
-		#Map
-		if external[1] == 'Map':
-			external_element.append(element_builder('MapURL',external[2]))
-		#Social
-		if external[1] == 'Social':
-			external_element.append(element_builder('SocialURL',external[2]))
+		i = 0
 		
-		#Citation
-		if external[1] == 'Citation':
-			external_element.append(element_builder('CitationURL',external[2]))		
-		#ExternalLink
-		if external[1] == 'External':
-			external_element.append(element_builder('ExternalURL',external[2]))	
+		for x in xrange(0, len(external)):
+			#Image
+			if external[i][1] == 'Image':
+				external_element.append(element_builder('ImageURL',external[i][2]))
+			#Video
+			elif external[i][1] == 'Video':
+				external_element.append(element_builder('VideoURL',external[i][2]))
+			#Map
+			elif external[i][1] == 'Map':
+				external_element.append(element_builder('MapURL',external[i][2]))
+			#Social
+			elif external[i][1] == 'Social':
+				external_element.append(element_builder('SocialURL',external[i][2]))
+			
+			#Citation
+			elif external[i][1] == 'Citation':
+				external_element.append(element_builder('CitationURL',external[i][2]))		
+			#ExternalLink
+			elif external[i][1] == 'External':
+				external_element.append(element_builder('ExternalURL',external[i][2]))	
+			i += 1
+		
+		org_element.append(external_element)	
+
 
 
 		#RelatedCrisis
@@ -962,32 +960,38 @@ def wcdb2_export(login):
 		
 		person_element.append(location)	
 		
-		
+
+
 		#ExternalResources
 		s = 'select * from ExternalResources where ExternalResources.parentIdent = "' + str(person[0]) + '";'
 		external = query(login, s)
-		external = external[0]
+
 		external_element = element_builder('ExternalResources')
-			
-		#Image
-		if external[1] == 'Image':
-			external_element.append(element_builder('ImageURL',external[2]))
-		#Video
-		if external[1] == 'Video':
-			external_element.append(element_builder('VideoURL',external[2]))
-		#Map
-		if external[1] == 'Map':
-			external_element.append(element_builder('MapURL',external[2]))
-		#Social
-		if external[1] == 'Social':
-			external_element.append(element_builder('SocialURL',external[2]))
+		i = 0
 		
-		#Citation
-		if external[1] == 'Citation':
-			external_element.append(element_builder('CitationURL',external[2]))		
-		#ExternalLink
-		if external[1] == 'External':
-			external_element.append(element_builder('ExternalURL',external[2]))	
+		for x in xrange(0, len(external)):
+			#Image
+			if external[i][1] == 'Image':
+				external_element.append(element_builder('ImageURL',external[i][2]))
+			#Video
+			elif external[i][1] == 'Video':
+				external_element.append(element_builder('VideoURL',external[i][2]))
+			#Map
+			elif external[i][1] == 'Map':
+				external_element.append(element_builder('MapURL',external[i][2]))
+			#Social
+			elif external[i][1] == 'Social':
+				external_element.append(element_builder('SocialURL',external[i][2]))
+			
+			#Citation
+			elif external[i][1] == 'Citation':
+				external_element.append(element_builder('CitationURL',external[i][2]))		
+			#ExternalLink
+			elif external[i][1] == 'External':
+				external_element.append(element_builder('ExternalURL',external[i][2]))	
+			i += 1
+
+		person_element.append(external_element)	
 
 
 		#RelatedCrisis
@@ -1037,7 +1041,7 @@ def wcdb2_export(login):
 		i+=1
 
 
-	root.append(crisis_element)
+		root.append(crisis_element)
 
 		
 	for org in organizationkind:
@@ -1050,7 +1054,7 @@ def wcdb2_export(login):
 		org_element.append(element_builder('Description',organizationkind[j][3]))
 		j+=1
 		
-	root.append(org_element)
+		root.append(org_element)
 
 
 	for person in personkind:
@@ -1063,7 +1067,7 @@ def wcdb2_export(login):
 		person_element.append(element_builder('Description',personkind[k][3]))
 		k+=1
 		
-	root.append(person_element)
+		root.append(person_element)
 		
 	#print(ET.tostring(root, pretty_print=True))
 	return root
