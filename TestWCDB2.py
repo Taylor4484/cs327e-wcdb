@@ -40,7 +40,7 @@ class TestWCDB1(unittest.TestCase):
           user = "Us3r",
           passwd = "BaNaNa",
           db = "cs327e_taylor")
-        self.assert_(str(type(c)) == "<type '_mysql.connection'>")
+   self.assert_(str(type(c)) == "<type '_mysql.connection'>")
 
   def test_wcdb2_login2 (self) :
         c = _mysql.connect(
@@ -50,7 +50,7 @@ class TestWCDB1(unittest.TestCase):
           db = "cs327e_taylor")
         self.assert_(str(type(c)) != "<type '_mysql.connection'>")
         
-    def test_wcdb2_login3 (self) :
+  def test_wcdb2_login3 (self) :
         c = _mysql.connect(
           host = "z",
           user = "hazard",
@@ -62,7 +62,8 @@ class TestWCDB1(unittest.TestCase):
   # test query
   #-----------
 
-  def test_query1(c, "select * from cs327e_taylor"):
+  def test_query1(self):
+    s = "select * from cs327e_taylor"
     assert type(s) is str
 
   #def test_query2(c, "select * from cs327e_taylor"):
@@ -234,11 +235,8 @@ class TestWCDB1(unittest.TestCase):
 
   def test_wcdb1_solve(self):
     w1 = StringIO.StringIO()
-    w2 = StringIO.StringIO()
-    r = StringIO.StringIO("<a><b></b></a>")
+    r = StringIO.StringIO("<WorldCrisis><Crisis crisisIdent= "+"SY2011"+" ><Name>Syrian Civil War </Name><Kind crisisKindIdent= "+"WAR"+" /><Location><Country>Syria </Country></Location><StartDateTime><Date>2011-03-15</Date></StartDateTime><HumanImpact><Type>Death </Type><Number>70000 </Number></HumanImpact><EconomicImpact></EconomicImpact><ExternalResources><ImageURL>http://en.wikipedia.org/wiki/File:Bombed_out_vehicles_Aleppo.jpg</ImageURL><VideoURL>http://www.bbc.co.uk/news/world-middle-east-21504390</VideoURL><MapURL>http://goo.gl/maps/PWJKM</MapURL><ExternalLinkURL>http://www.crisisgroup.org</ExternalLinkURL></ExternalResources><RelatedPersons><RelatedPerson personIdent = "+"SLavrov"+"/></RelatedPersons><RelatedOrganizations><RelatedOrganization organizationIdent = "+"NATO"+"/><RelatedOrganization organizationIdent = "+"AI"+" /></RelatedOrganizations></Crisis><CrisisKind crisisKindIdent="+"WAR"+"><Name>War</Name><Description>An organized and often prolonged conflict that is carried out by states and/or non-state actors.</Description></CrisisKind></WorldCrisis")
     wcdb1_solve(r, w1)
-    r2 = StringIO.StringIO(w1.getvalue())
-    wcdb1_solve(r2, w2)
     self.assert_(w1.getvalue() == w2.getvalue())
 
   def test_wcdb1_solve_2(self):
