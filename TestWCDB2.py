@@ -65,9 +65,9 @@ class TestWCDB1(unittest.TestCase):
   def test_query1(c, "select * from cs327e_taylor"):
     assert type(s) is str
 
-  def test_query2(c, "select * from cs327e_taylor"):
+  #def test_query2(c, "select * from cs327e_taylor"):
 
-  def test_query3(c, "select * from cs327e_taylor"):
+  #def test_query3(c, "select * from cs327e_taylor"):
 
   #-----------
   # test createDB
@@ -155,6 +155,7 @@ class TestWCDB1(unittest.TestCase):
       user = "Us3r",
       passwd = "BaNaNa",
       db = "cs327e_taylor")
+    result = createDB(c)
     tree =WCDB2_export(c)
     self.assert_(str(type(a))=="<class 'xml.etree.ElementTree.Element'>")
         
@@ -166,7 +167,17 @@ class TestWCDB1(unittest.TestCase):
       db = "cs327e_taylor")
     result = createDB(c)
     tree = WCDB2_export(c)
-    self.assert_(
+    self.assert_(str(type(tree)) == type(lxml.etree._Element))
+
+  def test_wcdb2_export3(self):
+    c = _mysql.connect(
+      host = "z",
+      user = "Us3r",
+      passwd = "BaNaNa",
+      db = "cs327e_taylor")
+    result = createDB(c)
+    tree = WCDB2_export(c)
+    self.assert_(len(ET.getroot(tree)) > 0 )
 
   # -------
   # read
