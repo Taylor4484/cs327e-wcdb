@@ -3,36 +3,36 @@ all:
 	make test
 
 diff:
-	RunWCDB2.py < RunWCDB2.in.xml > RunWCDB2.tmp
-	diff RunWCDB2.out.xml RunWCDB2.tmp
-	rm RunWCDB2.tmp
+	RunWCDB3.py < RunWCDB3.in.xml > RunWCDB3.tmp
+	diff RunWCDB3.out.xml RunWCDB3.tmp
+	rm RunWCDB3.tmp
 
 doc:
-	pydoc -w WCDB2
+	pydoc -w WCDB3
 
 log:
-	git log > WCDB2.log
+	git log > WCDB3.log
 
 run:
-	python RunWCDB2.py < RunWCDB2.xml
+	python RunWCDB3.py
 
 test:
-	python TestWCDB2.py
+	TestWCDB3.py
 
 turnin-list:
-	turnin --list hychyc07 cs327epj4
+	turnin --list hychyc07 cs327epj5
 
 turnin-submit:
-	turnin --submit hychyc07 cs327epj4 WCDB2.zip
+	turnin --submit hychyc07 cs327epj5 WCDB3.zip
 
 turnin-verify:
-	turnin --verify hychyc07 cs327epj4
+	turnin --verify hychyc07 cs327epj5
 
 zip:
-	zip -r WCDB2.zip makefile                                       \
-	RunWCDB2.in.xml RunWCDB2.py RunWCDB2.out.xml                    \
-	TestWCDB2.py TestWCDB2.out                                      \
-	WCDB2.html WCDB2.log WCDB2.pdf WCDB2.py WCDB2.xml WCDB2.xsd.xml
+	zip -r WCDB3.zip makefile                           \
+	RunWCDB3.in.xml RunWCDB3.py RunWCDB3.out.xml        \
+	TestWCDB3.py TestWCDB3.out                          \
+	WCDB3.html WCDB3.log WCDB3.py WCDB3p.pdf WCDB3u.pdf
 
 clean:
 	rm -f *.pyc
