@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" ?>
 <WorldCrises>
-  <Crisis crisisIdent= "SY2011">
+  <Crisis crisisIdent= "Syrian_WAR_2011">
     <Name>Syrian Civil War</Name>
     <Kind crisisKindIdent= "WAR"/>
     <Location>
@@ -31,7 +31,7 @@
     </RelatedOrganizations>
   </Crisis>
 
-  <Crisis crisisIdent= "AI1970">
+  <Crisis crisisIdent= "Africa_DS_1970">
     <Name> AIDS in Africa</Name>
     <Kind crisisKindIdent= "ID"/>
     <Location>
@@ -63,7 +63,7 @@
     </RelatedOrganizations>
   </Crisis>
 
-  <Crisis crisisIdent= "HT1900">
+  <Crisis crisisIdent= "HT_0001">
     <Name>Human Trafficking</Name>
     <Kind crisisKindIdent= "TOC"/>
     <Location>
@@ -99,7 +99,7 @@
     </RelatedOrganizations>
   </Crisis>
 
-  <Crisis crisisIdent= "HO1930">
+  <Crisis crisisIdent= "Holocaust_GC_1933">
     <Name>Holocaust</Name>
     <Kind crisisKindIdent= "GE"/>
     <Location>
@@ -128,7 +128,7 @@
     </RelatedOrganizations>
   </Crisis>
   
-  <Crisis crisisIdent="CM1962">
+  <Crisis crisisIdent="Cuba_WP_1962">
     <Name>Cuban Missile Crisis</Name>
     <Kind crisisKindIdent= "PC"/>
     <Location>
@@ -158,7 +158,7 @@
     </RelatedOrganizations> 
   </Crisis>
 
-  <Crisis crisisIdent= "HK2005">
+  <Crisis crisisIdent= "HU_Katrina_2005">
     <Name>Hurricane Katrina</Name>
     <Kind crisisKindIdent= "ND"/>
     <Location>
@@ -219,15 +219,15 @@
       <RelatedOrganization organizationIdent="USCG"/>
       <RelatedOrganization organizationIdent="ERD"/>
       <RelatedOrganization organizationIdent="AHA"/>
-      <RelatedOrganization organizationIdent="AmeriCares"/>
-      <RelatedOrganization organizationIdent="H4H"/>
+      <RelatedOrganization organizationIdent="AC"/>
+      <RelatedOrganization organizationIdent="HFH"/>
       <RelatedOrganization organizationIdent="SA"/>
       <RelatedOrganization organizationIdent="OUSA"/>
       <RelatedOrganization organizationIdent="CDS"/>
     </RelatedOrganizations>  
   </Crisis>
   
-  <Crisis crisisIdent="EV2010">
+  <Crisis crisisIdent="Eyjafjallajokull_VO_2010">
     <Name>2010 eruptions of Eyjafjallajokull</Name>
     <Kind crisisKindIdent = "ND"/>
     <Location>
@@ -248,7 +248,7 @@
     </ExternalResources>
   </Crisis>
 	
-  <Crisis crisisIdent="ER2011">
+  <Crisis crisisIdent="Egypt_WAR_2011">
     <Name>2011 Egyptian Revolution</Name>
     <Kind crisisKindIdent = "RE"/>
     <Location>
@@ -278,7 +278,7 @@
     </RelatedOrganizations>
   </Crisis>
   
-  <Crisis crisisIdent= "VW1975">
+  <Crisis crisisIdent= "Vietnam_WAR_1955">
     <Name>Vietnam War</Name>
     <Kind crisisKindIdent= "WAR"/>
     <Location>
@@ -305,7 +305,7 @@
     </RelatedPersons>
   </Crisis>
 
-  <Crisis crisisIdent= "MD2006">
+  <Crisis crisisIdent= "Mexico_Drug_WAR_2006">
     <Name>Mexican Drug War</Name>
     <Kind crisisKindIdent= "WAR"/>
     <Location>
@@ -329,7 +329,7 @@
     </RelatedOrganizations> 
   </Crisis>
 
- <Crisis crisisIdent="CF1871">
+ <Crisis crisisIdent="Chicago_FR_1871">
     <Name>The Great Chicago Fire</Name>
     <Kind crisisKindIdent="ND"/>
     <Location>
@@ -357,7 +357,7 @@
     </ExternalResources>
   </Crisis>
 
-  <Crisis crisisIdent="TE2011">
+  <Crisis crisisIdent="Japan_EQ_2011">
     <Name>Tohoku Earthquake and Tsunami</Name>
     <Kind crisisKindIdent="ND"/>
     <Location>
@@ -395,8 +395,8 @@
     </ExternalResources>
     <RelatedOrganizations>
       <RelatedOrganization organizationIdent="ARC"/>
-      <RelatedOrganization organizationIdent="AmeriCares"/>
-      <RelatedOrganization organizationIdent="H4H"/>
+      <RelatedOrganization organizationIdent="AC"/>
+      <RelatedOrganization organizationIdent="HFH"/>
       <RelatedOrganization organizationIdent="SA"/>
       <RelatedOrganization organizationIdent="DEC"/>
       <RelatedOrganization organizationIdent="OUSA"/>
@@ -404,7 +404,7 @@
     </RelatedOrganizations>
   </Crisis>
 
-  <Crisis crisisIdent="HA1992">
+  <Crisis crisisIdent="HU_Andrew_1992">
     <Name>Hurricane Andrew</Name>
     <Kind crisisKindIdent="ND"/>
     <Location>
@@ -446,15 +446,15 @@
     <RelatedOrganizations>
       <RelatedOrganization organizationIdent="ARC"/>
       <RelatedOrganization organizationIdent="AHA"/>
-      <RelatedOrganization organizationIdent="AmeriCares"/>
-      <RelatedOrganization organizationIdent="H4H"/>
+      <RelatedOrganization organizationIdent="AC"/>
+      <RelatedOrganization organizationIdent="HFH"/>
       <RelatedOrganization organizationIdent="SA"/>
       <RelatedOrganization organizationIdent="OUSA"/>
       <RelatedOrganization organizationIdent="CDS"/>
     </RelatedOrganizations>
   </Crisis>
 
-  <Crisis crisisIdent="HI2009">
+  <Crisis crisisIdent="HU_Ike_2008">
     <Name>Hurricane Ike</Name>
     <Kind crisisKindIdent="ND"/>
     <Location>
@@ -491,15 +491,15 @@
       <RelatedOrganization organizationIdent="ARC"/>
       <RelatedOrganization organizationIdent="ERD"/>
       <RelatedOrganization organizationIdent="AHA"/>
-      <RelatedOrganization organizationIdent="AmeriCares"/>
-      <RelatedOrganization organizationIdent="H4H"/>
+      <RelatedOrganization organizationIdent="AC"/>
+      <RelatedOrganization organizationIdent="HFH"/>
       <RelatedOrganization organizationIdent="SA"/>
       <RelatedOrganization organizationIdent="OUSA"/>
       <RelatedOrganization organizationIdent="CDS"/>
     </RelatedOrganizations>
   </Crisis>
 
-  <Crisis crisisIdent="HW2005">
+  <Crisis crisisIdent="HU_Wilma_2005">
     <Name>Hurricane Wilma</Name>
     <Kind crisisKindIdent="ND"/>
     <Location>
@@ -538,14 +538,14 @@
       <RelatedOrganization organizationIdent="ARC"/>
       <RelatedOrganization organizationIdent="ERD"/>
       <RelatedOrganization organizationIdent="AHA"/>
-      <RelatedOrganization organizationIdent="H4H"/>
+      <RelatedOrganization organizationIdent="HFH"/>
       <RelatedOrganization organizationIdent="SA"/>
       <RelatedOrganization organizationIdent="OUSA"/>
       <RelatedOrganization organizationIdent="CDS"/>
     </RelatedOrganizations>
   </Crisis>
 
-  <Crisis crisisIdent="HI2004">
+  <Crisis crisisIdent="HU_Ivane_2004">
     <Name>Hurricane Ivan</Name>
     <Kind crisisKindIdent="ND"/>
     <Location>
@@ -591,14 +591,14 @@
       <RelatedOrganization organizationIdent="ARC"/>
       <RelatedOrganization organizationIdent="ERD"/>
       <RelatedOrganization organizationIdent="AHA"/>
-      <RelatedOrganization organizationIdent="H4H"/>
+      <RelatedOrganization organizationIdent="HFH"/>
       <RelatedOrganization organizationIdent="SA"/>
       <RelatedOrganization organizationIdent="OUSA"/>
       <RelatedOrganization organizationIdent="CDS"/>
     </RelatedOrganizations>
   </Crisis>
 
-  <Crisis crisisIdent="HC2004">
+  <Crisis crisisIdent="HU_Charley_2004">
     <Name>Hurricane Charley</Name>
     <Kind crisisKindIdent="ND"/>
     <Location>
@@ -633,14 +633,14 @@
     </ExternalResources>
     <RelatedOrganizations>
       <RelatedOrganization organizationIdent="ARC"/>
-      <RelatedOrganization organizationIdent="H4H"/>
+      <RelatedOrganization organizationIdent="HFH"/>
       <RelatedOrganization organizationIdent="SA"/>
       <RelatedOrganization organizationIdent="OUSA"/>
       <RelatedOrganization organizationIdent="CDS"/>
     </RelatedOrganizations>
   </Crisis>
 
-  <Crisis crisisIdent="HS2012">
+  <Crisis crisisIdent="HU_Sandy_2012">
     <Name>Hurricane Sandy</Name>
     <Kind crisisKindIdent="ND"/>
     <Location>
@@ -692,15 +692,15 @@
       <RelatedOrganization organizationIdent="ARC"/>
       <RelatedOrganization organizationIdent="ERD"/>
       <RelatedOrganization organizationIdent="AHA"/>
-      <RelatedOrganization organizationIdent="AmeriCares"/>
-      <RelatedOrganization organizationIdent="H4H"/>
+      <RelatedOrganization organizationIdent="AC"/>
+      <RelatedOrganization organizationIdent="HFH"/>
       <RelatedOrganization organizationIdent="SA"/>
       <RelatedOrganization organizationIdent="OUSA"/>
       <RelatedOrganization organizationIdent="CDS"/>
     </RelatedOrganizations>
   </Crisis>
 
-  <Crisis crisisIdent="TT1925">
+  <Crisis crisisIdent="Tri-State_TO_1925">
     <Name>Tri-State Tornado</Name>
     <Kind crisisKindIdent="ND"/>
     <Location>
@@ -745,7 +745,7 @@
     </RelatedOrganizations>
   </Crisis>
 
-   <Crisis crisisIdent = "E2001">
+   <Crisis crisisIdent = "Enron_EC_2001">
     <Name>Enron Collapse</Name>
     <Kind crisisKindIdent = "FC"/>
     <Location>
@@ -775,7 +775,7 @@
     </RelatedOrganizations>
   </Crisis>
 
-  <Crisis crisisIdent = "GD1929">
+  <Crisis crisisIdent = "EC_1929">
     <Name>Great Depression</Name>
     <Kind crisisKindIdent = "FC"/>
     <Location>
@@ -800,15 +800,15 @@
     </ExternalResources>
     <RelatedPersons>
       <RelatedPerson personIdent = "FDRoosevelt"/>
-      <RelatedPerson personIdent = "BBernanke"/>
+      <RelatedPerson personIdent = "BSBernanke"/>
     </RelatedPersons>
     <RelatedOrganizations>
       <RelatedOrganization organizationIdent = "FDIC"/>
-      <RelatedOrganization organizationIdent = "FR"/>
+      <RelatedOrganization organizationIdent = "FRS"/>
     </RelatedOrganizations>
   </Crisis>
 
-  <Crisis crisisIdent = "FC2008">
+  <Crisis crisisIdent = "EC_2008">
     <Name>2008 Financial Crisis</Name>
     <Kind crisisKindIdent = "FC"/>
     <Location>
@@ -831,12 +831,12 @@
       <RelatedPerson personIdent = "AGreenspan"/>
     </RelatedPersons>
     <RelatedOrganizations>
-      <RelatedOrganization organizationIdent = "FR"/>
+      <RelatedOrganization organizationIdent = "FRS"/>
       <RelatedOrganization organizationIdent = "ECB"/>
     </RelatedOrganizations>
   </Crisis>
 
-  <Crisis crisisIdent = "OC1973">
+  <Crisis crisisIdent = "Oil_EC_1973">
     <Name>1973 Oil Crisis</Name>
     <Kind crisisKindIdent = "EC"/>
     <Location>
@@ -858,14 +858,14 @@
       <VideoURL>http://www.youtube.com/watch?v=VCLRlVxOH-Q</VideoURL>
     </ExternalResources>
     <RelatedPersons>
-      <RelatedPerson personIdent = "BBernanke"/>
+      <RelatedPerson personIdent = "BSBernanke"/>
     </RelatedPersons>
     <RelatedOrganizations>
-      <RelatedOrganization organizationIdent = "FR"/>
+      <RelatedOrganization organizationIdent = "FRS"/>
     </RelatedOrganizations>
   </Crisis>
 
-  <Crisis crisisIdent = "WTC2001">
+  <Crisis crisisIdent = "WTC_TA_2001">
     <Name>World Trade Center Attacks</Name>
     <Kind crisisKindIdent= "TA"/>
     <Location>
@@ -911,16 +911,16 @@
       <RelatedPerson personIdent = "SHussein"/>
       <RelatedPerson personIdent = "OBLaden"/>
       <RelatedPerson personIdent = "AGreenspan"/>
-      <RelatedPerson personIdent="AMRAZawahiri"/>
+      <RelatedPerson personIdent="AMRal-Zawahiri"/>
     </RelatedPersons>
     <RelatedOrganizations>
       <RelatedOrganization organizationIdent="CIA"/>
       <RelatedOrganization organizationIdent="ARC"/>
-      <RelatedOrganization organizationIdent="AQ"/>
+      <RelatedOrganization organizationIdent="ALQ"/>
     </RelatedOrganizations>
   </Crisis>
 
-  <Crisis crisisIdent = "CE1970">
+  <Crisis crisisIdent = "Corn_DS_1970">
     <Name>United States Corn Epidemic of 1970</Name>
     <Kind crisisKindIdent = "E"/>
     <Location>
@@ -947,7 +947,7 @@
     </RelatedOrganizations>
   </Crisis>
 
-  <Crisis crisisIdent = "WOT2001">
+  <Crisis crisisIdent = "WAR_Terror_2001">
     <Name>War on Terror</Name>
     <Kind crisisKindIdent = "MC"/>
     <Location>
@@ -973,12 +973,12 @@
     <RelatedOrganizations>
       <RelatedOrganization organizationIdent = "UN"/>
       <RelatedOrganization organizationIdent = "NATO"/>
-      <RelatedOrganization organizationIdent = "AQ"/>
+      <RelatedOrganization organizationIdent = "ALQ"/>
       <RelatedOrganization organizationIdent = "CIA"/>
     </RelatedOrganizations>
   </Crisis>
 
-  <Crisis crisisIdent = "WWII1939">
+  <Crisis crisisIdent = "World_WAR_II_1939">
     <Name>World War Two</Name>
     <Kind crisisKindIdent = "MC"/>
     <Location>
@@ -1008,7 +1008,7 @@
     </RelatedOrganizations>
   </Crisis>
 
-  <Crisis crisisIdent = "GEC2009">
+  <Crisis crisisIdent = "Greece_EC_2009">
     <Name>Greek Economic Collapse</Name>
     <Kind crisisKindIdent = "EC"/>
     <Location>
@@ -1036,7 +1036,7 @@
     </RelatedOrganizations>
   </Crisis>
 
-  <Crisis crisisIdent= "RFC2007">
+  <Crisis crisisIdent= "Russia_EC_2007">
     <Name>Russian Financial Crisis</Name>
     <Kind crisisKindIdent= "FC"/>
     <Location>
@@ -1064,7 +1064,7 @@
     </RelatedOrganizations>
   </Crisis>
 
-  <Crisis crisisIdent="RM2013">
+  <Crisis crisisIdent="Russia_ME_2013">
     <Name>2013 Russian Meteor</Name>
     <Kind crisisKindIdent="ND"/>
     <Location>
@@ -1089,7 +1089,7 @@
     </ExternalResources>
   </Crisis>
 
-  <Crisis crisisIdent="HE2010">
+  <Crisis crisisIdent="Haiti_EQ_2010">
     <Name>Haiti Earthquake</Name>
     <Kind crisisKindIdent="ND"/>
     <Location>
@@ -1131,7 +1131,7 @@
     </RelatedOrganizations>
   </Crisis>
 
-  <Crisis crisisIdent="TO2011">
+  <Crisis crisisIdent="TO_2011">
     <Name>2011 Tornado Outbreak</Name>
     <Kind crisisKindIdent="ND"/>
     <Location>
@@ -1183,7 +1183,7 @@
     </RelatedOrganizations>
   </Crisis>
 
-  <Crisis crisisIdent="CD1986">
+  <Crisis crisisIdent="Chernobyl_ACC_1986">
     <Name>Chernobyl Disaster</Name>
     <Kind crisisKindIdent="ACC"/>
     <Location>
@@ -1210,7 +1210,7 @@
     </ExternalResources>
   </Crisis>
 
-  <Crisis crisisIdent="OS2010">
+  <Crisis crisisIdent="Deepwater_ACC_2010">
     <Name>Deepwater Horizontal Oil Spill</Name>
     <Kind crisisKindIdent="ACC"/>
     <Location>
@@ -1274,10 +1274,10 @@
       <SocialNetworkURL>https://www.facebook.com/msf.english</SocialNetworkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent= "HK2005"/>
-      <RelatedCrisis crisisIdent= "AI1970"/>
-      <RelatedCrisis crisisIdent= "SY2011"/>
-      <RelatedCrisis crisisIdent= "VW1975"/>
+      <RelatedCrisis crisisIdent= "HU_Katrina_2005"/>
+      <RelatedCrisis crisisIdent= "Africa_DS_1970"/>
+      <RelatedCrisis crisisIdent= "Syrian_WAR_2011"/>
+      <RelatedCrisis crisisIdent= "Vietnam_WAR_1955"/>
     </RelatedCrises>
   </Organization>
 
@@ -1308,8 +1308,8 @@
       <ExternalLinkURL>http://www.worldbank.org/</ExternalLinkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="AI1970"/>
-      <RelatedCrisis crisisIdent="VW1975"/>
+      <RelatedCrisis crisisIdent="Africa_DS_1970"/>
+      <RelatedCrisis crisisIdent="Vietnam_WAR_1955"/>
     </RelatedCrises>
   </Organization>
 
@@ -1339,7 +1339,7 @@
       <SocialNetworkURL>http://www.facebook.com/Africaremedia</SocialNetworkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="AI1970"/>
+      <RelatedCrisis crisisIdent="Africa_DS_1970"/>
     </RelatedCrises>
   </Organization>
 
@@ -1370,7 +1370,7 @@
       <SocialNetworkURL>http://www.facebook.com/humantraffickingawarenesspartnerships</SocialNetworkURL>
     </ExternalResources>
     <RelatedCrises>
-    <RelatedCrisis crisisIdent="HT1900"/>
+    <RelatedCrisis crisisIdent="HT_0001"/>
     </RelatedCrises>
   </Organization>
 
@@ -1403,10 +1403,10 @@
       <ExternalLinkURL>http://www.nato.int/</ExternalLinkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="ER2011"/>
-      <RelatedCrisis crisisIdent="SY2011"/>
-      <RelatedCrisis crisisIdent="WOT2001"/>
-      <RelatedCrisis crisisIdent="WTC2001"/>
+      <RelatedCrisis crisisIdent="Egypt_WAR_2011"/>
+      <RelatedCrisis crisisIdent="Syrian_WAR_2011"/>
+      <RelatedCrisis crisisIdent="WAR_Terror_2001"/>
+      <RelatedCrisis crisisIdent="WTC_TA_2001"/>
     </RelatedCrises>
     <RelatedPersons>
       <RelatedPerson personIdent="Bono"/>
@@ -1450,8 +1450,8 @@
       <ExternalLinkURL>http://www.who.int/</ExternalLinkURL>
     </ExternalResources>
     <RelatedCrises>
-    <RelatedCrisis crisisIdent="AI1970"/>
-    <RelatedCrisis crisisIdent="TE2011"/>
+    <RelatedCrisis crisisIdent="Africa_DS_1970"/>
+    <RelatedCrisis crisisIdent="Japan_EQ_2011"/>
     </RelatedCrises>
     <RelatedPersons>
       <RelatedPerson personIdent="BHGates"/>
@@ -1485,10 +1485,10 @@
       <ExternalLinkURL>https://www.amnesty.org</ExternalLinkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="AI1970"/>
-      <RelatedCrisis crisisIdent="ER2011"/>
-      <RelatedCrisis crisisIdent="HT1900"/>
-      <RelatedCrisis crisisIdent="SY2011"/>
+      <RelatedCrisis crisisIdent="Africa_DS_1970"/>
+      <RelatedCrisis crisisIdent="Egypt_WAR_2011"/>
+      <RelatedCrisis crisisIdent="HT_0001"/>
+      <RelatedCrisis crisisIdent="Syrian_WAR_2011"/>
     </RelatedCrises>
   </Organization>
 	
@@ -1520,7 +1520,7 @@
       <ExternalLinkURL>https://www.uscg.mil</ExternalLinkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="HK2005"/>
+      <RelatedCrisis crisisIdent="HU_Katrina_2005"/>
     </RelatedCrises>
   </Organization>  
   
@@ -1555,18 +1555,18 @@
       <ExternalLinkURL>http://www.redcross.org/</ExternalLinkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="HK2005"/>
-      <RelatedCrisis crisisIdent="AI1970"/>
-      <RelatedCrisis crisisIdent="TE2011"/>
-      <RelatedCrisis crisisIdent="HK2005"/>
-      <RelatedCrisis crisisIdent="HA1992"/>
-      <RelatedCrisis crisisIdent="HI2009"/>
-      <RelatedCrisis crisisIdent="HW2005"/>
-      <RelatedCrisis crisisIdent="HI2004"/>
-      <RelatedCrisis crisisIdent="HC2004"/>
-      <RelatedCrisis crisisIdent="HS2012"/>
-      <RelatedCrisis crisisIdent="TT1925"/>
-      <RelatedCrisis crisisIdent="HE2010"/>
+      <RelatedCrisis crisisIdent="HU_Katrina_2005"/>
+      <RelatedCrisis crisisIdent="Africa_DS_1970"/>
+      <RelatedCrisis crisisIdent="Japan_EQ_2011"/>
+      <RelatedCrisis crisisIdent="HU_Katrina_2005"/>
+      <RelatedCrisis crisisIdent="HU_Andrew_1992"/>
+      <RelatedCrisis crisisIdent="HU_Ike_2008"/>
+      <RelatedCrisis crisisIdent="HU_Wilma_2005"/>
+      <RelatedCrisis crisisIdent="HU_Ivane_2004"/>
+      <RelatedCrisis crisisIdent="HU_Charley_2004"/>
+      <RelatedCrisis crisisIdent="HU_Sandy_2012"/>
+      <RelatedCrisis crisisIdent="Tri-State_TO_1925"/>
+      <RelatedCrisis crisisIdent="Haiti_EQ_2010"/>
       <RelatedCrisis crisisIdent="WTC2011"/>
     </RelatedCrises>
     <RelatedPersons>
@@ -1601,9 +1601,9 @@
       <ExternalLinkURL>http://www.mexonline.com/mexagncy.htm</ExternalLinkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="CM1962"/>
-      <RelatedCrisis crisisIdent="MD2006"/>
-      <RelatedCrisis crisisIdent="HT1900"/>
+      <RelatedCrisis crisisIdent="Cuba_WP_1962"/>
+      <RelatedCrisis crisisIdent="Mexico_Drug_WAR_2006"/>
+      <RelatedCrisis crisisIdent="HT_0001"/>
     </RelatedCrises>
   </Organization>
 
@@ -1637,12 +1637,12 @@
       <ExternalLinkURL>http://en.wikipedia.org/wiki/Episcopal_Relief_and_Development</ExternalLinkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="HK2005"/>
-      <RelatedCrisis crisisIdent="HI2009"/>
-      <RelatedCrisis crisisIdent="HW2005"/>
-      <RelatedCrisis crisisIdent="HI2004"/>
-      <RelatedCrisis crisisIdent="HC2004"/>
-      <RelatedCrisis crisisIdent="HS2012"/>
+      <RelatedCrisis crisisIdent="HU_Katrina_2005"/>
+      <RelatedCrisis crisisIdent="HU_Ike_2008"/>
+      <RelatedCrisis crisisIdent="HU_Wilma_2005"/>
+      <RelatedCrisis crisisIdent="HU_Ivane_2004"/>
+      <RelatedCrisis crisisIdent="HU_Charley_2004"/>
+      <RelatedCrisis crisisIdent="HU_Sandy_2012"/>
     </RelatedCrises>
   </Organization>
 
@@ -1681,12 +1681,12 @@
       <ExternalLinkURL>http://en.wikipedia.org/wiki/American_Humane_Association</ExternalLinkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="HK2005"/>
-      <RelatedCrisis crisisIdent="HS2012"/>
+      <RelatedCrisis crisisIdent="HU_Katrina_2005"/>
+      <RelatedCrisis crisisIdent="HU_Sandy_2012"/>
     </RelatedCrises>
   </Organization>
 
-  <Organization organizationIdent="AmeriCares">
+  <Organization organizationIdent="AC">
     <Name>AmeriCares</Name>
     <Kind organizationKindIdent="HO"/>
     <Location>
@@ -1718,15 +1718,15 @@
       <ExternalLinkURL>http://en.wikipedia.org/wiki/AmeriCares</ExternalLinkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="TE2011"/>
-      <RelatedCrisis crisisIdent="HK2005"/>
-      <RelatedCrisis crisisIdent="HA1992"/>
-      <RelatedCrisis crisisIdent="HI2009"/>
-      <RelatedCrisis crisisIdent="HS2012"/>
+      <RelatedCrisis crisisIdent="Japan_EQ_2011"/>
+      <RelatedCrisis crisisIdent="HU_Katrina_2005"/>
+      <RelatedCrisis crisisIdent="HU_Andrew_1992"/>
+      <RelatedCrisis crisisIdent="HU_Ike_2008"/>
+      <RelatedCrisis crisisIdent="HU_Sandy_2012"/>
     </RelatedCrises>
   </Organization>
 
-  <Organization organizationIdent="H4H">
+  <Organization organizationIdent="HFH">
     <Name>Habitat for Humanity</Name>
     <Kind organizationKindIdent="HO"/>
     <Location>
@@ -1762,14 +1762,14 @@
       <ExternalLinkURL>http://en.wikipedia.org/wiki/Habitat_for_Humanity</ExternalLinkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="TE2011"/>
-      <RelatedCrisis crisisIdent="HK2005"/>
-      <RelatedCrisis crisisIdent="HA1992"/>
-      <RelatedCrisis crisisIdent="HI2009"/>
-      <RelatedCrisis crisisIdent="HW2005"/>
-      <RelatedCrisis crisisIdent="HI2004"/>
-      <RelatedCrisis crisisIdent="HC2004"/>
-      <RelatedCrisis crisisIdent="HS2012"/>
+      <RelatedCrisis crisisIdent="Japan_EQ_2011"/>
+      <RelatedCrisis crisisIdent="HU_Katrina_2005"/>
+      <RelatedCrisis crisisIdent="HU_Andrew_1992"/>
+      <RelatedCrisis crisisIdent="HU_Ike_2008"/>
+      <RelatedCrisis crisisIdent="HU_Wilma_2005"/>
+      <RelatedCrisis crisisIdent="HU_Ivane_2004"/>
+      <RelatedCrisis crisisIdent="HU_Charley_2004"/>
+      <RelatedCrisis crisisIdent="HU_Sandy_2012"/>
     </RelatedCrises>
   </Organization>
 
@@ -1804,15 +1804,15 @@
       <ExternalLinkURL>http://en.wikipedia.org/wiki/The_Salvation_Army</ExternalLinkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="TE2011"/>
-      <RelatedCrisis crisisIdent="HK2005"/>
-      <RelatedCrisis crisisIdent="HA1992"/>
-      <RelatedCrisis crisisIdent="HI2009"/>
-      <RelatedCrisis crisisIdent="HW2005"/>
-      <RelatedCrisis crisisIdent="HI2004"/>
-      <RelatedCrisis crisisIdent="HC2004"/>
-      <RelatedCrisis crisisIdent="HS2012"/>
-      <RelatedCrisis crisisIdent="TT1925"/>
+      <RelatedCrisis crisisIdent="Japan_EQ_2011"/>
+      <RelatedCrisis crisisIdent="HU_Katrina_2005"/>
+      <RelatedCrisis crisisIdent="HU_Andrew_1992"/>
+      <RelatedCrisis crisisIdent="HU_Ike_2008"/>
+      <RelatedCrisis crisisIdent="HU_Wilma_2005"/>
+      <RelatedCrisis crisisIdent="HU_Ivane_2004"/>
+      <RelatedCrisis crisisIdent="HU_Charley_2004"/>
+      <RelatedCrisis crisisIdent="HU_Sandy_2012"/>
+      <RelatedCrisis crisisIdent="Tri-State_TO_1925"/>
     </RelatedCrises>
   </Organization>
 
@@ -1847,7 +1847,7 @@
       <ExternalLinkURL>http://reliefweb.int/organization/dec</ExternalLinkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="TE2011"/>
+      <RelatedCrisis crisisIdent="Japan_EQ_2011"/>
     </RelatedCrises>
   </Organization>
 
@@ -1882,14 +1882,14 @@
       <ExternalLinkURL>http://reliefweb.int/organization/operation-usa</ExternalLinkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="TE2011"/>
-      <RelatedCrisis crisisIdent="HK2005"/>
-      <RelatedCrisis crisisIdent="HA1992"/>
-      <RelatedCrisis crisisIdent="HI2009"/>
-      <RelatedCrisis crisisIdent="HW2005"/>
-      <RelatedCrisis crisisIdent="HI2004"/>
-      <RelatedCrisis crisisIdent="HC2004"/>
-      <RelatedCrisis crisisIdent="HS2012"/>
+      <RelatedCrisis crisisIdent="Japan_EQ_2011"/>
+      <RelatedCrisis crisisIdent="HU_Katrina_2005"/>
+      <RelatedCrisis crisisIdent="HU_Andrew_1992"/>
+      <RelatedCrisis crisisIdent="HU_Ike_2008"/>
+      <RelatedCrisis crisisIdent="HU_Wilma_2005"/>
+      <RelatedCrisis crisisIdent="HU_Ivane_2004"/>
+      <RelatedCrisis crisisIdent="HU_Charley_2004"/>
+      <RelatedCrisis crisisIdent="HU_Sandy_2012"/>
     </RelatedCrises>
     <RelatedPersons>
       <RelatedPerson personIdent="JRoos"/>
@@ -1926,14 +1926,14 @@
       <ExternalLinkURL>http://www.static.reliefweb.int/report/american-samoa/red-cross-strives-help-disasters-vulnerable-population</ExternalLinkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="TE2011"/>
-      <RelatedCrisis crisisIdent="HK2005"/>
-      <RelatedCrisis crisisIdent="HA1992"/>
-      <RelatedCrisis crisisIdent="HI2009"/>
-      <RelatedCrisis crisisIdent="HW2005"/>
-      <RelatedCrisis crisisIdent="HI2004"/>
-      <RelatedCrisis crisisIdent="HC2004"/>
-      <RelatedCrisis crisisIdent="HS2012"/>
+      <RelatedCrisis crisisIdent="Japan_EQ_2011"/>
+      <RelatedCrisis crisisIdent="HU_Katrina_2005"/>
+      <RelatedCrisis crisisIdent="HU_Andrew_1992"/>
+      <RelatedCrisis crisisIdent="HU_Ike_2008"/>
+      <RelatedCrisis crisisIdent="HU_Wilma_2005"/>
+      <RelatedCrisis crisisIdent="HU_Ivane_2004"/>
+      <RelatedCrisis crisisIdent="HU_Charley_2004"/>
+      <RelatedCrisis crisisIdent="HU_Sandy_2012"/>
     </RelatedCrises>
   </Organization>
 
@@ -1969,7 +1969,7 @@
     </ExternalResources>
   </Organization>
 
-  <Organization organizationIdent="AQ">
+  <Organization organizationIdent="ALQ">
     <Name>Al-Qaeda</Name>
     <Kind organizationKindIdent="TO"/>
     <Location>
@@ -1994,13 +1994,14 @@
       <VideoURL>http://www.youtube.com/watch?v=zUUUS_wRKLo</VideoURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="WTC2001"/>
-      <RelatedCrisis crisisIdent="WOT2001"/>
+      <RelatedCrisis crisisIdent="WTC_TA_2001"/>
+      <RelatedCrisis crisisIdent="WAR_Terror_2001"/>
     </RelatedCrises>
     <RelatedPersons>
       <RelatedPerson personIdent="GWBush"/>
       <RelatedPerson personIdent="BHObama"/>
       <RelatedPerson personIdent="OBLaden"/>
+	  <RelatedPerson personIdent="AMRal-Zawahiri"/>
     </RelatedPersons>
   </Organization>
 
@@ -2032,9 +2033,9 @@
       <SocialNetworkURL>http://www.facebook.com/pages/European-Central-Bank/108003912562000</SocialNetworkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="FC2008"/>
-      <RelatedCrisis crisisIdent="GEC2009"/>
-      <RelatedCrisis crisisIdent="RFC2007"/>
+      <RelatedCrisis crisisIdent="EC_2008"/>
+      <RelatedCrisis crisisIdent="Greece_EC_2009"/>
+      <RelatedCrisis crisisIdent="Russia_EC_2007"/>
     </RelatedCrises>
     <RelatedPersons>
       <RelatedPerson personIdent="MDraghi"/>
@@ -2072,10 +2073,10 @@
       <ExternalLinkURL>https://www.cia.gov/</ExternalLinkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="WTC2001"/>
-      <RelatedCrisis crisisIdent="WOT2001"/>
-      <RelatedCrisis crisisIdent="WWII1939"/>
-      <RelatedCrisis crisisIdent="SY2011"/>
+      <RelatedCrisis crisisIdent="WTC_TA_2001"/>
+      <RelatedCrisis crisisIdent="WAR_Terror_2001"/>
+      <RelatedCrisis crisisIdent="World_WAR_II_1939"/>
+      <RelatedCrisis crisisIdent="Syrian_WAR_2011"/>
     </RelatedCrises>
     <RelatedPersons>
       <RelatedPerson personIdent="GWBush"/>
@@ -2113,7 +2114,7 @@
       <SocialNetworkURL>http://www.facebook.com/pages/USDA/106119542761892?fref=ts</SocialNetworkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="CE1970"/>
+      <RelatedCrisis crisisIdent="Corn_DS_1970"/>
     </RelatedCrises>
     <RelatedPersons>
       <RelatedPerson personIdent="GWBush"/>
@@ -2150,7 +2151,7 @@
       <SocialNetworkURL>http://www.facebook.com/pages/US-Securities-and-Exchange-Commission/109531262399131?fref=ts</SocialNetworkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="E2001"/>
+      <RelatedCrisis crisisIdent="Enron_EC_2001"/>
     </RelatedCrises>
     <RelatedPersons>
       <RelatedPerson personIdent="GWBush"/>
@@ -2187,7 +2188,7 @@
       <SocialNetworkURL>http://www.facebook.com/pages/Federal-Deposit-Insurance-Corporation/112681415413365?fref=ts</SocialNetworkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="GD1929"/>
+      <RelatedCrisis crisisIdent="EC_1929"/>
     </RelatedCrises>
     <RelatedPersons>
       <RelatedPerson personIdent="GWBush"/>
@@ -2196,7 +2197,7 @@
     </RelatedPersons>
   </Organization>
 
-  <Organization organizationIdent="FR">
+  <Organization organizationIdent="FRS">
     <Name>Federal Reserve</Name>
     <Kind organizationKindIdent="FA"/>
     <Location>
@@ -2224,15 +2225,15 @@
       <SocialNetworkURL>http://www.facebook.com/TheF3d?fref=ts</SocialNetworkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="GD1929"/>
-      <RelatedCrisis crisisIdent="FC2008"/>
-      <RelatedCrisis crisisIdent="OC1973"/>
+      <RelatedCrisis crisisIdent="EC_1929"/>
+      <RelatedCrisis crisisIdent="EC_2008"/>
+      <RelatedCrisis crisisIdent="Oil_EC_1973"/>
     </RelatedCrises>
     <RelatedPersons>
       <RelatedPerson personIdent="GWBush"/>
       <RelatedPerson personIdent="BHObama"/>
       <RelatedPerson personIdent="FDRoosevelt"/>
-      <RelatedPerson personIdent="BBernanke"/>
+      <RelatedPerson personIdent="BSBernanke"/>
     </RelatedPersons>
   </Organization>
 
@@ -2265,17 +2266,17 @@
       <ExternalLinkURL>http://www.un.org/</ExternalLinkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="WTC2001"/>
-      <RelatedCrisis crisisIdent="WOT2001"/>
-      <RelatedCrisis crisisIdent="WWII1939"/>
-      <RelatedCrisis crisisIdent="GEC2009"/>
-      <RelatedCrisis crisisIdent="RFC2007"/>
-      <RelatedCrisis crisisIdent="TE2011"/>
-      <RelatedCrisis crisisIdent="SY2011"/>
-      <RelatedCrisis crisisIdent="HE2010"/>
-      <RelatedCrisis crisisIdent="HK2005"/>
-      <RelatedCrisis crisisIdent="CD1986"/>
-      <RelatedCrisis crisisIdent="RM2013"/>
+      <RelatedCrisis crisisIdent="WTC_TA_2001"/>
+      <RelatedCrisis crisisIdent="WAR_Terror_2001"/>
+      <RelatedCrisis crisisIdent="World_WAR_II_1939"/>
+      <RelatedCrisis crisisIdent="Greece_EC_2009"/>
+      <RelatedCrisis crisisIdent="Russia_EC_2007"/>
+      <RelatedCrisis crisisIdent="Japan_EQ_2011"/>
+      <RelatedCrisis crisisIdent="Syrian_WAR_2011"/>
+      <RelatedCrisis crisisIdent="Haiti_EQ_2010"/>
+      <RelatedCrisis crisisIdent="HU_Katrina_2005"/>
+      <RelatedCrisis crisisIdent="Chernobyl_ACC_1986"/>
+      <RelatedCrisis crisisIdent="Russia_ME_2013"/>
     </RelatedCrises>
     <RelatedPersons>
       <RelatedPerson personIdent="GWBush"/>
@@ -2284,7 +2285,7 @@
     </RelatedPersons>
   </Organization>
 
-  <Organization organizationIdent="LB">
+  <Organization organizationIdent="LEH">
     <Name>Lehman Brothers</Name>
     <Kind organizationKindIdent="IB"/>
     <Location>
@@ -2314,7 +2315,7 @@
     <RelatedPersons>
       <RelatedPerson personIdent="GWBush"/>
       <RelatedPerson personIdent="BHObama"/>
-      <RelatedPerson personIdent="BBernanke"/>
+      <RelatedPerson personIdent="BSBernanke"/>
     </RelatedPersons>
   </Organization>
 
@@ -2404,7 +2405,7 @@
       <ExternalLinkURL>http://www.wfp.org/</ExternalLinkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="SY2011"/>
+      <RelatedCrisis crisisIdent="Syrian_WAR_2011"/>
     </RelatedCrises>
   </Organization>
 
@@ -2430,7 +2431,7 @@
       <MapURL>http://goo.gl/maps/UDZSW</MapURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="HO1930"/>
+      <RelatedCrisis crisisIdent="Holocaust_GC_1933"/>
     </RelatedCrises>
   </Person>
 
@@ -2451,7 +2452,7 @@
       <ExternalLinkURL>http://www.nelsonmandela.org</ExternalLinkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="AI1970"/>
+      <RelatedCrisis crisisIdent="Africa_DS_1970"/>
     </RelatedCrises>
     <RelatedOrganizations>
       <RelatedOrganization organizationIdent="Africare"/>
@@ -2478,8 +2479,8 @@
       <MapURL>http://goo.gl/maps/xFGPn</MapURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="CM1962"/>
-      <RelatedCrisis crisisIdent="VW1975"/>
+      <RelatedCrisis crisisIdent="Cuba_WP_1962"/>
+      <RelatedCrisis crisisIdent="Vietnam_WAR_1955"/>
     </RelatedCrises>
     <RelatedOrganizations>
       <RelatedOrganization organizationIdent = "NATO"/>
@@ -2506,24 +2507,24 @@
       <SocialNetworkURL>http://www.facebook.com/georgewbush</SocialNetworkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="HK2005"/>
-      <RelatedCrisis crisisIdent="E2001"/>
-      <RelatedCrisis crisisIdent="FC2008"/>
-      <RelatedCrisis crisisIdent="WTC2001"/>
+      <RelatedCrisis crisisIdent="HU_Katrina_2005"/>
+      <RelatedCrisis crisisIdent="Enron_EC_2001"/>
+      <RelatedCrisis crisisIdent="EC_2008"/>
+      <RelatedCrisis crisisIdent="WTC_TA_2001"/>
     </RelatedCrises>
     <RelatedOrganizations>
       <RelatedOrganization organizationIdent="NATO"/>
       <RelatedOrganization organizationIdent="FDIC"/>
-      <RelatedOrganization organizationIdent="FR"/>
+      <RelatedOrganization organizationIdent="FRS"/>
       <RelatedOrganization organizationIdent="USDA"/>
       <RelatedOrganization organizationIdent="SEC"/>
       <RelatedOrganization organizationIdent="UN"/>
-      <RelatedOrganization organizationIdent="LB"/>
+      <RelatedOrganization organizationIdent="LEH"/>
       <RelatedOrganization organizationIdent="CIA"/>
     </RelatedOrganizations>  
   </Person>
 
-  <Person personIdent="MDHuckabee">
+  <Person personIdent="MHuckabee">
     <Name>
       <FirstName>Mike</FirstName>
       <MiddleName>Dale</MiddleName>
@@ -2541,7 +2542,7 @@
       <MapURL>http://goo.gl/maps/w8ka3</MapURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="HK2005"/>
+      <RelatedCrisis crisisIdent="HU_Katrina_2005"/>
     </RelatedCrises>
   </Person>
 
@@ -2567,8 +2568,8 @@
       <SocialNetworkURL>http://www.facebook.com/BillGates</SocialNetworkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="AI1970"/>
-      <RelatedCrisis crisisIdent="HT1900"/>
+      <RelatedCrisis crisisIdent="Africa_DS_1970"/>
+      <RelatedCrisis crisisIdent="HT_0001"/>
     </RelatedCrises>
     <RelatedOrganizations>
       <RelatedOrganization organizationIdent="WHO"/>
@@ -2592,8 +2593,8 @@
       <ExternalLinkURL>https://www.u2.com</ExternalLinkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="AI1970"/>
-	  <RelatedCrisis crisisIdent="HT1900"/>
+      <RelatedCrisis crisisIdent="Africa_DS_1970"/>
+	  <RelatedCrisis crisisIdent="HT_0001"/>
     </RelatedCrises>
     <RelatedOrganizations>
       <RelatedOrganization organizationIdent="WHO"/>
@@ -2617,7 +2618,7 @@
       <ExternalLinkURL>http://www.eng.mvdrf.ru/</ExternalLinkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="SY2011"/>
+      <RelatedCrisis crisisIdent="Syrian_WAR_2011"/>
     </RelatedCrises>
     <RelatedOrganizations>
       <RelatedOrganization organizationIdent="NATO"/>
@@ -2641,14 +2642,14 @@
       <ExternalLinkURL>http://www.eng.mvdrf.ru/</ExternalLinkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="CM1962"/>
+      <RelatedCrisis crisisIdent="Cuba_WP_1962"/>
     </RelatedCrises>
     <RelatedOrganizations>
       <RelatedOrganization organizationIdent="NATO"/>
     </RelatedOrganizations>
   </Person>
 
-  <Person personIdent="BObama">
+  <Person personIdent="BHObama">
     <Name>
       <FirstName>Barack</FirstName>
       <MiddleName>Hussein</MiddleName>
@@ -2669,18 +2670,18 @@
       <ExternalLinkURL>http://www.whitehouse.gov</ExternalLinkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="SY2011"/>
-      <RelatedCrisis crisisIdent="FC2008"/>
-      <RelatedCrisis crisisIdent="WTC2001"/>
+      <RelatedCrisis crisisIdent="Syrian_WAR_2011"/>
+      <RelatedCrisis crisisIdent="EC_2008"/>
+      <RelatedCrisis crisisIdent="WTC_TA_2001"/>
     </RelatedCrises>
     <RelatedOrganizations>
       <RelatedOrganization organizationIdent="NATO"/>
       <RelatedOrganization organizationIdent="FDIC"/>
-      <RelatedOrganization organizationIdent="FR"/>
+      <RelatedOrganization organizationIdent="FRS"/>
       <RelatedOrganization organizationIdent="USDA"/>
       <RelatedOrganization organizationIdent="SEC"/>
       <RelatedOrganization organizationIdent="UN"/>
-      <RelatedOrganization organizationIdent="LB"/>
+      <RelatedOrganization organizationIdent="LEH"/>
       <RelatedOrganization organizationIdent="NATO"/>
       <RelatedOrganization organizationIdent="CIA"/>
     </RelatedOrganizations>
@@ -2737,15 +2738,15 @@
       <ExternalLinkURL>http://www.forbes.com/profile/gail-mcgovern/</ExternalLinkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="HI2009"/>
-      <RelatedCrisis crisisIdent="HS2012"/>
+      <RelatedCrisis crisisIdent="HU_Ike_2008"/>
+      <RelatedCrisis crisisIdent="HU_Sandy_2012"/>
     </RelatedCrises>
     <RelatedOrganizations>
       <RelatedOrganization organizationIdent="ARC"/>
     </RelatedOrganizations>
   </Person>
 
-  <Person personIdent="KBBlanco">
+  <Person personIdent="KBlanco">
     <Name>
       <FirstName>Kathleen</FirstName>
       <LastName>Blanco</LastName>
@@ -2770,7 +2771,7 @@
       <ExternalLinkURL>http://www.capitalnewyork.com/article/politics/2012/12/6787586/katrinas-lessons-new-york-officialdom-according-kathleen-blanco</ExternalLinkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="HK2005"/>
+      <RelatedCrisis crisisIdent="HU_Katrina_2005"/>
     </RelatedCrises>
   </Person>
 
@@ -2796,7 +2797,7 @@
     </RelatedOrganizations>
   </Person>
 
-  <Person personIdent="BMcEHunter">
+  <Person personIdent="BMcElveen-Hunter">
     <Name>
       <FirstName>Bonnie</FirstName>
       <LastName>McElveen-Hunter</LastName>
@@ -2818,10 +2819,10 @@
       <ExternalLinkURL>http://app.redcross.org/portal/site/en/menuitem.94aae335470e233f6cf911df43181aa0/?vgnextoid=ac12facc39d2b110VgnVCM10000089f0870aRCRD%26amp;cpsextcurrchannel=1</ExternalLinkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="HK2005"/>
-      <RelatedCrisis crisisIdent="HI2009"/>
-      <RelatedCrisis crisisIdent="HW2005"/>
-      <RelatedCrisis crisisIdent="HS2012"/>
+      <RelatedCrisis crisisIdent="HU_Katrina_2005"/>
+      <RelatedCrisis crisisIdent="HU_Ike_2008"/>
+      <RelatedCrisis crisisIdent="HU_Wilma_2005"/>
+      <RelatedCrisis crisisIdent="HU_Sandy_2012"/>
     </RelatedCrises>
     <RelatedOrganizations>
       <RelatedOrganization organizationIdent="ARC"/>
@@ -2850,7 +2851,7 @@
       <Citation>http://japan.usembassy.gov/e/amb/tamb-bio.html</Citation>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="TE2011"/>
+      <RelatedCrisis crisisIdent="Japan_EQ_2011"/>
     </RelatedCrises>
   </Person>
 
@@ -2951,8 +2952,8 @@
       <VideoURL>http://www.biography.com/people/saddam-hu47918</VideoURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="WTC2001"/>
-      <RelatedCrisis crisisIdent="OC1973"/>
+      <RelatedCrisis crisisIdent="WTC_TA_2001"/>
+      <RelatedCrisis crisisIdent="Oil_EC_1973"/>
     </RelatedCrises>
     <RelatedOrganizations>
       <RelatedOrganization organizationIdent="UN"/>
@@ -2978,11 +2979,11 @@
       <VideoURL>http://www.biography.com/people/osama-bin-laden-37172</VideoURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="WTC2001"/>
+      <RelatedCrisis crisisIdent="WTC_TA_2001"/>
     </RelatedCrises>
     <RelatedOrganizations>
       <RelatedOrganization organizationIdent="NATO"/>
-      <RelatedOrganization organizationIdent="AQ"/>
+      <RelatedOrganization organizationIdent="ALQ"/>
       <RelatedOrganization organizationIdent="CIA"/>
     </RelatedOrganizations>
   </Person>
@@ -3003,14 +3004,14 @@
       <VideoURL>http://www.bloomberg.com/video/74575169-deceased-enron-ceo-triumphs-over-irs-in-tax-court.html</VideoURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="E2001"/>
+      <RelatedCrisis crisisIdent="Enron_EC_2001"/>
     </RelatedCrises>
     <RelatedOrganizations>
       <RelatedOrganization organizationIdent="SEC"/>
     </RelatedOrganizations>
   </Person>
 
-  <Person personIdent="BBernanke">
+  <Person personIdent="BSBernanke">
     <Name>
       <FirstName>Ben</FirstName>
       <MiddleName>Shalome</MiddleName>
@@ -3028,11 +3029,11 @@
       <VideoURL>http://www.c-spanvideo.org/benbernanke</VideoURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="FC2008"/>
+      <RelatedCrisis crisisIdent="EC_2008"/>
     </RelatedCrises>
     <RelatedOrganizations>
       <RelatedOrganization organizationIdent="FDIC"/>
-      <RelatedOrganization organizationIdent="LB"/>
+      <RelatedOrganization organizationIdent="LEH"/>
     </RelatedOrganizations>
   </Person>
 
@@ -3053,7 +3054,7 @@
       <ImageURL>http://graphics8.nytimes.com/images/2010/04/06/us/06hardin_CA1/06hardin_CA1-articleInline.jpg</ImageURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="CE1970"/>
+      <RelatedCrisis crisisIdent="Corn_DS_1970"/>
     </RelatedCrises>
     <RelatedOrganizations>
       <RelatedOrganization organizationIdent="USDA"/>
@@ -3076,8 +3077,8 @@
       <VideoURL>http://video.ft.com/v/2033743054001/Mario-Draghi-Not-time-to-give-up-austerity</VideoURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="FC2008"/>
-      <RelatedCrisis crisisIdent="GEC2009"/>
+      <RelatedCrisis crisisIdent="EC_2008"/>
+      <RelatedCrisis crisisIdent="Greece_EC_2009"/>
     </RelatedCrises>
     <RelatedOrganizations>
       <RelatedOrganization organizationIdent="ECB"/>
@@ -3100,10 +3101,10 @@
       <VideoURL>http://www.biography.com/people/alan-greenspan-9319769</VideoURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="RFC2007"/>
+      <RelatedCrisis crisisIdent="Russia_EC_2007"/>
     </RelatedCrises>
     <RelatedOrganizations>
-      <RelatedOrganization organizationIdent="FR"/>
+      <RelatedOrganization organizationIdent="FRS"/>
     </RelatedOrganizations>
   </Person>
 
@@ -3124,12 +3125,12 @@
       <VideoURL>http://www.history.com/topics/franklin-d-roosevelt/videos#fdr-a-voice-of-hope</VideoURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="GD1929"/>
-      <RelatedCrisis crisisIdent="WWII1939"/>
+      <RelatedCrisis crisisIdent="EC_1929"/>
+      <RelatedCrisis crisisIdent="World_WAR_II_1939"/>
     </RelatedCrises>
     <RelatedOrganizations>
       <RelatedOrganization organizationIdent="FDIC"/>
-      <RelatedOrganization organizationIdent="FR"/>
+      <RelatedOrganization organizationIdent="FRS"/>
     </RelatedOrganizations>
   </Person>
 
@@ -3149,7 +3150,7 @@
       <ExternalLinkURL>http://www.history.com/topics/joseph-stalin</ExternalLinkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisID= "WWII1939"/>
+      <RelatedCrisis crisisID= "World_WAR_II_1939"/>
   </Person>
 
   <Person personIdent="MHThatcher">
@@ -3213,14 +3214,14 @@
       <Citation>http://en.wikipedia.org/wiki/Jacob_Zuma</Citation>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="AI1970"/>
+      <RelatedCrisis crisisIdent="Africa_DS_1970"/>
     </RelatedCrises>
     <RelatedOrganizations>
      <RelatedOrganization organizationIdent="UN"/>
     </RelatedOrganizations>
   </Person>
 
-  <Person personIdent="AMRAZawahiri">
+  <Person personIdent="AMRal-Zawahiri">
     <Name>
       <FirstName>Ayman</FirstName>
       <MiddleName>Mohhammed Rabie</MiddleName>
@@ -3236,10 +3237,10 @@
       <Citation>http://en.wikipedia.org/wiki/Ayman_al-Zawahiri</Citation>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="WTC2001"/>
+      <RelatedCrisis crisisIdent="WTC_TA_2001"/>
     </RelatedCrises>
     <RelatedOrganizations>
-      <RelatedOrganization organizationIdent="AQ"/>
+      <RelatedOrganization organizationIdent="ALQ"/>
     </RelatedOrganizations>
   </Person>
 
