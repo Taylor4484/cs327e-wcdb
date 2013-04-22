@@ -19,7 +19,7 @@ import lxml.etree as ET
 a = ["z","taylor","nVZV4bLhpG","cs327e_taylor"] 
    #[host, un, pw, database]
 
-def wcdb2_login ( host, un, pw, database ) :
+def wcdb3_login ( host, un, pw, database ) :
 	"""takes credentials and logs into DB"""
 	login = _mysql.connect(
 			host = host,
@@ -48,10 +48,10 @@ def query (login, s) :
 	return t
 
 # ----------
-# wcdb2_Read
+# wcdb3_Read
 # ---------- 
 
-def wcdb2_Read (r) :
+def wcdb3_Read (r) :
 	"""
 	reads an input
 	creates an element tree from string
@@ -60,7 +60,9 @@ def wcdb2_Read (r) :
 	tree = ET.fromstring(read)
 	return tree
 
-
+def union( A, B ) :
+	s = "select * from " + A +" union select * from " + B +";"
+	t = query( login, s )
 
 
 
@@ -135,7 +137,7 @@ def createDB(login):
 	  Country text
 	  );""")
 
-#insert into Location(parentIdent', 'Locality', 'Region', 'PostalCode', 'Country');
+#insert into Location('parentIdent', 'Locality', 'Region', 'PostalCode', 'Country');
 	t = query(
 		login,
 		"""
@@ -578,10 +580,10 @@ def process_kind(login, tree) :
 	t = query(login,"select * from Kind;")
 	
 # -------------
-# wcdb2_import
+# wcdb3_import
 # -------------
 
-def wcdb2_import(login, tree):
+def wcdb3_import(login, tree):
 
 	"""Takes DB login and Element Tree and processes data and and imports into DB"""
 
@@ -595,7 +597,7 @@ def wcdb2_import(login, tree):
 
 
 # -------------
-# wcdb2_export
+# wcdb3_export
 # -------------
 
 def element_builder(tag, content = ''):
@@ -616,38 +618,38 @@ def attr_builder(tag, attrs = {}):
 	
 	return builder.close()
 
-def wcdb2_export(login):
+def wcdb3_export(login):
 	"""Generates ElementTree from DB"""
 
 	root = element_builder('WorldCrises')
 	
 	crises = query(login, 
 	""" select *
-	from Crisis;
+		from Crisis;
 	""")
 	organizations = query(login, 
 	""" select *
-	from Organization;
+		from Organization;
 	""")
 	people = query(login, 
 	""" select *
-	from Person;
+		from Person;
 	""")
 	
 	crisiskind = query(login, 
 	""" select *
-	from Kind
-	where Kind.Type = 'Crisis';
+		from Kind
+		where Kind.Type = 'Crisis';
 	""")
 	organizationkind = query(login, 
 	""" select *
-	from Kind
-	where Kind.Type = 'Organization';
+		from Kind
+		where Kind.Type = 'Organization';
 	""")
 	personkind = query(login, 
 	""" select *
-	from Kind
-	where Kind.Type = 'Person';
+		from Kind
+		where Kind.Type = 'Person';
 	""")
 	value = 'test'
 	
@@ -1072,11 +1074,106 @@ def wcdb2_export(login):
 
 	return root
 		
+# ----------
+# merge
+# ----------
+
+def merge(keep, tree) :
+"""lists of tags in trees"""
+	kcrisis = []
+	korg = []
+	kpeople = []
+	klocation = []
+	kKind = []
+	kExternalResources = []
+	kpersonRelation = []
+	korganizationRelation = []
+	kcrisisRelation = []
+	khumanImpact = []
+	kresourcesNeeded = []
+	kWaysToHelp = []
+	for parent in keep.findall('Crisis'):
+		kcrisis.append(parent.get('crisisIdent'))
+	for parent in keep.findall('Organization'):
+		korg.append(parent.get('organizationIdent'))
+	for parent in keep.findall('Person'):
+		kpeople.append(parent.get('personIdent'))
+	for parent in keep.findall('Location'):
+		klocation.append(parent.get('parentIdent'))
+	for parent in keep.findall('ExternalResources'):
+		KExternalResources.append(parent.get('parentIdent'))
+	for parent in keep.findall('personRelation'):
+		kpersonRelation.append(parent.get(''))
+	for parent in keep.findall('crisisRelation'):
+		kcrisisRelation.append(parent.get(''))
+        for parent in keep.findall('orgainizationRelation'):
+		korganizationRelation.append(parent.get(' ')
+	for parent in keep.findall('HumanImpact'):
+		khumanImpact.append(parent.get('parentIdent'))
+	for parent in keep.findall('ResourcesNeeded'):
+		kresourcesNeeded.append(parent.get('parentIdent'))
+	for parent in keep.findall('WaysToHelp'):
+		kWaysToHelp.append(parent.get('parentIdent'))
+
+	tcrisis = []
+	torg = []
+	tpeople = []
+	tlocation = []
+	tKind = []
+	tExternalResources = []
+	tpersonRelation = []
+	torganizationRelation = []
+	tcrisisRelation = []
+	thumanImpact = []
+	tresourcesNeeded = []
+	tWaysToHelp = []
+	for parent in tree.findall('Crisis'):
+		if(!kcrisis.contains(parent.get('crisisIdent'))):
+			kcrisis.append(parent.get('crisisIdent'))
+		else: tcrisis.append(parent.get('crisisIdent'))
+	for parent in tree.findall('Organization'):
+		(parent.get('organizationIdent'))
+	for parent in tree.findall('Person'):
+		tpeople.append(parent.get('personIdent'))
+	for parent in tree.findall('Location'):
+		if(!klocation.contains(parent.get('parentIdent'))):
+			klocation.append(parent.get('parentIdent')))
+		else: tlocation.append(parent.get('parentIdent'))
+	for parent in tree.findall('Kind'):
+		if(!kKind.contains(parent.get('parentIdent'))):
+			kKind.append(parent.get('parentIdent')))
+		else: tKind.append(parent.get('parentIdent'))
+	for parent in tree.findall('ExternalResources'):
+		if(!kExternalResources.contains(parent.get('parentIdent'))):
+			kExternalResources.append(parent.get('parentIdent')))
+		else: tExternalResources.append(parent.get('parentIdent'))
+	for parent in tree.findall('personRelation'):
+		tpersonRelation.append(parent.get(''))
+	for parent in tree.findall('crisisRelation'):
+		tcrisisRelation.append(parent.get(''))
+        for parent in tree.findall('orgainizationRelation'):
+		torganizationRelation.append(parent.get(' ')
+	for parent in tree.findall('HumanImpact'):
+		if(!kHumanImpact.contains(parent.get('parentIdent'))):
+			kHumanImpact.append(parent.get('parentIdent')))
+		else: tHumanImpact.append(parent.get('parentIdent'))
+	for parent in tree.findall('ResourcesNeeded'):
+		if(!kresourcesNeeded.contains(parent.get('parentIdent'))):
+			kresourcesNeeded.append(parent.get('parentIdent')))
+		else: tresourcesNeeded.append(parent.get('parentIdent'))
+	for parent in tree.findall('WaysToHelp'):
+		if(!kWaysToHelp.contains(parent.get('parentIdent'))):
+			kWaysToHelp.append(parent.get('parentIdent')))
+		else: tWaysToHelp.append(parent.get('parentIdent'))
+	
+
+
+
 # ------------
-# wcdb2_write
+# wcdb3_write
 # ------------
 
-def wcdb2_write (w, tree) :
+def wcdb3_write (w, tree) :
 	"""
 	reads an input
 	builds an element tree from string
@@ -1092,10 +1189,10 @@ def wcdb2_write (w, tree) :
 	return tree
 		
 # -------------
-# wcdb2_solve
+# wcdb3_solve
 # -------------
 
-def wcdb2_solve (r, w) :
+def wcdb3_solve (r, w) :
 	"""
 	r is a reader
 	w is a writer
@@ -1103,11 +1200,35 @@ def wcdb2_solve (r, w) :
 	Imports data into DB, exports data from DB
 	"""
 
-	login = wcdb2_login(*a)
-	tree = wcdb2_Read (r)
-	#output1 = wcdb2_write (w, tree)
+	readers= ['TheMiners.xml', 'Poseidon.xml', 'Virus.xml', 'ByteMe.xml', 'Nameless.xml', 'IsYuchenHereToday.xml', 'TechKnuckleSupport.xml', 'BetterLateThanNever.xml']
+	login = wcdb3_login(*a)
 	createDB(login)
-	#output2 = wcdb2_write (w, output1)
-	wcdb2_import(login, tree)
-	export = wcdb2_export(login)
-	wcdb2_write (w, export)
+	r = open('WCDB3.xml', 'r')
+	keepTree = wcdb3_Read (u)
+	wcdb3_import(login,keepTree) """needs to import into some table sets A"""
+
+	for u in readers:
+		r = open(u, 'r')
+		tree = wcdb3_Read (u)
+		wcdb3_import(login, tree) """needs to import into some table set B"""
+
+"""Names below need to change to the respective table names, k being the keep, t being the temp"""
+		union(kcrisis, tcrisis)
+		union(korg, torg)	
+		union(kpeople, tpeople)
+		union(klocation, tlocation)
+		union(kKind, tKind)
+		union(kExternalResources, tExternalResources)
+		union(kpersonRelation, tpersonRelation)
+		union(korganizationRelation, torganizationRelation)
+		union(kcrisisRelation, tcrisisRelation)
+		union(khumanImpact, thumanImpact)
+		union(kresourcesNeeded, tresourcesNeeded)
+		union(kWaysToHelp, tWaysToHelp)
+
+		merge(keepTree, tree)
+		#output1 = wcdb3_write (w, tree)
+		#output2 = wcdb3_write (w, output1)
+		wcdb3_import(login, tree)
+	export = wcdb3_export(login)
+	wcdb3_write (w, export)
