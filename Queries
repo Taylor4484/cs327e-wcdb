@@ -21,7 +21,7 @@ Select country
 
 3. What is the average death toll of accident crises?
 
-Select average(number)
+Select avg(number)
     From HumanImpact
     Where crisis_id in
 	(select id as crisis_id
@@ -30,7 +30,7 @@ Select average(number)
 
 4. What is the average death toll of world crises per country?
 
-Select average(number), country
+Select avg(number), country
     From HumanImpact as S join Location as R
     On s.crisis_id = R.id
     Group by country;
@@ -114,6 +114,79 @@ Select count(number)
 Select name 
     From Organization
     Where id in
-	(Select organization_id as id
-	    From Crisis Organization
-	    Where count(organization_id) > ALL)
+	(Select id_organization as id
+	    From CrisisOrganization
+	    Where count(id_organization) > ALL)
+
+37. Number of natural disasters occurring from June 5th 2000 to June 5th 2012
+
+Select count(*)
+	From Crisis 
+	Where kind= 'EQ' or 'FR' or "FL' or 'HU' or 'ME' or 'ST' or 'TO' or 'TS' or 'VO' 
+	and start_date > 2000-06-05 and start_date < 2012-06-05 ;
+
+38. Number of political figures grouped by country.
+
+Select count(*)
+	From Person natural join Location
+	Where kind = 'PO' or 'PM' or 'DI' or 'GO' or 'GOV' or 'PR' or 'VP' or "AMB' 
+	Group by country
+
+39.Location with the most number of natural disasters
+
+Select Country, count(*)
+	From Location
+	Where id in
+		(select id 
+			From Crisis
+			Where kind = 'EQ' or 'FR' or "FL' or 'HU' or 'ME' or 'ST' or 'TO' or 'TS' or 'VO');
+	Group by Country
+
+40.Average number of deaths caused by hurricanes.
+
+Select avg(number)
+	From HumanImpact join Crisis
+	On HumanImpact.crisis_id = Crisis.id
+	Where kind = "HU'
+
+41. Total number of deaths caused by terrorist attacks
+
+select sum(number)
+	From HumanImpact
+	Where crisis_id in 
+		(Select id as crisis_id
+			From Crisis
+			Where kind = 'TA');
+
+42. List of Hurricanes in the US that Wallace Stickney (WStickney) helped out with.
+
+Select name
+	From Crisis
+	Where kind= 'HU' and id in 
+		(select id_crisis as id
+			From PersonCrisis
+			Where id_person = 'WStickney');
+
+43.List of hurricanes in the US where FEMA was NOT involved.
+
+Select name
+	From Crisis join CrisisOrganization
+	on Crisis.id = CrisisOrganization.id_Crisis
+	Where kind = 'HU' and id_organization != 'FEMA';
+
+
+44.  Number of crises that intelligence agencies were involved in.
+
+Select count(*)
+	From CrisisOrganization join Organization
+	On CrisisOrganization.id_organization = Organization.id
+	Where id in
+		(Select id 
+			From Organization
+			Where kind = 'IA');
+
+45. How many more orgs does America have than Britain. 
+
+Select count(S.id) - count(R.id)
+	From Organization as S join Organization as R natural join Location
+	Where S.Country = 'Britain' and R.Country = 'United States';
