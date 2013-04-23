@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" ?>
+<?xml version="1.0" ?>
 <WorldCrises>
   <Crisis crisisIdent= "Syrian_WAR_2011">
     <Name>Syrian Civil War</Name>
@@ -31,7 +31,7 @@
     </RelatedOrganizations>
   </Crisis>
 
-  <Crisis crisisIdent= "Africa_DS_1970">
+  <Crisis crisisIdent= "Africa_DI_1970">
     <Name> AIDS in Africa</Name>
     <Kind crisisKindIdent= "DI"/>
     <Location>
@@ -358,7 +358,7 @@
     </ExternalResources>
     <RelatedCrises>
       <RelatedCrisis crisisIdent= "HU_Katrina_2005"/>
-      <RelatedCrisis crisisIdent= "Africa_DS_1970"/>
+      <RelatedCrisis crisisIdent= "Africa_DI_1970"/>
       <RelatedCrisis crisisIdent= "Syrian_WAR_2011"/>
       <RelatedCrisis crisisIdent= "Vietnam_WAR_1955"/>
     </RelatedCrises>
@@ -391,7 +391,7 @@
       <ExternalLinkURL>http://www.worldbank.org/</ExternalLinkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="Africa_DS_1970"/>
+      <RelatedCrisis crisisIdent="Africa_DI_1970"/>
       <RelatedCrisis crisisIdent="Vietnam_WAR_1955"/>
     </RelatedCrises>
   </Organization>
@@ -422,7 +422,7 @@
       <SocialNetworkURL>http://www.facebook.com/Africaremedia</SocialNetworkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="Africa_DS_1970"/>
+      <RelatedCrisis crisisIdent="Africa_DI_1970"/>
     </RelatedCrises>
   </Organization>
 
@@ -533,7 +533,7 @@
       <ExternalLinkURL>http://www.who.int/</ExternalLinkURL>
     </ExternalResources>
     <RelatedCrises>
-    <RelatedCrisis crisisIdent="Africa_DS_1970"/>
+    <RelatedCrisis crisisIdent="Africa_DI_1970"/>
     <RelatedCrisis crisisIdent="Japan_EQ_2011"/>
     </RelatedCrises>
     <RelatedPersons>
@@ -568,7 +568,7 @@
       <ExternalLinkURL>https://www.amnesty.org</ExternalLinkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="Africa_DS_1970"/>
+      <RelatedCrisis crisisIdent="Africa_DI_1970"/>
       <RelatedCrisis crisisIdent="Egypt_WAR_2011"/>
       <RelatedCrisis crisisIdent="HT_0001"/>
       <RelatedCrisis crisisIdent="Syrian_WAR_2011"/>
@@ -639,7 +639,7 @@
     </ExternalResources>
     <RelatedCrises>
       <RelatedCrisis crisisIdent="HU_Katrina_2005"/>
-      <RelatedCrisis crisisIdent="Africa_DS_1970"/>
+      <RelatedCrisis crisisIdent="Africa_DI_1970"/>
       <RelatedCrisis crisisIdent="Japan_EQ_2011"/>
       <RelatedCrisis crisisIdent="HU_Katrina_2005"/>
       <RelatedCrisis crisisIdent="HU_Andrew_1992"/>
@@ -732,7 +732,7 @@
       <ExternalLinkURL>http://www.nelsonmandela.org</ExternalLinkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="Africa_DS_1970"/>
+      <RelatedCrisis crisisIdent="Africa_DI_1970"/>
     </RelatedCrises>
     <RelatedOrganizations>
       <RelatedOrganization organizationIdent="Africare"/>
@@ -848,7 +848,7 @@
       <SocialNetworkURL>http://www.facebook.com/BillGates</SocialNetworkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="Africa_DS_1970"/>
+      <RelatedCrisis crisisIdent="Africa_DI_1970"/>
       <RelatedCrisis crisisIdent="HT_0001"/>
     </RelatedCrises>
     <RelatedOrganizations>
@@ -873,7 +873,7 @@
       <ExternalLinkURL>https://www.u2.com</ExternalLinkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="Africa_DS_1970"/>
+      <RelatedCrisis crisisIdent="Africa_DI_1970"/>
 	  <RelatedCrisis crisisIdent="HT_0001"/>
     </RelatedCrises>
     <RelatedOrganizations>
