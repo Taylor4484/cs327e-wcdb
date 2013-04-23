@@ -33,7 +33,7 @@
 
   <Crisis crisisIdent= "Africa_DS_1970">
     <Name> AIDS in Africa</Name>
-    <Kind crisisKindIdent= "ID"/>
+    <Kind crisisKindIdent= "DI"/>
     <Location>
       <Country>All African countries </Country>
     </Location>
@@ -65,7 +65,7 @@
 
   <Crisis crisisIdent= "HT_0001">
     <Name>Human Trafficking</Name>
-    <Kind crisisKindIdent= "TOC"/>
+    <Kind crisisKindIdent= "HT"/>
     <Location>
       <Country>Global, no country excluded</Country>
     </Location>
@@ -101,7 +101,7 @@
 
   <Crisis crisisIdent= "Holocaust_GC_1933">
     <Name>Holocaust</Name>
-    <Kind crisisKindIdent= "GE"/>
+    <Kind crisisKindIdent= "GC"/>
     <Location>
       <Country>France, Germany, United Kingdom, Poland</Country>
     </Location>
@@ -130,7 +130,7 @@
   
   <Crisis crisisIdent="Cuba_WP_1962">
     <Name>Cuban Missile Crisis</Name>
-    <Kind crisisKindIdent= "PC"/>
+    <Kind crisisKindIdent= "CO"/>
     <Location>
       <Country>Cuba </Country>
     </Location>
@@ -160,7 +160,7 @@
 
   <Crisis crisisIdent= "HU_Katrina_2005">
     <Name>Hurricane Katrina</Name>
-    <Kind crisisKindIdent= "ND"/>
+    <Kind crisisKindIdent= "HU"/>
     <Location>
       <Region>Florida</Region>
       <Country>United States</Country>
@@ -229,7 +229,7 @@
   
   <Crisis crisisIdent="Eyjafjallajokull_VO_2010">
     <Name>2010 eruptions of Eyjafjallajokull</Name>
-    <Kind crisisKindIdent = "ND"/>
+    <Kind crisisKindIdent = "VO"/>
     <Location>
       <Country>Iceland</Country>
     </Location>
@@ -250,7 +250,7 @@
 	
   <Crisis crisisIdent="Egypt_WAR_2011">
     <Name>2011 Egyptian Revolution</Name>
-    <Kind crisisKindIdent = "RE"/>
+    <Kind crisisKindIdent = "CO"/>
     <Location>
       <Country>Egypt</Country>
     </Location>
@@ -331,7 +331,7 @@
 
  <Crisis crisisIdent="Chicago_FR_1871">
     <Name>The Great Chicago Fire</Name>
-    <Kind crisisKindIdent="ND"/>
+    <Kind crisisKindIdent="FR"/>
     <Location>
       <Locality>Chicago</Locality>
       <Region>Illinois</Region>
@@ -359,7 +359,7 @@
 
   <Crisis crisisIdent="Japan_EQ_2011">
     <Name>Tohoku Earthquake and Tsunami</Name>
-    <Kind crisisKindIdent="ND"/>
+    <Kind crisisKindIdent="EQ"/>
     <Location>
       <Region>Pacific Rim</Region>
     </Location>
@@ -406,7 +406,7 @@
 
   <Crisis crisisIdent="HU_Andrew_1992">
     <Name>Hurricane Andrew</Name>
-    <Kind crisisKindIdent="ND"/>
+    <Kind crisisKindIdent="HU"/>
     <Location>
       <Region>Florida</Region>
       <Country>United States</Country>
@@ -456,7 +456,7 @@
 
   <Crisis crisisIdent="HU_Ike_2008">
     <Name>Hurricane Ike</Name>
-    <Kind crisisKindIdent="ND"/>
+    <Kind crisisKindIdent="HU"/>
     <Location>
       <Region>Texas</Region>
       <Country>United States</Country>
@@ -501,7 +501,7 @@
 
   <Crisis crisisIdent="HU_Wilma_2005">
     <Name>Hurricane Wilma</Name>
-    <Kind crisisKindIdent="ND"/>
+    <Kind crisisKindIdent="HU"/>
     <Location>
       <Country>Cuba</Country>
     </Location>
@@ -547,7 +547,7 @@
 
   <Crisis crisisIdent="HU_Ivane_2004">
     <Name>Hurricane Ivan</Name>
-    <Kind crisisKindIdent="ND"/>
+    <Kind crisisKindIdent="HU"/>
     <Location>
       <Country>Grenada</Country>
     </Location>
@@ -600,7 +600,7 @@
 
   <Crisis crisisIdent="HU_Charley_2004">
     <Name>Hurricane Charley</Name>
-    <Kind crisisKindIdent="ND"/>
+    <Kind crisisKindIdent="HU"/>
     <Location>
       <Country>Jamaica</Country>
     </Location>
@@ -642,7 +642,7 @@
 
   <Crisis crisisIdent="HU_Sandy_2012">
     <Name>Hurricane Sandy</Name>
-    <Kind crisisKindIdent="ND"/>
+    <Kind crisisKindIdent="HU"/>
     <Location>
       <Country>Greater Antilles</Country>
     </Location>
@@ -702,7 +702,7 @@
 
   <Crisis crisisIdent="Tri-State_TO_1925">
     <Name>Tri-State Tornado</Name>
-    <Kind crisisKindIdent="ND"/>
+    <Kind crisisKindIdent="TO"/>
     <Location>
       <Region>Missouri</Region>
       <Country>United States</Country>
@@ -747,7 +747,7 @@
 
    <Crisis crisisIdent = "Enron_EC_2001">
     <Name>Enron Collapse</Name>
-    <Kind crisisKindIdent = "FC"/>
+    <Kind crisisKindIdent = "EC"/>
     <Location>
       <Locality>Houston</Locality>
       <Region>TX</Region>
@@ -777,7 +777,7 @@
 
   <Crisis crisisIdent = "EC_1929">
     <Name>Great Depression</Name>
-    <Kind crisisKindIdent = "FC"/>
+    <Kind crisisKindIdent = "EC"/>
     <Location>
       <Locality>New York City</Locality>
       <Region>New York</Region>
@@ -810,7 +810,7 @@
 
   <Crisis crisisIdent = "EC_2008">
     <Name>2008 Financial Crisis</Name>
-    <Kind crisisKindIdent = "FC"/>
+    <Kind crisisKindIdent = "EC"/>
     <Location>
       <Country>United States</Country>
     </Location>
@@ -922,7 +922,7 @@
 
   <Crisis crisisIdent = "Corn_DS_1970">
     <Name>United States Corn Epidemic of 1970</Name>
-    <Kind crisisKindIdent = "E"/>
+    <Kind crisisKindIdent = "FC"/>
     <Location>
       <Country>United States</Country>
     </Location>
@@ -949,7 +949,7 @@
 
   <Crisis crisisIdent = "WAR_Terror_2001">
     <Name>War on Terror</Name>
-    <Kind crisisKindIdent = "MC"/>
+    <Kind crisisKindIdent = "WAR"/>
     <Location>
       <Country>United States</Country>
     </Location>
@@ -980,7 +980,7 @@
 
   <Crisis crisisIdent = "World_WAR_II_1939">
     <Name>World War Two</Name>
-    <Kind crisisKindIdent = "MC"/>
+    <Kind crisisKindIdent = "WAR"/>
     <Location>
       <Country>Poland</Country>
     </Location>
@@ -1038,7 +1038,7 @@
 
   <Crisis crisisIdent= "Russia_EC_2007">
     <Name>Russian Financial Crisis</Name>
-    <Kind crisisKindIdent= "FC"/>
+    <Kind crisisKindIdent= "EC"/>
     <Location>
       <Country>Russia</Country>
     </Location>
@@ -1066,7 +1066,7 @@
 
   <Crisis crisisIdent="Russia_ME_2013">
     <Name>2013 Russian Meteor</Name>
-    <Kind crisisKindIdent="ND"/>
+    <Kind crisisKindIdent="ME"/>
     <Location>
       <Country>Russia</Country>
     </Location>
@@ -1091,7 +1091,7 @@
 
   <Crisis crisisIdent="Haiti_EQ_2010">
     <Name>Haiti Earthquake</Name>
-    <Kind crisisKindIdent="ND"/>
+    <Kind crisisKindIdent="EQ"/>
     <Location>
       <Country>Haiti</Country>
     </Location>
@@ -1133,7 +1133,7 @@
 
   <Crisis crisisIdent="TO_2011">
     <Name>2011 Tornado Outbreak</Name>
-    <Kind crisisKindIdent="ND"/>
+    <Kind crisisKindIdent="TO"/>
     <Location>
       <Region>Midwest</Region>
       <Country>US</Country>
@@ -1381,7 +1381,7 @@
       <Locality>Brussels</Locality>
       <Country>Belgium</Country>
     </Location>
-    <History>The Treaty of Brussels, signed on 17 March 1948 by Belgium, the Netherlands, Luxembourg, France, and the United Kingdom, is considered the precursor to the NATO agreement. The treaty and the Soviet Berlin Blockade led to the creation of the Western European Union's Defence Organization in September 1948. However, participation of the United States was thought necessary both to counter the military power of the USSR and to prevent the revival of nationalist militarism, so talks for a new military alliance began almost immediately resulting in the North Atlantic Treaty, which was signed in Washington, D.C. on 4 April 1949. It included the five Treaty of Brussels states plus the United States, Canada, Portugal, Italy, Norway, Denmark and Iceland. Popular support for the Treaty was not unanimous, and some Icelanders participated in a pro-neutrality, anti-membership riot in March 1949. The members agreed that an armed attack against any one of them in Europe or North America would be considered an attack against them all. Consequently they agreed that, if an armed attack occurred, each of them, in exercise of the right of individual or collective self-defence, would assist the member being attacked, taking such action as it deemed necessary, including the use of armed force, to restore and maintain the security of the North Atlantic area. The treaty does not require members to respond with military action against an aggressor. Although obliged to respond, they maintain the freedom to choose the method by which they do so. This differs from Article IV of the Treaty of Brussels, which clearly states that the response will be military in nature. It is nonetheless assumed that NATO members will aid the attacked member militarily. The treaty was later clarified to include both the member's territory and their "vessels, forces or aircraft" above the Tropic of Cancer, including some Overseas departments of France</History>
+    <History>The Treaty of Brussels, signed on 17 March 1948 by Belgium, the Netherlands, Luxembourg, France, and the United Kingdom, is considered the precursor to the NATO agreement. The treaty and the Soviet Berlin Blockade led to the creation of the Western European Union's Defence Organization in September 1948. However, participation of the United States was thought necessary both to counter the military power of the USSR and to prevent the revival of nationalist militarism, so talks for a new military alliance began almost immediately resulting in the North Atlantic Treaty, which was signed in Washington, D.C. on 4 April 1949. It included the five Treaty of Brussels states plus the United States, Canada, Portugal, Italy, Norway, Denmark and Iceland. Popular support for the Treaty was not unanimous, and some Icelanders participated in a pro-neutrality, anti-membership riot in March 1949. The members agreed that an armed attack against any one of them in Europe or North America would be considered an attack against them all. Consequently they agreed that, if an armed attack occurred, each of them, in exercise of the right of individual or collective self-defence, would assist the member being attacked, taking such action as it deemed necessary, including the use of armed force, to restore and maintain the security of the North Atlantic area. The treaty does not require members to respond with military action against an aggressor. Although obliged to respond, they maintain the freedom to choose the method by which they do so. This differs from Article IV of the Treaty of Brussels, which clearly states that the response will be military in nature. It is nonetheless assumed that NATO members will aid the attacked member militarily. The treaty was later clarified to include both the member's territory and their "vessels, forces or aircraft" above the Tropic of Cancer, including some Overseas departments of France</History>    <ContactInfo>
     <ContactInfo>
       <Telephone>+32 2 707 50 33</Telephone>
       <Fax></Fax>
@@ -1775,7 +1775,7 @@
 
   <Organization organizationIdent="SA">
     <Name>Salvation Army</Name>
-    <Kind organizationKindIdent="CO"/>
+    <Kind organizationKindIdent="CHA"/>
     <Location>
       <Locality>Alexandria</Locality>
       <Region>Virginia</Region>
@@ -1818,7 +1818,7 @@
 
   <Organization organizationIdent="DEC">
     <Name>Disasters Emergency Committee</Name>
-    <Kind organizationKindIdent="CO"/>
+    <Kind organizationKindIdent="CHA"/>
     <Location>
       <Locality>London</Locality>
       <Country>United Kingdom</Country>
@@ -1971,7 +1971,7 @@
 
   <Organization organizationIdent="ALQ">
     <Name>Al-Qaeda</Name>
-    <Kind organizationKindIdent="TO"/>
+    <Kind organizationKindIdent="TORG"/>
     <Location>
       <Country>Afghanistan</Country>
     </Location>
@@ -2044,7 +2044,7 @@
 
   <Organization organizationIdent="CIA">
     <Name>Central Intelligence Agency</Name>
-    <Kind organizationKindIdent="FA"/>
+    <Kind organizationKindIdent="IA"/>
     <Location>
       <Locality>Langley</Locality>
       <Region>Virginia</Region>
@@ -2088,7 +2088,7 @@
 
     <Organization organizationIdent="USDA">
     <Name>United States Department of Agriculture</Name>
-    <Kind organizationKindIdent="GB"/>
+    <Kind organizationKindIdent="GOV"/>
     <Location>
       <Locality>Washington</Locality>
       <Region>D.C.</Region>
@@ -2125,7 +2125,7 @@
 
   <Organization organizationIdent="SEC">
     <Name>U.S. Securities and Exchange Commission</Name>
-    <Kind organizationKindIdent="FA"/>
+    <Kind organizationKindIdent="GOV"/>
     <Location>
       <Locality>Washington</Locality>
       <Region>D.C.</Region>
@@ -2162,7 +2162,7 @@
 
   <Organization organizationIdent="FDIC">
     <Name>Federal Department Insurance Corporation</Name>
-    <Kind organizationKindIdent="FA"/>
+    <Kind organizationKindIdent="GOV"/>
     <Location>
       <Locality>Washington</Locality>
       <Region>D.C.</Region>
@@ -2199,7 +2199,7 @@
 
   <Organization organizationIdent="FRS">
     <Name>Federal Reserve</Name>
-    <Kind organizationKindIdent="FA"/>
+    <Kind organizationKindIdent="GOV"/>
     <Location>
       <Locality>Washington</Locality>
       <Region>D.C.</Region>
@@ -2245,7 +2245,7 @@
       <Region>New York</Region>
       <Country>United States</Country>
     </Location>
-    <History>The League of Nations failed to prevent World War II (1939-1945). Because of the widespread recognition that humankind could not afford a third world war, the United Nations was established to replace the flawed League of Nations in 1945 in order to maintain international peace and promote cooperation in solving international economic, social, and humanitarian problems. The earliest concrete plan for a new world organization was begun under the aegis of the U.S. State Department in 1939. Franklin D. Roosevelt first coined the term 'United Nations' as a term to describe the Allied countries. The term was first officially used on 1 January 1942, when 26 governments signed the Atlantic Charter, pledging to continue the war effort. On 25 April 1945, the UN Conference on International Organization began in San Francisco, attended by 50 governments and a number of non-governmental organizations involved in drafting the United Nations Charter. The UN officially came into existence on 24 October 1945 upon ratification of the Charter by the five then-permanent members of the Security Council-France, the Republic of China, the Soviet Union, the United Kingdom and the United States-and by a majority of the other 46 signatories. The first meetings of the General Assembly, with 51 nations represented, and the Security Council, took place in Methodist Central Hall Westminster in London beginning 6 January 1946.</History>
+    <History>The League of Nations failed to prevent World War II (1939ñ1945). Because of the widespread recognition that humankind could not afford a third world war, the United Nations was established to replace the flawed League of Nations in 1945 in order to maintain international peace and promote cooperation in solving international economic, social, and humanitarian problems. The earliest concrete plan for a new world organization was begun under the aegis of the U.S. State Department in 1939. Franklin D. Roosevelt first coined the term 'United Nations' as a term to describe the Allied countries. The term was first officially used on 1 January 1942, when 26 governments signed the Atlantic Charter, pledging to continue the war effort. On 25 April 1945, the UN Conference on International Organization began in San Francisco, attended by 50 governments and a number of non-governmental organizations involved in drafting the United Nations Charter. The UN officially came into existence on 24 October 1945 upon ratification of the Charter by the five then-permanent members of the Security CouncilóFrance, the Republic of China, the Soviet Union, the United Kingdom and the United Statesóand by a majority of the other 46 signatories. The first meetings of the General Assembly, with 51 nations represented, and the Security Council, took place in Methodist Central Hall Westminster in London beginning 6 January 1946.</History>
     <ContactInfo>
       <Telephone/>
       <Fax/>
@@ -2287,7 +2287,7 @@
 
   <Organization organizationIdent="LEH">
     <Name>Lehman Brothers</Name>
-    <Kind organizationKindIdent="IB"/>
+    <Kind organizationKindIdent="INV"/>
     <Location>
       <Locality>New York</Locality>
       <Region>New York</Region>
@@ -2321,7 +2321,7 @@
 
   <Organization organizationIdent="HAMAS">
     <Name>Hamas</Name>
-    <Kind organizationKindIdent="TA"/>
+    <Kind organizationKindIdent="NG"/>
     <Location>
       <Locality>Gaza</Locality>
       <Country>Palestinian Territories</Country>
@@ -2348,7 +2348,7 @@
   
   <Organization organizationIdent="UNESCO">
     <Name>United Nations Educational, Scientific and Cultural Organization</Name>
-    <Kind organizationKindIdent="FA"/>
+    <Kind organizationKindIdent="GOV"/>
     <Location>
       <Locality>Paris</Locality>
       <Country>France</Country>
@@ -2378,7 +2378,7 @@
 
   <Organization organizationIdent="WFP">
     <Name>World Food Program</Name>
-    <Kind organizationKindIdent="GB"/>
+    <Kind organizationKindIdent="GOV"/>
     <Location>
       <Locality>Rome</Locality>
       <Country>Italy</Country>
@@ -2530,7 +2530,7 @@
       <MiddleName>Dale</MiddleName>
       <LastName>Huckabee</LastName>
     </Name>
-    <Kind personKindIdent="GO"/>
+    <Kind personKindIdent="GOV"/>
     <Location>
       <Locality>Hope</Locality>
       <Region>Arkansas</Region>
@@ -2692,7 +2692,7 @@
       <FirstName>Clara</FirstName>
       <LastName>Barton</LastName>
     </Name>
-    <Kind personKindIdent="F"/>
+    <Kind personKindIdent="FO"/>
     <Location>
       <Locality>Washington</Locality>
       <Region>D.C.</Region>
@@ -2719,7 +2719,7 @@
       <FirstName>Gail</FirstName>
       <LastName>McGovern</LastName>
     </Name>
-    <Kind personKindIdent="OO"/>
+    <Kind personKindIdent="PCEO"/>
     <Location>
       <Locality>Washington</Locality>
       <Region>D.C.</Region>
@@ -2780,7 +2780,7 @@
       <FirstName>William</FirstName>
       <LastName>Lawrence</LastName>
     </Name>
-    <Kind personKindIdent="OO"/>
+    <Kind personKindIdent="GO"/>
     <Location>
       <Region>Florida</Region>
       <Country>United States</Country>
@@ -2802,7 +2802,7 @@
       <FirstName>Bonnie</FirstName>
       <LastName>McElveen-Hunter</LastName>
     </Name>
-    <Kind personKindIdent="OO"/>
+    <Kind personKindIdent="CM"/>
     <Location>
       <Locality>Washington</Locality>
       <Region>D.C.</Region>
@@ -2834,7 +2834,7 @@
       <FirstName>John</FirstName>
       <LastName>Roos</LastName>
     </Name>
-    <Kind personKindIdent="AB"/>
+    <Kind personKindIdent="AMB"/>
     <Location>
       <Country>Japan</Country>
     </Location>
@@ -2860,7 +2860,7 @@
       <FirstName>Wayne</FirstName>
       <LastName>Pacelle</LastName>
     </Name>
-    <Kind personKindIdent="OO"/>
+    <Kind personKindIdent="PCEO"/>
     <Location>
       <Locality>Washington</Locality>
       <Region>D.C.</Region>
@@ -2883,7 +2883,7 @@
       <FirstName>Anjeze</FirstName>
       <LastName>Bojaxhiu</LastName>
     </Name>
-    <Kind personKindIdent="F"/>
+    <Kind personKindIdent="FO"/>
     <Location>
       <Country>India</Country>
     </Location>
@@ -2993,7 +2993,7 @@
       <FirstName>Kenneth</FirstName>
       <LastName>Lay</LastName>
     </Name>
-    <Kind personKindIdent="OO"/>
+    <Kind personKindIdent="CEO"/>
     <Location>
       <Locality>Tyrone</Locality>
       <Region>Missouri</Region>
@@ -3018,7 +3018,7 @@
       <LastName>Bernanke</LastName>
       <Suffix></Suffix>
     </Name>
-    <Kind personKindIdent="OO"/>
+    <Kind personKindIdent="CM"/>
     <Location>
       <Locality>Augusta</Locality>
       <Region>Georgia</Region>
@@ -3044,7 +3044,7 @@
       <LastName>Hardin</LastName>
       <Suffix></Suffix>
     </Name>
-    <Kind personKindIdent="OO"/>
+    <Kind personKindIdent="GO"/>
     <Location>
       <Locality>Knightstown</Locality>
       <Region>Indiana</Region>
@@ -3090,7 +3090,7 @@
       <FirstName>Alan</FirstName>
       <LastName>Greenspan</LastName>
     </Name>
-    <Kind personKindIdent="OO"/>
+    <Kind personKindIdent="CM"/>
     <Location>
       <Locality>New York</Locality>
       <Region>New York</Region>
@@ -3151,7 +3151,6 @@
     </ExternalResources>
     <RelatedCrises>
       <RelatedCrisis crisisID= "World_WAR_II_1939"/>
-    </RelatedCrises>
   </Person>
 
   <Person personIdent="MHThatcher">
@@ -3278,50 +3277,85 @@
     <Name>Natural Disaster</Name>
     <Description>The costliest natural disaster and deadliest in the history of the United States</Description>
   </CrisisKind>
+  
+  <CrisisKind crisisKindIdent="EQ">
+    <Name>Earthquake</Name>
+    <Description>Earthquake</Description>
+  </CrisisKind>
 
-  <CrisisKind crisisKindIdent="PC">
-    <Name>Political Confrontation</Name>
-    <Description>Two or more countries engaging in a military standoff for political reasons. In U.S. history, largely associated with the cold War between the U.S. and U.S.S.R.</Description>
+  <CrisisKind crisisKindIdent="FR">
+    <Name>Fire</Name>
+    <Description>Fire</Description>
   </CrisisKind>
   
-  <CrisisKind crisisKindIdent="ID">
-    <Name>Infectious Disease</Name>
+  <CrisisKind crisisKindIdent="FL">
+    <Name>Flood</Name>
+    <Description>Flood</Description>
+  </CrisisKind>
+  
+  <CrisisKind crisisKindIdent="HU">
+    <Name>Hurricane</Name>
+    <Description>Hurricane</Description>
+  </CrisisKind>
+  
+  <CrisisKind crisisKindIdent="ST">
+    <Name>Storm</Name>
+    <Description>Storm</Description>
+  </CrisisKind>
+  
+   <CrisisKind crisisKindIdent="TO">
+    <Name>Tornado</Name>
+    <Description>Tornado</Description>
+  </CrisisKind>
+  
+  <CrisisKind crisisKindIdent="TS">
+    <Name>Tsunami</Name>
+    <Description>Tsunami</Description>
+  </CrisisKind>
+  
+   <CrisisKind crisisKindIdent="VO">
+    <Name>Volcano</Name>
+    <Description>Volcano</Description>
+  </CrisisKind>
+  
+  <CrisisKind crisisKindIdent="DI">
+    <Name>Disease</Name>
     <Description>A disease resulting from pathogenic biological agents in an host organism </Description>
   </CrisisKind>
 
-  <CrisisKind crisisKindIdent="GE">
+  <CrisisKind crisisKindIdent="GC">
     <Name>Genocide</Name>
     <Description>The deliberate and systematic destruction of an ethnic, racial, religious, or national group </Description>
   </CrisisKind>
 
-  <CrisisKind crisisKindIdent="TOC">
-    <Name>Transnational Organized Crime</Name>
-    <Description>Organized crime coordinated across national borders, involving groups workin in more than one country to plan and execute illegal business ventures</Description>
+  <CrisisKind crisisKindIdent="MIS">
+    <Name>Others</Name>
+    <Description>Miscellaneous</Description>
   </CrisisKind>
   
-  <CrisisKind crisisKindIdent="RE">
-    <Name>Revolution</Name>
-    <Description>A fundamental change in power or organizational structures that takes place in a relatively short period of time.</Description>
-  </CrisisKind>
-
   <CrisisKind crisisKindIdent = "EC">
     <Name>Economic Crisis</Name>
     <Description>Crisis that significantly alters and threatens the economic state of the region.</Description>
   </CrisisKind>
 
+  <CrisisKind crisisKindIdent = "CO">
+    <Name>Conflict</Name>
+    <Description>Conflict</Description>
+  </CrisisKind>
+  
   <CrisisKind crisisKindIdent = "FC">
-    <Name>Financial Crisis</Name>
-    <Description>Crisis that results in a significant loss of money.</Description>
+    <Name>Food Crisis</Name>
+    <Description>Food related crisis.</Description>
   </CrisisKind>
-
-  <CrisisKind crisisKindIdent = "MC">
-    <Name>Military Crisis</Name>
-    <Description>Crisis that requires military involvement, often war.</Description>
+  
+   <CrisisKind crisisKindIdent = "ME">
+    <Name>Meteor</Name>
+    <Description>Meteor</Description>
   </CrisisKind>
-
-  <CrisisKind crisisKindIdent = "E">
-    <Name>Epidemic</Name>
-    <Description>Crisis that results in widespread disease and sickness.</Description>
+  
+   <CrisisKind crisisKindIdent = "ACC">
+    <Name>Accident</Name>
+    <Description>Crisis resulting from an accident.</Description>
   </CrisisKind>
 
   <OrganizationKind organizationKindIdent="NG">
@@ -3329,9 +3363,9 @@
     <Description>The government of a nation</Description>
   </OrganizationKind>
 
-  <OrganizationKind organizationKindIdent="FA">
-    <Name>Federal Agency</Name>
-    <Description>An independent agency of a federal government; usually created by the government to oversee a specific department/tast but is not run by the government or a branch of the government</Description>
+  <OrganizationKind organizationKindIdent="IA">
+    <Name>Intelligence Agency</Name>
+    <Description>A government agency responsible for the collection, analysis or exploitation of information and intelligenc</Description>
   </OrganizationKind>
 
   <OrganizationKind organizationKindIdent="HO">
@@ -3359,8 +3393,8 @@
     <Description>A military brach of a government (or governments) that carries out the orders received, whether that be active combat or humanitarian aide</Description>
   </OrganizationKind>
 
-  <OrganizationKind organizationKindIdent="GB">
-    <Name>Government Branch</Name>
+  <OrganizationKind organizationKindIdent="GOV">
+    <Name>Governmental Organization</Name>
     <Description>A branch of the government of a country, such as the Dept. of Homeland Security or Agriculture in the U.S.A.</Description>
   </OrganizationKind>
 
@@ -3369,17 +3403,17 @@
     <Description>An organization dedicated to the ensuring the welfare of animals</Description>
   </OrganizationKind>
 
- <OrganizationKind organizationKindIdent="CO">
+ <OrganizationKind organizationKindIdent="CHA">
     <Name>Charitable Organization</Name>
     <Description>An organization that provides service to the needy in the community; is reliant upon on the charity of the community (e.g. donations) to operate</Description>
   </OrganizationKind>
 
- <OrganizationKind organizationKindIdent="TO">
+ <OrganizationKind organizationKindIdent="TORG">
     <Name>Terrorist Organization</Name>
     <Description>A political movement that uses terror as a weapon to achieve its goals.</Description>
   </OrganizationKind>
 
-  <OrganizationKind organizationKindIdent="IB">
+  <OrganizationKind organizationKindIdent="INV">
     <Name>Investment Bank</Name>
     <Description>A financial institution that assists individuals, corporations, and governments in raising capital by underwriting and/or acting as the client's agent in the issuance of securities.</Description>
   </OrganizationKind>
@@ -3404,24 +3438,34 @@
     <Description>Leader of a dictatorship, someone with sole and absolute power</Description>
   </PersonKind>
 
-  <PersonKind personKindIdent="GO">
+  <PersonKind personKindIdent="GOV">
     <Name>Governor</Name>
     <Description>Person served as Governor of a state in the United States</Description>
   </PersonKind>
+  
+  <PersonKind personKindIdent="GO">
+    <Name>Government Official</Name>
+    <Description>An official in the government.</Description>
+  </PersonKind>
 
-  <PersonKind personKindIdent="AB">
+  <PersonKind personKindIdent="AMB">
     <Name>Ambassador</Name>
     <Description>An accredited diplomat sent by a country as its official representative to a foreign country.</Description>
   </PersonKind>
 
-  <PersonKind personKindIdent="F">
+  <PersonKind personKindIdent="FO">
     <Name>Founder</Name>
     <Description>Person who established an institution</Description>
   </PersonKind>
 
-  <PersonKind personKindIdent="OO">
-    <Name>Officer of an Organization</Name>
-    <Description>Someone instrumental in leading an organization or agency, a ranking official such as the VP, CEO, or Chairman</Description>
+  <PersonKind personKindIdent="PCEO">
+    <Name>President and CEO</Name>
+    <Description>President and CEO of an organization.</Description>
+  </PersonKind>
+  
+  <PersonKind personKindIdent="CM">
+    <Name>Chairman</Name>
+    <Description>Chairman of an organization.</Description>
   </PersonKind>
 
   <PersonKind personKindIdent="SW">
@@ -3437,5 +3481,10 @@
   <PersonKind personKindIdent="TL">
     <Name>Terrorist Leader</Name>
     <Description>A leader of a group who uses or advocates terrorism.</Description>
+  </PersonKind>
+  
+  <PersonKind personKindIdent="CEO">
+    <Name>Chief Executive Officer</Name>
+    <Description>The highest-ranking corporate officer (executive) or administrator in charge of total management of an organization.</Description>
   </PersonKind>
 </WorldCrises>
