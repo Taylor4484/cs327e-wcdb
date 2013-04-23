@@ -153,8 +153,8 @@ Select name, telephone, fax, email, street address, locality, region, postal cod
 20. What is the longest-lasting crisis? (if no end date, then ignore)
 
 Select name
-     From Crisis
-     Where 
+     From Crisis as R join Crisis as S 
+     Where end_date != NULL and max(S.end_date - R.state_date)
 
 21. Which person(s) is involved or associated with the most organizations?
 
@@ -229,6 +229,42 @@ Select name
 Select name, country
     From Person natural join Location
     Order by country;
+
+31. What crisis affected the most countries?
+
+Select country
+	From Location natural join Crisis
+	Where max(count(id))
+
+32.What is the first (earliest) crisis in the database?
+
+Select name
+	From Crisis
+	Where min(start_date)
+
+33. What is the number of organizations in the US?
+
+Select count()
+	From Organization natural join Location
+	Where Location = 'US'
+
+34.How many people are singers?
+
+Select count()
+	From Person
+	Where kind = 'SNG'
+
+35.What is the number of leaders (current and former)? (PersonKind is "LD")
+
+Select count()
+	From Person
+	Where kind = 'LD'
+
+36. Find the start date of every hurricane that occurred in the US
+
+Select state_date, name
+	From Crisis natural join Location
+	Where kind = 'HU' country = 'United States' 
 
 37. Number of natural disasters occurring from June 5th 2000 to June 5th 2012
 
