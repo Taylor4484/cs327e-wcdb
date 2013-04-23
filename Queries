@@ -118,6 +118,98 @@ Select name
 	    From CrisisOrganization
 	    Where count(id_organization) > ALL)
 
+16. How many organizations are government based?
+Select *  
+from organizations
+	where organizationKindIdent = “GOV”
+order by organizationKindIdent;
+
+17. What is the total number of casualties across the DB?
+Select *
+	from crisis
+	sum(casualties);
+
+18. What is the most common type/kind of crisis occurring in the DB?
+Select *
+	from Crisis
+	where crisisKindIdent in Name
+		(select crisisKindIdent
+			from 
+	order 
+
+19. Create a list of telephone numbers, emails, and other contact info for all orgs
+Select *
+	from organization
+	where
+	order
+
+20. What is the longest-lasting crisis? (if no end date, then ignore)
+Select *
+	from crisis
+	where
+	order
+
+21. Which person(s) is involved or associated with the most organizations?
+Select *
+from person
+	where
+	order
+
+22.How many hurricane crises (CrisisKind=HU)?
+Select *
+	from crisis
+	where crisisKindIdent = “HU”
+	order by crisiKindIdent;
+
+23. Name all humanitarian orgs in the DB
+Select *
+	from organization
+	where organizationKindIdent = “HO”
+	order by organizationKindIdent;
+
+24. List the crises in the order when they occurred (earliest to latest)
+Select *
+	from crisis
+	where 
+	order ;
+
+25. Get the name and kind of all persons in the US (United States, USA, United States of America)
+Select *
+	from 
+	where
+	order
+
+26. Who has the longest name?
+Select *
+	from person
+	where length(FirstName) = ( select max(length(name)) from person )
+
+27. Which kinds of crisis only have one crisis example?
+Select *
+	from crisis
+	where 
+	order
+
+28. Which people don't have a middle name?
+Select *
+	from 
+	where
+	order
+
+29. What are the names that start with 'B'?
+Select *
+	from Person
+	where
+	order
+
+30. List all the people associated with each country.
+Select *
+	from Person
+	where  
+	order
+
+
+
 37. Number of natural disasters occurring from June 5th 2000 to June 5th 2012
 
 Select count(*)
