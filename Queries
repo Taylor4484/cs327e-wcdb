@@ -120,7 +120,7 @@ Select name
 
 16. How many organizations are government based?
 
-Select *
+Select count(name)
     From Organizations
 	Where organizationKindIdent = 'GOV'
         Order by organizationKindIdent;
