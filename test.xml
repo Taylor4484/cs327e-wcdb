@@ -1,0 +1,22 @@
+<WorldCrises>
+  <Crisis crisisIdent="DG6345">
+    <Name>Digimon War</Name>
+    <Kind crisisKindIdent="WAR" />
+    <Location>
+      <Country>Digimon World</Country>
+    </Location>
+    <StartDateTime>
+      <Date>6345-12-02</Date>
+    </StartDateTime>
+    <HumanImpact>
+      <Type>Death </Type>
+      <Number>78981235 </Number>
+    </HumanImpact>
+    <EconomicImpact />
+    <ExternalResources>
+      <ImageURL>http://wikimon.net/images/3/36/Digimonxroswars_poster.png</ImageURL>
+      <VideoURL>http://www.youtube.com/watch?v=uPZw1JR2aZ8</VideoURL>
+      <ExternalLinkURL>http://wikimon.net/Digimon_Xros_Wars</ExternalLinkURL>
+    </ExternalResources>
+  </Crisis>
+</WorldCrises>
