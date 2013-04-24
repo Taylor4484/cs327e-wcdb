@@ -23,7 +23,7 @@ Select country
 
 Select avg(number)
     From HumanImpact
-    Where crisis_id in
+    Where type = 'Death' and crisis_id in
 	(select id as crisis_id
 	    from Crisis
 	    Where kind = ‘ACC’);
@@ -31,9 +31,10 @@ Select avg(number)
 4. What is the average death toll of world crises per country?
 
 Select avg(number), country
-    From HumanImpact as S join Location as R
-    On s.crisis_id = R.id
-    Group by country;
+	From HumanImpact as S join Location as R
+	On S.crisis_id = R.id
+	Where type = 'Death'
+	Group by country;
 	
 5. What is the most common resource needed for different types of disasters?
 
@@ -121,34 +122,28 @@ Select name
 16. How many organizations are government based?
 
 Select count(name)
-    From Organizations
-	Where organizationKindIdent = 'GOV'
-        Order by organizationKindIdent;
+	From Organizations
+	Where kind = 'GOV'
 
 17. What is the total number of casualties across the DB?
 
-Select SUM(casualties)
-    From HumanImpact
-    Where crisis_id in
-	(Select id as crisis_id
-	    From Crisis);
+Select SUM(number)
+	From HumanImpact
+	Where crisis_id in
+	(Select district id as crisis_id
+		From Crisis);
 
 18. What is the most common type/kind of crisis occurring in the DB?
 
-Select name
-    From Crisis
-    Where crisisKindIdent in Name
-	(select crisisKindIdent
-	From ); 
+Select R.name
+	From CrisisKind as R join Crisis as S
+	On R.id = S.id
+	Where count(S.kind) > ALL); 
 
 19. Create a list of telephone numbers, emails, and other contact info for all orgs
 
-Select name, telephone, fax, email, street address, locality, region, postal code, country
+Select name, telephone, fax, email, street_address, locality, region, postal_code,country
      From Organization
-     Where id in
-	(Select id
-	    From ContactInfo)
-     Order by name;
 
 20. What is the longest-lasting crisis? (if no end date, then ignore)
 
@@ -159,34 +154,29 @@ Select name
 21. Which person(s) is involved or associated with the most organizations?
 
 Select name
-     From Person
-     Where id in 
+	From Person
+	Where id in 
 	(Select person_id as id
-	    From RelatedOrganization
-	    Where number > ALL);
+	    From OrganizationPerson
+	    Where count(person_id) > ALL);
 
 22.How many hurricane crises (CrisisKind=HU)?
 
 Select *
      From Crisis
-         Where crisisKindIdent = 'HU'
-	 Order by crisisKindIdent;
+     Where kind = 'HU'
 
 23. Name all humanitarian orgs in the DB
 
 Select name
-     From Organization
-         Where organizationKindIdent = 'HO'
-	 Order by organizationKindIdent;
+	From Organization
+	Where kind = 'HO'
 
 24. List the crises in the order when they occurred (earliest to latest)
 
 Select name
     From Crisis
-    Where id in 
-	(Select crisis_id
-	    From StartDateTime)
-    Order StartDateTime;
+    Order start_date;
 
 25. Get the name and kind of all persons in the US (United States, USA, United States of America)
 
@@ -195,28 +185,26 @@ Select name, kind
      Where person_id in
 	(Select id as person_id
 	    From Location
-	    Where (country =  'Unisted States') OR (country =  'USA') OR (country =  'Unisted States of America');
+	    Where (country = 'United States') OR (country = 'USA') OR (country = 'United States of America');
 
 26. Who has the longest name?
 
 Select name
 	From Person
-	Where length(FirstName) = (select max(length(name)));
+	Where max(length(first_name));
 
 27. Which kinds of crisis only have one crisis example?
 
-Select name
-     From Crisis
-     Where id in
-	(Select crisis_id as id
-	    From Crisis
-	    Where count(crisisId)=1);
+Select S.name
+	From Crisis as R join CrisisKind as S
+	On R.kind = S.id
+	Where count(kind) = 1;
 
 28. Which people don't have a middle name?
 
 Select name
      From Person
-     Where MiddleName = NULL;
+     Where middle_name = NULL;
 
 29. What are the names that start with 'B'?
 
@@ -295,7 +283,7 @@ Select Country, count(*)
 Select avg(number)
 	From HumanImpact join Crisis
 	On HumanImpact.crisis_id = Crisis.id
-	Where kind = "HU'
+	Where kind = "HU' and type = 'Death'
 
 41. Total number of deaths caused by terrorist attacks
 
@@ -304,7 +292,8 @@ select sum(number)
 	Where crisis_id in 
 		(Select id as crisis_id
 			From Crisis
-			Where kind = 'TA');
+			Where kind = 'TA')
+	and type = 'Death';
 
 42. List of Hurricanes in the US that Wallace Stickney (WStickney) helped out with.
 
