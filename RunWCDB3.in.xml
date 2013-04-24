@@ -1,79 +1,74 @@
 <?xml version="1.0" ?>
 <WorldCrises>
-  <Crisis crisisIdent= "LOR_WAR_2003">
+  <Crisis crisisIdent= "LOR_WAR_1937">
     <Name>Lord Of The Rings War</Name>
     <Kind crisisKindIdent= "WAR"/>
     <Location>
       <Country>Mordor </Country>
     </Location>
     <StartDateTime>
-      <Date>2011-03-15</Date>
+      <Date>1937-10-15</Date>
     </StartDateTime>
     <HumanImpact>
       <Type>Death </Type>
-      <Number>70000 </Number>
+      <Number>150000 </Number>
     </HumanImpact>
-    <EconomicImpact></EconomicImpact>
+    <EconomicImpact>5 USD</EconomicImpact>
     <ExternalResources>
-      <ImageURL>http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/syria_nov_2012/bp11.jpg</ImageURL>
-      <ImageURL>http://en.wikipedia.org/wiki/File:Bombed_out_vehicles_Aleppo.jpg</ImageURL>
-      <VideoURL>http://www.bbc.co.uk/news/world-middle-east-21504390</VideoURL>
+      <ImageURL>http://upload.wikimedia.org/wikipedia/en/6/62/Jrrt_lotr_cover_design.jpg</ImageURL>
+      <VideoURL>http://www.youtube.com/watch?v=LtKuUPK2BfQ</VideoURL>
       <MapURL>http://goo.gl/maps/PWJKM</MapURL>
-      <SocialNetworkURL>https://www.facebook.com/SyrianDayOfRage</SocialNetworkURL>
-      <ExternalLinkURL>http://www.crisisgroup.org/en/regions/middle-east-north-africa/egypt-syria-lebanon-syria.aspx/</ExternalLinkURL>
+      <SocialNetworkURL>https://www.facebook.com/lordoftheringstrilogy</SocialNetworkURL>
+      <ExternalLinkURL>http://www.lordoftherings.net</ExternalLinkURL>
     </ExternalResources>
     <RelatedPersons>
       <RelatedPerson personIdent = "Gandalf"/>
     </RelatedPersons>
     <RelatedOrganizations>
-      <RelatedOrganization organizationIdent = "Men"/>
-      <RelatedOrganization organizationIdent = "Hobbit"/>
+      <RelatedOrganization organizationIdent = "01"/>
     </RelatedOrganizations>
   </Crisis>
 
-  <Organization organizationIdent= "DWB">
-    <Name>Doctors Without Borders</Name>
-    <Kind organizationKindIdent= "HO"/>
+  <Organization organizationIdent= "O1">
+    <Name>Fellowship Ring</Name>
+    <Kind organizationKindIdent= "FR"/>
     <Location>
       <Country>Global</Country>
     </Location>
-    <History>Doctors without Borders was created in 1971, in the aftermath of the Biafra secession, by a small group of French doctors and journalist</History>
+    <History>Originated to escort the ring bearer</History>
     <ContactInfo>
-      <Telephone>212 679 6800</Telephone>
-      <Fax>212 679 7016</Fax>
-      <Email>infor@doctorwithoutboders.org</Email>
+      <Telephone>713 888 9999</Telephone>
+      <Fax></Fax>
+      <Email>info@lordoftherings.org</Email>
       <PostalAddress>
-        <StreetAddress>Doctors Without Borders, 333 7th Avenue</StreetAddress>
-        <Locality>New York</Locality>
-  <Region>New York</Region>
-  <PostalCode>10001</PostalCode>
-	<Country>USA</Country>
+        <StreetAddress>1414 The Shire</StreetAddress>
+        <Locality>Yorkshire</Locality>
+  <Region>England</Region>
+  <PostalCode>77777</PostalCode>
+	<Country>UK</Country>
       </PostalAddress>
     </ContactInfo>
     <ExternalResources>
-      <ImageURL>http://en.wikipedia.org/wiki/File:Msf_logo.png</ImageURL>
-      <MapURL>http://www.doctorswithoutborders.org/news/article.cfm?id=828</MapURL>
-      <SocialNetworkURL>https://www.facebook.com/msf.english</SocialNetworkURL>
+      <ImageURL>http://upload.wikimedia.org/wikipedia/en/7/7e/FellowshipOfTheRing.JPG</ImageURL>
+      <MapURL>http://maps.google.com/maps?q=fellowship%20of%20the%20ring&client=safari&rls=en&oe=UTF-8&hl=en&um=1&ie=UTF-8&sa=N&tab=wl</MapURL>
+      <SocialNetworkURL>http://www.facebook.com/pages/The-Lord-of-the-Rings-The-Fellowship-of-the-Ring/280234464001</SocialNetworkURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent= "HU_Katrina_2005"/>
-      <RelatedCrisis crisisIdent= "Africa_DI_1970"/>
-      <RelatedCrisis crisisIdent= "Syrian_WAR_2011"/>
-      <RelatedCrisis crisisIdent= "Vietnam_WAR_1955"/>
+      <RelatedCrisis crisisIdent= "LOR_WAR_1937"/>
     </RelatedCrises>
   </Organization>
 
-  <Person personIdent="JFKennedy">
+  <Person personIdent="Gandalf">
     <Name>
-      <FirstName>John</FirstName>
-      <MiddleName>Fitzgerald</MiddleName>
-      <LastName>Kennedy</LastName>
+      <FirstName>Gandal</FirstName>
+      <MiddleName></MiddleName>
+      <LastName>Grey</LastName>
     </Name>
-    <Kind personKindIdent="PR"/>
+    <Kind personKindIdent="W"/>
     <Location>
-      <Locality>Brookline</Locality>
-      <Region>Massachusetts</Region>
-      <Country>USA</Country>
+      <Locality>Shire</Locality>
+      <Region>England</Region>
+      <Country>UK</Country>
     </Location>
     <ExternalResources>
       <ImageURL>http://www.whitehouse.gov/sites/default/files/first-family/masthead_image/35jk_header.jpg?1250885463 </ImageURL>
@@ -81,11 +76,10 @@
       <MapURL>http://goo.gl/maps/xFGPn</MapURL>
     </ExternalResources>
     <RelatedCrises>
-      <RelatedCrisis crisisIdent="Cuba_WP_1962"/>
-      <RelatedCrisis crisisIdent="Vietnam_WAR_1955"/>
+      <RelatedCrisis crisisIdent="LOR_WAR_1937"/>
     </RelatedCrises>
     <RelatedOrganizations>
-      <RelatedOrganization organizationIdent = "NATO"/>
+      <RelatedOrganization organizationIdent = "FR"/>
     </RelatedOrganizations>
   </Person>
 
@@ -94,14 +88,14 @@
     <Description>An organized and often prolonged conflict that is carried out by states and/or non-state actors.</Description>
   </CrisisKind>
 
-  <OrganizationKind organizationKindIdent="IO">
-    <Name>International Organization</Name>
-    <Description>Organization that provides leveraged loans to poor countries</Description>
+  <OrganizationKind organizationKindIdent="FR">
+    <Name>Fellowship of the Ring</Name>
+    <Description>Organization that provides protection for the ring bearer</Description>
   </OrganizationKind>
 
-  <PersonKind personKindIdent="GOV">
-    <Name>Governor</Name>
-    <Description>Person served as Governor of a state in the United States</Description>
+  <PersonKind personKindIdent="W">
+    <Name>Wizard</Name>
+    <Description>Person performs magic</Description>
   </PersonKind>
 </WorldCrises>
 
