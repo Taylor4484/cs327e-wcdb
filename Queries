@@ -123,7 +123,7 @@ Select name
 
 Select count(name)
 	From Organizations
-	Where kind = 'GOV'
+	Where kind = 'GOV';
 
 17. What is the total number of casualties across the DB?
 
@@ -164,13 +164,13 @@ Select name
 
 Select *
      From Crisis
-     Where kind = 'HU'
+     Where kind = 'HU';
 
 23. Name all humanitarian orgs in the DB
 
 Select name
 	From Organization
-	Where kind = 'HO'
+	Where kind = 'HO';
 
 24. List the crises in the order when they occurred (earliest to latest)
 
