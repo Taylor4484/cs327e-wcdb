@@ -29,7 +29,7 @@ from WCDB3 import *
 # TestWCDB3
 # -----------
 
-class TestWCDB1(unittest.TestCase):
+class TestWCDB3(unittest.TestCase):
   # -----------
   # Test login
   # -----------
