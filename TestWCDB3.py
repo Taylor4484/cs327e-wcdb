@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 # ---------------------------
-# projects/WCDB1/WCDB1.py
+# projects/WCDB1/WCDB3.py
 # Copyright (C) 2013
 # Taylor McCaslin
 # ---------------------------
@@ -9,7 +9,7 @@
 
 """
 To test the program:
-% TestWCDB1.py >& TestWCDB1.out
+% TestWCDB3.py >& TestWCDB3.out
 """
 
 # -------
@@ -23,43 +23,44 @@ from cStringIO import StringIO
 import xml.etree.ElementTree as ET
 import _mysql
 
-from WCDB2 import *
+from WCDB3 import *
 
 # -----------
 # TestWCDB3
 # -----------
 
-# -----------
-# Test login
-# -----------
+class TestWCDB1(unittest.TestCase):
+  # -----------
+  # Test login
+  # -----------
 
-def test_wcdb3_login1(self):
+  def test_wcdb3_login1 (self):
     c = _mysql.connect(
-        host = "z",
-        user = "Us3r",
-        passwd = "BaNaNa",
-        db = "cs327e_taylor")
-    self.assert_(str(type(c)) == "<type '_mysql.connection'>")
-    
-def test_wcdb3_login2 (self) :
-    c = _mysql.connect(
-        host = "z",
-        user = "OscarMyer",
-        passwd = "b0lOgN4",
-        db = "cs327e_taylor")
-    self.assert_(str(type(c)) != "<type '_mysql.connection'>")
+          host = "z",
+          user = "Us3r",
+          passwd = "BaNaNa",
+          db = "cs327e_taylor")
+  self.assert_(str(type(c)) == "<type '_mysql.connection'>")
+
+  def test_wcdb3_login2 (self) :
+        c = _mysql.connect(
+          host = "z",
+          user = "OscarMyer",
+          passwd = "b0lOgN4",
+          db = "cs327e_taylor")
+        self.assert_(str(type(c)) != "<type '_mysql.connection'>")
         
-def test_wcdb3_login3 (self) :
-    c = _mysql.connect(
-        host = "z",
-        user = "hazard",
-        passwd = "AbcdefG",
-        db = "cs327e_taylor")
-    self.assert_(str(type(c)) != "<type '_mysql.connection'>")
+  def test_wcdb3_login3 (self) :
+        c = _mysql.connect(
+          host = "z",
+          user = "hazard",
+          passwd = "AbcdefG",
+          db = "cs327e_taylor")
+        self.assert_(str(type(c)) != "<type '_mysql.connection'>")
 
-#-----------
-# test query
-#-----------
+  #-----------
+  # test query
+  #-----------
 
   def test_query1(c, s):
     login = "<type '_mysql.connection'>"
@@ -91,27 +92,25 @@ def test_wcdb3_login3 (self) :
   
   def test_wcdb3_read_1(self):
     r = StringIO.StringIO("<a />")
-    root = wcdb1_read(r)
+    root = wcdb3_read(r)
     self.assert_(root.tag == "a")
 
 
   def test_wcdb3_read_2(self):
     r = StringIO.StringIO("<a> <b></b> </a>")
-    root = wcdb1_read(r)
+    root = wcdb3_read(r)
     self.assert_(root.tag == "a")
     self.assert_(root[0].tag == "b")
 
   def test_wcdb3_read_3(self):
     r = StringIO.StringIO("<a>hello world</a>")
-    root = wcdb1_read(r)
+    root = wcdb3_read(r)
     self.assert_(root.tag == "a")
     self.assert_(root.text == "hello world")
 
-
-
-#-----------
-# test createDB
-#-----------
+  #-----------
+  # test createDB
+  #-----------
 
   def test_createDB1(self):
     h = "localhost"
@@ -158,9 +157,7 @@ def test_wcdb3_login3 (self) :
     c = login(h, u, p, db)
     result = createDB(c)
     tree = ET.parse(StringIO("<WorldCrisis></WorldCrisis"))
-    #tree = "<WorldCrisisDatabase><Crisis></Crisis></WorldCrisisDatabase>"
-    #r = open('WCDB2.xml', 'r')
-    wcdb2_import(login, tree)
+    wcdb3_import(login, tree)
     self.assert_(len(query(c, "select * from Crisis;")) == 0)
 
   def test_wcdb3_import2(self):
@@ -170,9 +167,9 @@ def test_wcdb3_login3 (self) :
     db = "WCDB"
     c = login(h, u, p, db)
     result = createDB(c)
-    s = "<WorldCrisis><Crisis crisisIdent= "+"SY2011"+" ><Name>Syrian Civil War </Name><Kind crisisKindIdent= "+"WAR"+" /><Location><Country>Syria </Country></Location><StartDateTime><Date>2011-03-15</Date></StartDateTime><HumanImpact><Type>Death </Type><Number>70000 </Number></HumanImpact><EconomicImpact></EconomicImpact><ExternalResources><ImageURL>http://en.wikipedia.org/wiki/File:Bombed_out_vehicles_Aleppo.jpg</ImageURL><VideoURL>http://www.bbc.co.uk/news/world-middle-east-21504390</VideoURL><MapURL>http://goo.gl/maps/PWJKM</MapURL><ExternalLinkURL>http://www.crisisgroup.org</ExternalLinkURL></ExternalResources><RelatedPersons><RelatedPerson personIdent = "+"SLavrov"+"/></RelatedPersons><RelatedOrganizations><RelatedOrganization organizationIdent = "+"NATO"+"/><RelatedOrganization organizationIdent = "+"AI"+" /></RelatedOrganizations></Crisis><CrisisKind crisisKindIdent="+"WAR"+"><Name>War</Name><Description>An organized and often prolonged conflict that is carried out by states and/or non-state actors.</Description></CrisisKind></WorldCrisis"
+    s = "<WorldCrisis><Crisis crisisIdent= "+"SY2011"+" ><Name>Syrian Civil War </Name><Kind crisisKindIdent= "+"WAR"+" /><Location><Country>Syria </Country></Location><StartDateTime><Date>2011-03-15</Date></StartDateTime><HumanImpact><Type>Death </Type><Number>70000 </Number></HumanImpact><EconomicImpact></EconomicImpact><ExternalResources><ImageURL> http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/syria_nov_2012/bp11.jpg </ImageURL><ImageURL> http://en.wikipedia.org/wiki/File:Bombed_out_vehicles_Aleppo.jpg </ImageURL><VideoURL>http://www.bbc.co.uk/news/world-middle-east-21504390</VideoURL><MapURL>http://goo.gl/maps/PWJKM</MapURL><SocialNetworkURL>https://www.facebook.com/SyrianDayOfRage</SocialNetworkURL><ExternalLinkURL>http://www.crisisgroup.org</ExternalLinkURL></ExternalResources><RelatedPersons><RelatedPerson personIdent = "+"SLavrov"+"/></RelatedPersons><RelatedOrganizations><RelatedOrganization organizationIdent = "+"NATO"+"/><RelatedOrganization organizationIdent = "+"AI"+" /></RelatedOrganizations></Crisis><CrisisKind crisisKindIdent="+"WAR"+"><Name>War</Name><Description>An organized and often prolonged conflict that is carried out by states and/or non-state actors.</Description></CrisisKind></WorldCrisis"
     tree = ET.parse(s)
-    wcdb2_import(login, tree)
+    wcdb3_import(login, tree)
     self.assert_(len(query(c, "select * from Crisis;")) == 1)
 
   def test_wcdb3_import3(self):
@@ -182,9 +179,9 @@ def test_wcdb3_login3 (self) :
     db = "WCDB"
     c = login(h, u, p, db)
     result = createDB(c)
-    s = "<WorldCrisis><Crisis crisisIdent= "+"SY2011"+" ><Name>Syrian Civil War </Name><Kind crisisKindIdent= "+"WAR"+" /><Location><Country>Syria </Country></Location><StartDateTime><Date>2011-03-15</Date></StartDateTime><HumanImpact><Type>Death </Type><Number>70000 </Number></HumanImpact><EconomicImpact></EconomicImpact><ExternalResources><ImageURL>http://en.wikipedia.org/wiki/File:Bombed_out_vehicles_Aleppo.jpg</ImageURL><VideoURL>http://www.bbc.co.uk/news/world-middle-east-21504390</VideoURL><MapURL>http://goo.gl/maps/PWJKM</MapURL><ExternalLinkURL>http://www.crisisgroup.org</ExternalLinkURL></ExternalResources><RelatedPersons><RelatedPerson personIdent = "+"SLavrov"+"/></RelatedPersons><RelatedOrganizations><RelatedOrganization organizationIdent = "+"NATO"+"/><RelatedOrganization organizationIdent = "+"AI"+" /></RelatedOrganizations></Crisis><CrisisKind crisisKindIdent="+"WAR"+"><Name>War</Name><Description>An organized and often prolonged conflict that is carried out by states and/or non-state actors.</Description></CrisisKind></WorldCrisis"
+    s = "<WorldCrisis><Crisis crisisIdent= "+"SY2011"+" ><Name>Syrian Civil War </Name><Kind crisisKindIdent= "+"WAR"+" /><Location><Country>Syria </Country></Location><StartDateTime><Date>2011-03-15</Date></StartDateTime><HumanImpact><Type>Death </Type><Number>70000 </Number></HumanImpact><EconomicImpact></EconomicImpact><ExternalResources><ImageURL> http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/syria_nov_2012/bp11.jpg </ImageURL><ImageURL> http://en.wikipedia.org/wiki/File:Bombed_out_vehicles_Aleppo.jpg </ImageURL><VideoURL>http://www.bbc.co.uk/news/world-middle-east-21504390</VideoURL><MapURL>http://goo.gl/maps/PWJKM</MapURL><SocialNetworkURL>https://www.facebook.com/SyrianDayOfRage</SocialNetworkURL><ExternalLinkURL>http://www.crisisgroup.org</ExternalLinkURL></ExternalResources><RelatedPersons><RelatedPerson personIdent = "+"SLavrov"+"/></RelatedPersons><RelatedOrganizations><RelatedOrganization organizationIdent = "+"NATO"+"/><RelatedOrganization organizationIdent = "+"AI"+" /></RelatedOrganizations></Crisis><CrisisKind crisisKindIdent="+"WAR"+"><Name>War</Name><Description>An organized and often prolonged conflict that is carried out by states and/or non-state actors.</Description></CrisisKind></WorldCrisis"
     tree = ET.parse(s)
-    wcdb2_import(login, tree)
+    wcdb3_import(login, tree)
     self.assert_(len(query(c, "select * from CrisisRelation;")) == 3)
 
   #---------
@@ -198,7 +195,7 @@ def test_wcdb3_login3 (self) :
       passwd = "BaNaNa",
       db = "cs327e_taylor")
     result = createDB(c)
-    tree =WCDB2_export(c)
+    tree = WCDB3_export(c)
     self.assert_(str(type(a))=="<class 'xml.etree.ElementTree.Element'>")
         
   def test_wcdb3_export2(self):
@@ -208,7 +205,7 @@ def test_wcdb3_login3 (self) :
       passwd = "BaNaNa",
       db = "cs327e_taylor")
     result = createDB(c)
-    tree = WCDB2_export(c)
+    tree = WCDB3_export(c)
     self.assert_(str(type(tree)) == type(lxml.etree._Element))
 
   def test_wcdb3_export3(self):
@@ -218,9 +215,8 @@ def test_wcdb3_login3 (self) :
       passwd = "BaNaNa",
       db = "cs327e_taylor")
     result = createDB(c)
-    tree = WCDB2_export(c)
+    tree = WCDB3_export(c)
     self.assert_(len(ET.getroot(tree)) > 0 )
-
 
   # -------
   # write
@@ -252,8 +248,8 @@ def test_wcdb3_login3 (self) :
 
   def test_wcdb3_solve(self):
     w1 = StringIO.StringIO()
-    r = StringIO.StringIO("<WorldCrisis><Crisis crisisIdent= "+"SY2011"+" ><Name>Syrian Civil War </Name><Kind crisisKindIdent= "+"WAR"+" /><Location><Country>Syria </Country></Location><StartDateTime><Date>2011-03-15</Date></StartDateTime><HumanImpact><Type>Death </Type><Number>70000 </Number></HumanImpact><EconomicImpact></EconomicImpact><ExternalResources><ImageURL>http://en.wikipedia.org/wiki/File:Bombed_out_vehicles_Aleppo.jpg</ImageURL><VideoURL>http://www.bbc.co.uk/news/world-middle-east-21504390</VideoURL><MapURL>http://goo.gl/maps/PWJKM</MapURL><ExternalLinkURL>http://www.crisisgroup.org</ExternalLinkURL></ExternalResources><RelatedPersons><RelatedPerson personIdent = "+"SLavrov"+"/></RelatedPersons><RelatedOrganizations><RelatedOrganization organizationIdent = "+"NATO"+"/><RelatedOrganization organizationIdent = "+"AI"+" /></RelatedOrganizations></Crisis><CrisisKind crisisKindIdent="+"WAR"+"><Name>War</Name><Description>An organized and often prolonged conflict that is carried out by states and/or non-state actors.</Description></CrisisKind></WorldCrisis")
-    wcdb1_solve(r, w1)
+    r = StringIO.StringIO("<WorldCrisis><Crisis crisisIdent= "+"SY2011"+" ><Name>Syrian Civil War </Name><Kind crisisKindIdent= "+"WAR"+" /><Location><Country>Syria </Country></Location><StartDateTime><Date>2011-03-15</Date></StartDateTime><HumanImpact><Type>Death </Type><Number>70000 </Number></HumanImpact><EconomicImpact></EconomicImpact><ExternalResources><ImageURL> http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/syria_nov_2012/bp11.jpg </ImageURL><ImageURL> http://en.wikipedia.org/wiki/File:Bombed_out_vehicles_Aleppo.jpg </ImageURL><VideoURL>http://www.bbc.co.uk/news/world-middle-east-21504390</VideoURL><MapURL>http://goo.gl/maps/PWJKM</MapURL><SocialNetworkURL>https://www.facebook.com/SyrianDayOfRage</SocialNetworkURL><ExternalLinkURL>http://www.crisisgroup.org</ExternalLinkURL></ExternalResources><RelatedPersons><RelatedPerson personIdent = "+"SLavrov"+"/></RelatedPersons><RelatedOrganizations><RelatedOrganization organizationIdent = "+"NATO"+"/><RelatedOrganization organizationIdent = "+"AI"+" /></RelatedOrganizations></Crisis><CrisisKind crisisKindIdent="+"WAR"+"><Name>War</Name><Description>An organized and often prolonged conflict that is carried out by states and/or non-state actors.</Description></CrisisKind></WorldCrisis")
+    wcdb3_solve(r, w1)
     self.assert_(w1.getvalue() == w2.getvalue())
 
   def test_wcdb3_solve_2(self):
@@ -294,12 +290,12 @@ def test_wcdb3_login3 (self) :
       </Author>
     </Bookstore>
     """)
-    wcdb1_solve(r, w1)
+    wcdb3_solve(r, w1)
     r2 = StringIO.StringIO(w1.getvalue())
-    wcdb1_solve(r2, w2)
+    wcdb3_solve(r2, w2)
     self.assert_(w1.getvalue() == w2.getvalue())
 
-  def test_wcdb3_solve_3(self):
+  def test_wcdb1_solve_3(self):
     w1 = StringIO.StringIO()
     w2 = StringIO.StringIO()
     r = StringIO.StringIO("""
@@ -328,11 +324,10 @@ def test_wcdb3_login3 (self) :
       </Author>
     </Bookstore>
     """)
-    wcdb1_solve(r, w1)
+    wcdb3_solve(r, w1)
     r2 = StringIO.StringIO(w1.getvalue())
-    wcdb1_solve(r2, w2)
+    wcdb3_solve(r2, w2)
     self.assert_(w1.getvalue() == w2.getvalue())
-
 
 def test_wcdb3_import1(self):
 def test_wcdb3_import2(self):
@@ -349,5 +344,6 @@ def test_wcdb3_export3(self):
 print "TestWCDB3.py"
 unittest.main()
 print "Done."
+
 
 
