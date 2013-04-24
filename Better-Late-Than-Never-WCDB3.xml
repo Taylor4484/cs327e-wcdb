@@ -289,7 +289,6 @@
 			<Kind crisisKindIdent="EQ"></Kind>
 			<Location>
 				<Locality>Tohoku</Locality>
-				<Region></Region>
 				<Country>Japan</Country>
 			</Location>
 				<StartDateTime><Date>2011-03-11</Date></StartDateTime>
@@ -322,7 +321,6 @@
 			<Kind organizationKindIdent="MO"></Kind>
 			<Location>
 				<Locality>Washington D.C.</Locality>
-				<Region></Region>
 				<Country>United States of America</Country>
 			</Location>
 			<History>Founded 1870-04-04.</History>
@@ -356,7 +354,6 @@
 			<Kind organizationKindIdent="GOV"></Kind>
 			<Location>
 				<Locality>Washington D.C.</Locality>
-				<Region></Region>
 				<Country>United States of America</Country>
 			</Location>
 				<History>Founded 1970-10-03</History>
@@ -389,8 +386,6 @@
 			<Name>Forestry Commission Great Britain</Name>
 			<Kind organizationKindIdent="GOV"></Kind>
 			<Location>
-				<Locality></Locality>
-				<Region></Region>
 				<Country>England</Country>
 			</Location>
 				<History>Founded 1919-01-01</History>
@@ -424,7 +419,6 @@
 			<Kind organizationKindIdent="HEA"></Kind>
 			<Location>
 				<Locality>Washington D.C.</Locality>
-				<Region></Region>
 				<Country>United States of America</Country>
 			</Location>
 				<History>Founded 1881-05-21</History>
@@ -462,7 +456,6 @@
 			<Kind organizationKindIdent="HO"></Kind>
 			<Location>
 				<Locality>London</Locality>
-				<Region></Region>
 				<Country>England</Country>
 			</Location>
 			<History>Founded 1994-01-01</History>
@@ -496,7 +489,6 @@
 			<Kind organizationKindIdent="MO"></Kind>
 			<Location>
 				<Locality>Washington D.C.</Locality>
-				<Region></Region>
 				<Country>United States of America</Country>
 			</Location>
 				<History>Founded 1790-08-04</History>
@@ -530,7 +522,7 @@
 			<Kind organizationKindIdent="GOV"></Kind>
 			<Location>
 				<Locality>Washington D.C.</Locality>
-				<Region></Region>
+				
 				<Country>United States of America</Country>
 			</Location>
 			<History>Founded 1978-06-19</History>
@@ -564,7 +556,7 @@
 			<Kind organizationKindIdent="HO"></Kind>
 			<Location>
 				<Locality>New York</Locality>
-				<Region></Region>
+				
 				<Country>United States of America</Country>
 			</Location>
 				<History>Founded 2010-01-12</History>
@@ -597,7 +589,6 @@
 			<Name>Hurricane Sandy Relief Foundation</Name>
 			<Kind organizationKindIdent="HO"></Kind>
 			<Location>
-				<Locality></Locality>
 				<Region>New Jersey</Region>
 				<Country>United States of America</Country>
 			</Location>
@@ -631,7 +622,6 @@
 			<Name>Japan Earthquake Relief Fund</Name>
 			<Kind organizationKindIdent="HO"></Kind>
 			<Location>
-				<Locality></Locality>
 				<Region>New York</Region>
 				<Country>United States of America</Country>
 			</Location>
@@ -664,9 +654,7 @@
 	<Person personIdent="RJoseph">
 		<Name>
 			<FirstName>Raymond</FirstName>
-			<MiddleName></MiddleName>
 			<LastName>Joseph</LastName>
-			<Suffix></Suffix>
 		</Name>
 		<Kind personKindIdent="GO"></Kind>
 		<Location>
@@ -690,9 +678,8 @@
 	<Person personIdent="MSon">
 		<Name>
 			<FirstName>Masayoshi</FirstName>
-			<MiddleName></MiddleName>
+			
 			<LastName>Son</LastName>
-			<Suffix></Suffix>
 		</Name>
 		<Kind personKindIdent="CEO"></Kind>
 		<Location><Locality>Tosu</Locality><Region>Saga Prefecture</Region><Country>Japan</Country></Location>
@@ -715,7 +702,6 @@
 			<FirstName>Gail</FirstName>
 			<MiddleName>J</MiddleName>
 			<LastName>McGovern</LastName>
-			<Suffix></Suffix>
 		</Name>
 		<Kind personKindIdent="HO"></Kind>
 		<Location><Locality>Springfield</Locality><Region>New Jersey</Region><Country>United States of America</Country></Location>
@@ -742,7 +728,6 @@
 			<FirstName>George</FirstName>
 			<MiddleName>Walker</MiddleName>
 			<LastName>Bush</LastName>
-			<Suffix></Suffix>
 		</Name>
 		<Kind personKindIdent="PR"></Kind>
 		<Location><Locality>New Haven</Locality><Region>Connecticut</Region><Country>United States of America</Country></Location>
@@ -763,9 +748,7 @@
 	<Person personIdent="BHObama">
 		<Name>
 			<FirstName>Barack</FirstName>
-			<MiddleName></MiddleName>
 			<LastName>Obama</LastName>
-			<Suffix></Suffix>
 		</Name>
 		<Kind personKindIdent="PR"></Kind>
 		<Location><Locality>Honolulu</Locality><Region>Hawaii</Region><Country>United States of America</Country></Location>
@@ -786,9 +769,7 @@
 	<Person personIdent="BGiles">
 		<Name>
 			<FirstName>Bill</FirstName>
-			<MiddleName></MiddleName>
 			<LastName>Giles</LastName>
-			<Suffix></Suffix>
 		</Name>
 		<Kind personKindIdent="MIS"></Kind>
 		<Location><Locality>Dartmouth</Locality><Region>Devon</Region><Country>England</Country></Location>
@@ -809,9 +790,7 @@
 	<Person personIdent="THayward">
 		<Name>
 			<FirstName>Tony</FirstName>
-			<MiddleName></MiddleName>
 			<LastName>Hayward</LastName>
-			<Suffix></Suffix>
 		</Name>
 		<Kind personKindIdent="CEO"></Kind>
 		<Location><Locality>Slough</Locality><Region>Buckinghamshire</Region><Country>England</Country></Location>
@@ -834,7 +813,6 @@
 			<FirstName>George</FirstName>
 			<MiddleName>Herbert Walker</MiddleName>
 			<LastName>Bush</LastName>
-			<Suffix></Suffix>
 		</Name>
 		<Kind personKindIdent="PR"></Kind>
 		<Location><Locality>Milton</Locality><Region>Massachusetts</Region><Country>United States of America</Country></Location>
@@ -855,9 +833,7 @@
 	<Person personIdent="JHickenlooper">
 		<Name>
 			<FirstName>John</FirstName>
-			<MiddleName></MiddleName>
 			<LastName>Hickenlooper</LastName>
-			<Suffix></Suffix>
 		</Name>
 		<Kind personKindIdent="GOV"></Kind>
 		<Location><Locality>Narberth</Locality><Region>Pennsylvania</Region><Country>United States of America</Country></Location>
@@ -878,9 +854,7 @@
 	<Person personIdent="KZia">
 		<Name>
 			<FirstName>Khaleda</FirstName>
-			<MiddleName></MiddleName>
 			<LastName>Zia</LastName>
-			<Suffix></Suffix>
 		</Name>
 		<Kind personKindIdent="LD"></Kind>
 		<Location><Region>Dinajpur District</Region><Country>Bangladesh</Country></Location>
@@ -902,75 +876,75 @@
 	<!--Kinds-->
 	<CrisisKind crisisKindIdent="FR">
 		<Name>Fire</Name>
-		<Description></Description>
+		<Description>fire</Description>
 	</CrisisKind>
 	<CrisisKind crisisKindIdent="FL">
 		<Name>Flood</Name>
-		<Description></Description>
+		<Description>flood</Description>
 	</CrisisKind>
 	<CrisisKind crisisKindIdent="HU">
 		<Name>Hurricane</Name>
-		<Description></Description>
+		<Description>hurricane</Description>
 	</CrisisKind>
 	<CrisisKind crisisKindIdent="ST">
 		<Name>Storm</Name>
-		<Description></Description>
+		<Description>storm</Description>
 	</CrisisKind>
 	<CrisisKind crisisKindIdent="ACC">
 		<Name>Accident</Name>
-		<Description></Description>
+		<Description>accident</Description>
 	</CrisisKind>
 	<CrisisKind crisisKindIdent="EQ">
 		<Name>Earthquake</Name>
-		<Description></Description>
+		<Description>earthquake</Description>
 	</CrisisKind>
 	<OrganizationKind organizationKindIdent="GOV">
 		<Name>Government Organization</Name>
-		<Description></Description>
+		<Description>description</Description>
 	</OrganizationKind>
 	<OrganizationKind organizationKindIdent="SOC">
 		<Name>Social Organization</Name>
-		<Description></Description>
+		<Description>description</Description>
 	</OrganizationKind>
 	<OrganizationKind organizationKindIdent="HEA">
 		<Name>Health</Name>
-		<Description></Description>
+		<Description>description</Description>
 	</OrganizationKind>
 	<OrganizationKind organizationKindIdent="HO">
 		<Name>Humanitarian Organization</Name>
-		<Description></Description>
+		<Description>descriptiondescription</Description>
 	</OrganizationKind>
 	<OrganizationKind organizationKindIdent="MO">
 		<Name>Military Organization</Name>
-		<Description></Description>
+		<Description>description</Description>
 	</OrganizationKind>
 	<PersonKind personKindIdent="PR">
 		<Name>President</Name>
-		<Description></Description>
+		<Description>description</Description>
 	</PersonKind>
 	<PersonKind personKindIdent="GO">
 		<Name>Government Official</Name>
-		<Description></Description>
+		<Description>description</Description>
 	</PersonKind>
 	<PersonKind personKindIdent="GOV">
 		<Name>Governer</Name>
-		<Description></Description>
+		<Description>description</Description>
 	</PersonKind>
 	<PersonKind personKindIdent="CEO">
 		<Name>CEO</Name>
-		<Description></Description>
+		<Description>description</Description>
 	</PersonKind>
 	<PersonKind personKindIdent="HO">
 		<Name>Head of Organization</Name>
-		<Description></Description>
+		<Description>description</Description>
 	</PersonKind>
 	<PersonKind personKindIdent="MIS">
 		<Name>Others</Name>
-		<Description></Description>
+		<Description>description</Description>
 	</PersonKind>
 	<PersonKind personKindIdent="LD">
 		<Name>Leader</Name>
-		<Description></Description>
+		<Description>description</Description>
 	</PersonKind>
 	
 	
