@@ -1,5 +1,5 @@
 
-1. Which people are associated with more than one crisis?
+/*1. Which people are associated with more than one crisis?*/
 
 Select first_name, middle_name, last_name
     From Person
@@ -8,7 +8,7 @@ Select first_name, middle_name, last_name
 	    From PersonCrisis 
             Where count(id) > 1);
 
-2. For the past 5 decades, which countries had the most world crises per decade?
+/*2. For the past 5 decades, which countries had the most world crises per decade?*/
 
 Select country
     From Location join Crisis
@@ -19,7 +19,7 @@ Select country
     Group by Country
     Order by start_date;
 
-3. What is the average death toll of accident crises?
+/*3. What is the average death toll of accident crises?*/
 
 Select avg(number)
     From HumanImpact
@@ -28,7 +28,7 @@ Select avg(number)
 	    from Crisis
 	    Where kind = ‘ACC’);
 
-4. What is the average death toll of world crises per country?
+/*4. What is the average death toll of world crises per country?*/
 
 Select avg(number), country
 	From HumanImpact as S join Location as R
@@ -36,26 +36,26 @@ Select avg(number), country
 	Where type = 'Death'
 	Group by country;
 	
-5. What is the most common resource needed?
+/*5. What is the most common resource needed?*/
 
 Select description
 	From Crisis as S join ResourceNeeded as R on S.id = R.crisis_id
 	Where max(count(R.id))
 
-6. How many persons are related to crises located in countries other than their own?
+/*6. How many persons are related to crises located in countries other than their own?*/
 
 Select count(distinct ids)
 	From Person as join Location join PersonCrisis join Crisis
 	Where Person.id = Location.id=PersonCrisis.id_person and crisis.id=Location.id;
 
 
-7. How many crises occurred during the 1960s?
+/*7. How many crises occurred during the 1960s?*/
 
 Select count(name)
 	From Crisis
 	Where start_date > 1959-01-01 and start_date < 1970-01-01;
 
-8. Which orgs are located outside the United States and were involved in > 1 crisis?
+/*8. Which orgs are located outside the United States and were involved in > 1 crisis?*/
 
 Select name 
 	From Organization join Location
@@ -64,14 +64,14 @@ Select name
                 from CrisisOrganization
                 Where count(id_organization)> 1);
 
-9. Which Orgs, Crises, and Persons have the same location?
+/*9. Which Orgs, Crises, and Persons have the same location?*/
 
 Select R.name, S.name, T.person, Country
     From Organization as R join Crisis as S join Person as T join Location as U
     On S.id=U.id and R.id=U.id and T.id=U.id
     Order by Country;
 
-10. Which crisis has the minimum Human Impact?
+/*10. Which crisis has the minimum Human Impact?*/
 
 Select name
     From Crisis 
@@ -80,13 +80,13 @@ Select name
 	    From HumanImpact
 	    Where number < ALL);
 
-11. Count the number of crises that each organization helped
+/*11. Count the number of crises that each organization helped?*/
 
 Select name, count(distinct  id_crisis)
     From CrisisOrganization as S join Organization as R 
     on S.id_organization= R.id;
 
-12. Name and Postal Address of all orgs in California
+/*12. Name and Postal Address of all orgs in California?*/
 
 Select name, street address, locality, region, postal_code
     From Organization
@@ -95,13 +95,13 @@ Select name, street address, locality, region, postal_code
 	    From Location
 	    Where region = ‘California’);
 
-13. List all crises that happened in the same state/region
+/*13. List all crises that happened in the same state/region*/
 
 Select name, region
     From Crisis natural join Location
     Order by region;
 
-14. Find the total number of human casualties caused by crises in the 1990s
+/*14. Find the total number of human casualties caused by crises in the 1990s?*/
 
 Select count(number)
     From HumanImpact
@@ -110,7 +110,7 @@ Select count(number)
 	    From Crisis
 	    Where start_date >= 1990-01-01 and start_date < 2000-01-01);
 
-15. Find the organization(s) that has provided support on the most Crises
+/*15. Find the organization(s) that has provided support on the most Crises?*/
 
 Select name 
     From Organization
@@ -119,13 +119,13 @@ Select name
 	    From CrisisOrganization
 	    Where count(id_organization) > ALL);
 
-16. How many organizations are government based?
+/*16. How many organizations are government based?*/
 
 Select count(name)
 	From Organizations
 	Where kind = 'GOV';
 
-17. What is the total number of casualties across the DB?
+/*17. What is the total number of casualties across the DB?*/
 
 Select SUM(number)
 	From HumanImpact
@@ -133,25 +133,25 @@ Select SUM(number)
 	(Select district id as crisis_id
 		From Crisis);
 
-18. What is the most common type/kind of crisis occurring in the DB?
+/*18. What is the most common type/kind of crisis occurring in the DB?*/
 
 Select R.name
 	From CrisisKind as R join Crisis as S
 	On R.id = S.id
 	Where count(S.kind) > ALL); 
 
-19. Create a list of telephone numbers, emails, and other contact info for all orgs
+/*19. Create a list of telephone numbers, emails, and other contact info for all orgs*/
 
 Select name, telephone, fax, email, street_address, locality, region, postal_code,country
      From Organization
 
-20. What is the longest-lasting crisis? (if no end date, then ignore)
+/*20. What is the longest-lasting crisis? (if no end date, then ignore)*/
 
 Select name
      From Crisis as R join Crisis as S 
      Where end_date != NULL and max(S.end_date - R.state_date)
 
-21. Which person(s) is involved or associated with the most organizations?
+/*21. Which person(s) is involved or associated with the most organizations?*/
 
 Select name
 	From Person
@@ -160,25 +160,25 @@ Select name
 	    From OrganizationPerson
 	    Where count(person_id) > ALL);
 
-22.How many hurricane crises (CrisisKind=HU)?
+/*22.How many hurricane crises (CrisisKind=HU)?*/
 
 Select *
      From Crisis
      Where kind = 'HU';
 
-23. Name all humanitarian orgs in the DB
+/*23. Name all humanitarian orgs in the DB*/
 
 Select name
 	From Organization
 	Where kind = 'HO';
 
-24. List the crises in the order when they occurred (earliest to latest)
+/*24. List the crises in the order when they occurred (earliest to latest)*/
 
 Select name
     From Crisis
     Order start_date;
 
-25. Get the name and kind of all persons in the US (United States, USA, United States of America)
+/*25. Get the name and kind of all persons in the US (United States, USA, United States of America)*/
 
 Select name, kind
      From Person
@@ -187,88 +187,88 @@ Select name, kind
 	    From Location
 	    Where (country = 'United States') OR (country = 'USA') OR (country = 'United States of America');
 
-26. Who has the longest name?
+/*26. Who has the longest name?*/
 
 Select name
 	From Person
 	Where max(length(first_name));
 
-27. Which kinds of crisis only have one crisis example?
+/*27. Which kinds of crisis only have one crisis example?*/
 
 Select S.name
 	From Crisis as R join CrisisKind as S
 	On R.kind = S.id
 	Where count(kind) = 1;
 
-28. Which people don't have a middle name?
+/*28. Which people don't have a middle name?*/
 
 Select name
      From Person
      Where middle_name = NULL;
 
-29. What are the names that start with 'B'?
+/*29. What are the names that start with 'B'?*/
 
 Select name
       From Person
       Where FirstName LIKE 'B%';
 
-30. List all the people associated with each country.
+/*30. List all the people associated with each country.*/
 
 Select name, country
     From Person natural join Location
     Order by country;
 
-31. What crisis affected the most countries?
+/*31. What crisis affected the most countries?*/
 
 Select country
 	From Location natural join Crisis
 	Where max(count(id))
 
-32.What is the first (earliest) crisis in the database?
+/*32.What is the first (earliest) crisis in the database?*/
 
 Select name
 	From Crisis
 	Where min(start_date)
 
-33. What is the number of organizations in the US?
+/*33. What is the number of organizations in the US?*/
 
 Select count()
 	From Organization natural join Location
 	Where Location = 'US'
 
-34.How many people are singers?
+/*34.How many people are singers?*/
 
 Select count()
 	From Person
 	Where kind = 'SNG'
 
-35.What is the number of leaders (current and former)? (PersonKind is "LD")
+/*35.What is the number of leaders (current and former)? (PersonKind is "LD")*/
 
 Select count()
 	From Person
 	Where kind = 'LD'
 
-36. Find the start date of every hurricane that occurred in the US
+/*36. Find the start date of every hurricane that occurred in the US*/
 
 Select state_date, name
 	From Crisis natural join Location
 	Where kind = 'HU' country = 'United States' 
 
-37. Number of natural disasters occurring from June 5th 2000 to June 5th 2012
+/*37. Number of natural disasters occurring from June 5th 2000 to June 5th 2012*/
 
 Select count(*)
 	From Crisis 
 	Where kind= 'EQ' or 'FR' or "FL' or 'HU' or 'ME' or 'ST' or 'TO' or 'TS' or 'VO' 
 	and start_date > 2000-06-05 and start_date < 2012-06-05 ;
 
-38. Number of political figures grouped by country.
+/*38. Number of political figures grouped by country.*/
 
 Select count(*)
 	From Person natural join Location
 	Where kind = 'PO' or 'PM' or 'DI' or 'GO' or 'GOV' or 'PR' or 'VP' or "AMB' 
 	Group by country
 
-39.Location with the most number of natural disasters
+/*39.Location with the most number of natural disasters*/
 
 Select Country, count(*)
 	From Location
@@ -278,14 +278,14 @@ Select Country, count(*)
 			Where kind = 'EQ' or 'FR' or "FL' or 'HU' or 'ME' or 'ST' or 'TO' or 'TS' or 'VO');
 	Group by Country
 
-40.Average number of deaths caused by hurricanes.
+/*40.Average number of deaths caused by hurricanes.*/
 
 Select avg(number)
 	From HumanImpact join Crisis
 	On HumanImpact.crisis_id = Crisis.id
 	Where kind = "HU' and type = 'Death'
 
-41. Total number of deaths caused by terrorist attacks
+/*41. Total number of deaths caused by terrorist attacks*/
 
 select sum(number)
 	From HumanImpact
@@ -295,7 +295,7 @@ select sum(number)
 			Where kind = 'TA')
 	and type = 'Death';
 
-42. List of Hurricanes in the US that Wallace Stickney (WStickney) helped out with.
+/*42. List of Hurricanes in the US that Wallace Stickney (WStickney) helped out with.*/
 
 Select name
 	From Crisis
@@ -304,7 +304,7 @@ Select name
 			From PersonCrisis
 			Where id_person = 'WStickney');
 
-43.List of hurricanes in the US where FEMA was NOT involved.
+/*43.List of hurricanes in the US where FEMA was NOT involved.*/
 
 Select name
 	From Crisis join CrisisOrganization
@@ -312,7 +312,7 @@ Select name
 	Where kind = 'HU' and id_organization != 'FEMA';
 
 
-44.  Number of crises that intelligence agencies were involved in.
+/*44.  Number of crises that intelligence agencies were involved in.*/
 
 Select count(*)
 	From CrisisOrganization join Organization
@@ -322,7 +322,7 @@ Select count(*)
 			From Organization
 			Where kind = 'IA');
 
-45. How many more orgs does America have than Britain. 
+/*45. How many more orgs does America have than Britain.*/ 
 
 Select count(S.id) - count(R.id)
 	From Organization as S join Organization as R natural join Location
