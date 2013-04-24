@@ -87,26 +87,30 @@ class TestWCDB3(unittest.TestCase):
       self.assert_(r) != None
 
 # -------
-# test read   NOT DONE WITH THESE
+# test read 
 # -------
-  
-  def test_wcdb3_read_1(self):
-    r = StringIO.StringIO("<a />")
-    root = wcdb3_read(r)
-    self.assert_(root.tag == "a")
 
+  def test_wcdb3_read_1(self):
+      file1 = ["Bonsai.xml"]
+      root = element_builder("WorldCrises")
+      tree = wcdb3_Read(file1)
+      self.assert_(tree.getroot() == root)
 
   def test_wcdb3_read_2(self):
-    r = StringIO.StringIO("<a> <b></b> </a>")
-    root = wcdb3_read(r)
-    self.assert_(root.tag == "a")
-    self.assert_(root[0].tag == "b")
+      file2 = ["Bonsai.xml"]
+      root = wcdb3_Read(file2)
+      cparent = tree.findall("Crisis")
+      for element in cparent:
+          element_list.append(element.attrib['crisisIdent'])
+      assert element_list == ['HU_Katrina_2005', 'WB', 'Cuba_WP_1962', 'Africare', 'HT_0001', 'WBG', 'USCG', 'AHitler', 'Mexico_Drug_WAR_2006', 'WHO', 'NATO', 'HTAP', 'Eyjafjallajokull_VO_2010', 'MHuckabee', 'FCastro', 'AI', 'DWB', 'Bono', 'Africa_DI_1970', 'BHObama', 'JFKennedy', 'MG', 'GWBush', 'NMandela', 'BHGates', 'Egypt_WAR_2011', 'ARC', 'SLavrov', 'Syrian_WAR_2011', 'Holocaust_GC_1933', 'Vietnam_WAR_1955']
 
   def test_wcdb3_read_3(self):
-    r = StringIO.StringIO("<a>hello world</a>")
-    root = wcdb3_read(r)
-    self.assert_(root.tag == "a")
-    self.assert_(root.text == "hello world")
+      file3 = ["Bonsai.xml"]
+      root = wcdb3_Read(file3)
+      for element in cparent:
+          x = element.attrib['crisisIdent']
+          if (x == "Surian_WAR_2011"):
+              assert type(x) == str 
 
   #-----------
   # test createDB
@@ -144,6 +148,45 @@ class TestWCDB3(unittest.TestCase):
     curs=c.cursor()
     curs.execute('SELECT * from Organization')
     self.assert_(curs.fetchone() == None)
+
+  # ----------
+  # wcdb_merge
+  # ----------
+
+  def test_wcdb_merge1 (self):
+    tree = wcdb3_Read (["Bonsai.xml"])
+    newtree = wcdb3_merge(tree)
+    assert tree.getroot().tag == newtree.getroot().tag
+    
+  def test_wcdb_merge2 (self):
+    tree = wcdb3_Read (["Bonsai.xml"])
+    newtree = wcdb3_merge(tree)
+    tparent = tree.finall("Crisis")
+    ntparent = newtree.findall("Crisis")
+    i = 0
+    for element in tparent):
+      if(tparent[i] == ntparent[i]):
+        tparent.remove(i)
+        ntparent.remove(i)
+        i = i + 1
+    assert  tparent== []
+    assert ntparent == []
+    
+    
+  def test_wcdb_merge3 (self):
+    tree = wcdb3_Read (["Bonsai.xml", "Miner.xml"])
+    newtree = wcdb3_merge(tree)
+    tparent = tree.finall("Crisis")
+    ntparent = newtree.findall("Crisis")
+    i = 0
+    for element in tparent):
+      if(tparent[i] == ntparent[i]):
+        tparent.remove(i)
+        ntparent.remove(i)
+        i = i + 1
+    assert  tparent== []
+    assert ntparent != []
+
 
   #----------
   # test import
@@ -329,13 +372,6 @@ class TestWCDB3(unittest.TestCase):
     wcdb3_solve(r2, w2)
     self.assert_(w1.getvalue() == w2.getvalue())
 
-def test_wcdb3_import1(self):
-def test_wcdb3_import2(self):
-def test_wcdb3_import3(self):
-
-def test_wcdb3_export1(self):
-def test_wcdb3_export2(self):
-def test_wcdb3_export3(self):
 
 # ----
 # main

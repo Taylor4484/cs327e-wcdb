@@ -10,8 +10,8 @@
 # -------
 
 import sys
-import _mysql
-import lxml.etree as ET
+#import _mysql
+#import lxml.etree as ET
 
 # --------
 # DB Login
