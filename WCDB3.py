@@ -1258,6 +1258,7 @@ def wcdb3_merge(tree):
 	#Create list holder for idents
 	element_list = []
 	kind_list = []
+	person_list = []
 	
 	for element in cparent:
 		x = element.attrib['crisisIdent']
@@ -1277,19 +1278,23 @@ def wcdb3_merge(tree):
 		kind_list.append(x)
 	for element in pkind:
 		x = element.attrib['personKindIdent']
-		kind_list.append(x)
+		person_list.append(x)
 		
 	#Turn list into set to remove duplicates	
 	element_list = set(element_list)
 	kind_list = set(kind_list)
+	person_list = set(person_list)
 	assert type(element_list) == set
 	assert type(kind_list) == set
+	assert type(person_list) == set
 
 	#Turn set back into list for iteration
 	element_list = list(element_list)
 	kind_list = list(kind_list)
+	person_list = list(person_list)
 	assert type(element_list) == list
 	assert type(kind_list) == list
+	assert type(person_list) == list
 	
 	#Iterate Again Pushing to New Root
 	for element in cparent:
@@ -1336,9 +1341,9 @@ def wcdb3_merge(tree):
 		#get the ident
 		x = element.attrib['personKindIdent']
 		#if ident in unique list, append to new root, remove ident from list to prevent duplication
-		if(x in kind_list):
+		if(x in person_list):
 			new_root.append(element)
-			kind_list.remove(x)
+			person_list.remove(x)
 	
 	
 	
