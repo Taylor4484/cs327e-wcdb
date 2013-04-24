@@ -31,6 +31,15 @@ def wcdb3_login ( host, un, pw, database ) :
 	return login
 
 
+
+def escapeSpecialCharacters ( text ):
+	characters = ['\'', ',']
+	
+	for character in characters:
+		text = text.replace( character, '\\' + character )
+	return text
+    
+    
 # ----------
 # Pose Query
 # ---------- 
@@ -39,7 +48,10 @@ def query (login, s) :
 	"""Logs into DB and runs provided string as query"""
 	assert str(type(login)) == "<type '_mysql.connection'>"
 	assert type(s) is str
-	login.query(s)
+	try: 
+		login.query(s)
+	except:
+		print("error query:", s)
 	r = login.use_result()
 	if r is None :
 		return None
@@ -395,7 +407,7 @@ def process_crisis (login, tree) :
 		s = StartDateTime[i]
 		e = EndDateTime[i]		
 		
-		s = (parentkey[i], d.get('Name'), kind[i], s.get('Date'), s.get('Time', 'Null'), e.get('Date', 'Null'), e.get('Time', 'Null'), d.get('EconomicImpact', 'No Economic Impact Provided'))
+		s = (parentkey[i], d.get('Name'), kind[i], s.get('Date'), s.get('Time', 'Null'), e.get('Date', 'Null'), e.get('Time', 'Null'), escapeSpecialCharacters (d.get('EconomicImpact', 'No Economic Impact Provided')))
 		s = 'insert into Crisis values' + str(s) + ';'
 		s = s.replace('None', 'Null')
 		t = query(login,s)
@@ -507,7 +519,7 @@ def process_org (login, tree) :
 		
 		#QueryBuilding - Organization Table
 		d = inserts[i]	
-		s = (parentkey[i], d.get('Name','Null'), kind[i], d.get('History', 'Null'), d.get('Telephone', 'Null'), d.get('Fax', 'Null'), d.get('Email', 'Null'),	 d.get('StreetAddress', 'Null'), d.get('Locality', 'Null'), d.get('Region', 'Null'), d.get('PostalCode', 'Null'), d.get('Country', 'Null') )
+		s = (parentkey[i], d.get('Name','Null'), kind[i], escapeSpecialCharacters (d.get('History', 'Null')), d.get('Telephone', 'Null'), d.get('Fax', 'Null'), d.get('Email', 'Null'),	 d.get('StreetAddress', 'Null'), d.get('Locality', 'Null'), d.get('Region', 'Null'), d.get('PostalCode', 'Null'), d.get('Country', 'Null') )
 		s = 'insert into Organization values' + str(s) + ';'
 		s = s.replace('None', 'Null')
 		t = query(login,s)
@@ -656,7 +668,8 @@ def process_kind(login, tree) :
 	
 		#QueryBuilding - Kind Table
 		d = inserts[i]	
-		s = (parentkey[i], d.get('Name', 'Null'), d.get('Description', 'Null'))
+		s = (parentkey[i], d.get('Name', 'Null'), escapeSpecialCharacters(d.get('Description', 'Null')))
+		print(s)
 		s = 'insert into CrisisKind values' + str(s) + ';'
 		try:
 			t = query(login,s)
@@ -1330,7 +1343,6 @@ def wcdb3_merge(tree):
 	
 	
 	#pass back the merged tree
-	print(ET.dump(new_root))
 	return new_root
 			
 		
@@ -1367,10 +1379,18 @@ def wcdb3_solve (xml_files, w) :
 	login = wcdb3_login(*a)
 	tree = wcdb3_Read (xml_files)
 	unique_tree = wcdb3_merge(tree)
+	
+	#Clean Bad XML & Resolve Entities
+	unicode_xml = unicode(ET.tostring(unique_tree), 'utf-8')
+	parser = ET.XMLParser(recover=True, resolve_entities=True)
+	unique_tree= ET.fromstring(unicode_xml, parser=parser)
+	
+	#Import
 	wcdb3_write (w, unique_tree)
 	createDB(login)
 	wcdb3_import(login, unique_tree)
 	export = wcdb3_export(login)
+	
 	#wcdb3_write (w, export)
 	wcdb3_write (w, unique_tree)
 
