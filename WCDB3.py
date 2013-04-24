@@ -12,7 +12,7 @@
 import sys
 import _mysql
 import lxml.etree as ET
-import StringIO
+
 # --------
 # DB Login
 # --------
@@ -52,15 +52,49 @@ def query (login, s) :
 # wcdb3_Read
 # ---------- 
 
-def wcdb3_Read (r) :
+def wcdb3_Read (xml_files) :
 	"""
 	reads an input
 	creates an element tree from string
 	"""
-	read = r.read()
-	tree = ET.fromstring(read)
 	
-	return tree
+	new_tree = 	element_builder('WorldCrisis')
+	cparent = []
+	oparent = []
+	pparent = []
+	ckind = []
+	okind = []
+	pkind = []
+
+	for u in readers:
+		r = open(u, 'r')
+		read = r.read()
+		tree = ET.fromstring(read)
+		
+		cparent += tree.findall("Crisis")
+		oparent += tree.findall("Organization")
+		pparent += tree.findall("Person")
+		ckind += tree.findall("CrisisKind")
+		okind += tree.findall("OrganizationKind")
+		pkind += tree.findall("PersonKind")
+		
+		u.close()
+		
+	#add element idents to list of idents
+	for element in cparent:
+		new_tree.append(element)
+	for element in oparent:
+		new_tree.append(element)
+	for element in pparent:
+		new_tree.append(element)
+	for element in ckind:
+		new_tree.append(element)
+	for element in okind:
+		new_tree.append(element)			
+	for element in pkind:
+		new_tree.append(element)
+			
+	return new_tree
 
 
 # ----------
@@ -473,7 +507,7 @@ def process_org (login, tree) :
 		
 		#QueryBuilding - Organization Table
 		d = inserts[i]	
-		s = (parentkey[i], d.get('Name','Null'), kind[i], d.get('History', 'Null'), d.get('Telephone', 'Null'), d.get('Fax', 'Null'), d.get('Email', 'Null'),  d.get('StreetAddress', 'Null'), d.get('Locality', 'Null'), d.get('Region', 'Null'), d.get('PostalCode', 'Null'), d.get('Country', 'Null') )
+		s = (parentkey[i], d.get('Name','Null'), kind[i], d.get('History', 'Null'), d.get('Telephone', 'Null'), d.get('Fax', 'Null'), d.get('Email', 'Null'),	 d.get('StreetAddress', 'Null'), d.get('Locality', 'Null'), d.get('Region', 'Null'), d.get('PostalCode', 'Null'), d.get('Country', 'Null') )
 		s = 'insert into Organization values' + str(s) + ';'
 		s = s.replace('None', 'Null')
 		t = query(login,s)
@@ -1193,47 +1227,111 @@ def wcdb3_export(login):
 # -----------
 
 def wcdb3_merge(tree):
-    """tree is ElementTree,
-        contains duplicate nodes
-        """
-    
-    new_root = element_builder('WorldCrisis')
-    cparent = tree.findall("Crisis")
-    oparent = tree.findall("Organization")
-    pparent = tree.findall("Person")
-    element_list = []
-    for element in cparent:
-        x = element.attrib['crisisIdent']
-        element_list.append(x)
-    for element in oparent:
-        x = element.attrib['organizationIdent']
-        element_list.append(x)
-    for element in pparent:
-        x = element.attrib['personIdent']
-        element_list.append(x)
-    element_list = set(element_list)
-    element_list = list(element_list)
-    
-    assert type(element_list) == list
-    
-    cparent = tree.findall("Crisis")
-    oparent = tree.findall("Organization")
-    pparent = tree.findall("Person")
-    for element in cparent:
-        x = element.attrib['crisisIdent']
-        if(x in element_list):
-            new_root.append(element)
-            element_list.remove(x)
-    for element in oparent:
-        x = element.attrib['organizationIdent']
-        if(x in element_list):
-            new_root.append(element)
-            element_list.remove(x)
-    for element in pparent:
-        x = element.attrib['personIdent']
-        if(x in element_list):
-            new_root.append(element)
-            element_list.remove(x)
+	"""tree is ElementTree,
+		contains duplicate nodes
+		"""
+	#Create a new Root
+	new_root = element_builder('WorldCrisis')
+
+
+	#Build lists of elemets		
+	cparent = tree.findall("Crisis")
+	oparent = tree.findall("Organization")
+	pparent = tree.findall("Person")
+	ckind = tree.findall("CrisisKind")
+	okind = tree.findall("OrganizationKind")
+	pkind = tree.findall("PersonKind")
+
+	#Create list holder for idents
+	element_list = []
+	kind_list = []
+	
+	for element in cparent:
+		x = element.attrib['crisisIdent']
+		element_list.append(x)
+	for element in oparent:
+		x = element.attrib['organizationIdent']
+		element_list.append(x)
+	for element in pparent:
+		x = element.attrib['personIdent']
+		element_list.append(x)
+		
+	for element in ckind:
+		x = element.attrib['crisisKindIdent']
+		kind_list.append(x)
+	for element in okind:
+		x = element.attrib['organizationKindIdent']
+		kindlist.append(x)
+	for element in pkind:
+		x = element.attrib['personKindIdent']
+		kindlist.append(x)
+		
+	#Turn list into set to remove duplicates	
+	element_list = set(element_list)
+	kind_list = set(kind_list)
+	assert type(element_list) == set
+	assert type(kind_list) == set
+
+	#Turn set back into list for iteration
+	element_list = list(element_list)
+	kind_list = list(kind_list)
+	assert type(element_list) == list
+	assert type(kind_list) == list
+	
+	#Iterate Again Pushing to New Root
+	for element in cparent:
+		#get the ident
+		x = element.attrib['crisisIdent']
+		#if ident in unique list, append to new root, remove ident from list to prevent duplication
+		if(x in element_list):
+			new_root.append(element)
+			element_list.remove(x)
+			
+	for element in oparent:
+		#get the ident
+		x = element.attrib['organizationIdent']
+		#if ident in unique list, append to new root, remove ident from list to prevent duplication
+		if(x in element_list):
+			new_root.append(element)
+			element_list.remove(x)
+			
+	for element in pparent:
+		#get the ident
+		x = element.attrib['personIdent']
+		#if ident in unique list, append to new root, remove ident from list to prevent duplication
+		if(x in element_list):
+			new_root.append(element)
+			element_list.remove(x)
+
+	for element in ckind:
+		#get the ident
+		x = element.attrib['crisisKindIdent']
+		#if ident in unique list, append to new root, remove ident from list to prevent duplication
+		if(x in kind_list):
+			new_root.append(element)
+			kind_list.remove(x)
+			
+	for element in okind:
+		#get the ident
+		x = element.attrib['organizationKindIdent']
+		#if ident in unique list, append to new root, remove ident from list to prevent duplication
+		if(x in kind_list):
+			new_root.append(element)
+			kind_list.remove(x)
+			
+	for element in pparent:
+		#get the ident
+		x = element.attrib['personkindIdent']
+		#if ident in unique list, append to new root, remove ident from list to prevent duplication
+		if(x in kind_list):
+			new_root.append(element)
+			kind_list.remove(x)
+	
+	
+	
+	#pass back the merged tree
+	return new_root
+			
 		
 # ------------
 # wcdb3_write
@@ -1257,19 +1355,18 @@ def wcdb3_write (w, tree) :
 # wcdb3_solve
 # -------------
 
-def wcdb3_solve (r, w) :
+def wcdb3_solve (xml_files, w) :
 	"""
-	r is a reader
+	xml_files is a list of XML files to be imported
 	w is a writer
 	Logs into DB, Generates Element Tree, Creates Tables in DB,
 	Imports data into DB, exports data from DB
 	"""
 
 	login = wcdb3_login(*a)
-	tree = wcdb3_Read (r)
-	#output1 = wcdb3_write (w, tree)
+	tree = wcdb3_Read (xml_files)
+	unique_tree = wcdb3_merge(tree)
 	createDB(login)
-	#output2 = wcdb3_write (w, output1)
-	wcdb3_import(login, tree)
+	wcdb3_import(login, unique_tree)
 	export = wcdb3_export(login)
 	wcdb3_write (w, export)
