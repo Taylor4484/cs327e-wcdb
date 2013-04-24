@@ -65,8 +65,8 @@ def wcdb3_Read (xml_files) :
 	ckind = []
 	okind = []
 	pkind = []
-
-	for u in readers:
+	
+	for u in xml_files:
 		r = open(u, 'r')
 		read = r.read()
 		tree = ET.fromstring(read)
@@ -78,7 +78,7 @@ def wcdb3_Read (xml_files) :
 		okind += tree.findall("OrganizationKind")
 		pkind += tree.findall("PersonKind")
 		
-		u.close()
+		r.close()
 		
 	#add element idents to list of idents
 	for element in cparent:
@@ -1231,7 +1231,7 @@ def wcdb3_merge(tree):
 		contains duplicate nodes
 		"""
 	#Create a new Root
-	new_root = element_builder('WorldCrisis')
+	new_root = element_builder('WorldCrises')
 
 
 	#Build lists of elemets		
@@ -1261,10 +1261,10 @@ def wcdb3_merge(tree):
 		kind_list.append(x)
 	for element in okind:
 		x = element.attrib['organizationKindIdent']
-		kindlist.append(x)
+		kind_list.append(x)
 	for element in pkind:
 		x = element.attrib['personKindIdent']
-		kindlist.append(x)
+		kind_list.append(x)
 		
 	#Turn list into set to remove duplicates	
 	element_list = set(element_list)
@@ -1319,9 +1319,9 @@ def wcdb3_merge(tree):
 			new_root.append(element)
 			kind_list.remove(x)
 			
-	for element in pparent:
+	for element in pkind:
 		#get the ident
-		x = element.attrib['personkindIdent']
+		x = element.attrib['personKindIdent']
 		#if ident in unique list, append to new root, remove ident from list to prevent duplication
 		if(x in kind_list):
 			new_root.append(element)
@@ -1330,6 +1330,7 @@ def wcdb3_merge(tree):
 	
 	
 	#pass back the merged tree
+	print(ET.dump(new_root))
 	return new_root
 			
 		
@@ -1366,7 +1367,10 @@ def wcdb3_solve (xml_files, w) :
 	login = wcdb3_login(*a)
 	tree = wcdb3_Read (xml_files)
 	unique_tree = wcdb3_merge(tree)
+	wcdb3_write (w, unique_tree)
 	createDB(login)
 	wcdb3_import(login, unique_tree)
 	export = wcdb3_export(login)
-	wcdb3_write (w, export)
+	#wcdb3_write (w, export)
+	wcdb3_write (w, unique_tree)
+
