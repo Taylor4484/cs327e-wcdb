@@ -12,6 +12,7 @@
 import sys
 import _mysql
 import lxml.etree as ET
+import StringIO
 # --------
 # DB Login
 # --------
@@ -58,170 +59,239 @@ def wcdb3_Read (r) :
 	"""
 	read = r.read()
 	tree = ET.fromstring(read)
+	
 	return tree
 
-def union( A, B ) :
-	s = "select * from " + A +" union select * from " + B +";"
-	t = query( login, s )
+
 
 
 
 def createDB(login):
 	"""Create Needed Databases, dropping if needed"""
-
 	query(login, "drop table if exists Crisis;")
 	query(login, "drop table if exists Organization;")
 	query(login, "drop table if exists Person;")
 	query(login, "drop table if exists Location;")
-	query(login, "drop table if exists Kind;")
-	query(login, "drop table if exists ExternalResources;")
-	query(login, "drop table if exists PersonRelation;")
-	query(login, "drop table if exists CrisisRelation;")
-	query(login, "drop table if exists OrganizationRelation;")
 	query(login, "drop table if exists HumanImpact;")
-	query(login, "drop table if exists ResourcesNeeded;")
+	query(login, "drop table if exists ResourceNeeded;")
 	query(login, "drop table if exists WaysToHelp;")
+	query(login, "drop table if exists ExternalResource;")
+	query(login, "drop table if exists CrisisOrganization;")
+	query(login, "drop table if exists OrganizationPerson;")
+	query(login, "drop table if exists PersonCrisis;")
+	query(login, "drop table if exists CrisisKind;")
+	query(login, "drop table if exists OrganizationKind;")
+	query(login, "drop table if exists PersonKind;")
+	
+
 	
 	t = query(
 		login,
 		"""
-	create table Crisis (
-	  crisisIdent text,
-	  Name text,
-	  Kind text,
-	  StartDateTime dateTime,
-	  EndDateTime dateTime,
-	  EconomicImpact text
-	  );""") 
+	CREATE TABLE Crisis (
+	id char(100) NOT NULL
+	PRIMARY KEY,
+	name text NOT NULL,
+	kind char(100) NOT NULL
+	REFERENCES CrisisKind(id),
+	start_date date NOT NULL,
+	start_time time,
+	end_date date,
+	end_time time,
+	economic_impact char(100) NOT NULL
+	);""") 
 	  
 #insert into Crisis values('crisisIdent', 'Name', 'Kind', StartDateTime, EndDateTime, 'EconomicImpact');
+
+
 	t = query(
 		login,
 		"""
-	create table Organization (
-	  organizationIdent text,
-	  Name text,
-	  Kind text,
-	  History mediumtext,
-	  Telephone text,
-	  Fax text,
-	  Email text,
-	  StreetAddress text,
-	  Locality text,
-	  Region text,
-	  PostalCode text,
-	  Country text
-	  );""") 
+	CREATE TABLE Organization (
+	id char(100) NOT NULL
+	PRIMARY KEY,
+	name char(100) NOT NULL,
+	kind char(100) NOT NULL
+	REFERENCES OrganizationKind(id),
+	history text NOT NULL,
+	telephone char(100) NOT NULL,
+	fax char(100) NOT NULL,
+	email char(100) NOT NULL,
+	street_address char(100) NOT NULL,
+	locality char(100) NOT NULL,
+	region char(100) NOT NULL,
+	postal_code char(100) NOT NULL,
+	country char(100) NOT NULL
+	);""")
 	  
 #insert into Organization('organizationIdent', 'Name', 'Kind', 'History','Telephone', 'Fax', 'Email', 'StreetAddress', 'Locality', 'Region', 'PostalCode', 'Country');
+
+
+
 	t = query(
 		login,
 		"""
-	create table Person (
-	  personIdent text,
-	  FirstName text,
-	  MiddleName text,
-	  LastName text,
-	  Suffix text,
-	  Kind text
-	  );""")
+	CREATE TABLE Person (
+	id char(100) NOT NULL
+	PRIMARY KEY,
+	first_name char(100) NOT NULL,
+	middle_name char(100),
+	last_name char(100) NOT NULL,
+	suffix char(100),
+	kind char(100) NOT NULL
+	REFERENCES PersonKind(id)
+	);""")
 	  
 #insert into Person('personIdent', 'FirstName', 'MiddleName', 'LastName', 'Suffix', 'Kind');
-	t = query(
-		login,
-		"""
-	create table Location (
-	  parentIdent text,
-	  Locality text,
-	  Region text,
-	  Country text
-	  );""")
 
-#insert into Location('parentIdent', 'Locality', 'Region', 'PostalCode', 'Country');
+
 	t = query(
 		login,
 		"""
-	create table Kind (
-	  parentIdent text,
-	  Type text,
-	  Name text,
-	  Description text
-	  );""")
+	CREATE TABLE Location (
+	id int NOT NULL AUTO_INCREMENT
+	PRIMARY KEY,
+	entity_type ENUM('C', 'O', 'P') NOT NULL,
+	entity_id char(100) NOT NULL,
+	locality char(100),
+	region char(100),
+	country char(100)
+	);""")
+
+#insert into Location(parentIdent', 'Locality', 'Region', 'PostalCode', 'Country');
+
+
+
+	t = query(
+		login,
+		"""
+	CREATE TABlE HumanImpact (
+	id int NOT NULL AUTO_INCREMENT
+	PRIMARY KEY,
+	crisis_id char(100) NOT NULL
+	REFERENCES Crisis(id),
+	type char(100) NOT NULL,
+	number int NOT NULL
+	);""")
+
+#insert into HumanImpact('parentIdent', 'Type', 'Number');
+	t = query(
+		login,
+		"""
+	CREATE TABLE ResourceNeeded (
+	id int NOT NULL AUTO_INCREMENT
+	PRIMARY KEY,
+	crisis_id char(100) NOT NULL
+	REFERENCES Crisis(id),
+	description text
+	);""")
+
+#insert into ResourceNeeded('parentIdent text', 'ResourceNeeded');
+	t = query(
+		login,
+		"""
+	CREATE TABLE WaysToHelp (
+	id int NOT NULL AUTO_INCREMENT
+	PRIMARY KEY,
+	crisis_id char(100) NOT NULL
+	REFERENCES Crisis(id),
+	description text
+	);""")
+
+#insert into WaysToHelp('parentIdent', 'WaysToHelp');
+
+	#t = query(login, "show tables;") 
+
+
+		
+	t = query(
+		login,
+		"""
+	CREATE TABLE ExternalResource (
+	id int NOT NULL AUTO_INCREMENT
+	PRIMARY KEY,
+	entity_type ENUM('C', 'O', 'P') NOT NULL,
+	entity_id char(100) NOT NULL,
+	type ENUM('IMAGE', 'VIDEO', 'MAP', 'SOCIAL_NETWORK', 'CITATION', 'EXTERNAL_LINK') NOT NULL,
+	link text NOT NULL
+	);""")
+
+#insert into ExternalResource('parentIdent', 'Type', 'Value');	
 	
-#insert into Kind('parentIdent', 'Type', 'Name', 'Description');
-	t = query(
-		login,
-		"""
-	create table ExternalResources (
-	  parentIdent text,
-	  Type text,
-	  Value text
-	  );""")
 
-#insert into ExternalResources('parentIdent', 'Type', 'Value');
+
 	t = query(
 		login,
 		"""
-	create table PersonRelation (
-	  personIdent text,
-	  otherIdent text,
-	  Type text
-	  );""")
+	CREATE TABlE CrisisOrganization (
+	id_crisis char(100) NOT NULL
+	REFERENCES Crisis(id),
+	id_organization char(100) NOT NULL
+	REFERENCES Organization(id),
+	PRIMARY KEY (id_crisis, id_organization)
+	);""")
 
 
 #insert into PersonRelation('personIdent', 'otherIdent', 'Type');
 	t = query(
 		login,
 		"""
-	create table CrisisRelation (
-	  crisisIdent text,
-	  otherIdent text,
-	  Type text
-	  );""")
+	CREATE TABLE OrganizationPerson (
+	id_organization char(100) NOT NULL
+	REFERENCES Organization(id),
+	id_person char(100) NOT NULL
+	REFERENCES Person(id),
+	PRIMARY KEY (id_organization, id_person)
+	);""")
 
 
 #insert into CrisisRelation('crisisIdent', 'otherIdent', 'Type');
 	t = query(
 		login,
 		"""
-	create table OrganizationRelation (
-	  organizationIdent text,
-	  otherIdent text,
-	  Type text
-	  );""")
+	CREATE TABLE PersonCrisis (
+	id_person char(100) NOT NULL
+	REFERENCES Person(id),
+	id_crisis char(100) NOT NULL
+	REFERENCES Crisis(id),
+	PRIMARY KEY (id_person, id_crisis)
+	);""")
 
 #insert into OrganizationRelation('organizationIdent', 'otherIdent', 'Type');
+
 	t = query(
 		login,
 		"""
-	create table HumanImpact (
-	  parentIdent text,
-	  Type text,
-	  Number int
-	  );""")
-
-#insert into HumanImpact('parentIdent', 'Type', 'Number');
-	t = query(
-		login,
-		"""
-	create table ResourcesNeeded (
-	  parentIdent text,
-	  ResourceNeeded text
-	  );""")
-
-#insert into ResourcesNeeded('parentIdent text', 'ResourcesNeeded');
-	t = query(
-		login,
-		"""
-	create table WaysToHelp (
-	  parentIdent text,
-	  WaysToHelp text
-	  );""")
-
-#insert into WaysToHelp('parentIdent', 'WaysToHelp');
-
-	#t = query(login, "show tables;") 
+	CREATE TABLE CrisisKind (
+	id char(100) NOT NULL
+	PRIMARY KEY,
+	name char(100) NOT NULL,
+	description text NOT NULL
+	);""")
 	
+	
+	t = query(
+		login,
+		"""
+	CREATE TABLE OrganizationKind (
+	id char(100) NOT NULL
+	PRIMARY KEY,
+	name char(100) NOT NULL,
+	description text NOT NULL
+	);""")
+	
+	
+	
+	
+	t = query(
+		login,
+		"""
+	CREATE TABLE PersonKind (
+	id char(100) NOT NULL
+	PRIMARY KEY,
+	name char(100) NOT NULL,
+	description text NOT NULL
+	);""")	
 	return None
 
 	
@@ -234,10 +304,14 @@ def process_crisis (login, tree) :
 	relatedperson = []
 	relatedorg = []
 	ExternalResource = []
+	StartDateTime = []
+	EndDateTime = []
 	i=0
 	#iterats over Parents	
 	for parent in tree.findall('Crisis'):
 		insert = {}
+		starts = {}
+		ends = {}
 		
 		parentkey.append(parent.get('crisisIdent'))
 		
@@ -247,25 +321,33 @@ def process_crisis (login, tree) :
 			if element.tag == 'Kind':
 				kind.append(element.get('crisisKindIdent'))
 			if element.tag == 'RelatedOrganization':
-				relatedorg.append((parentkey[i], element.get('organizationIdent'), 'Organization'))
+				relatedorg.append((parentkey[i], element.get('organizationIdent')))
 			if element.tag == 'RelatedPerson':
-				relatedperson.append((parentkey[i], element.get('personIdent'), 'Person'))
+				relatedperson.append((element.get('personIdent'), parentkey[i]))
+			if element.tag == 'StartDateTime':
+				for child in element:
+					starts[child.tag] = child.text
+			if element.tag == 'EndDateTime':
+				for child in element:
+					starts[child.tag] = child.text						
 			if element.tag == 'ImageURL':
-				ExternalResource.append((parentkey[i], 'Image' , element.text))
+				ExternalResource.append(('Null', 'C', parentkey[i], 'IMAGE' , element.text))
 			if element.tag == 'VideoURL':
-				ExternalResource.append((parentkey[i], 'Video' , element.text))
+				ExternalResource.append(('Null', 'C', parentkey[i], 'VIDEO' , element.text))
 			if element.tag == 'MapURL':
-				ExternalResource.append((parentkey[i], 'Map' , element.text))
+				ExternalResource.append(('Null', 'C', parentkey[i], 'MAP' , element.text))
 			if element.tag == 'SocialNetworkURL':
-				ExternalResource.append((parentkey[i], 'Social' , element.text))
+				ExternalResource.append(('Null', 'C', parentkey[i], 'SOCIAL_NETWORK' , element.text))
 			if element.tag == 'Citation':
-				ExternalResource.append((parentkey[i], 'Citation' , element.text))
+				ExternalResource.append(('Null', 'C', parentkey[i], 'CITATION' , element.text))
 			if element.tag == 'ExternalLinkURL':
-				ExternalResource.append((parentkey[i], 'External' , element.text))
-			if element.getchildren() == []:
+				ExternalResource.append(('Null', 'C', parentkey[i], 'EXTERNAL_LINK' , element.text))
+			if element.getchildren() == [] and element.text != None:
 				insert[element.tag] = element.text
 		
 		inserts.append(insert)
+		StartDateTime.append(starts)
+		EndDateTime.append(ends)
 		i += 1
 		
 		
@@ -274,32 +356,35 @@ def process_crisis (login, tree) :
 		
 		#QueryBuilding - Crisis Table
 		d = inserts[i]	
-		s = (parentkey[i], d.get('Name','Null'), kind[i], d.get('Date', 'Null'), 'Null', d.get('EconomicImpact', 'Null'))
+		s = StartDateTime[i]
+		e = EndDateTime[i]		
+		
+		s = (parentkey[i], d.get('Name'), kind[i], s.get('Date'), s.get('Time', 'Null'), e.get('Date', 'Null'), e.get('Time', 'Null'), d.get('EconomicImpact', 'No Economic Impact Provided'))
 		s = 'insert into Crisis values' + str(s) + ';'
 		s = s.replace('None', 'Null')
 		t = query(login,s)
 	
 		#QueryBuilding - Location Table
-		s = (parentkey[i], d.get('Locality', 'Null'), d.get('Region', 'Null'), d.get('Country', 'Null'))
+		s = ( 'Null', 'C', parentkey[i], d.get('Locality', 'Null'), d.get('Region', 'Null'), d.get('Country', 'Null'))
 		s = 'insert into Location values' + str(s) + ';'
 		s = s.replace('None', 'Null')
 		t = query(login,s)
 		
 		
 		#QueryBuilding - HumanImpact Table
-		s = (parentkey[i], d.get('Type','Null'), d.get('Number', 'Null'))
+		s = ('Null', parentkey[i], d.get('Type','Null'), d.get('Number', 'Null'))
 		s = 'insert into HumanImpact values' + str(s) + ';'
 		s = s.replace('None', 'Null')
 		t = query(login,s)
 		
-		#QueryBuilding - ResourcesNeeded Table
-		s = (parentkey[i], d.get('ResourcesNeeded', 'Null'))
-		s = 'insert into ResourcesNeeded values' + str(s) + ';'
+		#QueryBuilding - ResourceNeeded Table
+		s = ('Null', parentkey[i], d.get('ResourceNeeded', 'Null'))
+		s = 'insert into ResourceNeeded values' + str(s) + ';'
 		s = s.replace('None', 'Null')
 		t = query(login,s)
 		
 		#QueryBuilding - WaysToHelp Table
-		s = (parentkey[i], d.get('WaysToHelp', 'Null'))
+		s = ('Null', parentkey[i], d.get('WaysToHelp', 'Null'))
 		s = 'insert into WaysToHelp values' + str(s) + ';'
 		s = s.replace('None', 'Null')
 		t = query(login,s)
@@ -308,23 +393,30 @@ def process_crisis (login, tree) :
 
 	for i in xrange(0, len(relatedorg)):
 		s = relatedorg[i]
-		s = 'insert into CrisisRelation values' + str(s) + ';'
+		s = 'insert into CrisisOrganization values' + str(s) + ';'
 		t = query(login,s)	
 		
 	#QueryBuilding - CrisisRelation Table
 
 	for i in xrange(0, len(relatedperson)):
 		s = relatedperson[i]
-		s = 'insert into CrisisRelation values' + str(s) + ';'
-		t = query(login,s)	
+		s = 'insert into PersonCrisis values' + str(s) + ';'
+		try:
+			t = query(login,s)
+		except:
+			pass	
+		
 	
-	#QueryBuilding - ExternalResources Table		
+	#QueryBuilding - ExternalResource Table		
 	for i in xrange(0, len(ExternalResource)):
 		s = ExternalResource[i]
-		s = 'insert into ExternalResources values' + str(s) + ';'
-		t = query(login,s)	
-	
-	#t = query(login,"select * from ExternalResources;")
+		#s.insert(0,'Null')
+		s = 'insert into ExternalResource values' + str(s) + ';'
+		try:
+			t = query(login,s)
+		except:
+			pass		
+	#t = query(login,"select * from ExternalResource;")
 	#print(t)
 
 
@@ -352,22 +444,22 @@ def process_org (login, tree) :
 			if element.tag == 'Kind':
 				kind.append(element.get('organizationKindIdent'))
 			if element.tag == 'RelatedPerson':
-				relatedperson.append((parentkey[i], element.get('personIdent'), 'Person'))
+				relatedperson.append((parentkey[i], element.get('personIdent')))
 			if element.tag == 'RelatedCrisis':
-				relatedcrisis.append((parentkey[i], element.get('crisisIdent'), 'Crisis'))
+				relatedcrisis.append((element.get('crisisIdent'), parentkey[i]))
 			if element.tag == 'ImageURL':
-				ExternalResource.append((parentkey[i], 'Image' , element.text))
+				ExternalResource.append(('Null', 'O', parentkey[i], 'IMAGE' , element.text))
 			if element.tag == 'VideoURL':
-				ExternalResource.append((parentkey[i], 'Video' , element.text))
+				ExternalResource.append(('Null', 'O', parentkey[i], 'VIDEO' , element.text))
 			if element.tag == 'MapURL':
-				ExternalResource.append((parentkey[i], 'Map' , element.text))
+				ExternalResource.append(('Null', 'O', parentkey[i], 'MAP' , element.text))
 			if element.tag == 'SocialNetworkURL':
-				ExternalResource.append((parentkey[i], 'Social' , element.text))
+				ExternalResource.append(('Null', 'O', parentkey[i], 'SOCIAL_NETWORK' , element.text))
 			if element.tag == 'Citation':
-				ExternalResource.append((parentkey[i], 'Citation' , element.text))
+				ExternalResource.append(('Null', 'O', parentkey[i], 'CITATION' , element.text))
 			if element.tag == 'ExternalLinkURL':
-				ExternalResource.append((parentkey[i], 'External' , element.text))
-			if element.getchildren() == []:
+				ExternalResource.append(('Null', 'O', parentkey[i], 'EXTERNAL_LINK' , element.text))
+			if element.getchildren() == [] and element.text != None:
 				insert[element.tag] = element.text
 		
 		inserts.append(insert)
@@ -384,7 +476,7 @@ def process_org (login, tree) :
 		t = query(login,s)
 	
 		#QueryBuilding - Location Table
-		s = (parentkey[i], d.get('Locality', 'Null'), d.get('Region', 'Null'), d.get('Country', 'Null'))
+		s = ('Null', 'O', parentkey[i], d.get('Locality', 'Null'), d.get('Region', 'Null'), d.get('Country', 'Null'))
 		s = 'insert into Location values' + str(s) + ';'
 		s = s.replace('None', 'Null')
 		t = query(login,s)
@@ -393,21 +485,25 @@ def process_org (login, tree) :
 
 	for i in xrange(0, len(relatedperson)):
 		s = relatedperson[i]
-		s = 'insert into OrganizationRelation values' + str(s) + ';'
-		t = query(login,s)	
-	
+		s = 'insert into OrganizationPerson values' + str(s) + ';'
+		try:
+			t = query(login,s)
+		except:
+			pass		
 		
 	#QueryBuilding - OrganizationRelation Table
 
 	for i in xrange(0, len(relatedcrisis)):
 		s = relatedcrisis[i]
-		s = 'insert into OrganizationRelation values' + str(s) + ';'
-		t = query(login,s)	
-	
-	#QueryBuilding - ExternalResources Table		
+		s = 'insert into CrisisOrganization values' + str(s) + ';'
+		try:
+			t = query(login,s)
+		except:
+			pass		
+	#QueryBuilding - ExternalResource Table		
 	for i in xrange(0, len(ExternalResource)):
 		s = ExternalResource[i]
-		s = 'insert into ExternalResources values' + str(s) + ';'
+		s = 'insert into ExternalResource values' + str(s) + ';'
 		t = query(login,s)	
 	
 	
@@ -437,18 +533,18 @@ def process_person (login, tree) :
 			if element.tag == 'RelatedCrisis':
 				relatedcrisis.append((parentkey[i], element.get('crisisIdent'), 'Crisis'))
 			if element.tag == 'ImageURL':
-				ExternalResource.append((parentkey[i], 'Image' , element.text))
+				ExternalResource.append(('Null', 'P', parentkey[i], 'IMAGE' , element.text))
 			if element.tag == 'VideoURL':
-				ExternalResource.append((parentkey[i], 'Video' , element.text))
+				ExternalResource.append(('Null', 'P', parentkey[i], 'VIDEO' , element.text))
 			if element.tag == 'MapURL':
-				ExternalResource.append((parentkey[i], 'Map' , element.text))
+				ExternalResource.append(('Null', 'P', parentkey[i], 'MAP' , element.text))
 			if element.tag == 'SocialNetworkURL':
-				ExternalResource.append((parentkey[i], 'Social' , element.text))
+				ExternalResource.append(('Null', 'P', parentkey[i], 'SOCIAL_NETWORK' , element.text))
 			if element.tag == 'Citation':
-				ExternalResource.append((parentkey[i], 'Citation' , element.text))
+				ExternalResource.append(('Null', 'P', parentkey[i], 'CITATION' , element.text))
 			if element.tag == 'ExternalLinkURL':
-				ExternalResource.append((parentkey[i], 'External' , element.text))
-			if element.getchildren() == []:
+				ExternalResource.append(('Null', 'P', parentkey[i], 'EXTERNAL_LINK' , element.text))
+			if element.getchildren() == [] and element.text != None:
 				insert[element.tag] = element.text
 		
 		inserts.append(insert)
@@ -466,7 +562,7 @@ def process_person (login, tree) :
 		t = query(login,s)
 	
 		#QueryBuilding - Location Table
-		s = (parentkey[i], d.get('Locality', 'Null'), d.get('Region', 'Null'), d.get('Country', 'Null'))
+		s = ( 'Null', 'P', parentkey[i], d.get('Locality', 'Null'), d.get('Region', 'Null'), d.get('Country', 'Null'))
 		s = 'insert into Location values' + str(s) + ';'
 		s = s.replace('None', 'Null')
 		t = query(login,s)
@@ -476,20 +572,24 @@ def process_person (login, tree) :
 	for i in xrange(0, len(relatedorg)):
 		s = relatedorg[i]
 		s = 'insert into PersonRelation values' + str(s) + ';'
-		t = query(login,s)	
-		
+		try:
+			t = query(login,s)
+		except:
+			pass			
 	#QueryBuilding - CrisisRelation Table
 
 	for i in xrange(0, len(relatedcrisis)):
 		s = relatedcrisis[i]
 		if s[1] != None:
 			s = 'insert into PersonRelation values' + str(s) + ';'
-			t = query(login,s)	
-	
-	#QueryBuilding - ExternalResources Table		
+			try:
+				t = query(login,s)
+			except:
+				pass		
+	#QueryBuilding - ExternalResource Table		
 	for i in xrange(0, len(ExternalResource)):
 		s = ExternalResource[i]
-		s = 'insert into ExternalResources values' + str(s) + ';'
+		s = 'insert into ExternalResource values' + str(s) + ';'
 		t = query(login,s)	
 	
 	
@@ -519,10 +619,12 @@ def process_kind(login, tree) :
 	
 		#QueryBuilding - Kind Table
 		d = inserts[i]	
-		s = (parentkey[i], 'Crisis', d.get('Name', 'Null'), d.get('Description', 'Null'))
-		s = 'insert into Kind values' + str(s) + ';'
-		t = query(login,s)	
-		
+		s = (parentkey[i], d.get('Name', 'Null'), d.get('Description', 'Null'))
+		s = 'insert into CrisisKind values' + str(s) + ';'
+		try:
+			t = query(login,s)
+		except:
+			pass			
 		
 	#Query Building OrganizationKind
 	inserts = []
@@ -546,10 +648,12 @@ def process_kind(login, tree) :
 	
 		#QueryBuilding - Kind Table
 		d = inserts[i]	
-		s = (parentkey[i], 'Organization', d.get('Name', 'Null'), d.get('Description', 'Null'))
-		s = 'insert into Kind values' + str(s) + ';'
-		t = query(login,s)	
-
+		s = (parentkey[i], d.get('Name', 'Null'), d.get('Description', 'Null'))
+		s = 'insert into OrganizationKind values' + str(s) + ';'
+		try:
+			t = query(login,s)
+		except:
+			pass	
 
 	#Query Building PersonKind
 	inserts = []
@@ -573,11 +677,12 @@ def process_kind(login, tree) :
 	
 		#QueryBuilding - Kind Table
 		d = inserts[i]	
-		s = (parentkey[i], 'Person', d.get('Name', 'Null'), d.get('Description', 'Null'))
-		s = 'insert into Kind values' + str(s) + ';'
-		t = query(login,s)		
-	
-	t = query(login,"select * from Kind;")
+		s = (parentkey[i], d.get('Name', 'Null'), d.get('Description', 'Null'))
+		s = 'insert into PersonKind values' + str(s) + ';'
+		try:
+			t = query(login,s)
+		except:
+			pass		
 	
 # -------------
 # wcdb3_import
@@ -625,39 +730,36 @@ def wcdb3_export(login):
 	
 	crises = query(login, 
 	""" select *
-		from Crisis;
+	from Crisis;
 	""")
 	organizations = query(login, 
 	""" select *
-		from Organization;
+	from Organization;
 	""")
 	people = query(login, 
 	""" select *
-		from Person;
+	from Person;
 	""")
 	
 	crisiskind = query(login, 
 	""" select *
-		from Kind
-		where Kind.Type = 'Crisis';
+	from CrisisKind;
 	""")
 	organizationkind = query(login, 
 	""" select *
-		from Kind
-		where Kind.Type = 'Organization';
+	from OrganizationKind;
 	""")
 	personkind = query(login, 
 	""" select *
-		from Kind
-		where Kind.Type = 'Person';
+	from PersonKind;
 	""")
-	value = 'test'
 	
 # -------------
 # Crisis Export
 # -------------
 	
 	for crisis in crises:
+		print(crisis)
 		#Crisis Element
 		crisis_element = attr_builder('Crisis', {'crisisIdent': crisis[0]})
 		#Name
@@ -666,7 +768,7 @@ def wcdb3_export(login):
 		crisis_element.append(attr_builder('Kind', {'crisisKindIdent': crisis[2]}))
 		
 		#Location
-		s = 'select * from Location where Location.parentIdent = "' + str(crisis[0]) + '";'
+		s = 'select * from Location where Location.entity_id = "' + str(crisis[0]) + '";'
 		locationlist = query(login, s)
 		locationlist = locationlist[0]
 		location = element_builder('Location')
@@ -718,11 +820,11 @@ def wcdb3_export(login):
 			crisis_element.append(element_builder('EconomicImpact', crisis[5]))
 		
 		
-		#ExternalResources
-		s = 'select * from ExternalResources where ExternalResources.parentIdent = "' + str(crisis[0]) + '";'
+		#ExternalResource
+		s = 'select * from ExternalResource where ExternalResource.parentIdent = "' + str(crisis[0]) + '";'
 		external = query(login, s)
 
-		external_element = element_builder('ExternalResources')
+		external_element = element_builder('ExternalResource')
 		i = 0
 		
 		for x in xrange(0, len(external)):
@@ -854,11 +956,11 @@ def wcdb3_export(login):
 		org_element.append(postal)	
 
 
-		#ExternalResources
-		s = 'select * from ExternalResources where ExternalResources.parentIdent = "' + str(organization[0]) + '";'
+		#ExternalResource
+		s = 'select * from ExternalResource where ExternalResource.parentIdent = "' + str(organization[0]) + '";'
 		external = query(login, s)
 
-		external_element = element_builder('ExternalResources')
+		external_element = element_builder('ExternalResource')
 		i = 0
 		
 		for x in xrange(0, len(external)):
@@ -964,11 +1066,11 @@ def wcdb3_export(login):
 		
 
 
-		#ExternalResources
-		s = 'select * from ExternalResources where ExternalResources.parentIdent = "' + str(person[0]) + '";'
+		#ExternalResource
+		s = 'select * from ExternalResource where ExternalResource.parentIdent = "' + str(person[0]) + '";'
 		external = query(login, s)
 
-		external_element = element_builder('ExternalResources')
+		external_element = element_builder('ExternalResource')
 		i = 0
 		
 		for x in xrange(0, len(external)):
@@ -1074,101 +1176,6 @@ def wcdb3_export(login):
 
 	return root
 		
-# ----------
-# merge
-# ----------
-
-def merge(keep, tree) :
-"""lists of tags in trees"""
-	kcrisis = []
-	korg = []
-	kpeople = []
-	klocation = []
-	kKind = []
-	kExternalResources = []
-	kpersonRelation = []
-	korganizationRelation = []
-	kcrisisRelation = []
-	khumanImpact = []
-	kresourcesNeeded = []
-	kWaysToHelp = []
-	for parent in keep.findall('Crisis'):
-		kcrisis.append(parent.get('crisisIdent'))
-	for parent in keep.findall('Organization'):
-		korg.append(parent.get('organizationIdent'))
-	for parent in keep.findall('Person'):
-		kpeople.append(parent.get('personIdent'))
-	for parent in keep.findall('Location'):
-		klocation.append(parent.get('parentIdent'))
-	for parent in keep.findall('ExternalResources'):
-		KExternalResources.append(parent.get('parentIdent'))
-	for parent in keep.findall('personRelation'):
-		kpersonRelation.append(parent.get(''))
-	for parent in keep.findall('crisisRelation'):
-		kcrisisRelation.append(parent.get(''))
-        for parent in keep.findall('orgainizationRelation'):
-		korganizationRelation.append(parent.get(' ')
-	for parent in keep.findall('HumanImpact'):
-		khumanImpact.append(parent.get('parentIdent'))
-	for parent in keep.findall('ResourcesNeeded'):
-		kresourcesNeeded.append(parent.get('parentIdent'))
-	for parent in keep.findall('WaysToHelp'):
-		kWaysToHelp.append(parent.get('parentIdent'))
-
-	tcrisis = []
-	torg = []
-	tpeople = []
-	tlocation = []
-	tKind = []
-	tExternalResources = []
-	tpersonRelation = []
-	torganizationRelation = []
-	tcrisisRelation = []
-	thumanImpact = []
-	tresourcesNeeded = []
-	tWaysToHelp = []
-	for parent in tree.findall('Crisis'):
-		if(!kcrisis.contains(parent.get('crisisIdent'))):
-			kcrisis.append(parent.get('crisisIdent'))
-		else: tcrisis.append(parent.get('crisisIdent'))
-	for parent in tree.findall('Organization'):
-		(parent.get('organizationIdent'))
-	for parent in tree.findall('Person'):
-		tpeople.append(parent.get('personIdent'))
-	for parent in tree.findall('Location'):
-		if(!klocation.contains(parent.get('parentIdent'))):
-			klocation.append(parent.get('parentIdent')))
-		else: tlocation.append(parent.get('parentIdent'))
-	for parent in tree.findall('Kind'):
-		if(!kKind.contains(parent.get('parentIdent'))):
-			kKind.append(parent.get('parentIdent')))
-		else: tKind.append(parent.get('parentIdent'))
-	for parent in tree.findall('ExternalResources'):
-		if(!kExternalResources.contains(parent.get('parentIdent'))):
-			kExternalResources.append(parent.get('parentIdent')))
-		else: tExternalResources.append(parent.get('parentIdent'))
-	for parent in tree.findall('personRelation'):
-		tpersonRelation.append(parent.get(''))
-	for parent in tree.findall('crisisRelation'):
-		tcrisisRelation.append(parent.get(''))
-        for parent in tree.findall('orgainizationRelation'):
-		torganizationRelation.append(parent.get(' ')
-	for parent in tree.findall('HumanImpact'):
-		if(!kHumanImpact.contains(parent.get('parentIdent'))):
-			kHumanImpact.append(parent.get('parentIdent')))
-		else: tHumanImpact.append(parent.get('parentIdent'))
-	for parent in tree.findall('ResourcesNeeded'):
-		if(!kresourcesNeeded.contains(parent.get('parentIdent'))):
-			kresourcesNeeded.append(parent.get('parentIdent')))
-		else: tresourcesNeeded.append(parent.get('parentIdent'))
-	for parent in tree.findall('WaysToHelp'):
-		if(!kWaysToHelp.contains(parent.get('parentIdent'))):
-			kWaysToHelp.append(parent.get('parentIdent')))
-		else: tWaysToHelp.append(parent.get('parentIdent'))
-	
-
-
-
 # ------------
 # wcdb3_write
 # ------------
@@ -1183,7 +1190,6 @@ def wcdb3_write (w, tree) :
 	#re-input from string (needed for pretty print)
 	tree = ET.fromstring(tree)
 	tree2 = ET.tostring(tree, pretty_print=True)
-	print(tree2)
 
 	w.write('<?xml version="1.0" ?>\n' + tree2)
 	return tree
@@ -1200,35 +1206,11 @@ def wcdb3_solve (r, w) :
 	Imports data into DB, exports data from DB
 	"""
 
-	readers= ['TheMiners.xml', 'Poseidon.xml', 'Virus.xml', 'ByteMe.xml', 'Nameless.xml', 'IsYuchenHereToday.xml', 'TechKnuckleSupport.xml', 'BetterLateThanNever.xml']
 	login = wcdb3_login(*a)
+	tree = wcdb3_Read (r)
+	#output1 = wcdb3_write (w, tree)
 	createDB(login)
-	r = open('WCDB3.xml', 'r')
-	keepTree = wcdb3_Read (u)
-	wcdb3_import(login,keepTree) """needs to import into some table sets A"""
-
-	for u in readers:
-		r = open(u, 'r')
-		tree = wcdb3_Read (u)
-		wcdb3_import(login, tree) """needs to import into some table set B"""
-
-"""Names below need to change to the respective table names, k being the keep, t being the temp"""
-		union(kcrisis, tcrisis)
-		union(korg, torg)	
-		union(kpeople, tpeople)
-		union(klocation, tlocation)
-		union(kKind, tKind)
-		union(kExternalResources, tExternalResources)
-		union(kpersonRelation, tpersonRelation)
-		union(korganizationRelation, torganizationRelation)
-		union(kcrisisRelation, tcrisisRelation)
-		union(khumanImpact, thumanImpact)
-		union(kresourcesNeeded, tresourcesNeeded)
-		union(kWaysToHelp, tWaysToHelp)
-
-		merge(keepTree, tree)
-		#output1 = wcdb3_write (w, tree)
-		#output2 = wcdb3_write (w, output1)
-		wcdb3_import(login, tree)
+	#output2 = wcdb3_write (w, output1)
+	wcdb3_import(login, tree)
 	export = wcdb3_export(login)
 	wcdb3_write (w, export)
