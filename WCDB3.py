@@ -62,9 +62,9 @@ def wcdb3_Read (r) :
 	
 	return tree
 
-
-
-
+# ---------
+# createDB
+# ---------
 
 def createDB(login):
 	"""Create Needed Databases, dropping if needed"""
@@ -1175,7 +1175,54 @@ def wcdb3_export(login):
 	
 
 	return root
-		
+
+# ------------
+# wcdb3_merge
+# -----------
+
+def wcdb3_merge(tree):
+    """tree is ElementTree,
+        contains duplicate nodes
+        """
+    
+    new_root = element_builder('WorldCrisis')
+    cparent = tree.findall("Crisis")
+    oparent = tree.findall("Organization")
+    pparent = tree.findall("Person")
+    element_list = []
+    for element in cparent:
+        x = element.attrib['crisisIdent']
+        element_list.append(x)
+    for element in oparent:
+        x = element.attrib['organizationIdent']
+        element_list.append(x)
+    for element in pparent:
+        x = element.attrib['personIdent']
+        element_list.append(x)
+    element_list = set(element_list)
+    element_list = list(element_list)
+    
+    assert type(element_list) == list
+    
+    cparent = tree.findall("Crisis")
+    oparent = tree.findall("Organization")
+    pparent = tree.findall("Person")
+    for element in cparent:
+        x = element.attrib['crisisIdent']
+        if(x in element_list):
+            new_root.append(element)
+            element_list.remove(x)
+    for element in oparent:
+        x = element.attrib['organizationIdent']
+        if(x in element_list):
+            new_root.append(element)
+            element_list.remove(x)
+    for element in pparent:
+        x = element.attrib['personIdent']
+        if(x in element_list):
+            new_root.append(element)
+            element_list.remove(x)
+
 # ------------
 # wcdb3_write
 # ------------
