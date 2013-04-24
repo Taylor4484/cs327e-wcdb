@@ -864,7 +864,7 @@
 	<Person personIdent="NKan">
 		<Name>
 			<FirstName>Naoto</FirstName>
-\			<LastName>Kan</LastName>
+			<LastName>Kan</LastName>
 		</Name>
 		<Kind personKindIdent="PO"/>
 		<Location>
