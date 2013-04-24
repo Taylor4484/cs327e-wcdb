@@ -1,0 +1,1086 @@
+<WorldCrises>
+
+  <!--Crises-->
+
+  <Crisis crisisIdent="Japan_EQ_2011">
+    <Name>2011 Great East Japan Earthquake and Tsunami</Name>
+    <Kind crisisKindIdent="EQ"/>
+    <Location>
+      <Locality>Tohoku</Locality>
+      <Country>Japan</Country>
+    </Location>
+    <StartDateTime>
+      <Date>2011-03-11</Date>
+    </StartDateTime>
+    <HumanImpact>
+      <Type>Death</Type>
+      <Number>15880</Number>
+    </HumanImpact>
+    <HumanImpact>
+      <Type>Injured</Type>
+      <Number>6135</Number>
+    </HumanImpact>
+    <HumanImpact>
+      <Type>Missing</Type>
+      <Number>2695</Number>
+    </HumanImpact>
+    <EconomicImpact>122000000000</EconomicImpact>
+    <ResourceNeeded>Cash</ResourceNeeded>
+    <ResourceNeeded>Medical Supplies</ResourceNeeded>
+    <ResourceNeeded>Shelter</ResourceNeeded>
+    <ResourceNeeded>Rescue Teams</ResourceNeeded>
+    <WaysToHelp>Donation</WaysToHelp>
+    <ExternalResources>
+      <ImageURL>http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/quake1/bp15.jpg</ImageURL>
+      <ImageURL>http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/quake1/bp28.jpg</ImageURL>
+      <VideoURL>http://www.youtube.com/watch?v=oArd_9uZOnE&amp;list=PL2FA000340C5AC4A5</VideoURL>
+      <MapURL>http://crisislanding.appspot.com/crisismap/japan_earthquake_2011</MapURL>
+      <MapURL>http://maps.google.com/maps/ms?ie=UTF8&amp;t=h&amp;oe=UTF8&amp;msa=0&amp;msid=212059469427545728757.00049e3202fb6f5afdfa4</MapURL>
+      <SocialNetworkURL>https://www.facebook.com/Japan.Earthquake.2011.RIP</SocialNetworkURL>
+      <Citation>&apos;Magnitude 9.03 Near The East Coast Of Honshu, Japan&apos;. United States Geological Survey (USGS). Archived from the original on 5 April 2011. Retrieved 13 March 2011.</Citation>
+      <ExternalLinkURL>http://en.wikipedia.org/wiki/2011_T%C5%8Dhoku_earthquake_and_tsunami</ExternalLinkURL>
+    </ExternalResources>
+    <RelatedPersons>
+      <RelatedPerson personIdent="BHObama" />
+    </RelatedPersons>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent="ARC" />
+    </RelatedOrganizations>
+  </Crisis>
+
+  <Crisis crisisIdent="Haiti_EQ_2010">
+    <Name>Haiti Earthquake</Name>
+    <Kind crisisKindIdent="EQ"/>
+    <Location>
+      <Country>Haiti</Country>
+    </Location>
+    <StartDateTime>
+      <Date>2010-01-12</Date>
+    </StartDateTime>
+    <HumanImpact>
+      <Type>Death</Type>
+      <Number>316000</Number>
+    </HumanImpact>
+    <HumanImpact>
+      <Type>Injured</Type>
+      <Number>300000</Number>
+    </HumanImpact>
+    <EconomicImpact>8500000000</EconomicImpact>
+    <ResourceNeeded>Cash</ResourceNeeded>
+    <ResourceNeeded>Medical Supplies</ResourceNeeded>
+    <ResourceNeeded>Shelter</ResourceNeeded>
+    <ResourceNeeded>Rescue Teams</ResourceNeeded>
+    <WaysToHelp>Donation</WaysToHelp>
+    <WaysToHelp>Volunteer</WaysToHelp>
+    <ExternalResources>
+      <ImageURL>http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/haiti_01_13/h43_21699853.jpg</ImageURL>
+      <ImageURL>http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/haiti_01_13/h38_21698163.jpg</ImageURL>
+      <VideoURL>https://www.youtube.com/watch?v=V_s4UMLm8LM</VideoURL>
+      <MapURL>http://maps.google.com/maps/ms?ie=UTF8&amp;hq=&amp;hnear=511+Magnolia+St,+South+Pasadena,+Los+Angeles,+California+91030&amp;source=embed&amp;oe=UTF8&amp;msa=0&amp;msid=117631292961056724014.00047d0f70ecc76359b75</MapURL>
+      <SocialNetworkURL>https://www.facebook.com/pages/Haiti-Earthquake-Hotel-Montana/245595172631</SocialNetworkURL>
+      <SocialNetworkURL>https://www.facebook.com/haitianearthquakerelief</SocialNetworkURL>
+      <Citation>http://en.wikipedia.org/wiki/2010_Haiti_earthquake</Citation>
+      <ExternalLinkURL>http://idbdocs.iadb.org/wsdocs/getdocument.aspxdocnum=35074108</ExternalLinkURL>
+    </ExternalResources>
+    <RelatedPersons>
+      <RelatedPerson personIdent="GWBush" />
+    </RelatedPersons>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent="ARC" />
+    </RelatedOrganizations>
+  </Crisis>
+
+  <Crisis crisisIdent="HU_Sandy_2012">
+    <Name>Hurricane Sandy</Name>
+    <Kind crisisKindIdent="HU"/>
+    <Location>
+      <Region>Mid-Atlantic</Region>
+      <Country>US</Country>
+    </Location>
+    <Location>
+      <Locality></Locality>
+      <Region>Northeastern</Region>
+      <Country>US</Country>
+    </Location>
+    <StartDateTime>
+      <Date>2012-10-22</Date>
+    </StartDateTime>
+    <EndDateTime>
+      <Date>2012-10-31</Date>
+    </EndDateTime>
+    <HumanImpact>
+      <Type>Death</Type>
+      <Number>285</Number>
+    </HumanImpact>
+    <HumanImpact>
+      <Type>Missing</Type>
+      <Number>21</Number>
+    </HumanImpact>
+    <EconomicImpact>75000000000</EconomicImpact>
+    <ResourceNeeded>Cash</ResourceNeeded>
+    <ResourceNeeded>Shelter</ResourceNeeded>
+    <WaysToHelp>Donation</WaysToHelp>
+    <WaysToHelp>Volunteer</WaysToHelp>
+    <ExternalResources>
+      <ImageURL>http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/sandy/bp1.jpg</ImageURL>
+      <ImageURL>http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/sandy/bp10.jpg</ImageURL>
+      <ImageURL>http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/sandy/bp30.jpg</ImageURL>
+      <VideoURL>http://www.youtube.com/watch?v=tETbvybF7Jg</VideoURL>
+      <MapURL>http://google.org/crisismap/sandy-2012</MapURL>
+      <SocialNetworkURL>https://www.facebook.com/pages/Hurricane-Sandy/506493399380778</SocialNetworkURL>
+      <Citation>http://en.wikipedia.org/wiki/Hurricane_Sandy</Citation>
+      <ExternalLinkURL>http://www.fema.gov/sandy</ExternalLinkURL>
+    </ExternalResources>
+    <RelatedPersons>
+      <RelatedPerson personIdent="BHObama" />
+    </RelatedPersons>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent="ARC" />
+    </RelatedOrganizations>
+    <!--RelatedOrganization organizationIdent="FEMA" /-->
+  </Crisis>
+
+  <Crisis crisisIdent="HU_Katrina_2005">
+    <Name>Hurricane Katrina</Name>
+    <Kind crisisKindIdent="HU"/>
+    <Location>
+      <Locality>New Orleans</Locality>
+      <Region>Lousiana</Region>
+      <Country>US</Country>
+    </Location>
+    <Location>
+      <Region>Florida</Region>
+      <Country>US</Country>
+    </Location>
+    <Location>
+      <Region>Mississippi</Region>
+      <Country>US</Country>
+    </Location>
+    <Location>
+      <Region>Alabama</Region>
+      <Country>US</Country>
+    </Location>
+    <Location>
+      <Country>Cuba</Country>
+    </Location>
+    <StartDateTime>
+      <Date>2005-08-23</Date>
+    </StartDateTime>
+    <EndDateTime>
+      <Date>2005-08-30</Date>
+    </EndDateTime>
+    <HumanImpact>
+      <Type>Death</Type>
+      <Number>1836</Number>
+    </HumanImpact>
+    <HumanImpact>
+      <Type>Missing</Type>
+      <Number>135</Number>
+    </HumanImpact>
+    <EconomicImpact>108000000000</EconomicImpact>
+    <ResourceNeeded>Cash</ResourceNeeded>
+    <ResourceNeeded>Medical Supplies</ResourceNeeded>
+    <ResourceNeeded>Shelter</ResourceNeeded>
+    <ResourceNeeded>Rescue Teams</ResourceNeeded>
+    <WaysToHelp>Donation</WaysToHelp>
+    <WaysToHelp>Volunteer</WaysToHelp>
+    <ExternalResources>
+      <ImageURL>http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/katrina5_08_27/k08_29011159.jpg</ImageURL>
+      <ImageURL>http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/katrina5_08_27/k11_24717569.jpg</ImageURL>
+      <ImageURL>http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/katrina5_08_27/k13_24786403.jpg</ImageURL>
+      <VideoURL>http://www.youtube.com/watch?v=s76Qn7bpCsQ</VideoURL>
+      <MapURL>http://maps.google.com/maps/ms?ie=UTF8&amp;oe=UTF8&amp;msa=0&amp;msid=111950606673649159140.00047535fa45eaf146a80</MapURL>
+      <SocialNetworkURL>https://www.facebook.com/pages/Hurricane-Katrina/109481212402991</SocialNetworkURL>
+      <ExternalLinkURL>http://www.fema.gov/response-recovery/about-hurricane-katrina</ExternalLinkURL>
+    </ExternalResources>
+    <RelatedPersons>
+      <RelatedPerson personIdent="GWBush" />
+    </RelatedPersons>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent="ARC" />
+    </RelatedOrganizations>
+  </Crisis>
+
+  <Crisis crisisIdent="TO_2011">
+    <Name>2011 Tornado Outbreak</Name>
+    <Kind crisisKindIdent="TO"/>
+    <Location>
+      <Region>Midwest</Region>
+      <Country>US</Country>
+    </Location>
+    <Location>
+      <Region>Southern</Region>
+      <Country>US</Country>
+    </Location>
+    <Location>
+      <Region>Northeastern</Region>      
+      <Country>US</Country>
+    </Location>
+    <Location>
+      <Region>Southern Ontario</Region>
+      <Country>Canada</Country>
+    </Location>
+    <StartDateTime>
+      <Date>2011-04-25</Date>
+    </StartDateTime>
+    <EndDateTime>
+      <Date>2011-04-28</Date>
+    </EndDateTime>
+    <HumanImpact>
+      <Type>Death</Type>
+      <Number>324</Number>
+    </HumanImpact>
+    <EconomicImpact>11000000000</EconomicImpact>
+    <ResourceNeeded>Cash</ResourceNeeded>
+    <ResourceNeeded>Medical Supplies</ResourceNeeded>
+    <ResourceNeeded>Shelter</ResourceNeeded>
+    <WaysToHelp>Donation</WaysToHelp>
+    <ExternalResources>
+      <ImageURL>http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/tornado_042711/bp1.jpg</ImageURL>
+      <ImageURL>http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/tornado_042711/bp6.jpg</ImageURL>
+      <ImageURL>http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/tornado_042711/bp8.jpg</ImageURL>
+      <ImageURL>http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/tornado_042711/bp20.jpg</ImageURL>
+      <VideoURL>http://www.youtube.com/watch?v=vhKjv9GuARQ</VideoURL>
+      <MapURL>http://maps.google.com/maps/ms?ie=UTF8&amp;source=embed&amp;oe=UTF8&amp;msa=0&amp;msid=204109457876052646118.0004a1f351192cfc2ed63</MapURL>
+      <SocialNetworkURL>https://www.facebook.com/April2011TornadoTiribute?sk=wall&amp;filter=1</SocialNetworkURL>
+      <ExternalLinkURL>http://en.wikipedia.org/wiki/April_25%E2%80%9328,_2011_tornado_outbreak</ExternalLinkURL>
+    </ExternalResources>
+    <RelatedPersons>
+      <RelatedPerson personIdent="BHObama" />
+    </RelatedPersons>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent="ARC" />
+    </RelatedOrganizations>
+  </Crisis>
+
+  <Crisis crisisIdent="WTC_TA_2001">
+    <Name>September 11th Attacks</Name>
+    <Kind crisisKindIdent="TA"/>
+    <Location>
+      <Locality>New York City</Locality>
+      <Region>New York</Region>
+      <Country>US</Country>
+    </Location>
+    <StartDateTime>
+      <Date>2001-09-11</Date>
+      <Time>08:46:00</Time>
+    </StartDateTime>
+    <EndDateTime>
+      <Date>2001-09-11</Date>    
+      <Time>10:28:00</Time>    
+    </EndDateTime>
+    <HumanImpact>
+      <Type>Death</Type>
+      <Number>2996</Number>
+    </HumanImpact>
+    <HumanImpact>
+      <Type>Injured</Type>
+      <Number>6000</Number>
+    </HumanImpact>
+    <EconomicImpact>40000000000</EconomicImpact>
+    <ResourceNeeded>Cash</ResourceNeeded>
+    <ResourceNeeded>Rescue Teams</ResourceNeeded>
+    <WaysToHelp>Donation</WaysToHelp>
+    <ExternalResources>
+      <ImageURL>http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/sep1109_09_11/s01_H6880853.jpg</ImageURL>
+      <ImageURL>http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/sep1109_09_11/s02_2H469523.jpg</ImageURL>
+      <ImageURL>http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/sep1109_09_11/s04_00000001.jpg</ImageURL>
+      <ImageURL>http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/sep1109_09_11/s06_1H449779.jpg</ImageURL>
+      <ImageURL>http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/sep1109_09_11/s10_00000003.jpg</ImageURL>
+      <ImageURL>http://media.washingtonpost.com/wp-srv/national/images/wtt_091201.jpg</ImageURL>    <VideoURL>http://www.youtube.com/watch?v=wNNTcHq5Tzk</VideoURL>
+      <MapURL>https://maps.google.com/maps?q=World+Trade+Center+Memorial+Foundation&amp;hl=en&amp;ll=40.710101,-74.010944&amp;spn=0.00932,0.021136&amp;cid=3720074240343140943&amp;gl=US&amp;t=m&amp;z=16&amp;iwloc=A</MapURL>
+      <SocialNetworkURL>http://www.facebook.com/pages/911/114485161900095</SocialNetworkURL>
+      <ExternalLinkURL>http://www.911memorial.org/</ExternalLinkURL>
+    </ExternalResources>
+    <RelatedPersons>
+      <RelatedPerson personIdent="GWBush" />
+      <RelatedPerson personIdent="OBLaden" />
+      <RelatedPerson personIdent="AMRal-Zawahiri" />
+    </RelatedPersons>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent="ARC" />
+      <!--RelatedOrganization organizationIdent="ALQ" /-->
+    </RelatedOrganizations>
+  </Crisis>
+
+  <Crisis crisisIdent="Chernobyl_ACC_1986">
+    <Name>Chernobyl Disaster</Name>
+    <Kind crisisKindIdent="ACC"/>
+    <Location>
+      <Locality>Pripyat</Locality>
+      <Country>Ukraine</Country>
+    </Location>
+    <StartDateTime>
+      <Date>1986-04-26</Date>
+    </StartDateTime>
+    <HumanImpact>
+      <Type>Death</Type>
+      <Number>31</Number>
+    </HumanImpact>
+    <EconomicImpact>587802600</EconomicImpact>
+    <ExternalResources>
+      <ImageURL>http://mcenter.slideshowpro.com/albums/027/935/album-208556/cache/031511_chernobyl33.sJPG_900_540_0_95_1_50_50.sJPG?1362012384</ImageURL>
+      <ImageURL>http://mcenter.slideshowpro.com/albums/027/935/album-208556/cache/031511_chernobyl26.sJPG_900_540_0_95_1_50_50.sJPG?1362012384</ImageURL>
+      <ImageURL>http://mcenter.slideshowpro.com/albums/027/935/album-208556/cache/031511_chernobyl22.sJPG_900_540_0_95_1_50_50.sJPG?1362012384</ImageURL>
+      <ImageURL>http://mcenter.slideshowpro.com/albums/027/935/album-208556/cache/031511_chernobyl56.sJPG_900_540_0_95_1_50_50.sJPG?1362012384</ImageURL>
+      <VideoURL>http://www.youtube.com/watch?v=KbcbyUK5rqQ</VideoURL>
+      <MapURL>https://maps.google.com/maps?ie=UTF8&amp;cid=7318405741537423449&amp;q=Chernobyl+Nuclear+Power+Plant&amp;iwloc=A&amp;gl=US&amp;hl=en</MapURL>
+      <SocialNetworkURL>https://plus.google.com/104171337150630902474/about?gl=us&amp;hl=en</SocialNetworkURL>
+      <ExternalLinkURL>http://en.wikipedia.org/wiki/Chernobyl_disaster</ExternalLinkURL>
+    </ExternalResources>
+  </Crisis>
+
+  <Crisis crisisIdent="Syrian_WAR_2011">
+    <Name>Syrian Civil War</Name>
+    <Kind crisisKindIdent="WAR"/>
+    <Location>
+      <Country>Syria</Country>
+    </Location>
+    <StartDateTime>
+      <Date>2011-03-15</Date>
+    </StartDateTime>
+    <HumanImpact>
+      <Type>Death</Type>
+      <Number>70000</Number>
+    </HumanImpact>
+    <EconomicImpact></EconomicImpact>
+    <ExternalResources>
+      <ImageURL>http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/syria_nov_2012/bp11.jpg</ImageURL>
+      <ImageURL>http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/syria_nov_2012/bp2.jpg</ImageURL>
+      <ImageURL>http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/syria_nov_2012/bp13.jpg</ImageURL>
+      <VideoURL>http://www.youtube.com/watch?v=n4CDQciS0kE</VideoURL>
+      <MapURL>https://maps.google.com/maps/ms?ie=UTF8&amp;t=m&amp;oe=UTF8&amp;msa=0&amp;msid=217276265925129333329.0004b171bf81036a8ea66</MapURL>
+      <SocialNetworkURL>https://www.facebook.com/SyrianDayOfRage</SocialNetworkURL>
+      <ExternalLinkURL>http://en.wikipedia.org/wiki/Syrian_civil_war</ExternalLinkURL>
+    </ExternalResources>
+  </Crisis>
+
+  <Crisis crisisIdent="Russian_ME_2013">
+    <Name>2013 Russian Meteor</Name>
+    <Kind crisisKindIdent="ME"/>
+    <Location>
+      <Country>Russia</Country>
+    </Location>
+    <StartDateTime>
+      <Date>2013-02-15</Date>
+      <Time>09:20:00</Time>
+    </StartDateTime>
+    <HumanImpact>
+      <Type>Injured</Type>
+      <Number>1491</Number>
+    </HumanImpact>
+    <EconomicImpact>33000000</EconomicImpact>
+    <ExternalResources>
+      <ImageURL>http://i.space.com/images/i/000/026/257/i02/russia-meteor-fireball-feb-15-2013-3.jpg</ImageURL>
+      <ImageURL>http://i.space.com/images/i/000/026/335/i02/russia-meteor-blast-1.jpg</ImageURL>
+      <ImageURL>http://www.thenewstribe.com/wp-content/uploads/2013/02/Russian-Meteor.jpg</ImageURL>
+      <VideoURL>http://www.youtube.com/watch?v=sCFQbJuRoCs</VideoURL>
+      <MapURL>https://maps.google.com/maps?q=55.150%C2%B0N+61.410%C2%B0E&amp;ie=UTF8&amp;ll=53.748711,36.826172&amp;spn=43.405674,108.457031&amp;client=ubuntu&amp;channel=fs&amp;oe=utf-8&amp;hnear=0x43c592ab2346b0a7:0x809674d6e5b0168e,%2B55%C2%B0+8%27+59.59%22,+%2B61%C2%B0+24%27+36.06%22&amp;gl=us&amp;t=m&amp;z=4</MapURL>
+      <ExternalLinkURL>http://en.wikipedia.org/wiki/2013_Russian_meteor_event</ExternalLinkURL>
+    </ExternalResources>
+  </Crisis>
+
+  <Crisis crisisIdent="Deepwater_ACC_2010">
+    <Name>Deepwater Horizontal Oil Spill</Name>
+    <Kind crisisKindIdent="ACC"/>
+    <Location>
+      <Region>Gulf of Mexico</Region>
+      <Country>US</Country>
+    </Location>
+    <StartDateTime>
+      <Date>2010-04-20</Date>
+      <Time>22:00:00</Time>
+    </StartDateTime>
+    <HumanImpact>
+      <Type>Death</Type>
+      <Number>11</Number>
+    </HumanImpact>
+    <HumanImpact>
+      <Type>Injured</Type>
+      <Number>16</Number>
+    </HumanImpact>
+    <EconomicImpact>23000000000</EconomicImpact>
+    <ExternalResources>
+      <ImageURL>http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/deepwater_04_30/d02_82b642a6.jpg</ImageURL>
+      <ImageURL>http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/deepwater_04_30/d03_23107997.jpg</ImageURL>
+      <ImageURL>http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/deepwater_04_30/d19_23175493.jpg</ImageURL>
+      <ImageURL>http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/deepwater_04_30/d14_23197199.jpg</ImageURL>
+      <VideoURL>http://www.youtube.com/watch?v=U454HFEdRMQ</VideoURL>
+      <MapURL>https://maps.google.com/maps/ms?ie=UTF8&amp;oe=UTF8&amp;msa=0&amp;msid=114962321823640491705.00043e75d7fb328f94e05</MapURL>
+      <SocialNetworkURL>https://www.facebook.com/BPOilCrisisInTheGulf</SocialNetworkURL>
+      <ExternalLinkURL>http://en.wikipedia.org/wiki/Deepwater_Horizon_oil_spill</ExternalLinkURL>
+      <ExternalLinkURL>http://en.wikipedia.org/wiki/Deepwater_Horizon_explosion</ExternalLinkURL>
+    </ExternalResources>
+    <RelatedPersons>
+      <RelatedPerson personIdent="BHObama" />
+    </RelatedPersons>
+  </Crisis>
+
+
+  <!--Organizations-->  
+
+  <Organization organizationIdent="ARC">
+    <Name>American Red Cross</Name>
+    <Kind organizationKindIdent="HO" />
+    <Location>
+      <Locality>Washington</Locality>
+      <Region>D.C.</Region>
+      <Country>United States</Country>
+    </Location>
+    <History>As one of the nation&apos;s premier humanitarian organizations, the American Red Cross is dedicated to helping people in need throughout the United States and, in association with other Red Cross networks, throughout the world. We depend on the many generous contributions of time, blood, and money from the American public to support our lifesaving services and programs. </History>
+    <ContactInfo>
+      <Telephone>1 800 733 2767</Telephone>
+      <Fax>202 303 4498</Fax>
+      <Email>RedCross@example.com</Email>
+      <PostalAddress>
+        <StreetAddress>2025 E Street</StreetAddress>
+        <Locality>Washinton</Locality>
+        <Region>DC</Region>
+        <PostalCode>20006</PostalCode>
+        <Country>United States</Country>
+      </PostalAddress>
+    </ContactInfo>
+    <ExternalResources>
+      <ImageURL>http://carladavisshow.com/wp-content/uploads/2012/11/red-cross1.jpg</ImageURL>
+    </ExternalResources>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent="Japan_EQ_2011" />
+      <RelatedCrisis crisisIdent="Haiti_EQ_2010" />
+      <RelatedCrisis crisisIdent="HU_Katrina_2005" />
+      <RelatedCrisis crisisIdent="WTC_TA_2001" />
+    </RelatedCrises>
+  </Organization>
+
+  <Organization organizationIdent="NATO">
+    <Name>North Atlantic Treaty Organization</Name>
+    <Kind organizationKindIdent="MA" />
+    <Location>
+      <Locality>Brussels</Locality>
+      <Country>Belgium</Country>
+    </Location>
+    <History>The Treaty of Brussels, signed on 17 March 1948 by Belgium, the Netherlands, Luxembourg, France, and the United Kingdom, is considered the precursor to the NATO agreement. The treaty and the Soviet Berlin Blockade led to the creation of the Western European Union&apos;s Defence Organization in September 1948. However, participation of the United States was thought necessary both to counter the military power of the USSR and to prevent the revival of nationalist militarism, so talks for a new military alliance began almost immediately resulting in the North Atlantic Treaty, which was signed in Washington, D.C. on 4 April 1949. It included the five Treaty of Brussels states plus the United States, Canada, Portugal, Italy, Norway, Denmark and Iceland. Popular support for the Treaty was not unanimous, and some Icelanders participated in a pro-neutrality, anti-membership riot in March 1949.</History>
+    <ContactInfo>
+      <Telephone>+32 2 707 50 33</Telephone>
+      <Fax></Fax>
+      <Email></Email>
+      <PostalAddress>
+        <StreetAddress>1110 Brussels</StreetAddress>
+        <Locality></Locality>
+        <Region></Region>
+        <PostalCode></PostalCode>
+        <Country>Belgium</Country>
+      </PostalAddress>
+    </ContactInfo>
+    <ExternalResources>
+      <ImageURL>http://occupycorporatism.com/wp-content/uploads/2012/05/NATO.jpg</ImageURL>
+      <VideoURL>http://www.youtube.com/user/natocommunity</VideoURL>
+      <MapURL>http://goo.gl/maps/JrqoW</MapURL>
+      <SocialNetworkURL>https://www.facebook.com/NATO</SocialNetworkURL>
+      <Citation>http://en.wikipedia.org/wiki/NATO</Citation>
+      <ExternalLinkURL>http://www.nato.int/</ExternalLinkURL>
+    </ExternalResources>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent="WTC_TA_2001" />
+      <RelatedCrisis crisisIdent="Syrian_WAR_2011" />
+    </RelatedCrises>
+    <RelatedPersons>
+      <RelatedPerson personIdent="BHObama" />
+      <RelatedPerson personIdent="GWBush" />
+      <RelatedPerson personIdent="MHThatcher" />
+    </RelatedPersons>
+  </Organization>
+
+  <Organization organizationIdent="CIA">
+    <Name>Central Intelligence Agency</Name>
+    <Kind organizationKindIdent="IA" />
+    <Location>
+      <Locality>Langley</Locality>
+      <Region>Virginia</Region>
+      <Country>United States</Country>
+    </Location>
+    <History>The Central Intelligence Agency was created by Congress with the passage of the National Security Act of 1947, signed into law by President Harry S. Truman. It is the descendant of the Office of Strategic Services (OSS) of World War II, which was dissolved in October 1945 and its functions transferred to the State and War Departments. Eleven months earlier, in 1944, William J. Donovan, the OSS&apos;s creator, proposed to President Franklin D. Roosevelt to create a new organization directly supervised by the President: 'which will procure intelligence both by overt and covert methods and will at the same time provide intelligence guidance, determine national intelligence objectives, and correlate the intelligence material collected by all government agencies.&apos; Under his plan, a powerful, centralized civilian agency would have coordinated all the intelligence services. He also proposed that this agency have authority to conduct &apos;subversive operations abroad,&apos; but &apos;no police or law enforcement functions, either at home or abroad.&apos;</History>
+    <ContactInfo>
+      <Telephone>703 482 0632</Telephone>
+      <Fax>703 482 1739</Fax>
+      <Email></Email>
+      <PostalAddress>
+        <StreetAddress>Central Intelligence Agency, Office of Public Affairs</StreetAddress>
+        <Locality>Washington</Locality>
+        <Region>D.C.</Region>
+        <PostalCode>20505</PostalCode>
+        <Country>United States</Country>
+      </PostalAddress>
+    </ContactInfo>
+    <ExternalResources>
+      <ImageURL>http://upload.wikimedia.org/wikipedia/commons/2/23/CIA.svg</ImageURL>
+      <VideoURL>http://www.youtube.com/user/ciagov</VideoURL>
+      <MapURL>http://goo.gl/maps/ERXpg</MapURL>
+      <SocialNetworkURL>https://www.facebook.com/pages/%E4%B8%AD%E5%A4%AE%E6%83%85%E5%A0%B1%E5%B1%80/106342296071197?rf=104010799635918</SocialNetworkURL>
+      <Citation>http://en.wikipedia.org/wiki/Central_Intelligence_Agency</Citation>
+      <ExternalLinkURL>https://www.cia.gov/</ExternalLinkURL>
+    </ExternalResources>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent="WTC_TA_2001" />
+      <RelatedCrisis crisisIdent="Syrian_WAR_2011" />
+    </RelatedCrises>
+    <RelatedPersons>
+      <RelatedPerson personIdent="BHObama" />
+    </RelatedPersons>
+  </Organization>
+
+  <Organization organizationIdent="HAMAS">
+    <Name>Hamas</Name>
+    <Kind organizationKindIdent="ISO" />
+    <Location>
+      <Locality>Gaza</Locality>
+      <Country>Palestinian Territories</Country>
+    </Location>
+    <History>With its takeover of Gaza after the 1967 war with Egypt, Israel hunted down secular Palestinian Liberation Organization factions but dropped the previous Egyptian rulers' harsh restrictions against Islamic activists. In fact, Israel for many years tolerated and at times encouraged Islamic activists and groups as a counterweight to the secular nationalists of the PLO and its dominant faction, Fatah.</History>
+    <ContactInfo>
+      <Telephone></Telephone>
+      <Fax></Fax>
+      <Email></Email>
+      <PostalAddress>
+        <StreetAddress></StreetAddress>
+        <Locality></Locality>
+        <Region></Region>
+        <PostalCode></PostalCode>
+        <Country></Country>
+      </PostalAddress>
+    </ContactInfo>
+    <ExternalResources>
+      <ImageURL>http://notesfromamedinah.files.wordpress.com/2010/01/hamas.jpg</ImageURL>
+      <Citation>http://en.wikipedia.org/wiki/Hamas</Citation>
+      <ExternalLinkURL>http://www.hamasinfo.net/ar/#&amp;slider1=1</ExternalLinkURL>
+    </ExternalResources>
+  </Organization>
+
+  <Organization organizationIdent="ALQ">
+    <Name>al-Qaeda</Name>
+    <Kind organizationKindIdent="TORG" />
+    <Location>
+      <Country>Afghanistan</Country>
+    </Location>
+    <History>The origins of al-Qaeda as a network inspiring terrorism around the world and training operatives can be traced to the Soviet War in Afghanistan (December 1979 - February 1989). The U.S. viewed the conflict in Afghanistan, with the Afghan Marxists and allied Soviet troops on one side and the native Afghan mujahideen, some of whom were radical Islamic militants, on the other, as a blatant case of Soviet expansionism and aggression. A CIA program called Operation Cyclone channeled funds through Pakistan's Inter-Services Intelligence agency to the Afghan Mujahideen who were fighting the Soviet occupation</History>
+    <ContactInfo>
+      <Telephone></Telephone>
+      <Fax></Fax>
+      <Email></Email>
+      <PostalAddress>
+        <StreetAddress></StreetAddress>
+        <Locality></Locality>
+        <Region></Region>
+        <PostalCode></PostalCode>
+        <Country></Country>
+      </PostalAddress>
+    </ContactInfo>
+    <ExternalResources>
+      <ImageURL>http://www.foreignpolicy.com/files/fp_uploaded_images/110502_al%20qaeda.jpg</ImageURL>
+      <Citation>http://en.wikipedia.org/wiki/Al-Qaeda</Citation>
+    </ExternalResources>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent="WTC_TA_2001" />
+    </RelatedCrises>
+    <RelatedPersons>
+      <RelatedPerson personIdent="OBLaden" />
+    </RelatedPersons>
+  </Organization>
+
+  <Organization organizationIdent="UNESCO">
+    <Name>United Nations Educational, Scientific and Cultural Organization</Name>
+    <Kind organizationKindIdent="AUN" />
+    <Location>
+      <Locality>Paris</Locality>
+      <Country>France</Country>
+    </Location>
+    <History>When diplomats met to form the United Nations in 1945, one of the things they discussed was setting up a global health organization. WHO’s Constitution came into force on 7 April 1948 – a date we now celebrate every year as World Health Day. </History>
+    <ContactInfo>
+      <Telephone>+33 01 45 68 10 00</Telephone>
+      <Fax></Fax>
+      <Email></Email>
+      <PostalAddress>
+        <StreetAddress>7 place de Fontenoy</StreetAddress>
+        <Locality>Paris</Locality>
+        <Region></Region>
+        <PostalCode>75007</PostalCode>
+        <Country>France</Country>
+      </PostalAddress>
+    </ContactInfo>
+    <ExternalResources>
+      <ImageURL>http://vivariumnovum.net/unesco/UNESCO.jpg</ImageURL>
+      <VideoURL>http://www.youtube.com/user/unesco</VideoURL>
+      <MapURL>http://goo.gl/maps/iobPq</MapURL>
+      <SocialNetworkURL>https://www.facebook.com/pages/%E8%81%94%E5%90%88%E5%9B%BD%E6%95%99%E7%A7%91%E6%96%87%E7%BB%84%E7%BB%87/110699725618046?rf=103751179662982</SocialNetworkURL>
+      <Citation>http://en.wikipedia.org/wiki/UNESCO</Citation>
+      <ExternalLinkURL>http://www.unesco.org/</ExternalLinkURL>
+    </ExternalResources>
+  </Organization>
+
+  <Organization organizationIdent="WHO">
+    <Name>World Health Organization</Name>
+    <Kind organizationKindIdent="AUN" />
+    <Location>
+      <Locality>Geneva</Locality>
+      <Country>Switzerland</Country>
+    </Location>
+    <History>The Central Intelligence Agency was created by Congress with the passage of the National Security Act of 1947, signed into law by President Harry S. Truman. It is the descendant of the Office of Strategic Services (OSS) of World War II, which was dissolved in October 1945 and its functions transferred to the State and War Departments. Eleven months earlier, in 1944, William J. Donovan, the OSS's creator, proposed to President Franklin D. Roosevelt to create a new organization directly supervised by the President: 'which will procure intelligence both by overt and covert methods and will at the same time provide intelligence guidance, determine national intelligence objectives, and correlate the intelligence material collected by all government agencies.' Under his plan, a powerful, centralized civilian agency would have coordinated all the intelligence services. He also proposed that this agency have authority to conduct 'subversive operations abroad,' but 'no police or law enforcement functions, either at home or abroad.'</History>
+    <ContactInfo>
+      <Telephone>+ 41 22 791 21 11</Telephone>
+      <Fax>+ 41 22 791 31 11</Fax>
+      <Email>publications@who.int</Email>
+      <PostalAddress>
+        <StreetAddress>20 Appia Avenue</StreetAddress>
+        <Locality>Geneva</Locality>
+        <Region></Region>
+        <PostalCode>1211</PostalCode>
+        <Country>Switzerland</Country>
+      </PostalAddress>
+    </ContactInfo>
+    <ExternalResources>
+      <ImageURL>https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSFTRUsDu4nagfA1ugNH_Eh2eQtHhmN7C_dt8gWYAq_uF3xXH9F</ImageURL>
+      <MapURL>http://goo.gl/maps/W5FQW</MapURL>
+      <SocialNetworkURL>https://www.facebook.com/WorldHealthOrganization?fref=ts</SocialNetworkURL>
+      <Citation>http://en.wikipedia.org/wiki/World_Health_Organization</Citation>
+      <ExternalLinkURL>https://www.who.int/</ExternalLinkURL>
+    </ExternalResources>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent="Japan_EQ_2011" />
+    </RelatedCrises>
+  </Organization>
+
+  <Organization organizationIdent="WB">
+    <Name>World Bank</Name>
+    <Kind organizationKindIdent="IFI" />
+    <Location>
+      <Locality>Washington</Locality>
+      <Region>D.C.</Region>
+      <Country>United States</Country>
+    </Location>
+    <History>Since inception in 1944, the World Bank has expanded from a single institution to a closely associated group of five development institutions. Our mission evolved from the International Bank for Reconstruction and Development (IBRD) as facilitator of post-war reconstruction and development to the present-day mandate of worldwide poverty alleviation in close coordination with our affiliate, the International Development Association, and other members of the World Bank Group, the International Finance Corporation (IFC), the Multilateral Guarantee Agency (MIGA), and the International Centre for the Settlement of Investment Disputes (ICSID).</History>
+    <ContactInfo>
+      <Telephone>1 800 831 0463</Telephone>
+      <Fax>202 522 7140</Fax>
+      <Email>investigations_hotline@worldbank.org</Email>
+      <PostalAddress>
+        <StreetAddress>1818 H. Street, NW</StreetAddress>
+        <Locality>Washington</Locality>
+        <Region>D.C.</Region>
+        <PostalCode>20433</PostalCode>
+        <Country>United States</Country>
+      </PostalAddress>
+    </ContactInfo>
+    <ExternalResources>
+      <ImageURL>http://www.khaama.com/wp-content/uploads/2011/06/world-bank-logo.jpg</ImageURL>
+      <VideoURL>http://www.youtube.com/user/worldbank</VideoURL>
+      <MapURL>http://goo.gl/maps/nBk7I</MapURL>
+      <SocialNetworkURL>https://www.facebook.com/worldbank</SocialNetworkURL>
+      <Citation>http://en.wikipedia.org/wiki/World_Bank</Citation>
+      <ExternalLinkURL>http://www.worldbank.org/</ExternalLinkURL>
+    </ExternalResources>
+  </Organization>
+
+  <Organization organizationIdent="UN">
+    <Name>United Nations</Name>
+    <Kind organizationKindIdent="IO" />
+    <Location>
+      <Locality>New York</Locality>
+      <Region>New York</Region>
+      <Country>United States</Country>
+    </Location>
+    <History>The United Nations officially came into existence on 24 October 1945, when the Charter had been ratified by China, France, the Soviet Union, the United Kingdom, the United States and by a majority of other signatories. United Nations Day is celebrated on 24 October each year.</History>
+    <ContactInfo>
+      <Telephone></Telephone>
+      <Fax></Fax>
+      <Email></Email>
+      <PostalAddress>
+        <StreetAddress>2 United Nations Plaza</StreetAddress>
+        <Locality>New York</Locality>
+        <Region>New York</Region>
+        <PostalCode>10017</PostalCode>
+        <Country>United States</Country>
+      </PostalAddress>
+    </ContactInfo>
+    <ExternalResources>
+      <ImageURL>http://www.braco.net/wp-content/uploads/2012/11/un-building1.jpg</ImageURL>
+      <VideoURL>http://www.youtube.com/user/unitednations</VideoURL>
+      <MapURL>http://goo.gl/maps/yli08</MapURL>
+      <SocialNetworkURL>https://www.facebook.com/unitednations?fref=ts</SocialNetworkURL>
+      <Citation>http://en.wikipedia.org/wiki/United_Nations</Citation>
+      <ExternalLinkURL>http://www.un.org/</ExternalLinkURL>
+    </ExternalResources>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent="Japan_EQ_2011" />
+      <RelatedCrisis crisisIdent="Syrian_WAR_2011" />
+      <RelatedCrisis crisisIdent="Haiti_EQ_2010" />
+      <RelatedCrisis crisisIdent="HU_Katrina_2005" />
+      <RelatedCrisis crisisIdent="WTC_TA_2001" />
+      <RelatedCrisis crisisIdent="Chernobyl_ACC_1986" />
+      <RelatedCrisis crisisIdent="Russian_ME_2013" />
+    </RelatedCrises>
+  </Organization>
+
+  <Organization organizationIdent="WFP">
+    <Name>World Food Program</Name>
+    <Kind organizationKindIdent="AUN" />
+    <Location>
+      <Locality>Rome</Locality>
+      <Country>Italy</Country>
+    </Location>
+    <History>Scheduled to go into operation in 1963 as a three-year experimental programme, WFP was up and running before it could walk.</History>
+    <ContactInfo>
+      <Telephone>+39 06 65131</Telephone>
+      <Fax>+39 06 6590632</Fax>
+      <Email>hotline@wfp.org</Email>
+      <PostalAddress>
+        <StreetAddress>68 Via Carlo Venaziani</StreetAddress>
+        <Locality>Rome</Locality>
+        <Region></Region>
+        <PostalCode>00148</PostalCode>
+        <Country>Italy</Country>
+      </PostalAddress>
+    </ContactInfo>
+    <ExternalResources>
+      <ImageURL>https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR-wRB2nGqHvwcI95Y4P6oFcmCSUv2Wrc5U_UMGdaH_jKbEP8RJ</ImageURL>
+      <VideoURL>http://www.youtube.com/user/worldfoodprogram</VideoURL>
+      <MapURL>http://goo.gl/maps/LcjvC</MapURL>
+      <SocialNetworkURL>https://www.facebook.com/WorldFoodProgrammeUsa?ref=ts&amp;fref=ts</SocialNetworkURL>
+      <Citation>http://en.wikipedia.org/wiki/World_Food_Programme</Citation>
+      <ExternalLinkURL>http://www.wfp.org/</ExternalLinkURL>
+    </ExternalResources>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent="Syrian_WAR_2011" />
+    </RelatedCrises>
+  </Organization>
+
+  <!--PERSONS-->
+
+  <Person personIdent="BHObama">
+    <Name>
+      <FirstName>Barack</FirstName>
+      <MiddleName>Hussein</MiddleName>
+      <LastName>Obama</LastName>
+      <Suffix>II</Suffix>
+    </Name>
+    <Kind personKindIdent="PR"/>
+    <Location>
+      <Locality>Washington</Locality>
+      <Region>D.C.</Region>
+      <Country>United States</Country>
+    </Location>
+    <ExternalResources>
+      <ImageURL>http://upload.wikimedia.org/wikipedia/commons/8/8d/President_Barack_Obama.jpg</ImageURL>
+      <VideoURL>http://www.youtube.com/watch?v=f4RzFiF3z78</VideoURL>
+      <ExternalLinkURL>http://www.whitehouse.gov</ExternalLinkURL>
+    </ExternalResources>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent="HU_Sandy_2012"/>
+      <RelatedCrisis crisisIdent="TO_2011"/>
+    </RelatedCrises>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent="NATO"/>
+    </RelatedOrganizations>
+  </Person>
+
+  <Person personIdent="OBLaden">
+    <Name>
+      <FirstName>Osama</FirstName>
+      <MiddleName>bin Mohammed bin Awad</MiddleName>
+      <LastName>bin Laden</LastName>
+    </Name>
+    <Kind personKindIdent="LD"/>
+    <Location>
+      <Country>Afghanistan</Country>
+    </Location>
+    <ExternalResources>
+      <ImageURL>http://upload.wikimedia.org/wikipedia/commons/c/ca/Osama_bin_Laden_portrait.jpg</ImageURL>
+      <VideoURL>http://www.biography.com/people/osama-bin-laden-37172/videos/osama-bin-laden-americas-most-wanted-12674115651</VideoURL>
+      <Citation>http://en.wikipedia.org/wiki/Osama_bin_Laden</Citation>
+    </ExternalResources>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent="WTC_TA_2001"/>
+    </RelatedCrises>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent="ALQ"/>
+    </RelatedOrganizations>
+  </Person>
+
+  <Person personIdent="GWBush">
+    <Name>
+      <FirstName>George</FirstName>
+      <MiddleName>Walker</MiddleName>
+      <LastName>Bush</LastName>
+    </Name>
+    <Kind personKindIdent="PR"/>
+    <Location>
+      <Country>United States</Country>
+    </Location>
+    <ExternalResources>
+      <ImageURL>http://upload.wikimedia.org/wikipedia/commons/d/d4/George-W-Bush.jpeg</ImageURL>
+      <VideoURL>http://www.biography.com/people/george-w-bush-9232768/videos/george-w-bush-mini-biography-2078942607</VideoURL>
+      <MapURL>http://goo.gl/maps/34epj</MapURL>
+      <SocialNetworkURL>http://www.facebook.com/georgewbush</SocialNetworkURL>
+      <Citation>http://en.wikipedia.org/wiki/George_W._Bush</Citation>
+    </ExternalResources>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent="WTC_TA_2001"/>
+      <RelatedCrisis crisisIdent="HU_Katrina_2005"/>
+    </RelatedCrises>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent="NATO"/>
+    </RelatedOrganizations>
+  </Person>
+
+  <Person personIdent="JVStalin">
+    <Name>
+      <FirstName>Joseph</FirstName>
+      <MiddleName>Vissarionovic</MiddleName>
+      <LastName>Stalin</LastName>
+    </Name>
+    <Kind personKindIdent="LD"/>
+    <Location>
+      <Country>Soviet Russia</Country>
+    </Location>
+    <ExternalResources>
+      <ImageURL>http://upload.wikimedia.org/wikipedia/commons/9/9b/CroppedStalin1943.jpg</ImageURL>
+      <Citation>http://en.wikipedia.org/wiki/Joseph_Stalin</Citation>
+      <ExternalLinkURL>http://www.history.com/topics/joseph-stalin</ExternalLinkURL>
+    </ExternalResources>
+    <!--RelatedCrisis>World War II</RelatedCrisis-->
+</Person>
+
+<Person personIdent="BHGates">
+  <Name>
+    <FirstName>Bill</FirstName>
+    <MiddleName>Henry</MiddleName>
+    <LastName>Gates</LastName>
+    <Suffix>III</Suffix>
+  </Name>
+  <Kind personKindIdent="PH"/>
+  <Location>
+    <Locality>Seattle</Locality>
+    <Region>Washington</Region>
+    <Country>United States</Country>
+  </Location>
+  <ExternalResources>
+    <ImageURL>http://upload.wikimedia.org/wikipedia/commons/4/4a/BillGates2012.jpg</ImageURL>
+    <ImageURL>http://www.microsoft.com/global/en-us/news/PublishingImages/exec/billg/print/billg1_print.jpg</ImageURL>
+    <MapURL>http://goo.gl/maps/uBU92</MapURL>
+    <SocialNetworkURL>http://www.facebook.com/BillGates</SocialNetworkURL>
+    <Citation>http://en.wikipedia.org/wiki/Bill_Gates</Citation>
+    <ExternalLinkURL>http://www.gatesfoundation.org/</ExternalLinkURL>
+  </ExternalResources>
+  <!--RelatedOrganization>Gates Foundation</RelatedOrganization-->
+  </Person>
+
+  <Person personIdent="MHThatcher">
+    <Name>
+      <FirstName>Margaret</FirstName>
+      <MiddleName>Hilda</MiddleName>
+      <LastName>Thatcher</LastName>
+    </Name>
+    <Kind personKindIdent="PM"/>
+    <Location>
+      <Locality>London</Locality>
+      <Region>England</Region>
+      <Country>United Kingdom</Country>
+    </Location>
+    <ExternalResources>
+      <ImageURL>http://upload.wikimedia.org/wikipedia/commons/2/20/Margaret_Thatcher.png</ImageURL>
+      <MapURL>http://goo.gl/maps/9vMRy</MapURL>
+      <Citation>http://en.wikipedia.org/wiki/Margaret_Thatcher</Citation>
+      <ExternalLinkURL>http://www.margaretthatcher.org/</ExternalLinkURL>
+    </ExternalResources>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent="NATO"/>
+      <RelatedOrganization organizationIdent="UN"/>
+    </RelatedOrganizations>
+  </Person>
+
+  <Person personIdent="KPapoulias">
+    <Name>
+      <FirstName>Karolos</FirstName>
+      <LastName>Papoulias</LastName>
+    </Name>
+    <Kind personKindIdent="PR"/>
+    <Location>
+      <Country>Greece</Country>
+    </Location>
+    <ExternalResources>
+      <ImageURL>http://upload.wikimedia.org/wikipedia/commons/e/e4/Karolos_Papoulias_.jpg</ImageURL>
+      <VideoURL>http://goo.gl/maps/HAlMz</VideoURL>
+      <MapURL>http://goo.gl/maps/HAlMz</MapURL>
+      <Citation>http://en.wikipedia.org/wiki/Karolos_Papoulias</Citation>
+      <ExternalLinkURL>http://www.presidency.gr/?&amp;lang=en</ExternalLinkURL>
+    </ExternalResources>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent="NATO"/>
+      <RelatedOrganization organizationIdent="UN"/>
+    </RelatedOrganizations>
+  </Person>
+
+  <Person personIdent="JGZuma">
+    <Name>
+      <FirstName>Jacob</FirstName>
+      <MiddleName>Gedleyihlekisa</MiddleName>
+      <LastName>Zuma</LastName>
+    </Name>
+    <Kind personKindIdent="PR"/>
+    <Location>
+      <Country>South Africa</Country>
+    </Location>
+    <ExternalResources>
+      <ImageURL>http://upload.wikimedia.org/wikipedia/commons/4/4f/JacobZuma.jpg</ImageURL>
+      <Citation>http://en.wikipedia.org/wiki/Jacob_Zuma</Citation>
+    </ExternalResources>
+    <!--RelatedCrisis>AIDS Epidemic</RelatedCrisis-->
+    <RelatedOrganizations>
+     <RelatedOrganization organizationIdent="UN"/>
+    </RelatedOrganizations>
+</Person>
+
+<Person personIdent="AMRal-Zawahiri">
+  <Name>
+    <FirstName>Ayman</FirstName>
+    <MiddleName>Mohhammed Rabie</MiddleName>
+    <LastName>al-Zawahiri</LastName>
+  </Name>
+  <Kind personKindIdent="LD"/>
+  <Location>
+    <Country>Afghanistan</Country>
+  </Location>
+  <ExternalResources>
+    <ImageURL>http://upload.wikimedia.org/wikipedia/commons/c/cf/Ayman_al-Zawahiri-fbi_image-.jpg</ImageURL>
+    <VideoURL>http://www.youtube.com/watch?v=cD0QK8d1UWE</VideoURL>
+    <Citation>http://en.wikipedia.org/wiki/Ayman_al-Zawahiri</Citation>
+  </ExternalResources>
+  <RelatedCrises>
+    <RelatedCrisis crisisIdent="WTC_TA_2001"/>
+  </RelatedCrises>
+  <RelatedOrganizations>
+    <RelatedOrganization organizationIdent="ALQ"/>
+  </RelatedOrganizations>
+</Person>
+
+  <Person personIdent="RNMcEntire">
+    <Name>
+      <FirstName>Reba</FirstName>
+      <MiddleName>Nell</MiddleName>
+      <LastName>McEntire</LastName>
+    </Name>
+    <Kind personKindIdent="SNG"/>
+    <Location>
+      <Country>United States</Country>
+    </Location>
+    <ExternalResources>
+      <ImageURL>http://upload.wikimedia.org/wikipedia/commons/2/22/RebaMcEntireApr10.jpg</ImageURL>
+      <SocialNetworkURL>http://www.facebook.com/Reba</SocialNetworkURL>
+      <SocialNetworkURL>https://twitter.com/reba</SocialNetworkURL>    
+      <Citation>http://en.wikipedia.org/wiki/Reba_McEntire</Citation>
+      <ExternalLinkURL>http://en.wikipedia.org/wiki/Reba_McEntire</ExternalLinkURL>
+    </ExternalResources>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent="ARC"/>
+    </RelatedOrganizations>
+  </Person>
+
+  <CrisisKind crisisKindIdent="EQ">
+    <Name>Earthquake</Name>
+    <Description>The result of a sudden release of energy in the Earth&apos;s crust that creates seismic waves</Description>
+  </CrisisKind>
+
+  <CrisisKind crisisKindIdent="HU">
+    <Name>Hurricane</Name>
+    <Description>A storm system characterized by a low-pressure center surrounded by a spiral arrangement of thunderstorms that produce strong winds and heavy rain.</Description>
+  </CrisisKind>
+
+  <CrisisKind crisisKindIdent="TO">
+    <Name>Tornado</Name>
+    <Description>A violently rotating column of air that is in contact with both the surface of the earth and a cumulonimbus cloud or, in rare cases, the base of a cumulus cloud.</Description>
+  </CrisisKind>
+
+  <CrisisKind crisisKindIdent="TA">
+    <Name>Terrorist attack</Name>
+    <Description>A surprise attack involving the deliberate use of violence against civilians in the hope of attaining political or religious aims.</Description>
+  </CrisisKind>
+
+  <CrisisKind crisisKindIdent="ACC">
+    <Name>Accident</Name>
+    <Description>An unforeseen and unplanned event or circumstance, often with lack of intention or necessity. It usually implies a generally negative outcome which may have been avoided or prevented had circumstances leading up to the accident been recognized, and acted upon, prior to its occurrence.</Description>
+  </CrisisKind>
+
+  <CrisisKind crisisKindIdent="WAR">
+    <Name>War</Name>
+    <Description>An organized and often prolonged conflict that is carried out by states and/or non-state actors.</Description>
+  </CrisisKind>
+
+  <CrisisKind crisisKindIdent="ME">
+    <Name>Meteor</Name>
+    <Description>visible streak of light from a meteoroid or micrometeoroid, heated and glowing from entering the Earth&apos;s atmosphere, as it sheds glowing material in its wake.</Description>
+  </CrisisKind>
+
+  <OrganizationKind organizationKindIdent="HO">
+    <Name>Humanitarian Organization</Name>
+    <Description>Organization that provides humanitarian aid</Description>
+  </OrganizationKind>
+
+  <OrganizationKind organizationKindIdent="MA">
+    <Name>Military Alliance</Name>
+    <Description>An agreement between two, or more, military factions</Description>
+  </OrganizationKind>
+
+  <OrganizationKind organizationKindIdent="ISO">
+    <Name>Islamist Organization</Name>
+    <Description></Description>
+  </OrganizationKind>
+
+  <OrganizationKind organizationKindIdent="TORG">
+    <Name>Terrorist Organization</Name>
+    <Description></Description>
+  </OrganizationKind>
+
+  <OrganizationKind organizationKindIdent="IO">
+    <Name>International Organization</Name>
+    <Description></Description>
+  </OrganizationKind>
+
+  <OrganizationKind organizationKindIdent="AUN">
+    <Name>Agency of the United Nations</Name>
+    <Description></Description>
+  </OrganizationKind>
+
+  <OrganizationKind organizationKindIdent="IFI">
+    <Name>International Financial Institution</Name>
+    <Description></Description>
+  </OrganizationKind>
+
+  <OrganizationKind organizationKindIdent="IA">
+    <Name>Intelligence Agency</Name>
+    <Description></Description>
+  </OrganizationKind>
+
+  <PersonKind personKindIdent="PR">
+    <Name>President</Name>
+    <Description>Leader or the government of some countries</Description>
+  </PersonKind>
+
+  <PersonKind personKindIdent="LD">
+    <Name>Leader</Name>
+    <Description>Leader of an organization</Description>
+  </PersonKind>
+
+  <PersonKind personKindIdent="PM">
+    <Name>Prime Minister</Name>
+    <Description>Leader of a Kingdom</Description>
+  </PersonKind>
+
+  <PersonKind personKindIdent="PH">
+    <Name>Philanthropist</Name>
+    <Description>Someone who has a large impact on humanity</Description>
+  </PersonKind>
+
+  <PersonKind personKindIdent="SNG">
+    <Name>Singer</Name>
+    <Description>Sings songs</Description>
+  </PersonKind>
+
+</WorldCrises>

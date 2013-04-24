@@ -1,0 +1,977 @@
+<?xml version="1.0" ?>
+<WorldCrises>
+  
+	<!--Crises-->
+	
+	<Crisis crisisIdent="Yellowstone_FR_1988">
+		<Name>Yellowstone Forest Fires of 1988</Name>
+		<Kind crisisKindIdent="FR"></Kind>
+		<Location>
+			<Locality>Yellowstone National Park</Locality>
+			<Region>Wyoming</Region>
+			<Country>United States of America</Country>
+		</Location>
+		<StartDateTime><Date>1988-06-23</Date></StartDateTime>
+		<EndDateTime><Date>1988-11-18</Date></EndDateTime>
+		<HumanImpact>
+			<Type>Casualties</Type><Number>2</Number>
+		</HumanImpact>
+		<EconomicImpact>Structural Damage: $3 million; Money Spent Fighting Fires: $120 million</EconomicImpact>
+		<ResourceNeeded>120 helicopters and planes with over 18000 hours of flight time; Over 100 fire engines; 1.4 million gallons of fire retardant; 10 million gallons of water; 9000 firefighters; 4000 US military personell</ResourceNeeded>
+		<WaysToHelp>Donation</WaysToHelp>
+		<ExternalResources>
+			<ImageURL>http://www.thefurtrapper.com/images/Crown%20Fire%20Elk.jpg</ImageURL>
+			<VideoURL>http://www.youtube.com/watch?v=4UgLwxK8QDs</VideoURL>
+			<MapURL>http://goo.gl/maps/ciql6</MapURL>
+			<SocialNetworkURL>https://www.facebook.com/YellowstoneNationalParkVisitor</SocialNetworkURL>
+			<Citation>http://usatoday30.usatoday.com/weather/wildfires/2008-08-13-yellowstone-recovers-from-1988-wildfires_N.htm</Citation>
+			<ExternalLinkURL>http://en.wikipedia.org/wiki/Yellowstone_fires_of_1988</ExternalLinkURL>
+		</ExternalResources>
+		
+		<RelatedPersons>
+			<RelatedPerson personIdent="GHWBush" />
+		</RelatedPersons>
+		
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="WNG" />
+		</RelatedOrganizations>
+	</Crisis>
+
+		<Crisis crisisIdent="FL_1993">
+			<Name>Great Flood of 1993</Name>
+			<Kind crisisKindIdent="FL"></Kind>
+			<Location>
+				<Region>Mississippi, Louisiana, Iowa, Kansas, Minnesota, Missouri, Nebraska</Region>
+				<Country>United States of America</Country>
+			</Location>
+			<StartDateTime>
+				<Date>1993-04-01 </Date></StartDateTime>
+			<EndDateTime><Date>1993-10-01</Date></EndDateTime>
+		<HumanImpact><Type>Casualties</Type><Number> 50</Number></HumanImpact>
+		<EconomicImpact>Damages: $15-20 billion</EconomicImpact>
+		<ResourceNeeded>Sandbags; Army Corps of Engineers; Army National Guard; American Red Cross</ResourceNeeded>
+		<WaysToHelp>Donation to American Red Cross</WaysToHelp>
+		<ExternalResources>
+			<ImageURL>http://mo.water.usgs.gov/Reports/1993-Flood/images/scan13.jpg</ImageURL>
+			<VideoURL>http://www.youtube.com/watch?v=N5avsx-8xJo</VideoURL>
+			<MapURL>http://earthobservatory.nasa.gov/IOTD/view.php?id=5422	</MapURL>
+			<SocialNetworkURL>https://www.facebook.com/pages/Great-Flood-of-1993/102266869826690</SocialNetworkURL>
+			<Citation>http://www.livescience.com/7508-history-repeats-great-flood-1993.html</Citation>
+			<ExternalLinkURL >http://en.wikipedia.org/wiki/Great_Flood_of_1993</ExternalLinkURL>
+		</ExternalResources>
+
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="NOAA" />
+		</RelatedOrganizations>
+	</Crisis>
+	
+		<Crisis crisisIdent="ST_1987">
+			<Name>Great Storm of 1987</Name>
+			<Kind crisisKindIdent="ST"></Kind>
+			<Location>
+				<Locality>Cornwall (UK)</Locality>
+				<Country>England</Country>
+			</Location>
+				<StartDateTime><Date>1987-10-15</Date></StartDateTime>
+				<EndDateTime><Date>1987-10-16</Date></EndDateTime>
+		<HumanImpact><Type>Casualties</Type><Number>22</Number></HumanImpact>
+		<EconomicImpact>$24 billion</EconomicImpact>
+		<ResourceNeeded>Electricty; Cleaning volunteers</ResourceNeeded>
+		<WaysToHelp>Support the UK Forestry COmmission: http://www.forestry.gov.uk/forestry/infd-77ecnd</WaysToHelp>
+		<ExternalResources>
+			<ImageURL>http://www.marketoracle.co.uk/Article2499.html</ImageURL>
+			<VideoURL>http://www.youtube.com/watch?v=Umow5DSrP6E</VideoURL>
+			<MapURL>http://goo.gl/maps/Oiu3A</MapURL>
+			<SocialNetworkURL>https://www.facebook.com/pages/Great-Storm-of-1987/132425506796646</SocialNetworkURL>
+			<Citation>http://www.telegraph.co.uk/earth/earthnews/3307938/Great-Storm-of-1987-twenty-years-on.html</Citation>
+			<ExternalLinkURL>http://en.wikipedia.org/wiki/Great_Storm_of_1987</ExternalLinkURL>
+		</ExternalResources>
+		
+		<RelatedPersons>
+			<RelatedPerson personIdent="BGiles" />
+		</RelatedPersons>
+		
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="FCGB" />
+		</RelatedOrganizations>
+	</Crisis>
+	
+		<Crisis crisisIdent="Colorado_FR_2012">
+			<Name>Colorado Wildfires</Name>
+			<Kind crisisKindIdent="FR"></Kind>
+			<Location>
+				<Region>Colorado</Region>
+				<Country>United States of America</Country>
+			</Location>
+				<StartDateTime><Date>2012-06-09</Date></StartDateTime>
+		<HumanImpact><Type>Casualties</Type><Number>5</Number></HumanImpact>
+		<EconomicImpact>$196.2 million</EconomicImpact>
+		<ResourceNeeded>Water; Fire retardant; Firefighters</ResourceNeeded>
+		<WaysToHelp>http://www.nationalfiretraining.net/</WaysToHelp>
+		<ExternalResources>
+			<ImageURL>http://jpgreenword.files.wordpress.com/2012/07/colorado-forest-fire1.jpg</ImageURL>
+			<VideoURL>http://www.youtube.com/watch?v=RGu8_tPkIGk</VideoURL>
+			<MapURL>http://goo.gl/maps/SLzsg</MapURL>
+			<SocialNetworkURL>https://www.facebook.com/HighParkFirePage</SocialNetworkURL>
+			<Citation>http://www.denverpost.com/wildfires</Citation>
+			<ExternalLinkURL>http://en.wikipedia.org/wiki/2012_Colorado_forest_fires</ExternalLinkURL>
+		</ExternalResources>
+		
+		<RelatedPersons>
+			<RelatedPerson personIdent="JHickenlooper" />
+			<RelatedPerson personIdent="GJMcGovern" />
+		</RelatedPersons>
+		
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="ARC" />
+		</RelatedOrganizations>
+	</Crisis>
+	
+	<Crisis crisisIdent="Bangladesh_TO_1991">
+			<Name>Bangladesh Cyclone</Name>
+			<Kind crisisKindIdent="HU"></Kind>
+			<Location>
+				<Locality>Chittagong</Locality>
+				<Country>Bangladesh</Country>
+			</Location>
+				<StartDateTime><Date>1991-04-24</Date></StartDateTime>
+				<EndDateTime><Date>1991-04-30</Date></EndDateTime>
+		<HumanImpact><Type>Casualties</Type><Number>138866</Number></HumanImpact>
+		<EconomicImpact>$1.7 billion</EconomicImpact>
+		<ResourceNeeded>Food; Water; Electricity</ResourceNeeded>
+		<WaysToHelp>http://www.redcross.org/what-we-do/international-services/where-we-help/asia/bangladesh</WaysToHelp>
+		<ExternalResources>
+			<ImageURL>http://www.islandnet.com/~see/weather/graphics/photos0708/1991_bangladesh_cyclone_track.jpg</ImageURL>
+			<VideoURL>http://www.youtube.com/watch?v=dj1AdDsdF6k</VideoURL>
+			<MapURL>http://goo.gl/maps/53xuT</MapURL>
+			<Citation>http://www.reuters.com/article/2007/11/30/us-bangladesh-relief-idUSDHA33609920071130</Citation>
+			<ExternalLinkURL>http://en.wikipedia.org/wiki/1991_Bangladesh_cyclone</ExternalLinkURL>
+		</ExternalResources>
+		
+		<RelatedPersons>
+			<RelatedPerson personIdent="KZia" />
+		</RelatedPersons>
+		
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="HF" />
+		</RelatedOrganizations>
+	</Crisis>
+	
+	<Crisis crisisIdent="Deepwater_ACC_2010">
+			<Name>BP Oil Spill</Name>
+			<Kind crisisKindIdent="ACC"></Kind>
+			<Location>
+				<Region>Gulf of Mexico</Region>
+				<Country>United States of America</Country>
+			</Location>
+				<StartDateTime><Date>2010-04-20</Date></StartDateTime>
+				<EndDateTime><Date>2010-06-15</Date></EndDateTime>
+		<HumanImpact><Type>Casualties</Type><Number>11</Number></HumanImpact>
+		<EconomicImpact>$4.52 billion</EconomicImpact>
+		<ResourceNeeded>Fishing boats</ResourceNeeded>
+		<WaysToHelp>http://www.fpnetwork.org/oilspill.php</WaysToHelp>
+		<ExternalResources>
+			<ImageURL>http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2011/3/29/1301406496165/BP-Deepwater-Horizon-005.jpg</ImageURL>
+			<VideoURL>http://www.youtube.com/watch?v=U454HFEdRMQ</VideoURL>
+			<MapURL>http://goo.gl/maps/ArWgs</MapURL>
+			<SocialNetworkURL>https://www.facebook.com/BPOilCrisisInTheGulf?fref=ts</SocialNetworkURL>
+			<Citation>http://abcnews.go.com/US/wireStory/bp-oil-spill-judge-hears-rig-blast-survivor-18657993</Citation>
+			<ExternalLinkURL>http://en.wikipedia.org/wiki/Deepwater_Horizon_oil_spill</ExternalLinkURL>
+		</ExternalResources>
+		
+		<RelatedPersons>
+			<RelatedPerson personIdent="THayward" />
+		</RelatedPersons>
+		
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="USCG" />
+		</RelatedOrganizations>
+	</Crisis>
+	
+	<Crisis crisisIdent="Haiti_EQ_2010">
+			<Name>Haiti Earthquake</Name>
+			<Kind crisisKindIdent="EQ"></Kind>
+			<Location>
+				<Locality>Port-au-Prince</Locality>
+				<Country>Haiti</Country>
+			</Location>
+				<StartDateTime><Date>2010-01-12</Date></StartDateTime>
+				<EndDateTime><Date>2010-01-12</Date></EndDateTime>
+		<HumanImpact><Type>Casualties</Type><Number>316000</Number></HumanImpact>
+		<EconomicImpact>$10 billion</EconomicImpact>
+		<ResourceNeeded>Water; Food; Electricity; Clothing</ResourceNeeded>
+		<WaysToHelp>http://omprakash.org/volunteer-abroad/country/Haiti?gclid=COPf9p6z57UCFdSmPAodbRIAbA</WaysToHelp>
+		<ExternalResources>
+			<ImageURL>http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/haiti_01_13/h38_21698163.jpg</ImageURL>
+			<VideoURL>http://www.youtube.com/watch?v=IfBdiFyxKOk</VideoURL>
+			<MapURL>http://goo.gl/maps/agYtw</MapURL>
+			<SocialNetworkURL>https://www.facebook.com/helphaiti?fref=ts</SocialNetworkURL>
+			<Citation>http://www.telegraph.co.uk/news/worldnews/centralamericaandthecaribbean/haiti/6987570/Haiti-earthquake-updates.html</Citation>
+			<ExternalLinkURL>http://en.wikipedia.org/wiki/2010_Haiti_earthquake</ExternalLinkURL>
+		</ExternalResources>
+		
+		<RelatedPersons>
+			<RelatedPerson personIdent="RJoseph" />
+		</RelatedPersons>
+		
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="HRF" />
+		</RelatedOrganizations>
+	</Crisis>
+	
+	<Crisis crisisIdent="HU_Katrina_2005">
+			<Name>Hurrican Katrina</Name>
+			<Kind crisisKindIdent="HU"></Kind>
+			<Location>
+				<Locality>New Orleans</Locality>
+				<Region>Louisiana</Region>
+				<Country>United States</Country>
+			</Location>
+				<StartDateTime><Date>2005-08-23</Date></StartDateTime>
+				<EndDateTime><Date>2005-08-30</Date></EndDateTime>
+		<HumanImpact><Type>Casualties</Type><Number>1833</Number></HumanImpact>
+		<EconomicImpact>$108 billion</EconomicImpact>
+		<ResourceNeeded>Water; Food; Electricity</ResourceNeeded>
+		<WaysToHelp>http://www.hurricanekatrinarelief.com/ways_to_help.html</WaysToHelp>
+		<ExternalResources>
+			<ImageURL>http://www.katrina.noaa.gov/images/katrina-08-28-2005.jpg</ImageURL>
+			<VideoURL>http://www.youtube.com/watch?v=s76Qn7bpCsQ</VideoURL>
+			<MapURL>http://goo.gl/maps/9BAMf</MapURL>
+			<SocialNetworkURL>https://www.facebook.com/pages/Hurricane-Katrina/109481212402991</SocialNetworkURL>
+			<Citation>http://topics.nytimes.com/top/reference/timestopics/subjects/h/hurricane_katrina/index.html</Citation>
+			<ExternalLinkURL>http://en.wikipedia.org/wiki/Hurricane_katrina</ExternalLinkURL>
+		</ExternalResources>
+		
+		<RelatedPersons>
+			<RelatedPerson personIdent="GWBush" />
+		</RelatedPersons>
+		
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="FEMA" />
+		</RelatedOrganizations>
+	</Crisis>
+	
+	<Crisis crisisIdent="HU_Sandy_2012">
+			<Name>Hurricane Sandy</Name>
+			<Kind crisisKindIdent="HU"></Kind>
+			<Location>
+				<Locality>Brigantine</Locality>
+				<Region>New Jersey</Region>
+				<Country>United States of America</Country>
+			</Location>
+				<StartDateTime><Date>2012-10-22</Date></StartDateTime>
+				<EndDateTime><Date>2012-10-31</Date></EndDateTime>
+		<HumanImpact><Type>Casualties</Type><Number>285</Number></HumanImpact>
+		<EconomicImpact>$75 billion</EconomicImpact>
+		<ResourceNeeded>Water; Food; Electricity</ResourceNeeded>
+		<WaysToHelp>http://www.121212concert.org/</WaysToHelp>
+		<ExternalResources>
+			<ImageURL>http://s3-eu-west-1.amazonaws.com/cdn0.virgin.com/uploads/images/story/sandy-16128-530x330.jpg</ImageURL>
+			<VideoURL>http://www.youtube.com/watch?v=FKR_2T__cB4</VideoURL>
+			<MapURL>http://goo.gl/maps/7cMkv</MapURL>
+			<SocialNetworkURL>https://www.facebook.com/pages/Hurricane-Sandy/506493399380778?fref=ts</SocialNetworkURL>
+			<Citation>http://www.huffingtonpost.com/2013/02/12/hurricane-sandy-second-costliest_n_2669686.html?utm_hp_ref=hurricane-sandy-2012</Citation>
+			<ExternalLinkURL>http://en.wikipedia.org/wiki/Hurricane_Sandy</ExternalLinkURL>
+		</ExternalResources>
+		
+		<RelatedPersons>
+			<RelatedPerson personIdent="BHObama" />
+			<RelatedPerson personIdent="GJMcGovern" />
+		</RelatedPersons>
+		
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="HSRF" />
+		</RelatedOrganizations>
+	</Crisis>
+	
+	<Crisis crisisIdent="Japan_EQ_2011">
+			<Name>Tohoku Earthquake and Tsunami</Name>
+			<Kind crisisKindIdent="EQ"></Kind>
+			<Location>
+				<Locality>Tohoku</Locality>
+				<Region></Region>
+				<Country>Japan</Country>
+			</Location>
+				<StartDateTime><Date>2011-03-11</Date></StartDateTime>
+		<HumanImpact><Type>Casualties</Type><Number>15880</Number></HumanImpact>
+		<EconomicImpact>$309 billion</EconomicImpact>
+		<ResourceNeeded>Water; Food; Electricity; Volunteers</ResourceNeeded>
+		<WaysToHelp>Donate to Red Cross and UNICEF</WaysToHelp>
+		<ExternalResources>
+			<ImageURL>http://www.japansociety.org.uk/wp-content/uploads/2011/03/191102_182750075103717_182740125104712_433276_3988833_o1.jpg</ImageURL>
+			<VideoURL>http://www.youtube.com/watch?v=9nTlgtf7TME</VideoURL>
+			<MapURL>http://goo.gl/maps/zHUo3</MapURL>
+			<SocialNetworkURL>https://www.facebook.com/WeSupportJapan?fref=ts</SocialNetworkURL>
+			<Citation>http://www.thestar.com/life/travel/2011/03/24/japanese_earthquake_impacts_canada_us_tourism.html</Citation>
+			<ExternalLinkURL>http://en.wikipedia.org/wiki/2011_T%C5%8Dhoku_earthquake_and_tsunami</ExternalLinkURL>
+		</ExternalResources>
+		
+		<RelatedPersons>
+			<RelatedPerson personIdent="MSon" />
+		</RelatedPersons>
+		
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="JERF" />
+		</RelatedOrganizations>
+	</Crisis>
+	
+	<!--ORGANIZATIONS-->
+	
+	<Organization organizationIdent="WNG">
+			<Name>Wyoming National Guard</Name>
+			<Kind organizationKindIdent="MO"></Kind>
+			<Location>
+				<Locality>Washington D.C.</Locality>
+				<Region></Region>
+				<Country>United States of America</Country>
+			</Location>
+			<History>Founded 1870-04-04.</History>
+		<ContactInfo>
+			<Telephone>3077725241</Telephone>
+			<Fax></Fax>
+			<Email></Email>
+			<PostalAddress><StreetAddress></StreetAddress>
+				<Locality></Locality>
+				<Region></Region>
+				<PostalCode></PostalCode>
+				<Country></Country>
+			</PostalAddress>
+		</ContactInfo>
+		<ExternalResources>
+			<ImageURL>http://wynga.org/wp-content/uploads/2010/12/Logo.jpg</ImageURL>
+			<VideoURL>http://www.youtube.com/watch?v=OvKgS4aViuI</VideoURL>
+			<MapURL>http://goo.gl/maps/ho3mA</MapURL>
+			<SocialNetworkURL>https://www.facebook.com/USarmy?fref=ts</SocialNetworkURL>
+			<Citation>http://www.nytimes.com/1988/08/28/us/1200-more-soldiers-joining-firefighters-in-west.html</Citation>
+			<ExternalLinkURL>http://www.nationalguard.com/</ExternalLinkURL>
+		</ExternalResources>
+		
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="Yellowstone_FR_1988" />
+		</RelatedCrises>
+	</Organization>
+	
+		<Organization organizationIdent="NOAA">
+			<Name>National Oceanic and Atmospheric Administration</Name>
+			<Kind organizationKindIdent="GOV"></Kind>
+			<Location>
+				<Locality>Washington D.C.</Locality>
+				<Region></Region>
+				<Country>United States of America</Country>
+			</Location>
+				<History>Founded 1970-10-03</History>
+		<ContactInfo>
+			<Telephone>3034976643</Telephone>
+			<Fax></Fax>
+			<Email></Email>
+			<PostalAddress><StreetAddress></StreetAddress>
+				<Locality></Locality>
+				<Region></Region>
+				<PostalCode></PostalCode>
+				<Country></Country>
+			</PostalAddress>
+		</ContactInfo>
+		<ExternalResources>
+			<ImageURL>https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSsAZMSe3IsAL9DXKoRPRsfvmGEopwjrXw30qsByB1BGIqMhC_u</ImageURL>
+			<VideoURL>http://oceanservice.noaa.gov/video.html</VideoURL>
+			<MapURL>https://maps.google.com/maps?hl=en&amp;ie=UTF-8&amp;q=noaa+address&amp;fb=1&amp;gl=us&amp;hq=noaa&amp;cid=0,0,1163206300988020795&amp;ei=8sU2UbHVO7O42QXDj4HoAg&amp;sqi=2&amp;ved=0CIABEPwSMAM</MapURL>
+			<SocialNetworkURL>https://www.facebook.com/NOAAClimateGov?fref=ts</SocialNetworkURL>
+			<Citation>http://www.livescience.com/7508-history-repeats-great-flood-1993.html</Citation>
+			<ExternalLinkURL>http://www.noaa.gov/index.html</ExternalLinkURL>
+		</ExternalResources>
+		
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="FL_1993" />
+		</RelatedCrises>
+	</Organization>
+	
+		<Organization organizationIdent="FCGB">
+			<Name>Forestry Commission Great Britain</Name>
+			<Kind organizationKindIdent="GOV"></Kind>
+			<Location>
+				<Locality></Locality>
+				<Region></Region>
+				<Country>England</Country>
+			</Location>
+				<History>Founded 1919-01-01</History>
+		<ContactInfo>
+			<Telephone>01179066000</Telephone>
+			<Fax></Fax>
+			<Email></Email>
+			<PostalAddress><StreetAddress></StreetAddress>
+				<Locality></Locality>
+				<Region></Region>
+				<PostalCode></PostalCode>
+				<Country></Country>
+			</PostalAddress>
+		</ContactInfo>
+		<ExternalResources>
+			<ImageURL>https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT85ygEKqeVTvP8Px_IMjre6pGjfH5ljQGbh-YkUok_pYWLSe0f</ImageURL>
+			<VideoURL>http://www.forestry.gov.uk/england</VideoURL>
+			<MapURL>http://maps.google.co.uk/maps?q=BS16+1EJ&amp;hl=en&amp;sll=55.941247,-3.271253&amp;sspn=0.010852,0.018046&amp;hnear=Bristol+BS16+1EJ,+United+Kingdom&amp;t=m&amp;z=16</MapURL>
+			<SocialNetworkURL>https://www.facebook.com/pages/Forestry-Commission/104066822962188</SocialNetworkURL>
+			<Citation>http://www.independent.co.uk/news/great-storm-that-made-us-green-and-pleasant-1239088.html</Citation>
+			<ExternalLinkURL>http://www.forestry.gov.uk/england</ExternalLinkURL>
+		</ExternalResources>
+		
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="ST_1987" />
+		</RelatedCrises>
+	</Organization>
+	
+		<Organization organizationIdent="ARC">
+			<Name>American Red Cross</Name>
+			<Kind organizationKindIdent="HEA"></Kind>
+			<Location>
+				<Locality>Washington D.C.</Locality>
+				<Region></Region>
+				<Country>United States of America</Country>
+			</Location>
+				<History>Founded 1881-05-21</History>
+		<ContactInfo>
+			<Telephone>18007332767</Telephone>
+			<Fax></Fax>
+			<Email></Email>
+			<PostalAddress><StreetAddress></StreetAddress>
+				<Locality></Locality>
+				<Region></Region>
+				<PostalCode></PostalCode>
+				<Country></Country>
+			</PostalAddress>
+		</ContactInfo>
+		<ExternalResources>
+			<ImageURL>http://www.bghealthservices.com/wp-content/uploads/2011/10/american-red-cross.jpg</ImageURL>
+			<VideoURL>http://www.redcross.org/about-us/media/media-video-library</VideoURL>
+			<MapURL>https://maps.google.com/maps?q=2025+E+Street+Washington,+DC+20006</MapURL>
+			<SocialNetworkURL>https://www.facebook.com/redcross</SocialNetworkURL>
+			<Citation>http://www.boston.com/news/nation/articles/2012/03/26/evacuations_ordered_as_wildfires_spread_in_colo/</Citation>
+			<ExternalLinkURL>http://www.redcross.org/</ExternalLinkURL>
+		</ExternalResources>
+		
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="Colorado_FR_2012" />
+		</RelatedCrises>
+		
+		<RelatedPersons>
+			<RelatedPerson personIdent="GJMcGovern" />
+		</RelatedPersons>
+	</Organization>
+	
+		<Organization organizationIdent="HF">
+			<Name>Humanity First</Name>
+			<Kind organizationKindIdent="HO"></Kind>
+			<Location>
+				<Locality>London</Locality>
+				<Region></Region>
+				<Country>England</Country>
+			</Location>
+			<History>Founded 1994-01-01</History>
+		<ContactInfo>
+			<Telephone>4402084170082</Telephone>
+			<Fax></Fax>
+			<Email></Email>
+			<PostalAddress><StreetAddress></StreetAddress>
+				<Locality></Locality>
+				<Region></Region>
+				<PostalCode></PostalCode>
+				<Country></Country>
+			</PostalAddress>
+		</ContactInfo>
+		<ExternalResources>
+			<ImageURL>http://www.themuslimtimes.org/wp-content/uploads/2012/06/humanity-first-II.jpg</ImageURL>
+			<VideoURL>http://www.youtube.com/watch?v=-LNpahd9ktA</VideoURL>
+			<MapURL>https://maps.google.com/maps?q=22+Deer+Park+Road+London</MapURL>
+			<SocialNetworkURL>https://www.facebook.com/pages/Humanity-First/109851475701310</SocialNetworkURL>
+			<Citation>http://allafrica.com/stories/200511290809.html</Citation>
+			<ExternalLinkURL>http://uk.humanityfirst.org/index.php?option=com_content&amp;task=view&amp;id=182</ExternalLinkURL>
+		</ExternalResources>
+		
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="Bangladesh_TO_1991" />
+		</RelatedCrises>
+	</Organization>
+	
+		<Organization organizationIdent="USCG">
+			<Name>United States Coast Guard</Name>
+			<Kind organizationKindIdent="MO"></Kind>
+			<Location>
+				<Locality>Washington D.C.</Locality>
+				<Region></Region>
+				<Country>United States of America</Country>
+			</Location>
+				<History>Founded 1790-08-04</History>
+		<ContactInfo>
+			<Telephone>2023724411</Telephone>
+			<Fax></Fax>
+			<Email></Email>
+			<PostalAddress><StreetAddress></StreetAddress>
+				<Locality></Locality>
+				<Region></Region>
+				<PostalCode></PostalCode>
+				<Country></Country>
+			</PostalAddress>
+		</ContactInfo>
+		<ExternalResources>
+			<ImageURL>http://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/US-CoastGuard-Seal.svg/210px-US-CoastGuard-Seal.svg.png</ImageURL>
+			<VideoURL>http://www.uscg.mil/top/downloads/video.asp</VideoURL>
+			<MapURL>https://maps.google.com/maps?q=2100+Second+Street,+SW,+in+Washington,+D.C.</MapURL>
+			<SocialNetworkURL>https://www.facebook.com/UScoastguard?fref=ts</SocialNetworkURL>
+			<Citation>http://abcnews.go.com/WN/article/bp-oil-spill-gov-bobby-jindal-orders-national/story?id=10914348</Citation>
+			<ExternalLinkURL>http://www.gocoastguard.com/</ExternalLinkURL>
+		</ExternalResources>
+		
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="Deepwater_ACC_2010" />
+		</RelatedCrises>
+	</Organization>
+	
+		<Organization organizationIdent="FEMA">
+			<Name>Federal Emergency Management Agency</Name>
+			<Kind organizationKindIdent="GOV"></Kind>
+			<Location>
+				<Locality>Washington D.C.</Locality>
+				<Region></Region>
+				<Country>United States of America</Country>
+			</Location>
+			<History>Founded 1978-06-19</History>
+		<ContactInfo>
+			<Telephone>2026462500</Telephone>
+			<Fax></Fax>
+			<Email></Email>
+			<PostalAddress><StreetAddress></StreetAddress>
+				<Locality></Locality>
+				<Region></Region>
+				<PostalCode></PostalCode>
+				<Country></Country>
+			</PostalAddress>
+		</ContactInfo>
+		<ExternalResources>
+			<ImageURL>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVV8s31JYqlw6hkFqVKIheTSFSZoRDBMHwghmc7VjToQDjUA0Z</ImageURL>
+			<VideoURL>http://www.fema.gov/medialibrary/media_records/6407</VideoURL>
+			<MapURL>https://maps.google.com/maps?q=500+C+Street+SW,+Washington,+DC+20472&amp;ie=UTF-8&amp;hq=&amp;hnear=0x89b7b782510c5fe1:0xa77af4b17332b797,500+C+St+SW,+Washington,+DC+20547&amp;gl=us&amp;ei=ZbM2UYaTCOeD2QXM5YGICg&amp;ved=0CDUQ8gEwAQ</MapURL>
+			<SocialNetworkURL>https://www.facebook.com/FEMA?fref=ts</SocialNetworkURL>
+			<Citation>http://www.utsandiego.com/news/2011/dec/28/6-years-later-katrina-victims-fight-fema-debts/</Citation>
+			<ExternalLinkURL>http://www.fema.gov/</ExternalLinkURL>
+		</ExternalResources>
+		
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="HU_Katrina_2005" />
+		</RelatedCrises>
+	</Organization>
+	
+		<Organization organizationIdent="HRF">
+			<Name>Haiti Relief Fund</Name>
+			<Kind organizationKindIdent="HO"></Kind>
+			<Location>
+				<Locality>New York</Locality>
+				<Region></Region>
+				<Country>United States of America</Country>
+			</Location>
+				<History>Founded 2010-01-12</History>
+		<ContactInfo>
+			<Telephone>5165780603</Telephone>
+			<Fax></Fax>
+			<Email></Email>
+			<PostalAddress><StreetAddress></StreetAddress>
+				<Locality></Locality>
+				<Region></Region>
+				<PostalCode></PostalCode>
+				<Country></Country>
+			</PostalAddress>
+		</ContactInfo>
+		<ExternalResources>
+			<ImageURL>http://static.guim.co.uk/sys-images/Money/Pix/pictures/2010/1/18/1263820573210/Haiti-relief-fund.-Consum-001.jpgL</ImageURL>
+			<VideoURL>http://www.youtube.com/watch?v=KO1ZDvzXnqI</VideoURL>
+			<MapURL>https://maps.google.com/maps?q=48-D+ATLANTIC+AVENUE+LYNBROOK,+NY+11563</MapURL>
+			<SocialNetworkURL>https://www.facebook.com/helphaiti?fref=ts</SocialNetworkURL>
+			<Citation>http://www.bizjournals.com/milwaukee/stories/2010/01/11/daily61.html</Citation>
+			<ExternalLinkURL>http://haitirelieffund.org/haiti-relief/</ExternalLinkURL>
+		</ExternalResources>
+		
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="Haiti_EQ_2010" />
+		</RelatedCrises>
+	</Organization>
+	
+		<Organization organizationIdent="HSRF">
+			<Name>Hurricane Sandy Relief Foundation</Name>
+			<Kind organizationKindIdent="HO"></Kind>
+			<Location>
+				<Locality></Locality>
+				<Region>New Jersey</Region>
+				<Country>United States of America</Country>
+			</Location>
+				<History>Founded 2012-10-30</History>
+		<ContactInfo>
+			<Telephone></Telephone>
+			<Fax></Fax>
+			<Email>help@sandyrelief.org</Email>
+			<PostalAddress><StreetAddress></StreetAddress>
+				<Locality></Locality>
+				<Region></Region>
+				<PostalCode></PostalCode>
+				<Country></Country>
+			</PostalAddress>
+		</ContactInfo>
+		<ExternalResources>
+			<ImageURL>http://wp.lehman.edu/lehman-today/wp-content/uploads/2012/11/hurricane_relief1.jpg</ImageURL>
+			<VideoURL>http://watch.njtvonline.org/video/2306612285/</VideoURL>
+			<MapURL>http://goo.gl/maps/OEXVa</MapURL>
+			<SocialNetworkURL>https://www.facebook.com/sandyrelieforg?fref=ts</SocialNetworkURL>
+			<Citation>http://bronx.news12.com/news/nj-sued-hurricane-sandy-relief-foundation-must-freeze-donations-1.4732631?firstfree=yes</Citation>
+			<ExternalLinkURL>http://sandyrelief.org/</ExternalLinkURL>
+		</ExternalResources>
+		
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="HU_Sandy_2012" />
+		</RelatedCrises>
+	</Organization>
+	
+		<Organization organizationIdent="JERF">
+			<Name>Japan Earthquake Relief Fund</Name>
+			<Kind organizationKindIdent="HO"></Kind>
+			<Location>
+				<Locality></Locality>
+				<Region>New York</Region>
+				<Country>United States of America</Country>
+			</Location>
+				<History>Founded 2011-03-12</History>
+		<ContactInfo>
+			<Telephone>2128321155</Telephone>
+			<Fax></Fax>
+			<Email></Email>
+			<PostalAddress><StreetAddress></StreetAddress>
+				<Locality></Locality>
+				<Region></Region>
+				<PostalCode></PostalCode>
+				<Country></Country>
+			</PostalAddress>
+		</ContactInfo>
+		<ExternalResources>
+			<ImageURL>https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSy189s8IGdyRjRD7xGdgIDkd5x9AD5Z-R2JPwjp4r9EjCUeVgc8A</ImageURL>
+			<VideoURL>http://www.youtube.com/watch?v=CJSExJxUzZE</VideoURL>
+			<MapURL>https://maps.google.com/maps?q=333+East+47th+Street++New+York,+New+York+10017</MapURL>
+			<SocialNetworkURL>https://www.facebook.com/jap4life</SocialNetworkURL>
+			<Citation>http://globenewswire.com/news-release/2013/03/02/527687/10023840/en/Japanese-Canadian-Cultural-Centre-s-JCCC-Foundation-Directs-1-5-Million-to-Support-Children-Affected-by-the-3-11-Earthquake-Tsunami-Nuclear-Disaster.html</Citation>
+			<ExternalLinkURL>http://www.japansociety.org/earthquake</ExternalLinkURL>
+		</ExternalResources>
+		
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="Japan_EQ_2011" />
+		</RelatedCrises>
+	</Organization>
+
+	<Person personIdent="RJoseph">
+		<Name>
+			<FirstName>Raymond</FirstName>
+			<MiddleName></MiddleName>
+			<LastName>Joseph</LastName>
+			<Suffix></Suffix>
+		</Name>
+		<Kind personKindIdent="GO"></Kind>
+		<Location>
+			<Locality>Les Cayes</Locality>
+			<Country>Haiti</Country>
+		</Location>
+		<ExternalResources>
+			<ImageURL>http://genesisnetwork.files.wordpress.com/2010/10/m_10260joseph-jpg.jpg</ImageURL>
+			<VideoURL>http://youtu.be/Tx3iWRMDWYE</VideoURL>
+			<MapURL>https://maps.google.com/maps?hl=en&amp;safe=off&amp;q=les+cayes+haiti&amp;ie=UTF-8&amp;hq=&amp;hnear=0x8ec79c004d1d382d:0xe1470fc907574ec8,Les+Cayes,+Haiti&amp;gl=us&amp;ei=g042UfykDcau2gXNuYCwDA&amp;sqi=2&amp;ved=0CLcBELYD</MapURL>
+			<SocialNetworkURL>https://twitter.com/noutoutla</SocialNetworkURL>
+			<Citation>>http://baltimorepostexaminer.com/making-haiti-green-again/2013/01/23</Citation>
+			<ExternalLinkURL>http://en.wikipedia.org/wiki/Raymond_Joseph</ExternalLinkURL>
+		</ExternalResources>
+		
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="Haiti_EQ_2010"/>
+		</RelatedCrises>
+	</Person>
+
+	<Person personIdent="MSon">
+		<Name>
+			<FirstName>Masayoshi</FirstName>
+			<MiddleName></MiddleName>
+			<LastName>Son</LastName>
+			<Suffix></Suffix>
+		</Name>
+		<Kind personKindIdent="CEO"></Kind>
+		<Location><Locality>Tosu</Locality><Region>Saga Prefecture</Region><Country>Japan</Country></Location>
+		<ExternalResources>
+			<ImageURL>http://en.wikipedia.org/wiki/File:%EC%82%AC%EB%B3%B8_-Masayoshi_Son.jpg</ImageURL>
+			<VideoURL>http://www.youtube.com/watch?v=uOlf1uGBoCQ</VideoURL>
+			<MapURL>https://maps.google.com/maps?hl=en&amp;safe=off&amp;q=Tosu,+Saga+Prefecture,+Japan&amp;ie=UTF-8&amp;hq=&amp;hnear=0x3541a33effaffa23:0x1d4fab999f3d051d,Tosu,+Saga+Prefecture,+Japan&amp;gl=us&amp;ei=oU82Ue-NMsej2QXH-YDQDw&amp;ved=0CKkBELYD</MapURL>
+			<SocialNetworkURL>https://twitter.com/masason</SocialNetworkURL>
+			<Citation>http://www.forbes.com/profile/masayoshi-son/</Citation>
+			<ExternalLinkURL>http://en.wikipedia.org/wiki/Masayoshi_Son</ExternalLinkURL>
+		</ExternalResources>
+		
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="Japan_EQ_2011"/>
+		</RelatedCrises>
+	</Person>
+	
+	<Person personIdent="GJMcGovern">
+		<Name>
+			<FirstName>Gail</FirstName>
+			<MiddleName>J</MiddleName>
+			<LastName>McGovern</LastName>
+			<Suffix></Suffix>
+		</Name>
+		<Kind personKindIdent="HO"></Kind>
+		<Location><Locality>Springfield</Locality><Region>New Jersey</Region><Country>United States of America</Country></Location>
+		<ExternalResources>
+			<ImageURL>http://www.redcross.org/images/MEDIA_CustomProductCatalog/m6040198_514x260-gail-mcgovern.jpg</ImageURL>
+			<VideoURL>http://youtu.be/Qj9KBd8TtlI</VideoURL>
+			<MapURL>https://maps.google.com/maps?hl=en&amp;safe=off&amp;q=springfield+new+jersey&amp;ie=UTF-8&amp;hq=&amp;hnear=0x89c3ae17330c14f1:0xf114213925797882,Springfield+Township,+NJ&amp;gl=us&amp;ei=-1A2Uaa2L8rC2QWepYDYDg&amp;ved=0CLQBELYD</MapURL>
+			<SocialNetworkURL>https://twitter.com/RedCross</SocialNetworkURL>
+			<Citation>http://www.huffingtonpost.com/gail-mcgovern/a-record-year-of-disaster_b_1165386.html</Citation>
+			<ExternalLinkURL>http://en.wikipedia.org/wiki/Gail_J._McGovern</ExternalLinkURL>
+		</ExternalResources>
+		
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="Colorado_FR_2012"/>
+		</RelatedCrises>
+		
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="ARC"/>
+		</RelatedOrganizations>
+	</Person>
+	
+	<Person personIdent="GWBush">
+		<Name>
+			<FirstName>George</FirstName>
+			<MiddleName>Walker</MiddleName>
+			<LastName>Bush</LastName>
+			<Suffix></Suffix>
+		</Name>
+		<Kind personKindIdent="PR"></Kind>
+		<Location><Locality>New Haven</Locality><Region>Connecticut</Region><Country>United States of America</Country></Location>
+		<ExternalResources>
+			<ImageURL>http://en.wikipedia.org/wiki/File:George-W-Bush.jpeg</ImageURL>
+			<VideoURL>http://youtu.be/DEbZqvMu2cQ</VideoURL>
+			<MapURL>https://maps.google.com/maps?hl=en&amp;safe=off&amp;q=new+haven+ct&amp;ie=UTF-8&amp;hq=&amp;hnear=0x89e7d8443a8070e5:0xf6a354c659b264ed,New+Haven,+CT&amp;gl=us&amp;ei=flE2Ua_gNqLE2gXI64C4DQ&amp;sqi=2&amp;ved=0CLgBELYD</MapURL>
+			<SocialNetworkURL>https://twitter.com/GeorgeBush</SocialNetworkURL>
+			<Citation>http://www.randomhouse.com/crown/features/decision-points-by-george-w-bush/</Citation>
+			<ExternalLinkURL>http://en.wikipedia.org/wiki/George_W._Bush</ExternalLinkURL>
+		</ExternalResources>
+		
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="HU_Katrina_2005"/>
+		</RelatedCrises>
+	</Person>
+	
+	<Person personIdent="BHObama">
+		<Name>
+			<FirstName>Barack</FirstName>
+			<MiddleName></MiddleName>
+			<LastName>Obama</LastName>
+			<Suffix></Suffix>
+		</Name>
+		<Kind personKindIdent="PR"></Kind>
+		<Location><Locality>Honolulu</Locality><Region>Hawaii</Region><Country>United States of America</Country></Location>
+		<ExternalResources>
+			<ImageURL>http://en.wikipedia.org/wiki/File:President_Barack_Obama.jpg</ImageURL>
+			<VideoURL>http://www.youtube.com/watch?v=zncqb-n3zMo</VideoURL>
+			<MapURL>https://maps.google.com/maps?hl=en&amp;safe=off&amp;q=honolulu+hawaii&amp;ie=UTF-8&amp;hq=&amp;hnear=0x7c00183b8cc3464d:0x4b28f55ff3a7976c,Honolulu,+HI&amp;gl=us&amp;ei=zVU2UZqUDarg2wW1ioAI&amp;sqi=2&amp;ved=0CLkBELYD</MapURL>
+			<SocialNetworkURL>https://twitter.com/BarackObama</SocialNetworkURL>
+			<Citation>http://www.whitehouse.gov/administration/president-obama</Citation>
+			<ExternalLinkURL>http://en.wikipedia.org/wiki/Barack_Obama</ExternalLinkURL>
+		</ExternalResources>
+		
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="HU_Sandy_2012"/>
+		</RelatedCrises>
+	</Person>
+	
+	<Person personIdent="BGiles">
+		<Name>
+			<FirstName>Bill</FirstName>
+			<MiddleName></MiddleName>
+			<LastName>Giles</LastName>
+			<Suffix></Suffix>
+		</Name>
+		<Kind personKindIdent="MIS"></Kind>
+		<Location><Locality>Dartmouth</Locality><Region>Devon</Region><Country>England</Country></Location>
+		<ExternalResources>
+			<ImageURL>http://news.bbc.co.uk/olmedia/535000/images/_537880_bill_giles_150.jpg</ImageURL>
+			<VideoURL>http://www.youtube.com/watch?v=8_HjEz_us4I</VideoURL>
+			<MapURL>https://maps.google.com/maps?hl=en&amp;safe=off&amp;q=dartmouth+devon+england&amp;ie=UTF-8&amp;hq=&amp;hnear=0x486d1747218c9a11:0x1dccb45a0f16828f,Dartmouth,+Devon,+UK&amp;gl=us&amp;ei=J1Y2UeXQJMWL2AXYq4CgCw&amp;ved=0CLwBELYD</MapURL>
+			<SocialNetworkURL>https://www.facebook.com/noelgiles</SocialNetworkURL>
+			<Citation>http://www.telegraph.co.uk/topics/weather/9859579/Forecaster-Bill-Giles-tells-Lord-Smith-its-not-a-new-kind-of-rain.-Its-completely-normal.html</Citation>
+			<ExternalLinkURL>http://en.wikipedia.org/wiki/Bill_Giles_(meteorologist)</ExternalLinkURL>
+		</ExternalResources>
+		
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="ST_1987"/>
+		</RelatedCrises>
+	</Person>
+	
+	<Person personIdent="THayward">
+		<Name>
+			<FirstName>Tony</FirstName>
+			<MiddleName></MiddleName>
+			<LastName>Hayward</LastName>
+			<Suffix></Suffix>
+		</Name>
+		<Kind personKindIdent="CEO"></Kind>
+		<Location><Locality>Slough</Locality><Region>Buckinghamshire</Region><Country>England</Country></Location>
+		<ExternalResources>
+			<ImageURL>http://en.wikipedia.org/wiki/File:Tony_Hayward_-_World_Economic_Forum_on_the_Middle_East_2008.jpg</ImageURL>
+			<VideoURL>http://www.youtube.com/watch?v=MTdKa9eWNFw</VideoURL>
+			<MapURL>https://maps.google.com/maps?hl=en&amp;safe=off&amp;q=dartmouth+devon+england&amp;ie=UTF-8&amp;hq=&amp;hnear=0x486d1747218c9a11:0x1dccb45a0f16828f,Dartmouth,+Devon,+UK&amp;gl=us&amp;ei=J1Y2UeXQJMWL2AXYq4CgCw&amp;ved=0CLwBELYD</MapURL>
+			<SocialNetworkURL>https://twitter.com/bpcaresUK</SocialNetworkURL>
+			<Citation>http://www.nytimes.com/2012/09/02/business/tony-hayward-former-bp-chief-returns-to-oil.html?pagewanted=all&amp;_r=0</Citation>
+			<ExternalLinkURL>http://en.wikipedia.org/wiki/Tony_Hayward</ExternalLinkURL>
+		</ExternalResources>
+		
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="Deepwater_ACC_2010"/>
+		</RelatedCrises>
+	</Person>
+	
+	<Person personIdent="GHWBush">
+		<Name>
+			<FirstName>George</FirstName>
+			<MiddleName>Herbert Walker</MiddleName>
+			<LastName>Bush</LastName>
+			<Suffix></Suffix>
+		</Name>
+		<Kind personKindIdent="PR"></Kind>
+		<Location><Locality>Milton</Locality><Region>Massachusetts</Region><Country>United States of America</Country></Location>
+		<ExternalResources>
+			<ImageURL>http://en.wikipedia.org/wiki/File:George_H._W._Bush,_President_of_the_United_States,_1989_official_portrait.jpg</ImageURL>
+			<VideoURL>http://www.youtube.com/watch?v=7ffbFvKlWqE</VideoURL>
+			<MapURL>https://maps.google.com/maps?hl=en&amp;safe=off&amp;q=dartmouth+devon+england&amp;ie=UTF-8&amp;hq=&amp;hnear=0x486d1747218c9a11:0x1dccb45a0f16828f,Dartmouth,+Devon,+UK&amp;gl=us&amp;ei=J1Y2UeXQJMWL2AXYq4CgCw&amp;ved=0CLwBELYD</MapURL>
+			<SocialNetworkURL>https://twitter.com/USSGeorgeHWBush</SocialNetworkURL>
+			<Citation>http://www.whitehouse.gov/about/presidents/georgehwbush</Citation>
+			<ExternalLinkURL>http://en.wikipedia.org/wiki/George_H_W_Bush</ExternalLinkURL>
+		</ExternalResources>
+		
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="Yellowstone_FR_1988"/>
+		</RelatedCrises>
+	</Person>
+	
+	<Person personIdent="JHickenlooper">
+		<Name>
+			<FirstName>John</FirstName>
+			<MiddleName></MiddleName>
+			<LastName>Hickenlooper</LastName>
+			<Suffix></Suffix>
+		</Name>
+		<Kind personKindIdent="GOV"></Kind>
+		<Location><Locality>Narberth</Locality><Region>Pennsylvania</Region><Country>United States of America</Country></Location>
+		<ExternalResources>
+			<ImageURL>http://en.wikipedia.org/wiki/File:John_Hickenlooper_-_World_Economic_Forum_Annual_Meeting_2012_cropped.jpg</ImageURL>
+			<VideoURL>http://www.youtube.com/watch?v=8DXEjViLM5Q</VideoURL>
+			<MapURL>https://maps.google.com/maps?hl=en&amp;safe=off&amp;q=dartmouth+devon+england&amp;ie=UTF-8&amp;hq=&amp;hnear=0x486d1747218c9a11:0x1dccb45a0f16828f,Dartmouth,+Devon,+UK&amp;gl=us&amp;ei=J1Y2UeXQJMWL2AXYq4CgCw&amp;ved=0CLwBELYD</MapURL>
+			<SocialNetworkURL>https://twitter.com/hickforco</SocialNetworkURL>
+			<Citation>http://www.hickenlooperforcolorado.com/</Citation>
+			<ExternalLinkURL>http://en.wikipedia.org/wiki/John_Hickenlooper</ExternalLinkURL>
+		</ExternalResources>
+		
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="Colorado_FR_2012"/>
+		</RelatedCrises>
+	</Person>
+	
+	<Person personIdent="KZia">
+		<Name>
+			<FirstName>Khaleda</FirstName>
+			<MiddleName></MiddleName>
+			<LastName>Zia</LastName>
+			<Suffix></Suffix>
+		</Name>
+		<Kind personKindIdent="LD"></Kind>
+		<Location><Region>Dinajpur District</Region><Country>Bangladesh</Country></Location>
+		<ExternalResources>
+			<ImageURL>http://en.wikipedia.org/wiki/File:Begum_Zia_Book-opening_Ceremony,_1_Mar,_2010.jpg</ImageURL>
+			<VideoURL>http://www.youtube.com/watch?v=B_rrUCGYf1w</VideoURL>
+			<MapURL>https://maps.google.com/maps?hl=en&amp;safe=off&amp;q=dinajpur+district&amp;ie=UTF-8&amp;hq=&amp;hnear=0x39fcab08431748c5:0x8df9a73629fb8d7b,Dinajpur,+Bangladesh&amp;gl=us&amp;ei=b1Y2UZigOZT22QXe6YBA&amp;sqi=2&amp;ved=0CJQBELYD</MapURL>
+			<SocialNetworkURL>https://twitter.com/KhaledaZia</SocialNetworkURL>
+			<Citation>http://www.virtualbangladesh.com/biography/khaleda.html</Citation>
+			<ExternalLinkURL>http://en.wikipedia.org/wiki/Khaleda_Zia</ExternalLinkURL>
+		</ExternalResources>
+		
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="Bangladesh_TO_1991"/>
+		</RelatedCrises>
+	</Person>
+
+	
+	<!--Kinds-->
+	<CrisisKind crisisKindIdent="FR">
+		<Name>Fire</Name>
+		<Description></Description>
+	</CrisisKind>
+	<CrisisKind crisisKindIdent="FL">
+		<Name>Flood</Name>
+		<Description></Description>
+	</CrisisKind>
+	<CrisisKind crisisKindIdent="HU">
+		<Name>Hurricane</Name>
+		<Description></Description>
+	</CrisisKind>
+	<CrisisKind crisisKindIdent="ST">
+		<Name>Storm</Name>
+		<Description></Description>
+	</CrisisKind>
+	<CrisisKind crisisKindIdent="ACC">
+		<Name>Accident</Name>
+		<Description></Description>
+	</CrisisKind>
+	<CrisisKind crisisKindIdent="EQ">
+		<Name>Earthquake</Name>
+		<Description></Description>
+	</CrisisKind>
+	<OrganizationKind organizationKindIdent="GOV">
+		<Name>Government Organization</Name>
+		<Description></Description>
+	</OrganizationKind>
+	<OrganizationKind organizationKindIdent="SOC">
+		<Name>Social Organization</Name>
+		<Description></Description>
+	</OrganizationKind>
+	<OrganizationKind organizationKindIdent="HEA">
+		<Name>Health</Name>
+		<Description></Description>
+	</OrganizationKind>
+	<OrganizationKind organizationKindIdent="HO">
+		<Name>Humanitarian Organization</Name>
+		<Description></Description>
+	</OrganizationKind>
+	<OrganizationKind organizationKindIdent="MO">
+		<Name>Military Organization</Name>
+		<Description></Description>
+	</OrganizationKind>
+	<PersonKind personKindIdent="PR">
+		<Name>President</Name>
+		<Description></Description>
+	</PersonKind>
+	<PersonKind personKindIdent="GO">
+		<Name>Government Official</Name>
+		<Description></Description>
+	</PersonKind>
+	<PersonKind personKindIdent="GOV">
+		<Name>Governer</Name>
+		<Description></Description>
+	</PersonKind>
+	<PersonKind personKindIdent="CEO">
+		<Name>CEO</Name>
+		<Description></Description>
+	</PersonKind>
+	<PersonKind personKindIdent="HO">
+		<Name>Head of Organization</Name>
+		<Description></Description>
+	</PersonKind>
+	<PersonKind personKindIdent="MIS">
+		<Name>Others</Name>
+		<Description></Description>
+	</PersonKind>
+	<PersonKind personKindIdent="LD">
+		<Name>Leader</Name>
+		<Description></Description>
+	</PersonKind>
+	
+	
+</WorldCrises>

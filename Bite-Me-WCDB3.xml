@@ -1,0 +1,1263 @@
+<WorldCrises>
+
+<!-- 10 Crises -->
+<Crisis crisisIdent="Chicago_FR_1871">
+  <Name>The Great Chicago Fire</Name>
+  <Kind crisisKindIdent="FR" />
+	<Location>
+		<Locality>Chicago</Locality>
+		<Region>Illinois</Region>
+		<Country>United States</Country>
+	</Location>
+	<StartDateTime>
+		<Date>1871-10-08</Date>
+	</StartDateTime>
+	<EndDateTime>
+	<!-- Optional -->
+		<Date>1871-10-10</Date>
+	</EndDateTime>
+	<HumanImpact>
+	<!--Can have multiple -->
+		<Type>Casualties</Type>
+		<Number>200</Number>
+	</HumanImpact>
+	<EconomicImpact>222000000</EconomicImpact>
+	<ResourceNeeded>Shelter</ResourceNeeded>
+	<ResourceNeeded>Food</ResourceNeeded>
+	<ResourceNeeded>Medical</ResourceNeeded>
+	<WaysToHelp>Donation</WaysToHelp>
+	<ExternalResources>
+	<!-- all 'external resources' are optional -->
+		<VideoURL>http://upload.wikimedia.org/wikipedia/commons/6/6e/Chicago-fire2.jpeg</VideoURL>
+	</ExternalResources>
+</Crisis>
+
+<Crisis crisisIdent="Japan_EQ_2011">
+  <Name>Tohoku Earthquake and Tsunami</Name>
+	<Kind crisisKindIdent="EQ" />
+	<Location>
+		<Region>Pacific Rim</Region>
+	</Location>
+	<Location>
+		<Country>Japan</Country>
+	</Location>
+	<StartDateTime>
+		<Date>2011-03-11</Date>
+	</StartDateTime>
+	<EndDateTime>
+	<!-- Optional -->
+		<Date>2011-03-12</Date>
+	</EndDateTime>
+	<HumanImpact>
+	<!--Can have multiple -->
+		<Type>Casualties</Type>
+		<Number>24709</Number>
+	</HumanImpact>
+	<EconomicImpact>235000000000</EconomicImpact>
+	<ResourceNeeded>Shelter</ResourceNeeded>
+	<ResourceNeeded>Food</ResourceNeeded>
+	<ResourceNeeded>Medical</ResourceNeeded>
+	<WaysToHelp>Donation</WaysToHelp>
+	<WaysToHelp>Volunteer</WaysToHelp>
+	<ExternalResources>
+	<!-- all 'external resources' are optional -->
+		<ImageURL>http://www.japansociety.org.uk/wp-content/uploads/2011/03/191102_182750075103717_182740125104712_433276_3988833_o1.jpg</ImageURL>
+		<ImageURL>https://support.rms.com/ClientResources/Catupdates/Resources/EQ_Tohoku_M90_RMS_MMI_21Mar2011_v2.jpg</ImageURL>
+		<VideoURL>http://www.youtube.com/watch?v=TDYcEYMXSwU</VideoURL>
+		<ExternalLinkURL>http://www.japansociety.org.uk/earthquake/</ExternalLinkURL>
+	</ExternalResources>
+	<RelatedOrganizations>
+		<RelatedOrganization organizationIdent="ARC" />
+		<RelatedOrganization organizationIdent="AC" />
+		<RelatedOrganization organizationIdent="HFH" />
+		<RelatedOrganization organizationIdent="SA" />
+		<RelatedOrganization organizationIdent="DEC" />
+		<RelatedOrganization organizationIdent="OUSA" />
+		<RelatedOrganization organizationIdent="CDS" />
+	</RelatedOrganizations>
+</Crisis>
+
+<Crisis crisisIdent="HU_Katrina_2005">
+  <Name>Hurricane Katrina</Name>
+	<Kind crisisKindIdent="HU" />
+	<Location>
+		<Region>Florida</Region>
+		<Country>United States</Country>
+	</Location>
+	<Location>
+		<Region>Louisiana</Region>
+		<Country>United States</Country>
+	</Location>
+	<Location>
+		<Region>Texas</Region>
+		<Country>United States</Country>
+	</Location>
+	<Location>
+		<Region>Mississippi</Region>
+		<Country>United States</Country>
+	</Location>
+	<StartDateTime>
+		<Date>2005-08-23</Date>
+	</StartDateTime>
+	<EndDateTime>
+	<!-- Optional -->
+		<Date>2005-08-31</Date>
+	</EndDateTime>
+	<HumanImpact>
+	<!--Can have multiple -->
+		<Type>Casualties</Type>
+		<Number>1833</Number>
+	</HumanImpact>
+	<EconomicImpact>150000000000</EconomicImpact>
+	<ResourceNeeded>Shelter</ResourceNeeded>
+	<ResourceNeeded>Food</ResourceNeeded>
+	<ResourceNeeded>Medical</ResourceNeeded>
+	<WaysToHelp>Donation</WaysToHelp>
+	<WaysToHelp>Volunteer</WaysToHelp>
+	<ExternalResources>
+	<!-- all 'external resources' are optional -->
+		<ImageURL>http://www.katrina.noaa.gov/images/katrina-08-28-2005.jpg</ImageURL>
+		<VideoURL>http://www.youtube.com/watch?v=-Kou0HBpX4A</VideoURL>
+		<ExternalLinkURL>http://www.nola.com/katrina/</ExternalLinkURL>
+		<ExternalLinkURL>http://www.redcross.org/what-we-do/disaster-relief/hurricane-recovery-program</ExternalLinkURL>
+	</ExternalResources>
+		<RelatedOrganizations>
+		<RelatedOrganization organizationIdent="ARC" />
+		<RelatedOrganization organizationIdent="ERD" />
+		<RelatedOrganization organizationIdent="AHA" />
+		<RelatedOrganization organizationIdent="AC" />
+		<RelatedOrganization organizationIdent="HFH" />
+		<RelatedOrganization organizationIdent="SA" />
+		<RelatedOrganization organizationIdent="OUSA" />
+		<RelatedOrganization organizationIdent="CDS" />
+	</RelatedOrganizations>
+</Crisis>
+
+<Crisis crisisIdent="HU_Andrew_1992">
+  <Name>Hurricane Andrew</Name>
+	<Kind crisisKindIdent="HU" />
+	<Location>
+		<Region>Florida</Region>
+		<Country>United States</Country>
+	</Location>
+	<Location>
+		<Region>Louisiana</Region>
+		<Country>United States</Country>
+	</Location>
+	<Location>
+		<Region>Mississippi</Region>
+		<Country>United States</Country>
+	</Location>
+	<Location>
+		<Country>Bahamas</Country>
+	</Location>
+	<StartDateTime>
+		<Date>1992-08-16</Date>
+	</StartDateTime>
+	<EndDateTime>
+	<!-- Optional -->
+		<Date>1992-08-29</Date>
+	</EndDateTime>
+	<HumanImpact>
+	<!--Can have multiple -->
+		<Type>Casualties</Type>
+		<Number>65</Number>
+	</HumanImpact>
+	<EconomicImpact>26000000000</EconomicImpact>
+	<ResourceNeeded>Shelter</ResourceNeeded>
+	<ResourceNeeded>Food</ResourceNeeded>
+	<ResourceNeeded>Medical</ResourceNeeded>
+	<WaysToHelp>Donation</WaysToHelp>
+	<WaysToHelp>Volunteer</WaysToHelp>
+	<ExternalResources>
+	<!-- all 'external resources' are optional -->
+		<ImageURL>http://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/HurricaneAndrew.jpg/220px-HurricaneAndrew.jpg</ImageURL>
+		<VideoURL>http://www.youtube.com/watch?v=MAQtTkwpyBM</VideoURL>
+		<ExternalLinkURL>http://en.wikipedia.org/wiki/Hurricane_Andrew</ExternalLinkURL>
+	</ExternalResources>
+	<RelatedOrganizations>
+		<RelatedOrganization organizationIdent="ARC" />
+		<RelatedOrganization organizationIdent="AHA" />
+		<RelatedOrganization organizationIdent="AC" />
+		<RelatedOrganization organizationIdent="HFH" />
+		<RelatedOrganization organizationIdent="SA" />
+		<RelatedOrganization organizationIdent="OUSA" />
+		<RelatedOrganization organizationIdent="CDS" />
+	</RelatedOrganizations>
+</Crisis>
+
+<Crisis crisisIdent="HU_Ike_2008">
+	<Name>Hurricane Ike</Name>
+	<Kind crisisKindIdent="HU" />
+	<Location>
+		<Region>Texas</Region>
+		<Country>United States</Country>
+	</Location>
+	<Location>
+		<Country>Cuba</Country>
+	</Location>
+	<Location>
+		<Country>Haiti</Country>
+	</Location>
+	<StartDateTime>
+		<Date>2008-08-01</Date>
+	</StartDateTime>
+	<EndDateTime>
+	<!-- Optional -->
+		<Date>2008-08-14</Date>
+	</EndDateTime>
+	<HumanImpact>
+	<!--Can have multiple -->
+		<Type>Casualties</Type>
+		<Number>195</Number>
+	</HumanImpact>
+	<EconomicImpact>29500000000</EconomicImpact>
+	<ResourceNeeded>Food</ResourceNeeded>
+	<ResourceNeeded>Medical</ResourceNeeded>
+	<WaysToHelp>Donation</WaysToHelp>
+	<WaysToHelp>Volunteer</WaysToHelp>
+	<ExternalResources>
+	<!-- all 'external resources' are optional -->
+		<ImageURL>http://icons-ak.wxug.com/data/dhc_archive_charts/at_2008_charts/at200809.gif</ImageURL>
+		<VideoURL>http://www.youtube.com/watch?v=Ge0dxJfxsa8</VideoURL>
+		<ExternalLinkURL>http://coastal.er.usgs.gov/hurricanes/ike/</ExternalLinkURL>
+	</ExternalResources>
+	<RelatedOrganizations>
+		<RelatedOrganization organizationIdent="ARC" />
+		<RelatedOrganization organizationIdent="ERD" />
+		<RelatedOrganization organizationIdent="AHA" />
+		<RelatedOrganization organizationIdent="AC" />
+		<RelatedOrganization organizationIdent="HFH" />
+		<RelatedOrganization organizationIdent="SA" />
+		<RelatedOrganization organizationIdent="OUSA" />
+		<RelatedOrganization organizationIdent="CDS" />
+	</RelatedOrganizations>
+</Crisis>
+
+<Crisis crisisIdent="HU_Wilma_2005">
+	<Name>Hurricane Wilma</Name>
+		<Kind crisisKindIdent="HU" /> 
+	<Location>
+		<Country>Cuba</Country>
+	</Location>
+	<Location>
+		<Country>Yucatan Peninsula</Country>
+	</Location>
+	<Location>
+		<Country>Jamaica</Country>
+	</Location>
+	<Location>
+		<Country>Cayman Islands</Country>
+	</Location>
+	<StartDateTime>
+		<Date>2005-10-15</Date>
+	</StartDateTime>
+	<EndDateTime>
+	<!-- Optional -->
+		<Date>2005-10-26</Date>
+	</EndDateTime>
+	<HumanImpact>
+	<!--Can have multiple -->
+		<Type>Casualties</Type>
+		<Number>62</Number>
+	</HumanImpact>
+	<EconomicImpact>29100000000</EconomicImpact>
+	<ResourceNeeded>Food</ResourceNeeded>
+	<ResourceNeeded>Medical</ResourceNeeded>
+	<WaysToHelp>Donation</WaysToHelp>
+	<WaysToHelp>Volunteer</WaysToHelp>
+	<ExternalResources>
+	<!-- all 'external resources' are optional -->
+		<ImageURL>http://weblogs.sun-sentinel.com/news/weather/hurricane/blog/WILMA-track.gif</ImageURL>
+		<VideoURL>http://www.youtube.com/watch?v=QDFK40UMotc</VideoURL>
+		<ExternalLinkURL>http://www.ncdc.noaa.gov/special-reports/wilma.html</ExternalLinkURL>
+	</ExternalResources>
+	<RelatedOrganizations>
+		<RelatedOrganization organizationIdent="ARC" />
+		<RelatedOrganization organizationIdent="ERD" />
+		<RelatedOrganization organizationIdent="AHA" />
+		<RelatedOrganization organizationIdent="HFH" />
+		<RelatedOrganization organizationIdent="SA" />
+		<RelatedOrganization organizationIdent="OUSA" />
+		<RelatedOrganization organizationIdent="CDS" />
+	</RelatedOrganizations>
+</Crisis>
+
+<Crisis crisisIdent="HU_Ivan_2004">
+	<Name>Hurricane Ivan</Name>
+	<Kind crisisKindIdent="HU" /> 
+	<Location>
+		<Country>Grenada</Country>
+	</Location>
+	<Location>
+		<Country>Venezuela</Country>
+	</Location>
+	<Location>
+		<Country>United States</Country>
+	</Location>
+	<Location>
+		<Country>Jamaica</Country>
+	</Location>
+	<Location>
+		<Country>Cuba</Country>
+	</Location>
+	<StartDateTime>
+		<Date>2004-09-02</Date>
+	</StartDateTime>
+	<EndDateTime>
+	<!-- Optional -->
+		<Date>2004-09-24</Date>
+	</EndDateTime>
+	<HumanImpact>
+	<!--Can have multiple -->
+		<Type>Casualties</Type>
+		<Number>123</Number>
+	</HumanImpact>
+	<EconomicImpact>18000000000</EconomicImpact>
+	<ResourceNeeded>Shelter</ResourceNeeded>
+	<ResourceNeeded>Food</ResourceNeeded>
+	<ResourceNeeded>Medical</ResourceNeeded>
+    <WaysToHelp>Donation</WaysToHelp>
+    <WaysToHelp>Volunteer Work</WaysToHelp>
+	<ExternalResources>
+	<!-- all 'external resources' are optional -->
+		<ImageURL>http://tropic.ssec.wisc.edu/storm_archive/2004/storms/charley/hurricane_charley.jpg</ImageURL>
+		<VideoURL>http://www.youtube.com/watch?v=Lj7BSCNqZF4</VideoURL>
+		<MapURL>http://goo.gl/maps/wIIdR</MapURL>
+		<SocialNetworkURL>https://twitter.com/twc_hurricane</SocialNetworkURL>
+		<Citation>http://www.wunderground.com/hurricane/at200409.asp</Citation>
+		<ExternalLinkURL>http://en.wikipedia.org/wiki/Hurricane_Ivan</ExternalLinkURL>
+	</ExternalResources>
+	<RelatedOrganizations>
+		<RelatedOrganization organizationIdent="ARC" />
+		<RelatedOrganization organizationIdent="ERD" />
+		<RelatedOrganization organizationIdent="AHA" />
+		<RelatedOrganization organizationIdent="HFH" />
+		<RelatedOrganization organizationIdent="SA" />
+		<RelatedOrganization organizationIdent="OUSA" />
+		<RelatedOrganization organizationIdent="CDS" />
+	</RelatedOrganizations>
+</Crisis>
+
+
+<Crisis crisisIdent="HU_Charley_2004">
+	<Name>Hurricane Charley</Name>
+	<Kind crisisKindIdent="HU" /> 
+	<Location>
+		<Country>Jamaica</Country>
+	</Location>
+	<Location>
+		<Country>United States</Country>
+	</Location>
+	<StartDateTime>
+		<Date>2004-08-09</Date>
+	</StartDateTime>
+	<EndDateTime>
+	<!-- Optional -->
+		<Date>2004-08-15</Date>
+	</EndDateTime>
+	<HumanImpact>
+	<!--Can have multiple -->
+		<Type>Casualties</Type>
+		<Number>35</Number>
+	</HumanImpact>
+	<EconomicImpact>16300000000</EconomicImpact>
+	<ResourceNeeded>Shelter</ResourceNeeded>
+	<ResourceNeeded>Food</ResourceNeeded>
+	<ResourceNeeded>Medical</ResourceNeeded>
+	<WaysToHelp>Monetary Donations</WaysToHelp>
+	<WaysToHelp>Volunteer Work</WaysToHelp>
+	<ExternalResources>
+		<ImageURL>http://tropic.ssec.wisc.edu/storm_archive/2004/storms/charley/hurricane_charley.jpg</ImageURL>
+		<VideoURL>http://www.youtube.com/watch?v=xDNUSJ5bXjA</VideoURL>
+		<MapURL>http://upload.wikimedia.org/wikipedia/commons/1/1b/Hurricane_Charley_forecast_map.gif</MapURL>
+		<SocialNetworkURL>https://twitter.com/twc_hurricane</SocialNetworkURL>
+		<Citation>(2013). Major Hurricane Charley. WUnderground. 2013-03-03. http://www.wunderground.com/hurricane/at200403.asp.</Citation>
+		<ExternalLinkURL>http://www.wunderground.com/hurricane/at200403.asp</ExternalLinkURL>
+	</ExternalResources>
+	<RelatedOrganizations>
+		<RelatedOrganization organizationIdent="ARC" />
+		<RelatedOrganization organizationIdent="HFH" />
+		<RelatedOrganization organizationIdent="SA" />
+		<RelatedOrganization organizationIdent="OUSA" />
+		<RelatedOrganization organizationIdent="CDS" />
+	</RelatedOrganizations>
+</Crisis>
+
+
+<Crisis crisisIdent="HU_Sandy_2012">
+	<Name>Hurricane Sandy</Name>
+	<Kind crisisKindIdent="HU" /> 
+	<Location>
+		<Country>Greater Antilles</Country>
+	</Location>
+	<Location>
+		<Country>Bahamas</Country>
+	</Location>
+	<Location>
+		<Country>United States</Country>
+	</Location>
+	<Location>
+		<Country>Bermuda</Country>
+	</Location>
+	<StartDateTime>
+		<Date>2012-10-22</Date>
+	</StartDateTime>
+	<EndDateTime>
+	<!-- Optional -->
+		<Date>2012-10-31</Date>
+	</EndDateTime>
+	<HumanImpact>
+	<!--Can have multiple -->
+		<Type>Casualties</Type>
+		<Number>285</Number>
+	</HumanImpact>
+	<EconomicImpact>285000000000</EconomicImpact>
+	<ResourceNeeded>Shelter</ResourceNeeded>
+	<ResourceNeeded>Food</ResourceNeeded>
+	<ResourceNeeded>Medical</ResourceNeeded>
+	<WaysToHelp>Donation</WaysToHelp>
+	<WaysToHelp>Volunteer Work</WaysToHelp>
+	<ExternalResources>
+		<ImageURL>http://images.businessweek.com/images/images/lede/12/350x230/1029_SR_SANDY.jpg</ImageURL>
+		<VideoURL>http://www.youtube.com/watch?v=YeutC1WN6dc</VideoURL>
+		<MapURL>http://gizmorati.com/wp-content/uploads/2012/10/hurricane-sandy-map.jpg</MapURL>
+		<SocialNetworkURL>http://www.weather.com/weather/hurricanecentral/</SocialNetworkURL>
+		<Citation>(2013) Hurricane Sandy. Bloomberg. (2013-03-03). http://topics.bloomberg.com/hurricane-sandy/. </Citation>
+		<ExternalLinkURL>http://topics.bloomberg.com/hurricane-sandy/</ExternalLinkURL>
+	</ExternalResources>
+	<RelatedOrganizations>
+		<RelatedOrganization organizationIdent="ARC" />
+		<RelatedOrganization organizationIdent="ERD" />
+		<RelatedOrganization organizationIdent="AHA" />
+		<RelatedOrganization organizationIdent="AC" />
+		<RelatedOrganization organizationIdent="HFH" />
+		<RelatedOrganization organizationIdent="SA" />
+		<RelatedOrganization organizationIdent="OUSA" />
+		<RelatedOrganization organizationIdent="CDS" />
+	</RelatedOrganizations>
+</Crisis>
+
+
+<Crisis crisisIdent="Tri-State_TO_1925">
+	<Name>Tri-State Tornado</Name>
+	<Kind crisisKindIdent="TO" /> 
+	<Location>
+		<Region>Missouri</Region>
+		<Country>United States</Country>
+	</Location>
+	<Location>
+		<Region>Illinois</Region>
+		<Country>United States</Country>
+	</Location>
+	<Location>
+		<Region>Indiana</Region>
+		<Country>United States</Country>
+	</Location>
+	<StartDateTime>
+		<Date>1925-03-18</Date>
+	</StartDateTime>
+	<EndDateTime>
+	<!-- Optional -->
+		<Date>1925-03-18</Date>
+	</EndDateTime>
+	<HumanImpact>
+	<!--Can have multiple -->
+		<Type>Casualties</Type>
+		<Number>2722</Number>
+	</HumanImpact>
+	<EconomicImpact>1400000000</EconomicImpact>
+	<ResourceNeeded>Shelter</ResourceNeeded>
+	<ResourceNeeded>Food</ResourceNeeded>
+	<ResourceNeeded>Medical</ResourceNeeded>
+	<WaysToHelp>Donations</WaysToHelp>
+	<WaysToHelp>Volunteer Work</WaysToHelp>
+	<ExternalResources>
+		<ImageURL>http://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Tri-State_Tornado.JPG/300px-Tri-State_Tornado.JPG</ImageURL>
+		<VideoURL>http://www.youtube.com/watch?v=M3dbojUnl5I</VideoURL>
+		<MapURL>http://www.gettingprepared.info/wp-content/uploads/2010/04/Tri-State_Tornado_cyclone_track_map_key.jpg</MapURL>
+		<SocialNetworkURL>https://twitter.com/USTornadoes</SocialNetworkURL>
+		<Citation>(2013-02-28). TRi-State Tornado. Wikipedia. (2013-03-03). http://en.wikipedia.org/wiki/Tri_state_Tornado.</Citation>
+		<ExternalLinkURL>http://en.wikipedia.org/wiki/Tri-State_Tornado</ExternalLinkURL>
+	</ExternalResources>
+	<RelatedOrganizations>
+		<RelatedOrganization organizationIdent="ARC" />
+		<RelatedOrganization organizationIdent="SA" />
+	</RelatedOrganizations>
+</Crisis>
+
+
+<!-- 10 Organizations -->
+<Organization organizationIdent="ARC">
+	<Name>American Red Cross</Name>
+	<Kind organizationKindIdent="HA" />
+	<Location>
+		<Locality>Washington</Locality>
+		<Region>D.C.</Region>
+		<Country>United States</Country>
+	</Location>
+	<History>Founded in 1881. Dedicated to assisting in great national disasters.</History>
+	<ContactInfo>
+		<Telephone>18007332767</Telephone>
+		<Fax>18007332767</Fax>
+		<Email>redcross@help.help</Email>
+		<PostalAddress>
+			<StreetAddress>2218 Pershing Dr</StreetAddress>
+			<Locality>Austin</Locality>
+			<Region>Texas</Region>
+			<PostalCode>78723</PostalCode>
+			<Country>United States</Country>
+		</PostalAddress>
+	</ContactInfo>
+	<ExternalResources>
+	<!-- all 'external resources' are optional -->
+		<ImageURL>http://media-3.web.britannica.com/eb-media/26/91226-004-20837DEB.jpg</ImageURL>
+		<ImageURL>http://www.asiamattersforamerica.org/sites/default/files/field/image/redcross-tohoku.jpeg</ImageURL>
+		<ImageURL>http://www.redcross.org/images/MEDIA_CustomProductCatalog/m14440178_Albany_10_31_2012_American_Red_Cross_Ongoing_Relief_Effort_for_Sandy_Update.jpg</ImageURL>
+		<VideoURL>http://www.youtube.com/watch?v=hHJR96OQTQk</VideoURL>
+		<VideoURL>http://www.youtube.com/watch?v=pWsXyW8Za10</VideoURL>
+		<MapURL>http://dev.virtualearth.net/REST/v1/Imagery/Map/road/38.895654,-77.041733/14?mapSize=298,298%26key=AvywRF9yh19kJ4a3U8VMD9WNDaFbSAhm6y9Vd1h-ucK4xIpRqeI6GhN3xKVgQtNU</MapURL>
+		<SocialNetworkURL>https://www.facebook.com/redcross?fref=ts</SocialNetworkURL>
+		<SocialNetworkURL>https://twitter.com/RedCross</SocialNetworkURL>
+		<ExternalLinkURL>http://en.wikipedia.org/wiki/American_Red_Cross</ExternalLinkURL>
+	</ExternalResources>
+	<RelatedCrises>
+		<RelatedCrisis crisisIdent="Japan_EQ_2011" />
+		<RelatedCrisis crisisIdent="HU_Katrina_2005" />
+		<RelatedCrisis crisisIdent="HU_Andrew_1992" />
+		<RelatedCrisis crisisIdent="HU_Ike_2008" />
+		<RelatedCrisis crisisIdent="HU_Wilma_2005" />
+		<RelatedCrisis crisisIdent="HU_Ivan_2004" />
+		<RelatedCrisis crisisIdent="HU_Charley_2004" />
+		<RelatedCrisis crisisIdent="HU_Sandy_2012" />
+		<RelatedCrisis crisisIdent="Tri-State_TO_1925" />
+	</RelatedCrises>
+	<RelatedPersons>
+		<RelatedPerson personIdent="CBarton"/>
+		<RelatedPerson personIdent="GJMcGovern"/>
+		<RelatedPerson personIdent="WLawrence"/>
+	</RelatedPersons>
+</Organization>
+
+
+<Organization organizationIdent="ERD">
+	<Name>Episcopal Relief and Development</Name>
+	<Kind organizationKindIdent="DIS" />
+	<Location>
+		<Locality>New York</Locality>
+		<Region>New York</Region>
+		<Country>United States</Country>
+	</Location>
+	<History>Founded in 1940 to help European refugees during World War II.</History>
+	<ContactInfo>
+		<Telephone>18553124325</Telephone>
+		<Fax>18553124325</Fax>
+		<Email>er-d@er-d.org</Email>
+		<PostalAddress>
+			<StreetAddress>815 Second Avenue</StreetAddress>
+			<Locality>New York</Locality>
+			<Region>New York</Region>
+			<PostalCode>10017</PostalCode>
+			<Country>United States</Country>
+		</PostalAddress>
+	</ContactInfo>
+	<ExternalResources>
+		<ImageURL>http://www.er-d.org/userfiles/KeansburgStMark-200.jpg</ImageURL>
+		<VideoURL>http://www.youtube.com/watch?v=1WOs0ati7bw</VideoURL>
+		<MapURL>http://www.stlukeandtheepiphany.org/images/display/752post_millennium_developm.jpg</MapURL>
+		<SocialNetworkURL>https://www.facebook.com/EpiscopalRelief?fref=ts</SocialNetworkURL>
+		<SocialNetworkURL>https://twitter.com/EpiscopalRelief</SocialNetworkURL>
+		<ExternalLinkURL>http://en.wikipedia.org/wiki/Episcopal_Relief_and_Development</ExternalLinkURL>
+	</ExternalResources>
+	<RelatedCrises>
+		<RelatedCrisis crisisIdent="HU_Katrina_2005" />
+		<RelatedCrisis crisisIdent="HU_Ike_2008" />
+		<RelatedCrisis crisisIdent="HU_Wilma_2005" />
+		<RelatedCrisis crisisIdent="HU_Ivan_2004" />
+		<RelatedCrisis crisisIdent="HU_Charley_2004" />
+		<RelatedCrisis crisisIdent="HU_Sandy_2012" />
+	</RelatedCrises>
+</Organization>
+
+
+<Organization organizationIdent="AHA">
+	<Name>American Humane Association</Name>
+	<Kind organizationKindIdent="APA" />
+	<Location>
+		<Locality>Washington</Locality>
+		<Region>D.C.</Region>
+		<Country>United States</Country>
+	</Location>
+	<Location>
+		<Region>California</Region>
+		<Country>United States</Country>
+	</Location>
+	<History>Founded in 1877. Dedicated to the welfare of animals and children.</History>
+	<ContactInfo>
+		<Telephone>18002274645</Telephone>
+		<Fax>18002274645</Fax>
+		<!-- <Fax>([0-9x+ ]+)?</Fax> -->
+		<Email>info@americanhumane.org</Email>
+		<PostalAddress>
+			<StreetAddress>2100 L St, NW</StreetAddress>
+			<Locality>Washington</Locality>
+			<Region>D.C.</Region>
+			<PostalCode>20037</PostalCode>
+			<Country>United States</Country>
+		</PostalAddress>
+	</ContactInfo>
+	<ExternalResources>
+		<ImageURL>https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTAn31zNFCwKHBkLV8Tb66BCW2NkPBUaifzEDBCLzrRlB-x-HHuQw</ImageURL>
+		<ImageURL>http://site.americanhumane.org/redstartimeline/rstl36.jpg</ImageURL>
+		<VideoURL>http://www.youtube.com/watch?v=mSZnWSOfcNE</VideoURL>
+		<MapURL>http://www.mapquestapi.com/staticmap/v3/getmap?key=Gmjtd%7Cluua2hu2nq%2C8g%3Do5-lz8lq%26type=map%26size=298,298%26center=38.90916279687762,-77.03715493587387%26zoom=10%26pois=blue_1,38.90916279687762,-77.03715493587387</MapURL>
+		<SocialNetworkURL>https://www.facebook.com/americanhumane</SocialNetworkURL>
+		<ExternalLinkURL>http://en.wikipedia.org/wiki/American_Humane_Association</ExternalLinkURL>
+	</ExternalResources>
+	<RelatedCrises>
+		<RelatedCrisis crisisIdent="HU_Katrina_2005" />
+		<RelatedCrisis crisisIdent="HU_Sandy_2012" />
+	</RelatedCrises>
+</Organization>
+
+
+<Organization organizationIdent="AC">
+	<Name>AmeriCares</Name>
+	<Kind organizationKindIdent="NP" />
+	<Location>
+		<Locality>Stanford</Locality>
+		<Region>Connecticut</Region>
+		<Country>United States</Country>
+	</Location>
+	<History>Founded in 1975 as a response to slow organizational action towards an international crisis involving a crashed jet carrying 243 Vietnamese Orphans. Dedicated to offering immediate and effective aid in worldwide disasters. </History>
+	<ContactInfo>
+		<Telephone>18004864357</Telephone>
+		<Fax>18004864357</Fax>
+		<Email>info@AmeriCares.org</Email>
+		<PostalAddress>
+			<StreetAddress>88 Hamilton Ave</StreetAddress>
+			<Locality>Stanford</Locality>
+			<Region>Connecticut</Region>
+			<PostalCode>06902</PostalCode>
+			<Country>United States</Country>
+		</PostalAddress>
+	</ContactInfo>
+	<ExternalResources>
+		<ImageURL>http://www.americares.org/assets/images/regions/united-states/HurricaneKatrina/landingpageresized.jpg</ImageURL>
+		<ImageURL>https://secure.americares.org/images/donationforms/sandy_9.png</ImageURL>
+		<VideoURL>http://www.youtube.com/watch?v=LR0-ebRUSW4</VideoURL>
+		<VideoURL>http://www.youtube.com/watch?v=5K_GJQlDbyY</VideoURL>
+		<MapURL>http://dev.virtualearth.net/REST/v1/Imagery/Map/road/33.981704,-84.250027/14?mapSize=298,298%26key=AvywRF9yh19kJ4a3U8VMD9WNDaFbSAhm6y9Vd1h-ucK4xIpRqeI6GhN3xKVgQtNU</MapURL>
+		<SocialNetworkURL>https://www.facebook.com/americares</SocialNetworkURL>
+		<SocialNetworkURL>https://twitter.com/AmeriCares</SocialNetworkURL>
+		<ExternalLinkURL>http://en.wikipedia.org/wiki/AmeriCares</ExternalLinkURL>
+	</ExternalResources>
+	<RelatedCrises>
+		<RelatedCrisis crisisIdent="Japan_EQ_2011" />
+		<RelatedCrisis crisisIdent="HU_Katrina_2005" />
+		<RelatedCrisis crisisIdent="HU_Andrew_1992" />
+		<RelatedCrisis crisisIdent="HU_Ike_2008" />
+		<RelatedCrisis crisisIdent="HU_Sandy_2012" />
+	</RelatedCrises>
+</Organization>
+
+<Organization organizationIdent="HFH">
+	<Name>Habitat for Humanity</Name>
+	<Kind organizationKindIdent="NP" />
+	<Location>
+		<Locality>Stanford</Locality>
+		<Region>Connecticut</Region>
+		<Country>United States</Country>
+	</Location>
+		<Location>
+		<Locality>Americus</Locality>
+		<Region>Georgia</Region>
+		<Country>United States</Country>
+	</Location>
+	<History>Founded in 1976. Dedicated to building simple, decent, and affordable housing.</History>
+	<ContactInfo>
+		<Telephone>18004224828</Telephone>
+		<Fax>18004224828</Fax>
+		<!-- <Fax>([0-9x+ ]+)?</Fax> -->
+		<Email>globalfaithengagement@habitat.org</Email>
+		<PostalAddress>
+			<StreetAddress>121 Habitat Street</StreetAddress>
+			<Locality>Americus</Locality>
+			<Region>Georgia</Region>
+			<PostalCode>3498</PostalCode>
+			<Country>United States</Country>
+		</PostalAddress>
+	</ContactInfo>
+	<ExternalResources>
+		<ImageURL>https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTJ0sF2MTwnF128L54bvucJhIy8JeX9Ud9GJwnbI7M1OOZJJ6M_bQ</ImageURL>
+		<ImageURL>http://www.katrinadestruction.com/images/d/18425-3/17kd890-habitat-for-humanity</ImageURL>
+		<VideoURL>http://www.youtube.com/watch?v=08EVIhldtdQ</VideoURL>
+		<MapURL>https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRW3v7kJjprxQWYh4iCizTL5YJaMBdPJqetnmWs0mis9ft4KmLaXQ</MapURL>
+		<SocialNetworkURL>https://www.facebook.com/habitat</SocialNetworkURL>
+		<SocialNetworkURL>https://twitter.com/Habitat_org</SocialNetworkURL>
+		<ExternalLinkURL>http://en.wikipedia.org/wiki/Habitat_for_Humanity</ExternalLinkURL>
+	</ExternalResources>
+	<RelatedCrises>
+		<RelatedCrisis crisisIdent="Japan_EQ_2011" />
+		<RelatedCrisis crisisIdent="HU_Katrina_2005" />
+		<RelatedCrisis crisisIdent="HU_Andrew_1992" />
+		<RelatedCrisis crisisIdent="HU_Ike_2008" />
+		<RelatedCrisis crisisIdent="HU_Wilma_2005" />
+		<RelatedCrisis crisisIdent="HU_Ivan_2004" />
+		<RelatedCrisis crisisIdent="HU_Charley_2004" />
+		<RelatedCrisis crisisIdent="HU_Sandy_2012" />
+	</RelatedCrises>
+</Organization>
+
+<Organization organizationIdent="SA">
+	<Name>Salvation Army</Name>
+	<Kind organizationKindIdent="CO" />
+	<Location>
+		<Locality>Alexandria</Locality>
+		<Region>Virginia</Region>
+		<Country>United States</Country>
+	</Location>
+	<History>Founded in 1865. Founded by a minister and his wife as an aid for the poor, destitute and hungry.</History>
+	<ContactInfo>
+		<Telephone>8007287825</Telephone>
+		<Fax>8007287825</Fax>
+		<!-- <Fax>([0-9x+ ]+)?</Fax> -->
+		<Email>NHQ_Webmaster@usn.salvationarmy.org</Email>
+		<PostalAddress>
+			<StreetAddress>615 Slaters Lane</StreetAddress>
+			<Locality>Alexandria</Locality>
+			<Region>Virginia</Region>
+			<PostalCode>22313</PostalCode>
+			<Country>United States</Country>
+		</PostalAddress>
+	</ContactInfo>
+	<ExternalResources>
+		<ImageURL>https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSXTZ_ZWrimAT2J46Ub2z_5w_efZcU_SaqVis5x4Pd0MbMlY-UMAA</ImageURL>
+		<ImageURL>http://blog.salvationarmyusa.org/wp-content/uploads/61.jpg</ImageURL>
+		<VideoURL>http://www.youtube.com/watch?v=_ty5A0hj2sI</VideoURL>
+		<MapURL>http://3.bp.blogspot.com/_0Q-vLFn_PCk/SjVng0t4daI/AAAAAAAADd0/rH3Z8K2VnAw/s400/earth.jpg</MapURL>
+		<SocialNetworkURL>https://www.facebook.com/SalvationArmyUSA</SocialNetworkURL>
+		<SocialNetworkURL>https://twitter.com/SalvationArmyUS</SocialNetworkURL>
+		<ExternalLinkURL>http://en.wikipedia.org/wiki/The_Salvation_Army</ExternalLinkURL>
+	</ExternalResources>
+	<RelatedCrises>
+		<RelatedCrisis crisisIdent="Japan_EQ_2011" />
+		<RelatedCrisis crisisIdent="HU_Katrina_2005" />
+		<RelatedCrisis crisisIdent="HU_Andrew_1992" />
+		<RelatedCrisis crisisIdent="HU_Ike_2008" />
+		<RelatedCrisis crisisIdent="HU_Wilma_2005" />
+		<RelatedCrisis crisisIdent="HU_Ivan_2004" />
+		<RelatedCrisis crisisIdent="HU_Charley_2004" />
+		<RelatedCrisis crisisIdent="HU_Sandy_2012" />
+		<RelatedCrisis crisisIdent="Tri-State_TO_1925" />
+	</RelatedCrises>
+</Organization>
+
+<Organization organizationIdent="DEC">
+	<Name>Disasters Emergency Committee</Name>
+	<Kind organizationKindIdent="CO" />
+	<Location>
+		<Locality>London</Locality>
+		<Country>United Kingdom</Country>
+	</Location>
+	<History>Founded in 1963 as a conglomerate of 14 individual charities devoted to providing aid to victims of disasters.</History>
+	<ContactInfo>
+		<Telephone>2073870200</Telephone>
+		<Fax>2073870200</Fax>
+		<!-- <Fax>([0-9x+ ]+)?</Fax> -->
+		<Email>info@dec.org.uk</Email>
+		<PostalAddress>
+			<StreetAddress>43 Chalton Street</StreetAddress>
+			<Locality>London</Locality>
+			<Region>Greater London</Region>
+			<PostalCode>NW1 1DU</PostalCode>
+			<Country>United Kingdom</Country>
+		</PostalAddress>
+	</ContactInfo>
+	<ExternalResources>
+		<ImageURL>http://news.bbcimg.co.uk/media/images/48625000/jpg/_48625685_jex_771884_de27-1.jpg</ImageURL>
+		<ImageURL>http://www.servebase.com/Portals/120476/images/disaster-relief-disasters-committee.jpg</ImageURL>
+		<VideoURL>http://www.youtube.com/user/DECcharity</VideoURL>
+		<MapURL>http://goo.gl/maps/Ah9X6</MapURL>
+		<SocialNetworkURL>https://twitter.com/decappeal</SocialNetworkURL>
+		<SocialNetworkURL>https://www.facebook.com/DisastersEmergencyCommittee</SocialNetworkURL>
+		<SocialNetworkURL>http://www.flickr.com/photos/disastersemergencycommittee/</SocialNetworkURL>
+		<ExternalLinkURL>http://reliefweb.int/organization/dec</ExternalLinkURL>
+	</ExternalResources>
+	<RelatedCrises>
+		<RelatedCrisis crisisIdent="Japan_EQ_2011" />
+	</RelatedCrises>
+</Organization>
+
+
+<Organization organizationIdent="OUSA">
+	<Name>Operation USA</Name>
+	<Kind organizationKindIdent="NP" />
+	<Location>
+		<Locality>Los Angeles</Locality>
+		<Region>California</Region>
+		<Country>United States</Country>
+	</Location>
+	<History>Founded in 1979. Dedicated to providing relief to victims of disaster, disease, and poverty.</History>
+	<ContactInfo>
+		<Telephone>18006787255</Telephone>
+		<Fax>18006787255</Fax>
+		<!-- <Fax>([0-9x+ ]+)?</Fax> -->
+		<Email>info@opusa.org</Email>
+		<PostalAddress>
+			<StreetAddress>7421 Beverly Blvd</StreetAddress>
+			<Locality>Los Angeles</Locality>
+			<Region>California</Region>
+			<PostalCode>90036</PostalCode>
+			<Country>United States</Country>
+		</PostalAddress>
+	</ContactInfo>
+	<ExternalResources>
+		<ImageURL>http://upload.wikimedia.org/wikipedia/en/8/82/Operation-usa.png</ImageURL>
+		<VideoURL>http://www.youtube.com/user/OperationUSA</VideoURL>
+		<MapURL>http://goo.gl/maps/NqqE1</MapURL>
+		<SocialNetworkURL>https://twitter.com/OperationUSA/</SocialNetworkURL>
+		<SocialNetworkURL>https://www.facebook.com/operationusa?ref=ts</SocialNetworkURL>
+		<Citation>http://en.wikipedia.org/wiki/Operation_USA</Citation>
+		<ExternalLinkURL>http://reliefweb.int/organization/operation-usa</ExternalLinkURL>
+	</ExternalResources>
+	<RelatedCrises>
+		<RelatedCrisis crisisIdent="Japan_EQ_2011" />
+		<RelatedCrisis crisisIdent="HU_Katrina_2005" />
+		<RelatedCrisis crisisIdent="HU_Andrew_1992" />
+		<RelatedCrisis crisisIdent="HU_Ike_2008" />
+		<RelatedCrisis crisisIdent="HU_Wilma_2005" />
+		<RelatedCrisis crisisIdent="HU_Ivan_2004" />
+		<RelatedCrisis crisisIdent="HU_Charley_2004" />
+		<RelatedCrisis crisisIdent="HU_Sandy_2012" />
+	</RelatedCrises>
+	<RelatedPersons>
+		<RelatedPerson personIdent="JRoos"/>
+	</RelatedPersons>
+</Organization>
+
+<Organization organizationIdent="CDS">
+	<Name>Children's Disaster Services</Name>
+	<Kind organizationKindIdent="HA" />
+	<Location>
+		<Locality>New Windsor</Locality>
+		<Region>Maryland</Region>
+		<Country>United States</Country>
+	</Location>
+	<History>Founded in 1980 under the Church of the Brethren. Dedicated to providing relief to children in instances of natural or artificial disaster.</History>
+	<ContactInfo>
+		<Telephone>18004514407</Telephone>
+		<Fax>18004514407</Fax>
+		<!-- <Fax>([0-9x+ ]+)?</Fax> -->
+		<Email>cds@brethren.org</Email>
+		<PostalAddress>
+			<StreetAddress>601 Main Street</StreetAddress>
+			<Locality>New Windsor</Locality>
+			<Region>Maryland</Region>
+			<PostalCode>21776</PostalCode>
+			<Country>United States</Country>
+		</PostalAddress>
+	</ContactInfo>
+	<ExternalResources>
+		<ImageURL>http://discoveradel.com/wp-content/uploads/2012/02/ChildrensDisasterServices.png</ImageURL>
+		<VideoURL>http://www.youtube.com/user/ChildrnsDisastrSrvcs</VideoURL>
+		<MapURL>http://goo.gl/maps/H5Muk</MapURL>
+		<SocialNetworkURL>https://www.facebook.com/cds.cob</SocialNetworkURL>
+		<Citation>http://wsnet.colostate.edu/CWIS584/Lori_Peek/Data/Sites/1/publicationpdfs/lueckunithanpeek2009.pdf</Citation>
+		<ExternalLinkURL>http://www.static.reliefweb.int/report/american-samoa/red-cross-strives-help-disasters-vulnerable-population</ExternalLinkURL>
+	</ExternalResources>
+	<RelatedCrises>
+		<RelatedCrisis crisisIdent="Japan_EQ_2011" />
+		<RelatedCrisis crisisIdent="HU_Katrina_2005" />
+		<RelatedCrisis crisisIdent="HU_Andrew_1992" />
+		<RelatedCrisis crisisIdent="HU_Ike_2008" />
+		<RelatedCrisis crisisIdent="HU_Wilma_2005" />
+		<RelatedCrisis crisisIdent="HU_Ivan_2004" />
+		<RelatedCrisis crisisIdent="HU_Charley_2004" />
+		<RelatedCrisis crisisIdent="HU_Sandy_2012" />
+	</RelatedCrises>
+</Organization>
+
+<Organization organizationIdent="FA">
+	<Name>Feeding America</Name>
+	<Kind organizationKindIdent="NP" />
+	<Location>
+		<Locality>Chicago</Locality>
+		<Region>Illinois</Region>
+		<Country>United States</Country>
+	</Location>
+	<History>Founded in 1980 to provide food to the needy.</History>
+	<ContactInfo>
+		<Telephone>18007712303</Telephone>
+		<Fax>18007712303</Fax>
+		<!-- <Fax>([0-9x+ ]+)?</Fax> -->
+		<Email>contact@feedingamerica.org</Email>
+		<PostalAddress>
+			<StreetAddress>35 East Wacker Drive</StreetAddress>
+			<Locality>Chicago</Locality>
+			<Region>Illinois</Region>
+			<PostalCode>60601</PostalCode>
+			<Country>United States</Country>
+		</PostalAddress>
+	</ContactInfo>
+	<ExternalResources>
+		<ImageURL>http://enahsweb.biz/wp-content/uploads/2012/09/Feeding-America-Logo.jpeg</ImageURL>
+		<ImageURL>http://blog.feedingamerica.org/wp-content/uploads/2010/02/SFDare-to-Care.jpg</ImageURL>
+		<VideoURL>http://www.youtube.com/user/feedingamerica</VideoURL>
+		<MapURL>http://goo.gl/maps/e4oyb</MapURL>
+		<SocialNetworkURL>https://twitter.com/feedingamerica</SocialNetworkURL>
+		<Citation>http://en.wikipedia.org/wiki/Feeding_America</Citation>
+		<ExternalLinkURL>http://www.forbes.com/companies/feeding-america/</ExternalLinkURL>
+	</ExternalResources>
+</Organization>
+
+<!-- 10 People -->
+
+<Person personIdent="CBarton">
+	<Name>
+		<FirstName>Clara</FirstName>
+		<LastName>Barton</LastName>
+	</Name>
+	<Kind personKindIdent="F" />
+	<Location>
+		<Locality>Washington</Locality>
+		<Region>D.C.</Region>
+		<Country>United States</Country>
+	</Location>
+	<ExternalResources>
+		<ImageURL>http://www.nps.gov/anti/historyculture/images/Clara-Barton_1.jpg</ImageURL>
+		<ImageURL>http://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/WcbbustCBarton2.jpg/220px-WcbbustCBarton2.jpg</ImageURL>
+		<ImageURL>http://www.redcross.org/images/MEDIA_CustomProductCatalog/m6040194_514x260-clara-barton.jpg</ImageURL>
+		<VideoURL>https://www.youtube.com/watch?v=7k0D01ODDFA</VideoURL>
+		<VideoURL>https://www.youtube.com/watch?v=obXrMFUuAAM</VideoURL>
+		<MapURL>https://maps.google.com/maps?q=washington+DC%26amp;rlz=1C1CHKZ_enUS455US455%26amp;aq=f%26amp;um=1%26amp;ie=UTF-8%26amp;hl=en%26amp;sa=N%26amp;tab=wl%26amp;authuser=0</MapURL>
+		<Citation>http://en.wikipedia.org/wiki/Clara_Barton</Citation>
+		<Citation>http://www.lkwdpl.org/wihohio/bart-cla.htm</Citation>
+		<ExternalLinkURL>https://www.facebook.com/pages/Clara-Barton-High-School/108276955863317?fref=ts</ExternalLinkURL>
+	</ExternalResources>
+	<RelatedOrganizations>
+		<RelatedOrganization organizationIdent="ARC" />
+	</RelatedOrganizations>
+</Person>
+
+<Person personIdent="GJMcGovern">
+	<Name>
+		<FirstName>Gail</FirstName>
+		<LastName>McGovern</LastName>
+	</Name>
+	<Kind personKindIdent="PCEO" />
+	<Location>
+		<Locality>Washington</Locality>
+		<Region>D.C.</Region>
+		<Country>United States</Country>
+	</Location>
+	<ExternalResources>
+		<ImageURL>http://redcrossyouth.files.wordpress.com/2008/04/gailmcgovern.jpg</ImageURL>
+		<ImageURL>http://www.redcross.org/images/MEDIA_CustomProductCatalog/m6040198_514x260-gail-mcgovern.jpg</ImageURL>
+		<ImageURL>http://blogs.courant.com/connecticut_insurance/Gail%20McGovern-thumb-220x328.jpg</ImageURL>
+		<VideoURL>https://www.youtube.com/watch?v=u_2GwtLekOU</VideoURL>
+		<VideoURL>https://www.youtube.com/watch?v=LaS5WK7BXqc</VideoURL>
+		<MapURL>https://maps.google.com/maps?q=washington+DC%26amp;rlz=1C1CHKZ_enUS455US455%26amp;aq=f%26amp;um=1%26amp;ie=UTF-8%26amp;hl=en%26amp;sa=N%26amp;tab=wl%26amp;authuser=0</MapURL>
+		<SocialNetworkURL>https://www.facebook.com/pages/Gail-J-McGovern/113389875376685</SocialNetworkURL>
+		<Citation>http://en.wikipedia.org/wiki/Gail_J._McGovern</Citation>
+		<Citation>http://www.redcross.org/gail-j-mcgovern</Citation>
+		<ExternalLinkURL>http://www.forbes.com/profile/gail-mcgovern/</ExternalLinkURL>
+	</ExternalResources>
+	<RelatedCrises>
+		<RelatedCrisis crisisIdent="HU_Ike_2008" />
+		<RelatedCrisis crisisIdent="HU_Sandy_2012" />
+	</RelatedCrises>
+	<RelatedOrganizations>
+		<RelatedOrganization organizationIdent="ARC" />
+	</RelatedOrganizations>
+</Person>
+
+<Person personIdent="KBlanco">
+	<Name>
+		<FirstName>Kathleen</FirstName>
+		<LastName>Blanco</LastName>
+	</Name>
+	<Kind personKindIdent="GOV" />
+	<Location>
+		<Locality>Baton Rouge</Locality>
+		<Region>Louisiana</Region>
+		<Country>United States</Country>
+	</Location>
+	<ExternalResources>
+		<ImageURL>http://upload.wikimedia.org/wikipedia/commons/thumb/5/59/KBlancoChalmetteIce.jpg/220px-KBlancoChalmetteIce.jpg</ImageURL>
+		<ImageURL>http://www2.southeastern.edu/NewsEvents/PublicInfoOffice/SLU_Blanco.jpg</ImageURL>
+		<ImageURL>http://www.gulfcoastfunds.com/managementteam/images/Kathleen%20Blanco.jpg</ImageURL>
+		<VideoURL>https://www.youtube.com/watch?v=JS-nfiLO570</VideoURL>
+		<VideoURL>https://www.youtube.com/watch?v=0z4XNxipTSc</VideoURL>
+		<MapURL>https://maps.google.com/maps?q=baton+rouge+la%26amp;rlz=1C1CHKZ_enUS455US455%26amp;aq=0%26amp;um=1%26amp;ie=UTF-8%26amp;hl=en%26amp;sa=N%26amp;tab=wl%26amp;authuser=0</MapURL>
+		<SocialNetworkURL>https://www.facebook.com/pages/Kathleen-Blanco/103126496394286</SocialNetworkURL>
+		<Citation>http://www.sos.la.gov/tabid/411/default.aspx</Citation>
+		<Citation>http://en.wikipedia.org/wiki/Kathleen_Blanco</Citation>
+		<Citation>http://www.nndb.com/people/371/000044239/</Citation>
+		<ExternalLinkURL>http://www.capitalnewyork.com/article/politics/2012/12/6787586/katrinas-lessons-new-york-officialdom-according-kathleen-blanco</ExternalLinkURL>
+	</ExternalResources>
+	<RelatedCrises>
+		<RelatedCrisis crisisIdent="HU_Katrina_2005" />
+	</RelatedCrises>
+</Person>
+
+<Person personIdent="WLawrence">
+	<Name>
+		<FirstName>William</FirstName>
+		<LastName>Lawrence</LastName>
+	</Name>
+	<Kind personKindIdent="VP" />
+	<Location>
+		<Region>Florida</Region>
+		<Country>United States</Country>
+	</Location>
+	<ExternalResources>
+		<ImageURL>http://www.nndb.com/people/880/000127499/bonnie-mcelveen-hunter.jpg</ImageURL>
+		<ImageURL>http://redcross.org.edgesuite-staging.net/www-files/Images/leadership/FlagPhoto2_Bonnie.jpg</ImageURL>
+		<MapURL>https://maps.google.com/maps?q=washington+DC%26amp;hnear=Washington,+District+of+Columbia%26amp;t=m%26amp;z=11</MapURL>
+		<Citation>http://en.wikipedia.org/wiki/William_Lawrence_(Ohio_Republican)</Citation>
+		<ExternalLinkURL>http://www.redcross.org/oh/west-liberty/about</ExternalLinkURL>
+	</ExternalResources>
+	<RelatedOrganizations>
+		<RelatedOrganization organizationIdent="ARC" />
+	</RelatedOrganizations>
+</Person>
+
+<Person personIdent="BMcElveen-Hunter">
+	<Name>
+		<FirstName>Bonnie</FirstName>
+		<LastName>McElveen-Hunter</LastName>
+	</Name>
+	<Kind personKindIdent="CM" />
+	<Location>
+		<Locality>Washington</Locality>
+		<Region>D.C.</Region>
+		<Country>United States</Country>
+	</Location>
+	<ExternalResources>
+		<ImageURL>http://www.nndb.com/people/880/000127499/bonnie-mcelveen-hunter.jpg</ImageURL>
+		<ImageURL>http://redcross.org.edgesuite-staging.net/www-files/Images/leadership/FlagPhoto2_Bonnie.jpg</ImageURL>
+		<VideoURL>https://www.youtube.com/watch?v=9Kw_YHRcqjk</VideoURL>
+		<VideoURL>https://www.youtube.com/watch?v=pXXLBmFZB2k </VideoURL>
+		<MapURL>https://maps.google.com/maps?q=washington+DC%26amp;rlz=1C1CHKZ_enUS455US455%26amp;aq=f%26amp;um=1%26amp;ie=UTF-8%26amp;hl=en%26amp;sa=N%26amp;tab=wl%26amp;authuser=0</MapURL>
+		<Citation>http://www.redcross.org/bonnie-mcelveen-hunter</Citation>
+		<Citation>http://en.wikipedia.org/wiki/Bonnie_McElveen-Hunter</Citation>
+		<ExternalLinkURL>http://app.redcross.org/portal/site/en/menuitem.94aae335470e233f6cf911df43181aa0/?vgnextoid=ac12facc39d2b110VgnVCM10000089f0870aRCRD%26amp;cpsextcurrchannel=1</ExternalLinkURL>
+	</ExternalResources>
+	<RelatedCrises>
+		<RelatedCrisis crisisIdent="HU_Katrina_2005" />
+		<RelatedCrisis crisisIdent="HU_Ike_2008" />
+		<RelatedCrisis crisisIdent="HU_Wilma_2005" />
+		<RelatedCrisis crisisIdent="HU_Sandy_2012" />
+	</RelatedCrises>
+	<RelatedOrganizations>
+		<RelatedOrganization organizationIdent="ARC" />
+	</RelatedOrganizations>
+</Person>
+
+<Person personIdent="JRoos">
+	<Name>
+		<FirstName>John</FirstName>
+		<LastName>Roos</LastName>
+	</Name>
+	<Kind personKindIdent="AMB" />
+	<Location>
+		<Country>Japan</Country>
+	</Location>
+		<ExternalResources>
+		<ImageURL>http://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/JohnRoos.jpg/200px-JohnRoos.jpg</ImageURL>
+		<ImageURL>http://www2.pictures.zimbio.com/gi/Obama+Meets+Ambassador+Designate+Japan+yPfdq5PIRuil.jpg</ImageURL>
+		<ImageURL>http://www1.pictures.zimbio.com/gi/DPJ+President+Hatoyama+Meets+Ambassador+Japan+pwHlTiVODs_l.jpg</ImageURL>
+		<VideoURL>https://www.youtube.com/watch?v=QoHwGaJhhrU</VideoURL>
+		<VideoURL>https://www.youtube.com/watch?v=KSZU2wGulhU</VideoURL>
+		<MapURL>https://maps.google.com/maps?q=japan%26amp;rlz=1C1CHKZ_enUS455US455%26amp;aq=f%26amp;um=1%26amp;ie=UTF-8%26amp;hl=en%26amp;sa=N%26amp;tab=wl%26amp;authuser=0</MapURL>
+		<SocialNetworkURL>https://www.facebook.com/pages/John-Roos/142420169107491</SocialNetworkURL>
+		<SocialNetworkURL>https://twitter.com/AmbassadorRoos</SocialNetworkURL>
+		<Citation>http://en.wikipedia.org/wiki/John_Roos</Citation>
+		<Citation>http://japan.usembassy.gov/e/amb/tamb-bio.html</Citation>
+	</ExternalResources>
+	<RelatedCrises>
+		<RelatedCrisis crisisIdent="Japan_EQ_2011" />
+	</RelatedCrises>
+</Person>
+
+<Person personIdent="WPacelle">
+	<Name>
+		<FirstName>Wayne</FirstName>
+		<LastName>Pacelle</LastName>
+	</Name>
+	<Kind personKindIdent="PCEO" />
+	<Location>
+		<Locality>Washington</Locality>
+		<Region>D.C.</Region>
+		<Country>United States</Country>
+	</Location>
+	<ExternalResources>
+		<ImageURL>http://www.humanesociety.org/assets/images/270x224/people/wayne-pacelle.jpg</ImageURL>
+		<VideoURL>http://www.youtube.com/watch?v=l-kRKyHIuXA</VideoURL>
+		<MapURL>http://www.humanesociety.org/assets/images/maps/state_ranking_2011.png</MapURL>
+		<SocialNetworkURL>http://hsus.typepad.com/</SocialNetworkURL>
+		<ExternalLinkURL>http://www.humanesociety.org/?utm_expid=68505748-5%26amp;utm_referrer=http%3A%2F%2Fhsus.typepad.com%2F</ExternalLinkURL>
+	</ExternalResources>
+	<RelatedOrganizations>
+		<RelatedOrganization organizationIdent="AHA" />
+	</RelatedOrganizations>
+</Person>
+
+<Person personIdent="ABojaxhiu">
+	<Name>
+		<FirstName>Anjeze</FirstName>
+		<LastName>Bojaxhiu</LastName>
+	</Name>
+	<Kind personKindIdent="F" />
+	<Location>
+		<Country>India</Country>
+	</Location>
+	<ExternalResources>
+		<ImageURL>http://upload.wikimedia.org/wikipedia/commons/thumb/7/77/MotherTeresa_094.jpg/220px-MotherTeresa_094.jpg</ImageURL>
+		<VideoURL>http://www.youtube.com/watch?v=8TY22Zm43QQ</VideoURL>
+		<MapURL>http://www.collettefoundation.org/blog/wp-content/uploads/2010/02/india_map.jpg</MapURL>
+		<SocialNetworkURL>https://twitter.com/StMotherTheresa</SocialNetworkURL>
+		<ExternalLinkURL>http://en.wikipedia.org/wiki/Mother_Teresa</ExternalLinkURL>
+	</ExternalResources>
+</Person>
+
+<Person personIdent="ISendler">
+	<Name>
+		<FirstName>Irena</FirstName>
+		<LastName>Sendler</LastName>
+	</Name>
+	<Kind personKindIdent="SW" />
+	<Location>
+		<Locality>Warsaw</Locality>
+		<Country>Poland</Country>
+	</Location>
+	<ExternalResources>
+		<ImageURL>http://1.bp.blogspot.com/-Eqx8luXdHLI/TznNylaQzQI/AAAAAAAAB4Q/tjKzbP3NnTY/s320/Irena++Sendler.jpg</ImageURL>
+		<VideoURL>http://www.youtube.com/watch?v=lBHOPvRQZis</VideoURL>
+		<MapURL>http://media.web.britannica.com/eb-media/05/64305-004-D9435F72.gif</MapURL>
+		<SocialNetworkURL>https://twitter.com/IrenaSendlerLIJ</SocialNetworkURL>
+		<ExternalLinkURL>http://www.irenasendler.org/</ExternalLinkURL>
+	</ExternalResources>
+</Person>
+
+<Person personIdent="HTubman">
+	<Name>
+		<FirstName>Harriet</FirstName>
+		<LastName>Tubman</LastName>
+	</Name>
+	<Kind personKindIdent="H" />
+	<Location>
+		<Country>United States</Country>
+	</Location>
+	<ExternalResources>
+		<ImageURL>http://upload.wikimedia.org/wikipedia/commons/9/96/Harriet_Tubman_by_Squyer%2C_NPG%2C_c1885.jpg</ImageURL>
+		<ImageURL>http://www.biography.com/imported/images/Biography/Images/Profiles/T/Harriet-Tubman-9511430-1-402.jpg</ImageURL>
+		<ImageURL>http://www.harriettubmanbiography.com/sitebuildercontent/sitebuilderpictures/Tubmancoverphoto5.jpg</ImageURL>
+		<VideoURL>http://www.youtube.com/watch?v=nQ2Kbk4QTGU</VideoURL>
+		<MapURL>http://goo.gl/maps/6ZiDv</MapURL>
+		<SocialNetworkURL>https://www.facebook.com/pages/Harriet-Tubman/47260444903</SocialNetworkURL>
+		<Citation>http://en.wikipedia.org/wiki/Harriet_Tubman</Citation>
+		<ExternalLinkURL>http://www.loc.gov/rr/program/bib/tubman/</ExternalLinkURL>
+	</ExternalResources>
+</Person>
+
+<!-- CrisisKind -->
+
+<CrisisKind crisisKindIdent="ND">
+<Name>Natural Disaster</Name>
+<Description>A natural event causes the crisis (e.g. flood, tornado, hurricane, earthquake, volcano, etc.)</Description>
+</CrisisKind>
+
+<CrisisKind crisisKindIdent="HU">
+<Name>Hurricane</Name>
+<Description>A storm with a violent wind, in particular a tropical cyclone </Description>
+</CrisisKind>
+
+<CrisisKind crisisKindIdent="TO">
+<Name>Tornado</Name>
+<Description>A mobile, destructive vortex of violently rotating winds having the appearance of a funnel-shaped cloud. </Description>
+</CrisisKind>
+
+<CrisisKind crisisKindIdent="EQ">
+<Name>Earthquake</Name>
+<Description>A sudden and violent shaking of the ground, sometimes causing great destruction, as a result of movements within the earth's crust. </Description>
+</CrisisKind>
+
+<CrisisKind crisisKindIdent="FR">
+<Name>Fire</Name>
+<Description>Combustion or burning, in which substances combine chemically with oxygen from the air and typically give out bright light, heat, and smoke. </Description>
+</CrisisKind>
+
+<!-- OrganizationKind -->
+
+<OrganizationKind organizationKindIdent="HA">
+<Name>Humanitarian Aid</Name>
+<Description>Concerned with or seeking to promote human welfare: "groups sending humanitarian aid".</Description>
+</OrganizationKind>
+
+<OrganizationKind organizationKindIdent="DIS">
+<Name>Disaster Relief Agency</Name>
+<Description>Provides aid in the aftermath of a disaster.</Description>
+</OrganizationKind>
+
+<OrganizationKind organizationKindIdent="APA">
+<Name>Animal Protection Agency</Name>
+<Description>An APA is an organization dedicated to the welfare of animals, especially in times of crisis.</Description>
+</OrganizationKind>
+
+<OrganizationKind organizationKindIdent="NP">
+<Name>Non-Profit</Name>
+<Description>A Non-Profit organization uses surplus revenues to achieve its goals (usually humanitarian) rather than distributing them as profit or dividends.</Description>
+</OrganizationKind>
+
+<OrganizationKind organizationKindIdent="CO">
+<Name>Charitable Organization</Name>
+<Description>A Charitable Organization provides a service to the needed in the community. THe organization relies on the charity of the community (e.g. donations) to operate.</Description>
+</OrganizationKind>
+
+<!-- PersonKind -->
+
+<PersonKind personKindIdent="F">
+<Name>Founder</Name>
+<Description>Person who established an institution</Description>
+</PersonKind>
+
+<PersonKind personKindIdent="PCEO">
+<Name>Prseident and CEO</Name>
+<Description>President and Chief executive officer of an institution. Typically the highest ranking executive of a company.</Description>
+</PersonKind>
+
+<PersonKind personKindIdent="GOV">
+<Name>Governor</Name>
+<Description>Elected head of a state in the US.</Description>
+</PersonKind>
+
+<PersonKind personKindIdent="VP">
+<Name>Vice President</Name>
+<Description>An official or executive ranking below and deputizing for a president.</Description>
+</PersonKind>
+
+<PersonKind personKindIdent="CM">
+<Name>Chairman</Name>
+<Description>The permanent or long-term president of a committee, company, or other organization.</Description>
+</PersonKind>
+
+<PersonKind personKindIdent="AMB">
+<Name>United States Ambassador</Name>
+<Description>An accredited diplomat sent by a country as its official representative to a foreign country.</Description>
+</PersonKind>
+
+<PersonKind personKindIdent="SW">
+<Name>Social Worker</Name>
+<Description>Someone employed to provide social services (especially to the disadvantaged).</Description>
+</PersonKind>
+
+<PersonKind personKindIdent="H">
+<Name>Humanitarian</Name>
+<Description>A person who seeks to promote human welfare; a philanthropist.</Description>
+</PersonKind>
+
+
+
+</WorldCrises>

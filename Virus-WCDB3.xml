@@ -1,0 +1,1318 @@
+<WorldCrises>
+	
+	<!--Crises-->
+	
+	<Crisis crisisIdent = "Deepwater_ACC_2010">
+		<Name>Deepwater Horizon Oil Spill</Name>
+		<Kind crisisKindIdent = "ACC"/>
+		<Location>
+			<Region>Gulf of Mexico</Region>
+      		<Country>United States</Country>
+    	</Location>
+		<StartDateTime>
+      		<Date>2010-04-20</Date>
+    	</StartDateTime>
+    	<EndDateTime>
+    		<Date>2010-09-19</Date>
+    	</EndDateTime>
+		<HumanImpact>
+	  		<Type>Death</Type>
+	  		<Number>11</Number>
+    	</HumanImpact>
+    	<HumanImpact>
+      		<Type>Injured</Type>
+      		<Number>16</Number>
+    	</HumanImpact>
+		<EconomicImpact>23000000000</EconomicImpact>
+    	<ResourceNeeded>Clean-up</ResourceNeeded>
+    	<WaysToHelp>Donate</WaysToHelp>
+		<ExternalResources>
+			<ImageURL>http://cloudfront2.bostinno.com/wp-content/uploads/2013/02/Deepwater-Horizon-Oil-Spill-2010-1.jpg</ImageURL>
+			<VideoURL>http://www.youtube.com/watch?v=U454HFEdRMQ</VideoURL>
+			<MapURL>http://en.wikipedia.org/wiki/File:Deepwater_Horizon_oil_spill_-_May_24,_2010_-_with_locator.jpg</MapURL>
+			<SocialNetworkURL>http://www.facebook.com/pages/Deepwater-Horizon-oil-spill/126916040684550?nr</SocialNetworkURL>
+			<Citation>http://en.wikipedia.org/wiki/Deepwater_Horizon_oil_spill</Citation>
+			<ExternalLinkURL>http://www.bp.com/sectiongenericarticle800.do?categoryId=9048918&amp;contentId=7082603</ExternalLinkURL>
+		</ExternalResources>
+		<RelatedPersons>
+			<RelatedPerson personIdent="BHObama"/>
+			<RelatedPerson personIdent="BKi-moon"/>
+		</RelatedPersons>
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="NWF"/>
+			<RelatedOrganization organizationIdent="UN"/>
+		</RelatedOrganizations>
+	</Crisis>
+	
+	<Crisis crisisIdent = "Eurozone_EC_2009">
+		<Name>Eurozone Crisis</Name>
+		<Kind crisisKindIdent = "EC"/>
+		<Location>
+      		<Region>European Union</Region>
+    	</Location>
+		<StartDateTime>
+      		<Date>2009-11-01</Date>
+    	</StartDateTime>
+		<HumanImpact>
+	  		<Type>Unemployment</Type>
+	  		<Number>18800000</Number>
+    	</HumanImpact>
+		<EconomicImpact>300000000000</EconomicImpact>
+    	<ResourceNeeded>Money</ResourceNeeded>
+    	<ResourceNeeded>Stronger economic plan</ResourceNeeded>
+    	<WaysToHelp>Invest in the European economy</WaysToHelp>
+		<ExternalResources>
+			<ImageURL>http://nationallearning.com.au/wp-content/uploads/2011/12/eurozone-crisis.jpg</ImageURL>
+			<VideoURL>https://www.youtube.com/watch?v=AaGZqfVJ13A</VideoURL>
+			<MapURL>http://www.moneyweek.com/~/media/MoneyWeek/2011/111114/564-Eurozone-borrowing.ashx?w=740&amp;h=559&amp;as=1</MapURL>
+			<SocialNetworkURL>https://www.facebook.com/groups/294304407257848/?ref=ts&amp;fref=ts</SocialNetworkURL>
+			<SocialNetworkURL>https://twitter.com/EurozoneCrisis</SocialNetworkURL>
+			<Citation>http://en.wikipedia.org/wiki/European_sovereign-debt_crisis</Citation>
+			<ExternalLinkURL>http://www.bbc.co.uk/news/business-16290598</ExternalLinkURL>
+		</ExternalResources>
+		<RelatedPersons>
+			<RelatedPerson personIdent="BKi-moon"/>
+			<RelatedPerson personIdent="KRoth"/>
+			<RelatedPerson personIdent="HAVanRompuy"/>
+		</RelatedPersons>
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="EU"/>
+			<RelatedOrganization organizationIdent="HRW"/>
+			<RelatedOrganization organizationIdent="UN"/>
+		</RelatedOrganizations>
+	</Crisis>
+	
+	<Crisis crisisIdent = "HU_Katrina_2005">
+		<Name>Hurricane Katrina</Name>
+		<Kind crisisKindIdent = "HU"/>
+		<Location>
+      		<Locality>New Orleans</Locality>
+      		<Region>Lousiana</Region>
+      		<Country>US</Country>
+    	</Location>
+    	<Location>
+      		<Region>Florida</Region>
+      		<Country>US</Country>
+    	</Location>
+    	<Location>
+      		<Region>Mississippi</Region>
+      		<Country>US</Country>
+    	</Location>
+    	<Location>
+      		<Region>Alabama</Region>
+      		<Country>US</Country>
+    	</Location>
+    	<Location>
+      		<Country>Cuba</Country>
+    	</Location>
+		<StartDateTime>
+      		<Date>2005-08-23</Date>
+    	</StartDateTime>
+    	<EndDateTime>
+      		<Date>2005-08-30</Date>
+    	</EndDateTime>
+		<HumanImpact>
+	  		<Type>Death</Type>
+	  		<Number>1836</Number>
+    	</HumanImpact>
+    	<HumanImpact>
+      		<Type>Missing</Type>
+      		<Number>135</Number>
+    	</HumanImpact>
+		<EconomicImpact>108000000000</EconomicImpact>
+    	<ResourceNeeded>Food and clean water</ResourceNeeded>
+    	<ResourceNeeded>Shelter</ResourceNeeded>
+    	<WaysToHelp>Donate</WaysToHelp>
+		<ExternalResources>
+			<ImageURL>http://www.france5.fr/et-vous/userdata/c_bloc/0/693/693_vignette_katrina_08_28_2005.jpg</ImageURL>
+			<VideoURL>http://www.youtube.com/watch?v=RoxKQx1lF2w</VideoURL>
+			<MapURL>http://worldlywise.pbworks.com/f/Katrina_Map.gif</MapURL>
+			<SocialNetworkURL>http://www.facebook.com/pages/Hurricane-Katrina/111726428866071</SocialNetworkURL>
+			<Citation>http://en.wikipedia.org/wiki/Hurricane_katrina</Citation>
+            <Citation>http://en.wikipedia.org/wiki/Effects_of_Hurricane_Katrina_on_New_Orleans</Citation>
+            <Citation>http://en.wikipedia.org/wiki/Economic_effects_of_Hurricane_Katrina</Citation>
+			<ExternalLinkURL>http://www.ncdc.noaa.gov/special-reports/katrina.html</ExternalLinkURL>
+		</ExternalResources>
+		<RelatedPersons>
+			<RelatedPerson personIdent="GWBush"/>
+		</RelatedPersons>
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="ARC"/>
+			<RelatedOrganization organizationIdent="NWF"/>
+			<RelatedOrganization organizationIdent="OI"/>
+			<RelatedOrganization organizationIdent="UN"/>
+			<RelatedOrganization organizationIdent="UNICEF"/>
+		</RelatedOrganizations>
+	</Crisis>
+	
+	<Crisis crisisIdent = "HU_Sandy_2012">
+		<Name>Hurricane Sandy</Name>
+		<Kind crisisKindIdent = "HU"/>
+		<Location>
+			<Region>Mid-Atlantic and Northeastern</Region>
+			<Country>US</Country>
+		</Location>
+		<Location>
+			<Country>Bahamas</Country>
+		</Location>
+		<Location>
+			<Region>Eastern</Region>
+			<Country>Canada</Country>
+		</Location>
+		<StartDateTime> 
+			<Date>2012-10-22</Date>
+		</StartDateTime>
+		<EndDateTime>
+			<Date>2012-10-31</Date>
+		</EndDateTime>
+		<HumanImpact>
+			<Type>Death</Type>
+		  	<Number>285</Number>
+		</HumanImpact>
+		<HumanImpact>
+		  	<Type>Missing</Type>
+		  	<Number>21</Number>
+		</HumanImpact>
+		<EconomicImpact>75000000000</EconomicImpact>
+		<ResourceNeeded>Money</ResourceNeeded>
+		<ResourceNeeded>Shelter</ResourceNeeded>
+		<WaysToHelp>Donate</WaysToHelp>
+    	<WaysToHelp>Volunteer</WaysToHelp>
+		<ExternalResources>
+			<ImageURL>http://www.causecast.com/Portals/154453/images/ss-121031-hurricane-sandy-26.grid-8x2.jpeg</ImageURL>
+			<VideoURL>http://www.youtube.com/watch?v=YeutC1WN6dc</VideoURL>
+			<MapURL>http://nationalpostnews.files.wordpress.com/2012/10/storm-11.jpg?w=620</MapURL>
+			<SocialNetworkURL>https://www.facebook.com/pages/Hurricane-Sandy/506493399380778</SocialNetworkURL>
+			<SocialNetworkURL>https://twitter.com/search?q=%23hurricanesandy</SocialNetworkURL>
+			<Citation>http://en.wikipedia.org/wiki/Hurricane_Sandy</Citation>
+			<ExternalLinkURL>http://www.huffingtonpost.com/news/hurricane-sandy-2012</ExternalLinkURL>
+		</ExternalResources>
+		<RelatedPersons>
+			<RelatedPerson personIdent="BHObama"/>
+			<RelatedPerson personIdent="GJMcGovern"/>
+			<RelatedPerson personIdent="MRBloomberg"/>
+		</RelatedPersons>
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="ARC"/>
+			<RelatedOrganization organizationIdent="CARE"/>
+			<RelatedOrganization organizationIdent="NWF"/>
+			<RelatedOrganization organizationIdent="OI"/>
+			<RelatedOrganization organizationIdent="UNICEF"/>
+		</RelatedOrganizations>
+	</Crisis>
+	
+	<Crisis crisisIdent = "TS_2004">
+		<Name>2004 Indian Ocean Tsunami</Name>
+		<Kind crisisKindIdent = "TS"/>
+		<Location>
+      		<Country>Indonesia</Country>
+    	</Location>
+    	<Location>
+      		<Country>Sri Lanka</Country>
+    	</Location><Location>
+      		<Country>India</Country>
+    	</Location><Location>
+      		<Country>Thailand</Country>
+    	</Location>
+		<StartDateTime>
+      		<Date>2004-12-26</Date>
+      		<Time>00:58:53</Time>
+    	</StartDateTime>
+		<HumanImpact>
+      		<Type>Death</Type>
+      		<Number>155000</Number>
+    	</HumanImpact>
+    	<HumanImpact>
+      		<Type>Injured</Type>
+      		<Number>500000</Number>
+    	</HumanImpact>
+		<EconomicImpact>10000000000</EconomicImpact>
+    	<ResourceNeeded>Food and clean water</ResourceNeeded>
+    	<ResourceNeeded>Shelter</ResourceNeeded>
+    	<WaysToHelp>Donate</WaysToHelp>
+		<ExternalResources>
+			<ImageURL>http://files.dosomething.org/files/styles/blog_landscape/public/pictures/128411168.jpg</ImageURL>
+			<VideoURL>http://www.youtube.com/watch?v=RDOuwMj7Xzo</VideoURL>
+			<MapURL>http://upload.wikimedia.org/wikipedia/commons/8/89/2004_Indian_Ocean_earthquake_-_affected_countries.png</MapURL>
+			<SocialNetworkURL>http://www.facebook.com/pages/2004-Indian-Ocean-earthquake-and-tsunami/113030775390846?rf=107011856004655</SocialNetworkURL>
+			<Citation>http://en.wikipedia.org/wiki/2004_Indian_Ocean_earthquake_and_tsunami</Citation>
+			<ExternalLinkURL>http://news.nationalgeographic.com/news/2004/12/1227_041226_tsunami.html</ExternalLinkURL>
+		</ExternalResources>
+		<RelatedPersons>
+			<RelatedPerson personIdent="GWBush"/>
+		</RelatedPersons>
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="CARE"/>
+			<RelatedOrganization organizationIdent="OI"/>
+			<RelatedOrganization organizationIdent="UN"/>
+			<RelatedOrganization organizationIdent="UNICEF"/>
+		</RelatedOrganizations>
+	</Crisis>
+	
+	<Crisis crisisIdent = "WTC_TA_2001">
+		<Name>September 11 Attacks</Name>
+		<Kind crisisKindIdent = "TA"/>
+		<Location>
+      		<Locality>New York City</Locality>
+      		<Region>New York</Region>
+      		<Country>US</Country>
+    	</Location>
+		<Location>
+      		<Locality>Arlington County</Locality>
+      		<Region>Virginia</Region>
+      		<Country>US</Country>
+    	</Location>
+		<Location>
+			<Locality>Shanksville</Locality>
+			<Region>Pennsylvania</Region>
+			<Country>US</Country>
+		</Location>
+		<StartDateTime>
+      		<Date>2001-09-11</Date>
+      		<Time>08:46:00</Time>
+    	</StartDateTime>
+    	<EndDateTime>
+      		<Date>2001-09-11</Date>    
+      		<Time>10:28:00</Time>    
+    	</EndDateTime>
+		<HumanImpact>
+      		<Type>Death</Type>
+      		<Number>2996</Number>
+    	</HumanImpact>
+    	<HumanImpact>
+      		<Type>Injured</Type>
+      		<Number>6000</Number>
+    	</HumanImpact>
+		<EconomicImpact>40000000000</EconomicImpact>
+    	<ResourceNeeded>Money</ResourceNeeded>
+    	<ResourceNeeded>Increase in security</ResourceNeeded>
+    	<WaysToHelp>Honor victims and support their families</WaysToHelp>
+		<ExternalResources>
+			<ImageURL>http://upload.wikimedia.org/wikipedia/commons/thumb/3/35/WTC_smoking_on_9-11.jpeg/1280px-WTC_smoking_on_9-11.jpeg</ImageURL>
+			<VideoURL>http://www.youtube.com/watch?v=1lKZqqSI9-s</VideoURL>
+			<MapURL>http://www.britannica.com/blogs/wp-content/uploads/2010/09/0000070150-unista031-004.gif</MapURL>
+			<SocialNetworkURL>http://www.facebook.com/pages/911/114485161900095</SocialNetworkURL>
+			<SocialNetworkURL>https://twitter.com/Sept11Memorial</SocialNetworkURL>
+			<Citation>http://www.911memorial.org/</Citation>
+			<ExternalLinkURL>http://www.nationalgeographic.com/remembering-9-11/</ExternalLinkURL>
+		</ExternalResources>
+		<RelatedPersons>
+			<RelatedPerson personIdent="GWBush"/>
+			<RelatedPerson personIdent="MRBloomberg"/>
+		</RelatedPersons>
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="ARC"/>
+			<RelatedOrganization organizationIdent="UN"/>
+		</RelatedOrganizations>
+	</Crisis>
+	
+	<Crisis crisisIdent = "Syrian_WAR_2011">
+		<Name>Syrian Civil War</Name>
+		<Kind crisisKindIdent = "WAR"/>
+		<Location>
+      		<Country>Syria</Country>
+    	</Location>
+		<StartDateTime>
+      		<Date>2011-03-15</Date>
+    	</StartDateTime>
+		<HumanImpact>
+	  		<Type>Death</Type>
+	  		<Number>70000</Number>
+    	</HumanImpact>
+    	<HumanImpact>
+	  		<Type>Displaced</Type>
+	  		<Number>1200000</Number>
+    	</HumanImpact>
+    	<HumanImpact>
+	  		<Type>Refugees</Type>
+	  		<Number>1204707</Number>
+    	</HumanImpact>
+		<EconomicImpact>48400000000</EconomicImpact>
+    	<ResourceNeeded>Shelter</ResourceNeeded>
+    	<ResourceNeeded>Medical aid</ResourceNeeded>
+    	<WaysToHelp>Donate</WaysToHelp>
+		<ExternalResources>
+			<ImageURL>http://upload.wikimedia.org/wikipedia/commons/a/a7/FSA_soldiers_in_truck_moving.jpg</ImageURL>
+			<VideoURL>https://www.youtube.com/watch?v=n4CDQciS0kE</VideoURL>
+			<MapURL>http://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Syria_Ethno-religious_composition..jpg/220px-Syria_Ethno-religious_composition..jpg</MapURL>
+			<SocialNetworkURL>https://www.facebook.com/SyrianDayOfRage</SocialNetworkURL>
+			<Citation>http://en.wikipedia.org/wiki/Syrian_civil_war</Citation>
+			<Citation>http://www.al-monitor.com/pulse/business/2013/02/economic-impact-syrian-crisis.html</Citation>
+			<ExternalLinkURL>http://abcnews.go.com/topics/news/world/syrian-civil-war.htm</ExternalLinkURL>
+		</ExternalResources>
+		<RelatedPersons>
+			<RelatedPerson personIdent="BHal-Assad"/>
+			<RelatedPerson personIdent="BHObama"/>
+			<RelatedPerson personIdent="BKi-moon"/>
+			<RelatedPerson personIdent="PHolmes"/>
+			<RelatedPerson personIdent="HAVanRompuy"/>
+			<RelatedPerson personIdent="KRoth"/>
+		</RelatedPersons>
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="AI"/>
+			<RelatedOrganization organizationIdent="CARE"/>
+			<RelatedOrganization organizationIdent="EU"/>
+			<RelatedOrganization organizationIdent="HRW"/>
+			<RelatedOrganization organizationIdent="OI"/>
+			<RelatedOrganization organizationIdent="UN"/>
+			<RelatedOrganization organizationIdent="UNICEF"/>
+		</RelatedOrganizations>
+	</Crisis>
+	
+	<Crisis crisisIdent = "West_Africa_FO_2012">
+		<Name>West Africa Food Crisis</Name>
+		<Kind crisisKindIdent = "FC"/>
+		<Location>
+      		<Region>West Africa</Region>
+      		<Country>Mali, Niger, Mauritania, Chad, and Burkina Faso</Country>
+    	</Location>
+		<StartDateTime>
+      		<Date>2012-03-01</Date>
+    	</StartDateTime>
+		<HumanImpact>
+	  		<Type>Death</Type>
+	  		<Number>200000</Number>
+    	</HumanImpact>
+    	<HumanImpact>
+	  		<Type>Displaced</Type>
+	  		<Number>250000</Number>
+    	</HumanImpact>
+		<EconomicImpact>30000000000</EconomicImpact>
+    	<ResourceNeeded>Food and clear water</ResourceNeeded>
+    	<ResourceNeeded>Money</ResourceNeeded>
+    	<WaysToHelp>Donate</WaysToHelp>
+		<ExternalResources>
+			<ImageURL>http://www.sott.net/image/image/s2/41128/full/article_1296068_00029A3E000002.jpg</ImageURL>
+			<ImageURL>http://www.helpage.org/silo/images/etta-brahim-senussi-and-her-family-are-struggling-to-cope-chad_491x326.jpg</ImageURL>
+			<VideoURL>https://www.youtube.com/watch?v=zO9uzSXvy74</VideoURL>
+			<MapURL>https://www.oxfam.org.au/wp-content/uploads/2012/02/emergencies-west-africa-map.jpg</MapURL>
+			<SocialNetworkURL>https://www.facebook.com/media/set/?set=a.10150599113600723.377191.23625700722&amp;amp;type=3</SocialNetworkURL>
+			<Citation>http://www.oxfam.org.uk/what-we-do/emergency-response/west-africa-food-crisis</Citation>
+			<ExternalLinkURL>http://www.oxfam.org/en/emergencies/sahel-food-crisis</ExternalLinkURL>
+		</ExternalResources>
+		<RelatedPersons>
+			<RelatedPerson personIdent="BKi-moon"/>
+			<RelatedPerson personIdent="PHolmes"/>
+			<RelatedPerson personIdent="KRoth"/>
+		</RelatedPersons>
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="AI"/>
+			<RelatedOrganization organizationIdent="CARE"/>
+			<RelatedOrganization organizationIdent="HRW"/>
+			<RelatedOrganization organizationIdent="OI"/>
+			<RelatedOrganization organizationIdent="UN"/>
+			<RelatedOrganization organizationIdent="UNICEF"/>
+		</RelatedOrganizations>
+	</Crisis>
+	
+	<Crisis crisisIdent = "Darfur_WAR_2003">
+		<Name>War in Darfur</Name>
+		<Kind crisisKindIdent = "WAR"/>
+		<Location>
+      		<Region>Darfur</Region>
+      		<Country>Sudan</Country>
+    	</Location>
+		<StartDateTime>
+      		<Date>2003-02-26</Date>
+    	</StartDateTime>
+		<HumanImpact>
+	  		<Type>Death</Type>
+	  		<Number>461520</Number>
+    	</HumanImpact>
+		<EconomicImpact>24070000000</EconomicImpact>
+    	<ResourceNeeded>Food and clean water</ResourceNeeded>
+    	<ResourceNeeded>Shelter</ResourceNeeded>
+    	<WaysToHelp>Donate</WaysToHelp>
+		<ExternalResources>
+			<ImageURL>http://upload.wikimedia.org/wikipedia/commons/0/0e/Darfur_IDPs_children_sitting.jpg</ImageURL>
+			<VideoURL>https://www.youtube.com/watch?v=XXbqtKD87vM</VideoURL>
+			<MapURL>http://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Map_of_Darfur_2011.png/679px-Map_of_Darfur_2011.png</MapURL>
+			<SocialNetworkURL>https://www.facebook.com/pages/War-in-Darfur/109500385736164</SocialNetworkURL>
+			<Citation>http://en.wikipedia.org/wiki/War_in_Darfur</Citation>
+			<ExternalLinkURL>http://news.bbc.co.uk/2/hi/africa/8224424.stm</ExternalLinkURL>
+		</ExternalResources>
+		<RelatedPersons>
+			<RelatedPerson personIdent="BKi-moon"/>
+			<RelatedPerson personIdent="GWBush"/>
+			<RelatedPerson personIdent="PHolmes"/>
+			<RelatedPerson personIdent="KRoth"/>
+		</RelatedPersons>
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="AI"/>
+			<RelatedOrganization organizationIdent="CARE"/>
+			<RelatedOrganization organizationIdent="HRW"/>
+			<RelatedOrganization organizationIdent="OI"/>
+			<RelatedOrganization organizationIdent="UN"/>
+			<RelatedOrganization organizationIdent="UNICEF"/>
+		</RelatedOrganizations>
+	</Crisis>
+	
+	<Crisis crisisIdent = "North_Korea_WP_2006">
+		<Name>Weapons of mass destruction in North Korea</Name>
+		<Kind crisisKindIdent = "WP"/>
+		<Location>
+      		<Country>North Korea</Country>
+    	</Location>
+		<StartDateTime>
+      		<Date>2006-10-09</Date>
+    	</StartDateTime>
+		<HumanImpact>
+			<Type>Health effects from radiation</Type>
+			<Number>1</Number>
+		</HumanImpact>
+	  	<HumanImpact>
+	  		<Type>Threat of war</Type>
+	  		<Number>1</Number>
+	  	</HumanImpact>
+		<EconomicImpact>1000000000+</EconomicImpact>
+    	<ResourceNeeded>Increase in security</ResourceNeeded>
+    	<WaysToHelp>Encourage UN to take action</WaysToHelp>
+		<ExternalResources>
+			<ImageURL>http://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/North_Korea_nuclear.svg/160px-North_Korea_nuclear.svg.png</ImageURL>
+			<VideoURL>http://www.youtube.com/watch?v=8-vGIU6jQh8</VideoURL>
+			<MapURL>http://upload.wikimedia.org/wikipedia/commons/3/31/Locator_map_of_North_Korea.svg</MapURL>
+			<SocialNetworkURL>http://www.facebook.com/pages/North-Korea-and-weapons-of-mass-destruction/131960846839362?nr</SocialNetworkURL>
+			<Citation>http://en.wikipedia.org/wiki/North_Korea_and_weapons_of_mass_destruction#Complaints</Citation>
+			<ExternalLinkURL>http://www.princeton.edu/~achaney/tmve/wiki100k/docs/North_Korea_and_weapons_of_mass_destruction.html</ExternalLinkURL>
+		</ExternalResources>
+		<RelatedPersons>
+			<RelatedPerson personIdent="BHObama"/>
+			<RelatedPerson personIdent="BKi-moon"/>
+			<RelatedPerson personIdent="NKan"/>
+		</RelatedPersons>
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="IAEA"/>
+			<RelatedOrganization organizationIdent="UN"/>
+		</RelatedOrganizations>
+	</Crisis>
+	
+	
+	<!--Organizations-->  
+
+  	<Organization organizationIdent="ARC">
+  		<Name>American Red Cross</Name>
+  		<Kind organizationKindIdent="HO"/>
+  		<Location>
+			<Locality>Washington</Locality>
+			<Region>D.C.</Region>
+			<Country>United States</Country>
+		</Location>
+    	<History>The American Red Cross was founded by Clara Barton after she became involved in the work of the International Red Cross during the Franco-Prussian War, and decided to bring the organization home with her to America. She expanded the original concept of the Red Cross to include assisting in any great national disaster and became the organization&#39;s first president. </History>
+    	<ContactInfo>
+      		<Telephone>+1 800 733 2767</Telephone>
+      		<Fax></Fax>
+      		<Email></Email>
+      		<PostalAddress>
+        		<StreetAddress>2025 E Street</StreetAddress>
+        		<Locality>Washington</Locality>
+        		<Region>DC</Region>
+        		<PostalCode>20006</PostalCode>
+        		<Country>United States</Country>
+      		</PostalAddress>
+    	</ContactInfo>
+    	<ExternalResources>
+      		<ImageURL>http://www.staceyreid.com/news/wp-content/uploads/2011/09/red_cross_shadow.png</ImageURL>
+			<VideoURL>http://www.youtube.com/watch?v=p3gdj3OClV4</VideoURL>
+			<MapURL>https://plus.google.com/112234863822604893908/about?gl=us&amp;hl=en</MapURL>
+			<SocialNetworkURL>http://www.facebook.com/redcross</SocialNetworkURL>
+			<SocialNetworkURL>http://twitter.com/redcross</SocialNetworkURL>
+			<Citation>http://en.wikipedia.org/wiki/American_Red_Cross</Citation>
+			<ExternalLinkURL>http://www.redcross.org/</ExternalLinkURL>
+    	</ExternalResources>
+    	<RelatedCrises>
+      		<RelatedCrisis crisisIdent="HU_Katrina_2005"/>
+      		<RelatedCrisis crisisIdent="HU_Sandy_2012"/>
+      		<RelatedCrisis crisisIdent="WTC_TA_2001"/>
+    	</RelatedCrises>
+    	<RelatedPersons>
+      		<RelatedPerson personIdent="GJMcGovern"/>
+    	</RelatedPersons>
+  	</Organization>
+  	
+  	<Organization organizationIdent="AI">
+  		<Name>Amnesty International</Name>
+  		<Kind organizationKindIdent="HO"/>
+  		<Location>
+			<Locality>London</Locality>
+			<Country>England</Country>
+		</Location>
+    	<History>Founded in London in July of 1961 by Peter Beneson after reading about two Portuguese students who were imprisoned for &#34;raising a toast to freedom.&#34; In response to the story, Peter published an article called &#34;The Forgotten Prisoners&#34; in the Observer newspaper.That article launched the &#34;Appeal for Amnesty 1961&#34;, a worldwide campaign that led to the creation of Amnesty International. </History>
+    	<ContactInfo>
+      		<Telephone>+1 212 807 8400</Telephone>
+      		<Fax>+1 212 627 1451</Fax>
+      		<Email>admin-us@aiusa.org</Email>
+      		<PostalAddress>
+        		<StreetAddress>5 Pennsylvania Plaza</StreetAddress>
+        		<Locality>New York</Locality>
+        		<Region>NY</Region>
+        		<PostalCode>10001</PostalCode>
+        		<Country>United States</Country>
+      		</PostalAddress>
+    	</ContactInfo>
+    	<ExternalResources>
+      		<ImageURL>http://www.english-online.at/news-articles/people/amnesty_international_candle.gif</ImageURL>
+			<VideoURL>http://www.youtube.com/watch?v=UDI22b9hevk</VideoURL>
+			<MapURL>https://plus.google.com/112907577111456533904/about?gl=us</MapURL>
+			<SocialNetworkURL>https://www.facebook.com/amnestyusa</SocialNetworkURL>
+			<SocialNetworkURL>https://twitter.com/AmnestyOnline</SocialNetworkURL>
+			<Citation>http://en.wikipedia.org/wiki/Amnesty_International</Citation>
+			<Citation>http://www.amnesty.org/en/who-we-are/historyl</Citation>
+			<ExternalLinkURL>http://www.amnestyusa.org/?msource=49</ExternalLinkURL>
+    	</ExternalResources>
+    	<RelatedCrises>
+      		<RelatedCrisis crisisIdent="Darfur_WAR_2003"/>
+      		<RelatedCrisis crisisIdent="Syrian_WAR_2011"/>
+      		<RelatedCrisis crisisIdent="West_Africa_FO_2012"/>
+    	</RelatedCrises>
+    	<RelatedPersons>
+      		<RelatedPerson personIdent="PHolmes"/>
+    	</RelatedPersons>
+  	</Organization>
+  	
+  	<Organization organizationIdent="CARE">
+  		<Name>CARE</Name>
+  		<Kind organizationKindIdent="HO"/>
+  		<Location>
+			<Locality>Atlanta</Locality>
+			<Region>GA</Region>
+			<Country>United States</Country>
+		</Location>
+    	<History>CARE was founded in 1945, when 22 American organizations came together to rush lifesaving CARE Packages to survivors of World War II. Thousands of Americans, including President Harry S. Truman, contributed to the effort.</History>
+    	<ContactInfo>
+      		<Telephone>+1 404 681 2552</Telephone>
+      		<Fax>+1 404 577 5977</Fax>
+      		<Email>info@care.org</Email>
+      		<PostalAddress>
+        		<StreetAddress>151 Ellis Street</StreetAddress>
+        		<Locality>Atlanta</Locality>
+        		<Region>GA</Region>
+        		<PostalCode>30303</PostalCode>
+        		<Country>United States</Country>
+      		</PostalAddress>
+    	</ContactInfo>
+    	<ExternalResources>
+      		<ImageURL>http://www.womendeliver.org/images/uploads/care-logo.jpg</ImageURL>
+			<VideoURL>https://www.youtube.com/watch?v=iQgPQaXXYTw</VideoURL>
+			<VideoURL>http://youtu.be/1MNiibMSD8w</VideoURL>
+			<MapURL>https://maps.google.com/maps?q=151+Ellis+Street,+NE+Atlanta,+GA+30303+United+States&amp;hl=en&amp;ll=33.758313,-84.382896&amp;spn=0.084917,0.107975&amp;sll=30.307761,-97.753401&amp;sspn=0.700683,0.8638&amp;hnear=151+Ellis+St+NE,+Atlanta,+Fulton,+Georgia+30303&amp;t=m&amp;z=13</MapURL>
+			<SocialNetworkURL>https://www.facebook.com/carefans</SocialNetworkURL>
+			<SocialNetworkURL>https://twitter.com/CARE</SocialNetworkURL>
+			<Citation>http://www.care-international.org/History/</Citation>
+			<ExternalLinkURL>http://www.care.org/about/index.asp</ExternalLinkURL>
+    	</ExternalResources>
+    	<RelatedCrises>
+      		<RelatedCrisis crisisIdent="HU_Sandy_2012"/>
+      		<RelatedCrisis crisisIdent="TS_2004"/>
+      		<RelatedCrisis crisisIdent="Darfur_WAR_2003"/>
+      		<RelatedCrisis crisisIdent="West_Africa_FO_2012"/>
+    	</RelatedCrises>
+  	</Organization>
+  	
+  	<Organization organizationIdent="EU">
+  		<Name>European Union</Name>
+  		<Kind organizationKindIdent="EPU"/>
+  		<Location>
+			<Locality>Brussels</Locality>
+			<Country>Belgium</Country>
+		</Location>
+    	<History>After World War II, moves towards European integration were seen by many as an escape from the extreme forms of nationalism that had devastated the continent. As a result, many countries in Europe came together to form communities as a means of avoiding further war. This eventually led to the creation of the European Union and the euro (the single European currency) in 1993. </History>
+    	<ContactInfo>
+      		<Telephone>+32 2 281 63 19</Telephone>
+      		<Fax>+32 2 281 69 34</Fax>
+      		<Email></Email>
+      		<PostalAddress>
+        		<StreetAddress>Rue de la Loi 175</StreetAddress>
+        		<Locality>Brussels</Locality>
+        		<Region></Region>
+        		<PostalCode>1000</PostalCode>
+        		<Country>Belgium</Country>
+      		</PostalAddress>
+    	</ContactInfo>
+    	<ExternalResources>
+      		<ImageURL>http://upload.wikimedia.org/wikipedia/en/thumb/e/ee/Amnesty_International_logo.svg/500px-Amnesty_International_logo.svg.png</ImageURL>
+			<VideoURL>http://www.youtube.com/watch?v=sO75ZsvMkc8</VideoURL>
+			<MapURL>https://plus.google.com/112907577111456533904/about?gl=us</MapURL>
+			<SocialNetworkURL>https://twitter.com/euCouncilPress</SocialNetworkURL>
+			<SocialNetworkURL>https://twitter.com/EU_CoR</SocialNetworkURL>
+			<SocialNetworkURL>https://www.facebook.com/eucouncil</SocialNetworkURL>
+			<Citation>http://en.wikipedia.org/wiki/European_union</Citation>
+			<Citation>http://europa.eu/about-eu/eu-history/index_en.htm</Citation>
+			<ExternalLinkURL>http://europa.eu/index_en.htm</ExternalLinkURL>
+    	</ExternalResources>
+    	<RelatedCrises>
+      		<RelatedCrisis crisisIdent="Eurozone_EC_2009"/>
+      		<RelatedCrisis crisisIdent="Syrian_WAR_2011"/>
+    	</RelatedCrises>
+    	<RelatedPersons>
+      		<RelatedPerson personIdent="HAVanRompuy"/>
+    	</RelatedPersons>
+  	</Organization>
+  	
+  	<Organization organizationIdent="HRW">
+  		<Name>Human Rights Watch</Name>
+  		<Kind organizationKindIdent="HO"/>
+  		<Location>
+			<Locality>New York</Locality>
+			<Region>NY</Region>
+			<Country>United States</Country>
+		</Location>
+    	<History>Human Rights Watch was founded as a private American NGO in 1978, under the name of Helsinki Watch, to monitor the former Soviet Union&#39;s compliance with the Helsinki Accords. Asia Watch (1985), Africa Watch (1988), and Middle East Watch (1989) were added to what was then known as "The Watch Committees." In 1988, all of the committees were united under one umbrella to form Human Rights Watch. </History>
+    	<ContactInfo>
+      		<Telephone>+1 212 290 4700</Telephone>
+      		<Fax>+1 212 736 1300</Fax>
+      		<Email>hrwpress@hr.org</Email>
+      		<PostalAddress>
+        		<StreetAddress>350 Fifth Avenue, 34th floor</StreetAddress>
+        		<Locality>New York</Locality>
+        		<Region>NY</Region>
+        		<PostalCode>10118</PostalCode>
+        		<Country>United States</Country>
+      		</PostalAddress>
+    	</ContactInfo>
+    	<ExternalResources>
+      		<ImageURL>http://uniosil.org/wp-content/uploads/2010/06/Human-Rights-Watch.jpg</ImageURL>
+			<VideoURL>https://www.youtube.com/user/humanrightswatch</VideoURL>
+			<MapURL>http://4.bp.blogspot.com/-DvhofvV0LaE/TaCYYcToVVI/AAAAAAAAAYw/3fBhRHgeFuI/s1600/Freedom-HouseResized.jpg</MapURL>
+			<SocialNetworkURL>http://www.facebook.com/HumanRightsWatch</SocialNetworkURL>
+			<SocialNetworkURL>https://twitter.com/HumanRtsV</SocialNetworkURL>
+			<Citation>http://en.wikipedia.org/wiki/Human_Rights_Watch</Citation>
+			<ExternalLinkURL>http://www.hrw.org/</ExternalLinkURL>
+    	</ExternalResources>
+    	<RelatedCrises>
+    		<RelatedCrisis crisisIdent="Eurozone_EC_2009"/>
+      		<RelatedCrisis crisisIdent="Syrian_WAR_2011"/>
+      		<RelatedCrisis crisisIdent="West_Africa_FO_2012"/>
+      		<RelatedCrisis crisisIdent="Darfur_WAR_2003"/>
+    	</RelatedCrises>
+    	<RelatedPersons>
+      		<RelatedPerson personIdent="KRoth"/>
+    	</RelatedPersons>
+  	</Organization>
+  	
+  	<Organization organizationIdent="IAEA">
+  		<Name>International Atomic Energy Agency</Name>
+  		<Kind organizationKindIdent="IO"/>
+  		<Location>
+			<Locality>Vienna</Locality>
+			<Country>Austria</Country>
+		</Location>
+    	<History>The IAEA was created in 1957 in response to the deep fears and expectations resulting from the discovery of nuclear energy. Its fortunes are uniquely geared to this controversial technology that can be used either as a weapon or as a practical and useful tool. </History>
+    	<ContactInfo>
+      		<Telephone>+431 2600 0</Telephone>
+      		<Fax>+431 2600 7</Fax>
+      		<Email>Official.Mail@iaea.org</Email>
+      		<PostalAddress>
+        		<StreetAddress>Vienna International Centre, PO Box 100</StreetAddress>
+        		<Locality>Vienna</Locality>
+        		<Region></Region>
+        		<PostalCode>1400</PostalCode>
+        		<Country>Austria</Country>
+      		</PostalAddress>
+    	</ContactInfo>
+    	<ExternalResources>
+      		<ImageURL>http://vectorise.net/logo/wp-content/uploads/2011/03/International-Atomic-Energy-Agency-IAEA.png</ImageURL>
+			<VideoURL>http://www.youtube.com/watch?v=7aMH6MFG-fA</VideoURL>
+			<MapURL>https://maps.google.com/maps?client=safari&amp;q=International+Atomic+Energy+Agency&amp;oe=UTF-8&amp;hl=en&amp;ie=UTF-8</MapURL>
+			<SocialNetworkURL>http://www.facebook.com/iaeaorg</SocialNetworkURL>
+			<Citation>http://en.wikipedia.org/wiki/International_Atomic_Energy_Agency</Citation>
+			<ExternalLinkURL>http://www.iaea.org/</ExternalLinkURL>
+    	</ExternalResources>
+    	<RelatedCrises>
+    		<RelatedCrisis crisisIdent="North_Korea_WP_2006"/>
+    	</RelatedCrises>
+    	<RelatedPersons>
+    		<RelatedPerson personIdent="BHObama"/>
+    		<RelatedPerson personIdent="BKi-moon"/>
+      		<RelatedPerson personIdent="NKan"/>
+    	</RelatedPersons>
+  	</Organization>
+  	
+  	<Organization organizationIdent="NWF">
+  		<Name>National Wildlife Federation</Name>
+  		<Kind organizationKindIdent="ENV"/>
+  		<Location>
+			<Locality>Reston</Locality>
+			<Region>VA</Region>
+			<Country>United States</Country>
+		</Location>
+    	<History>Created by Franklin Delano Roosevelt to unite individuals, organizations and agencies interested in the restoration and conservation of wildlife resources. </History>
+      	<ContactInfo>
+      		<Telephone>+1 703 438 6000</Telephone>
+      		<Fax></Fax>
+      		<Email>friends@nwf.org</Email>
+      		<PostalAddress>
+        		<StreetAddress>11100 Wildlife Center Dr </StreetAddress>
+        		<Locality>Reston</Locality>
+        		<Region>VA</Region>
+        		<PostalCode>20190</PostalCode>
+        		<Country>United States</Country>
+      		</PostalAddress>
+    	</ContactInfo>
+    	<ExternalResources>
+      		<ImageURL>http://www.flickr.com/photos/momentsinature/8501067520/</ImageURL>
+			<VideoURL>http://www.youtube.com/user/nationalwildlife</VideoURL>
+			<MapURL>https://maps.google.com/maps?client=safari&amp;q=National+Wildlife+Federation&amp;oe=UTF-8&amp;ie=UTF-8&amp;hl=en</MapURL>
+			<SocialNetworkURL>http://www.facebook.com/NationalWildlife</SocialNetworkURL>
+			<SocialNetworkURL>https://twitter.com/nwf</SocialNetworkURL>
+			<Citation>http://en.wikipedia.org/wiki/National_Wildlife_Federation</Citation>
+			<ExternalLinkURL>http://www.nwf.org/Who-We-Are/Contact-Us.aspx</ExternalLinkURL>
+    	</ExternalResources>
+    	<RelatedCrises>
+    		<RelatedCrisis crisisIdent="HU_Sandy_2012"/>
+    		<RelatedCrisis crisisIdent="HU_Katrina_2005"/>
+    		<RelatedCrisis crisisIdent="Deepwater_ACC_2010"/>
+    	</RelatedCrises>
+    	<RelatedPersons>
+    		<RelatedPerson personIdent="BHObama" />
+    	</RelatedPersons>
+  	</Organization>
+  	
+  	<Organization organizationIdent="OI">
+  		<Name>Oxfam International</Name>
+  		<Kind organizationKindIdent="HO"/>
+  		<Location>
+			<Locality>Oxford</Locality>
+			<Country>United Kingdom</Country>
+		</Location>
+    	<History>The name &#34;Oxfam&#34; comes from the Oxford Committee for Famine Relief, founded in Britain in 1942. The group campaigned for food supplies to be sent through an allied naval blockade to starving women and children in enemy-occupied Greece during the Second World War. Oxfam International was formed in 1995 by a group of independent non-governmental organizations. Their aim was to work together for greater impact on the international stage to reduce poverty and injustice. </History>
+      	<ContactInfo>
+      		<Telephone>+1 617 482 1211</Telephone>
+      		<Fax>+1 617 728 2594</Fax>
+      		<Email>info@oxfamamerica.org</Email>
+      		<PostalAddress>
+        		<StreetAddress>226 Causeway Street 5th Floor</StreetAddress>
+        		<Locality>Boston</Locality>
+        		<Region></Region>
+        		<PostalCode>MA</PostalCode>
+        		<Country>United States</Country>
+      		</PostalAddress>
+    	</ContactInfo>
+    	<ExternalResources>
+      		<ImageURL>http://www.parikiaki.com/wp-content/uploads/oxfam.jpg</ImageURL>
+			<VideoURL>http://www.youtube.com/watch?feature=player_embedded&amp;v=gPNIUXG1Kkg</VideoURL>
+			<MapURL>https://maps.google.com/maps?q=Oxfam&amp;hl=en&amp;ll=51.729646,-1.205792&amp;spn=0.007762,0.01929&amp;cid=17348607219360929712&amp;gl=US&amp;t=m&amp;z=16&amp;iwloc=A</MapURL>
+			<SocialNetworkURL>http://www.facebook.com/oxfamamerica</SocialNetworkURL>
+			<SocialNetworkURL>https://twitter.com/oxfam</SocialNetworkURL>
+			<Citation>http://en.wikipedia.org/wiki/Oxfam</Citation>
+			<ExternalLinkURL>http://www.oxfam.org/</ExternalLinkURL>
+    	</ExternalResources>
+    	<RelatedCrises>
+    		<RelatedCrisis crisisIdent="HU_Sandy_2012"/>
+    		<RelatedCrisis crisisIdent="HU_Katrina_2005"/>
+    		<RelatedCrisis crisisIdent="TS_2004"/>
+    		<RelatedCrisis crisisIdent="Syrian_WAR_2011"/>
+    		<RelatedCrisis crisisIdent="West_Africa_FO_2012"/>
+    		<RelatedCrisis crisisIdent="Darfur_WAR_2003"/>
+    	</RelatedCrises>
+    	<RelatedPersons>
+    		<RelatedPerson personIdent="BHObama"/>
+    		<RelatedPerson personIdent="BKi-moon"/>
+    	</RelatedPersons>
+  	</Organization>
+  	
+  	<Organization organizationIdent="UNICEF">
+  		<Name>United Nations Children&#39;s Fund</Name>
+  		<Kind organizationKindIdent="AUN"/>
+  		<Location>
+			<Locality>New York</Locality>
+			<Region>NY</Region>
+			<Country>United States</Country>
+		</Location>
+    	<History>UNICEF was created by the United Nations General Assembly on December 11, 1946, to provide emergency food and healthcare to children in countries that had been devastated by World War II. It has since then provided long-term humanitarian and developmental assistance to children and mothers in developing countries across the world. </History>
+      	<ContactInfo>
+      		<Telephone>+1 212 686 5522</Telephone>
+      		<Fax>+1 212 779 1679</Fax>
+      		<Email>social@unicefusa.org</Email>
+      		<PostalAddress>
+        		<StreetAddress>125 Maiden Lane, 11th Floor</StreetAddress>
+        		<Locality>New York</Locality>
+        		<Region>NY</Region>
+        		<PostalCode>10038</PostalCode>
+        		<Country>United States</Country>
+      		</PostalAddress>
+    	</ContactInfo>
+    	<ExternalResources>
+      		<ImageURL>http://www.advancetech.org/images/uploads/unicef3.gif</ImageURL>
+			<VideoURL>https://www.youtube.com/watch?v=dPWr6Eg_dC4</VideoURL>
+			<MapURL>https://maps.google.com/maps?q=unicef&amp;aq=f&amp;um=1&amp;ie=UTF-8&amp;hl=en&amp;sa=N&amp;tab=wl</MapURL>
+			<SocialNetworkURL>https://www.facebook.com/UNICEF-USA</SocialNetworkURL>
+			<SocialNetworkURL>https://twitter.com/UNICEF</SocialNetworkURL>
+			<Citation>http://en.wikipedia.org/wiki/UNICEF</Citation>
+			<ExternalLinkURL>http://www.unicefusa.org/</ExternalLinkURL>
+    	</ExternalResources>
+    	<RelatedCrises>
+    		<RelatedCrisis crisisIdent="HU_Sandy_2012"/>
+    		<RelatedCrisis crisisIdent="HU_Katrina_2005"/>
+    		<RelatedCrisis crisisIdent="TS_2004"/>
+    		<RelatedCrisis crisisIdent="Syrian_WAR_2011"/>
+    		<RelatedCrisis crisisIdent="West_Africa_FO_2012"/>
+    		<RelatedCrisis crisisIdent="Darfur_WAR_2003"/>
+    	</RelatedCrises>
+    	<RelatedPersons>
+    		<RelatedPerson personIdent="BHObama"/>
+    		<RelatedPerson personIdent="BKi-moon"/>
+    	</RelatedPersons>
+  	</Organization>
+  	
+  	<Organization organizationIdent="UN">
+  		<Name>United Nations</Name>
+  		<Kind organizationKindIdent="IO"/>
+  		<Location>
+			<Locality>New York</Locality>
+			<Region>NY</Region>
+			<Country>United States</Country>
+		</Location>
+    	<History>Founded after the end of the Second World War, the United Nations is an international organization made up of 193 Member States committed to maintaining international peace and security. </History>
+      	<ContactInfo>
+      		<Telephone>+1 212 63 1234</Telephone>
+      		<Fax></Fax>
+      		<Email>inquiries@un.org</Email>
+      		<PostalAddress>
+        		<StreetAddress>760 United Nations Plaza</StreetAddress>
+        		<Locality>New York</Locality>
+        		<Region>NY</Region>
+        		<PostalCode>10017</PostalCode>
+        		<Country>United States</Country>
+      		</PostalAddress>
+    	</ContactInfo>
+    	<ExternalResources>
+      		<ImageURL>http://www.braco.net/wp-content/uploads/2012/11/un-building1.jpg</ImageURL>
+      		<ImageURL>http://www.pressenza.com/wp-content/uploads/2013/01/UN.jpg</ImageURL>
+			<VideoURL>https://www.youtube.com/watch?v=GjSNVAtRiac</VideoURL>
+			<MapURL>http://www.visitingdc.com/maps/united-nations-map.asp</MapURL>
+			<SocialNetworkURL>http://www.facebook.com/unitednations</SocialNetworkURL>
+			<SocialNetworkURL>https://twitter.com/un</SocialNetworkURL>
+			<Citation>http://www.un.org/en/aboutun/history/</Citation>
+			<Citation>http://en.wikipedia.org/wiki/List_of_United_Nations_peacekeeping_missions</Citation>
+			<ExternalLinkURL>http://www.un.org/en/</ExternalLinkURL>
+    	</ExternalResources>
+    	<RelatedCrises>
+    		<RelatedCrisis crisisIdent="HU_Katrina_2005"/>
+    		<RelatedCrisis crisisIdent="Deepwater_ACC_2010"/>
+    		<RelatedCrisis crisisIdent="Eurozone_EC_2009"/>
+    		<RelatedCrisis crisisIdent="TS_2004"/>
+    		<RelatedCrisis crisisIdent="WTC_TA_2001"/>
+    		<RelatedCrisis crisisIdent="Syrian_WAR_2011"/>
+    		<RelatedCrisis crisisIdent="West_Africa_FO_2012"/>
+    		<RelatedCrisis crisisIdent="Darfur_WAR_2003"/>
+    		<RelatedCrisis crisisIdent="North_Korea_WP_2006"/>
+    	</RelatedCrises>
+    	<RelatedPersons>
+    		<RelatedPerson personIdent="BHal-Assad"/>
+    		<RelatedPerson personIdent="MRBloomberg"/>
+    		<RelatedPerson personIdent="GWBush"/>
+    		<RelatedPerson personIdent="BHObama"/>
+    		<RelatedPerson personIdent="BKi-moon"/>
+    		<RelatedPerson personIdent="NKan"/>
+    	</RelatedPersons>
+  	</Organization>
+  	
+  	
+  	<!--People-->
+  	
+  	<Person personIdent="BHal-Assad">
+		<Name>
+			<FirstName>Bashar</FirstName>
+			<MiddleName>Hafez</MiddleName>
+		  	<LastName>al-Assad</LastName>
+		</Name>
+		<Kind personKindIdent="PR"/>
+		<Location>
+			<Country>Syria</Country>
+		</Location>
+		<ExternalResources>
+			<ImageURL>http://en.wikipedia.org/wiki/File:Bashar_al-Assad_(cropped).jpg</ImageURL>
+			<VideoURL>http://www.youtube.com/watch?v=JGeGHVAjG5c</VideoURL>
+			<MapURL>https://maps.google.com/maps?client=safari&amp;q=Syria&amp;oe=UTF-8&amp;ie=UTF-8&amp;hl=en</MapURL>
+			<SocialNetworkURL>http://www.facebook.com/president.al.asad</SocialNetworkURL>
+			<Citation>http://en.wikipedia.org/wiki/Bashar_al-Assad</Citation>
+			<ExternalLinkURL>http://www.presidentassad.net/</ExternalLinkURL>
+		</ExternalResources>
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="Syrian_WAR_2011"/>
+		</RelatedCrises>
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="UN"/>
+		</RelatedOrganizations>
+	</Person>
+	
+	<Person personIdent="MRBloomberg">
+		<Name>
+			<FirstName>Michael</FirstName>
+			<MiddleName>Rubens</MiddleName>
+		  	<LastName>Bloomberg</LastName>
+		</Name>
+		<Kind personKindIdent="PO"/>
+		<Location>
+			<Locality>New York</Locality>
+			<Region>NY</Region>
+			<Country>United States</Country>
+		</Location>
+		<ExternalResources>
+			<ImageURL>http://images.politico.com/global/2012/11/121101_bloomberg_605_ap.jpg</ImageURL>
+			<VideoURL>https://www.youtube.com/watch?v=Gq5paYFeD6A</VideoURL>
+			<VideoURL>https://www.youtube.com/watch?v=wmpDQ_9sdwc</VideoURL>
+			<MapURL>https://maps.google.com/maps?q=New+York,+NY&amp;hl=en&amp;sll=30.307761,-97.753401&amp;sspn=0.684085,0.8638&amp;oq=ney+your&amp;hnear=New+York&amp;t=m&amp;z=10</MapURL>
+			<SocialNetworkURL>https://www.facebook.com/mikebloomberg</SocialNetworkURL>
+			<SocialNetworkURL>https://twitter.com/MikeBloomberg</SocialNetworkURL>
+			<Citation>http://www.forbes.com/profile/michael-bloomberg/</Citation>
+			<ExternalLinkURL>http://www.mikebloomberg.com/</ExternalLinkURL>
+		</ExternalResources>
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="HU_Sandy_2012"/>
+			<RelatedCrisis crisisIdent="WTC_TA_2001"/>
+		</RelatedCrises>
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="UN"/>
+		</RelatedOrganizations>
+	</Person>
+	
+	<Person personIdent="GWBush">
+		<Name>
+			<FirstName>George</FirstName>
+			<MiddleName>Walker</MiddleName>
+		  	<LastName>Bush</LastName>
+		</Name>
+		<Kind personKindIdent="PR"/>
+		<Location>
+			<Locality>Dallas</Locality>
+			<Region>TX</Region>
+			<Country>United States</Country>
+		</Location>
+		<ExternalResources>
+			<ImageURL>http://www.americanpopularculture.com/htdocs/assets/george_w_bush73.jpg</ImageURL>
+			<VideoURL>http://www.youtube.com/watch?v=4RbAZj9RB94</VideoURL>
+			<MapURL>https://maps.google.com/maps?q=Dallas,+TX&amp;amp;hl=en&amp;amp;sll=29.316339,-94.798279&amp;amp;sspn=0.544818,0.903625&amp;amp;oq=Dallas,+TX&amp;amp;hnear=Dallas,+Texas&amp;amp;t=m&amp;ie=UTF8&amp;hq=&amp;z=10&amp;iwloc=A&amp;output=embed</MapURL>
+			<SocialNetworkURL>http://www.facebook.com/georgewbush</SocialNetworkURL>
+			<SocialNetworkURL>https://twitter.com/GeorgeWBush</SocialNetworkURL>
+			<Citation>http://en.wikipedia.org/wiki/George_W._Bush</Citation>
+			<ExternalLinkURL>http://www.whitehouse.gov/about/presidents/georgewbush</ExternalLinkURL>
+		</ExternalResources>
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="HU_Katrina_2005"/>
+			<RelatedCrisis crisisIdent="TS_2004"/>
+			<RelatedCrisis crisisIdent="WTC_TA_2001"/>
+			<RelatedCrisis crisisIdent="Darfur_WAR_2003"/>
+		</RelatedCrises>
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="UN"/>
+		</RelatedOrganizations>
+	</Person>
+	
+	<Person personIdent="PHolmes">
+		<Name>
+			<FirstName>Patrick</FirstName>
+		  	<LastName>Holmes</LastName>
+		</Name>
+		<Kind personKindIdent="CEO"/>
+		<Location>
+			<Country>New Zealand</Country>
+		</Location>
+		<ExternalResources>
+			<ImageURL>http://m3.licdn.com/mpr/pub/image-x8FkRui6vErcrvUFedn9JO1r_twbfUvIiCC6Jgv6_bib_CFDx8F66t26_qjN_ZpXxx_1/patrick-holmes.jpg</ImageURL>
+			<VideoURL>https://www.youtube.com/watch?v=IRj3a1x9mIA</VideoURL>
+			<MapURL>https://maps.google.com/maps?hl=en&amp;q=New+Zealand&amp;bav=on.2,or.r_gc.r_pw.r_cp.r_qf.&amp;biw=1366&amp;bih=643&amp;um=1&amp;ie=UTF-8&amp;sa=N&amp;tab=wl</MapURL>
+			<SocialNetworkURL>https://www.facebook.com/pages/Patrick-Holmes/111332285557630</SocialNetworkURL>
+			<Citation>http://en.wikipedia.org/wiki/Amnesty_International_Aotearoa_New_Zealand</Citation>
+			<ExternalLinkURL>http://www.zoominfo.com/#!search/profile/person?personId=197385548&amp;targetid=profile</ExternalLinkURL>
+		</ExternalResources>
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="HU_Katrina_2005"/>
+			<RelatedCrisis crisisIdent="TS_2004"/>
+			<RelatedCrisis crisisIdent="Syrian_WAR_2011"/>
+			<RelatedCrisis crisisIdent="Darfur_WAR_2003"/>
+		</RelatedCrises>
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="AI"/>
+		</RelatedOrganizations>
+	</Person>
+  
+	<Person personIdent="NKan">
+		<Name>
+			<FirstName>Naoto</FirstName>
+		  	<LastName>Kan</LastName>
+		</Name>
+		<Kind personKindIdent="PM"/>
+		<Location>
+			<Country>Japan</Country>
+		</Location>
+		<ExternalResources>
+			<ImageURL>http://www4.pictures.zimbio.com/gi/Naoto+Kan+Elected+Japan+New+Prime+Minister+4LuXIgOWEMil.jpg</ImageURL>
+			<VideoURL>https://www.youtube.com/watch?v=nQc6tmPoCSE</VideoURL>
+			<MapURL>https://maps.google.com/maps?q=Tokyo,+Japan&amp;hl=en&amp;sll=40.714353,-74.005973&amp;sspn=0.600606,0.8638&amp;oq=Tokyo,+japan&amp;hnear=Tokyo,+Japan&amp;t=m&amp;z=10</MapURL>
+			<SocialNetworkURL>https://www.facebook.com/naoto.kan</SocialNetworkURL>
+			<Citation>http://www.forbes.com/profile/naoto-kan/</Citation>
+			<ExternalLinkURL>http://www.chicagotribune.com/topic/politics/government/naoto-kan-PEPLT00007713.topic</ExternalLinkURL>
+		</ExternalResources>
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="North_Korea_WP_2006"/>
+		</RelatedCrises>
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="IAEA"/>
+			<RelatedOrganization organizationIdent="UN"/>
+		</RelatedOrganizations>
+	</Person>
+  
+	<Person personIdent="BKi-moon">
+		<Name>
+			<FirstName>Ban</FirstName>
+			<MiddleName></MiddleName>
+		  	<LastName>Ki-moon</LastName>
+		</Name>
+		<Kind personKindIdent="LD"/>
+		<Location>
+			<Country>South Korea</Country>
+		</Location>
+		<ExternalResources>
+			<ImageURL>http://upload.wikimedia.org/wikipedia/commons/f/f6/Ban_Ki-moon_1-2.jpg</ImageURL>
+			<VideoURL>http://www.youtube.com/watch?v=UDNDTThxjPY</VideoURL>
+			<MapURL>http://goo.gl/maps/ZzdBi</MapURL>
+			<SocialNetworkURL>https://twitter.com/secgen</SocialNetworkURL>
+			<Citation>http://en.wikipedia.org/wiki/Ban_Ki-moon</Citation>
+			<ExternalLinkURL>http://www.un.org/sg/</ExternalLinkURL>
+		</ExternalResources>
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="Deepwater_ACC_2010"/>
+			<RelatedCrisis crisisIdent="Eurozone_EC_2009"/>
+			<RelatedCrisis crisisIdent="Syrian_WAR_2011"/>
+			<RelatedCrisis crisisIdent="West_Africa_FO_2012"/>
+			<RelatedCrisis crisisIdent="North_Korea_WP_2006"/>
+			<RelatedCrisis crisisIdent="Darfur_WAR_2003"/>
+		</RelatedCrises>
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="IAEA"/>
+			<RelatedOrganization organizationIdent="OI"/>
+			<RelatedOrganization organizationIdent="UNICEF"/>
+			<RelatedOrganization organizationIdent="UN"/>
+		</RelatedOrganizations>
+	</Person>
+  	
+  	<Person personIdent="GJMcGovern">
+		<Name>
+			<FirstName>Gail</FirstName>
+			<MiddleName>J</MiddleName>
+		  	<LastName>McGovern</LastName>
+		</Name>
+		<Kind personKindIdent="CEO"/>
+		<Location>
+			<Locality>Washington</Locality>
+			<Region>D.C.</Region>
+			<Country>United States</Country>
+		</Location>
+		<ExternalResources>
+			<ImageURL>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeHBDtnEadHsWQ69fkoGtv_tVCZaL71jDyV1CA_BJ4QBgXUq8DF1eiWX8h</ImageURL>
+			<VideoURL>https://www.youtube.com/watch?v=KH3CnmAoSgU</VideoURL>
+			<MapURL>https://maps.google.com/maps?hl=en&amp;q=washington+DC&amp;bav=on.2,or.r_gc.r_pw.r_cp.r_qf.&amp;biw=1366&amp;bih=643&amp;um=1&amp;ie=UTF-8&amp;sa=N&amp;tab=wl</MapURL>
+			<SocialNetworkURL>https://www.facebook.com/pages/Gail-J-McGovern/113389875376685</SocialNetworkURL>
+			<Citation>http://en.wikipedia.org/wiki/Gail_J._McGovern</Citation>
+			<ExternalLinkURL>http://app.redcross.org/portal/site/en/menuitem.94aae335470e233f6cf911df43181aa0/?vgnextoid=8a57f7bffa23b110VgnVCM10000089f0870aRCRD&amp;cpsextcurrchannel=1</ExternalLinkURL>
+		</ExternalResources>
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="HU_Katrina_2005"/>
+			<RelatedCrisis crisisIdent="HU_Sandy_2012"/>
+			<RelatedCrisis crisisIdent="WTC_TA_2001"/>
+		</RelatedCrises>
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="ARC"/>
+		</RelatedOrganizations>
+	</Person>
+  	
+  	<Person personIdent="BHObama">
+		<Name>
+			<FirstName>Barack</FirstName>
+		  	<MiddleName>Hussein</MiddleName>
+		  	<LastName>Obama</LastName>
+		  	<Suffix>II</Suffix>
+		</Name>
+		<Kind personKindIdent="PR"/>
+		<Location>
+			<Locality>Washington</Locality>
+			<Region>D.C.</Region>
+			<Country>United States</Country>
+		</Location>
+		<ExternalResources>
+			<ImageURL>http://images.politico.com/global/2013/01/18/130118_obama_portrait_whfli.jpg</ImageURL>
+			<VideoURL>http://www.youtube.com/watch?v=zncqb-n3zMo</VideoURL>
+			<MapURL>http://maps.googleapis.com/maps/api/staticmap?center=38.89773,-77.036326&amp;zoom=15&amp;size=270x270&amp;sensor=false</MapURL>
+			<SocialNetworkURL>http://www.facebook.com/barackobama</SocialNetworkURL>
+			<SocialNetworkURL>https://twitter.com/BarackObama</SocialNetworkURL>
+			<Citation>http://en.wikipedia.org/wiki/Barack_Obama</Citation>
+			<ExternalLinkURL>http://www.barackobama.com</ExternalLinkURL>
+		</ExternalResources>
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="Syrian_WAR_2011"/>
+			<RelatedCrisis crisisIdent="North_Korea_WP_2006"/>
+			<RelatedCrisis crisisIdent="West_Africa_FO_2012"/>
+		</RelatedCrises>
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="IAEA"/>
+			<RelatedOrganization organizationIdent="NWF"/>
+			<RelatedOrganization organizationIdent="OI"/>
+			<RelatedOrganization organizationIdent="UNICEF"/>
+			<RelatedOrganization organizationIdent="UN"/>
+		</RelatedOrganizations>
+	</Person>
+	
+	<Person personIdent="HAVanRompuy">
+		<Name>
+			<FirstName>Herman</FirstName>
+		  	<MiddleName>Achille</MiddleName>
+		  	<LastName>Van Rompuy</LastName>
+		</Name>
+		<Kind personKindIdent="PR"/>
+		<Location>
+			<Locality>Washington</Locality>
+			<Region>D.C.</Region>
+			<Country>United States</Country>
+		</Location>
+		<ExternalResources>
+			<ImageURL>http://upload.wikimedia.org/wikipedia/commons/0/01/Herman_Van_Rompuy_-_World_Economic_Forum_on_Europe_2010.png</ImageURL>
+			<VideoURL>http://www.youtube.com/watch?v=l2ip9B6nwCo&amp;list=UUrQxSme-uofRbKCx-Dg2pug&amp;index=1</VideoURL>
+			<MapURL>http://goo.gl/maps/T1bpA</MapURL>
+			<SocialNetworkURL>http://www.youtube.com/user/hermanvanrompuy</SocialNetworkURL>
+			<SocialNetworkURL>https://www.facebook.com/hermanvanrompuy</SocialNetworkURL>
+			<SocialNetworkURL>https://twitter.com/euHvR</SocialNetworkURL>
+			<Citation>http://en.wikipedia.org/wiki/Herman_Van_Rompuy</Citation>
+			<ExternalLinkURL>http://www.hermanvanrompuy.be/</ExternalLinkURL>
+			<ExternalLinkURL>http://www.european-council.europa.eu/the-president.aspx/</ExternalLinkURL>
+		</ExternalResources>
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="Eurozone_EC_2009"/>
+			<RelatedCrisis crisisIdent="Syrian_WAR_2011"/>
+		</RelatedCrises>
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="EU"/>
+		</RelatedOrganizations>
+	</Person>
+	
+	<Person personIdent="KRoth">
+		<Name>
+			<FirstName>Kenneth</FirstName>
+		  	<LastName>Roth</LastName>
+		</Name>
+		<Kind personKindIdent="CEO"/>
+		<Location>
+			<Locality>New York</Locality>
+			<Region>NY</Region>
+			<Country>United States</Country>
+		</Location>
+		<ExternalResources>
+			<ImageURL>http://en.wikipedia.org/wiki/File:Kenneth_Roth_at_44th_Munich_Security_Conference.jpg</ImageURL>
+			<VideoURL>http://www.youtube.com/watch?v=hD0kUvoin4A</VideoURL>
+			<MapURL>http://www.companydirectorcheck.com/kenneth-roth</MapURL>
+			<SocialNetworkURL>https://twitter.com/KenRoth</SocialNetworkURL>
+			<Citation>http://en.wikipedia.org/wiki/Kenneth_Roth</Citation>
+			<ExternalLinkURL>http://www.hrw.org/bios/kenneth-roth</ExternalLinkURL>
+		</ExternalResources>
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="Eurozone_EC_2009"/>
+			<RelatedCrisis crisisIdent="Syrian_WAR_2011"/>
+			<RelatedCrisis crisisIdent="Darfur_WAR_2003"/>
+			<RelatedCrisis crisisIdent="West_Africa_FO_2012"/>
+		</RelatedCrises>
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="HRW"/>
+		</RelatedOrganizations>
+	</Person>
+	
+	
+	<!--Crisis Kind-->
+
+	<CrisisKind crisisKindIdent="ACC">
+    	<Name>Accident</Name>
+    	<Description>An unforeseen and unplanned event or circumstance, often with lack of intention or necessity. It usually implies a generally negative outcome which may have been avoided or prevented had circumstances leading up to the accident been recognized, and acted upon, prior to its occurrence.</Description>
+	</CrisisKind>
+	
+	<CrisisKind crisisKindIdent="FC">
+    	<Name>Food Crisis</Name>
+    	<Description>A food crisis occurs when rates of hunger and malnutrition rise sharply at local, national, or global levels.</Description>
+	</CrisisKind>
+	
+	<CrisisKind crisisKindIdent="EC">
+    	<Name>Economic Crisis</Name>
+    	<Description>A loss of confidence in a country&#39;s currency or other financial assets causing international investors to withdraw their funds from the country.</Description>
+	</CrisisKind>
+	
+	<CrisisKind crisisKindIdent="HU">
+    	<Name>Hurricane</Name>
+    	<Description>A storm system characterized by a low-pressure center surrounded by a spiral arrangement of thunderstorms that produce strong winds and heavy rain.</Description>
+	</CrisisKind>
+
+	<CrisisKind crisisKindIdent="TA">
+    	<Name>Terrorist attack</Name>
+    	<Description>A surprise attack involving the deliberate use of violence against civilians in the hope of attaining political or religious aims.</Description>
+	</CrisisKind>
+
+	<CrisisKind crisisKindIdent="TS">
+    	<Name>Tsunami</Name>
+    	<Description>A long high sea wave caused by an earthquake or other disturbance.</Description>
+  	</CrisisKind>
+  	
+  	<CrisisKind crisisKindIdent="WAR">
+		<Name>War</Name>
+		<Description>An organized and often prolonged conflict that is carried out by states and/or non-state actors.</Description>
+	</CrisisKind>
+	
+	<CrisisKind crisisKindIdent="WP">
+		<Name>Nuclear Testing</Name>
+		<Description>Weapons capable of causing widespread death and destruction</Description>
+	</CrisisKind>
+
+
+	<!--OrganizationKind-->
+	
+  	<OrganizationKind organizationKindIdent="AUN">
+    	<Name>Agency of the United Nations</Name>
+    	<Description>An agency under the United Nations</Description>
+  	</OrganizationKind>
+  	
+  	<OrganizationKind organizationKindIdent="ENV">
+    	<Name>Environmental Organization</Name>
+    	<Description>An environmental organization is an organization that seeks to protect, analyze or monitor the environment against misuse or degradation from human forces.</Description>
+  	</OrganizationKind>
+  	
+  	<OrganizationKind organizationKindIdent="EPU">
+    	<Name>Economic and Political Union</Name>
+    	<Description>A larger and consolidated group of nations or states that share a joint government or economic system that is internationally acknowledged</Description>
+  	</OrganizationKind>
+  	
+  	<OrganizationKind organizationKindIdent="HO">
+    	<Name>Humanitarian Organization</Name>
+    	<Description>Organization that provides humanitarian aid</Description>
+  	</OrganizationKind>
+
+  	<OrganizationKind organizationKindIdent="IO">
+    	<Name>International Organization</Name>
+    	<Description></Description>
+  	</OrganizationKind>
+
+  
+	<!--Person Kind-->
+	
+	<PersonKind personKindIdent="CEO">
+    	<Name>Chief Executive Officer</Name>
+    	<Description>Top executive responsible for a firm or organization's overall operations and performance</Description>
+  	</PersonKind>
+	
+	<PersonKind personKindIdent="LD">
+    	<Name>Leader</Name>
+    	<Description>Leader of an organization</Description>
+  	</PersonKind>
+	
+	<PersonKind personKindIdent="PO">
+    	<Name>Politician</Name>
+    	<Description>Person who is professionally involved in politics</Description>
+  	</PersonKind>
+	
+  	<PersonKind personKindIdent="PR">
+    	<Name>President</Name>
+    	<Description>Leader of a country or government</Description>
+  	</PersonKind>
+
+
+  	<PersonKind personKindIdent="PM">
+    	<Name>Prime Minister</Name>
+    	<Description>Leader of a Kingdom</Description>
+  	</PersonKind>
+
+</WorldCrises>

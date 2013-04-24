@@ -1,0 +1,1074 @@
+<WorldCrises>
+	<Crisis crisisIdent="Chernobyl_ACC_1986">
+		<Name>Chernobyl Disaster</Name>
+		<Kind crisisKindIdent="ACC"/>
+		<Location>
+			<Locality>Pripyat</Locality>
+			<Region>Kiev</Region>
+			<Country>Ukraine</Country>
+		</Location>
+		<StartDateTime>
+			<Date>1986-04-26</Date>
+			<Time>01:23:00</Time>
+		</StartDateTime>
+		<HumanImpact>
+			<Type>Death</Type>
+			<Number>31</Number>
+		</HumanImpact>
+		<HumanImpact>
+			<Type>Injured</Type>
+			<Number>500000</Number>
+		</HumanImpact>
+		<EconomicImpact>588M USD</EconomicImpact>
+		<ResourceNeeded>Labor</ResourceNeeded>
+		<ResourceNeeded>Transportation</ResourceNeeded>
+		<ResourceNeeded>Money</ResourceNeeded>
+		<ResourceNeeded>Shelter</ResourceNeeded>
+		<WaysToHelp>Providing room and board for refugees</WaysToHelp>
+		<WaysToHelp>Medical care for those Injured</WaysToHelp>
+		<ExternalResources>
+			<ImageURL>http://i.telegraph.co.uk/multimedia/archive/01755/chernobyl_1755717c.jpg</ImageURL>
+			<ExternalLinkURL>http://articles.latimes.com/1986-05-04/news/mn-3685_1_soviet-union</ExternalLinkURL>
+			<ExternalLinkURL>http://www.iaea.org/newscenter/focus/chernobyl/</ExternalLinkURL>
+		</ExternalResources>
+		<RelatedPersons>
+			<RelatedPerson personIdent="RWReagan"/>
+		</RelatedPersons>
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="IAEA"/>
+			<RelatedOrganization organizationIdent="UN"/>
+		</RelatedOrganizations>
+	</Crisis>
+
+	<Crisis crisisIdent="TMI_ACC_1979">
+		<Name>Three Mile Island Accident</Name>
+		<Kind crisisKindIdent="ACC"/>
+		<Location>
+			<Locality>Harrisburg</Locality>
+			<Region>Pennsylvania</Region>
+			<Country>United States</Country>
+		</Location>
+		<StartDateTime>
+			<Date>1979-03-28</Date>
+			<Time>04:00:00</Time>
+		</StartDateTime>
+		<HumanImpact>
+			<Type>Death</Type>
+			<Number>0</Number>
+		</HumanImpact>
+		<EconomicImpact>1B USD</EconomicImpact>
+		<ResourceNeeded>Labor</ResourceNeeded>
+		<ResourceNeeded>Transportation</ResourceNeeded>
+		<ResourceNeeded>Money</ResourceNeeded>
+		<ResourceNeeded>Shelter</ResourceNeeded>
+		<WaysToHelp>Room and board for refugees</WaysToHelp>
+		<WaysToHelp>Cleanup</WaysToHelp>
+		<ExternalResources>
+			<ExternalLinkURL>http://www.pbs.org/wgbh/amex/three/peopleevents/pandeAMEX86.html</ExternalLinkURL>
+		</ExternalResources>
+		<RelatedPersons>
+			<RelatedPerson personIdent="JECarter"/>
+		</RelatedPersons>
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="IAEA"/>
+		</RelatedOrganizations>
+	</Crisis>
+
+	<Crisis crisisIdent="SARS_DI_2003">
+		<Name>Sars Outbreak</Name>
+		<Kind crisisKindIdent="DI"/>
+		<Location>
+			<Locality>Foshan</Locality>
+			<Region>Guangdong</Region>
+			<Country>China</Country>
+		</Location>
+		<StartDateTime>
+			<Date>2002-11-06</Date>
+		</StartDateTime>
+		<HumanImpact>
+			<Type>Death</Type>
+			<Number>775</Number>
+		</HumanImpact>
+		<HumanImpact>
+			<Type>Injured</Type>
+			<Number>8273</Number>
+		</HumanImpact>
+		<EconomicImpact>Unknown</EconomicImpact>
+		<ResourceNeeded>Money</ResourceNeeded>
+		<ResourceNeeded>Medical Supplies</ResourceNeeded>
+		<WaysToHelp>Research for treatments and cures</WaysToHelp>
+		<WaysToHelp>Funding for medical care</WaysToHelp>
+		<ExternalResources>
+			<Citation>http://en.wikipedia.org/wiki/Margaret_Chan</Citation>
+			<ExternalLinkURL>http://www.ifrc.org/en/news-and-media/news-stories/international/red-cross-continues-response-to-widening-sars-threat/</ExternalLinkURL>
+		</ExternalResources>
+		<RelatedPersons>
+			<RelatedPerson personIdent="MChan"/>
+			<RelatedPerson personIdent="JLGerberding"/>
+		</RelatedPersons>
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="WHO"/>
+			<RelatedOrganization organizationIdent="CDC"/>
+		</RelatedOrganizations>
+	</Crisis>
+
+	<Crisis crisisIdent="Haiti_EQ_2010">
+		<Name>2010 Haiti Earthquake</Name>
+		<Kind crisisKindIdent="EQ"/>
+		<Location>
+			<Locality>Port-au-Prince</Locality>
+			<Region>Ouest Department</Region>
+			<Country>Haiti</Country>
+		</Location>
+		<StartDateTime>
+			<Date>2010-01-12</Date>
+			<Time>16:53:00</Time>
+		</StartDateTime>
+		<EndDateTime>
+			<Date>2010-01-12</Date>
+		</EndDateTime>
+		<HumanImpact>
+			<Type>Death</Type>
+			<Number>316000</Number>
+		</HumanImpact>
+		<HumanImpact>
+			<Type>Injured</Type>
+			<Number>3000000</Number>
+		</HumanImpact>
+		<EconomicImpact>2.3B USD</EconomicImpact>
+		<ResourceNeeded>Labor</ResourceNeeded>
+		<ResourceNeeded>Transportation</ResourceNeeded>
+		<ResourceNeeded>Money</ResourceNeeded>
+		<ResourceNeeded>Shelter</ResourceNeeded>
+		<WaysToHelp>Shelter</WaysToHelp>
+		<WaysToHelp>Food</WaysToHelp>
+		<WaysToHelp>Medical care</WaysToHelp>
+		<WaysToHelp>Funding for reconstruction</WaysToHelp>
+		<ExternalResources>
+			<ImageURL>http://www.peacecorpsconnect.org/2011/01/a-year-ago-haiti/</ImageURL>
+		</ExternalResources>
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="PIH"/>
+		</RelatedOrganizations>
+	</Crisis>
+
+	<Crisis crisisIdent="Japan_EQ_2011">
+		<Name>2011 Japanese Tsunami</Name>
+		<Kind crisisKindIdent="EQ"/>
+		<Location>
+			<Locality>Tohoku</Locality>
+			<Country>Japan</Country>
+		</Location>
+		<StartDateTime>
+			<Date>2011-03-11</Date>
+			<Time>14:26:00</Time>
+		</StartDateTime>
+		<HumanImpact>
+			<Type>Death</Type>
+			<Number>16000</Number>
+		</HumanImpact>
+		<HumanImpact>
+			<Type>Injured</Type>
+			<Number>23000</Number>
+		</HumanImpact>
+		<EconomicImpact>35B</EconomicImpact>
+		<ResourceNeeded>Labor</ResourceNeeded>
+		<ResourceNeeded>Medical Supplies</ResourceNeeded>
+		<ResourceNeeded>Money</ResourceNeeded>
+		<ResourceNeeded>Shelter</ResourceNeeded>
+		<WaysToHelp>Shelter</WaysToHelp>
+		<WaysToHelp>Food</WaysToHelp>
+		<WaysToHelp>Medical care</WaysToHelp>
+		<WaysToHelp>Funding for reconstruction</WaysToHelp>    
+		<ExternalResources>
+			<ExternalLinkURL>http://www.globalpost.com/dispatch/news/regions/asia-pacific/japan/110602/japan-tsunami-naoto-kan-reconstruction</ExternalLinkURL>
+		</ExternalResources>
+		<RelatedPersons>
+			<RelatedPerson personIdent="NKan"/>
+		</RelatedPersons>
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="FEMA"/>
+		</RelatedOrganizations>
+	</Crisis>
+
+	<Crisis crisisIdent="Joplin_TO_2011">
+		<Name>Joplin Tornado</Name>
+		<Kind crisisKindIdent="TO"/>
+		<Location>
+			<Locality>Joplin</Locality>
+			<Region>Missouri</Region>
+			<Country>United States</Country>
+		</Location>
+		<StartDateTime>
+			<Date>2011-05-22</Date>
+			<Time>17:34:00</Time>
+		</StartDateTime>
+		<EndDateTime>
+			<Date>2011-05-22</Date>
+			<Time>18:12:00</Time>
+		</EndDateTime>
+		<HumanImpact>
+			<Type>Death</Type>
+			<Number>158</Number>
+		</HumanImpact>
+		<HumanImpact>
+			<Type>Injured</Type>
+			<Number>17000</Number>
+		</HumanImpact>
+		<EconomicImpact>2.8B</EconomicImpact>
+		<ResourceNeeded>Labor</ResourceNeeded>
+		<ResourceNeeded>Medical Supplies</ResourceNeeded>
+		<ResourceNeeded>Money</ResourceNeeded>
+		<ResourceNeeded>Shelter</ResourceNeeded>
+		<WaysToHelp>Shelter</WaysToHelp>
+		<WaysToHelp>Food</WaysToHelp>
+		<WaysToHelp>Medical care</WaysToHelp>
+		<WaysToHelp>Funding for reconstruction</WaysToHelp>
+		<ExternalResources>
+			<ExternalLinkURL>http://www.nationalservice.gov/about/newsroom/releases_detail.asp?tbl_pr_id=2099</ExternalLinkURL>
+		</ExternalResources>
+		<RelatedPersons>
+			<RelatedPerson personIdent="MDBrown"/>
+		</RelatedPersons>
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="FEMA"/>
+		</RelatedOrganizations>
+	</Crisis>
+
+	<Crisis crisisIdent="Iran_EQ_2003">
+		<Name>Iran Earthquake</Name>
+		<Kind crisisKindIdent="EQ"/>
+		<Location>
+			<Locality>Bam</Locality>
+			<Region>Kerman</Region>
+			<Country>Iran</Country>
+		</Location>
+		<StartDateTime>
+			<Date>2003-12-26</Date>
+			<Time>13:26:00</Time>
+		</StartDateTime>
+		<HumanImpact>
+			<Type>Death</Type>
+			<Number>26271</Number>
+		</HumanImpact>
+		<HumanImpact>
+			<Type>Injured</Type>
+			<Number>145500</Number>
+		</HumanImpact>
+		<EconomicImpact>1500M</EconomicImpact>
+		<ResourceNeeded>Labor</ResourceNeeded>
+		<ResourceNeeded>Medical Supplies</ResourceNeeded>
+		<ResourceNeeded>Money</ResourceNeeded>
+		<ResourceNeeded>Shelter</ResourceNeeded>
+		<WaysToHelp>Shelter</WaysToHelp>
+		<WaysToHelp>Food</WaysToHelp>
+		<WaysToHelp>Medical care</WaysToHelp>
+		<WaysToHelp>Funding for reconstruction</WaysToHelp>
+		<ExternalResources>
+			<Citation>http://www.iitk.ac.in/nicee/wcee/article/14_01-1084.PDF</Citation>
+			<Citation>http://www.iranicaonline.org/articles/bam-earthquake-2003</Citation>
+			<ExternalLinkURL>http://en.wikipedia.org/wiki/Mohammad_Khatami</ExternalLinkURL>
+		</ExternalResources>
+		<RelatedPersons>
+			<RelatedPerson personIdent="MKhatami"/>
+		</RelatedPersons>
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="RC"/>
+			<RelatedOrganization organizationIdent="IAEA"/>
+		</RelatedOrganizations>
+	</Crisis>
+
+	<Crisis crisisIdent="HU_Katrina_2005">
+		<Name>Hurricane Katrina</Name>
+		<Kind crisisKindIdent="HU"/>
+		<Location>
+			<Locality>New Orleans</Locality>
+			<Region>Louisiana</Region>
+			<Country>United States</Country>
+		</Location>
+		<StartDateTime>
+			<Date>2005-08-23</Date>
+			<Time>17:00:00</Time>
+		</StartDateTime>
+		<EndDateTime>
+			<Date>2005-08-30</Date>
+			<Time>11:00:00</Time>
+		</EndDateTime>
+		<HumanImpact>
+			<Type>Death</Type>
+			<Number>1833</Number>
+		</HumanImpact>
+		<EconomicImpact>81B USD</EconomicImpact>
+		<ResourceNeeded>Labor</ResourceNeeded>
+		<ResourceNeeded>Medical Supplies</ResourceNeeded>
+		<ResourceNeeded>Money</ResourceNeeded>
+		<ResourceNeeded>Shelter</ResourceNeeded>
+		<ResourceNeeded>Transportation</ResourceNeeded>
+		<ResourceNeeded>Food and Water</ResourceNeeded>
+		<WaysToHelp>Shelter</WaysToHelp>
+		<WaysToHelp>Food</WaysToHelp>
+		<WaysToHelp>Medical care</WaysToHelp>
+		<WaysToHelp>Funding and labor for reconstruction</WaysToHelp>
+		<ExternalResources>
+			<VideoURL>http://www.nbcnews.com/id/9266986/#.UTkiThy0KSo</VideoURL>
+		</ExternalResources>
+		<RelatedPersons>
+			<RelatedPerson personIdent="GWBush"/>
+			<RelatedPerson personIdent="MDBrown"/>
+		</RelatedPersons>
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="FEMA"/>
+		</RelatedOrganizations>
+	</Crisis>
+
+	<Crisis crisisIdent="WTC_TA_2001">
+		<Name>September 11th</Name>
+		<Kind crisisKindIdent="TA"/>
+		<Location>
+			<Locality>New York City</Locality>
+			<Region>New York</Region>
+			<Country>United States</Country>
+		</Location>
+		<StartDateTime>
+			<Date>2001-09-11</Date>
+			<Time>09:03:02</Time>
+		</StartDateTime>
+		<HumanImpact>
+			<Type>Death</Type>
+			<Number>2996</Number>
+		</HumanImpact>
+		<HumanImpact>
+			<Type>Injured</Type>
+			<Number>6000</Number>
+		</HumanImpact>
+		<EconomicImpact>40B</EconomicImpact>
+		<ResourceNeeded>Labor</ResourceNeeded>
+		<ResourceNeeded>Medical Supplies</ResourceNeeded>
+		<ExternalResources>
+			<VideoURL>https://www.youtube.com/watch?v=dG_4RTvlnkg</VideoURL>
+		</ExternalResources>
+		<RelatedPersons>
+			<RelatedPerson personIdent="GWBush"/>
+			<RelatedPerson personIdent="RWGiuliani"/>
+		</RelatedPersons>
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="NYFD"/>
+		</RelatedOrganizations>
+	</Crisis>
+
+	<Crisis crisisIdent="H1N1_DI_2009">
+		<Name>Swine Flu</Name>
+		<Kind crisisKindIdent="DI"/>
+		<Location>
+			<Region>Northern Ireland</Region>
+			<Country>Ireland</Country>
+		</Location>
+		<StartDateTime>
+			<Date>2009-04-01</Date>
+		</StartDateTime>
+		<HumanImpact>
+			<Type>Death</Type>
+			<Number>14286</Number>
+		</HumanImpact>
+		<EconomicImpact>unknown</EconomicImpact>
+		<ResourceNeeded>Medical Supplies</ResourceNeeded>
+		<WaysToHelp>Research vaccines</WaysToHelp>
+		<ExternalResources>
+			<ExternalLinkURL>http://www.cdc.gov/h1n1flu/</ExternalLinkURL>
+			<ExternalLinkURL>http://www.who.int/csr/disease/swineflu/en/</ExternalLinkURL>
+		</ExternalResources>
+		<RelatedPersons>
+			<RelatedPerson personIdent="JLGerberding"/>
+		</RelatedPersons>
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="WHO"/>
+		</RelatedOrganizations>
+	</Crisis>
+
+	<Organization organizationIdent="RC">
+		<Name>Red Crescent</Name>
+		<Kind organizationKindIdent="HEA"/>
+		<Location>
+			<Locality>Geneva</Locality>
+			<Region>Western</Region>
+			<Country>Switzerland</Country>
+		</Location>
+		<History>The Red Cross idea was born in 1859, when Henry Dunant, a young Swiss man, came upon the scene of a bloody battle in Solferino, Italy, between the armies of imperial Austria and the Franco-Sardinian alliance. Some 40,000 men lay dead or dying on the battlefield and the wounded were lacking medical attention. </History>
+		<ContactInfo>
+			<Telephone>12123380161</Telephone>
+			<Fax>12123380161</Fax>
+			<Email>admin@redcrescentpenang.org.my</Email>
+			<PostalAddress>
+				<StreetAddress>P.O. Box 303</StreetAddress>
+				<Locality>Geneva</Locality>
+				<Region>Western</Region>
+				<PostalCode>1236</PostalCode>
+				<Country>Switzerland</Country>
+			</PostalAddress>
+		</ContactInfo>
+		<ExternalResources>
+			<Citation>IFRC, IranicaOnline, Wikipedia</Citation>
+			<ExternalLinkURL>http://www.ifrc.org/en/news-and-media/news-stories/international/red-cross-continues-response-to-widening-sars-threat/</ExternalLinkURL>
+			<ExternalLinkURL>http://www.iranicaonline.org/articles/bam-earthquake-2003</ExternalLinkURL>
+		</ExternalResources>
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="Iran_EQ_2003"/>
+			<RelatedCrisis crisisIdent="SARS_DI_2003"/>
+		</RelatedCrises>
+	</Organization>
+
+	<Organization organizationIdent="PIH">
+		<Name>Partners in Health</Name>
+		<Kind organizationKindIdent="HEA"/>
+		<Location>
+			<Locality>Boston</Locality>
+			<Region>Massachusetts</Region>
+			<Country>United States</Country>
+		</Location>
+		<History>PIH was founded in 1987 to deliver health care to the residents of Haitis mountainous Central Plateau region.</History>
+		<ContactInfo>
+			<Telephone>16179988922</Telephone>
+			<Fax>16179988922</Fax>
+			<Email>americorpsnational@cns.gov</Email>
+			<PostalAddress>
+				<StreetAddress>888 Commonwealth Ave</StreetAddress>
+				<Locality>Boston</Locality>
+				<Region>Massachusetts</Region>
+				<PostalCode>02215</PostalCode>
+				<Country>United States</Country>
+			</PostalAddress>
+		</ContactInfo>
+		<ExternalResources>
+			<ExternalLinkURL>http://www.pih.org/</ExternalLinkURL>
+		</ExternalResources>
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="Haiti_EQ_2010"/>
+		</RelatedCrises>
+	</Organization>
+
+	<Organization organizationIdent="ACorps">
+		<Name>Americorps</Name>
+		<Kind organizationKindIdent="GOV"/>
+		<Location>
+			<Locality>New York City</Locality>
+			<Region>New York</Region>
+			<Country>United States</Country>
+		</Location>
+		<History>The reasoning behind AmeriCorps comes from a long historical tradition of community service through civic associations.</History>
+		<ContactInfo>
+			<Telephone>2026065000</Telephone>
+			<Fax>2026065000</Fax>
+			<Email>americorpsnational@cns.gov</Email>
+			<PostalAddress>
+				<StreetAddress>1201 New York Avenue</StreetAddress>
+				<Locality>New York City</Locality>
+				<Region>New York</Region>
+				<PostalCode>20525</PostalCode>
+				<Country>United States</Country>
+			</PostalAddress>
+		</ContactInfo>
+		<ExternalResources>
+			<Citation>nationalservice.gov</Citation>
+			<ExternalLinkURL>http://www.nationalservice.gov/about/newsroom/releases_detail.asp?tbl_pr_id=2099</ExternalLinkURL>
+		</ExternalResources>
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="Joplin_TO_2011"/>
+		</RelatedCrises>
+	</Organization>
+
+	<Organization organizationIdent="PC">
+		<Name>Peace Corps</Name>
+		<Kind organizationKindIdent="HO"/>
+		<Location>
+			<Locality>New York City</Locality>
+			<Region>New York</Region>
+			<Country>United States</Country>
+		</Location>
+		<History>The Peace Corps traces its roots and mission to 1960, when then-Sen. John F. Kennedy challenged students at the University of Michigan to serve their country in the cause of peace by living and working in developing countries.</History>
+		<ContactInfo>
+			<Telephone>18558551961</Telephone>
+			<Fax>18558551961</Fax>
+			<Email>psa@peacecorps.gov</Email>
+			<PostalAddress>
+				<StreetAddress>1111 20th St.</StreetAddress>
+				<Locality>New York City</Locality>
+				<Region>New York</Region>
+				<PostalCode>20526</PostalCode>
+				<Country>United States</Country>
+			</PostalAddress>
+		</ContactInfo>
+		<ExternalResources>
+			<ExternalLinkURL>http://www.peacecorpsconnect.org/2011/01/a-year-ago-haiti/</ExternalLinkURL>
+		</ExternalResources>
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="Japan_EQ_2011"/>
+		</RelatedCrises>
+		<RelatedPersons>
+			<RelatedPerson personIdent="JECarter"/>
+		</RelatedPersons>
+	</Organization>
+
+	<Organization organizationIdent="IAEA">
+		<Name>International Atomic Energy Agency</Name>
+		<Kind organizationKindIdent="HO"/>
+		<Location>
+			<Locality>Vienna</Locality>
+			<Region>Wien</Region>
+			<Country>Austria</Country>
+		</Location>
+		<History>The IAEA was created in 1957 in response to the deep fears and expectations resulting from the discovery of nuclear energy.</History>
+		<ContactInfo>
+			<Telephone>43126000</Telephone>
+			<Fax>18558551961</Fax>
+			<Email>official.mail@iaea.org</Email>
+			<PostalAddress>
+				<StreetAddress>PO Box 100</StreetAddress>
+				<Locality>Vienna</Locality>
+				<Region>Wien</Region>
+				<PostalCode>1400</PostalCode>
+				<Country>Austria</Country>
+			</PostalAddress>
+		</ContactInfo>
+		<ExternalResources>
+			<ExternalLinkURL>http://www.iaea.org/newscenter/focus/chernobyl/ </ExternalLinkURL>
+		</ExternalResources>
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="TMI_ACC_1979"/>
+			<RelatedCrisis crisisIdent="Chernobyl_ACC_1986"/>
+			<RelatedCrisis crisisIdent="Japan_EQ_2011"/>
+		</RelatedCrises>
+		<RelatedPersons>
+			<RelatedPerson personIdent="NKan"/>
+		</RelatedPersons>
+	</Organization>
+
+	<Organization organizationIdent="UN">
+		<Name>United Nations (UN)</Name>
+		<Kind organizationKindIdent="GOV"/>
+		<Location>
+			<Locality>Washington D.C.</Locality>
+			<Region>District of Columbia</Region>
+			<Country>United States</Country>
+		</Location>
+		<History>The name United Nations, coined by United States President Franklin D. Roosevelt, was first used in the Declaration by United Nations of 1 January 1942, during the Second World War, when representatives of 26 nations pledged their Governments to continue fighting together against the Axis Powers.</History>
+		<ContactInfo>
+			<Telephone>2028879040</Telephone>
+			<Fax>2028879040</Fax>
+			<Email>inquiries@un.org</Email>
+			<PostalAddress>
+				<StreetAddress>1800 Massachusetts Avenue</StreetAddress>
+				<Locality>Washington D.C.</Locality>
+				<Region>District of Columbia</Region>
+				<PostalCode>20036</PostalCode>
+				<Country>United States</Country>
+			</PostalAddress>
+		</ContactInfo>
+		<ExternalResources>
+			<ExternalLinkURL>http://www.un.org/en/</ExternalLinkURL>
+		</ExternalResources>
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="Chernobyl_ACC_1986"/>
+			<RelatedCrisis crisisIdent="WTC_TA_2001"/>
+			<RelatedCrisis crisisIdent="Haiti_EQ_2010"/>
+			<RelatedCrisis crisisIdent="Japan_EQ_2011"/>
+		</RelatedCrises>
+		<RelatedPersons>
+			<RelatedPerson personIdent="KAAnnan"/>
+		</RelatedPersons>
+	</Organization>
+
+	<Organization organizationIdent="CDC">
+		<Name>Center for Disease Control (CDC)</Name>
+		<Kind organizationKindIdent="HEA"/>
+		<Location>
+			<Locality>Druid Hills</Locality>
+			<Region>Georgia</Region>
+			<Country>United States</Country>
+		</Location>
+		<History>The Communicable Diseases Center was founded July 1, 1946 as the successor to the World War II Malaria Control in War Areas program of Office of National Defense Malaria Control Activities.</History>
+		<ContactInfo>
+			<Telephone>18002324636</Telephone>
+			<Fax>2028879040</Fax>
+			<Email>info@cdc.gov</Email>
+			<PostalAddress>
+				<StreetAddress>1600 Clifton Rd</StreetAddress>
+				<Locality>Druid Hills</Locality>
+				<Region>Georgia</Region>
+				<PostalCode>30333</PostalCode>
+				<Country>United States</Country>
+			</PostalAddress>
+		</ContactInfo>
+		<ExternalResources>
+			<ExternalLinkURL>http://www.cdc.gov/h1n1flu/</ExternalLinkURL>
+		</ExternalResources>
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="Haiti_EQ_2010"/>
+			<RelatedCrisis crisisIdent="SARS_DI_2003"/>
+			<RelatedCrisis crisisIdent="H1N1_DI_2009"/>
+			<RelatedCrisis crisisIdent="HU_Katrina_2005"/>
+		</RelatedCrises>
+		<RelatedPersons>
+			<RelatedPerson personIdent="JLGerberding"/>
+		</RelatedPersons>
+	</Organization>
+
+	<Organization organizationIdent="NYFD">
+		<Name>New York Fire Department</Name>
+		<Kind organizationKindIdent="PUB"/>
+		<Location>
+			<Locality>New York City</Locality>
+			<Region>New York</Region>
+			<Country>United States</Country>
+		</Location>
+		<History>The origins of the New York City Fire Department go back to 1648 when the first fire ordinance was adopted in what was then the Dutch settlement of New Amsterdam.</History>
+		<ContactInfo>
+			<Telephone>911</Telephone>
+			<Fax>911</Fax>
+			<Email>fdny@nyc.gov</Email>
+			<PostalAddress>
+				<StreetAddress>750 Main St.</StreetAddress>
+				<Locality>New York City</Locality>
+				<Region>New York</Region>
+				<PostalCode>11044</PostalCode>
+				<Country>United States</Country>
+			</PostalAddress>
+		</ContactInfo>
+		<ExternalResources>
+			<ImageURL>http://blogs.laweekly.com/informer/9-11_firefighters.jpg</ImageURL>
+			<Citation>LA Weekly</Citation>
+		</ExternalResources>
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="WTC_TA_2001"/>
+			<RelatedCrisis crisisIdent="Haiti_EQ_2010"/>
+		</RelatedCrises>
+		<RelatedPersons>
+			<RelatedPerson personIdent="RWGiuliani"/>
+		</RelatedPersons>
+	</Organization>
+
+	<Organization organizationIdent="FEMA">
+		<Name>Federal Emergency Management Agency (FEMA)</Name>
+		<Kind organizationKindIdent="DRA"/>
+		<Location>
+			<Locality>Washington D.C.</Locality>
+			<Region>District of Columbia</Region>
+			<Country>United States</Country>
+		</Location>
+		<History>Initially created by Presidential Reorganization Plan No. 3 of 1978 and implemented by two Executive Orders on April 1, 1979.</History>
+		<ContactInfo>
+			<Telephone>2026462500</Telephone>
+			<Fax>2026462500</Fax>
+			<Email>john.hamill2@fema.dhs.gov</Email>
+			<PostalAddress>
+				<StreetAddress>500 C St SW</StreetAddress>
+				<Locality>Washington D.C.</Locality>
+				<Region>District of Columbia</Region>
+				<PostalCode>20472</PostalCode>
+				<Country>United States</Country>
+			</PostalAddress>
+		</ContactInfo>
+		<ExternalResources>
+			<VideoURL>http://www.nbcnews.com/id/9266986/#.UTkiThy0KSo</VideoURL>
+			<Citation>NBC</Citation>
+		</ExternalResources>
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="Japan_EQ_2011"/>
+			<RelatedCrisis crisisIdent="Joplin_TO_2011"/>
+			<RelatedCrisis crisisIdent="HU_Katrina_2005"/>
+			<RelatedCrisis crisisIdent="Haiti_EQ_2010"/>
+			<RelatedCrisis crisisIdent="TMI_ACC_1979"/>
+		</RelatedCrises>
+		<RelatedPersons>
+			<RelatedPerson personIdent="MDBrown"/>
+			<RelatedPerson personIdent="GWBush"/>
+		</RelatedPersons>
+	</Organization>
+
+	<Organization organizationIdent="WHO">
+		<Name>World Health Organization (WHO)</Name>
+		<Kind organizationKindIdent="HEA"/>
+		<Location>
+			<Locality>Geneva</Locality>
+			<Region>Western</Region>
+			<Country>Switzerland</Country>
+		</Location>
+		<History>Established in Geneva in 1948 to succeed two earlier agencies. Its greatest success to date has been the worldwide eradication of smallpox in 1980.</History>
+		<ContactInfo>
+			<Telephone>412279121111</Telephone>
+			<Fax>412279121111</Fax>
+			<Email>postmaster@who-eu.be</Email>
+			<PostalAddress>
+				<StreetAddress>20 Avenue Appia</StreetAddress>
+				<Locality>Geneva</Locality>
+				<Region>Western</Region>
+				<PostalCode>1236</PostalCode>
+				<Country>Switzerland</Country>
+			</PostalAddress>
+		</ContactInfo>
+		<ExternalResources>
+			<ExternalLinkURL>http://www.who.int/csr/disease/swineflu/en/</ExternalLinkURL>
+		</ExternalResources>
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="SARS_DI_2003"/>
+			<RelatedCrisis crisisIdent="H1N1_DI_2009"/>
+			<RelatedCrisis crisisIdent="Haiti_EQ_2010"/>
+		</RelatedCrises>
+		<RelatedPersons>
+			<RelatedPerson personIdent="MChan"/>
+		</RelatedPersons>
+	</Organization>
+
+	<Person personIdent="MKhatami">
+		<Name>
+			<FirstName>Mohammad</FirstName>
+			<MiddleName/>
+			<LastName>Khatami</LastName>
+		</Name>
+		<Kind personKindIdent="PO"/>
+		<Location>
+			<Locality>Tehran</Locality>
+			<Region>Bam</Region>
+			<Country>Iran</Country>
+		</Location>
+		<ExternalResources>
+			<Citation>Wikipedia</Citation>
+			<ExternalLinkURL>http://en.wikipedia.org/wiki/Mohammad_Khatami</ExternalLinkURL>
+		</ExternalResources>
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="Iran_EQ_2003"/>
+		</RelatedCrises>
+	</Person>
+
+	<Person personIdent="KAAnnan">
+		<Name>
+			<FirstName>Kofi</FirstName>
+			<MiddleName>Atta</MiddleName>
+			<LastName>Annan</LastName>
+		</Name>
+		<Kind personKindIdent="HO"/>
+		<Location>
+			<Locality>Kumasi</Locality>
+			<Region>Ashanti</Region>
+			<Country>Ghana</Country>
+		</Location>
+		<ExternalResources>
+			<Citation>UN.org</Citation>
+			<ExternalLinkURL>http://www.un.org/sg/formersg/annan.shtml</ExternalLinkURL>
+		</ExternalResources>
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="WTC_TA_2001"/>
+		</RelatedCrises>
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="UN"/>
+		</RelatedOrganizations>
+	</Person>
+
+	<Person personIdent="MDBrown">
+		<Name>
+			<FirstName>Michael</FirstName>
+			<MiddleName>DeWayne</MiddleName>
+			<LastName>Brown</LastName>
+		</Name>
+		<Kind personKindIdent="HO"/>
+		<Location>
+			<Locality>Boulder</Locality>
+			<Region>Colorado</Region>
+			<Country>United States</Country>
+		</Location>
+		<ExternalResources>
+			<VideoURL>http://www.nbcnews.com/id/9266986/#.UTkiThy0KSo</VideoURL>
+			<Citation>NBC, WIkipedia</Citation>
+		</ExternalResources>
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="Joplin_TO_2011"/>
+			<RelatedCrisis crisisIdent="HU_Katrina_2005"/>
+		</RelatedCrises>
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="FEMA"/>
+		</RelatedOrganizations>
+	</Person>
+
+	<Person personIdent="JLGerberding">
+		<Name>
+			<FirstName>Julie</FirstName>
+			<MiddleName>Louise</MiddleName>
+			<LastName>Gerberding</LastName>
+		</Name>
+		<Kind personKindIdent="HO"/>
+		<Location>
+			<Locality>San Francisco</Locality>
+			<Region>California</Region>
+			<Country>United States</Country>
+		</Location>
+		<ExternalResources>
+			<Citation>Wikipedia</Citation>
+			<ExternalLinkURL>http://en.wikipedia.org/wiki/Julie_Gerberding</ExternalLinkURL>
+		</ExternalResources>
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="H1N1_DI_2009"/>
+			<RelatedCrisis crisisIdent="SARS_DI_2003"/>
+			<RelatedCrisis crisisIdent="HU_Katrina_2005"/>
+		</RelatedCrises>
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="CDC"/>
+		</RelatedOrganizations>
+	</Person>
+
+	<Person personIdent="JECarter">
+		<Name>
+			<FirstName>Jimmy</FirstName>
+			<MiddleName>Earl</MiddleName>
+			<LastName>Carter</LastName>
+		</Name>
+		<Kind personKindIdent="PO"/>
+		<Location>
+			<Locality>Plains</Locality>
+			<Region>Georgia</Region>
+			<Country>United States</Country>
+		</Location>
+		<ExternalResources>
+			<Citation>PBS, Wikipedia</Citation>
+			<ExternalLinkURL>http://www.pbs.org/wgbh/amex/three/peopleevents/pandeAMEX86.html</ExternalLinkURL>
+		</ExternalResources>
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="TMI_ACC_1979"/>
+		</RelatedCrises>
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="PC"/>
+		</RelatedOrganizations>
+	</Person>
+
+	<Person personIdent="RWGiuliani">
+		<Name>
+			<FirstName>Rudy</FirstName>
+			<MiddleName>William Louis</MiddleName>
+			<LastName>Giuliani</LastName>
+		</Name>
+		<Kind personKindIdent="PO"/>
+		<Location>
+			<Locality>New York City</Locality>
+			<Region>New York</Region>
+			<Country>United States</Country>
+		</Location>
+		<ExternalResources>
+			<VideoURL>https://www.youtube.com/watch?v=dG_4RTvlnkg</VideoURL>
+			<Citation>YouTube, Wikipedia</Citation>
+		</ExternalResources>
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="WTC_TA_2001"/>
+		</RelatedCrises>
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="NYFD"/>
+		</RelatedOrganizations>
+	</Person>
+
+	<Person personIdent="NKan">
+		<Name>
+			<FirstName>Naoto</FirstName>
+			<MiddleName/>
+			<LastName>Kan</LastName>
+		</Name>
+		<Kind personKindIdent="PO"/>
+		<Location>
+			<Locality>Ube</Locality>
+			<Region>Yamaguchi</Region>
+			<Country>Japan</Country>
+		</Location>
+		<ExternalResources>
+			<Citation>Global Post, Wikipedia</Citation>
+			<ExternalLinkURL>http://www.globalpost.com/dispatch/news/regions/asia-pacific/japan/110602/japan-tsunami-naoto-kan-reconstruction</ExternalLinkURL>
+		</ExternalResources>
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="Japan_EQ_2011"/>
+		</RelatedCrises>
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="IAEA"/>
+		</RelatedOrganizations>
+	</Person>
+
+	<Person personIdent="RWReagan">
+		<Name>
+			<FirstName>Ronald</FirstName>
+			<MiddleName>Wilson</MiddleName>
+			<LastName>Reagan</LastName>
+		</Name>
+		<Kind personKindIdent="PO"/>
+		<Location>
+			<Locality>Los Angeles</Locality>
+			<Region>California</Region>
+			<Country>United States</Country>
+		</Location>
+		<ExternalResources>
+			<Citation>Wikipedia</Citation>
+			<ExternalLinkURL>http://en.wikipedia.org/wiki/Mohhttp://articles.latimes.com/1986-05-04/news/mn-3685_1_soviet-union</ExternalLinkURL>
+		</ExternalResources>
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="Chernobyl_ACC_1986"/>
+		</RelatedCrises>
+	</Person>
+
+	<Person personIdent="MChan">
+		<Name>
+			<FirstName>Margaret</FirstName>
+			<MiddleName/>
+			<LastName>Chan</LastName>
+		</Name>
+		<Kind personKindIdent="HO"/>
+		<Location>
+			<Locality>Hong Kong</Locality>
+			<Region>Nanhai</Region>
+			<Country>United States</Country>
+		</Location>
+		<ExternalResources>
+			<Citation>Wikipedia</Citation>
+			<ExternalLinkURL>http://en.wikipedia.org/wiki/Margaret_Chan</ExternalLinkURL>
+		</ExternalResources>
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="SARS_DI_2003"/>
+			<RelatedCrisis crisisIdent="H1N1_DI_2009"/>
+			<RelatedCrisis crisisIdent="Haiti_EQ_2010"/>
+		</RelatedCrises>
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="WHO"/>
+		</RelatedOrganizations>
+	</Person>
+
+	<Person personIdent="GWBush">
+		<Name>
+			<FirstName>George</FirstName>
+			<MiddleName>Walker</MiddleName>
+			<LastName>Bush</LastName>
+		</Name>
+		<Kind personKindIdent="PO"/>
+		<Location>
+			<Locality>Dallas</Locality>
+			<Region>Texas</Region>
+			<Country>United States</Country>
+		</Location>
+		<ExternalResources>
+			<VideoURL>http://www.nbcnews.com/id/9266986/#.UTkiThy0KSo</VideoURL>
+			<Citation>NBC, Wikipedia</Citation>
+		</ExternalResources>
+		<RelatedCrises>
+			<RelatedCrisis crisisIdent="HU_Katrina_2005"/>
+			<RelatedCrisis crisisIdent="WTC_TA_2001"/>
+		</RelatedCrises>
+		<RelatedOrganizations>
+			<RelatedOrganization organizationIdent="FEMA"/>
+		</RelatedOrganizations>
+	</Person>
+
+	<CrisisKind crisisKindIdent="ACC">
+		<Name>Accident</Name>
+		<Description>A result of human error</Description>
+	</CrisisKind>
+	<CrisisKind crisisKindIdent="CO">
+		<Name>Conflic</Name>
+		<Description>Two forces in disagreement</Description>
+	</CrisisKind>
+	<CrisisKind crisisKindIdent="DI">
+		<Name>Disease</Name>
+		<Description>Compromised health through biological threats</Description>
+	</CrisisKind>
+	<CrisisKind crisisKindIdent="EQ">
+		<Name>Earthquake</Name>
+		<Description>Shifting of tectonic plates. Measured on Richter scale</Description>
+	</CrisisKind>
+	<CrisisKind crisisKindIdent="EC">
+		<Name>Economic Crises</Name>
+		<Description>Financial instability</Description>
+	</CrisisKind>
+	<CrisisKind crisisKindIdent="FR">
+		<Name>Fire</Name>
+		<Description>Massive damage due to fire</Description>
+	</CrisisKind>
+	<CrisisKind crisisKindIdent="FL">
+		<Name>Flood</Name>
+		<Description>Massive amounts of water in a condensed area</Description>
+	</CrisisKind>
+	<CrisisKind crisisKindIdent="FC">
+		<Name>Food Crisis</Name>
+		<Description>Lack of essential nutrients</Description>
+	</CrisisKind>
+	<CrisisKind crisisKindIdent="GC">
+		<Name>Genocide</Name>
+		<Description>Murder of one race</Description>
+	</CrisisKind>
+	<CrisisKind crisisKindIdent="HT">
+		<Name>Human Trafficking</Name>
+		<Description>Treating a person like a good to be sold, violating basic human rights</Description>
+	</CrisisKind>
+	<CrisisKind crisisKindIdent="HU">
+		<Name>Hurricane</Name>
+		<Description>Storm with violent winds</Description>
+	</CrisisKind>
+	<CrisisKind crisisKindIdent="TA">
+		<Name>Terrorist Attack</Name>
+		<Description>Surprise attack from a group with political or religious aim</Description>
+	</CrisisKind>
+	<CrisisKind crisisKindIdent="TO">
+		<Name>Tornada</Name>
+		<Description>Funnel shaped vortex with extremely high winds</Description>
+	</CrisisKind>
+	<CrisisKind crisisKindIdent="TS">
+		<Name>Tsunami</Name>
+		<Description>Massive wave. Sometimes resulting from earthquakes</Description>
+	</CrisisKind>
+	<CrisisKind crisisKindIdent="VO">
+		<Name>Volcano</Name>
+		<Description>Mountain like object with capabilities of erupting with liquid hot magma</Description>
+	</CrisisKind>
+	<CrisisKind crisisKindIdent="WAR">
+		<Name>War</Name>
+		<Description>Conflict between countries</Description>
+	</CrisisKind>
+	<CrisisKind crisisKindIdent="WP">
+		<Name>Weapons</Name>
+		<Description>Violence involving an instrument for destruction</Description>
+	</CrisisKind>
+	<CrisisKind crisisKindIdent="MIS">
+		<Name>Other</Name>
+		<Description>Everything else</Description>
+	</CrisisKind>
+	<OrganizationKind organizationKindIdent="HO">
+		<Name>Humanitarian</Name>
+		<Description>Concerned with or seeking to promote human welfare</Description>
+	</OrganizationKind>
+	<OrganizationKind organizationKindIdent="HEA">
+		<Name>Health</Name>
+		<Description>Designed to promote health relief and education</Description>
+	</OrganizationKind>
+	<OrganizationKind organizationKindIdent="PUB">
+		<Name>Public Service</Name>
+		<Description>Groups dedicated to helping the public and its instutions</Description>
+	</OrganizationKind>
+	<OrganizationKind organizationKindIdent="DRA">
+		<Name>Disaster Relief</Name>
+		<Description>Providing relief to areas of recent/ongoing disaster whether natural or non-natural.</Description>
+	</OrganizationKind>
+	<OrganizationKind organizationKindIdent="GOV">
+		<Name>Governmental Organization</Name>
+		<Description>Administrative unit of the government designed to improve a specific area.</Description>
+	</OrganizationKind>
+
+	<PersonKind personKindIdent="HM">
+		<Name>Humanitarian</Name>
+		<Description>Having the interests of mankind at heart</Description>
+	</PersonKind>
+	<PersonKind personKindIdent="HO">
+		<Name>Head of Organization</Name>
+		<Description>Leader/CEO/Owner of an organization. The person in charge</Description>
+	</PersonKind>
+	<PersonKind personKindIdent="RE">
+		<Name>Researcher</Name>
+		<Description>A person designated to study and gather information.</Description>
+	</PersonKind>
+	<PersonKind personKindIdent="BU">
+		<Name>Businessman/woman</Name>
+		<Description>A person in the business of selling/trading goods</Description>
+	</PersonKind>
+	<PersonKind personKindIdent="PO">
+		<Name>Politician</Name>
+		<Description>A person who is professionally involved in politics (The activities associated with the governance of a country or area)</Description>
+	</PersonKind>
+</WorldCrises>

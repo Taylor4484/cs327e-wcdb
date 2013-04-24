@@ -1,0 +1,1025 @@
+<?xml version = "1.0" ?>
+
+<WorldCrises>
+  <Crisis crisisIdent = "Enron_EC_2001">
+    <Name>Enron Collapse</Name>
+    <Kind crisisKindIdent = "FC" />
+    <Location>
+      <Locality>Houston</Locality>
+      <Region>TX</Region>
+      <Country>United States</Country>
+    </Location>
+    <StartDateTime>
+      <Date>2001-08-14</Date>
+    </StartDateTime>
+    <HumanImpact>
+      <Type>Financial Loss</Type>
+      <Number>60000000000</Number>
+    </HumanImpact>
+    <EconomicImpact>Greatest stock value loss in peaceful times and the largest bankruptcy in American history.</EconomicImpact>
+    <ExternalResources>
+      <ImageURL>http://rememberinghistory.files.wordpress.com/2012/11/enron_logo.jpg%3Fw%3D610</ImageURL>
+      <VideoURL>http://www.youtube.com/watch?v=QS5aosxUfvY</VideoURL>
+      <MapURL>https://maps.google.com/maps?hl=enampq=1400+smith+street+houston+77002ampbav=on.2,or.r_gc.r_pw.r_cp.r_qf.ampbvm=bv.43287494,d.b2Iampbiw=640ampbih=679ampum=1ampie=UTF-8ampsa=Namptab=wl</MapURL>
+    </ExternalResources>
+    <RelatedPersons>
+      <RelatedPerson personIdent = "KLay" />
+      <RelatedPerson personIdent = "AGreenspan" />
+    </RelatedPersons>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent = "SEC" />
+    </RelatedOrganizations>
+  </Crisis>
+
+  <Crisis crisisIdent = "EC_1929">
+    <Name>Great Depression</Name>
+    <Kind crisisKindIdent = "FC" />
+    <Location>
+      <Locality>New York City</Locality>
+      <Region>New York</Region>
+      <Country>United States</Country>
+    </Location>
+    <StartDateTime>
+      <Date>1929-10-29</Date>
+    </StartDateTime>
+    <EndDateTime>
+      <Date>1941-12-08</Date>
+    </EndDateTime>
+    <HumanImpact>
+      <Type>Financial loss and emotional struggle</Type>
+      <Number>0</Number>
+    </HumanImpact>
+    <EconomicImpact>US economy declined after the crash, and many other countries began to follow suit.</EconomicImpact>
+    <ExternalResources>
+      <ImageURL>http://upload.wikimedia.org/wikipedia/commons/5/54/Lange-MigrantMother02.jpg</ImageURL>
+      <VideoURL>http://www.youtube.com/watch?v=TpfY8kh5lUw</VideoURL>
+    </ExternalResources>
+    <RelatedPersons>
+      <RelatedPerson personIdent = "FDRoosevelt" />
+      <RelatedPerson personIdent = "BSBernanke" />
+    </RelatedPersons>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent = "FDIC" />
+      <RelatedOrganization organizationIdent = "FRS" />
+    </RelatedOrganizations>
+  </Crisis>
+
+  <Crisis crisisIdent = "EC_2008">
+    <Name>2008 Financial Crisis</Name>
+    <Kind crisisKindIdent = "FC" />
+    <Location>
+      <Country>United States</Country>
+    </Location>
+    <StartDateTime>
+      <Date>2007-08-07</Date>
+    </StartDateTime>
+    <HumanImpact>
+      <Type>Financial Loss</Type>
+      <Number>60000000000</Number>
+    </HumanImpact>
+    <EconomicImpact>Declines in consumption and investment. Housing prices fell 20%.</EconomicImpact>
+    <ExternalResources>
+      <VideoURL>https://www.youtube.com/watch?v=N9YLta5Tr2A</VideoURL>
+    </ExternalResources>
+    <RelatedPersons>
+      <RelatedPerson personIdent = "GWBush" />
+      <RelatedPerson personIdent = "MDraghi" />
+      <RelatedPerson personIdent = "AGreenspan" />
+    </RelatedPersons>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent = "FRS" />
+      <RelatedOrganization organizationIdent = "ECB" />
+    </RelatedOrganizations>
+  </Crisis>
+
+  <Crisis crisisIdent = "Oil_EC_1973">
+    <Name>1973 Oil Crisis</Name>
+    <Kind crisisKindIdent = "FC" />
+    <Location>
+      <Country>United States</Country>
+    </Location>
+    <StartDateTime>
+      <Date>1973-10-16</Date>
+    </StartDateTime>
+    <EndDateTime>
+      <Date>1974-03-17</Date>
+    </EndDateTime>
+    <HumanImpact>
+      <Type>Financial loss as well as panic over the possibility of war.</Type>
+      <Number>0</Number>
+    </HumanImpact>
+    <EconomicImpact>The price of oil increased 400% leading to economic leverage and wealth for oil-producing countries in the middle east.</EconomicImpact>
+    <ExternalResources>
+      <ImageURL>http://upload.wikimedia.org/wikipedia/commons/e/ed/FLAG_POLICY_DURING_THE_1973_oil_crisis.gif</ImageURL>
+      <VideoURL>http://www.youtube.com/watch?v=VCLRlVxOH-Q</VideoURL>
+    </ExternalResources>
+    <RelatedPersons>
+      <RelatedPerson personIdent = "BSBernanke" />
+    </RelatedPersons>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent = "FRS" />
+    </RelatedOrganizations>
+  </Crisis>
+
+  <Crisis crisisIdent = "WTC_TA_2001">
+    <Name>World Trade Center Attacks</Name>
+    <Kind crisisKindIdent = "WAR" />
+    <Location>
+      <Locality>New York City</Locality>
+      <Region>New York</Region>
+      <Country>United States</Country>
+    </Location>
+    <StartDateTime>
+      <Date>2001-09-11</Date>
+    </StartDateTime>
+    <HumanImpact>
+      <Type>Loss of the feeling of security. Increase in patriotism, home and family, church, and blood donations. Stocks fell and there was a huge loss over the months following.</Type>
+      <Number>0</Number>
+    </HumanImpact>
+    <EconomicImpact>Stock exchange closed for a week, stocks fell and billions of dollars were lost.</EconomicImpact>
+    <ExternalResources>
+      <ImageURL>http://spinalcolumnradio.files.wordpress.com/2010/07/911-twin-towers-fire.jpg</ImageURL>
+      <VideoURL>https://www.youtube.com/watch?v=_u9kieqGppE</VideoURL>
+      <MapURL>https://maps.google.com/maps?hl=enampq=1+world+trade+center+new+york+street+addressampie=UTF-8amphq=amphnear=0x89c25a1bcfb6ae35:0x83b61a4dc69b3439,One+World+Trade+Center,+Vesey+St,+New+York,+NY+10006ampgl=usampei=TEo4UdO5LIqA2gXlyYEQampved=0CDAQ8gEwAA</MapURL>
+    </ExternalResources>
+    <RelatedPersons>
+      <RelatedPerson personIdent = "GWBush" />
+      <RelatedPerson personIdent = "BHObama" />
+      <RelatedPerson personIdent = "SHussein" />
+      <RelatedPerson personIdent = "OBLaden" />
+      <RelatedPerson personIdent = "AGreenspan" />
+    </RelatedPersons>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent = "CIA" />
+    </RelatedOrganizations>
+  </Crisis>
+
+  <Crisis crisisIdent = "Corn_DS_1970">
+    <Name>United States Corn Epidemic of 1970</Name>
+    <Kind crisisKindIdent = "DI" />
+    <Location>
+      <Country>United States</Country>
+    </Location>
+    <StartDateTime>
+      <Date>1970-02-01</Date>
+    </StartDateTime>
+    <HumanImpact>
+      <Type>Financial loss and food shortage</Type>
+      <Number>0</Number>
+    </HumanImpact>
+    <EconomicImpact>Spikes in corn and livestock trading overnight, leading to some farmers becoming extremely wealthy overnight.</EconomicImpact>
+    <ExternalResources>
+      <ImageURL>http://www2.nau.edu/~bio372-c/images/sclb1s.gif</ImageURL>
+      <ImageURL>http://www2.nau.edu/~bio372-c/images/sclb4s.gif</ImageURL>
+    </ExternalResources>
+    <RelatedPersons>
+      <RelatedPerson personIdent = "FDRoosevelt" />
+      <RelatedPerson personIdent = "CMHardin" />
+    </RelatedPersons>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent = "USDA" />
+    </RelatedOrganizations>
+  </Crisis>
+
+  <Crisis crisisIdent = "WAR_Terror_2001">
+    <Name>War on Terror</Name>
+    <Kind crisisKindIdent = "WAR" />
+    <Location>
+      <Country>United States</Country>
+    </Location>
+    <StartDateTime>
+      <Date>2001-10-07</Date>
+    </StartDateTime>
+    <HumanImpact>
+      <Type>Led to a people's outcry for new leadership.</Type>
+      <Number>0</Number>
+    </HumanImpact>
+    <EconomicImpact>Spending was $1.2 trillion in 2011 and there was a long-term spending estimate of $5.4 trillion plus interest.</EconomicImpact>
+    <ExternalResources>
+      <ImageURL>http://upload.wikimedia.org/wikipedia/commons/thumb/b/be/War_on_Terror_montage1.png/800px-War_on_Terror_montage1.png</ImageURL>
+      <VideoURL>https://www.youtube.com/watch?v=gnwZVv-axMw</VideoURL>
+    </ExternalResources>
+    <RelatedPersons>
+      <RelatedPerson personIdent = "GWBush" />
+      <RelatedPerson personIdent = "BHObama" />
+      <RelatedPerson personIdent = "SHussein" />
+    </RelatedPersons>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent = "UN" />
+      <RelatedOrganization organizationIdent = "NATO" />
+      <RelatedOrganization organizationIdent = "ALQ" />
+      <RelatedOrganization organizationIdent = "CIA" />
+    </RelatedOrganizations>
+  </Crisis>
+
+  <Crisis crisisIdent = "World_WAR_II_1939">
+    <Name>World War Two</Name>
+    <Kind crisisKindIdent = "WAR" />
+    <Location>
+      <Country>Poland</Country>
+    </Location>
+    <StartDateTime>
+      <Date>1939-11-01</Date>
+    </StartDateTime>
+    <EndDateTime>
+      <Date>1945-08-14</Date>
+    </EndDateTime>
+    <HumanImpact>
+      <Type>Bombings, starvation, disease</Type>
+      <Number>0</Number>
+    </HumanImpact>
+    <EconomicImpact>US emerged much more wealthy than any other nation despite the global economy's heavy suffering.</EconomicImpact>
+    <ExternalResources>
+      <ImageURL>http://upload.wikimedia.org/wikipedia/commons/5/54/Infobox_collage_for_WWII.PNG</ImageURL>
+      <VideoURL>https://www.youtube.com/watch?v=ts-Ch2IaRh4</VideoURL>
+    </ExternalResources>
+    <RelatedPersons>
+      <RelatedPerson personIdent = "FDRoosevelt" />
+    </RelatedPersons>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent = "UN" />
+      <RelatedOrganization organizationIdent = "CIA" />
+    </RelatedOrganizations>
+  </Crisis>
+
+  <Crisis crisisIdent = "Greece_EC_2009">
+    <Name>Greek Economic Collapse</Name>
+    <Kind crisisKindIdent = "FC" />
+    <Location>
+      <Country>Greece</Country>
+    </Location>
+    <StartDateTime>
+      <Date>2009-12-01</Date>
+    </StartDateTime>
+    <HumanImpact>
+      <Type>Right-wing party linked to anti-immigrant violence.</Type>
+      <Number>0</Number>
+    </HumanImpact>
+    <EconomicImpact>Nearly brought down the entire country and removal from the European Union.</EconomicImpact>
+    <ExternalResources>
+      <ImageURL>http://wwp.greenwichmeantime.com/time-zone/europe/european-union/greece/images/greece-flag.jpg</ImageURL>
+      <VideoURL>http://www.youtube.com/watch?v=LVGQCFRn34M</VideoURL>
+      <MapURL>https://maps.google.com/maps?q=greeceampaq=fampum=1ampie=UTF-8amphl=enampsa=Namptab=wl</MapURL>
+    </ExternalResources>
+    <RelatedPersons>
+      <RelatedPerson personIdent = "MDraghi" />
+    </RelatedPersons>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent = "UN" />
+      <RelatedOrganization organizationIdent = "ECB" />
+    </RelatedOrganizations>
+  </Crisis>
+
+  <Crisis crisisIdent = "Russia_EC_2007">
+    <Name>Russian Financial Crisis</Name>
+    <Kind crisisKindIdent = "FC" />
+    <Location>
+      <Country>Russia</Country>
+    </Location>
+    <StartDateTime>
+      <Date>2007-08-07</Date>
+    </StartDateTime>
+    <HumanImpact>
+      <Type>Huge wave of unemployment and social unrest.</Type>
+      <Number>0</Number>
+    </HumanImpact>
+    <EconomicImpact>Inevitable recession, consumer price inflation, unemployment at a 7 year high.</EconomicImpact>
+    <ExternalResources>
+      <ImageURL>http://images.nationalgeographic.com/wpf/media-live/photos/000/060/cache/russia-st-basils_6026_600x450.jpg</ImageURL>
+      <VideoURL>https://www.youtube.com/watch?v=us1n3DRvLug</VideoURL>
+      <MapURL>http://www.lib.utexas.edu/maps/commonwealth/russia_auton_92.jpg</MapURL>
+    </ExternalResources>
+    <RelatedPersons>
+      <RelatedPerson personIdent = "MDraghi" />
+    </RelatedPersons>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent = "UN" />
+      <RelatedOrganization organizationIdent = "ECB" />
+    </RelatedOrganizations>
+  </Crisis>
+
+
+  <Organization organizationIdent="USDA">
+    <Name>United States Department of Agriculture</Name>
+    <Kind organizationKindIdent="AD"/>
+    <Location>
+      <Locality>Washington</Locality>
+      <Region>D.C.</Region>
+      <Country>United States</Country>
+    </Location>
+    <History>On May 15, 1862, Abraham Lincoln signed into law the Agricultural Act that established the U.S. Department of Agriculture. Since then, the Department has had a rich and varied history. The resources below explore that history, along with the history and organization of USDA's associated agencies and staff offices.</History>
+    <ContactInfo>
+      <Telephone>202 720 2791</Telephone>
+      <Fax/>
+      <Email/>
+      <PostalAddress>
+        <StreetAddress>1400 Independence Ave., S.W.</StreetAddress>
+        <Locality>Washington</Locality>
+        <Region>D.C.</Region>
+        <PostalCode>20250</PostalCode>
+        <Country>United States</Country>
+      </PostalAddress>
+    </ContactInfo>
+    <ExternalResources>
+      <ImageURL>https://www.google.com/search?hl=enamprlz=1C2DVCR_enUS407US456ampq=USDA+imagesampbav=on.2,or.r_gc.r_pw.r_qf.ampbvm=bv.43287494,d.b2Iampbiw=1241ampbih=584ampum=1ampie=UTF-8amptbm=ischampsource=ogampsa=Namptab=wiampei=w_M3UfOvN4rA2AXRtoDYBQ#imgrc=3587T5k4YZYdfM%3A%3BDip-rsLNM2aALM%3Bhttp%253A%252F%252Fionenewsone.files.wordpress.com%252F2011%252F05%252Fusda_logo_rev.gif%3Bhttp%253A%252F%252Fnewsone.com%252F1227425%252Fusda-civil-rights-shirley-sherrod%252F%3B1233%3B850;</ImageURL>
+      <VideoURL>http://video.foxbusiness.com/v/2174388754001/usda-under-fire-for-controversial-cultural-sensitivity-training/;</VideoURL>
+      <MapURL>https://maps.google.com/maps?hl=enampq=1400+Independence+Ave.,+S.W.ampie=UTF-8amphq=amphnear=0x89b7b79fa4334315:0xfb36514e8557abaf,1400+Independence+Ave+SW,+Washington,+DC+20024ampgl=usampei=ePY3UeLYCqOU2wWR4IGoCgampved=0CDMQ8gEwAQ;</MapURL>
+      <SocialNetworkURL>http://www.facebook.com/pages/USDA/106119542761892?fref=ts</SocialNetworkURL>
+    </ExternalResources>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent="Corn_DS_1970"></RelatedCrisis>
+    </RelatedCrises>
+    <RelatedPersons>
+      <RelatedPerson personIdent="GWBush"></RelatedPerson>
+      <RelatedPerson personIdent="BHObama"></RelatedPerson>
+      <RelatedPerson personIdent="CMHardin"></RelatedPerson>
+    </RelatedPersons>
+  </Organization>
+
+  <Organization organizationIdent="SEC">
+    <Name>U.S. Securities and Exchange Commission</Name>
+    <Kind organizationKindIdent="NS"/>
+    <Location>
+      <Locality>Washington</Locality>
+      <Region>D.C.</Region>
+      <Country>United States</Country>
+    </Location>
+    <History>Prior to the enactment of the federal securities laws and the creation of the SEC, there existed so-called blue sky laws. They were enacted and enforced at the state level, and regulated the offering and sale of securities to protect the public from fraud. Though the specific provisions of these laws varied among states, they all required the registration of all securities offerings and sales, as well as of every U.S. stock broker and brokerage firm.</History>
+    <ContactInfo>
+      <Telephone>202 942 8088</Telephone>
+      <Fax/>
+      <Email/>
+      <PostalAddress>
+        <StreetAddress>100 F Street, NE</StreetAddress>
+        <Locality>Washington</Locality>
+        <Region>D.C.</Region>
+        <PostalCode>20549</PostalCode>
+        <Country>United States</Country>
+      </PostalAddress>
+    </ContactInfo>
+    <ExternalResources>
+      <ImageURL>http://www.nysun.com/pics/8339.jpg</ImageURL>
+      <VideoURL>http://www.youtube.com/watch?feature=player_detailpageampv=N-kdGmt1OLs</VideoURL>
+      <MapURL>https://maps.google.com/maps?hl=enampq=map+of+the+us+securities+and+exchange+commissionampie=UTF-8ampei=KmdcUZ2_NsH0qAGQh4FQampsqi=2ampved=0CAgQ_AUoAg</MapURL>
+      <SocialNetworkURL>http://www.facebook.com/pages/US-Securities-and-Exchange-Commission/109531262399131?fref=ts</SocialNetworkURL>
+    </ExternalResources>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent="Enron_EC_2001"></RelatedCrisis>
+    </RelatedCrises>
+    <RelatedPersons>
+      <RelatedPerson personIdent="GWBush"></RelatedPerson>
+      <RelatedPerson personIdent="BHObama"></RelatedPerson>
+      <RelatedPerson personIdent="KLay"></RelatedPerson>
+    </RelatedPersons>
+  </Organization>
+
+  <Organization organizationIdent="FDIC">
+    <Name>Federal Department Insurance Corporation</Name>
+    <Kind organizationKindIdent="INS"/>
+    <Location>
+      <Locality>Washington</Locality>
+      <Region>D.C.</Region>
+      <Country>United States</Country>
+    </Location>
+    <History></History>
+    <ContactInfo>
+      <Telephone/>
+      <Fax/>
+      <Email/>
+      <PostalAddress>
+        <StreetAddress/>
+        <Locality>Washington</Locality>
+        <Region>D.C.</Region>
+        <PostalCode></PostalCode>
+        <Country>United States</Country>
+      </PostalAddress>
+    </ContactInfo>
+    <ExternalResources>
+      <ImageURL>http://www.silverdoctors.com/wp-content/uploads/2012/09/FDIC.png</ImageURL>
+      <VideoURL>http://www.youtube.com/watch?v=tRaFyfrTZw8</VideoURL>
+      <MapURL>http://www.skedco.com/Areas/MS/Content/media/shared/map_washington-dc.png</MapURL>
+      <SocialNetworkURL>http://www.facebook.com/pages/Federal-Deposit-Insurance-Corporation/112681415413365?fref=ts</SocialNetworkURL>
+    </ExternalResources>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent="EC_1929"></RelatedCrisis>
+    </RelatedCrises>
+    <RelatedPersons>
+      <RelatedPerson personIdent="GWBush"></RelatedPerson>
+      <RelatedPerson personIdent="BHObama"></RelatedPerson>
+      <RelatedPerson personIdent="FDRoosevelt"></RelatedPerson>
+    </RelatedPersons>
+  </Organization>
+
+  <Organization organizationIdent="FRS">
+    <Name>Federal Reserve</Name>
+    <Kind organizationKindIdent="CB"/>
+    <Location>
+      <Locality>Washington</Locality>
+      <Region>D.C.</Region>
+      <Country>United States</Country>
+    </Location>
+    <History>In 1791, the government granted the First Bank of the United States a charter to operate as the U.S. central bank until 1811. The First Bank of the United States came to an end under President Madison because Congress refused to renew its charter. The Second Bank of the United States was established in. 1816, and lost its authority to be the central bank of the U.S. twenty years later under President Jackson when its charter expired. Both banks were based upon the Bank of England. Ultimately, a third national bank, known as the Federal Reserve, was established in 1913 and still exists to this day.</History>
+    <ContactInfo>
+      <Telephone>888 851 1920</Telephone>
+      <Fax/>
+      <Email/>
+      <PostalAddress>
+        <StreetAddress>20th Street and Constitution Avenue N.W.</StreetAddress>
+        <Locality>Washington</Locality>
+        <Region>D.C.</Region>
+        <PostalCode>20551</PostalCode>
+        <Country>United States</Country>
+      </PostalAddress>
+    </ContactInfo>
+    <ExternalResources>
+      <ImageURL>http://i2.cdn.turner.com/money/2012/08/01/news/economy/federal-reserve-stimulus/federal-reserve-building.top.jpg</ImageURL>
+      <VideoURL>http://www.youtube.com/watch?v=iYZM58dulPE</VideoURL>
+      <MapURL>https://maps.google.com/maps?hl=enamptab=wl</MapURL>
+      <SocialNetworkURL>http://www.facebook.com/TheF3d?fref=ts</SocialNetworkURL>
+    </ExternalResources>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent="EC_1929"></RelatedCrisis>
+      <RelatedCrisis crisisIdent="EC_2008"></RelatedCrisis>
+      <RelatedCrisis crisisIdent="Oil_EC_1973"></RelatedCrisis>
+    </RelatedCrises>
+    <RelatedPersons>
+      <RelatedPerson personIdent="GWBush"></RelatedPerson>
+      <RelatedPerson personIdent="BHObama"></RelatedPerson>
+      <RelatedPerson personIdent="FDRoosevelt"></RelatedPerson>
+      <RelatedPerson personIdent="BSBernanke"></RelatedPerson>
+    </RelatedPersons>
+  </Organization>
+
+  <Organization organizationIdent="UN">
+    <Name>United Nations</Name>
+    <Kind organizationKindIdent="MA"/>
+    <Location>
+      <Locality>New York</Locality>
+      <Region>New York</Region>
+      <Country>United States</Country>
+    </Location>
+    <History>The League of Nations failed to prevent World War II (1939ñ1945). Because of the widespread recognition that humankind could not afford a third world war, the United Nations was established to replace the flawed League of Nations in 1945 in order to maintain international peace and promote cooperation in solving international economic, social, and humanitarian problems. The earliest concrete plan for a new world organization was begun under the aegis of the U.S. State Department in 1939. Franklin D. Roosevelt first coined the term 'United Nations' as a term to describe the Allied countries. The term was first officially used on 1 January 1942, when 26 governments signed the Atlantic Charter, pledging to continue the war effort. On 25 April 1945, the UN Conference on International Organization began in San Francisco, attended by 50 governments and a number of non-governmental organizations involved in drafting the United Nations Charter. The UN officially came into existence on 24 October 1945 upon ratification of the Charter by the five then-permanent members of the Security CouncilóFrance, the Republic of China, the Soviet Union, the United Kingdom and the United Statesóand by a majority of the other 46 signatories. The first meetings of the General Assembly, with 51 nations represented, and the Security Council, took place in Methodist Central Hall Westminster in London beginning 6 January 1946.</History>
+    <ContactInfo>
+      <Telephone/>
+      <Fax/>
+      <Email/>
+      <PostalAddress>
+        <StreetAddress>405 E 42nd St</StreetAddress>
+        <Locality>New york</Locality>
+        <Region>New York</Region>
+        <PostalCode>10017</PostalCode>
+        <Country>United States</Country>
+      </PostalAddress>
+    </ContactInfo>
+    <ExternalResources>
+      <ImageURL>http://www.mediafreedominternational.org/wp-content/uploads/2011/04/united-nations-headquarters.jpg</ImageURL>
+      <VideoURL>http://www.un.org/apps/news/story.asp?NewsID=44293#.UTjqbKV1gVA</VideoURL>
+      <MapURL>https://maps.google.com/maps?hl=enampie=UTF-8ampq=united+nations+headquartersampfb=1ampgl=usamphq=united+nations+headquartersampcid=0,0,4815170010615074300ampei=FXZcUdfYC8Sl2wWo-oC4Dgampved=0CKkBEPwSMAs</MapURL>
+      <SocialNetworkURL>http://www.facebook.com/unitednations?fref=ts</SocialNetworkURL>
+    </ExternalResources>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent="WTC_TA_2001"></RelatedCrisis>
+      <RelatedCrisis crisisIdent="WAR_Terror_2001"></RelatedCrisis>
+      <RelatedCrisis crisisIdent="World_WAR_II_1939"></RelatedCrisis>
+      <RelatedCrisis crisisIdent="Greece_EC_2009"></RelatedCrisis>
+      <RelatedCrisis crisisIdent="Russia_EC_2007"></RelatedCrisis>
+    </RelatedCrises>
+    <RelatedPersons>
+      <RelatedPerson personIdent="GWBush"></RelatedPerson>
+      <RelatedPerson personIdent="BHObama"></RelatedPerson>
+      <RelatedPerson personIdent="SHussein"></RelatedPerson>
+    </RelatedPersons>
+  </Organization>
+
+  <Organization organizationIdent="LEH">
+    <Name>Lehman Brothers</Name>
+    <Kind organizationKindIdent="INV"/>
+    <Location>
+      <Locality>New York</Locality>
+      <Region>New York</Region>
+      <Country>United States</Country>
+    </Location>
+    <History>Lehman Brothers Holdings Inc. was a global financial services firm. Before declaring bankruptcy in 2008, Lehman was the fourth-largest investment bank in the US, doing business in investment banking, equity and fixed-income sales and trading (especially U.S. Treasury securities), research, investment management, private equity, and private banking.</History>
+    <ContactInfo>
+      <Telephone/>
+      <Fax/>
+      <Email/>
+      <PostalAddress>
+        <StreetAddress/>
+        <Locality>New York</Locality>
+        <Region>New York</Region>
+        <PostalCode></PostalCode>
+        <Country>United States</Country>
+      </PostalAddress>
+    </ContactInfo>
+    <ExternalResources>
+      <ImageURL>http://www.cepolina.com/photo/America/New-York/skyscrapers-glass-New-York/5/New-York-skyscraper-Lehman-Brothers.jpg</ImageURL>
+      <VideoURL>http://www.youtube.com/watch?v=oqOBnULi124</VideoURL>
+    </ExternalResources>
+    <RelatedCrises>
+    </RelatedCrises>
+    <RelatedPersons>
+      <RelatedPerson personIdent="GWBush"></RelatedPerson>
+      <RelatedPerson personIdent="BHObama"></RelatedPerson>
+      <RelatedPerson personIdent="BSBernanke"></RelatedPerson>
+    </RelatedPersons>
+  </Organization>
+
+  <Organization organizationIdent="NATO">
+    <Name>North Alantic Treaty Organization</Name>
+    <Kind organizationKindIdent="MA"/>
+    <Location>
+      <Locality>Brussels</Locality>
+      <Region>Belgium</Region>
+      <Country>Europe</Country>
+    </Location>
+    <History>The Treaty of Brussels, signed on 17 March 1948 by Belgium, the Netherlands, Luxembourg, France, and the United Kingdom, is considered the precursor to the NATO agreement. The treaty and the Soviet Berlin Blockade led to the creation of the Western European Union's Defence Organization in September 1948. However, participation of the United States was thought necessary both to counter the military power of the USSR and to prevent the revival of nationalist militarism, so talks for a new military alliance began almost immediately resulting in the North Atlantic Treaty, which was signed in Washington, D.C. on 4 April 1949. It included the five Treaty of Brussels states plus the United States, Canada, Portugal, Italy, Norway, Denmark and Iceland. Popular support for the Treaty was not unanimous, and some Icelanders participated in a pro-neutrality, anti-membership riot in March 1949. The members agreed that an armed attack against any one of them in Europe or North America would be considered an attack against them all. Consequently they agreed that, if an armed attack occurred, each of them, in exercise of the right of individual or collective self-defence, would assist the member being attacked, taking such action as it deemed necessary, including the use of armed force, to restore and maintain the security of the North Atlantic area. The treaty does not require members to respond with military action against an aggressor. Although obliged to respond, they maintain the freedom to choose the method by which they do so. This differs from Article IV of the Treaty of Brussels, which clearly states that the response will be military in nature. It is nonetheless assumed that NATO members will aid the attacked member militarily. The treaty was later clarified to include both the member's territory and their "vessels, forces or aircraft" above the Tropic of Cancer, including some Overseas departments of France.</History>
+    <ContactInfo>
+      <Telephone/>
+      <Fax/>
+      <Email/>
+      <PostalAddress>
+        <StreetAddress/>
+        <Locality>Brussels</Locality>
+        <Region>Belgium</Region>
+        <PostalCode></PostalCode>
+        <Country>Europe</Country>
+      </PostalAddress>
+    </ContactInfo>
+    <ExternalResources>
+      <ImageURL>http://4.bp.blogspot.com/-3D1pJVhRBzo/TxAXDgFmg1I/AAAAAAAAAQA/Xx7nmCof808/s1600/b_20100401134323Flag_of_NATO.gif</ImageURL>
+      <VideoURL>http://www.youtube.com/watch?v=_k2b61OHtWQ</VideoURL>
+      <MapURL>https://maps.google.com/maps?hl=enampgs_rn=8ampgs_ri=psy-abamptok=ZYV9PIszzL8NK7Ni6vHfFwampcp=7ampgs_id=sampxhr=tampq=nato+mapamprlz=1C2DVCR_enUS407US456ampbav=on.2,or.r_qf.ampbvm=bv.44697112,d.b2Iampbiw=1241ampbih=584ampum=1ampie=UTF-8ampsa=Namptab=wl</MapURL>
+      <SocialNetworkURL>http://www.facebook.com/NATO</SocialNetworkURL>
+    </ExternalResources>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent="WAR_Terror_2001"></RelatedCrisis>
+    </RelatedCrises>
+    <RelatedPersons>
+      <RelatedPerson personIdent="GWBush"></RelatedPerson>
+      <RelatedPerson personIdent="BHObama"></RelatedPerson>
+      <RelatedPerson personIdent="SHussein"></RelatedPerson>
+      <RelatedPerson personIdent="OBLaden"></RelatedPerson>
+    </RelatedPersons>
+  </Organization>
+
+  <Organization organizationIdent="ALQ">
+    <Name>Al-Qaeda</Name>
+    <Kind organizationKindIdent="TORG"/>
+    <Location/>
+    <History>Al-Qaeda is a global militant Islamist organization founded by Osama bin Laden at some point between August 1988 and late 1989, with its origins being traceable to the Soviet War in Afghanistan. It operates as a network comprising both a multinational, stateless army and a radical Sunni Muslim movement calling for global Jihad and a strict interpretation of sharia law. It has been designated as a terrorist organization by the United Nations Security Council, NATO, the European Union, the United Kingdom, the United States, and various other countries. Al-Qaeda has carried out several attacks on non-Muslims, and other targets it considers kafir.</History>
+    <ContactInfo>
+      <Telephone/>
+      <Fax/>
+      <Email/>
+      <PostalAddress>
+        <StreetAddress/>
+        <Locality/>
+        <Region/>
+        <PostalCode/>
+        <Country/>
+      </PostalAddress>
+    </ContactInfo>
+    <ExternalResources>
+      <ImageURL>http://media.novinky.cz/692/196922-original1-1x6yb.jpg</ImageURL>
+      <VideoURL>http://www.youtube.com/watch?v=zUUUS_wRKLo</VideoURL>
+    </ExternalResources>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent="WTC_TA_2001"></RelatedCrisis>
+      <RelatedCrisis crisisIdent="WAR_Terror_2001"></RelatedCrisis>
+    </RelatedCrises>
+    <RelatedPersons>
+      <RelatedPerson personIdent="GWBush"></RelatedPerson>
+      <RelatedPerson personIdent="BHObama"></RelatedPerson>
+      <RelatedPerson personIdent="OBLaden"></RelatedPerson>
+    </RelatedPersons>
+  </Organization>
+
+  <Organization organizationIdent="ECB">
+    <Name>European Central Bank</Name>
+    <Kind organizationKindIdent="CB"/>
+    <Location>
+      <Locality>Frankfurt</Locality>
+      <Region>Hesse</Region>
+      <Country>Germany</Country>
+    </Location>
+    <History>The European Central Bank (ECB) is one of the seven institutions of the European Union (EU) listed in the Treaty on European Union(TEU). It is the central bank for the euro and administers the monetary policy of the 17 EU member states which constitute the Eurozone, one of the largest currency areas in the world. It is thus one of the world's most important central banks.</History>
+    <ContactInfo>
+      <Telephone/>
+      <Fax/>
+      <Email/>
+      <PostalAddress>
+        <StreetAddress/>
+        <Locality>Frankfurt</Locality>
+        <Region>Hesse</Region>
+        <PostalCode></PostalCode>
+        <Country>Germany</Country>
+      </PostalAddress>
+    </ContactInfo>
+    <ExternalResources>
+      <ImageURL>http://i.telegraph.co.uk/multimedia/archive/00866/money-graphics-2008_866833a.jpg</ImageURL>
+      <VideoURL>http://www.youtube.com/watch?v=Yyxn156vLBE</VideoURL>
+      <MapURL>https://maps.google.com/maps?hl=enampgs_rn=8ampgs_ri=psy-abamptok=yBTUqGI45h8OwXyrDG581Aampcp=15ampgs_id=1oampxhr=tampq=european+central+bankamprlz=1C2DVCR_enUS407US456ampbav=on.2,or.r_qf.ampbvm=bv.44697112,d.b2Iampbiw=1241ampbih=584ampum=1ampie=UTF-8ampsa=Namptab=wl</MapURL>
+      <SocialNetworkURL>http://www.facebook.com/pages/European-Central-Bank/108003912562000</SocialNetworkURL>
+    </ExternalResources>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent="EC_2008"></RelatedCrisis>
+      <RelatedCrisis crisisIdent="Greece_EC_2009"></RelatedCrisis>
+      <RelatedCrisis crisisIdent="Russia_EC_2007"></RelatedCrisis>
+    </RelatedCrises>
+    <RelatedPersons>
+      <RelatedPerson personIdent="MDraghi"></RelatedPerson>
+    </RelatedPersons>
+  </Organization>
+
+  <Organization organizationIdent="CIA">
+    <Name>Central Intelligence Agency</Name>
+    <Kind organizationKindIdent="NS"/>
+    <Location>
+      <Locality>McLean</Locality>
+      <Region>Virginia</Region>
+      <Country>United States</Country>
+    </Location>
+    <History>The Central Intelligence Agency (CIA) is an independent civilian intelligence agency of the United States government. It is an executive agency and reports directly to the Director of National Intelligence, with responsibility for providing national security intelligence assessment to senior United States policymakers. Intelligence-gathering is performed by non-military commissioned civilian intelligence agents, many of whom are trained to avoid tactical situations. The CIA also oversees and sometimes engages in tactical and covert activities at the request of the President of the United States. Often, when such field operations are organized, the U.S. military or other warfare tacticians carry these tactical operations out on behalf of the agency while the CIA oversees them. Although intelligence-gathering is the agency's main agenda, tactical divisions were established in the agency to carry out emergency field operations that require immediate suppression or dismantling of a threat or weapon. The CIA's headquarters is located in Langley, McLean, Fairfax County, Virginia, a few miles west of Washington, D.C.</History>
+    <ContactInfo>
+      <Telephone/>
+      <Fax/>
+      <Email/>
+      <PostalAddress>
+        <StreetAddress/>
+        <Locality>McLean</Locality>
+        <Region>Virginia</Region>
+        <PostalCode></PostalCode>
+        <Country>United States</Country>
+      </PostalAddress>
+    </ContactInfo>
+    <ExternalResources>
+      <ImageURL>https://maps.google.com/maps?hl=enampq=CIAampie=UTF-8ampei=SJZcUb7mDsO-qgHb0oHoBgampved=0CAgQ_AUoAg</ImageURL>
+    </ExternalResources>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent="WTC_TA_2001"></RelatedCrisis>
+      <RelatedCrisis crisisIdent="WAR_Terror_2001"></RelatedCrisis>
+      <RelatedCrisis crisisIdent="World_WAR_II_1939"></RelatedCrisis>
+    </RelatedCrises>
+    <RelatedPersons>
+      <RelatedPerson personIdent="GWBush"></RelatedPerson>
+      <RelatedPerson personIdent="BHObama"></RelatedPerson>
+      <RelatedPerson personIdent="SHussein"></RelatedPerson>
+      <RelatedPerson personIdent="OBLaden"></RelatedPerson>
+    </RelatedPersons>
+  </Organization>
+ 
+
+  <Person personIdent="FDRoosevelt">
+    <Name>
+      <FirstName>Franklin</FirstName>
+      <MiddleName>Delano</MiddleName>
+      <LastName>Roosevelt</LastName>
+    </Name>
+    <Kind personKindIdent="PR"/>
+    <Location>
+      <Locality>Hyde Park</Locality>
+      <Region>New York</Region>
+      <Country>United States</Country>
+    </Location>
+    <ExternalResources>
+      <ImageURL>http://media.npr.org/assets/img/2012/12/18/ap07021209188_wide-5c891c581ba4583ae9dd3c2f9e16e95121c37d12-s6-c10.jpg</ImageURL>
+      <VideoURL>http://www.history.com/topics/franklin-d-roosevelt/videos#fdr-a-voice-of-hope</VideoURL>
+    </ExternalResources>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent="EC_1929"></RelatedCrisis>
+      <RelatedCrisis crisisIdent="World_WAR_II_1939"></RelatedCrisis>
+    </RelatedCrises>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent="FDIC"></RelatedOrganization>
+      <RelatedOrganization organizationIdent="FRS"></RelatedOrganization>
+    </RelatedOrganizations>
+  </Person>
+
+  <Person personIdent="GWBush">
+    <Name>
+      <FirstName>George</FirstName>
+      <MiddleName>Walker</MiddleName>
+      <LastName>Bush</LastName>
+      <Suffix></Suffix>
+    </Name>
+    <Kind personKindIdent="PR" />
+    <Location>
+      <Locality>New Haven</Locality>
+      <Region>Connecticut</Region>
+      <Country>United States</Country>
+    </Location>
+    <ExternalResources>
+      <ImageURL>http://www.whitehouse.gov/sites/default/files/first-family/masthead_image/43gb_header_sm.jpg?1250888303</ImageURL>
+      <VideoURL>http://www.georgewbushlibrary.smu.edu/en/Photos-and-Videos/Video-Clips/Video-Clips.aspx</VideoURL>
+    </ExternalResources>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent="Enron_EC_2001"></RelatedCrisis>
+      <RelatedCrisis crisisIdent="EC_2008"></RelatedCrisis>
+      <RelatedCrisis crisisIdent="WTC_TA_2001"></RelatedCrisis>
+      <RelatedCrisis crisisIdent="WTC_TA_2001"></RelatedCrisis>
+    </RelatedCrises>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent="FDIC"></RelatedOrganization>
+      <RelatedOrganization organizationIdent="FRS"></RelatedOrganization>
+      <RelatedOrganization organizationIdent="USDA"></RelatedOrganization>
+      <RelatedOrganization organizationIdent="SEC"></RelatedOrganization>
+      <RelatedOrganization organizationIdent="UN"></RelatedOrganization>
+      <RelatedOrganization organizationIdent="LEH"></RelatedOrganization>
+      <RelatedOrganization organizationIdent="NATO"></RelatedOrganization>
+      <RelatedOrganization organizationIdent="ALQ"></RelatedOrganization>
+      <RelatedOrganization organizationIdent="CIA"></RelatedOrganization>
+    </RelatedOrganizations>
+  </Person>
+
+  <Person personIdent="BHObama">
+    <Name>
+      <FirstName>Barack</FirstName>
+      <MiddleName>Hussein</MiddleName>
+      <LastName>Obama</LastName>
+      <Suffix>II</Suffix>
+    </Name>
+    <Kind personKindIdent="PR" />
+    <Location>
+      <Locality>Honolulu</Locality>
+      <Region>Hawaii</Region>
+      <Country>United States</Country>
+    </Location>
+    <ExternalResources>
+      <ImageURL>http://www.whitehouse.gov/sites/default/files/imagecache/gallery_img_full/image/image_file/09_p021213ck-0221.jpg</ImageURL>
+      <VideoURL>http://www.whitehouse.gov/photos-and-video/video/2013/03/04/president-obama-makes-personnel-announcement</VideoURL>
+    </ExternalResources>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent="EC_2008"></RelatedCrisis>
+      <RelatedCrisis crisisIdent="WTC_TA_2001"></RelatedCrisis>
+    </RelatedCrises>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent="FDIC"></RelatedOrganization>
+      <RelatedOrganization organizationIdent="FRS"></RelatedOrganization>
+      <RelatedOrganization organizationIdent="USDA"></RelatedOrganization>
+      <RelatedOrganization organizationIdent="SEC"></RelatedOrganization>
+      <RelatedOrganization organizationIdent="UN"></RelatedOrganization>
+      <RelatedOrganization organizationIdent="LEH"></RelatedOrganization>
+      <RelatedOrganization organizationIdent="NATO"></RelatedOrganization>
+      <RelatedOrganization organizationIdent="ALQ"></RelatedOrganization>
+      <RelatedOrganization organizationIdent="CIA"></RelatedOrganization>
+    </RelatedOrganizations>
+  </Person>
+
+  <Person personIdent="SHussein">
+    <Name>
+      <FirstName>Saddam</FirstName>
+      <MiddleName></MiddleName>
+      <LastName>Hussein</LastName>
+      <Suffix></Suffix>
+    </Name>
+    <Kind personKindIdent="PR"/>
+    <Location>
+      <Locality>Al-Awja</Locality>
+      <Region></Region>
+      <Country>Iraq</Country>
+    </Location>
+    <ExternalResources>
+      <ImageURL>http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2012/12/3/1354572648813/Saddam-Hussein--010.jpg</ImageURL>
+      <VideoURL>http://www.biography.com/people/saddam-hu47918</VideoURL>
+    </ExternalResources>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent="WTC_TA_2001"></RelatedCrisis>
+      <RelatedCrisis crisisIdent="Oil_EC_1973"></RelatedCrisis>
+    </RelatedCrises>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent="UN"></RelatedOrganization>
+      <RelatedOrganization organizationIdent="CIA"></RelatedOrganization>
+      <RelatedOrganization organizationIdent="NATO"></RelatedOrganization>
+    </RelatedOrganizations>
+  </Person>
+
+  <Person personIdent="OBLaden">
+    <Name>
+      <FirstName>Osama</FirstName>
+      <MiddleName>Bin</MiddleName>
+      <LastName>Laden</LastName>
+      <Suffix></Suffix>
+    </Name>
+    <Kind personKindIdent="TL"/>
+    <Location>
+      <Locality>Riyadh</Locality>
+      <Region></Region>
+      <Country>Saudi Arabia</Country>
+    </Location>
+    <ExternalResources>
+      <ImageURL>http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2011/5/20/1305917006019/-Osama-bin-Laden-005.jpg</ImageURL>
+      <VideoURL>http://www.biography.com/people/osama-bin-laden-37172</VideoURL>
+    </ExternalResources>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent="WTC_TA_2001"></RelatedCrisis>
+    </RelatedCrises>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent="NATO"></RelatedOrganization>
+      <RelatedOrganization organizationIdent="ALQ"></RelatedOrganization>
+      <RelatedOrganization organizationIdent="CIA"></RelatedOrganization>
+    </RelatedOrganizations>
+  </Person>
+
+  <Person personIdent="KLay">
+    <Name>
+      <FirstName>Kenneth</FirstName>
+      <MiddleName></MiddleName>
+      <LastName>LAY</LastName>
+      <Suffix></Suffix>
+    </Name>
+    <Kind personKindIdent="BU" />
+    <Location>
+      <Locality>Tyrone</Locality>
+      <Region>Missouri</Region>
+      <Country>United States</Country>
+    </Location>
+    <ExternalResources>
+      <ImageURL>http://www.biography.com/imported/images/Biography/Images/Profiles/L/Kenneth-Lay-234611-1-402.jpg</ImageURL>
+      <VideoURL>http://www.bloomberg.com/video/74575169-deceased-enron-ceo-triumphs-over-irs-in-tax-court.html</VideoURL>
+    </ExternalResources>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent="Enron_EC_2001"></RelatedCrisis>
+    </RelatedCrises>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent="SEC"></RelatedOrganization>
+    </RelatedOrganizations>
+  </Person>
+
+  <Person personIdent="BSBernanke">
+    <Name>
+      <FirstName>Ben</FirstName>
+      <MiddleName>Shalome</MiddleName>
+      <LastName>Bernanke</LastName>
+      <Suffix></Suffix>
+    </Name>
+    <Kind personKindIdent="FRC"/>
+    <Location>
+      <Locality>Augusta</Locality>
+      <Region>Georgia</Region>
+      <Country>United States</Country>
+    </Location>
+    <ExternalResources>
+      <ImageURL>http://www.federalreserve.gov/aboutthefed/bios/board/bernanke.htm</ImageURL>
+      <VideoURL>http://www.c-spanvideo.org/benbernanke</VideoURL>
+    </ExternalResources>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent="EC_2008"></RelatedCrisis>
+    </RelatedCrises>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent="FDIC"></RelatedOrganization>
+      <RelatedOrganization organizationIdent="LEH"></RelatedOrganization>
+    </RelatedOrganizations>
+  </Person>
+
+  <Person personIdent="CMHardin">
+    <Name>
+      <FirstName>Clifford</FirstName>
+      <MiddleName>Morris</MiddleName>
+      <LastName>Hardin</LastName>
+      <Suffix></Suffix>
+    </Name>
+    <Kind personKindIdent="SA"/>
+    <Location>
+      <Locality>Knightstown</Locality>
+      <Region>Indiana</Region>
+      <Country>United States</Country>
+    </Location>
+    <ExternalResources>
+      <ImageURL>http://graphics8.nytimes.com/images/2010/04/06/us/06hardin_CA1/06hardin_CA1-articleInline.jpg</ImageURL>
+    </ExternalResources>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent="Corn_DS_1970"></RelatedCrisis>
+    </RelatedCrises>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent="USDA"></RelatedOrganization>
+    </RelatedOrganizations>
+  </Person>
+
+  <Person personIdent="MDraghi">
+    <Name>
+      <FirstName>Mario</FirstName>
+      <MiddleName></MiddleName>
+      <LastName>Draghi</LastName>
+      <Suffix></Suffix>
+    </Name>
+    <Kind personKindIdent="PR"/>
+    <Location>
+      <Locality>Rome</Locality>
+      <Region></Region>
+      <Country>Italy</Country>
+    </Location>
+    <ExternalResources>
+      <ImageURL>http://static.guim.co.uk/sys-images/Guardian/Pix/pixies/2012/9/6/1346954603380/Mario-Draghi-008.jpg</ImageURL>
+      <VideoURL>http://video.ft.com/v/2033743054001/Mario-Draghi-Not-time-to-give-up-austerity</VideoURL>
+    </ExternalResources>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent="EC_2008"></RelatedCrisis>
+      <RelatedCrisis crisisIdent="Greece_EC_2009"></RelatedCrisis>
+    </RelatedCrises>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent="ECB"></RelatedOrganization>
+    </RelatedOrganizations>
+  </Person>
+
+  <Person personIdent="AGreenspan">
+    <Name>
+      <FirstName>Alan</FirstName>
+      <MiddleName></MiddleName>
+      <LastName>Greenspan</LastName>
+      <Suffix></Suffix>
+    </Name>
+    <Kind personKindIdent="FRC"/>
+    <Location>
+      <Locality>New York</Locality>
+      <Region>New York</Region>
+      <Country>United States</Country>
+    </Location>
+    <ExternalResources>
+      <ImageURL>http://www.biography.com/imported/images/Biography/Images/Profiles/G/Alan-Greenspan-9319769-1-402.jpg</ImageURL>
+      <VideoURL>http://www.biography.com/people/alan-greenspan-9319769</VideoURL>
+    </ExternalResources>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent="Russia_EC_2007"></RelatedCrisis>
+    </RelatedCrises>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent="FRS"></RelatedOrganization>
+    </RelatedOrganizations>
+  </Person>
+
+  <CrisisKind crisisKindIdent = "FC">
+    <Name>Financial Crisis</Name>
+    <Description>Crisis that results in a significant loss of money.</Description>
+  </CrisisKind>
+
+  <CrisisKind crisisKindIdent = "WAR">
+    <Name>Military Crisis</Name>
+    <Description>Crisis that requires military involvement, often war.</Description>
+  </CrisisKind>
+
+  <CrisisKind crisisKindIdent = "DI">
+    <Name>Epidemic</Name>
+    <Description>Crisis that results in widespread disease and sickness.</Description>
+  </CrisisKind>
+
+  <OrganizationKind organizationKindIdent="AD">
+    <Name>Agricultural Department</Name>
+    <Description>Responsible for developing and executing U.S. federal government policy on farming, agriculture, forestry, and food.</Description>
+  </OrganizationKind>
+
+  <OrganizationKind organizationKindIdent="NS">
+    <Name>National Security</Name>
+    <Description>Maintain the survival of the state through the use of economic power, diplomacy, power projection and political power.</Description>
+  </OrganizationKind>
+
+  <OrganizationKind organizationKindIdent="INS">
+    <Name>Insurance Corporation</Name>
+    <Description>It provides deposit insurance guaranteeing the safety of a depositor's accounts.</Description>
+  </OrganizationKind>
+
+  <OrganizationKind organizationKindIdent="CB">
+    <Name>Central Bank</Name>
+    <Description>Is a public institution that manages a state's currency, money supply, and interest rates. Central banks also usually oversee the commercial banking system of their respective countries.</Description>
+  </OrganizationKind>
+
+  <OrganizationKind organizationKindIdent="MA">
+    <Name>Military Alliance</Name>
+    <Description>A security arrangement, regional or global, in which each state in the system accepts that the security of one is the concern of all, and agrees to join in a collective response to threats to, and breaches of, the peace.</Description>
+  </OrganizationKind>
+
+  <OrganizationKind organizationKindIdent="INV">
+    <Name>Investment Bank</Name>
+    <Description>Is a financial institution that assists individuals, corporations, and governments in raising capital by underwriting and/or acting as the client's agent in the issuance of securities.</Description>
+  </OrganizationKind>
+
+  <OrganizationKind organizationKindIdent="TORG">
+    <Name>Terrorist Organization</Name>
+    <Description>A political movement that uses terror as a weapon to achieve its goals.</Description>
+  </OrganizationKind>
+
+<PersonKind personKindIdent="PR">
+    <Name>President</Name>
+    <Description>Is a leader of an organization, company, community, club, trade union, university, country, a division or part of any of these, or, more generally, anything else.</Description>
+</PersonKind>
+
+<PersonKind personKindIdent="TL">
+    <Name>Terrorist Leader</Name>
+    <Description>A leader of a group who uses or advocates terrorism.</Description>
+</PersonKind>
+
+<PersonKind personKindIdent="FRC">
+    <Name>Federal Reserve Chairman</Name>
+    <Description>Is the head of the central banking system of the United States.</Description>
+</PersonKind>
+
+<PersonKind personKindIdent="BU">
+    <Name>Businessman</Name>
+    <Description>Is someone involved in a particular undertaking of activities, commercial or industrial, for the purpose of generating revenue from a combination of human, financial, and physical capital.</Description>
+</PersonKind>
+
+<PersonKind personKindIdent="SA">
+    <Name>Secretary of Agriculture</Name>
+    <Description>Is the head of the United States Department of Agriculture.</Description>
+</PersonKind>
+
+</WorldCrises>
