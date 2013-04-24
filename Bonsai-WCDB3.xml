@@ -13,7 +13,6 @@
             <Type>Death </Type>
             <Number>70000 </Number>
         </HumanImpact>
-        <EconomicImpact></EconomicImpact>
         <ExternalResources>
             <ImageURL>http://en.wikipedia.org/wiki/File:Bombed_out_vehicles_Aleppo.jpg</ImageURL>
             <VideoURL>http://www.bbc.co.uk/news/world-middle-east-21504390</VideoURL>
@@ -42,7 +41,6 @@
             <Type>Death</Type>
             <Number>1300000 </Number>
         </HumanImpact>
-        <EconomicImpact></EconomicImpact>
         <ExternalResources>
             <ImageURL>http://en.wikipedia.org/wiki/File:Map-of-HIV-Prevalance-in-Africa.png </ImageURL>
             <ImageURL>http://africanheritageculturalcenter.org/wp-content/uploads/2010/06/ADIS-in-South-Africa.jpg </ImageURL>
@@ -139,7 +137,6 @@
             <Type>Death</Type>
             <Number>1 </Number>
         </HumanImpact>
-        <EconomicImpact></EconomicImpact>
         <ExternalResources>
             <ImageURL>http://en.wikipedia.org/wiki/File:Soviet-R-12-nuclear-ballistic_missile.jpg</ImageURL>
             <VideoURL>http://www.nbcnews.com/video/nightly-news/49510565#49510565</VideoURL>
@@ -255,7 +252,6 @@
             <Type>Death</Type>
             <Number>1102000</Number>
         </HumanImpact>
-        <EconomicImpact></EconomicImpact>
         <ExternalResources>
             <ImageURL>http://www.us-history.com/wp-content/uploads/2012/03/us-history-vietnam-war.jpg</ImageURL>
             <MapURL>http://www.english.illinois.edu/maps/vietnam/maps.htm</MapURL>
@@ -279,7 +275,6 @@
             <Type>Death </Type>
             <Number>60000</Number>
         </HumanImpact>
-        <EconomicImpact></EconomicImpact>
         <ExternalResources>
             <ImageURL>http://upload.wikimedia.org/wikipedia/commons/6/6e/Fuerza_del_Estado_Michoac%C3%A1n.jpg</ImageURL>
             <MapURL>http://media.economist.com/sites/default/files/routes_0.png?1353588291</MapURL>

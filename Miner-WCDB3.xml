@@ -721,7 +721,6 @@
 	<Person personIdent="MKhatami">
 		<Name>
 			<FirstName>Mohammad</FirstName>
-			<MiddleName/>
 			<LastName>Khatami</LastName>
 		</Name>
 		<Kind personKindIdent="PO"/>
@@ -865,8 +864,7 @@
 	<Person personIdent="NKan">
 		<Name>
 			<FirstName>Naoto</FirstName>
-			<MiddleName/>
-			<LastName>Kan</LastName>
+\			<LastName>Kan</LastName>
 		</Name>
 		<Kind personKindIdent="PO"/>
 		<Location>
@@ -910,7 +908,6 @@
 	<Person personIdent="MChan">
 		<Name>
 			<FirstName>Margaret</FirstName>
-			<MiddleName/>
 			<LastName>Chan</LastName>
 		</Name>
 		<Kind personKindIdent="HO"/>

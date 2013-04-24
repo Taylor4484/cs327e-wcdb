@@ -209,9 +209,11 @@
     	</Location>
     	<Location>
       		<Country>Sri Lanka</Country>
-    	</Location><Location>
+    	</Location>
+    	<Location>
       		<Country>India</Country>
-    	</Location><Location>
+    	</Location>
+    	<Location>
       		<Country>Thailand</Country>
     	</Location>
 		<StartDateTime>
@@ -364,7 +366,23 @@
 		<Kind crisisKindIdent = "FC"/>
 		<Location>
       		<Region>West Africa</Region>
-      		<Country>Mali, Niger, Mauritania, Chad, and Burkina Faso</Country>
+      		<Country>Mali</Country>
+    	</Location>
+    	<Location>
+    		<Region>West Africa</Region>
+    		<Country>Niger</Country>
+    	</Location>
+    	<Location>
+    		<Region>West Africa</Region>
+    		<Country>Mauritania</Country>
+    	</Location>
+    	<Location>
+    		<Region>West Africa</Region>
+    		<Country>Chad</Country>
+    	</Location>
+    	<Location>
+    		<Region>West Africa</Region>
+    		<Country>Burkina Faso</Country>
     	</Location>
 		<StartDateTime>
       		<Date>2012-03-01</Date>
@@ -500,8 +518,8 @@
     	<History>The American Red Cross was founded by Clara Barton after she became involved in the work of the International Red Cross during the Franco-Prussian War, and decided to bring the organization home with her to America. She expanded the original concept of the Red Cross to include assisting in any great national disaster and became the organization&#39;s first president. </History>
     	<ContactInfo>
       		<Telephone>+1 800 733 2767</Telephone>
-      		<Fax></Fax>
-      		<Email></Email>
+      		<Fax>0</Fax>
+      		<Email>support@redcrosstraining.org</Email>
       		<PostalAddress>
         		<StreetAddress>2025 E Street</StreetAddress>
         		<Locality>Washington</Locality>
@@ -619,11 +637,11 @@
     	<ContactInfo>
       		<Telephone>+32 2 281 63 19</Telephone>
       		<Fax>+32 2 281 69 34</Fax>
-      		<Email></Email>
+      		<Email>none@example.com</Email>
       		<PostalAddress>
         		<StreetAddress>Rue de la Loi 175</StreetAddress>
         		<Locality>Brussels</Locality>
-        		<Region></Region>
+        		<Region>none</Region>
         		<PostalCode>1000</PostalCode>
         		<Country>Belgium</Country>
       		</PostalAddress>
@@ -704,7 +722,7 @@
       		<PostalAddress>
         		<StreetAddress>Vienna International Centre, PO Box 100</StreetAddress>
         		<Locality>Vienna</Locality>
-        		<Region></Region>
+        		<Region>none</Region>
         		<PostalCode>1400</PostalCode>
         		<Country>Austria</Country>
       		</PostalAddress>
@@ -738,7 +756,7 @@
     	<History>Created by Franklin Delano Roosevelt to unite individuals, organizations and agencies interested in the restoration and conservation of wildlife resources. </History>
       	<ContactInfo>
       		<Telephone>+1 703 438 6000</Telephone>
-      		<Fax></Fax>
+      		<Fax>0</Fax>
       		<Email>friends@nwf.org</Email>
       		<PostalAddress>
         		<StreetAddress>11100 Wildlife Center Dr </StreetAddress>
@@ -782,8 +800,8 @@
       		<PostalAddress>
         		<StreetAddress>226 Causeway Street 5th Floor</StreetAddress>
         		<Locality>Boston</Locality>
-        		<Region></Region>
-        		<PostalCode>MA</PostalCode>
+        		<Region>MA</Region>
+        		<PostalCode>02114</PostalCode>
         		<Country>United States</Country>
       		</PostalAddress>
     	</ContactInfo>
@@ -865,7 +883,7 @@
     	<History>Founded after the end of the Second World War, the United Nations is an international organization made up of 193 Member States committed to maintaining international peace and security. </History>
       	<ContactInfo>
       		<Telephone>+1 212 63 1234</Telephone>
-      		<Fax></Fax>
+      		<Fax>0</Fax>
       		<Email>inquiries@un.org</Email>
       		<PostalAddress>
         		<StreetAddress>760 United Nations Plaza</StreetAddress>
@@ -1056,7 +1074,6 @@
 	<Person personIdent="BKi-moon">
 		<Name>
 			<FirstName>Ban</FirstName>
-			<MiddleName></MiddleName>
 		  	<LastName>Ki-moon</LastName>
 		</Name>
 		<Kind personKindIdent="LD"/>
@@ -1283,7 +1300,7 @@
 
   	<OrganizationKind organizationKindIdent="IO">
     	<Name>International Organization</Name>
-    	<Description></Description>
+    	<Description>An organization with an international membership, scope, or presence</Description>
   	</OrganizationKind>
 
   
@@ -1291,7 +1308,7 @@
 	
 	<PersonKind personKindIdent="CEO">
     	<Name>Chief Executive Officer</Name>
-    	<Description>Top executive responsible for a firm or organization's overall operations and performance</Description>
+    	<Description>Top executive responsible for a firm or organizations overall operations and performance</Description>
   	</PersonKind>
 	
 	<PersonKind personKindIdent="LD">

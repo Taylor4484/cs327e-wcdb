@@ -98,7 +98,6 @@
       <Country>US</Country>
     </Location>
     <Location>
-      <Locality></Locality>
       <Region>Northeastern</Region>
       <Country>US</Country>
     </Location>
@@ -343,7 +342,7 @@
       <Type>Death</Type>
       <Number>70000</Number>
     </HumanImpact>
-    <EconomicImpact></EconomicImpact>
+    
     <ExternalResources>
       <ImageURL>http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/syria_nov_2012/bp11.jpg</ImageURL>
       <ImageURL>http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/syria_nov_2012/bp2.jpg</ImageURL>
@@ -1030,32 +1029,32 @@
 
   <OrganizationKind organizationKindIdent="ISO">
     <Name>Islamist Organization</Name>
-    <Description></Description>
+    <Description>Islamist organization</Description>
   </OrganizationKind>
 
   <OrganizationKind organizationKindIdent="TORG">
     <Name>Terrorist Organization</Name>
-    <Description></Description>
+    <Description>Terrorist Organizations</Description>
   </OrganizationKind>
 
   <OrganizationKind organizationKindIdent="IO">
     <Name>International Organization</Name>
-    <Description></Description>
+    <Description>International org</Description>
   </OrganizationKind>
 
   <OrganizationKind organizationKindIdent="AUN">
     <Name>Agency of the United Nations</Name>
-    <Description></Description>
+    <Description>UN agency</Description>
   </OrganizationKind>
 
   <OrganizationKind organizationKindIdent="IFI">
     <Name>International Financial Institution</Name>
-    <Description></Description>
+    <Description>finance stuff</Description>
   </OrganizationKind>
 
   <OrganizationKind organizationKindIdent="IA">
     <Name>Intelligence Agency</Name>
-    <Description></Description>
+    <Description>intelligence agency</Description>
   </OrganizationKind>
 
   <PersonKind personKindIdent="PR">
