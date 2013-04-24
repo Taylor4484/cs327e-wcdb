@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+
 1. Which people are associated with more than one crisis?
 
 Select first_name, middle_name, last_name
@@ -36,11 +36,11 @@ Select avg(number), country
 	Where type = 'Death'
 	Group by country;
 	
-5. What is the most common resource needed for different types of disasters?
+5. What is the most common resource needed?
 
-Select description, count(*) 
-    From Crisis as S join ResourceNeeded as R on S.id = R.crisis_id
-    Group by name;
+Select description
+	From Crisis as S join ResourceNeeded as R on S.id = R.crisis_id
+	Where max(count(R.id))
 
 6. How many persons are related to crises located in countries other than their own?
 
