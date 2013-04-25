@@ -59,7 +59,7 @@ Select count(name)
 
 Select name 
 	From Organization join Location
-	Where County != United States AND id in
+	Where County != United States or US or USA or The United States AND id in
             (select id_organization as id 
                 from CrisisOrganization
                 Where count(id_organization)> 1);
