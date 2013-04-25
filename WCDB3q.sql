@@ -59,30 +59,29 @@ Select count(name)
 
 Select name 
 	From Organization join Location
-	Where County != United States or US or USA or The United States AND id in
+	Where country !='United States' or 'US' or 'USA' or 'United States of America' AND id in
             (select id_organization as id 
                 from CrisisOrganization
                 Where count(id_organization)> 1);
 
 /*9. Which Orgs, Crises, and Persons have the same location (country)?*/
 
-Select R.name, S.name, T.person, Country
+Select R.name, S.name, T.person, country
     From Organization as R join Crisis as S join Person as T join Location as U
     On S.id=U.id AND R.id=U.id AND T.id=U.id
-    Order by Country;
+    Order by country;
 
 /*10. Which crisis has the minimum Human Impact?*/
 
 Select name
     From Crisis 
-    Where id in
-        (Select crisis_id as id
-	    From HumanImpact
-	    Where number < ALL);
+    Where * exists
+        (Select min(number)
+	    From HumanImpact);
 
 /*11. Count the number of crises that each organization is associated with?*/
 
-Select name, count(distinct  id_crisis)
+Select name, count(id_crisis)
     From CrisisOrganization as S join Organization as R 
     on S.id_organization= R.id;
 
@@ -97,23 +96,15 @@ Select name, street address, locality, region, postal_code
 
 /*13. List all crises that happened in the same state/region and country, list in descinding order*/
 
-Select name, region
+Select name, region, country
     From Crisis natural join Location
-    Order by region;
-
-/*Holly's update (haven't checked validity):
-    select name from Crisis, Location
-        where Location.id in (
-            select id from Location as L1, Location as L2
-                where L1.coutry = L2.country AND L1.region = L2.region)
-        group by Location.region;
-*/
+    group by region;
 
 /*14. Find the total number of human casualties caused by crises in the 1990s?*/
 
 Select count(number)
     From HumanImpact
-    Where crisis_id in
+    Where type = 'Death' and crisis_id in
 	(Select id as crisis_id
 	    From Crisis
 	    Where start_date >= 1990-01-01 AND start_date < 2000-01-01);
@@ -125,12 +116,12 @@ Select name
     Where id in
 	(Select id_organization as id
 	    From CrisisOrganization
-	    Where count(id_organization) > ALL);
+	    Where count(id_crisis) >= ALL);
 
 /*16. How many organizations are government based?*/
 
 Select count(name)
-	From Organizations
+	From Organization
 	Where kind = 'GOV';
 
 /*17. What is the total number of casualties across the DB?*/
@@ -138,9 +129,9 @@ Select count(name)
 Select SUM(number)
 	From HumanImpact
 	Where crisis_id in
-	(Select district id as crisis_id
+	(Select id as crisis_id
 		From Crisis
-                 Where kind = 'Death');
+                Where kind = 'Death');
 
 /*18. What is the most common type/kind of crisis occurring in the DB?*/
 
@@ -165,9 +156,10 @@ Select name
 Select name
 	From Person
 	Where id in 
-	(Select person_id as id
+	(Select id_person as id
 	    From OrganizationPerson
-	    Where count(person_id) > ALL);
+	    Where count(id_organization) >= ALL)
+	order by name;
 
 /*22.How many hurricane crises (CrisisKind=HU)?*/
 
@@ -195,7 +187,7 @@ Select name, kind
      Where person_id in
 	(Select id as person_id
 	    From Location
-	    Where (country = 'United States') OR (country = 'USA') OR (country = 'United States of America')
+	    Where (country = 'United States') OR (country = 'USA') OR (country = 'United States of America') or (country = 'US')
             Order by kind asc;
 
 /*26. Who has the longest name?*/
