@@ -370,7 +370,7 @@
             <ExternalLinkURL>http://en.wikipedia.org/wiki/Rwanda_genocide</ExternalLinkURL>
         </ExternalResources>
         <RelatedPersons>
-            <RelatedPerson personIdent="PR1954" />
+            <RelatedPerson personIdent="PRusesabagina" />
         </RelatedPersons>
         <RelatedOrganizations>
             <RelatedOrganization organizationIdent="UN" />
@@ -1126,7 +1126,7 @@
         <RelatedCrises>
             <RelatedCrisis crisisIdent="Bastrop_FR_2011" />
             <RelatedCrisis crisisIdent="Victoria_FR_2009" />
-            <RelatedCrisis crisisIdent="Rwanda_CG_1994" />
+            <RelatedCrisis crisisIdent="Rwanda_GC_1994" />
             <RelatedCrisis crisisIdent="WAR_Terror_2001" />
             <RelatedCrisis crisisIdent="Deepwater_ACC_2010" />
             <RelatedCrisis crisisIdent="California_FR_2009" />
@@ -1339,7 +1339,7 @@
             </Citation>
         </ExternalResources>
         <RelatedCrises>
-            <RelatedCrisis crisisIdent="Victoria_WF_2009" />
+            <RelatedCrisis crisisIdent="Victoria_FR_2009" />
         </RelatedCrises>
     </Person>
 

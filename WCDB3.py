@@ -670,7 +670,6 @@ def process_kind(login, tree) :
 		#QueryBuilding - Kind Table
 		d = inserts[i]	
 		s = (parentkey[i], d.get('Name', 'Null'), escapeSpecialCharacters(d.get('Description', 'Null')))
-		print(s)
 		s = 'insert into CrisisKind values' + str(s) + ';'
 		try:
 			t = query(login,s)

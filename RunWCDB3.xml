@@ -795,7 +795,562 @@
   </Crisis>
 
 
-  <Crisis crisisIdent="Eurozone_EC_2009">
+  <Crisis crisisIdent="H1N1_DS_2009">
+        <Name>
+            Swine Flu
+        </Name>
+        <Kind crisisKindIdent="DS"/>
+        <Location>
+            <Region>
+                Worldwide
+            </Region>
+        </Location>
+        <StartDateTime>
+            <Date>
+                2009-06-01
+            </Date>
+        </StartDateTime>
+        <EndDateTime>
+            <Date>
+                2010-05-01
+            </Date>
+        </EndDateTime>
+        <HumanImpact>
+            <Type>
+                Infected
+            </Type>
+            <Number>
+                1632258
+            </Number>
+        </HumanImpact>
+        <HumanImpact>
+            <Type>
+                Killed
+            </Type>
+            <Number>
+                19633
+            </Number>
+        </HumanImpact>
+        <EconomicImpact>
+            $200 million in damages
+        </EconomicImpact>
+        <ResourceNeeded>
+            Vaccines
+        </ResourceNeeded>
+        <ResourceNeeded>
+            Antivirals
+        </ResourceNeeded>
+        <WaysToHelp>
+            Awareness and prevention
+        </WaysToHelp>
+        <ExternalResources>
+            <ImageURL>http://upload.wikimedia.org/wikipedia/commons/f/f0/H1N1_influenza_virus.jpg</ImageURL>
+            <VideoURL>http://www.youtube.com/watch?v=lFl3FRNpU4E</VideoURL>
+            <MapURL>http://upload.wikimedia.org/wikipedia/commons/0/00/H1N1_map_by_confirmed_cases.svg</MapURL>
+            <SocialNetworkURL>http://www.facebook.com/h1n1Influenza</SocialNetworkURL>
+            <Citation>
+                WHO
+            </Citation>
+            <Citation>
+                CNN
+            </Citation>
+            <Citation>
+                New York Times
+            </Citation>
+            <ExternalLinkURL>http://en.wikipedia.org/wiki/2009_flu_pandemic</ExternalLinkURL>
+        </ExternalResources>
+        <RelatedPersons>
+            <RelatedPerson personIdent="BHObama"/>
+            <RelatedPerson personIdent="MChan"/>
+        </RelatedPersons>
+        <RelatedOrganizations>
+            <RelatedOrganization organizationIdent="WHO"/>
+        </RelatedOrganizations>
+    </Crisis>
+            
+    <Crisis crisisIdent="Bastrop_FR_2011">
+        <Name>
+            Bastrop Fires
+        </Name>
+        <Kind crisisKindIdent="FR"/>
+        <Location>
+            <Locality>
+                Bastrop
+            </Locality>
+            <Region>
+                Texas
+            </Region>
+            <Country>
+                US
+            </Country>
+        </Location>
+        <StartDateTime>
+            <Date>
+                2011-09-01
+            </Date>
+        </StartDateTime>
+        <HumanImpact>
+            <Type>
+                Killed
+            </Type>
+            <Number>
+                2
+            </Number>
+        </HumanImpact>
+        <EconomicImpact>
+            $350 million in damages
+        </EconomicImpact>
+        <ResourceNeeded>
+            Human labor
+        </ResourceNeeded>
+        <ResourceNeeded>
+            Construction Equipment
+        </ResourceNeeded>
+        <ResourceNeeded>
+            Funds
+        </ResourceNeeded>
+        <ResourceNeeded>
+            Firemen
+        </ResourceNeeded>
+        <WaysToHelp>
+            Donations
+        </WaysToHelp>
+        <ExternalResources>
+            <ImageURL>http://upload.wikimedia.org/wikipedia/commons/8/84/Texas_National_Guard_extinguishing_flames_from_Ch-47_helicopter.jpg</ImageURL>
+            <VideoURL>http://www.kxan.com/dpp/news/local/bird's-eye-view-of-bastrop-fires</VideoURL>
+            <MapURL>https://maps.google.com/maps?q=Austin+texas&amp;ie=UTF-8&amp;hq=&amp;hnear=0x8644b599a0cc032f:0x5d9b464bd469d57a,Austin,+TX&amp;gl=us&amp;ei=tqYvUe_zJMmjrAGjz4HoCQ&amp;ved=0CKwBELYD</MapURL>
+            <SocialNetworkURL>http://www.facebook.com/pages/Bastrop-Fire-Information-and-Help/284897838194470</SocialNetworkURL>
+            <Citation>
+                Austin American Statesman
+            </Citation>
+            <Citation>
+                Texas Forest Service
+            </Citation>
+            <ExternalLinkURL>http://en.wikipedia.org/wiki/Bastrop_County_Complex_fire</ExternalLinkURL>
+        </ExternalResources>
+        <RelatedPersons>
+            <RelatedPerson personIdent="RPerry"/>
+            <RelatedPerson personIdent="BHObama"/>
+        </RelatedPersons>
+        <RelatedOrganizations>
+            <RelatedOrganization organizationIdent="SA"/>
+        </RelatedOrganizations>
+    </Crisis>
+
+    <Crisis crisisIdent="Helens_VO_1980">
+        <Name>
+            Mt. St. Helen's Eruption
+        </Name>
+        <Kind crisisKindIdent="VO"/>
+        <Location>
+            <Locality>
+                Mount St. Helens
+            </Locality>
+            <Region>
+                Washington
+            </Region>
+            <Country>
+                US
+            </Country>
+        </Location>
+        <StartDateTime>
+            <Date>
+                1980-05-18
+            </Date>
+        </StartDateTime>
+        <HumanImpact>
+            <Type>
+                Killed
+            </Type>
+            <Number>
+                57
+            </Number>
+        </HumanImpact>
+        <EconomicImpact>
+            $2.74 billion in damages
+        </EconomicImpact>
+        <ResourceNeeded>
+            Human labor
+        </ResourceNeeded>
+        <ResourceNeeded>
+            Specialized dump sites
+        </ResourceNeeded>
+        <WaysToHelp>
+            Awareness
+        </WaysToHelp>
+        <ExternalResources>
+            <ImageURL>http://davidnussbaum88.files.wordpress.com/2010/01/msh80_eruption_mount_st_helens_plume_07-22-80.jpg</ImageURL>
+            <VideoURL>http://www.youtube.com/watch?v=xP2dreOI8gI</VideoURL>
+            <MapURL>http://en.wikipedia.org/wiki/File:1980_Mount_st_helens_ash_distribution.svg</MapURL>
+            <SocialNetworkURL>https://www.facebook.com/MountStHelens</SocialNetworkURL>
+            <Citation>
+                Wikipedia
+            </Citation>
+            <ExternalLinkURL>http://en.wikipedia.org/wiki/1980_eruption_of_Mount_St._Helens</ExternalLinkURL>
+        </ExternalResources>
+        <RelatedPersons>
+            <RelatedPerson personIdent="JECarter"/>
+            <RelatedPerson personIdent="DLRay"/>
+        </RelatedPersons>
+        <RelatedOrganizations>
+            <RelatedOrganization organizationIdent="FEMA"/>
+            <RelatedOrganization organizationIdent="USGS"/>
+        </RelatedOrganizations>
+    </Crisis>
+
+    <Crisis crisisIdent="Victoria_FR_2009">
+        <Name>
+            Black Saturday Bush Fires
+        </Name>
+        <Kind crisisKindIdent="FR"/>
+        <Location>
+            <Region>
+                Victoria
+            </Region>
+            <Country>
+                Australia
+            </Country>
+        </Location>
+        <StartDateTime>
+            <Date>
+                2009-02-07
+            </Date>
+        </StartDateTime>
+        <HumanImpact>
+            <Type>
+                Killed
+            </Type>
+            <Number>
+                173
+            </Number>
+        </HumanImpact>
+        <HumanImpact>
+            <Type>
+                Injured
+            </Type>
+            <Number>
+                414
+            </Number>
+        </HumanImpact>
+        <EconomicImpact>
+            $4.4 billion in damages
+        </EconomicImpact>
+        <ResourceNeeded>
+            Human labor
+        </ResourceNeeded>
+        <ResourceNeeded>
+            Construction
+        </ResourceNeeded>
+        <ResourceNeeded>
+            Firemen
+        </ResourceNeeded>
+        <ResourceNeeded>
+            Relief workers
+        </ResourceNeeded>
+        <WaysToHelp>
+            Awareness and donations
+        </WaysToHelp>
+        <ExternalResources>
+            <ImageURL>http://www.blacksaturdaybushfires.com.au/wp-content/uploads/2012/10/Black-Saturday-Bushfires.jpg ; http://econews.com.au/wp-content/uploads/2011/07/bushfires.jpg</ImageURL>
+            <VideoURL>http://www.youtube.com/watch?v=t_mSHVxiVvo</VideoURL>
+            <MapURL>http://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Major_Victorian_bushfires_in_the_2000s.PNG/300px-Major_Victorian_bushfires_in_the_2000s.PNG</MapURL>
+            <Citation>
+                Wikipedia
+            </Citation>
+            <Citation>
+                Youtube
+            </Citation>
+            <ExternalLinkURL>http://en.wikipedia.org/wiki/Black_Saturday_bushfires</ExternalLinkURL>
+        </ExternalResources>
+        <RelatedPersons>
+            <RelatedPerson personIdent="CNixon"/>
+        </RelatedPersons>
+        <RelatedOrganizations>
+            <RelatedOrganization organizationIdent="SA"/>
+        </RelatedOrganizations>
+    </Crisis>
+
+    <Crisis crisisIdent="Daulatpur_TO_1989">
+        <Name>
+            Daulatpur-Saturia Tornadoes
+        </Name>
+        <Kind crisisKindIdent="TO"/>
+        <Location>
+            <Region>
+                Daulatpur and Saturia
+            </Region>
+            <Country>
+                Bangladesh
+            </Country>
+        </Location>
+        <StartDateTime>
+            <Date>
+                1989-04-26
+            </Date>
+        </StartDateTime>
+        <HumanImpact>
+            <Type>
+                Killed
+            </Type>
+            <Number>
+                1300
+            </Number>
+        </HumanImpact>
+        <HumanImpact>
+            <Type>
+                Injured
+            </Type>
+            <Number>
+                12000
+            </Number>
+        </HumanImpact>
+        <EconomicImpact>
+            80000 people homeless
+        </EconomicImpact>
+        <ResourceNeeded>
+            Human labor
+        </ResourceNeeded>
+        <ResourceNeeded>
+            Construction
+        </ResourceNeeded>
+        <ResourceNeeded>
+            Relief programs
+        </ResourceNeeded>
+        <WaysToHelp>
+            Awareness and donations
+        </WaysToHelp>
+        <ExternalResources>
+            <MapURL>http://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Bangladesh_tornado_map_1989.png/240px-Bangladesh_tornado_map_1989.png</MapURL>
+            <Citation>
+                Wikipedia
+            </Citation>
+            <ExternalLinkURL>http://en.wikipedia.org/wiki/Daulatpur-Saturia_tornado</ExternalLinkURL>
+        </ExternalResources>
+    </Crisis>
+
+    <Crisis crisisIdent="Rwanda_GC_1994">
+        <Name>
+            Rwanda Genocide
+        </Name>
+        <Kind crisisKindIdent="GC"/>
+        <Location>
+            <Country>
+                Rwanda
+            </Country>
+        </Location>
+        <StartDateTime>
+            <Date>
+                1994-01-01
+            </Date>
+        </StartDateTime>
+        <HumanImpact>
+            <Type>
+                Killed
+            </Type>
+            <Number>
+                500000
+            </Number>
+        </HumanImpact>
+        <EconomicImpact>
+        </EconomicImpact>
+        <ResourceNeeded>
+            UN Support
+        </ResourceNeeded>
+        <ExternalResources>
+            <ImageURL>http://upload.wikimedia.org/wikipedia/commons/f/f0/Rwandan_refugee_camp_in_east_Zaire.jpg</ImageURL>
+            <MapURL>https://maps.google.com/maps?q=rwanda&amp;hl=en&amp;sll=30.307761,-97.753401&amp;sspn=0.733879,1.234589&amp;hnear=Rwanda&amp;t=m&amp;z=8</MapURL>
+            <Citation>
+                Wikipedia
+            </Citation>
+            <ExternalLinkURL>http://en.wikipedia.org/wiki/Rwanda_genocide</ExternalLinkURL>
+        </ExternalResources>
+        <RelatedPersons>
+            <RelatedPerson personIdent="PRusesabagina"/>
+        </RelatedPersons>
+        <RelatedOrganizations>
+            <RelatedOrganization organizationIdent="UN"/>
+            <RelatedOrganization organizationIdent="UNAMIR"/>
+            <RelatedOrganization organizationIdent="PC"/>
+            <RelatedOrganization organizationIdent="SA"/>
+        </RelatedOrganizations>
+    </Crisis>
+
+    <Crisis crisisIdent="California_FR_2009">
+        <Name>
+            California Wildfires
+        </Name>
+        <Kind crisisKindIdent="FR"/>
+        <Location>
+            <Region>
+                California
+            </Region>
+            <Country>
+                US
+            </Country>
+        </Location>
+        <StartDateTime>
+            <Date>
+                2009-01-01
+            </Date>
+        </StartDateTime>
+        <HumanImpact>
+            <Type>
+                Killed
+            </Type>
+            <Number>
+                2
+            </Number>
+        </HumanImpact>
+        <EconomicImpact>
+            $822,177,000 in damages
+        </EconomicImpact>
+        <ResourceNeeded>
+            Firefighters
+        </ResourceNeeded>
+        <WaysToHelp>
+            Awareness and prevention
+        </WaysToHelp>
+        <ExternalResources>
+            <ImageURL>http://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/2009_California_Wildfires_at_JPL_-_Pasadena%2C_California.jpg/1280px-2009_California_Wildfires_at_JPL_-_Pasadena%2C_California.jpg</ImageURL>
+            <VideoURL>http://www.youtube.com/watch?v=ncSosDIKbb0</VideoURL>
+            <MapURL>http://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/StationFire4Sept.jpg/1280px-StationFire4Sept.jpg</MapURL>
+            <SocialNetworkURL>http://www.facebook.com/pages/California-Fire-News-California-News-and-Wildland-Fire-Information/53417841526</SocialNetworkURL>
+            <Citation>
+                Wikipedia
+            </Citation>
+            <ExternalLinkURL>http://en.wikipedia.org/wiki/August_2009_California_wildfires</ExternalLinkURL>
+        </ExternalResources>
+        <RelatedOrganizations>
+            <RelatedOrganization organizationIdent="FEMA"/>
+            <RelatedOrganization organizationIdent="USGS"/>
+            <RelatedOrganization organizationIdent="SA"/>
+        </RelatedOrganizations>
+    </Crisis>
+
+    <Crisis crisisIdent="WAR_Terror_2001">
+        <Name>
+            Iraqi War
+        </Name>
+        <Kind crisisKindIdent="WAR"/>
+        <Location>
+            <Country>
+                Iraq
+            </Country>
+        </Location>
+        <StartDateTime>
+            <Date>
+                2003-03-20
+            </Date>
+        </StartDateTime>
+        <EconomicImpact>
+            Trillions in damages
+        </EconomicImpact>
+        <ExternalResources>
+            <ImageURL>http://news.antiwar.com/wp-content/uploads/2013/03/hires_080804-A-8725H-341.jpg</ImageURL>
+            <VideoURL>https://www.youtube.com/watch?v=B5FaMbnINwc</VideoURL>
+            <MapURL>https://maps.google.com/maps?oe=utf-8&amp;client=firefox-a&amp;channel=fflb&amp;q=Iraq&amp;ie=UTF-8&amp;hq=&amp;hnear=0x1557823d54f54a11:0x6da561bba2061602,Iraq&amp;gl=us&amp;ei=kLJcUaX2J8_NqQGBroGoBQ&amp;ved=0CKgBELYD</MapURL>
+            <SocialNetworkURL>http://www.facebook.com/pages/Iraq-War/112332505446235?ref=ts&amp;fref=ts</SocialNetworkURL>
+            <Citation>
+                Wikipedia
+            </Citation>
+            <Citation>
+                Youtube
+            </Citation>
+            <ExternalLinkURL>http://en.wikipedia.org/wiki/Iraq_War</ExternalLinkURL>
+        </ExternalResources>
+        <RelatedPersons>
+            <RelatedPerson personIdent="DCameron"/>
+            <RelatedPerson personIdent="GWBush"/>
+            <RelatedPerson personIdent="SHussein"/>
+        </RelatedPersons>
+        <RelatedOrganizations>
+            <RelatedOrganization organizationIdent="UN"/>
+            <RelatedOrganization organizationIdent="SA"/>
+        </RelatedOrganizations>
+    </Crisis>
+
+    <Crisis crisisIdent="SARS_DS_2003">
+        <Name>
+            SARS Outbreak
+        </Name>
+        <Kind crisisKindIdent="DS"/>
+        <Location>
+            <Region>
+                Hong Kong
+            </Region>
+            <Country>
+                China
+            </Country>
+        </Location>
+        <StartDateTime>
+            <Date>
+                2002-11-01
+            </Date>
+        </StartDateTime>
+        <EndDateTime>
+            <Date>
+                2003-07-01
+            </Date>
+        </EndDateTime>
+        <HumanImpact>
+            <Type>
+                Infected
+            </Type>
+            <Number>
+                8273
+            </Number>
+        </HumanImpact>
+        <HumanImpact>
+            <Type>
+                Killed
+            </Type>
+            <Number>
+                775
+            </Number>
+        </HumanImpact>
+        <EconomicImpact>
+            $1.65 million in damages
+        </EconomicImpact>
+        <ResourceNeeded>
+            Vaccines
+        </ResourceNeeded>
+        <ResourceNeeded>
+            Antipyretics
+        </ResourceNeeded>
+        <ResourceNeeded>
+            Oxygen and Ventilation Support
+        </ResourceNeeded>
+        <WaysToHelp>
+            Awareness and prevention
+        </WaysToHelp>
+        <ExternalResources>
+            <ImageURL>http://upload.wikimedia.org/wikipedia/commons/6/6c/Sars-corona.png</ImageURL>
+            <VideoURL>http://www.aljazeera.com/news/asia-pacific/2013/02/2013210153855381447.html</VideoURL>
+            <MapURL>https://maps.google.com/maps?q=hong+kong&amp;ie=UTF-8&amp;hq=&amp;hnear=0x3403e2eda332980f:0xf08ab3badbeac97c,Hong+Kong&amp;gl=us&amp;ei=k58vUa6bMMj_qwHZhYDwDw&amp;ved=0CKABELYD</MapURL>
+            <SocialNetworkURL>http://www.facebook.com/pages/SARS-outbreak/132956950074605#</SocialNetworkURL>
+            <Citation>
+                CDC
+            </Citation>
+            <Citation>
+                WHO
+            </Citation>
+            <Citation>
+                Social Science and Medicine
+            </Citation>
+            <ExternalLinkURL>http://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome</ExternalLinkURL>
+            <ExternalLinkURL>http://en.wikipedia.org/wiki/SARS_coronavirus</ExternalLinkURL>
+            <ExternalLinkURL>http://en.wikipedia.org/wiki/Progress_of_the_SARS_outbreak</ExternalLinkURL>
+        </ExternalResources>
+        <RelatedPersons>
+            <RelatedPerson personIdent="MChan"/>
+        </RelatedPersons>
+        <RelatedOrganizations>
+            <RelatedOrganization organizationIdent="WHO"/>
+            <RelatedOrganization organizationIdent="CDC"/>
+        </RelatedOrganizations>
+    </Crisis>
+
+    <Crisis crisisIdent="Eurozone_EC_2009">
 		<Name>Eurozone Crisis</Name>
 		<Kind crisisKindIdent="EC"/>
 		<Location>
@@ -1825,37 +2380,6 @@
     </RelatedPersons>
     <RelatedOrganizations>
       <RelatedOrganization organizationIdent="USDA"/>
-    </RelatedOrganizations>
-  </Crisis>
-
-  <Crisis crisisIdent="WAR_Terror_2001">
-    <Name>War on Terror</Name>
-    <Kind crisisKindIdent="WAR"/>
-    <Location>
-      <Country>United States</Country>
-    </Location>
-    <StartDateTime>
-      <Date>2001-10-07</Date>
-    </StartDateTime>
-    <HumanImpact>
-      <Type>Led to a people's outcry for new leadership.</Type>
-      <Number>0</Number>
-    </HumanImpact>
-    <EconomicImpact>Spending was $1.2 trillion in 2011 and there was a long-term spending estimate of $5.4 trillion plus interest.</EconomicImpact>
-    <ExternalResources>
-      <ImageURL>http://upload.wikimedia.org/wikipedia/commons/thumb/b/be/War_on_Terror_montage1.png/800px-War_on_Terror_montage1.png</ImageURL>
-      <VideoURL>https://www.youtube.com/watch?v=gnwZVv-axMw</VideoURL>
-    </ExternalResources>
-    <RelatedPersons>
-      <RelatedPerson personIdent="GWBush"/>
-      <RelatedPerson personIdent="BHObama"/>
-      <RelatedPerson personIdent="SHussein"/>
-    </RelatedPersons>
-    <RelatedOrganizations>
-      <RelatedOrganization organizationIdent="UN"/>
-      <RelatedOrganization organizationIdent="NATO"/>
-      <RelatedOrganization organizationIdent="ALQ"/>
-      <RelatedOrganization organizationIdent="CIA"/>
     </RelatedOrganizations>
   </Crisis>
 
@@ -2912,7 +3436,226 @@
     </RelatedCrises>
   </Organization>
 
-  <Organization organizationIdent="CARE">
+  <Organization organizationIdent="Google">
+        <Name>
+            Google
+        </Name>
+        <Kind organizationKindIdent="IO"/>
+        <Location>
+            <Region>
+                California
+            </Region>
+            <Country>
+                US
+            </Country>
+        </Location>
+        <History>
+            Started initially as a research project for Larry Page and Sergey Brin to create a search engine that would rank search results by relevancy and importance
+        </History>
+        <ContactInfo>
+            <Telephone>16502530000</Telephone>
+            <Fax/>
+            <Email/>
+            <PostalAddress>
+                <StreetAddress>
+                    1600 Amphitheatre Parkway
+                </StreetAddress>
+                <Locality>
+                    Mountain View
+                </Locality>
+                <Region>
+                    California
+                </Region>
+                <PostalCode>
+                    94043
+                </PostalCode>
+                <Country>
+                    US
+                </Country>
+            </PostalAddress>
+        </ContactInfo>
+        <ExternalResources>
+            <ImageURL>http://media.npr.org/assets/img/2012/11/26/google262way_custom-b0a89fbf1933607665ebaac4a7c08bc85e11dfe3-s6-c10.jpg</ImageURL>
+            <VideoURL>http://www.youtube.com/watch?v=2FSE3TNFkJQ&amp;feature=player_embedded</VideoURL>
+            <MapURL>https://maps.google.com/maps?hl=en&amp;sugexp=les%3B&amp;gs_rn=5&amp;gs_ri=psy-ab&amp;tok=nyfd2p-eW6QBXPuXQmf0mQ&amp;cp=11&amp;gs_id=au&amp;xhr=t&amp;q=google+headquarters&amp;biw=1600&amp;bih=770&amp;bav=on.2,or.r_gc.r_pw.r_cp.r_qf.&amp;bvm=bv.43148975,d.b2U&amp;um=1&amp;ie=UTF-8&amp;sa=N&amp;tab=wl</MapURL>
+            <SocialNetworkURL>https://twitter.com/googledevs</SocialNetworkURL>
+            <Citation>
+                Wikipedia
+            </Citation>
+            <Citation>
+                Google
+            </Citation>
+            <ExternalLinkURL>http://en.wikipedia.org/wiki/Google</ExternalLinkURL>
+        </ExternalResources>
+    </Organization>
+
+    <Organization organizationIdent="USGS">
+        <Name>
+            USGS
+        </Name>
+        <Kind organizationKindIdent="GOV"/>
+        <Location>
+            <Locality>
+                Reston
+            </Locality>
+            <Region>
+                Virginia
+            </Region>
+            <Country>
+                US
+            </Country>
+        </Location>
+        <History>
+            Created by an act of Congress on March 3rd 1879 to survey and classify the lands acquired in the Louisiana Purchase and the Mexican War
+        </History>
+        <ContactInfo>
+            <Telephone>18882758747</Telephone>
+            <Fax/>
+            <Email/>
+            <PostalAddress>
+                <StreetAddress>
+                    12201 Sunrise Valley Drive
+                </StreetAddress>
+                <Locality>
+                    Reston
+                </Locality>
+                <Region>
+                    Virginia
+                </Region>
+                <PostalCode>
+                    20192
+                </PostalCode>
+                <Country>
+                    US
+                </Country>
+            </PostalAddress>
+        </ContactInfo>
+        <ExternalResources>
+            <ImageURL>http://escweb.wr.usgs.gov/share/mooney/USGS_green.jpg</ImageURL>
+            <VideoURL>https://www.youtube.com/watch?v=SI0mvM_ECvw&amp;list=PL7BE7DF311014D017&amp;index=76</VideoURL>
+            <MapURL>http://vulcan.wr.usgs.gov/Imgs/Gif/PlateTectonics/Maps/map_plate_tectonics_world_med.gif</MapURL>
+            <SocialNetworkURL>https://twitter.com/usgs</SocialNetworkURL>
+            <Citation>
+                Wikipedia
+            </Citation>
+            <Citation>
+                Goole
+            </Citation>
+            <Citation>
+                USGS
+            </Citation>
+            <ExternalLinkURL>http://en.wikipedia.org/wiki/United_States_Geological_Survey</ExternalLinkURL>
+            <ExternalLinkURL>http://www.usgs.gov/</ExternalLinkURL>
+        </ExternalResources>
+        <RelatedCrises>
+            <RelatedCrisis crisisIdent="Helens_VO_1980"/>
+            <RelatedCrisis crisisIdent="California_FR_2009"/>
+        </RelatedCrises>
+    </Organization>
+
+    <Organization organizationIdent="UNAMIR">
+        <Name>
+            UNAMIR
+        </Name>
+        <Kind organizationKindIdent="GOV"/>
+        <Location>
+            <Country>
+                Rwanda
+            </Country>
+        </Location>
+        <History>
+            Created by the UN to support the Rwandans during conflict
+        </History>
+        <ContactInfo>
+            <Telephone/>
+            <Fax/>
+            <Email/>
+            <PostalAddress>
+                <StreetAddress>
+                </StreetAddress>
+                <Locality>
+                </Locality>
+                <Region>
+                </Region>
+                <PostalCode>
+                </PostalCode>
+                <Country>
+                </Country>
+            </PostalAddress>
+        </ContactInfo>
+        <ExternalResources>
+            <Citation>
+                Wikipedia
+            </Citation>
+            <ExternalLinkURL>http://en.wikipedia.org/wiki/UNAMIR</ExternalLinkURL>
+        </ExternalResources>
+        <RelatedCrises>
+            <RelatedCrisis crisisIdent="Rwanda_GC_1994"/>
+        </RelatedCrises>
+    </Organization>
+
+    <Organization organizationIdent="SA">
+        <Name>
+            Salvation Army
+        </Name>
+        <Kind organizationKindIdent="HO"/>
+        <Location>
+            <Locality>
+                London
+            </Locality>
+            <Country>
+                England
+            </Country>
+        </Location>
+        <History>
+            Started by William and Catherine Booth as service organization modeled after military hiarchy under the notion that to be effective the organization need to have the force of an army.
+        </History>
+        <ContactInfo>
+            <Telephone/>
+            <Fax/>
+            <Email/>
+            <PostalAddress>
+                <StreetAddress>
+                    615 Slaters Lane P.O. Box 269
+                </StreetAddress>
+                <Locality>
+                    Alexandria
+                </Locality>
+                <Region>
+                    Virginia
+                </Region>
+                <PostalCode>
+                    22313
+                </PostalCode>
+                <Country>
+                    US
+                </Country>
+            </PostalAddress>
+        </ContactInfo>
+        <ExternalResources>
+            <ImageURL>http://upload.wikimedia.org/wikipedia/en/thumb/c/c4/The_Salvation_Army.svg/2000px-The_Salvation_Army.svg.png</ImageURL>
+            <VideoURL>http://www.youtube.com/watch?v=ey8n3n3MgF4</VideoURL>
+            <MapURL>http://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Salvation_army_world_map.PNG/640px-Salvation_army_world_map.PNG</MapURL>
+            <SocialNetworkURL>https://www.facebook.com/SalvationArmyUSA</SocialNetworkURL>
+            <Citation>
+                Wikipedia
+            </Citation>
+            <ExternalLinkURL>http://en.wikipedia.org/wiki/Salvation_army</ExternalLinkURL>
+        </ExternalResources>
+        <RelatedCrises>
+            <RelatedCrisis crisisIdent="Bastrop_FR_2011"/>
+            <RelatedCrisis crisisIdent="Victoria_FR_2009"/>
+            <RelatedCrisis crisisIdent="Rwanda_GC_1994"/>
+            <RelatedCrisis crisisIdent="WAR_Terror_2001"/>
+            <RelatedCrisis crisisIdent="Deepwater_ACC_2010"/>
+            <RelatedCrisis crisisIdent="California_FR_2009"/>
+        </RelatedCrises>
+        <RelatedPersons>
+            <RelatedPerson personIdent="BHObama"/>
+        </RelatedPersons>
+    </Organization>
+
+    <Organization organizationIdent="CARE">
   		<Name>CARE</Name>
   		<Kind organizationKindIdent="HO"/>
   		<Location>
@@ -3328,53 +4071,9 @@
 	</RelatedCrises>
 </Organization>
 
-<Organization organizationIdent="SA">
-	<Name>Salvation Army</Name>
-	<Kind organizationKindIdent="CHA"/>
-	<Location>
-		<Locality>Alexandria</Locality>
-		<Region>Virginia</Region>
-		<Country>United States</Country>
-	</Location>
-	<History>Founded in 1865. Founded by a minister and his wife as an aid for the poor, destitute and hungry.</History>
-	<ContactInfo>
-		<Telephone>8007287825</Telephone>
-		<Fax>8007287825</Fax>
-		<!-- <Fax>([0-9x+ ]+)?</Fax> -->
-		<Email>NHQ_Webmaster@usn.salvationarmy.org</Email>
-		<PostalAddress>
-			<StreetAddress>615 Slaters Lane</StreetAddress>
-			<Locality>Alexandria</Locality>
-			<Region>Virginia</Region>
-			<PostalCode>22313</PostalCode>
-			<Country>United States</Country>
-		</PostalAddress>
-	</ContactInfo>
-	<ExternalResources>
-		<ImageURL>https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSXTZ_ZWrimAT2J46Ub2z_5w_efZcU_SaqVis5x4Pd0MbMlY-UMAA</ImageURL>
-		<ImageURL>http://blog.salvationarmyusa.org/wp-content/uploads/61.jpg</ImageURL>
-		<VideoURL>http://www.youtube.com/watch?v=_ty5A0hj2sI</VideoURL>
-		<MapURL>http://3.bp.blogspot.com/_0Q-vLFn_PCk/SjVng0t4daI/AAAAAAAADd0/rH3Z8K2VnAw/s400/earth.jpg</MapURL>
-		<SocialNetworkURL>https://www.facebook.com/SalvationArmyUSA</SocialNetworkURL>
-		<SocialNetworkURL>https://twitter.com/SalvationArmyUS</SocialNetworkURL>
-		<ExternalLinkURL>http://en.wikipedia.org/wiki/The_Salvation_Army</ExternalLinkURL>
-	</ExternalResources>
-	<RelatedCrises>
-		<RelatedCrisis crisisIdent="Japan_EQ_2011"/>
-		<RelatedCrisis crisisIdent="HU_Katrina_2005"/>
-		<RelatedCrisis crisisIdent="HU_Andrew_1992"/>
-		<RelatedCrisis crisisIdent="HU_Ike_2008"/>
-		<RelatedCrisis crisisIdent="HU_Wilma_2005"/>
-		<RelatedCrisis crisisIdent="HU_Ivan_2004"/>
-		<RelatedCrisis crisisIdent="HU_Charley_2004"/>
-		<RelatedCrisis crisisIdent="HU_Sandy_2012"/>
-		<RelatedCrisis crisisIdent="Tri-State_TO_1925"/>
-	</RelatedCrises>
-</Organization>
-
 <Organization organizationIdent="DEC">
 	<Name>Disasters Emergency Committee</Name>
-	<Kind organizationKindIdent="CO"/>
+	<Kind organizationKindIdent="CHA"/>
 	<Location>
 		<Locality>London</Locality>
 		<Country>United Kingdom</Country>
@@ -4748,7 +5447,223 @@
     </RelatedOrganizations>
   </Person>
 
-  <Person personIdent="BHal-Assad">
+  <Person personIdent="RPerry">
+        <Name>
+            <FirstName>
+                Rick
+            </FirstName>
+            <LastName>
+                Perry
+            </LastName>
+        </Name>
+        <Kind personKindIdent="GOV"/>
+        <Location>
+            <Locality>
+                Austin
+            </Locality>
+            <Region>
+                Texas
+            </Region>
+            <Country>
+                US
+            </Country>
+        </Location>
+        <ExternalResources>
+            <ImageURL>http://upload.wikimedia.org/wikipedia/commons/c/ce/Rick_Perry_by_Gage_Skidmore_8.jpg</ImageURL>
+            <VideoURL>http://www.youtube.com/user/govperry</VideoURL>
+            <MapURL>https://maps.google.com/maps?q=Austin+texas&amp;ie=UTF-8&amp;hq=&amp;hnear=0x8644b599a0cc032f:0x5d9b464bd469d57a,Austin,+TX&amp;gl=us&amp;ei=tqYvUe_zJMmjrAGjz4HoCQ&amp;ved=0CKwBELYD</MapURL>
+            <SocialNetworkURL>http://www.facebook.com/GovernorPerry</SocialNetworkURL>
+            <Citation>
+                The New York Times
+            </Citation>
+            <Citation>
+                Texas Tribune
+            </Citation>
+            <ExternalLinkURL>http://en.wikipedia.org/wiki/Rick_Perry</ExternalLinkURL>
+        </ExternalResources>
+        <RelatedCrises>
+            <RelatedCrisis crisisIdent="Bastrop_FR_2011"/>
+        </RelatedCrises>
+    </Person>
+
+    <Person personIdent="DCameron">
+        <Name>
+            <FirstName>
+                David
+            </FirstName>
+            <LastName>
+                Cameron
+            </LastName>
+        </Name>
+        <Kind personKindIdent="PR"/>
+        <Location>
+            <Region>
+                London
+            </Region>
+            <Country>
+                England
+            </Country>
+        </Location>
+        <ExternalResources>
+            <ImageURL>http://upload.wikimedia.org/wikipedia/commons/2/21/David_Cameron_official.jpg</ImageURL>
+            <VideoURL>https://www.youtube.com/watch?v=V1CcBBLLiEo</VideoURL>
+            <MapURL>http://europa.eu/about-eu/countries/images/unitedkingdom_map.gif</MapURL>
+            <SocialNetworkURL>https://twitter.com/David_Cameron</SocialNetworkURL>
+            <Citation>
+                Wikipedia
+            </Citation>
+            <ExternalLinkURL>http://en.wikipedia.org/wiki/David_Cameron</ExternalLinkURL>
+        </ExternalResources>
+        <RelatedCrises>
+            <RelatedCrisis crisisIdent="Deepwater_ACC_2010"/>
+            <RelatedCrisis crisisIdent="WAR_Terror_2001"/>
+        </RelatedCrises>
+        <RelatedOrganizations>
+            <RelatedOrganization organizationIdent="UN"/>
+        </RelatedOrganizations>
+    </Person>
+
+    <Person personIdent="DLRay">
+        <Name>
+            <FirstName>
+                Dixy
+            </FirstName>
+            <MiddleName>
+                Lee
+            </MiddleName>
+            <LastName>
+                Ray
+            </LastName>
+        </Name>
+        <Kind personKindIdent="GOV"/>
+        <Location>
+            <Region>
+                Washington
+            </Region>
+            <Country>
+                US
+            </Country>
+        </Location>
+        <ExternalResources>
+            <ImageURL>http://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Dixy_Lee_Ray.jpg/341px-Dixy_Lee_Ray.jpg</ImageURL>
+            <VideoURL>http://www.youtube.com/watch?v=BT56juVplT0</VideoURL>
+            <MapURL>http://www.lib.utexas.edu/maps/united_states/washington_90.jpg</MapURL>
+            <SocialNetworkURL>http://www.facebook.com/pages/Dixie-Lee-Ray/114927621855969?rf=112037578826926</SocialNetworkURL>
+            <Citation>
+                Wikipedia
+            </Citation>
+            <ExternalLinkURL>http://en.wikipedia.org/wiki/Dixy_Lee_Ray</ExternalLinkURL>
+        </ExternalResources>
+        <RelatedCrises>
+            <RelatedCrisis crisisIdent="Helens_VO_1980"/>
+        </RelatedCrises>
+    </Person>
+
+    <Person personIdent="CNixon">
+        <Name>
+            <FirstName>
+                Christine
+            </FirstName>
+            <LastName>
+                Nixon
+            </LastName>
+        </Name>
+        <Kind personKindIdent="PO"/>
+        <Location>
+            <Region>
+                Victoria
+            </Region>
+            <Country>
+                Australia
+            </Country>
+        </Location>
+        <ExternalResources>
+            <ImageURL>http://en.wikipedia.org/wiki/File:Christine_Nixon_March_2012.jpg</ImageURL>
+            <VideoURL>http://www.youtube.com/watch?v=YP02mRea_so</VideoURL>
+            <MapURL>http://www.map-of-australia.co.uk/maps/victoria.gif</MapURL>
+            <SocialNetworkURL>https://www.facebook.com/pages/Christine-Nixon/116116688436492</SocialNetworkURL>
+            <Citation>
+                Wikipedia
+            </Citation>
+            <Citation>
+                Facebook
+            </Citation>
+            <Citation>
+                Youtube
+            </Citation>
+        </ExternalResources>
+        <RelatedCrises>
+            <RelatedCrisis crisisIdent="Victoria_FR_2009"/>
+        </RelatedCrises>
+    </Person>
+
+    <Person personIdent="PRusesabagina">
+        <Name>
+            <FirstName>
+                Paul
+            </FirstName>
+            <LastName>
+                Rusesabagina
+            </LastName>
+        </Name>
+        <Kind personKindIdent="MIS"/>
+        <Location>
+            <Country>
+                Rwanda
+            </Country>
+        </Location>
+        <ExternalResources>
+            <ImageURL>http://upload.wikimedia.org/wikipedia/commons/3/36/Paul_Rusesabagina.jpg</ImageURL>
+            <Citation>
+                Wikipedia
+            </Citation>
+            <ExternalLinkURL>http://en.wikipedia.org/wiki/Paul_Rusesabagina</ExternalLinkURL>
+        </ExternalResources>
+        <RelatedCrises>
+            <RelatedCrisis crisisIdent="Rwanda_GC_1994"/>
+        </RelatedCrises>
+        <RelatedOrganizations>
+            <RelatedOrganization organizationIdent="UN"/>
+            <RelatedOrganization organizationIdent="UNAMIR"/>
+        </RelatedOrganizations>
+    </Person>
+
+    <Person personIdent="SHussein">
+        <Name>
+            <FirstName>
+                Saddam
+            </FirstName>
+            <LastName>
+                Hussein
+            </LastName>
+        </Name>
+        <Kind personKindIdent="PR"/>
+        <Location>
+            <Country>
+                Iraq
+            </Country>
+        </Location>
+        <ExternalResources>
+            <ImageURL>http://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Iraq,_Saddam_Hussein_(222).jpg/220px-Iraq,_Saddam_Hussein_(222).jpg</ImageURL>
+            <VideoURL>http://www.youtube.com/watch?v=XYXczlVlLyY</VideoURL>
+            <MapURL>http://www.lonelyplanet.com/maps/middle-east/iraq/map_of_iraq.jpg</MapURL>
+            <Citation>
+                Wikipedia
+            </Citation>
+            <Citation>
+                Youtube
+            </Citation>
+            <Citation>
+                Lonely Planet
+            </Citation>
+            <ExternalLinkURL>http://en.wikipedia.org/wiki/Saddam_Hussein</ExternalLinkURL>
+        </ExternalResources>
+        <RelatedCrises>
+            <RelatedCrisis crisisIdent="WAR_Terror_2001"/>
+        </RelatedCrises>
+    </Person>
+
+    <Person personIdent="BHal-Assad">
 		<Name>
 			<FirstName>Bashar</FirstName>
 			<MiddleName>Hafez</MiddleName>
@@ -5400,31 +6315,6 @@
     </RelatedOrganizations>
   </Person>
 
-  <Person personIdent="SHussein">
-    <Name>
-      <FirstName>Saddam</FirstName>
-      <LastName>Hussein</LastName>
-    </Name>
-    <Kind personKindIdent="PR"/>
-    <Location>
-      <Locality>Al-Awja</Locality>
-      <Country>Iraq</Country>
-    </Location>
-    <ExternalResources>
-      <ImageURL>http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2012/12/3/1354572648813/Saddam-Hussein--010.jpg</ImageURL>
-      <VideoURL>http://www.biography.com/people/saddam-hu47918</VideoURL>
-    </ExternalResources>
-    <RelatedCrises>
-      <RelatedCrisis crisisIdent="WTC_TA_2001"/>
-      <RelatedCrisis crisisIdent="Oil_EC_1973"/>
-    </RelatedCrises>
-    <RelatedOrganizations>
-      <RelatedOrganization organizationIdent="UN"/>
-      <RelatedOrganization organizationIdent="CIA"/>
-      <RelatedOrganization organizationIdent="NATO"/>
-    </RelatedOrganizations>
-  </Person>
-
   <Person personIdent="KLay">
     <Name>
       <FirstName>Kenneth</FirstName>
@@ -5779,7 +6669,25 @@
     <Description>visible streak of light from a meteoroid or micrometeoroid, heated and glowing from entering the Earth's atmosphere, as it sheds glowing material in its wake.</Description>
   </CrisisKind>
 
-  <CrisisKind crisisKindIdent="ND">
+  <CrisisKind crisisKindIdent="DS">
+    <Name>
+        Disease
+    </Name>
+    <Description>
+        A disease outbreak
+    </Description>
+    </CrisisKind>
+
+    <CrisisKind crisisKindIdent="ST">
+    <Name>
+        Storm
+    </Name>
+    <Description>
+        A storm
+    </Description>
+    </CrisisKind>
+
+    <CrisisKind crisisKindIdent="ND">
 <Name>Natural Disaster</Name>
 <Description>A natural event causes the crisis (e.g. flood, tornado, hurricane, earthquake, volcano, etc.)</Description>
 </CrisisKind>
@@ -5794,11 +6702,7 @@
     <Description>One party ensures that the other party does not receive any resources in a bid to force them into submission.</Description>
   </CrisisKind>
 
-  <CrisisKind crisisKindIdent="ST">
-		<Name>Storm</Name>
-		<Description>storm</Description>
-	</CrisisKind>
-	<OrganizationKind organizationKindIdent="NG">
+  <OrganizationKind organizationKindIdent="NG">
     <Name>National Government</Name>
     <Description>The government of a nation</Description>
   </OrganizationKind>
@@ -5870,17 +6774,124 @@
     <Description/>
   </OrganizationKind>
 
-  <OrganizationKind organizationKindIdent="ENV">
-    	<Name>Environmental Organization</Name>
-    	<Description>An environmental organization is an organization that seeks to protect, analyze or monitor the environment against misuse or degradation from human forces.</Description>
-  	</OrganizationKind>
-  	
-  	<OrganizationKind organizationKindIdent="EPU">
-    	<Name>Economic and Political Union</Name>
-    	<Description>A larger and consolidated group of nations or states that share a joint government or economic system that is internationally acknowledged</Description>
-  	</OrganizationKind>
-  	
-  	<OrganizationKind organizationKindIdent="HA">
+  <OrganizationKind organizationKindIdent="AD">
+        <Name>
+            Agricultural Department
+        </Name>
+        <Description>
+            Agriculutural Department
+        </Description>
+    </OrganizationKind>
+
+    <OrganizationKind organizationKindIdent="APA">
+        <Name>
+            Animal Protection Agency
+        </Name>
+        <Description>
+            Animal Protection Agency
+        </Description>
+    </OrganizationKind>
+
+    <OrganizationKind organizationKindIdent="CB">
+        <Name>
+            Central Bank
+        </Name>
+        <Description>
+            Central Bank
+        </Description>
+    </OrganizationKind>
+
+    <OrganizationKind organizationKindIdent="CHA">
+        <Name>
+            Charitable Organization
+        </Name>
+        <Description>
+            Charitable Organization
+        </Description>
+    </OrganizationKind>
+
+    <OrganizationKind organizationKindIdent="EPU">
+        <Name>
+            Economic and Political Union
+        </Name>
+        <Description>
+            Economic and Political Union
+        </Description>
+    </OrganizationKind>
+
+    <OrganizationKind organizationKindIdent="ENV">
+        <Name>
+            Environmental Organization
+        </Name>
+        <Description>
+            Environmental Organization
+        </Description>
+    </OrganizationKind>
+
+    <OrganizationKind organizationKindIdent="INS">
+        <Name>
+            Insurance Corporation
+        </Name>
+        <Description>
+            Insurance Corporation
+        </Description>
+    </OrganizationKind>
+
+    <OrganizationKind organizationKindIdent="INV">
+        <Name>
+            Investment Bank
+        </Name>
+        <Description>
+            Investment Bank
+        </Description>
+    </OrganizationKind>
+
+    <OrganizationKind organizationKindIdent="MO">
+        <Name>
+            Military Organization
+        </Name>
+        <Description>
+            Military Organization
+        </Description>
+    </OrganizationKind>
+
+    <OrganizationKind organizationKindIdent="NS">
+        <Name>
+            National Security
+        </Name>
+        <Description>
+            Tends to matters of national security
+        </Description>
+    </OrganizationKind>
+
+    <OrganizationKind organizationKindIdent="NPO">
+        <Name>
+            Non-Profit Organization
+        </Name>
+        <Description>
+            Non-Profit Organization
+        </Description>
+    </OrganizationKind>
+
+    <OrganizationKind organizationKindIdent="SOC">
+        <Name>
+            Social Organization
+        </Name>
+        <Description>
+            Social Organization
+        </Description>
+    </OrganizationKind>
+
+    <OrganizationKind organizationKindIdent="MIS">
+        <Name>
+            Miscellaneous
+        </Name>
+        <Description>
+            Organizations that did not fall into any other category
+        </Description>
+    </OrganizationKind>
+
+    <OrganizationKind organizationKindIdent="HA">
 <Name>Humanitarian Aid</Name>
 <Description>Concerned with or seeking to promote human welfare: "groups sending humanitarian aid".</Description>
 </OrganizationKind>
@@ -5890,62 +6901,18 @@
 <Description>Provides aid in the aftermath of a disaster.</Description>
 </OrganizationKind>
 
-<OrganizationKind organizationKindIdent="APA">
-<Name>Animal Protection Agency</Name>
-<Description>An APA is an organization dedicated to the welfare of animals, especially in times of crisis.</Description>
-</OrganizationKind>
-
 <OrganizationKind organizationKindIdent="NP">
 <Name>Non-Profit</Name>
 <Description>A Non-Profit organization uses surplus revenues to achieve its goals (usually humanitarian) rather than distributing them as profit or dividends.</Description>
 </OrganizationKind>
 
-<OrganizationKind organizationKindIdent="CHA">
-<Name>Charitable Organization</Name>
-<Description>A Charitable Organization provides a service to the needed in the community. THe organization relies on the charity of the community (e.g. donations) to operate.</Description>
-</OrganizationKind>
-
-<OrganizationKind organizationKindIdent="MO">
-    <Name>Military Organization</Name>
-    <Description>A body of the Government responsible for defence and offence using both conventional and asymmetric weapons.</Description>
-  </OrganizationKind>
-
-  <OrganizationKind organizationKindIdent="GO">
+<OrganizationKind organizationKindIdent="GO">
     <Name>Government Organization</Name>
     <Description>A body of the Government responsible for non-defence, non-intelligence business.</Description>
   </OrganizationKind>
 
 	
-  <OrganizationKind organizationKindIdent="AD">
-    <Name>Agricultural Department</Name>
-    <Description>Responsible for developing and executing U.S. federal government policy on farming, agriculture, forestry, and food.</Description>
-  </OrganizationKind>
-
-  <OrganizationKind organizationKindIdent="NS">
-    <Name>National Security</Name>
-    <Description>Maintain the survival of the state through the use of economic power, diplomacy, power projection and political power.</Description>
-  </OrganizationKind>
-
-  <OrganizationKind organizationKindIdent="INS">
-    <Name>Insurance Corporation</Name>
-    <Description>It provides deposit insurance guaranteeing the safety of a depositor's accounts.</Description>
-  </OrganizationKind>
-
-  <OrganizationKind organizationKindIdent="CB">
-    <Name>Central Bank</Name>
-    <Description>Is a public institution that manages a state's currency, money supply, and interest rates. Central banks also usually oversee the commercial banking system of their respective countries.</Description>
-  </OrganizationKind>
-
-  <OrganizationKind organizationKindIdent="INV">
-    <Name>Investment Bank</Name>
-    <Description>Is a financial institution that assists individuals, corporations, and governments in raising capital by underwriting and/or acting as the client's agent in the issuance of securities.</Description>
-  </OrganizationKind>
-
-  <OrganizationKind organizationKindIdent="SOC">
-		<Name>Social Organization</Name>
-		<Description>description</Description>
-	</OrganizationKind>
-	<PersonKind personKindIdent="PR">
+  <PersonKind personKindIdent="PR">
     <Name>President (current or former)</Name>
     <Description>A democratically elected leader of a government</Description>
   </PersonKind>
@@ -5999,64 +6966,121 @@
     <Description>Sings songs</Description>
   </PersonKind>
 
-<PersonKind personKindIdent="CEO">
-    	<Name>Chief Executive Officer</Name>
-    	<Description>Top executive responsible for a firm or organizations overall operations and performance</Description>
-  	</PersonKind>
-	
-	<PersonKind personKindIdent="FO">
-<Name>Founder</Name>
-<Description>Person who established an institution</Description>
-</PersonKind>
-
-<PersonKind personKindIdent="PCEO">
-<Name>Prseident and CEO</Name>
-<Description>President and Chief executive officer of an institution. Typically the highest ranking executive of a company.</Description>
-</PersonKind>
-
-<PersonKind personKindIdent="VP">
-<Name>Vice President</Name>
-<Description>An official or executive ranking below and deputizing for a president.</Description>
-</PersonKind>
-
 <PersonKind personKindIdent="CM">
-<Name>Chairman</Name>
-<Description>The permanent or long-term president of a committee, company, or other organization.</Description>
-</PersonKind>
+        <Name>
+            Chairman
+        </Name>
+        <Description>
+            A chairman
+        </Description>
+    </PersonKind>
 
-<PersonKind personKindIdent="AMB">
-<Name>United States Ambassador</Name>
-<Description>An accredited diplomat sent by a country as its official representative to a foreign country.</Description>
-</PersonKind>
+    <PersonKind personKindIdent="CEO">
+        <Name>
+            CEO
+        </Name>
+        <Description>
+            A Cheif Executive Officer
+        </Description>
+    </PersonKind>
 
-<PersonKind personKindIdent="SW">
-<Name>Social Worker</Name>
-<Description>Someone employed to provide social services (especially to the disadvantaged).</Description>
-</PersonKind>
+    <PersonKind personKindIdent="FRC">
+        <Name>
+            Federal Reserve Chairman
+        </Name>
+        <Description>
+            A federal reserve chairman
+        </Description>
+    </PersonKind>
 
-<PersonKind personKindIdent="GO">
-    <Name>Government Official</Name>
-    <Description>A person working in the government in some capacity.</Description>
-  </PersonKind>
+    <PersonKind personKindIdent="FO">
+        <Name>
+            Founder
+        </Name>
+        <Description>
+            A person who founded something
+        </Description>
+    </PersonKind>
 
+    <PersonKind personKindIdent="GO">
+        <Name>
+            Government Official
+        </Name>
+        <Description>
+            A government official
+        </Description>
+    </PersonKind>
 
-<PersonKind personKindIdent="TL">
-    <Name>Terrorist Leader</Name>
-    <Description>A leader of a group who uses or advocates terrorism.</Description>
-</PersonKind>
+    <PersonKind personKindIdent="PE">
+        <Name>
+            Personality
+        </Name>
+        <Description>
+            A person well known in pop culture
+        </Description>
+    </PersonKind>
 
-<PersonKind personKindIdent="FRC">
-    <Name>Federal Reserve Chairman</Name>
-    <Description>Is the head of the central banking system of the United States.</Description>
-</PersonKind>
+    <PersonKind personKindIdent="PCEO">
+        <Name>
+            President and CEO
+        </Name>
+        <Description>
+            A president and CEO of a company
+        </Description>
+    </PersonKind>
 
-<PersonKind personKindIdent="SA">
-    <Name>Secretary of Agriculture</Name>
-    <Description>Is the head of the United States Department of Agriculture.</Description>
-</PersonKind>
+    <PersonKind personKindIdent="SA">
+        <Name>
+            Secretary of Agriculture
+        </Name>
+        <Description>
+            A secretary of agriculture
+        </Description>
+    </PersonKind>
 
-<PersonKind personKindIdent="MIS">
-		<Name>Others</Name>
-		<Description>description</Description>
-	</PersonKind>
-	</WorldCrises>
+    <PersonKind personKindIdent="SW">
+        <Name>
+            Social Worker
+        </Name>
+        <Description>
+            A social worker
+        </Description>
+    </PersonKind>
+
+    <PersonKind personKindIdent="TL">
+        <Name>
+            Terrorist Leader
+        </Name>
+        <Description>
+            A terrorist leader
+        </Description>
+    </PersonKind>
+
+    <PersonKind personKindIdent="AMB">
+        <Name>
+            United States Ambassador
+        </Name>
+        <Description>
+            A US Ambassador
+        </Description>
+    </PersonKind>
+
+    <PersonKind personKindIdent="VP">
+        <Name>
+            Vice President
+        </Name>
+        <Description>
+            A vice president of a country
+        </Description>
+    </PersonKind>
+
+    <PersonKind personKindIdent="MIS">
+        <Name>
+            Others
+        </Name>
+        <Description>
+            Another person that is not listed
+        </Description>
+    </PersonKind>
+
+</WorldCrises>
