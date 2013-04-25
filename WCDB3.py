@@ -1396,7 +1396,6 @@ def wcdb3_solve (xml_files, w) :
 	unique_tree= ET.fromstring(unicode_xml, parser=parser)
 	
 	#Import
-	wcdb3_write (w, unique_tree)
 	createDB(login)
 	wcdb3_import(login, unique_tree)
 	export = wcdb3_export(login)
