@@ -409,8 +409,12 @@ def process_crisis (login, tree) :
 		
 		#QueryBuilding - Crisis Table
 		d = inserts[i]	
+		d = { k:v.strip() for k, v in d.iteritems() if type(k) and type(v) == str}	
+
 		s = StartDateTime[i]
-		e = EndDateTime[i]		
+		s = { k:v.strip() for k, v in s.iteritems()}
+		e = EndDateTime[i]	
+		e = { k:v.strip() for k, v in e.iteritems()}	
 		
 		s = (parentkey[i], d.get('Name'), kind[i], s.get('Date'), s.get('Time', 'Null'), e.get('Date', 'Null'), e.get('Time', 'Null'), escapeSpecialCharacters (d.get('EconomicImpact', 'No Economic Impact Provided')))
 		s = 'insert into Crisis values' + str(s) + ';'
@@ -446,6 +450,8 @@ def process_crisis (login, tree) :
 
 	for i in xrange(0, len(relatedorg)):
 		s = relatedorg[i]
+		s = [x.strip() for x in s]
+		s = tuple(s)
 		s = 'insert into CrisisOrganization values' + str(s) + ';'
 		t = query(login,s)	
 		
@@ -453,6 +459,8 @@ def process_crisis (login, tree) :
 
 	for i in xrange(0, len(relatedperson)):
 		s = relatedperson[i]
+		s = [x.strip() for x in s]
+		s = tuple(s)
 		s = 'insert into PersonCrisis values' + str(s) + ';'
 		try:
 			t = query(login,s)
@@ -463,6 +471,8 @@ def process_crisis (login, tree) :
 	#QueryBuilding - ExternalResource Table		
 	for i in xrange(0, len(ExternalResource)):
 		s = ExternalResource[i]
+		s = [x.strip() for x in s]
+		s = tuple(s)
 		#s.insert(0,'Null')
 		s = 'insert into ExternalResource values' + str(s) + ';'
 		try:
@@ -524,7 +534,8 @@ def process_org (login, tree) :
 		
 		#QueryBuilding - Organization Table
 		d = inserts[i]	
-		s = (parentkey[i], d.get('Name','Null'), kind[i], escapeSpecialCharacters (d.get('History', 'Null')), d.get('Telephone', 'Null'), d.get('Fax', 'Null'), d.get('Email', 'Null'),	 d.get('StreetAddress', 'Null'), d.get('Locality', 'Null'), d.get('Region', 'Null'), d.get('PostalCode', 'Null'), d.get('Country', 'Null') )
+		d = { k:v.strip() for k, v in d.iteritems()}
+		s = (parentkey[i], d.get('Name','Null'), kind[i], escapeSpecialCharacters (d.get('History', 'No History Provided')), d.get('Telephone', '+44 20 74135500'), d.get('Fax', '+44 20 74135500'), d.get('Email', 'none@none.com'),	 d.get('StreetAddress', 'Null'), d.get('Locality', 'Null'), d.get('Region', 'Null'), d.get('PostalCode', 'Null'), d.get('Country', 'Null') )
 		s = 'insert into Organization values' + str(s) + ';'
 		s = s.replace('None', 'Null')
 		t = query(login,s)
@@ -539,6 +550,8 @@ def process_org (login, tree) :
 
 	for i in xrange(0, len(relatedperson)):
 		s = relatedperson[i]
+		s = [x.strip() for x in s]
+		s = tuple(s)
 		s = 'insert into OrganizationPerson values' + str(s) + ';'
 		try:
 			t = query(login,s)
@@ -549,6 +562,8 @@ def process_org (login, tree) :
 
 	for i in xrange(0, len(relatedcrisis)):
 		s = relatedcrisis[i]
+		s = [x.strip() for x in s]
+		s = tuple(s)
 		s = 'insert into CrisisOrganization values' + str(s) + ';'
 		try:
 			t = query(login,s)
@@ -557,6 +572,8 @@ def process_org (login, tree) :
 	#QueryBuilding - ExternalResource Table		
 	for i in xrange(0, len(ExternalResource)):
 		s = ExternalResource[i]
+		s = [x.strip() for x in s]
+		s = tuple(s)
 		s = 'insert into ExternalResource values' + str(s) + ';'
 		t = query(login,s)	
 	
@@ -610,6 +627,7 @@ def process_person (login, tree) :
 		
 		#QueryBuilding - Person Table
 		d = inserts[i]	
+		d = { k:v.strip() for k, v in d.iteritems()}
 		s = (parentkey[i], d.get('FirstName','Null'), d.get('MiddleName', 'Null'), d.get('LastName', 'Null'), d.get('Suffix', 'Null'), kind[i])
 		s = 'insert into Person values' + str(s) + ';'
 		s = s.replace('None', 'Null')
@@ -625,6 +643,8 @@ def process_person (login, tree) :
 
 	for i in xrange(0, len(relatedorg)):
 		s = relatedorg[i]
+		s = [x.strip() for x in s]
+		s = tuple(s)
 		s = 'insert into OrganizationPerson values' + str(s) + ';'
 		try:
 			t = query(login,s)
@@ -634,6 +654,8 @@ def process_person (login, tree) :
 
 	for i in xrange(0, len(relatedcrisis)):
 		s = relatedcrisis[i]
+		s = [x.strip() for x in s]
+		s = tuple(s)
 		s = 'insert into PersonCrisis values' + str(s) + ';'
 		try:
 			t = query(login,s)
@@ -643,6 +665,8 @@ def process_person (login, tree) :
 	#QueryBuilding - ExternalResource Table		
 	for i in xrange(0, len(ExternalResource)):
 		s = ExternalResource[i]
+		s = [x.strip() for x in s]
+		s = tuple(s)
 		s = 'insert into ExternalResource values' + str(s) + ';'
 		t = query(login,s)	
 	
@@ -673,6 +697,8 @@ def process_kind(login, tree) :
 	
 		#QueryBuilding - Kind Table
 		d = inserts[i]	
+		d = { k:v.strip() for k, v in d.iteritems()}
+
 		s = (parentkey[i], d.get('Name', 'Null'), escapeSpecialCharacters(d.get('Description', 'Null')))
 		s = 'insert into CrisisKind values' + str(s) + ';'
 		try:
@@ -701,7 +727,8 @@ def process_kind(login, tree) :
 	for i in xrange(0, len(parentkey)):
 	
 		#QueryBuilding - Kind Table
-		d = inserts[i]	
+		d = inserts[i]
+		d = { k:v.strip() for k, v in d.iteritems() if type(k) and type(v) == str}	
 		s = (parentkey[i], d.get('Name', 'Null'), d.get('Description', 'Null'))
 		s = 'insert into OrganizationKind values' + str(s) + ';'
 		try:
@@ -730,7 +757,8 @@ def process_kind(login, tree) :
 	for i in xrange(0, len(parentkey)):
 	
 		#QueryBuilding - Kind Table
-		d = inserts[i]	
+		d = inserts[i]
+		d = { k:v.strip() for k, v in d.iteritems() if type(k) and type(v) == str}	
 		s = (parentkey[i], d.get('Name', 'Null'), d.get('Description', 'Null'))
 		s = 'insert into PersonKind values' + str(s) + ';'
 		try:
@@ -759,10 +787,18 @@ def wcdb3_import(login, tree):
 # wcdb3_export
 # -------------
 
+def clean_string(string):
+	"cleans a string of whitespace and paragraph marks"
+	temp = string
+	temp = temp.strip()
+	return temp
+
+
 def element_builder(tag, content = ''):
 	"""builds 1 xml element with attributes"""
+	tag = clean_string(tag)
+	content = clean_string(content)
 	builder = ET.TreeBuilder()
-	
 	builder.start(tag, {})
 	builder.data(content)
 	builder.end(tag)
@@ -771,8 +807,9 @@ def element_builder(tag, content = ''):
 
 def attr_builder(tag, attrs = {}):
 	"""builds 1 xml element with content"""
+	tag = clean_string(tag)
 	builder = ET.TreeBuilder()
-	builder.start(tag, attrs)
+	builder.start(tag.strip(), attrs)
 	builder.end(tag)
 	
 	return builder.close()
@@ -807,6 +844,7 @@ def wcdb3_export(login):
 	""" select *
 	from PersonKind;
 	""")
+	
 	
 # -------------
 # Crisis Export
@@ -880,11 +918,27 @@ def wcdb3_export(login):
 			crisis_element.append(element_builder('EconomicImpact', crisis[7]))
 		
 		
+
+
+		#Resources Needed
+		s = 'select * from ResourceNeeded where crisis_id = "' + str(crisis[0]) + '";'
+		resourcesneededlst = query(login, s)
+		resourcesneededlst = resourcesneededlst[0]
+		resourcesneeded = element_builder('ResourceNeeded')		
+
+		#Ways to Help
+
+
+
+
+
+
+		
 		#ExternalResource
 		s = 'select * from ExternalResource where ExternalResource.entity_id = "' + str(crisis[0]) + '";'
 		external = query(login, s)
 
-		external_element = element_builder('ExternalResource')
+		external_element = element_builder('ExternalResources')
 		i = 0
 		
 		for x in xrange(0, len(external)):
@@ -899,14 +953,14 @@ def wcdb3_export(login):
 				external_element.append(element_builder('MapURL',external[i][4]))
 			#Social
 			elif external[i][3] == 'SOCIAL_NETWORK':
-				external_element.append(element_builder('SocialURL',external[i][4]))
+				external_element.append(element_builder('SocialNetworkURL',external[i][4]))
 			
 			#Citation
 			elif external[i][3] == 'CITATION':
-				external_element.append(element_builder('CitationURL',external[i][4]))		
+				external_element.append(element_builder('Citation',external[i][4]))		
 			#ExternalLink
 			elif external[i][3] == 'EXTERNAL_LINK':
-				external_element.append(element_builder('ExternalURL',external[i][4]))	
+				external_element.append(element_builder('ExternalLinkURL',external[i][4]))	
 			i += 1
 		
 		crisis_element.append(external_element)	
@@ -945,7 +999,7 @@ def wcdb3_export(login):
 	for organization in organizations:
 
 		#Organization Element
-		org_element = attr_builder('Organization', {'OrganizationIdent': organization[0]})
+		org_element = attr_builder('Organization', {'organizationIdent': organization[0]})
 		
 		#Name
 		org_element.append(element_builder('Name', organization[1]))
@@ -1011,16 +1065,17 @@ def wcdb3_export(login):
 		#Country
 		if organization[11]:
 			postal.append(element_builder('Country',organization[11]))
+		
+		contact.append(postal)	
 
 		org_element.append(contact)	
-		org_element.append(postal)	
 
 
 		#ExternalResource
 		s = 'select * from ExternalResource where ExternalResource.entity_id = "' + str(organization[0]) + '";'
 		external = query(login, s)
 
-		external_element = element_builder('ExternalResource')
+		external_element = element_builder('ExternalResources')
 		i = 0
 		
 		for x in xrange(0, len(external)):
@@ -1035,14 +1090,14 @@ def wcdb3_export(login):
 				external_element.append(element_builder('MapURL',external[i][4]))
 			#Social
 			elif external[i][3] == 'SOCIAL_NETWORK':
-				external_element.append(element_builder('SocialURL',external[i][4]))
+				external_element.append(element_builder('SocialNetworkURL',external[i][4]))
 			
 			#Citation
 			elif external[i][3] == 'CITATION':
-				external_element.append(element_builder('CitationURL',external[i][4]))		
+				external_element.append(element_builder('Citation',external[i][4]))		
 			#ExternalLink
 			elif external[i][3] == 'EXTERNAL_LINK':
-				external_element.append(element_builder('ExternalURL',external[i][4]))	
+				external_element.append(element_builder('ExternalLinkURL',external[i][4]))	
 			i += 1
 		
 		org_element.append(external_element)	
@@ -1106,7 +1161,7 @@ def wcdb3_export(login):
 		person_element.append(name)
 		
 		#Kind
-		person_element.append(attr_builder('Kind', {'organizationKindIdent': person[5]}))
+		person_element.append(attr_builder('Kind', {'personKindIdent': person[5]}))
 		
 		#Location		
 		s = 'select * from Location where Location.entity_id = "' + str(person[0]) + '";'		
@@ -1132,7 +1187,7 @@ def wcdb3_export(login):
 		s = 'select * from ExternalResource where ExternalResource.entity_id = "' + str(person[0]) + '";'
 		external = query(login, s)
 
-		external_element = element_builder('ExternalResource')
+		external_element = element_builder('ExternalResources')
 		i = 0
 		
 		for x in xrange(0, len(external)):
@@ -1147,14 +1202,14 @@ def wcdb3_export(login):
 				external_element.append(element_builder('MapURL',external[i][4]))
 			#Social
 			elif external[i][3] == 'SOCIAL_NETWORK':
-				external_element.append(element_builder('SocialURL',external[i][4]))
+				external_element.append(element_builder('SocialNetworkURL',external[i][4]))
 			
 			#Citation
 			elif external[i][3] == 'CITATION':
-				external_element.append(element_builder('CitationURL',external[i][4]))		
+				external_element.append(element_builder('Citation',external[i][4]))		
 			#ExternalLink
 			elif external[i][3] == 'EXTERNAL_LINK':
-				external_element.append(element_builder('ExternalURL',external[i][4]))	
+				external_element.append(element_builder('ExternalLinkURL',external[i][4]))	
 			i += 1
 
 		person_element.append(external_element)	
@@ -1406,5 +1461,4 @@ def wcdb3_solve (xml_files, w) :
 	export = wcdb3_export(login)
 	
 	#wcdb3_write (w, export)
-	wcdb3_write (w, unique_tree)
-
+	wcdb3_write (w, export)	
