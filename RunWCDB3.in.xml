@@ -669,10 +669,236 @@
     <Name>Chief Executive Officer</Name>
     <Description>The highest-ranking corporate officer (executive) or administrator in charge of total management of an organization.</Description>
   </PersonKind>
+</WorldCrises>
+
+<!-- testing empty entry-->
+<WorldCrises>
 	
 	
 </WorldCrises>
 
+<WorldCrises>
+	<!-- Testing kindIdents only-->
+	<CrisisKind crisisKindIdent="WAR">
+    <Name>War</Name>
+    <Description>An organized and often prolonged conflict that is carried out by states and/or non-state actors.</Description>
+  </CrisisKind>
+  
+  <CrisisKind crisisKindIdent="ND">
+    <Name>Natural Disaster</Name>
+    <Description>The costliest natural disaster and deadliest in the history of the United States</Description>
+  </CrisisKind>
+  
+  <CrisisKind crisisKindIdent="EQ">
+    <Name>Earthquake</Name>
+    <Description>Earthquake</Description>
+  </CrisisKind>
+
+  <CrisisKind crisisKindIdent="FR">
+    <Name>Fire</Name>
+    <Description>Fire</Description>
+  </CrisisKind>
+  
+  <CrisisKind crisisKindIdent="FL">
+    <Name>Flood</Name>
+    <Description>Flood</Description>
+  </CrisisKind>
+  
+  <CrisisKind crisisKindIdent="HU">
+    <Name>Hurricane</Name>
+    <Description>Hurricane</Description>
+  </CrisisKind>
+  
+  <CrisisKind crisisKindIdent="ST">
+    <Name>Storm</Name>
+    <Description>Storm</Description>
+  </CrisisKind>
+  
+   <CrisisKind crisisKindIdent="TO">
+    <Name>Tornado</Name>
+    <Description>Tornado</Description>
+  </CrisisKind>
+  
+  <CrisisKind crisisKindIdent="TS">
+    <Name>Tsunami</Name>
+    <Description>Tsunami</Description>
+  </CrisisKind>
+  
+   <CrisisKind crisisKindIdent="VO">
+    <Name>Volcano</Name>
+    <Description>Volcano</Description>
+  </CrisisKind>
+  
+  <CrisisKind crisisKindIdent="DI">
+    <Name>Disease</Name>
+    <Description>A disease resulting from pathogenic biological agents in an host organism </Description>
+  </CrisisKind>
+
+  <CrisisKind crisisKindIdent="GC">
+    <Name>Genocide</Name>
+    <Description>The deliberate and systematic destruction of an ethnic, racial, religious, or national group </Description>
+  </CrisisKind>
+
+  <CrisisKind crisisKindIdent="MIS">
+    <Name>Others</Name>
+    <Description>Miscellaneous</Description>
+  </CrisisKind>
+  
+  <CrisisKind crisisKindIdent = "EC">
+    <Name>Economic Crisis</Name>
+    <Description>Crisis that significantly alters and threatens the economic state of the region.</Description>
+  </CrisisKind>
+
+  <CrisisKind crisisKindIdent = "CO">
+    <Name>Conflict</Name>
+    <Description>Conflict</Description>
+  </CrisisKind>
+  
+  <CrisisKind crisisKindIdent = "FC">
+    <Name>Food Crisis</Name>
+    <Description>Food related crisis.</Description>
+  </CrisisKind>
+  
+   <CrisisKind crisisKindIdent = "ME">
+    <Name>Meteor</Name>
+    <Description>Meteor</Description>
+  </CrisisKind>
+  
+   <CrisisKind crisisKindIdent = "ACC">
+    <Name>Accident</Name>
+    <Description>Crisis resulting from an accident.</Description>
+  </CrisisKind>
+
+  <OrganizationKind organizationKindIdent="NG">
+    <Name>National Government</Name>
+    <Description>The government of a nation</Description>
+  </OrganizationKind>
+
+  <OrganizationKind organizationKindIdent="IA">
+    <Name>Intelligence Agency</Name>
+    <Description>A government agency responsible for the collection, analysis or exploitation of information and intelligenc</Description>
+  </OrganizationKind>
+
+  <OrganizationKind organizationKindIdent="HO">
+    <Name>Humanitarian Organization</Name>
+    <Description>Organization that provides humanitarian aid</Description>
+  </OrganizationKind>
+
+  <OrganizationKind organizationKindIdent="IO">
+    <Name>International Organization</Name>
+    <Description>Organization that provides leveraged loans to poor countries</Description>
+  </OrganizationKind>
+
+  <OrganizationKind organizationKindIdent="MA">
+    <Name>Military Alliance</Name>
+    <Description>An agreement between two, or more, military factions</Description>
+  </OrganizationKind>
+
+  <OrganizationKind organizationKindIdent="PHA">
+    <Name>Public Health Advocate</Name>
+    <Description>An organization that aims to influence public-policy and resource allocation decisions within political, economic, and social systems and institutions for public heal needs.</Description>
+  </OrganizationKind>
+
+  <OrganizationKind organizationKindIdent="GMB">
+    <Name>Government Military Branch</Name>
+    <Description>A military brach of a government (or governments) that carries out the orders received, whether that be active combat or humanitarian aide</Description>
+  </OrganizationKind>
+
+  <OrganizationKind organizationKindIdent="GOV">
+    <Name>Governmental Organization</Name>
+    <Description>A branch of the government of a country, such as the Dept. of Homeland Security or Agriculture in the U.S.A.</Description>
+  </OrganizationKind>
+
+   <OrganizationKind organizationKindIdent="APA">
+    <Name>Animal Protection Agency</Name>
+    <Description>An organization dedicated to the ensuring the welfare of animals</Description>
+  </OrganizationKind>
+
+ <OrganizationKind organizationKindIdent="CHA">
+    <Name>Charitable Organization</Name>
+    <Description>An organization that provides service to the needy in the community; is reliant upon on the charity of the community (e.g. donations) to operate</Description>
+  </OrganizationKind>
+
+ <OrganizationKind organizationKindIdent="TORG">
+    <Name>Terrorist Organization</Name>
+    <Description>A political movement that uses terror as a weapon to achieve its goals.</Description>
+  </OrganizationKind>
+
+  <OrganizationKind organizationKindIdent="INV">
+    <Name>Investment Bank</Name>
+    <Description>A financial institution that assists individuals, corporations, and governments in raising capital by underwriting and/or acting as the client's agent in the issuance of securities.</Description>
+  </OrganizationKind>
+
+  <OrganizationKind organizationKindIdent="CB">
+    <Name>Central Bank</Name>
+    <Description>A public institution that manages a state's currency, money supply, and interest rates; usually oversee the commercial banking system of their respective countries.</Description>
+  </OrganizationKind>
+
+  <PersonKind personKindIdent="PR">
+    <Name>President (current or former)</Name>
+    <Description>A democratically elected leader of a government</Description>
+  </PersonKind>
+
+  <PersonKind personKindIdent="PM">
+    <Name>Prime Minister</Name>
+    <Description>Leader of a Kingdom</Description>
+  </PersonKind>
+
+  <PersonKind personKindIdent="DI">
+    <Name>Dictator</Name>
+    <Description>Leader of a dictatorship, someone with sole and absolute power</Description>
+  </PersonKind>
+
+  <PersonKind personKindIdent="GOV">
+    <Name>Governor</Name>
+    <Description>Person served as Governor of a state in the United States</Description>
+  </PersonKind>
+  
+  <PersonKind personKindIdent="GO">
+    <Name>Government Official</Name>
+    <Description>An official in the government.</Description>
+  </PersonKind>
+
+  <PersonKind personKindIdent="AMB">
+    <Name>Ambassador</Name>
+    <Description>An accredited diplomat sent by a country as its official representative to a foreign country.</Description>
+  </PersonKind>
+
+  <PersonKind personKindIdent="FO">
+    <Name>Founder</Name>
+    <Description>Person who established an institution</Description>
+  </PersonKind>
+
+  <PersonKind personKindIdent="PCEO">
+    <Name>President and CEO</Name>
+    <Description>President and CEO of an organization.</Description>
+  </PersonKind>
+  
+  <PersonKind personKindIdent="CM">
+    <Name>Chairman</Name>
+    <Description>Chairman of an organization.</Description>
+  </PersonKind>
+
+  <PersonKind personKindIdent="SW">
+    <Name>Social Worker</Name>
+    <Description>Someone employed to provide social services (especially to the disadvantaged).</Description>
+  </PersonKind>
+  
+  <PersonKind personKindIdent="PH">
+    <Name>Philanthropist</Name>
+    <Description>Person uses their influence to help make positive changes in the world</Description>
+  </PersonKind>
+
+  <PersonKind personKindIdent="TL">
+    <Name>Terrorist Leader</Name>
+    <Description>A leader of a group who uses or advocates terrorism.</Description>
+  </PersonKind>
+  
+  <PersonKind personKindIdent="CEO">
+    <Name>Chief Executive Officer</Name>
+    <Description>The highest-ranking corporate officer (executive) or administrator in charge of total management of an organization.</Description>
+  </PersonKind>
+</WorldCrises>
 
 <WorldCrises>
 
