@@ -38,15 +38,15 @@ Select avg(number), country
 	
 /*5. What is the most common resource needed?*/
 
-Select description
-	From Crisis as S join ResourceNeeded as R on S.id = R.crisis_id
-	Where max(count(R.id));
+Select S.description, max(S.C)
+	From (Select description, count(*) as C from Crisis as S join ResourceNeeded where S.id = R.crisis_id group by id);
 
 /*6. How many persons are related to crises located in countries other than their own?*/
 
 Select count(distinct ids)
-	From Person as join Location join PersonCrisis join Crisis
-	Where Person.id = Location.id=PersonCrisis.id_person AND crisis.id=Location.id;
+	From Person join Location as R Join Location as S join PersonCrisis join Crisis
+	on Person.id = R.id = PersonCrisis.id_person AND crisis.id = S.id
+	where R.country != S.country;
 
 
 /*7. How many crises occurred during the 1960s?*/
