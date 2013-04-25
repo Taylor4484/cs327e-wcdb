@@ -1257,7 +1257,8 @@ def wcdb3_merge(tree):
 
 	#Create list holder for idents
 	element_list = []
-	kind_list = []
+	crises_list = []
+	org_list    = []
 	person_list = []
 	
 	for element in cparent:
@@ -1272,29 +1273,33 @@ def wcdb3_merge(tree):
 		
 	for element in ckind:
 		x = element.attrib['crisisKindIdent']
-		kind_list.append(x)
+		crises_list.append(x)
 	for element in okind:
 		x = element.attrib['organizationKindIdent']
-		kind_list.append(x)
+		org_list.append(x)
 	for element in pkind:
 		x = element.attrib['personKindIdent']
 		person_list.append(x)
 		
 	#Turn list into set to remove duplicates	
 	element_list = set(element_list)
-	kind_list = set(kind_list)
+	crises_list = set(kind_list)
+	org_list = set(kind_list)
 	person_list = set(person_list)
 	assert type(element_list) == set
-	assert type(kind_list) == set
-	assert type(person_list) == set
+	assert type(crises_list)  == set
+	assert type(org_list)     == set
+	assert type(person_list)  == set
 
 	#Turn set back into list for iteration
 	element_list = list(element_list)
-	kind_list = list(kind_list)
+	crises_list = list(kind_list)
+	org_list = list(kind_list)
 	person_list = list(person_list)
 	assert type(element_list) == list
-	assert type(kind_list) == list
-	assert type(person_list) == list
+	assert type(crises_list)  == list
+	assert type(org_list)     == list
+	assert type(person_list)  == list
 	
 	#Iterate Again Pushing to New Root
 	for element in cparent:
@@ -1325,17 +1330,17 @@ def wcdb3_merge(tree):
 		#get the ident
 		x = element.attrib['crisisKindIdent']
 		#if ident in unique list, append to new root, remove ident from list to prevent duplication
-		if(x in kind_list):
+		if(x in crises_list):
 			new_root.append(element)
-			kind_list.remove(x)
+			crises_list.remove(x)
 			
 	for element in okind:
 		#get the ident
 		x = element.attrib['organizationKindIdent']
 		#if ident in unique list, append to new root, remove ident from list to prevent duplication
-		if(x in kind_list):
+		if(x in org_list):
 			new_root.append(element)
-			kind_list.remove(x)
+			org_list.remove(x)
 			
 	for element in pkind:
 		#get the ident
