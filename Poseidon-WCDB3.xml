@@ -95,11 +95,11 @@
     <Kind crisisKindIdent="HU"/>
     <Location>
       <Region>Mid-Atlantic</Region>
-      <Country>US</Country>
+      <Country>United States</Country>
     </Location>
     <Location>
       <Region>Northeastern</Region>
-      <Country>US</Country>
+      <Country>United States</Country>
     </Location>
     <StartDateTime>
       <Date>2012-10-22</Date>
@@ -145,19 +145,19 @@
     <Location>
       <Locality>New Orleans</Locality>
       <Region>Lousiana</Region>
-      <Country>US</Country>
+      <Country>United States</Country>
     </Location>
     <Location>
       <Region>Florida</Region>
-      <Country>US</Country>
+      <Country>United States</Country>
     </Location>
     <Location>
       <Region>Mississippi</Region>
-      <Country>US</Country>
+      <Country>United States</Country>
     </Location>
     <Location>
       <Region>Alabama</Region>
-      <Country>US</Country>
+      <Country>United States</Country>
     </Location>
     <Location>
       <Country>Cuba</Country>
@@ -205,15 +205,15 @@
     <Kind crisisKindIdent="TO"/>
     <Location>
       <Region>Midwest</Region>
-      <Country>US</Country>
+      <Country>United States</Country>
     </Location>
     <Location>
       <Region>Southern</Region>
-      <Country>US</Country>
+      <Country>United States</Country>
     </Location>
     <Location>
       <Region>Northeastern</Region>      
-      <Country>US</Country>
+      <Country>United States</Country>
     </Location>
     <Location>
       <Region>Southern Ontario</Region>
@@ -258,7 +258,7 @@
     <Location>
       <Locality>New York City</Locality>
       <Region>New York</Region>
-      <Country>US</Country>
+      <Country>United States</Country>
     </Location>
     <StartDateTime>
       <Date>2001-09-11</Date>
@@ -342,7 +342,7 @@
       <Type>Death</Type>
       <Number>70000</Number>
     </HumanImpact>
-    
+    <EconomicImpact></EconomicImpact>
     <ExternalResources>
       <ImageURL>http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/syria_nov_2012/bp11.jpg</ImageURL>
       <ImageURL>http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/syria_nov_2012/bp2.jpg</ImageURL>
@@ -384,7 +384,7 @@
     <Kind crisisKindIdent="ACC"/>
     <Location>
       <Region>Gulf of Mexico</Region>
-      <Country>US</Country>
+      <Country>United States</Country>
     </Location>
     <StartDateTime>
       <Date>2010-04-20</Date>
@@ -1029,32 +1029,32 @@
 
   <OrganizationKind organizationKindIdent="ISO">
     <Name>Islamist Organization</Name>
-    <Description>Islamist organization</Description>
+    <Description></Description>
   </OrganizationKind>
 
   <OrganizationKind organizationKindIdent="TORG">
     <Name>Terrorist Organization</Name>
-    <Description>Terrorist Organizations</Description>
+    <Description></Description>
   </OrganizationKind>
 
   <OrganizationKind organizationKindIdent="IO">
     <Name>International Organization</Name>
-    <Description>International org</Description>
+    <Description></Description>
   </OrganizationKind>
 
   <OrganizationKind organizationKindIdent="AUN">
     <Name>Agency of the United Nations</Name>
-    <Description>UN agency</Description>
+    <Description></Description>
   </OrganizationKind>
 
   <OrganizationKind organizationKindIdent="IFI">
     <Name>International Financial Institution</Name>
-    <Description>finance stuff</Description>
+    <Description></Description>
   </OrganizationKind>
 
   <OrganizationKind organizationKindIdent="IA">
     <Name>Intelligence Agency</Name>
-    <Description>intelligence agency</Description>
+    <Description></Description>
   </OrganizationKind>
 
   <PersonKind personKindIdent="PR">

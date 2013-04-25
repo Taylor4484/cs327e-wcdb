@@ -1283,8 +1283,8 @@ def wcdb3_merge(tree):
 		
 	#Turn list into set to remove duplicates	
 	element_list = set(element_list)
-	crises_list = set(kind_list)
-	org_list = set(kind_list)
+	crises_list = set(crises_list)
+	org_list = set(org_list)
 	person_list = set(person_list)
 	assert type(element_list) == set
 	assert type(crises_list)  == set
@@ -1293,8 +1293,8 @@ def wcdb3_merge(tree):
 
 	#Turn set back into list for iteration
 	element_list = list(element_list)
-	crises_list = list(kind_list)
-	org_list = list(kind_list)
+	crises_list = list(crises_list)
+	org_list = list(org_list)
 	person_list = list(person_list)
 	assert type(element_list) == list
 	assert type(crises_list)  == list

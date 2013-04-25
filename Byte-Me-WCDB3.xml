@@ -711,7 +711,7 @@
 
 <Organization organizationIdent="SA">
 	<Name>Salvation Army</Name>
-	<Kind organizationKindIdent="CO" />
+	<Kind organizationKindIdent="CHA" />
 	<Location>
 		<Locality>Alexandria</Locality>
 		<Region>Virginia</Region>
@@ -1211,7 +1211,7 @@
 <Description>A Non-Profit organization uses surplus revenues to achieve its goals (usually humanitarian) rather than distributing them as profit or dividends.</Description>
 </OrganizationKind>
 
-<OrganizationKind organizationKindIdent="CO">
+<OrganizationKind organizationKindIdent="CHA">
 <Name>Charitable Organization</Name>
 <Description>A Charitable Organization provides a service to the needed in the community. THe organization relies on the charity of the community (e.g. donations) to operate.</Description>
 </OrganizationKind>
