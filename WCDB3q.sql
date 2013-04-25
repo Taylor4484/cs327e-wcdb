@@ -6,7 +6,7 @@ Select first_name, middle_name, last_name
     Where id in
   (select id_person as id
 	    From PersonCrisis 
-            Where count(id) > 1);
+            Where count(id_crisis) > 1);
 
 /*2. For the past 5 decades, which countries had the most world crises per decade?*/
 
