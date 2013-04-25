@@ -17,7 +17,7 @@ run:
 	python RunWCDB3.py
 
 test:
-	TestWCDB3.py
+	python TestWCDB3.py > TestWCDB3.out
 
 turnin-list:
 	turnin --list hychyc07 cs327epj5

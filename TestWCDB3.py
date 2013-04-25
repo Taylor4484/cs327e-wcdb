@@ -7,10 +7,6 @@
 # ---------------------------
 
 
-"""
-To test the program:
-% TestWCDB3.py >& TestWCDB3.out
-"""
 
 # -------
 # imports
@@ -23,7 +19,6 @@ from cStringIO import StringIO
 import xml.etree.ElementTree as ET
 import _mysql
 import tempfile
-#import WCDB3
 from WCDB3 import *
 
 #Database Creds for Testing
@@ -164,7 +159,7 @@ class TestWCDB3(unittest.TestCase):
 	def test_wcdb_merge1 (self):
 		tree = wcdb3_Read (["Bonsai-WCDB3.xml"])
 		newtree = wcdb3_merge(tree)
-		self.assert_(tree.tag != newtree.tag)
+		self.assert_(tree.tag == newtree.tag)
 	
 	def test_wcdb_merge2 (self):
 		tree = wcdb3_Read (["Bonsai-WCDB3.xml"])
@@ -254,7 +249,6 @@ class TestWCDB3(unittest.TestCase):
 		w = tempfile.TemporaryFile()
 		a = element_builder('a')
 		wcdb3_write(w, a)
-		print(w.read())
 		self.assert_(w.read() != '<?xml version="1.0" ?>\n<a />')
 
 	def test_wcdb3_write_2(self):
@@ -271,16 +265,34 @@ class TestWCDB3(unittest.TestCase):
 		wcdb3_write(w, a)
 		self.assert_(w.read() != "<a>hello world</a>")
 
+  # -------
+  # Escape Characters
+  # -------
+	
+	def test_escape_1(self):
+		text = "I want to type a single quote like this: \\'"
+		x = escapeSpecialCharacters (text)
+		y = "I want to type a single quote like this: \\\\'"
+		self.assert_(x == y)
+		
+	def test_escape_2(self):
+		text = "I want to type a comma like this: \\,"
+		x = escapeSpecialCharacters (text)
+		y = "I want to type a comma like this: \\\\,"
+		self.assert_(x == y)  
 
-
+	def test_escape_3(self):
+		text = "A string with no escape characters"
+		x = escapeSpecialCharacters (text)
+		self.assert_(x == text)  
 
 # ----
 # main
 # ----
 
-print "TestWCDB3.py"
+print ("TestWCDB3.py")
 unittest.main()
-print "Done."
+print ("Done.")
 
 
 

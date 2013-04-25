@@ -30,9 +30,12 @@ def wcdb3_login ( host, un, pw, database ) :
 	assert str(type(login)) == "<type '_mysql.connection'>"
 	return login
 
-
+# ----------
+# Escape Special Characters
+# ---------- 
 
 def escapeSpecialCharacters ( text ):
+	"""Appends '\' to any of the characters in the character list to escape them"""
 	characters = ['\'', ',']
 	
 	for character in characters:
@@ -71,7 +74,7 @@ def wcdb3_Read (xml_files) :
 	creates an element tree from string
 	"""
 	
-	new_tree = 	element_builder('WorldCrisis')
+	new_tree = 	element_builder('WorldCrises')
 	cparent = []
 	oparent = []
 	pparent = []
@@ -92,6 +95,7 @@ def wcdb3_Read (xml_files) :
 		pkind += tree.findall("PersonKind")
 		
 		r.close()
+
 		
 	#add element idents to list of idents
 	for element in cparent:
@@ -1300,6 +1304,7 @@ def wcdb3_merge(tree):
 	assert type(crises_list)  == list
 	assert type(org_list)     == list
 	assert type(person_list)  == list
+	
 	
 	#Iterate Again Pushing to New Root
 	for element in cparent:
