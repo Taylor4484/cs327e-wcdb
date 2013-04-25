@@ -2083,6 +2083,331 @@
   <PersonKind personKindIdent="CEO">
     <Name>Chief Executive Officer</Name>
     <Description>The highest-ranking corporate officer (executive) or administrator in charge of total management of an organization.</Description>
+  </PersonKind>  
+</WorldCrises>
+
+<!-- test-->
+<WorldCrises>
+	<Crisis crisisIdent="Cuba_WP_1962">
+    <Name>Cuban Missile Crisis</Name>
+    <Kind crisisKindIdent= "CO"/>
+    <Location>
+      <Country>Cuba </Country>
+    </Location>
+    <StartDateTime>
+      <Date>1962-10-16</Date>
+    </StartDateTime>
+    <HumanImpact>
+      <Type>Death</Type>
+      <Number>1</Number>
+    </HumanImpact>
+    <EconomicImpact></EconomicImpact>
+    <ExternalResources>
+      <ImageURL>http://en.wikipedia.org/wiki/File:Soviet-R-12-nuclear-ballistic_missile.jpg</ImageURL>
+      <VideoURL>http://www.nbcnews.com/video/nightly-news/49510565#49510565</VideoURL>
+      <MapURL>http://www.worldatlas.com/webimage/countrys/namerica/caribb/lgcolor/cucolor.htm</MapURL>
+      <ExternalLinkURL>http://www.facebook.com/events/156960544442243/</ExternalLinkURL>
+    </ExternalResources>
+    <RelatedPersons>
+      <RelatedPerson personIdent = "FCastro"/>
+      <RelatedPerson personIdent = "JFKennedy"/>
+    </RelatedPersons>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent = "WBG"/>
+      <RelatedOrganization organizationIdent = "USCG"/>
+    </RelatedOrganizations> 
+  </Crisis>
+
+	<Organization organizationIdent= "NATO">
+    <Name>North Atlantic Treaty Organization</Name>
+    <Kind organizationKindIdent= "MA"/>
+    <Location>
+      <Locality>Brussels</Locality>
+      <Country>Belgium</Country>
+    </Location>
+    <History>The Treaty of Brussels, signed on 17 March 1948 by Belgium, the Netherlands, Luxembourg, France, and the United Kingdom, is considered the precursor to the NATO agreement. The treaty and the Soviet Berlin Blockade led to the creation of the Western European Union's Defence Organization in September 1948. However, participation of the United States was thought necessary both to counter the military power of the USSR and to prevent the revival of nationalist militarism, so talks for a new military alliance began almost immediately resulting in the North Atlantic Treaty, which was signed in Washington, D.C. on 4 April 1949. It included the five Treaty of Brussels states plus the United States, Canada, Portugal, Italy, Norway, Denmark and Iceland. Popular support for the Treaty was not unanimous, and some Icelanders participated in a pro-neutrality, anti-membership riot in March 1949. The members agreed that an armed attack against any one of them in Europe or North America would be considered an attack against them all. Consequently they agreed that, if an armed attack occurred, each of them, in exercise of the right of individual or collective self-defence, would assist the member being attacked, taking such action as it deemed necessary, including the use of armed force, to restore and maintain the security of the North Atlantic area. The treaty does not require members to respond with military action against an aggressor. Although obliged to respond, they maintain the freedom to choose the method by which they do so. This differs from Article IV of the Treaty of Brussels, which clearly states that the response will be military in nature. It is nonetheless assumed that NATO members will aid the attacked member militarily. The treaty was later clarified to include both the member's territory and their "vessels, forces or aircraft" above the Tropic of Cancer, including some Overseas departments of France</History>
+    <ContactInfo>
+      <Telephone>+32 2 707 50 33</Telephone>
+      <Fax></Fax>
+      <Email></Email>
+      <PostalAddress>
+        <StreetAddress></StreetAddress>
+        <Locality>Brussels</Locality>
+        <Region></Region>
+        <PostalCode>1110</PostalCode>
+        <Country>Belgium</Country>
+      </PostalAddress>
+    </ContactInfo>
+    <ExternalResources>
+      <ImageURL>http://4.bp.blogspot.com/-3D1pJVhRBzo/TxAXDgFmg1I/AAAAAAAAAQA/Xx7nmCof808/s1600/b_20100401134323Flag_of_NATO.gif</ImageURL>
+      <VideoURL>http://www.youtube.com/watch?v=_k2b61OHtWQ</VideoURL>
+      <MapURL>http://en.wikipedia.org/wiki/File:History_of_NATO_enlargement.svg</MapURL>
+      <MapURL>http://en.wikipedia.org/wiki/File:NATO_partnerships.svg</MapURL>
+      <SocialNetworkURL>http://www.facebook.com/NATO?sid=0.2535960127133876</SocialNetworkURL>
+      <ExternalLinkURL>http://www.nato.int/</ExternalLinkURL>
+    </ExternalResources>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent="Egypt_WAR_2011"/>
+      <RelatedCrisis crisisIdent="Syrian_WAR_2011"/>
+      <RelatedCrisis crisisIdent="WAR_Terror_2001"/>
+      <RelatedCrisis crisisIdent="WTC_TA_2001"/>
+    </RelatedCrises>
+    <RelatedPersons>
+      <RelatedPerson personIdent="Bono"/>
+      <RelatedPerson personIdent="BHGates"/>
+      <RelatedPerson personIdent="JFKennedy"/>
+      <RelatedPerson personIdent="NMandela"/>
+      <RelatedPerson personIdent="GWBush"/>
+      <RelatedPerson personIdent="BHObama"/>
+      <RelatedPerson personIdent="SHussein"/>
+      <RelatedPerson personIdent="OBLaden"/>
+      <RelatedPerson personIdent="MHThatcher"/>
+    </RelatedPersons>
+  </Organization>
+
+   <Person personIdent="JFKennedy">
+    <Name>
+      <FirstName>John</FirstName>
+      <MiddleName>Fitzgerald</MiddleName>
+      <LastName>Kennedy</LastName>
+    </Name>
+    <Kind personKindIdent="PR"/>
+    <Location>
+      <Locality>Brookline</Locality>
+      <Region>Massachusetts</Region>
+      <Country>USA</Country>
+    </Location>
+    <ExternalResources>
+      <ImageURL>http://www.whitehouse.gov/sites/default/files/first-family/masthead_image/35jk_header.jpg?1250885463 </ImageURL>
+      <VideoURL>http://youtu.be/P7YkJxQT_0Y</VideoURL>
+      <MapURL>http://goo.gl/maps/xFGPn</MapURL>
+    </ExternalResources>
+    <RelatedCrises>
+      <RelatedCrisis crisisIdent="Cuba_WP_1962"/>
+      <RelatedCrisis crisisIdent="Vietnam_WAR_1955"/>
+    </RelatedCrises>
+    <RelatedOrganizations>
+      <RelatedOrganization organizationIdent = "NATO"/>
+    </RelatedOrganizations>
+  </Person>
+
+	<CrisisKind crisisKindIdent="WAR">
+    <Name>War</Name>
+    <Description>An organized and often prolonged conflict that is carried out by states and/or non-state actors.</Description>
+  </CrisisKind>
+  
+  <CrisisKind crisisKindIdent="ND">
+    <Name>Natural Disaster</Name>
+    <Description>The costliest natural disaster and deadliest in the history of the United States</Description>
+  </CrisisKind>
+  
+  <CrisisKind crisisKindIdent="EQ">
+    <Name>Earthquake</Name>
+    <Description>Earthquake</Description>
+  </CrisisKind>
+
+  <CrisisKind crisisKindIdent="FR">
+    <Name>Fire</Name>
+    <Description>Fire</Description>
+  </CrisisKind>
+  
+  <CrisisKind crisisKindIdent="FL">
+    <Name>Flood</Name>
+    <Description>Flood</Description>
+  </CrisisKind>
+  
+  <CrisisKind crisisKindIdent="HU">
+    <Name>Hurricane</Name>
+    <Description>Hurricane</Description>
+  </CrisisKind>
+  
+  <CrisisKind crisisKindIdent="ST">
+    <Name>Storm</Name>
+    <Description>Storm</Description>
+  </CrisisKind>
+  
+   <CrisisKind crisisKindIdent="TO">
+    <Name>Tornado</Name>
+    <Description>Tornado</Description>
+  </CrisisKind>
+  
+  <CrisisKind crisisKindIdent="TS">
+    <Name>Tsunami</Name>
+    <Description>Tsunami</Description>
+  </CrisisKind>
+  
+   <CrisisKind crisisKindIdent="VO">
+    <Name>Volcano</Name>
+    <Description>Volcano</Description>
+  </CrisisKind>
+  
+  <CrisisKind crisisKindIdent="DI">
+    <Name>Disease</Name>
+    <Description>A disease resulting from pathogenic biological agents in an host organism </Description>
+  </CrisisKind>
+
+  <CrisisKind crisisKindIdent="GC">
+    <Name>Genocide</Name>
+    <Description>The deliberate and systematic destruction of an ethnic, racial, religious, or national group </Description>
+  </CrisisKind>
+
+  <CrisisKind crisisKindIdent="MIS">
+    <Name>Others</Name>
+    <Description>Miscellaneous</Description>
+  </CrisisKind>
+  
+  <CrisisKind crisisKindIdent = "EC">
+    <Name>Economic Crisis</Name>
+    <Description>Crisis that significantly alters and threatens the economic state of the region.</Description>
+  </CrisisKind>
+
+  <CrisisKind crisisKindIdent = "CO">
+    <Name>Conflict</Name>
+    <Description>Conflict</Description>
+  </CrisisKind>
+  
+  <CrisisKind crisisKindIdent = "FC">
+    <Name>Food Crisis</Name>
+    <Description>Food related crisis.</Description>
+  </CrisisKind>
+  
+   <CrisisKind crisisKindIdent = "ME">
+    <Name>Meteor</Name>
+    <Description>Meteor</Description>
+  </CrisisKind>
+  
+   <CrisisKind crisisKindIdent = "ACC">
+    <Name>Accident</Name>
+    <Description>Crisis resulting from an accident.</Description>
+  </CrisisKind>
+
+  <OrganizationKind organizationKindIdent="NG">
+    <Name>National Government</Name>
+    <Description>The government of a nation</Description>
+  </OrganizationKind>
+
+  <OrganizationKind organizationKindIdent="IA">
+    <Name>Intelligence Agency</Name>
+    <Description>A government agency responsible for the collection, analysis or exploitation of information and intelligenc</Description>
+  </OrganizationKind>
+
+  <OrganizationKind organizationKindIdent="HO">
+    <Name>Humanitarian Organization</Name>
+    <Description>Organization that provides humanitarian aid</Description>
+  </OrganizationKind>
+
+  <OrganizationKind organizationKindIdent="IO">
+    <Name>International Organization</Name>
+    <Description>Organization that provides leveraged loans to poor countries</Description>
+  </OrganizationKind>
+
+  <OrganizationKind organizationKindIdent="MA">
+    <Name>Military Alliance</Name>
+    <Description>An agreement between two, or more, military factions</Description>
+  </OrganizationKind>
+
+  <OrganizationKind organizationKindIdent="PHA">
+    <Name>Public Health Advocate</Name>
+    <Description>An organization that aims to influence public-policy and resource allocation decisions within political, economic, and social systems and institutions for public heal needs.</Description>
+  </OrganizationKind>
+
+  <OrganizationKind organizationKindIdent="GMB">
+    <Name>Government Military Branch</Name>
+    <Description>A military brach of a government (or governments) that carries out the orders received, whether that be active combat or humanitarian aide</Description>
+  </OrganizationKind>
+
+  <OrganizationKind organizationKindIdent="GOV">
+    <Name>Governmental Organization</Name>
+    <Description>A branch of the government of a country, such as the Dept. of Homeland Security or Agriculture in the U.S.A.</Description>
+  </OrganizationKind>
+
+   <OrganizationKind organizationKindIdent="APA">
+    <Name>Animal Protection Agency</Name>
+    <Description>An organization dedicated to the ensuring the welfare of animals</Description>
+  </OrganizationKind>
+
+ <OrganizationKind organizationKindIdent="CHA">
+    <Name>Charitable Organization</Name>
+    <Description>An organization that provides service to the needy in the community; is reliant upon on the charity of the community (e.g. donations) to operate</Description>
+  </OrganizationKind>
+
+ <OrganizationKind organizationKindIdent="TORG">
+    <Name>Terrorist Organization</Name>
+    <Description>A political movement that uses terror as a weapon to achieve its goals.</Description>
+  </OrganizationKind>
+
+  <OrganizationKind organizationKindIdent="INV">
+    <Name>Investment Bank</Name>
+    <Description>A financial institution that assists individuals, corporations, and governments in raising capital by underwriting and/or acting as the client's agent in the issuance of securities.</Description>
+  </OrganizationKind>
+
+  <OrganizationKind organizationKindIdent="CB">
+    <Name>Central Bank</Name>
+    <Description>A public institution that manages a state's currency, money supply, and interest rates; usually oversee the commercial banking system of their respective countries.</Description>
+  </OrganizationKind>
+
+  <PersonKind personKindIdent="PR">
+    <Name>President (current or former)</Name>
+    <Description>A democratically elected leader of a government</Description>
+  </PersonKind>
+
+  <PersonKind personKindIdent="PM">
+    <Name>Prime Minister</Name>
+    <Description>Leader of a Kingdom</Description>
+  </PersonKind>
+
+  <PersonKind personKindIdent="DI">
+    <Name>Dictator</Name>
+    <Description>Leader of a dictatorship, someone with sole and absolute power</Description>
+  </PersonKind>
+
+  <PersonKind personKindIdent="GOV">
+    <Name>Governor</Name>
+    <Description>Person served as Governor of a state in the United States</Description>
   </PersonKind>
   
+  <PersonKind personKindIdent="GO">
+    <Name>Government Official</Name>
+    <Description>An official in the government.</Description>
+  </PersonKind>
+
+  <PersonKind personKindIdent="AMB">
+    <Name>Ambassador</Name>
+    <Description>An accredited diplomat sent by a country as its official representative to a foreign country.</Description>
+  </PersonKind>
+
+  <PersonKind personKindIdent="FO">
+    <Name>Founder</Name>
+    <Description>Person who established an institution</Description>
+  </PersonKind>
+
+  <PersonKind personKindIdent="PCEO">
+    <Name>President and CEO</Name>
+    <Description>President and CEO of an organization.</Description>
+  </PersonKind>
+  
+  <PersonKind personKindIdent="CM">
+    <Name>Chairman</Name>
+    <Description>Chairman of an organization.</Description>
+  </PersonKind>
+
+  <PersonKind personKindIdent="SW">
+    <Name>Social Worker</Name>
+    <Description>Someone employed to provide social services (especially to the disadvantaged).</Description>
+  </PersonKind>
+  
+  <PersonKind personKindIdent="PH">
+    <Name>Philanthropist</Name>
+    <Description>Person uses their influence to help make positive changes in the world</Description>
+  </PersonKind>
+
+  <PersonKind personKindIdent="TL">
+    <Name>Terrorist Leader</Name>
+    <Description>A leader of a group who uses or advocates terrorism.</Description>
+  </PersonKind>
+  
+  <PersonKind personKindIdent="CEO">
+    <Name>Chief Executive Officer</Name>
+    <Description>The highest-ranking corporate officer (executive) or administrator in charge of total management of an organization.</Description>
+  </PersonKind>
 </WorldCrises>
