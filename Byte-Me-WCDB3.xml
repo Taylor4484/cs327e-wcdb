@@ -755,7 +755,7 @@
 
 <Organization organizationIdent="DEC">
 	<Name>Disasters Emergency Committee</Name>
-	<Kind organizationKindIdent="CO" />
+	<Kind organizationKindIdent="CHA" />
 	<Location>
 		<Locality>London</Locality>
 		<Country>United Kingdom</Country>

@@ -51,7 +51,8 @@ def query (login, s) :
 	try: 
 		login.query(s)
 	except:
-		print("error query:", s)
+		#print("error query:", s)
+		pass
 	r = login.use_result()
 	if r is None :
 		return None
