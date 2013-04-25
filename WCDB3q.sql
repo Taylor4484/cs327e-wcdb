@@ -153,7 +153,7 @@ Select name
 
 /*21. Which person(s) is involved or associated with the most organizations?*/
 
-Select name
+Select first_name, middle_name, last_name
 	From Person
 	Where id in 
 	(Select id_person as id
@@ -182,7 +182,7 @@ Select name
 
 /*25. Get the name and kind of all persons in the US (United States, USA, United States of America)*/
 
-Select name, kind
+Select first_name, middle_name, last_name, kind
      From Person
      Where person_id in
 	(Select id as person_id
@@ -192,7 +192,7 @@ Select name, kind
 
 /*26. Who has the longest name?*/
 
-Select name
+Select first_name, middle_name, last_name
 	From Person
 	Where max(length(first_name) + length(middle_name) + length(last_name));
 
@@ -205,19 +205,19 @@ Select S.kind
 
 /*28. Which people don't have a middle name?*/
 
-Select name
+Select first_name, middle_name, last_name
      From Person
      Where middle_name is NULL;
 
 /*29. What are the names that start with 'B'?*/
 
-Select name
+Select first_name, middle_name, last_name
       From Person
-      Where FirstName LIKE 'B%';
+      Where first_name LIKE 'B%';
 
 /*30. List all the people associated with each country.*/
 
-Select name, country
+Select first_name, middle_name, last_name, country
     From Person natural join Location
     Order by country;
 
