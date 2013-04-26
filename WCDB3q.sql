@@ -88,7 +88,6 @@ Select name, count(id_crisis)
 
 /*12. Name and Postal Address of all orgs in California?*/
 
-
 Select name, street_address, locality, region, postal_code
     From Organization
     Where id in
@@ -119,6 +118,7 @@ Select Organization.name
     From Organization join CrisisOrganization
     on Organization.id = CrisisOrganization.id_organization
     order by count(CrisisOrganization.id_crisis);
+
 /*16. How many organizations are government based?*/
 
 Select count(name)
@@ -139,7 +139,6 @@ Select kind, count(kind)
 	From Crisis
 	group by kind
 	order by count(kind) desc;
-
 
 /*19. Create a list of telephone numbers, emails, and other contact info for all orgs*/
 
@@ -193,12 +192,10 @@ Select first_name, middle_name, last_name
 
 /*27. Which kinds of crisis only have one crisis example?*/
 
-
 Select C.kind
 	From Crisis as C join CrisisKind as K
 	On C.kind = K.id
 	having count(C.kind) = 1;
-
 
 /*28. Which people don't have a middle name?*/
 
@@ -222,7 +219,7 @@ Select first_name, middle_name, last_name, country
 /*31. What crisis affected the most countries?*/
 Select country, count(Crisis.id)
 	From Crisis join Location
-    on Crisis.id = Location.entity_id
+	on Crisis.id = Location.entity_id
 	order by (count(Crisis.id));
 
 /*32.What is the first (earliest) crisis in the database?*/
@@ -232,7 +229,6 @@ Select name, start_date
 	order by start_date limit 1;
 
 /*33. What is the number of organizations in the US?*/
-
 
 Select count(*)
 	From Organization join Location
