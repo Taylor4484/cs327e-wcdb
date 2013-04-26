@@ -45,7 +45,6 @@ select *
 	on Person.id = Location.entity_id
 	order by country;
 
-
 /*7. How many crises occurred during the 1960s?*/
 
 Select count(name)
@@ -57,17 +56,15 @@ Select count(name)
 select name
 from 
 
-
 (Select distinct name 
 	From Organization join Location
 	Where Location.country !='United States' or 'US' or 'USA' or 'United States of America') as T
 
 Natural Join
-
 	
 (select distinct  id_organization 
-from CrisisOrganization
-having count(id_organization) > 1) as S;
+	from CrisisOrganization
+	having count(id_organization) > 1) as S;
 
 /*9. Which Orgs, Crises, and Persons have the same location (country)?*/
 
