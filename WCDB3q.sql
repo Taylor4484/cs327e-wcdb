@@ -36,14 +36,14 @@ Select avg(number), country
 /*5. What is the most common resource needed?*/
 select * 
 	 from Crisis join ResourceNeeded 
-	 	 on Crisis.id = ResourceNeeded.crisis_id;
+	 on Crisis.id = ResourceNeeded.crisis_id;
 
 /*6. How many persons are related to crises located in countries other than their own?*/
 
 select * 
-from Person join Location
-on Person.id = Location.entity_id
-order by country;
+	from Person join Location
+	on Person.id = Location.entity_id
+	order by country;
 
 
 /*7. How many crises occurred during the 1960s?*/
