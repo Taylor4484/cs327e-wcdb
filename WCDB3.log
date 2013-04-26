@@ -1,0 +1,1316 @@
+commit ea83dd645a7f068c0e858a1efffc0a53db8016c3
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Thu Apr 25 17:09:02 2013 -0500
+
+    Fixed Export, updated docs
+
+commit 22c382b09d48d734212e5bed67aaab70e0e3a9a5
+Author: Malloryfarr <malloryfarr@austin.rr.com>
+Date:   Thu Apr 25 16:20:48 2013 -0500
+
+    update up to 31
+
+commit 970e9c54674366b233bc29286ba2354c15c61973
+Author: Malloryfarr <malloryfarr@austin.rr.com>
+Date:   Thu Apr 25 16:09:23 2013 -0500
+
+    Update WCDB3q.sql
+
+commit aa3dd64d580fedd4076858e5ff482a2551364bab
+Author: Malloryfarr <malloryfarr@austin.rr.com>
+Date:   Thu Apr 25 15:35:33 2013 -0500
+
+    Update WCDB3q.sql
+
+commit ce922fd5ec7f4fc6a570a3d01a79e29b27bd7bf8
+Author: Geovanni <gsm@utexas.edu>
+Date:   Thu Apr 25 14:45:33 2013 -0500
+
+    Correcting mistakes
+
+commit 8b260e41ba6310a95523b406ed178661f5091fc0
+Author: Geovanni <gsm@utexas.edu>
+Date:   Thu Apr 25 14:42:11 2013 -0500
+
+    Correcting mistakes
+
+commit 46c67aad37aa3c0551b306da3d4c151c1f7c6dfc
+Author: Malloryfarr <malloryfarr@austin.rr.com>
+Date:   Thu Apr 25 13:52:09 2013 -0500
+
+    fixing more stuff
+
+commit b815c716e3d2992bdb2a22a90c935949e9a60c24
+Author: Malloryfarr <malloryfarr@austin.rr.com>
+Date:   Thu Apr 25 13:44:00 2013 -0500
+
+    Fixing #5, 6
+
+commit c1527246840be882a4b478a5a5cee2089105efe0
+Author: Holly Hatfield <h.hatfield@utexas.edu>
+Date:   Thu Apr 25 12:09:26 2013 -0500
+
+    Corrected querries and changed descriptions
+
+commit e1eec666f6d63801d682f0fa1a3506cb6da21d0d
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Thu Apr 25 11:51:44 2013 -0500
+
+    Doc HTML added!
+
+commit 70fd0eda8134842474a39dd23bb434ce8f5b1e98
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Thu Apr 25 11:40:14 2013 -0500
+
+    Added More UnitTests, Removed Print Statements
+
+commit 75b0828ffa394f00119b43dd9e42c0351429db99
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Wed Apr 24 22:36:41 2013 -0500
+
+    Run Test Completed, Deleted File
+
+commit 98aa612ecbe5dea778d1fe5bbd239b8ba5926872
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Wed Apr 24 20:35:13 2013 -0500
+
+    Fixed Nameless File
+
+commit 1949974ddadcf4edce139930ea6e8ce4bdfb26aa
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Wed Apr 24 19:55:21 2013 -0500
+
+    Fully Working Import, Export, Merge, FULLY WORKING!
+
+commit 27c76cf7e0f1abe42269ee48f732ec085a4fd310
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Wed Apr 24 19:50:30 2013 -0500
+
+    Fixed Weird Exception Issue & Merged Group XMLs into Filesystem
+
+commit e4d53c8a710e43495b2031be0f4f928ba17e466d
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Wed Apr 24 19:35:56 2013 -0500
+
+    Fixed Duplicate Tree Print Error
+
+commit ce763705f808739df0f4efc2ad8d7bab9e5d1890
+Author: Holly Hatfield <h.hatfield@utexas.edu>
+Date:   Wed Apr 24 19:20:33 2013 -0500
+
+    ADDED NAMELESS.xml
+    
+    Also fixed another duplicate problem in merge
+
+commit 0f404c8bd7364363edde5db784df9e6620f97e3a
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Wed Apr 24 18:57:59 2013 -0500
+
+    Re-enabled import modules
+
+commit d38540607195dad5869fa373d9b8b84fa80205f8
+Author: Holly Hatfield <h.hatfield@utexas.edu>
+Date:   Wed Apr 24 18:51:53 2013 -0500
+
+    Updated Merge
+    
+    fixed bug between person and crisis kind idents being duplicates
+
+commit 196f6ca6cd462cb866889c3cd6cf33e7da7e9449
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Wed Apr 24 18:47:04 2013 -0500
+
+    Working Import & Export, Added Escape Characters
+
+commit c6e6508cf7d6deec92bd69b9310a15f430856b23
+Author: Holly Hatfield <h.hatfield@utexas.edu>
+Date:   Wed Apr 24 18:31:37 2013 -0500
+
+    de-bug The Miner's file
+
+commit 2ef38b97af191429d89c32038a92b758799aafaf
+Author: Holly Hatfield <h.hatfield@utexas.edu>
+Date:   Wed Apr 24 18:12:10 2013 -0500
+
+    Corrected file name
+
+commit 5714c0412c96ceff420b8510ac4419b3ccbff62a
+Author: Geovanni <gsm@utexas.edu>
+Date:   Wed Apr 24 17:52:48 2013 -0500
+
+    working on RunWCDB3.out.xml
+
+commit 7bd879843c3dbb9b788aae8f7907737e97689002
+Author: Holly Hatfield <h.hatfield@utexas.edu>
+Date:   Wed Apr 24 17:48:53 2013 -0500
+
+    Added unit tests for read and merge
+
+commit 919ad7197b5be8333e19fa32815135ae4619d17b
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Wed Apr 24 17:23:54 2013 -0500
+
+    Updating errors in Run & WCDB3 file
+
+commit a2027de79fe76b4487bf28528b4724299889189b
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Wed Apr 24 17:22:05 2013 -0500
+
+    Updated XML files
+
+commit f3ed5edaf5bb9d3ff436682d1805eaa2a43b4edf
+Author: Geovanni <gsm@utexas.edu>
+Date:   Wed Apr 24 17:15:46 2013 -0500
+
+    working on RunWCDB3.out.xml
+
+commit 5f355b92847d54b80b08ed1248d97b85beacdfb7
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Wed Apr 24 16:54:52 2013 -0500
+
+    Updated Queries SQL file name
+
+commit 686c7aa262971c0c35e7d3e07071215af672abc8
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Wed Apr 24 16:51:15 2013 -0500
+
+    Updated Run, Merge, Read, Solve & XML
+
+commit b31275d46911227d6c448c7ffaa8927033d24f0c
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Wed Apr 24 16:46:31 2013 -0500
+
+    Re-wrote Merge, Solve, Read and Run
+
+commit d941f367de1bc320bf6f3da93b77d72e007e9822
+Author: Geovanni <gsm@utexas.edu>
+Date:   Wed Apr 24 16:09:24 2013 -0500
+
+    Working on RunWCDB.in.xml
+
+commit 64ad8d6ca1bed3c19e5053f3d0f3731df77b3b75
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Wed Apr 24 15:36:47 2013 -0500
+
+    Fixed XML to be valid
+
+commit 758e762b13a08dcc4619204889eb2cdafcbe0c2b
+Author: Geovanni <gsm@utexas.edu>
+Date:   Wed Apr 24 12:50:46 2013 -0500
+
+    working on RunWCDB3.in.xml
+
+commit a287354fb952530a41f74bbfe4c3a4a50c5e39d5
+Author: Wilson Bui <davo_letows@utexas.edu>
+Date:   Wed Apr 24 00:03:35 2013 -0500
+
+    Updated function calls
+    
+    Not sure if this was very helpful...
+
+commit 528ca707d2ae79ecac22876a521a8e1c434d6a3e
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Tue Apr 23 23:49:25 2013 -0500
+
+    Working Import & Export according to new SQL schema
+
+commit 688335b51f2999becaacebdf7543fdadc1118349
+Author: Holly Hatfield <h.hatfield@utexas.edu>
+Date:   Tue Apr 23 22:51:25 2013 -0500
+
+    File management
+    
+    folders created for Phase1 and Phase2
+
+commit 69a2f371de938791f44e04e00f0971c174598c17
+Author: Geovanni <gsm@utexas.edu>
+Date:   Tue Apr 23 22:41:52 2013 -0500
+
+    working on acceptance tests
+
+commit aa6e7d047c86f7dd2714448a037d12c870ff9806
+Author: Geovanni <gsm@utexas.edu>
+Date:   Tue Apr 23 22:35:53 2013 -0500
+
+    working on acceptance tests
+
+commit 35a05c36e3b1d987cf506536b6ce7be728e860f1
+Author: Holly Hatfield <h.hatfield@utexas.edu>
+Date:   Tue Apr 23 22:19:13 2013 -0500
+
+    Merge function added
+    
+    needs unit tests and to be run on all group's data
+
+commit cd9b9a7b9360c35a64beb531a766f8f2f33f09b0
+Author: malloryfarr <malloryfarr@austin.rr.com>
+Date:   Tue Apr 23 21:27:04 2013 -0500
+
+    Unit Tests WCDB 3
+    
+    NOT DONE
+
+commit cb8889ad7215c2d4f48d629c494d6574e5c25183
+Author: Malloryfarr <malloryfarr@austin.rr.com>
+Date:   Tue Apr 23 21:15:28 2013 -0500
+
+    Create WCDB3q.sql
+
+commit f14171057de40c26e8e5af7cafeaa1a95ed0e037
+Author: Geovanni <gsm@utexas.edu>
+Date:   Tue Apr 23 21:09:54 2013 -0500
+
+    Working on acceptance tests
+
+commit fdc7166ecccb56cf72e70858201ceb1bf41aae7d
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Tue Apr 23 20:56:35 2013 -0500
+
+    Working Import, Failing Export & updated runfile
+
+commit a36bc2571467272d14b259b16fe73de45b667735
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Tue Apr 23 19:56:51 2013 -0500
+
+    Added Group's XML
+
+commit 7756d1826a0b3e2a714a1388ae98ab6e6591df7b
+Author: malloryfarr <malloryfarr@austin.rr.com>
+Date:   Tue Apr 23 19:42:43 2013 -0500
+
+    Updating
+
+commit dc56d07c4c40f1e5e2a846757793b5e7e381c516
+Author: Geovanni <gsm@utexas.edu>
+Date:   Tue Apr 23 19:35:21 2013 -0500
+
+    fixing queries
+
+commit 0b3dda3847051b5f5dcb178e7b0b5b8827334d43
+Author: malloryfarr <malloryfarr@austin.rr.com>
+Date:   Tue Apr 23 19:24:36 2013 -0500
+
+    Fixing Queries
+
+commit cac77af800f1890d1e06853aa305cd6fbd0f946d
+Author: Holly Hatfield <h.hatfield@utexas.edu>
+Date:   Tue Apr 23 19:00:33 2013 -0500
+
+    new tester files test.xml and fix.py
+
+commit e1a4ff7234a4d49b848bd30cb61cd6b844308491
+Author: Holly Hatfield <h.hatfield@utexas.edu>
+Date:   Tue Apr 23 18:55:58 2013 -0500
+
+    new tester files test.xml and fix.py
+
+commit 3570faa677f5af631e38bc9150ec5698558f0c5f
+Author: malloryfarr <malloryfarr@austin.rr.com>
+Date:   Tue Apr 23 18:49:58 2013 -0500
+
+    Finishing Queries
+
+commit d60ea6acb845a823a3d9c8ebdeb959eee7517bd0
+Author: Geovanni <gsm@utexas.edu>
+Date:   Tue Apr 23 18:02:49 2013 -0500
+
+    Update Queries
+
+commit 359e796636b3bef176c833e4101e8b9668490ace
+Author: Geovanni <gsm@utexas.edu>
+Date:   Tue Apr 23 17:52:04 2013 -0500
+
+    Updating myQueries (16-30)
+    
+    Almost done
+
+commit 57eece85d31811ce32ff766030ad6ce97e1b7258
+Author: Geovanni <gsm@utexas.edu>
+Date:   Tue Apr 23 14:43:39 2013 -0500
+
+    my queries 16-30
+    
+    (not finished, still working)
+
+commit 2b04399dd96beaeffdb178f12cbd0479d085239a
+Author: malloryfarr <malloryfarr@austin.rr.com>
+Date:   Tue Apr 23 13:19:10 2013 -0500
+
+    Adding 37-45
+
+commit 1e56ad925ad9e99cf7d2c48a145483dbf2d6efed
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Tue Apr 23 12:10:08 2013 -0500
+
+    Updated File Name
+
+commit 8939491981967cb3ab62832367975af45bb17f89
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Tue Apr 23 12:06:36 2013 -0500
+
+    Fixed Escape Character
+
+commit e61842f4e1a146907e6a46207d31491cbd5556b0
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Tue Apr 23 12:02:49 2013 -0500
+
+    Fixed Typo in Africa_DS_1970 to Africa_DI_1970
+
+commit 300cbf51c14efd7842a09045856405aa6061b0d3
+Author: malloryfarr <malloryfarr@austin.rr.com>
+Date:   Tue Apr 23 12:03:19 2013 -0500
+
+    Queries 1-15
+    
+    Still making sure they are all right… I am least confident about the
+    first 5
+
+commit 4dea91ae460b82d283e25ad4a5ec861075ca0e5d
+Author: Alex Leonard <alexjleonard@gmail.com>
+Date:   Tue Apr 23 11:27:52 2013 -0500
+
+    corrected XML for our group only
+
+commit e4671e892d1678780a2d6155cd75b185184e8240
+Author: Alex Leonard <alexjleonard@gmail.com>
+Date:   Mon Apr 22 19:56:13 2013 -0500
+
+    replaced the crisis/person/organization-Kind id's
+    
+    apologies if anything's incorrect, sorry for the delay
+
+commit c1672172bf81513b3cb55a0cde6f75948c3ee49d
+Author: Holly Hatfield <h.hatfield@utexas.edu>
+Date:   Mon Apr 22 14:37:13 2013 -0500
+
+    added union, started merge function
+    
+    Still have a long way to go...
+
+commit f18622886ba79ea57518762a121f5c5a35c91461
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Sun Apr 21 18:57:42 2013 -0500
+
+    Fixed Invalid XML from Merge, Fixed Output Pretty Print, Fixed issue with None Type
+    
+    Lots of bug fixes and imporvements. Updated Makefile
+
+commit 723ceb98923091010fecec8050041a1ffe4c5ba8
+Author: Alex Leonard <alexjleonard@gmail.com>
+Date:   Sun Apr 21 12:06:51 2013 -0500
+
+    replaced all crisis/organization/person id's
+
+commit 89f8c2421f7d0fdffbf5d4b5ff1816262b7a14ea
+Author: malloryfarr <malloryfarr@austin.rr.com>
+Date:   Thu Apr 18 11:54:49 2013 -0500
+
+    Updated UML
+    
+    For WCDB3
+
+commit feaf8fd6f5b39d0092d91dd0ebcb7fd0f8d72077
+Author: Holly Hatfield <h.hatfield@utexas.edu>
+Date:   Fri Apr 12 20:36:02 2013 -0500
+
+    Incorporated jmeng group's instances
+    
+    1/3 done now!!
+
+commit a907f508ff0e344bc24f2f4fb59b01c8e1544e04
+Author: Holly Hatfield <h.hatfield@utexas.edu>
+Date:   Fri Apr 12 18:38:46 2013 -0500
+
+    Incorporated ajw2232 group's instances
+    
+    7 more to go :'(
+
+commit 046322f988ea3d2df33690fba4caf6fad8c745c2
+Author: Holly Hatfield <h.hatfield@utexas.edu>
+Date:   Fri Apr 12 17:31:44 2013 -0500
+
+    Incorporated PhillipLin group's instances
+
+commit 9480e16f678257f48d1402cdaa3c4529bd605785
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Thu Apr 4 20:01:01 2013 -0500
+
+    Zip Submitted
+
+commit e17b97cc7638c401a86b2f09aa83094670f0c204
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Thu Apr 4 19:49:43 2013 -0500
+
+    Fixed Space
+
+commit cf5672c4f7395bc49cc102fdc27330ec80beed72
+Author: Wilson Bui <davo_letows@utexas.edu>
+Date:   Thu Apr 4 19:49:11 2013 -0500
+
+    Rudimentary query test
+    
+    I couldn't get it to run, I just wrote hardcoded stuff.
+
+commit 1c6f0523c0342169674e2a5a61eec32e661dbf83
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Thu Apr 4 19:47:23 2013 -0500
+
+    Log and Documentation Created
+
+commit eaa4118cacc6483e5c4da4a9d8fab551b9b4bf66
+Author: Holly Hatfield <h.hatfield@utexas.edu>
+Date:   Thu Apr 4 19:46:47 2013 -0500
+
+    syntax fix
+
+commit 82d23f168acc83c99444037442a0fcd436cf054a
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Thu Apr 4 19:43:27 2013 -0500
+
+    Final Export Edits
+
+commit 6920921f5af064ccbd7c032d8f8ce7156f7942ef
+Author: Holly Hatfield <h.hatfield@utexas.edu>
+Date:   Thu Apr 4 19:37:34 2013 -0500
+
+    Updated Tests
+
+commit 1b155126b8c4ba668eafb324a3d52b3309a888f1
+Author: Holly Hatfield <h.hatfield@utexas.edu>
+Date:   Thu Apr 4 19:17:44 2013 -0500
+
+    More unit tests
+    
+    un-valid
+
+commit 623b101ff2fe1cde3d9dd1c69c5182743129b6b8
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Thu Apr 4 19:15:40 2013 -0500
+
+    Added more function documentation, removed print statements
+
+commit 398367d1b229331bba9266e0ae31588ab61f8fcc
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Thu Apr 4 19:08:35 2013 -0500
+
+    Finished Export Function
+
+commit bf59c489a79c364ef7d04abcee22457ad1216656
+Author: Holly Hatfield <h.hatfield@utexas.edu>
+Date:   Thu Apr 4 18:58:35 2013 -0500
+
+    Added some more unit tests
+    
+    Have not validated them
+
+commit 5e2129aa1ab8da156488063e487cf7270a7ebae0
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Thu Apr 4 18:57:13 2013 -0500
+
+    Almost Finished Export, Changed nonprinting characters in XML instance
+
+commit ed35b6d9010f8c6bb9467a24a72406ccc3caa39e
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Thu Apr 4 18:56:02 2013 -0500
+
+    Revert "Export almost done, edited nonprinting characters in XML instance"
+    
+    This reverts commit d07a296e32c3aa7434df34ea0806186fcd37ee28.
+
+commit a03c58705e94fe8311428d2ba47df865a9740309
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Thu Apr 4 18:56:02 2013 -0500
+
+    Revert "Revert "Export almost done, edited nonprinting characters in XML instance""
+    
+    This reverts commit f0da42acddce191010a2708248c6f6efa70fdc28.
+
+commit d495ff8be7d60b0d06afb269e64976bbf015b167
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Thu Apr 4 18:56:02 2013 -0500
+
+    Revert "Export almost done, edited nonprinting characters in XML instance"""
+    
+    This reverts commit 4997d85655c47b236366dcc4fefc28ac8caa40b0.
+
+commit 4997d85655c47b236366dcc4fefc28ac8caa40b0
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Thu Apr 4 18:55:37 2013 -0500
+
+    Export almost done, edited nonprinting characters in XML instance""
+
+commit f0da42acddce191010a2708248c6f6efa70fdc28
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Thu Apr 4 18:54:52 2013 -0500
+
+    Revert "Export almost done, edited nonprinting characters in XML instance"
+    
+    This reverts commit d07a296e32c3aa7434df34ea0806186fcd37ee28.
+
+commit d07a296e32c3aa7434df34ea0806186fcd37ee28
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Thu Apr 4 18:54:41 2013 -0500
+
+    Export almost done, edited nonprinting characters in XML instance
+
+commit 3b7587cb90f73c7150877c805754cd6896e89f60
+Author: Holly Hatfield <h.hatfield@utexas.edu>
+Date:   Thu Apr 4 17:54:19 2013 -0500
+
+    Added some unit tests
+
+commit 425f167d28c425efb653130ecc16b55805e97c0d
+Author: Wilson Bui <davo_letows@utexas.edu>
+Date:   Thu Apr 4 17:39:33 2013 -0500
+
+    Added 3 last Acceptance Tests
+    
+    Hopefully this is all we need!
+
+commit b7f15e87e41ba3b47685c2a5a62457c0e520560a
+Author: Wilson Bui <davo_letows@utexas.edu>
+Date:   Thu Apr 4 17:08:59 2013 -0500
+
+    Added 3 Acceptance Tests
+    
+    We need three more tests I think.
+
+commit d41d4b030dca70dd23947b578ede0c13465f6922
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Thu Apr 4 16:18:33 2013 -0500
+
+    Woking on Export, more function documentation
+
+commit f0b104b506d24379d84bf5d986f51443fe1b7429
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Thu Apr 4 15:00:09 2013 -0500
+
+    Fixed Indents, Altered Login Function Name
+    
+    Login now WCDB2_login, started writing export
+
+commit a13f0f9f650f1ff98eb431480e5619a21c0353a9
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Thu Apr 4 14:33:07 2013 -0500
+
+    Added Function Documentation and edited variable names
+    
+    C changed to Login for readability
+
+commit ec51e5794d3ac572277d4702e741d8529ca508d9
+Author: malloryfarr <malloryfarr@austin.rr.com>
+Date:   Thu Apr 4 09:04:07 2013 -0500
+
+    Updated UML
+
+commit 6098c5614beb9212eefff6df5dbaadb1eec1c1fc
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Thu Apr 4 00:40:41 2013 -0500
+
+    Working Import Function, consists of various aux functions
+    
+    Slightly edited the instance to help with processing (removing stupid
+    characters)
+
+commit c5ac781f0b9c14f25694438bbdd82e3e17e6a403
+Author: malloryfarr <malloryfarr@austin.rr.com>
+Date:   Wed Apr 3 20:57:41 2013 -0500
+
+    UML
+
+commit 1c15aed8896cdbb350034eb41febfdacf75e09c7
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Wed Apr 3 17:16:06 2013 -0500
+
+    Getting DB creations to work
+
+commit e12ea68d9b6573e0f1ddebb03477cbe9812ad4fe
+Author: Holly Hatfield <h.hatfield@utexas.edu>
+Date:   Wed Apr 3 13:59:47 2013 -0500
+
+    Hardcoded in & out files
+
+commit e6f080fe482d709ddde7786a16cbaf71d7f02ee8
+Author: Holly Hatfield <h.hatfield@utexas.edu>
+Date:   Wed Apr 3 13:58:31 2013 -0500
+
+    Updated Queries, a hardcoded
+
+commit f9f080daa4d69914ec7579c2b4de0ee970f546cc
+Author: Holly Hatfield <h.hatfield@utexas.edu>
+Date:   Wed Apr 3 12:57:51 2013 -0500
+
+    Tables added
+
+commit 50f89e6aa0d80ae0a5a2bb0bf18568ab04be9039
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Wed Apr 3 09:55:58 2013 -0500
+
+    Update WCDB2.py
+    
+    Changed Element Tree to LXML Element Tree to allow pretty print
+
+commit 3287ab49a6efa4c904a8f8309469b4e9f0cbb831
+Author: Holly Hatfield <h.hatfield@utexas.edu>
+Date:   Wed Apr 3 09:44:01 2013 -0500
+
+    Added queries and function
+    
+    Not valid, will read xml into MySQL once debugged
+
+commit 9b99c32af69f58b9037fe88b6261b919f88fdb17
+Author: Wilson Bui <davo_letows@utexas.edu>
+Date:   Wed Apr 3 03:37:52 2013 -0500
+
+    Updated Acceptance Test Output
+
+commit 13fb7910885ede51fd49884f7984d68a8a6016f6
+Author: Wilson Bui <davo_letows@utexas.edu>
+Date:   Wed Apr 3 03:36:14 2013 -0500
+
+    Added 3 Acceptance Tests
+    
+    I validated the three acceptance tests against the XSD.
+
+commit 64f8829805ad8c7e17ddf9bc5831e92b5decb368
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Wed Apr 3 02:05:35 2013 -0500
+
+    Start of WCDB2, moved dev environment to CS machine
+
+commit 5d3256a19e92d8d836a46fb3182f7a778b029331
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Wed Apr 3 00:46:35 2013 -0500
+
+    Testing input output with new validated schema; works!
+
+commit 3c032985c55b59806f25d5f2f9a9310176e51b91
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Wed Apr 3 00:16:13 2013 -0500
+
+    New Makefile
+
+commit a9e4d6af4df655efca99726a873ca182be4fa96a
+Author: Holly Hatfield <h.hatfield@utexas.edu>
+Date:   Tue Apr 2 11:16:43 2013 -0500
+
+    RE-validated
+
+commit 33827a983c2183f148692fb57034f019a79b011a
+Author: Wilson Bui <davo_letows@utexas.edu>
+Date:   Mon Apr 1 23:11:49 2013 -0500
+
+    Updated my XML Instances
+
+commit 45fec3bf0ef959426236d79ea45a860ae90f3825
+Author: Holly Hatfield <h.hatfield@utexas.edu>
+Date:   Mon Apr 1 12:49:27 2013 -0500
+
+    Rename WCDB2.xsd.xml.xsd to WCDB2.xsd.xml
+
+commit f7019af9b8b6e483839a362a2fa7432b3e47694e
+Author: Holly Hatfield <h.hatfield@utexas.edu>
+Date:   Mon Apr 1 12:48:45 2013 -0500
+
+    Included lint function
+
+commit 53b40dc531efaf0785e4e0f0eb17f38005889fb5
+Author: Holly Hatfield <h.hatfield@utexas.edu>
+Date:   Mon Apr 1 12:47:38 2013 -0500
+
+    Fixed tag and ID erros
+    
+    Fully validates now
+
+commit b4f055ef4bc18a6407b0b3adfad96ce28df1484a
+Author: Geovanni <gsm@utexas.edu>
+Date:   Mon Apr 1 12:42:24 2013 -0500
+
+    corrected mistakes
+
+commit eda9e86a4606e3256e444bad41e13696817d104a
+Author: Geovanni <gsm@utexas.edu>
+Date:   Mon Apr 1 12:32:59 2013 -0500
+
+    corrected mistakes
+
+commit 683536474f1404e671dc1f79da6e2d4375dccf43
+Author: Wilson Bui <davo_letows@utexas.edu>
+Date:   Mon Apr 1 03:12:14 2013 -0500
+
+    Corrected Organization reference
+
+commit 970c1a927a6ef60dea68d0df8138df3a6d18d101
+Author: Wilson Bui <davo_letows@utexas.edu>
+Date:   Mon Apr 1 03:06:39 2013 -0500
+
+    Wilson's instances added
+    
+    I apologize for my delay, let me know if there's anything wrong.
+
+commit 8c7e65c857231cc81007a604ab12f74f13bacfd7
+Author: Holly Hatfield <h.hatfield@utexas.edu>
+Date:   Sun Mar 31 19:02:49 2013 -0500
+
+    Daniel and Alex's instances
+    
+    Changed some file names
+
+commit 4a14030a5a18ecd96150ad747c493c6d331e7e00
+Author: Holly Hatfield <h.hatfield@utexas.edu>
+Date:   Sun Mar 31 18:58:23 2013 -0500
+
+    Daniel and Alex's instances added
+    
+    Still need Willson's
+
+commit a61392e8d3f4755a1ad311f2aa67609dde4b0ed9
+Author: Alex Leonard <alexjleonard@gmail.com>
+Date:   Sun Mar 31 17:21:32 2013 -0500
+
+    added my instances
+
+commit 50e4532767e169eabc7b3ae6b1a471fca7cdfe2c
+Author: Daniel Ehrlich <daniel.ehrlich1@gmail.com>
+Date:   Sun Mar 31 16:21:10 2013 -0500
+
+    Added 4 people
+
+commit 53e4dacf7a18bc9abf2b34594f3d1c6076990af1
+Author: Holly Hatfield <h.hatfield@utexas.edu>
+Date:   Sun Mar 31 12:31:01 2013 -0500
+
+    Taylor, Mallory, Holly, and Giovanni's instances
+    
+    Spacing and tags fixed.
+
+commit 9b20509540a1b3fb6e0ec0c1b3bc0fad539ba31a
+Author: malloryfarr <malloryfarr@austin.rr.com>
+Date:   Sun Mar 31 09:35:40 2013 -0500
+
+    Adding Connections -- Mallory
+    
+    Adding organizational connections for BGates, JFKennedy, also fixed
+    personkind for BGates (PH-philanthropist)
+
+commit 93862f0b9d0c8a44b3d4c15b72886340fcfbb35c
+Author: Geovanni <gsm@utexas.edu>
+Date:   Sun Mar 31 02:36:53 2013 -0500
+
+    My updated instances with spacing corrected (#3)
+
+commit 503bbf4b3f2638b815add149632e66c0e375108d
+Author: Geovanni <gsm@utexas.edu>
+Date:   Sun Mar 31 02:35:08 2013 -0500
+
+    My updated instances with spacing corrected (#2)
+
+commit c084a0381fbbb10b1ebf75827af63e27b4698e66
+Author: Geovanni <gsm@utexas.edu>
+Date:   Sun Mar 31 02:31:31 2013 -0500
+
+    My updated instances with spacing corrected
+
+commit 2a2660878cb68c18065870c848f60a48024ed356
+Author: Geovanni <gsm@utexas.edu>
+Date:   Sun Mar 31 02:13:58 2013 -0500
+
+    My updated instances
+
+commit 6c105b5c84a469e94bbae23b316588a514a2c052
+Author: Holly Hatfield <h.hatfield@utexas.edu>
+Date:   Sat Mar 30 20:24:09 2013 -0500
+
+    Taylor, Mallory, and Holly's instances added
+
+commit 148e0e37f7654bfee50c6b58a7e0f34cdfeb3528
+Author: Holly Hatfield <h.hatfield@utexas.edu>
+Date:   Sat Mar 30 20:18:55 2013 -0500
+
+    Holly, Taylor, and Mallory's instances added!
+    
+    That's only half of the group :(
+
+commit 839cfc74cd85de6d78bb28cd7ff23922fb02449b
+Author: malloryfarr <malloryfarr@austin.rr.com>
+Date:   Sat Mar 30 00:10:12 2013 -0500
+
+    Mallory Update
+    
+    haven't validated yet
+
+commit 28c0a6e9fa3ee898fddaa92ac428e079f396bbba
+Author: Holly Hatfield <h.hatfield@utexas.edu>
+Date:   Wed Mar 27 00:21:54 2013 -0500
+
+    taylor-WCDB1.xml updated, Holly's updates
+
+commit 45167c54e5e37a0bb4231cab229b4ac80c4b86d1
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Thu Mar 7 20:27:30 2013 -0600
+
+    Clean File Structure
+
+commit 2b16c5cd91c8d051ec254512efab752608071312
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Thu Mar 7 19:40:48 2013 -0600
+
+    Finished Validating and fixing errors
+
+commit 1971519b0943fd6acb049b6f1f046bff317c5c8e
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Thu Mar 7 19:25:36 2013 -0600
+
+    More Validation and Fixes!
+
+commit 5ff6725bde60792a412ab47cd82b6063a0a0784f
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Thu Mar 7 19:18:04 2013 -0600
+
+    Validated and Fixed More XML
+
+commit 2f159bb5e79711ee0fe40327bf9e3cc4d1bff117
+Author: Geovanni <gsm@utexas.edu>
+Date:   Thu Mar 7 19:17:59 2013 -0600
+
+    updated maps
+
+commit 73e62acc69e32219689040b91e4508c2fecad41f
+Author: Geovanni <gsm@utexas.edu>
+Date:   Thu Mar 7 19:10:19 2013 -0600
+
+    fixed map
+
+commit 77115fa850efdd44c54b012ba8ed42a3143130ab
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Thu Mar 7 19:02:49 2013 -0600
+
+    Validating and Fixing Instances
+
+commit c4b7dcb68b0be81f667f8afda8d72738a4f5c09b
+Author: Holly Hatfield <h.hatfield@utexas.edu>
+Date:   Thu Mar 7 18:52:50 2013 -0600
+
+    Update CrisesXML
+
+commit e9e93b46f0916f76b96942f36073a59a6c1e5433
+Merge: c5490ba d50bff8
+Author: Holly Hatfield <hjh558@cs.utexas.edu>
+Date:   Thu Mar 7 18:38:26 2013 -0600
+
+    Merge branch 'master' of https://github.com/Taylor4484/cs327e-wcdb
+
+commit c5490baca1fb0fbbc2f3f0527b1a8a1af25f8966
+Author: Holly Hatfield <hjh558@cs.utexas.edu>
+Date:   Thu Mar 7 18:38:03 2013 -0600
+
+    Cannot validate hjh558Run.in.xml. Some error on line 102, please respond via email or comment if you can spot what it is
+
+commit d50bff835b16265c61ed8d55f8d733466e33cace
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Thu Mar 7 17:49:43 2013 -0600
+
+    Acceptance Tests DONE! Unit Test.out DONE!
+
+commit 6f5441b33cef1ada40e64d854f67ea6b72f46d8e
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Thu Mar 7 17:24:06 2013 -0600
+
+    Wrote lint function in makefile
+
+commit 4e4ebcdc9218d449a7ad7f7306b3e24e66bcd854
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Thu Mar 7 16:59:08 2013 -0600
+
+    Working python and unit tests! I WIN!
+    
+    Also updated XSD
+
+commit abfa1c64cb6aee4f1e169b01070b204be6640b13
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Thu Mar 7 16:29:35 2013 -0600
+
+    Unit Tests - Passing except solve
+    
+    Having trouble getting solve to work. Can't seem to get it to read from
+    the output file.
+
+commit 7485173e2173e93a4c9ab18282353e4347fb666f
+Author: Wilson Bui <davo_letows@utexas.edu>
+Date:   Wed Mar 6 22:28:25 2013 -0600
+
+    Reformatted Reference ID's
+
+commit a8eced4bed59acc2d102cf64cc6d1b389d284b68
+Merge: bcfe660 6263fd6
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Wed Mar 6 22:19:59 2013 -0600
+
+    Merge branch 'master' of https://github.com/Taylor4484/cs327e-wcdb
+
+commit bcfe660338b99898b77387c812796c71853034ed
+Merge: 31a96ed 852f4e9
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Wed Mar 6 22:19:34 2013 -0600
+
+    Merge branch 'Taylor-XSD-Instance'
+
+commit 852f4e9c963cdd72563c695236a115140ed7356d
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Wed Mar 6 22:12:56 2013 -0600
+
+    Runfile
+
+commit 6263fd6760226762187e46488c98c36cb200e9ec
+Author: Geovanni <gsm@utexas.edu>
+Date:   Wed Mar 6 21:58:25 2013 -0600
+
+    updated & corrected any syntax issues
+
+commit 27a2886f0b2ced613e90816604181d3f5c46873c
+Author: malloryfarr <malloryfarr@austin.rr.com>
+Date:   Wed Mar 6 21:49:51 2013 -0600
+
+    Adding Connections
+    
+    Adding relationships I missed.
+
+commit 176693f3072a059823915195d738c03836ff0b0b
+Author: Geovanni <gsm@utexas.edu>
+Date:   Wed Mar 6 21:41:45 2013 -0600
+
+    updated & corrected any syntax issues
+
+commit 972d78954b15e82604b017210900376e839c1bb4
+Author: Geovanni <gsm@utexas.edu>
+Date:   Wed Mar 6 21:40:50 2013 -0600
+
+    updated & corrected any syntac issues
+
+commit 182ad3121eae2407925d81d8200556831af159b1
+Author: Geovanni <gsm@utexas.edu>
+Date:   Wed Mar 6 21:37:45 2013 -0600
+
+    updated & corrected any syntac issues
+
+commit cfd504b3c8c21d368960daa4e09273242a0b5e19
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Wed Mar 6 21:33:35 2013 -0600
+
+    New Files
+
+commit 31a96ed96d445916dea389f2227d4568299a7180
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Wed Mar 6 21:13:53 2013 -0600
+
+    Created New Files, fixed mistake in my instance
+
+commit fbfd139183828f27bf60b5ed011877d04ba7d858
+Author: Holly Hatfield <h.hatfield@utexas.edu>
+Date:   Wed Mar 6 20:43:46 2013 -0600
+
+    Updated XML Instance
+    
+    2013-03-06
+
+commit d376e78db8848d12748f0c5a6859ffc401ba32a3
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Wed Mar 6 20:38:48 2013 -0600
+
+    Fixed Errors, Fully Validates
+
+commit bef6cf509adb251d6a62105af1cb8fab7ecee6bb
+Author: Alex Leonard <alexjleonard@gmail.com>
+Date:   Wed Mar 6 20:30:51 2013 -0600
+
+    removed unused elements
+
+commit ce182099537dc452669a3644a3111e5f9bac7a0d
+Author: Alex Leonard <alexjleonard@gmail.com>
+Date:   Wed Mar 6 20:24:23 2013 -0600
+
+    added XML for my orgs and crises
+
+commit 3d0a841bdb0d65c2208d67a6e045b578b5f0004a
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Wed Mar 6 20:19:56 2013 -0600
+
+    Added Youtube to Social Networks
+
+commit 8017101b1c8795148d2db3b70987ed0da296ac5a
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Wed Mar 6 20:19:17 2013 -0600
+
+    Validated Schema and fixed typo in instanceExample
+
+commit 6a0c1c94578ac87e7d8f3846045d171a54b51a1f
+Author: malloryfarr <malloryfarr@austin.rr.com>
+Date:   Wed Mar 6 20:18:04 2013 -0600
+
+    Spacing
+
+commit c50e36bb8b8392a2e07beef3f61641477a0ce6e4
+Author: malloryfarr <malloryfarr@austin.rr.com>
+Date:   Wed Mar 6 20:01:37 2013 -0600
+
+    Adopted XML
+    
+    Adopted new XML, got rid of spaces and ""
+
+commit 978017e8ee9254df740a596b5e4b95bc651a9c83
+Merge: 17ed3da 96fbe9c
+Author: malloryfarr <malloryfarr@austin.rr.com>
+Date:   Wed Mar 6 19:58:38 2013 -0600
+
+    Adopted XML
+    
+    Getting rid of spaces and ""
+
+commit 96fbe9c47c4ec3d7429cfff77c8d2db900635e6a
+Author: malloryfarr <malloryfarr@austin.rr.com>
+Date:   Wed Mar 6 19:45:50 2013 -0600
+
+    Adopted XML
+    
+    Adopted XML instances for JK1917, GB1946, MH1955, BG1955
+
+commit 17ed3da4bcd3f1f397a045a99ea78eb75a471272
+Merge: 4e86594 4505a01
+Author: malloryfarr <malloryfarr@austin.rr.com>
+Date:   Wed Mar 6 19:42:04 2013 -0600
+
+    Merge branch 'master' of https://github.com/Taylor4484/cs327e-wcdb
+
+commit 4e86594e98414b97fe601af86edd5e2751a6bdb8
+Author: malloryfarr <malloryfarr@austin.rr.com>
+Date:   Wed Mar 6 19:41:53 2013 -0600
+
+    Adopted Schema
+    
+    Adopted schema for JK1917, GB1946, MH1955 , BG1955
+
+commit 4505a014f1e2ad38173dea1c51577b9ed4a6540f
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Wed Mar 6 19:00:40 2013 -0600
+
+    Updated XSD and Instance Example
+
+commit 323b722eb4d14cf2dbd1166d4c9b75933fcb8b89
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Wed Mar 6 18:55:14 2013 -0600
+
+    Deleted People Schema (not needed) Updated my instance
+
+commit 530bdc96ef4e59fe269df4fecc99e94bf72c35c8
+Merge: 38faddd 1eb1dc3
+Author: malloryfarr <malloryfarr@austin.rr.com>
+Date:   Wed Mar 6 18:39:20 2013 -0600
+
+    Merge branch 'mallory-people'
+
+commit 1eb1dc3d6c912e448f988972ce68715f96337f3f
+Author: malloryfarr <malloryfarr@austin.rr.com>
+Date:   Wed Mar 6 18:38:36 2013 -0600
+
+    yyyy-mm-dd
+    
+    Fixing <DateAndTime> format
+
+commit 947d27949fcc5c552aa8be71e0f5a485ca48c8f2
+Author: Wilson Bui <davo_letows@utexas.edu>
+Date:   Wed Mar 6 18:37:39 2013 -0600
+
+    Deleted HT1900 Crisis out of MD2006
+
+commit ce6b7f451e6673613bbf2e2499d4cb293c7013d2
+Merge: bfa7a5d d7b93c2
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Wed Mar 6 16:36:41 2013 -0800
+
+    Merge pull request #27 from Taylor4484/Taylor-XSD-Instance
+    
+    Merge pull request #26 from Taylor4484/master
+
+commit d7b93c23a4ea6eb2a13a1ecc7f74b038fc11de86
+Merge: 6b6e6dc bfa7a5d
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Wed Mar 6 16:36:08 2013 -0800
+
+    Merge pull request #26 from Taylor4484/master
+    
+    Merge Branch
+
+commit bfa7a5dd8304009eb5d256aa5b035d53e0f56409
+Merge: 6b6e6dc 38faddd
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Wed Mar 6 18:34:15 2013 -0600
+
+    Merge branch 'master' of https://github.com/Taylor4484/cs327e-wcdb
+
+commit 6b6e6dc2c13c64ec5689ac218ddde16e07068db5
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Wed Mar 6 18:33:27 2013 -0600
+
+    Resolving Merg
+
+commit bbc718034ec64893ea1484f07a2a9e769559ecf3
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Wed Mar 6 18:30:55 2013 -0600
+
+    Fixed issue with incorrect closing tags and IDREFS
+
+commit 38faddd2f84e172fc6f4019843a82a34cbf53877
+Author: malloryfarr <malloryfarr@austin.rr.com>
+Date:   Wed Mar 6 18:30:41 2013 -0600
+
+    Correcting yyyy-mm-dd
+    
+    Had date in the wrong form
+
+commit c414d3ca82739afd1772df01b1274d75d4a23163
+Author: Wilson Bui <davo_letows@utexas.edu>
+Date:   Wed Mar 6 18:24:13 2013 -0600
+
+    Wilson Acceptance Test XML
+    
+    Hopefully there aren't any errors.
+
+commit b232fa0d65a989d8c75d6010ba7672c4303f69e4
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Wed Mar 6 17:57:44 2013 -0600
+
+    Starting My XML instances using new XSD
+
+commit c8476bb849017431c85b796e60ec7602cab78535
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Wed Mar 6 17:43:07 2013 -0600
+
+    Allowed StartdDate to be a date or string
+    
+    Allows flexibility for things without a hard date, or ongoing
+
+commit b4b831696a64a860e8deb2409de5202190d02ef9
+Author: Geovanni <gsm@utexas.edu>
+Date:   Wed Mar 6 17:29:57 2013 -0600
+
+    updated ids
+
+commit b395ff8c2550f2276bc28de5ef4ec1cb8d25a6b6
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Wed Mar 6 16:56:27 2013 -0600
+
+    Updated XSD & Instance example
+
+commit df17b457ff93c2a6be659f6b2255078258b7fcc6
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Wed Mar 6 16:45:34 2013 -0600
+
+    Updated XSD included Instance Example
+
+commit 8c5324ea013f100cf2a7a310c237205b856c16a6
+Author: malloryfarr <malloryfarr@austin.rr.com>
+Date:   Wed Mar 6 16:25:38 2013 -0600
+
+    Fixing IDs
+
+commit fb71a8bccbfb486ff472dec7bdb384572b1f5338
+Author: Geovanni <gsm@utexas.edu>
+Date:   Wed Mar 6 15:46:39 2013 -0600
+
+    Update CrisesXML
+
+commit 0b6e095f9f5ef04581fad0961a195380080fa623
+Author: Geovanni <gsm@utexas.edu>
+Date:   Wed Mar 6 10:38:29 2013 -0600
+
+    initial - My xml for crisis and orgs
+
+commit 8a8219733737cf5cbd9c8b41a262b8fe19e22e15
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Wed Mar 6 03:53:01 2013 -0600
+
+    New schema - WORK IN PROGRESS!
+
+commit 998f2b45821bc8fd8559c90e8adfdca5d4f04c9f
+Author: malloryfarr <malloryfarr@austin.rr.com>
+Date:   Tue Mar 5 22:58:16 2013 -0600
+
+    Fixing ""
+    
+    Hopefully now valid
+
+commit cac22512ad24f11171c3dfa632d544ff4e4d0923
+Author: malloryfarr <malloryfarr@austin.rr.com>
+Date:   Tue Mar 5 22:58:16 2013 -0600
+
+    Fixing ""
+    
+    Hopefully now valid
+
+commit bc9f54713a7836e080b8ccf542da8616de8b6035
+Merge: 7b81786 da3c007
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Tue Mar 5 20:24:40 2013 -0800
+
+    Merge pull request #22 from Taylor4484/mallory-people
+    
+    Merge Mallory people
+
+commit da3c007287f5580491055b241ff25c143675152a
+Author: malloryfarr <malloryfarr@austin.rr.com>
+Date:   Tue Mar 5 21:43:15 2013 -0600
+
+    XML for Bush, Huckabee, Gates, JFK
+
+commit 7b81786172e4176b6e905d891fed5b6615e4e150
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Tue Mar 5 21:16:35 2013 -0600
+
+    Removed pesky OSX File
+
+commit 44183aeab8686895e22707029048c32f95874772
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Tue Mar 5 21:07:06 2013 -0600
+
+    Added .DS_Store to git ignore
+
+commit c433b447a16277a0c82a05e7d673a0b23df387ad
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Tue Mar 5 21:06:08 2013 -0600
+
+    Clean Up File Structure
+    
+    Moved File out of unneeded folders
+
+commit 5cd7b5ca4a9db56beee4637164f2242807ada8ee
+Merge: bd7602c 2c70d85
+Author: Holly Hatfield <hjh558@cs.utexas.edu>
+Date:   Tue Mar 5 19:58:24 2013 -0600
+
+    Merge branch 'master' of https://github.com/Taylor4484/cs327e-wcdb
+
+commit bd7602cf41c3f9bfa9acf4c4a450f1db155c04cc
+Author: Holly Hatfield <hjh558@cs.utexas.edu>
+Date:   Tue Mar 5 19:56:26 2013 -0600
+
+    XML completed for Africare, HTAP, Syrian Civil War, AIDS in Africa, and Hitler. Includes ID/IDRefs
+
+commit 711ab3f1312db0a9a2b7799b369fa366686477b8
+Author: malloryfarr <malloryfarr@austin.rr.com>
+Date:   Tue Mar 5 16:04:38 2013 -0600
+
+    People Schema
+    
+    First try… just going off what we have for orgs.
+
+commit 2c70d85371ef4a5cf2f151e8f685699ed7a52a72
+Author: Taylor McCaslin <Taylor4484@gmail.com>
+Date:   Mon Feb 25 09:47:31 2013 -0800
+
+    Initial commit
+
+commit 2e172ff6389b5ab88fd1a77f8dbb0748ac6cfdb9
+Author: Holly Hatfield <cs.utexas.edu>
+Date:   Fri Jan 25 12:26:56 2013 -0600
+
+    README.txt updated but not filled-in completely
