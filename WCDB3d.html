@@ -1,0 +1,68 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module WCDB3</title>
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>WCDB3</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/v/filer4b/v35q001/taylor/cs327e-wcdb/WCDB3.py">/v/filer4b/v35q001/taylor/cs327e-wcdb/WCDB3.py</a></font></td></tr></table>
+    <p><tt>#&nbsp;---------------------------<br>
+#&nbsp;projects/WCDB1/WCDB1.py<br>
+#&nbsp;Copyright&nbsp;(C)&nbsp;2013<br>
+#&nbsp;Taylor&nbsp;McCaslin,&nbsp;Holly&nbsp;Hatfield,&nbsp;Mallory&nbsp;Farr,&nbsp;Wilson&nbsp;Bui,&nbsp;Giovanni&nbsp;Monge,&nbsp;Alex&nbsp;Leonard<br>
+#&nbsp;---------------------------s<br>
+#&nbsp;-------<br>
+#&nbsp;imports<br>
+#&nbsp;-------</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="lxml.etree.html">lxml.etree</a><br>
+</td><td width="25%" valign=top><a href="_mysql.html">_mysql</a><br>
+</td><td width="25%" valign=top><a href="sys.html">sys</a><br>
+</td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-attr_builder"><strong>attr_builder</strong></a>(tag, attrs<font color="#909090">={}</font>)</dt><dd><tt>builds&nbsp;1&nbsp;xml&nbsp;element&nbsp;with&nbsp;content</tt></dd></dl>
+ <dl><dt><a name="-clean_string"><strong>clean_string</strong></a>(string)</dt><dd><tt>cleans&nbsp;a&nbsp;string&nbsp;of&nbsp;whitespace&nbsp;and&nbsp;paragraph&nbsp;marks</tt></dd></dl>
+ <dl><dt><a name="-createDB"><strong>createDB</strong></a>(login)</dt><dd><tt>Create&nbsp;Needed&nbsp;Databases,&nbsp;dropping&nbsp;if&nbsp;needed</tt></dd></dl>
+ <dl><dt><a name="-element_builder"><strong>element_builder</strong></a>(tag, content<font color="#909090">=''</font>)</dt><dd><tt>builds&nbsp;1&nbsp;xml&nbsp;element&nbsp;with&nbsp;attributes</tt></dd></dl>
+ <dl><dt><a name="-escapeSpecialCharacters"><strong>escapeSpecialCharacters</strong></a>(text)</dt><dd><tt>Appends&nbsp;''&nbsp;to&nbsp;any&nbsp;of&nbsp;the&nbsp;characters&nbsp;in&nbsp;the&nbsp;character&nbsp;list&nbsp;to&nbsp;escape&nbsp;them</tt></dd></dl>
+ <dl><dt><a name="-process_crisis"><strong>process_crisis</strong></a>(login, tree)</dt><dd><tt>Iterate&nbsp;through&nbsp;Crisis&nbsp;XML&nbsp;and&nbsp;import&nbsp;into&nbsp;DB</tt></dd></dl>
+ <dl><dt><a name="-process_kind"><strong>process_kind</strong></a>(login, tree)</dt><dd><tt>Iterate&nbsp;through&nbsp;Kind&nbsp;XML&nbsp;and&nbsp;import&nbsp;into&nbsp;DB</tt></dd></dl>
+ <dl><dt><a name="-process_org"><strong>process_org</strong></a>(login, tree)</dt><dd><tt>Iterate&nbsp;through&nbsp;Organization&nbsp;XML&nbsp;and&nbsp;import&nbsp;into&nbsp;DB</tt></dd></dl>
+ <dl><dt><a name="-process_person"><strong>process_person</strong></a>(login, tree)</dt><dd><tt>Iterate&nbsp;through&nbsp;Person&nbsp;XML&nbsp;and&nbsp;import&nbsp;into&nbsp;DB</tt></dd></dl>
+ <dl><dt><a name="-query"><strong>query</strong></a>(login, s)</dt><dd><tt>Logs&nbsp;into&nbsp;DB&nbsp;and&nbsp;runs&nbsp;provided&nbsp;string&nbsp;as&nbsp;query</tt></dd></dl>
+ <dl><dt><a name="-wcdb3_Read"><strong>wcdb3_Read</strong></a>(xml_files)</dt><dd><tt>reads&nbsp;an&nbsp;input<br>
+creates&nbsp;an&nbsp;element&nbsp;tree&nbsp;from&nbsp;string</tt></dd></dl>
+ <dl><dt><a name="-wcdb3_export"><strong>wcdb3_export</strong></a>(login)</dt><dd><tt>Generates&nbsp;ElementTree&nbsp;from&nbsp;DB</tt></dd></dl>
+ <dl><dt><a name="-wcdb3_import"><strong>wcdb3_import</strong></a>(login, tree)</dt><dd><tt>Takes&nbsp;DB&nbsp;login&nbsp;and&nbsp;Element&nbsp;Tree&nbsp;and&nbsp;processes&nbsp;data&nbsp;and&nbsp;and&nbsp;imports&nbsp;into&nbsp;DB</tt></dd></dl>
+ <dl><dt><a name="-wcdb3_login"><strong>wcdb3_login</strong></a>(host, un, pw, database)</dt><dd><tt>takes&nbsp;credentials&nbsp;and&nbsp;logs&nbsp;into&nbsp;DB</tt></dd></dl>
+ <dl><dt><a name="-wcdb3_merge"><strong>wcdb3_merge</strong></a>(tree)</dt><dd><tt>tree&nbsp;is&nbsp;ElementTree,<br>
+contains&nbsp;duplicate&nbsp;nodes</tt></dd></dl>
+ <dl><dt><a name="-wcdb3_solve"><strong>wcdb3_solve</strong></a>(xml_files, w)</dt><dd><tt>xml_files&nbsp;is&nbsp;a&nbsp;list&nbsp;of&nbsp;XML&nbsp;files&nbsp;to&nbsp;be&nbsp;imported<br>
+w&nbsp;is&nbsp;a&nbsp;writer<br>
+Logs&nbsp;into&nbsp;DB,&nbsp;Generates&nbsp;Element&nbsp;Tree,&nbsp;Creates&nbsp;Tables&nbsp;in&nbsp;DB,<br>
+Imports&nbsp;data&nbsp;into&nbsp;DB,&nbsp;exports&nbsp;data&nbsp;from&nbsp;DB</tt></dd></dl>
+ <dl><dt><a name="-wcdb3_write"><strong>wcdb3_write</strong></a>(w, tree)</dt><dd><tt>reads&nbsp;an&nbsp;input<br>
+builds&nbsp;an&nbsp;element&nbsp;tree&nbsp;from&nbsp;string</tt></dd></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>a</strong> = ['z', 'taylor', 'nVZV4bLhpG', 'cs327e_taylor']</td></tr></table>
+</body></html>

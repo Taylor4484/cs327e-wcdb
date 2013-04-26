@@ -36,14 +36,15 @@ Select avg(number), country
 /*5. What is the most common resource needed?*/
 select * 
 	 from Crisis join ResourceNeeded 
-	 on Crisis.id = ResourceNeeded.crisis_id;
+	 	 on Crisis.id = ResourceNeeded.crisis_id;
 
 /*6. How many persons are related to crises located in countries other than their own?*/
 
 select * 
-	from Person join Location
-	on Person.id = Location.entity_id
-	order by country;
+from Person join Location
+on Person.id = Location.entity_id
+order by country;
+
 
 /*7. How many crises occurred during the 1960s?*/
 
@@ -56,15 +57,17 @@ Select count(name)
 select name
 from 
 
+
 (Select distinct name 
 	From Organization join Location
 	Where Location.country !='United States' or 'US' or 'USA' or 'United States of America') as T
 
 Natural Join
+
 	
 (select distinct  id_organization 
-	from CrisisOrganization
-	having count(id_organization) > 1) as S;
+from CrisisOrganization
+having count(id_organization) > 1) as S;
 
 /*9. Which Orgs, Crises, and Persons have the same location (country)?*/
 
@@ -87,6 +90,7 @@ Select name, count(id_crisis)
     on S.id_organization= R.id;
 
 /*12. Name and Postal Address of all orgs in California?*/
+
 
 Select name, street_address, locality, region, postal_code
     From Organization
@@ -118,7 +122,6 @@ Select Organization.name
     From Organization join CrisisOrganization
     on Organization.id = CrisisOrganization.id_organization
     order by count(CrisisOrganization.id_crisis);
-
 /*16. How many organizations are government based?*/
 
 Select count(name)
@@ -139,6 +142,7 @@ Select kind, count(kind)
 	From Crisis
 	group by kind
 	order by count(kind) desc;
+
 
 /*19. Create a list of telephone numbers, emails, and other contact info for all orgs*/
 
@@ -192,10 +196,12 @@ Select first_name, middle_name, last_name
 
 /*27. Which kinds of crisis only have one crisis example?*/
 
+
 Select C.kind
 	From Crisis as C join CrisisKind as K
 	On C.kind = K.id
 	having count(C.kind) = 1;
+
 
 /*28. Which people don't have a middle name?*/
 
@@ -219,7 +225,7 @@ Select first_name, middle_name, last_name, country
 /*31. What crisis affected the most countries?*/
 Select country, count(Crisis.id)
 	From Crisis join Location
-	on Crisis.id = Location.entity_id
+    on Crisis.id = Location.entity_id
 	order by (count(Crisis.id));
 
 /*32.What is the first (earliest) crisis in the database?*/
@@ -229,6 +235,7 @@ Select name, start_date
 	order by start_date limit 1;
 
 /*33. What is the number of organizations in the US?*/
+
 
 Select count(*)
 	From Organization join Location
